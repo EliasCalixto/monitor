@@ -1,6 +1,6 @@
 from tools.emoticons import *
 from tools.moneyStatus import getTotalBlue, getTotalRed, getCurrentMoney
-from tools.notion import get_notion_count, get_notion_summary
+from tools.notion import get_notion_count
 
 
 def monitor():
