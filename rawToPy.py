@@ -7,4 +7,4 @@ df_raw = pd.read_excel(main_path, 'DataRaw')
 df_py = pd.read_excel(main_path, 'DataPy')
 
 for i in range(len(df_raw)):
-    if df
+    df
