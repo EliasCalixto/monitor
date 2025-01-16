@@ -17,7 +17,7 @@ def update_dataPy():
 
     # Eliminar 'DataPy' existente en Main
     try:
-        main_loaded.remove(data_loaded["DataPy"])
+        main_loaded.remove(main_loaded["DataPy"])
         main_loaded.save(main_path)
     except:
         print('No DataPy found in Main.xlsx')
