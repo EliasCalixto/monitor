@@ -41,4 +41,3 @@ def update_dataPy():
     main_loaded.save(main_path) # Save!
 
 update_dataPy()
-
