@@ -15,19 +15,21 @@ for i in range(len(df['Income'])):
 
 # Get Current Money
 def get_current_money():
-    print(round(df['Cash'][current_row], 2))
+    current_money = round(df['Cash'][current_row], 2)
+    print(current_money)
+    return current_money
 
 # Get Totals
-def get_totals_report(date = 0):
-    total_investment = np.sum(df['Investment'][date:current_row+1])
-    total_productivity = np.sum(df['Productivity'][date:current_row+1])
-    total_studies = np.sum(df['Studies'][date:current_row+1])
-    total_fixed = np.sum(df['Fixed'][date:current_row+1])
-    total_clothes = np.sum(df['Clothes'][date:current_row+1])
-    total_10 = np.sum(df['10'][date:current_row+1])
-    total_food = np.sum(df['Food'][date:current_row+1])
-    total_others = np.sum(df['Others'][date:current_row+1])
-    total_cashout = np.sum(df['Cashout'][date:current_row+1])
+def get_totals(date = 0):
+    total_investment = round(np.sum(df['Investment'][date:current_row+1]), 2)
+    total_productivity = round(np.sum(df['Productivity'][date:current_row+1]), 2)
+    total_studies = round(np.sum(df['Studies'][date:current_row+1]), 2)
+    total_fixed = round(np.sum(df['Fixed'][date:current_row+1]), 2)
+    total_clothes = round(np.sum(df['Clothes'][date:current_row+1]), 2)
+    total_10 = round(np.sum(df['10'][date:current_row+1]), 2)
+    total_food = round(np.sum(df['Food'][date:current_row+1]), 2)
+    total_others = round(np.sum(df['Others'][date:current_row+1]), 2)
+    total_cashout = round(np.sum(df['Cashout'][date:current_row+1]), 2)
 
     group_of_totals = [total_investment, 
                        total_productivity, 
@@ -49,12 +51,26 @@ def get_totals_report(date = 0):
     others_percent = round((total_others/np.sum(group_of_totals))*100, 2)
     cashout_percent = round((total_cashout/np.sum(group_of_totals))*100, 2)
 
-    print(f'Total Investment: {round(total_investment, 2)} / {investment_percent}%')
-    print(f'Total Productivity: {round(total_productivity, 2)} / {productivity_percent}%')
-    print(f'Total Studies: {round(total_studies, 2)} / {studies_percent}%')
-    print(f'Total Fixed: {round(total_fixed, 2)} / {fixed_percent}%')
-    print(f'Total Clothes: {round(total_clothes, 2)} / {clothes_percent}%')
-    print(f'Total 10: {round(total_10, 2)} / {percent_10}%')
-    print(f'Total Food: {round(total_food, 2)} / {food_percent}%')
-    print(f'Total Others: {round(total_others, 2)} / {others_percent}%')
-    print(f'Total Cashout: {round(total_cashout, 2)} / {cashout_percent}%')
+    group_of_percent = [investment_percent,
+                       productivity_percent,
+                       studies_percent,
+                       fixed_percent,
+                       clothes_percent,
+                       percent_10,
+                       food_percent,
+                       others_percent,
+                       cashout_percent]
+
+    print(f'Results since {df["Date"][date]}')
+    print(f'Investment: {total_investment} / {investment_percent}%')
+    print(f'Productivity: {total_productivity} / {productivity_percent}%')
+    print(f'Studies: {total_studies} / {studies_percent}%')
+    print(f'Fixed: {total_fixed} / {fixed_percent}%')
+    print(f'Clothes: {total_clothes} / {clothes_percent}%')
+    print(f'10: {total_10} / {percent_10}%')
+    print(f'Food: {total_food} / {food_percent}%')
+    print(f'Others: {total_others} / {others_percent}%')
+    print(f'Cashout: {total_cashout} / {cashout_percent}%')
+
+    totals_data = [group_of_totals,group_of_percent]
+    return totals_data

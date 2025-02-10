@@ -1,13 +1,17 @@
 import sys
-from setup import get_current_money, get_totals_report
+from setup import get_current_money, get_totals_report, current_row
 
 
 try:
     args = sys.argv
     limit = int(args[1])
-    get_totals_report(limit)
+
+    if limit > current_row:
+        print('Argument out of range.')
+    else:
+        get_totals(limit)
 except:
-    get_totals_report()
+    get_totals()
 
 get_current_money()
 
