@@ -1,5 +1,5 @@
 import sys
-from setup import get_current_money, get_totals_report, current_row
+from setup import get_current_money, get_totals, current_row
 
 
 try:
