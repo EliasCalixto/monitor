@@ -27,7 +27,7 @@ def get_totals(date = 0):
     total_fixed = round(np.sum(df['Fixed'][date:current_row+1]), 2)
     total_clothes = round(np.sum(df['Clothes'][date:current_row+1]), 2)
     total_10 = round(np.sum(df['10'][date:current_row+1]), 2)
-    total_food = round(np.sum(df['Food'][date:current_row+1]), 2)
+    total_enjoy = round(np.sum(df['Enjoy'][date:current_row+1]), 2)
     total_others = round(np.sum(df['Others'][date:current_row+1]), 2)
     total_cashout = round(np.sum(df['Cashout'][date:current_row+1]), 2)
 
@@ -37,7 +37,7 @@ def get_totals(date = 0):
                        total_fixed, 
                        total_clothes, 
                        total_10, 
-                       total_food, 
+                       total_enjoy, 
                        total_others, 
                        total_cashout]
 
@@ -47,7 +47,7 @@ def get_totals(date = 0):
     fixed_percent = round((total_fixed/np.sum(group_of_totals))*100, 2)
     clothes_percent = round((total_clothes/np.sum(group_of_totals))*100, 2)
     percent_10 = round((total_10/np.sum(group_of_totals))*100, 2)
-    food_percent = round((total_food/np.sum(group_of_totals))*100, 2)
+    enjoy_percent = round((total_enjoy/np.sum(group_of_totals))*100, 2)
     others_percent = round((total_others/np.sum(group_of_totals))*100, 2)
     cashout_percent = round((total_cashout/np.sum(group_of_totals))*100, 2)
 
@@ -57,7 +57,7 @@ def get_totals(date = 0):
                        fixed_percent,
                        clothes_percent,
                        percent_10,
-                       food_percent,
+                       enjoy_percent,
                        others_percent,
                        cashout_percent]
 
@@ -68,7 +68,7 @@ def get_totals(date = 0):
     print(f'Fixed: {total_fixed} / {fixed_percent}%')
     print(f'Clothes: {total_clothes} / {clothes_percent}%')
     print(f'10: {total_10} / {percent_10}%')
-    print(f'Food: {total_food} / {food_percent}%')
+    print(f'Enjoy: {total_enjoy} / {enjoy_percent}%')
     print(f'Others: {total_others} / {others_percent}%')
     print(f'Cashout: {total_cashout} / {cashout_percent}%')
 
