@@ -31,6 +31,16 @@ def get_totals(date = 0):
     total_others = round(np.sum(df['Others'][date:current_row+1]), 2)
     total_cashout = round(np.sum(df['Cashout'][date:current_row+1]), 2)
 
+    group_of_categories = ['Investment',
+                           'Productivity',
+                           'Studies',
+                           'Fixed',
+                           'Clothes',
+                           '10%',
+                           'Enjoy',
+                           'Others',
+                           'Cashout']
+
     group_of_totals = [total_investment, 
                        total_productivity, 
                        total_studies, 
@@ -72,5 +82,5 @@ def get_totals(date = 0):
     print(f'Others: {total_others} / {others_percent}%')
     print(f'Cashout: {total_cashout} / {cashout_percent}%')
 
-    totals_data = [group_of_totals,group_of_percent]
+    totals_data = [group_of_categories,group_of_totals,group_of_percent]
     return totals_data
