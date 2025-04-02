@@ -26,7 +26,6 @@ def get_totals(date = 0):
     total_home = round(np.sum(df['Home'][date:current_row+1]), 2)
     total_studies = round(np.sum(df['Studies'][date:current_row+1]), 2)
     total_fixed = round(np.sum(df['Fixed'][date:current_row+1]), 2)
-    total_clothes = round(np.sum(df['Clothes'][date:current_row+1]), 2)
     total_enjoy = round(np.sum(df['Enjoy'][date:current_row+1]), 2)
     total_others = round(np.sum(df['Others'][date:current_row+1]), 2)
     total_cashout = round(np.sum(df['Cashout'][date:current_row+1]), 2)
@@ -36,7 +35,6 @@ def get_totals(date = 0):
                            'Home',
                            'Studies',
                            'Fixed',
-                           'Clothes',
                            'Enjoy',
                            'Others',
                            'Cashout']
@@ -46,7 +44,6 @@ def get_totals(date = 0):
                        total_home, 
                        total_studies, 
                        total_fixed, 
-                       total_clothes, 
                        total_enjoy, 
                        total_others, 
                        total_cashout]
@@ -56,7 +53,6 @@ def get_totals(date = 0):
     home_percent = round((total_home/np.sum(group_of_totals))*100, 2)
     studies_percent = round((total_studies/np.sum(group_of_totals))*100, 2)
     fixed_percent = round((total_fixed/np.sum(group_of_totals))*100, 2)
-    clothes_percent = round((total_clothes/np.sum(group_of_totals))*100, 2)
     enjoy_percent = round((total_enjoy/np.sum(group_of_totals))*100, 2)
     others_percent = round((total_others/np.sum(group_of_totals))*100, 2)
     cashout_percent = round((total_cashout/np.sum(group_of_totals))*100, 2)
@@ -66,7 +62,6 @@ def get_totals(date = 0):
                        home_percent,
                        studies_percent,
                        fixed_percent,
-                       clothes_percent,
                        enjoy_percent,
                        others_percent,
                        cashout_percent]
@@ -77,7 +72,6 @@ def get_totals(date = 0):
     print(f'Home: {total_home} / {home_percent}%')
     print(f'Studies: {total_studies} / {studies_percent}%')
     print(f'Fixed: {total_fixed} / {fixed_percent}%')
-    print(f'Clothes: {total_clothes} / {clothes_percent}%')
     print(f'Enjoy: {total_enjoy} / {enjoy_percent}%')
     print(f'Others: {total_others} / {others_percent}%')
     print(f'Cashout: {total_cashout} / {cashout_percent}%')
