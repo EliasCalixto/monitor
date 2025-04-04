@@ -11,7 +11,7 @@ try:
     else:
         get_totals(limit)
 except:
-    get_totals()
+    get_totals(current_row)
 
 get_current_money()
 
