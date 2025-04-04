@@ -67,14 +67,14 @@ def get_totals(date = 0):
                         cashout_percent]
 
     print(f'{df["Date"][date]}')
-    print(f'Setup: {total_setup} / {setup_percent}%')
-    print(f'Home: {total_home} / {home_percent}%')
-    print(f'Savings: {total_savings} / {savings_percent}%')
-    print(f'Studies: {total_studies} / {studies_percent}%')
-    print(f'Enjoy: {total_enjoy} / {enjoy_percent}%')
-    print(f'Others: {total_others} / {others_percent}%')
-    print(f'Fixed: {total_fixed} / {fixed_percent}%')
-    print(f'Cashout: {total_cashout} / {cashout_percent}%')
+    print(f'Setup: {total_setup} | {setup_percent}%')
+    print(f'Home: {total_home} | {home_percent}%')
+    print(f'Savings: {total_savings} | {savings_percent}%')
+    print(f'Studies: {total_studies} | {studies_percent}%')
+    print(f'Enjoy: {total_enjoy} | {enjoy_percent}%')
+    print(f'Others: {total_others} | {others_percent}%')
+    print(f'Fixed: {total_fixed} | {fixed_percent}%')
+    print(f'Cashout: {total_cashout} | {cashout_percent}%')
 
     totals_data = [group_of_categories,group_of_totals,group_of_percent]
     return totals_data
