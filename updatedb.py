@@ -1,4 +1,4 @@
-import subprocess
+import os
 from setup import df, current_row
 
 
@@ -32,7 +32,4 @@ with open('update.sql', 'w') as f:
     f.write(query)
     
 # 3 Ejecuting the SQL request through terminal
-command = ["sqlcmd","-S","192.168.18.93,1433","-U","sa","-P","Ea989571287!","-d","main_db","-i","monitor/update.sql"]
-
-result = subprocess.run(command, shell=True, capture_output=True, text=True)
-print(result.stdout)
+os.system("sqlcmd -S 192.168.18.93,1433 -U sa -P Ea989571287! -d main_db -i /Users/darkesthj/dev/monitor/update.sql")
