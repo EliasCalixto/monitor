@@ -1,4 +1,8 @@
+USE master
+
 CREATE DATABASE main_db;
+GO
+
 USE main_db;
 
 CREATE TABLE data_raw (
@@ -19,3 +23,6 @@ CREATE TABLE data_raw (
 INSERT INTO data_raw (id,DateInfo,Income,Setup,Home,Savings,Studies,Enjoy,Others,Fixed,Cashout,Cash)
 VALUES
 (0,'test',1,2,3,4,5,6,7,8,9,10)
+
+SELECT * FROM data_raw;
+GO

@@ -32,4 +32,4 @@ with open('update.sql', 'w') as f:
     f.write(query)
     
 # 3 Ejecuting the SQL request through terminal
-os.system("sqlcmd -S 192.168.18.93,1433 -U sa -P Ea989571287! -d main_db -i /Users/darkesthj/dev/monitor/update.sql")
+os.system("sqlcmd -S localhost,1433 -U sa -P Ea989571287! -d main_db -i /Users/darkesthj/dev/monitor/update.sql")
