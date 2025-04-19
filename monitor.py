@@ -1,7 +1,6 @@
 import sys
 from setup import get_current_money, get_totals, current_row
 
-
 try:
     args = sys.argv
     limit = int(args[1])

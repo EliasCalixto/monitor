@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 
-
 main_path = "/Users/darkesthj/Library/CloudStorage/OneDrive-Personal/Documentos/Main.xlsx"
 df = pd.read_excel(main_path, sheet_name="DataRaw")
 

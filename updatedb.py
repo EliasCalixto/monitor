@@ -2,7 +2,6 @@ import os
 from setup import df, current_row
 from private import pwd
 
-
 # 1 clone df into new_df
 new_df = df.copy()
 
