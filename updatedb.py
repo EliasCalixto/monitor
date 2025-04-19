@@ -1,5 +1,6 @@
 import os
 from setup import df, current_row
+from private import pwd
 
 
 # 1 clone df into new_df
@@ -32,4 +33,4 @@ with open('update.sql', 'w') as f:
     f.write(query)
     
 # 3 Ejecuting the SQL request through terminal
-os.system("sqlcmd -S localhost,1433 -U sa -P Ea989571287! -d main_db -i /Users/darkesthj/dev/monitor/update.sql")
+os.system(f"sqlcmd -S localhost,1433 -U sa -P {pwd} -d main_db -i /Users/darkesthj/dev/monitor/update.sql")
