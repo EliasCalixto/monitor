@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-main_path = "/Users/darkesthj/Library/CloudStorage/OneDrive-Personal/Documentos/Main.xlsx"
+main_path = "/Users/darkesthj/Library/CloudStorage/OneDrive-Personal/Shared/Main.xlsx"
 df = pd.read_excel(main_path, sheet_name="DataRaw")
 
 # Get Current Row
