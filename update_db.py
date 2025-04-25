@@ -28,8 +28,8 @@ query += ',\n'.join(values) + ";\nGO"
 
 query += f"\n\nSELECT * FROM dbo.data_raw\nGO"
 
-with open('update.sql', 'w') as f:
+with open('update_query.sql', 'w') as f:
     f.write(query)
     
 # 3 Ejecuting the SQL request through terminal
-os.system(f"sqlcmd -S localhost,1433 -U sa -P {pwd} -d main_db -i /Users/darkesthj/dev/monitor/update.sql")
+os.system(f"sqlcmd -S localhost,1433 -U sa -P {pwd} -d main_db -i /Users/darkesthj/dev/monitor/update_query.sql")
