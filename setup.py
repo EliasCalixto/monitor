@@ -6,11 +6,9 @@ df = pd.read_excel(main_path, sheet_name="DataRaw")
 
 # Get Current Row
 current_row = 0
-counter = 0
-for i in range(len(df['Income'])):
-    if df['Income'][i] == 0:
-        counter += 1
-        current_row = i-counter
+for i in range(len(df)):
+    if sum(df.loc[i, ['Savings','Setup','Home','Studies','Enjoy','Others','Fixed','Cashout']]) != 0:
+        current_row += 1
 
 # Get Current Money
 def get_current_money():
@@ -77,3 +75,6 @@ def get_totals(date = 0):
 
     totals_data = [group_of_categories,group_of_totals,group_of_percent]
     return totals_data
+
+if __name__ == "__main__":
+    print(current_row)
