@@ -80,7 +80,6 @@ def get_totals(date = 0):
     print(f'Others - {total_others}')
     print(f'Fixed - {total_fixed}')
     print(f'Cashout - {total_cashout}')
-    print('')
 
     totals_data = [group_of_categories,group_of_totals,group_of_percent]
     return totals_data

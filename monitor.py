@@ -49,7 +49,7 @@ plt.figure(figsize=(6, 6))
 wedges, texts, autotexts = plt.pie(
     filtered_values,
     labels=filtered_categories,
-    autopct='%1.1f%%',  # <- Este es el formato correcto
+    autopct='%1.1f%%',
     startangle=90,
     colors=used_colors,
     wedgeprops={'edgecolor': 'white', 'linewidth': 1}
@@ -63,8 +63,10 @@ for autotext in autotexts:
     autotext.set_fontsize(12)
     autotext.set_fontweight('bold')
 
-# Título grande y en negrita, estilo Apple
-plt.title(f"Distribución de gastos desde {df['Date'][limit]}", fontsize=20, fontweight='bold')
-plt.axis('equal')  # Mantiene forma circular
+try:
+    plt.title(f"Distribución de gastos desde {df['Date'][limit]}", fontsize=20, fontweight='bold')
+except:
+    plt.title(f"Distribución de gastos desde {df['Date'][current_row]}", fontsize=20, fontweight='bold')
+plt.axis('equal')
 plt.tight_layout()
 plt.show()
