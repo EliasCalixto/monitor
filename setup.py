@@ -18,24 +18,23 @@ def get_current_money():
 
 # Get Totals
 def get_totals(date = 0):
-    # total_savings = round(np.sum(df['Savings'][date:current_row+1]), 2)
-    # total_setup = round(np.sum(df['Setup'][date:current_row+1]), 2)
-    # total_home = round(np.sum(df['Home'][date:current_row+1]), 2)
-    # total_studies = round(np.sum(df['Studies'][date:current_row+1]), 2)
-    # total_enjoy = round(np.sum(df['Enjoy'][date:current_row+1]), 2)
-    # total_others = round(np.sum(df['Others'][date:current_row+1]), 2)
-    # total_fixed = round(np.sum(df['Fixed'][date:current_row+1]), 2)
-    # total_cashout = round(np.sum(df['Cashout'][date:current_row+1]), 2)
+    total_savings = round(np.sum(df['Savings'][date:current_row+1]), 2)
+    total_setup = round(np.sum(df['Setup'][date:current_row+1]), 2)
+    total_home = round(np.sum(df['Home'][date:current_row+1]), 2)
+    total_studies = round(np.sum(df['Studies'][date:current_row+1]), 2)
+    total_enjoy = round(np.sum(df['Enjoy'][date:current_row+1]), 2)
+    total_others = round(np.sum(df['Others'][date:current_row+1]), 2)
+    total_fixed = round(np.sum(df['Fixed'][date:current_row+1]), 2)
+    total_cashout = round(np.sum(df['Cashout'][date:current_row+1]), 2)
 
-    total_savings = round(np.sum(df['Savings'][date]), 2)
-    total_setup = round(np.sum(df['Setup'][date]), 2)
-    total_home = round(np.sum(df['Home'][date]), 2)
-    total_studies = round(np.sum(df['Studies'][date]), 2)
-    total_enjoy = round(np.sum(df['Enjoy'][date]), 2)
-    total_others = round(np.sum(df['Others'][date]), 2)
-    total_fixed = round(np.sum(df['Fixed'][date]), 2)
-    total_cashout = round(np.sum(df['Cashout'][date]), 2)
-    
+    # total_savings = round(np.sum(df['Savings'][date]), 2)
+    # total_setup = round(np.sum(df['Setup'][date]), 2)
+    # total_home = round(np.sum(df['Home'][date]), 2)
+    # total_studies = round(np.sum(df['Studies'][date]), 2)
+    # total_enjoy = round(np.sum(df['Enjoy'][date]), 2)
+    # total_others = round(np.sum(df['Others'][date]), 2)
+    # total_fixed = round(np.sum(df['Fixed'][date]), 2)
+    # total_cashout = round(np.sum(df['Cashout'][date]), 2)
     
     group_of_categories = ['Savings',
                            'Setup',
@@ -73,15 +72,15 @@ def get_totals(date = 0):
                         fixed_percent,
                         cashout_percent]
 
-    print(f'{df["Date"][date]}')
-    print(f'Savings: S/.{total_savings} | {savings_percent}%')
-    print(f'Setup: S/.{total_setup} | {setup_percent}%')
-    print(f'Home: S/.{total_home} | {home_percent}%')
-    print(f'Studies: S/.{total_studies} | {studies_percent}%')
-    print(f'Enjoy: S/.{total_enjoy} | {enjoy_percent}%')
-    print(f'Others: S/.{total_others} | {others_percent}%')
-    print(f'Fixed: S/.{total_fixed} | {fixed_percent}%')
-    print(f'Cashout: S/.{total_cashout} | {cashout_percent}%')
+    print(f'Savings - {total_savings}')
+    print(f'Setup - {total_setup}')
+    print(f'Home - {total_home}')
+    print(f'Studies - {total_studies}')
+    print(f'Enjoy - {total_enjoy}')
+    print(f'Others - {total_others}')
+    print(f'Fixed - {total_fixed}')
+    print(f'Cashout - {total_cashout}')
+    print('')
 
     totals_data = [group_of_categories,group_of_totals,group_of_percent]
     return totals_data
