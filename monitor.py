@@ -54,7 +54,7 @@ colors = [
 used_colors = colors[-len(filtered_values):]  # asegura emparejamiento
 
 # Dibujamos el gráfico
-plt.figure(figsize=(7, 6))
+plt.figure(figsize=(6,5))
 wedges, texts, autotexts = plt.pie(
     filtered_values,
     labels=filtered_categories,
