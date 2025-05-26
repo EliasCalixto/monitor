@@ -17,15 +17,15 @@ def get_current_money():
     return current_money
 
 # Get Totals
-def get_totals(date = 0):
-    total_savings = round(np.sum(df['Savings'][date:current_row+1]), 2)
-    total_setup = round(np.sum(df['Setup'][date:current_row+1]), 2)
-    total_home = round(np.sum(df['Home'][date:current_row+1]), 2)
-    total_studies = round(np.sum(df['Studies'][date:current_row+1]), 2)
-    total_enjoy = round(np.sum(df['Enjoy'][date:current_row+1]), 2)
-    total_others = round(np.sum(df['Others'][date:current_row+1]), 2)
-    total_fixed = round(np.sum(df['Fixed'][date:current_row+1]), 2)
-    total_cashout = round(np.sum(df['Cashout'][date:current_row+1]), 2)
+def get_totals(date_start, date_end):
+    total_savings = round(np.sum(df['Savings'][date_start:date_end+1]), 2)
+    total_setup = round(np.sum(df['Setup'][date_start:date_end+1]), 2)
+    total_home = round(np.sum(df['Home'][date_start:date_end+1]), 2)
+    total_studies = round(np.sum(df['Studies'][date_start:date_end+1]), 2)
+    total_enjoy = round(np.sum(df['Enjoy'][date_start:date_end+1]), 2)
+    total_others = round(np.sum(df['Others'][date_start:date_end+1]), 2)
+    total_fixed = round(np.sum(df['Fixed'][date_start:date_end+1]), 2)
+    total_cashout = round(np.sum(df['Cashout'][date_start:date_end+1]), 2)
 
     # total_savings = round(np.sum(df['Savings'][date]), 2)
     # total_setup = round(np.sum(df['Setup'][date]), 2)

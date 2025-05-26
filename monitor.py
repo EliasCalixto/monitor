@@ -4,15 +4,28 @@ import matplotlib as mpl
 from setup import get_current_money, get_totals, current_row, df
 
 try:
-    args = sys.argv
-    limit = int(args[1])
+    try:
+        args = sys.argv
+        start = int(args[1])
+        end = int(args[2])
 
-    if limit > current_row:
-        print('Argument out of range.')
-    else:
-        totals_data = get_totals(limit)
+        if start > current_row:
+            print('Argument out of range.')
+        else:
+            totals_data = get_totals(start, end)
+    except:
+        args = sys.argv
+        start = int(args[1])
+        end = start
+        
+        if start > current_row:
+            print('Argument out of range.')
+        else:
+            totals_data = get_totals(start, end)
 except:
-    totals_data = get_totals(current_row)
+    start = current_row
+    end = current_row
+    totals_data = get_totals(start, end)
 
 categories = totals_data[0]
 total_money = totals_data[1]
@@ -21,10 +34,6 @@ percent = totals_data[2]
 my_money = get_current_money()
 
 mpl.rcParams['font.family'] = 'Helvetica Neue'
-title_fontsize = 20
-label_fontsize = 14
-autopct_fontsize = 12
-
 
 # Filtramos categorías con valor 0 para evitar NaN o % inválidos
 filtered = [(cat, val) for cat, val in zip(categories, total_money) if val > 0]
@@ -45,7 +54,7 @@ colors = [
 used_colors = colors[-len(filtered_values):]  # asegura emparejamiento
 
 # Dibujamos el gráfico
-plt.figure(figsize=(6, 6))
+plt.figure(figsize=(7, 6))
 wedges, texts, autotexts = plt.pie(
     filtered_values,
     labels=filtered_categories,
@@ -57,16 +66,18 @@ wedges, texts, autotexts = plt.pie(
 
 # Estilo del texto
 for text in texts:
-    text.set_fontsize(14)
+    text.set_fontsize(10)
     text.set_fontweight('medium')
 for autotext in autotexts:
-    autotext.set_fontsize(12)
+    autotext.set_fontsize(10)
     autotext.set_fontweight('bold')
 
-try:
-    plt.title(f"Distribución de gastos desde {df['Date'][limit]}", fontsize=20, fontweight='bold')
-except:
-    plt.title(f"Distribución de gastos desde {df['Date'][current_row]}", fontsize=20, fontweight='bold')
+last_result_date = df['Date'][end]
+
+if start != end:
+    plt.title(f"{df['Date'][start]} hasta {last_result_date}", fontsize=15, fontweight='bold')
+else:
+    plt.title(f"{df['Date'][start]}", fontsize=15, fontweight='bold')
 plt.axis('equal')
 plt.tight_layout()
 plt.show()
