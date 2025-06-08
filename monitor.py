@@ -40,18 +40,23 @@ filtered = [(cat, val) for cat, val in zip(categories, total_money) if val > 0]
 filtered_categories, filtered_values = zip(*filtered)
 
 # Colores bonitos (Apple style)
-colors = [
-    '#8dbad6',  # Savings
-    '#9bc2e7',  # Setup
-    '#8ea9db',  # Home
-    '#abb9d4',  # Studies
-    '#b9f5c4',  # Enjoy
-    '#fd9a9a',  # Others
-    '#f8ccad',  # Fixed
-    '#fef2cb',  # Cashout
-]
+colors = {
+    'Savings': '#8dbad6',  # Savings
+    'Setup': '#9bc2e7',  # Setup
+    'Home': '#8ea9db',  # Home
+    'Studies': '#abb9d4',  # Studies
+    'Enjoy': '#b9f5c4',  # Enjoy
+    'Others': '#fd9a9a',  # Others
+    'Fixed': '#f8ccad',  # Fixed
+    'Cashout': '#fef2cb',  # Cashout
+}
 # Cortamos a solo las categorías que se están usando
-used_colors = colors[-len(filtered_values):]  # asegura emparejamiento
+used_colors = []
+for i in filtered_categories:
+    if i in colors:
+        used_colors.append(colors[i])
+    else:
+        pass
 
 # Dibujamos el gráfico
 plt.figure(figsize=(6,5))
