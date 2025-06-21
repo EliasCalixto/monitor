@@ -1,0 +1,6 @@
+{
+    "vim.statusBarColors.normal": "#1a2b34",
+    "vim.statusBarColors.insert": "#1a2b34",
+    "vim.statusBarColors.replace": "#1a2b34",
+    "vim.statusBarColors.visual": "#1a2b34",
+}
