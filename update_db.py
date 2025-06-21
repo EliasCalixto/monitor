@@ -16,7 +16,7 @@ DELETE FROM dbo.data_raw
 GO
 
 INSERT INTO dbo.data_raw (Id,DateInfo,Income,Setup,Home,Savings,Studies,Enjoy,Others,Fixed,Cashout,Cash)
-VALUES 
+VALUES
 """
 
 values = []
