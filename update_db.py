@@ -1,6 +1,9 @@
 import os
 from setup import df, current_row
 from private import pwd
+from datetime import datetime
+
+today = datetime.now().strftime("%B_%d_%Y")
 
 # 1 clone df into new_df
 new_df = df.copy()
@@ -12,10 +15,25 @@ list_new_df = new_df.values.tolist()
 
 # 2 Creating the SQL request
 query = f"""USE main_db
-DELETE FROM dbo.data_raw
+DROP TABLE dbo.{today};
 GO
 
-INSERT INTO dbo.data_raw (Id,DateInfo,Income,Setup,Home,Savings,Studies,Enjoy,Others,Fixed,Cashout,Cash)
+CREATE TABLE {today} (
+    id INT PRIMARY KEY,
+    DateInfo VARCHAR(50),
+    Income float,
+    Setup float,
+    Home float,
+    Savings float,
+    Studies float,
+    Enjoy float,
+    Others float,
+    Fixed float,
+    Cashout float,
+    Cash float
+);
+
+INSERT INTO dbo.{today} (Id,DateInfo,Income,Setup,Home,Savings,Studies,Enjoy,Others,Fixed,Cashout,Cash)
 VALUES
 """
 
@@ -26,7 +44,7 @@ for i in range(len(list_new_df)):
 
 query += ',\n'.join(values) + ";\nGO"
 
-query += f"\n\nSELECT * FROM dbo.data_raw\nGO"
+query += f"\n\nSELECT * FROM dbo.{today}\nGO"
 
 with open('update_query.sql', 'w') as f:
     f.write(query)
