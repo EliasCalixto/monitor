@@ -1,8 +1,8 @@
 USE main_db
-DROP TABLE dbo.July_06_2025;
+DROP TABLE dbo.July_08_2025;
 GO
 
-CREATE TABLE July_06_2025 (
+CREATE TABLE July_08_2025 (
     id INT PRIMARY KEY,
     DateInfo VARCHAR(50),
     Income float,
@@ -17,7 +17,7 @@ CREATE TABLE July_06_2025 (
     Cash float
 );
 
-INSERT INTO dbo.July_06_2025 (Id,DateInfo,Income,Setup,Home,Savings,Studies,Enjoy,Others,Fixed,Cashout,Cash)
+INSERT INTO dbo.July_08_2025 (Id,DateInfo,Income,Setup,Home,Savings,Studies,Enjoy,Others,Fixed,Cashout,Cash)
 VALUES
 (0,'Septiembre 2022',133.57,'0.0','0.0',0.0,0.0,0.0,0.0,0.0,0.0,133.57),
 (1,'Octubre 2022',1960.0,'0.0','1510.0',0.0,0.0,0.0,527.8,45.0,0.0,10.77),
@@ -56,5 +56,5 @@ VALUES
 (34,'Julio 2025',0.0,'0.0','0.0',0.0,0.0,5.0,8.0,0.0,30.0,13.84);
 GO
 
-SELECT * FROM dbo.July_06_2025
+SELECT * FROM dbo.July_08_2025
 GO
