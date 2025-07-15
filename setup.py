@@ -7,7 +7,7 @@ df = pd.read_excel(main_path, sheet_name="DataRaw")
 # Get Current Row
 current_row = 0
 for i in range(len(df)):
-    if sum(df.loc[i, ['Savings','Setup','Home','Studies','Enjoy','Others','Fixed','Cashout']]) != 0:
+    if sum(df.iloc[i][['Savings','Setup','Home','Studies','Enjoy','Others','Fixed','Cashout']].values) != 0:
         current_row += 1
 
 # Get Current Money
