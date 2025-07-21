@@ -86,5 +86,3 @@ else:
 plt.axis('equal')
 plt.tight_layout()
 plt.show()
-
-# aqui poner una funcion bla bla bla
