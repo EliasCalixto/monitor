@@ -27,9 +27,9 @@ except:
     end = current_row
     totals_data = get_totals(start, end)
 
-categories = totals_data[0]
-total_money = totals_data[1]
-percent = totals_data[2]
+categories = totals_data[0] # type: ignore
+total_money = totals_data[1] # type: ignore
+percent = totals_data[2] # type: ignore
 
 my_money = get_current_money()
 
@@ -59,30 +59,35 @@ for i in filtered_categories:
         pass
 
 # Dibujamos el gráfico
-plt.figure(figsize=(6,5))
-wedges, texts, autotexts = plt.pie(
+plt.figure(figsize=(6, 5))
+bars = plt.bar(
+    filtered_categories,
     filtered_values,
-    labels=filtered_categories,
-    autopct='%1.1f%%',
-    startangle=90,
-    colors=used_colors,
-    wedgeprops={'edgecolor': 'white', 'linewidth': 1}
+    color=used_colors,
+    edgecolor='white',
+    linewidth=1
 )
 
-# Estilo del texto
-for text in texts:
-    text.set_fontsize(10)
-    text.set_fontweight('medium')
-for autotext in autotexts:
-    autotext.set_fontsize(10)
-    autotext.set_fontweight('bold')
+# Estilo del texto en las barras
+for bar, value in zip(bars, filtered_values):
+    plt.text(
+        bar.get_x() + bar.get_width() / 2,
+        bar.get_height(),
+        f'{value:.1f}',
+        ha='center',
+        va='bottom',
+        fontsize=10,
+        fontweight='bold'
+    )
 
+# Título
 last_result_date = df['Date'][end]
-
 if start != end:
     plt.title(f"{df['Date'][start]} hasta {last_result_date}", fontsize=15, fontweight='bold')
 else:
     plt.title(f"{df['Date'][start]}", fontsize=15, fontweight='bold')
-plt.axis('equal')
+
+plt.xticks(rotation=45, ha='right', fontsize=10)
+plt.yticks(fontsize=10)
 plt.tight_layout()
 plt.show()
