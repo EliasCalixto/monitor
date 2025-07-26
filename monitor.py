@@ -59,7 +59,7 @@ for i in filtered_categories:
         pass
 
 # Dibujamos el gráfico
-plt.figure(figsize=(6, 5))
+plt.figure(figsize=(7, 5))
 bars = plt.bar(
     filtered_categories,
     filtered_values,
