@@ -72,14 +72,14 @@ def get_totals(date_start, date_end):
                         fixed_percent,
                         cashout_percent]
 
-    print(f'Savings - {total_savings}')
-    print(f'Setup - {total_setup}')
-    print(f'Home - {total_home}')
-    print(f'Studies - {total_studies}')
-    print(f'Enjoy - {total_enjoy}')
-    print(f'Others - {total_others}')
-    print(f'Fixed - {total_fixed}')
-    print(f'Cashout - {total_cashout}')
+    print(f'Savings - {savings_percent}%')
+    print(f'Setup - {setup_percent}%')
+    print(f'Home - {home_percent}%')
+    print(f'Studies - {studies_percent}%')
+    print(f'Enjoy - {enjoy_percent}%')
+    print(f'Others - {others_percent}%')
+    print(f'Fixed - {fixed_percent}%')
+    print(f'Cashout - {cashout_percent}%')
 
     totals_data = [group_of_categories,group_of_totals,group_of_percent]
     return totals_data
