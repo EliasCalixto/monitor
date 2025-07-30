@@ -46,7 +46,7 @@ query += ',\n'.join(values) + ";\nGO"
 
 query += f"\n\nSELECT * FROM dbo.{today}\nGO"
 
-with open('update_query.sql', 'w') as f:
+with open('/Users/darkesthj/dev/monitor/update_query.sql', 'w') as f:
     f.write(query)
     
 # 3 Ejecuting the SQL request through terminal
