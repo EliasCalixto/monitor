@@ -2,20 +2,39 @@ import sys
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 from setup import get_current_money, get_totals, current_row, df
+from arguments_helper import arguments
+
+
+args = sys.argv # lee los argumentos de la línea de comandos
 
 try:
     try:
-        args = sys.argv
-        start = int(args[1])
-        end = int(args[2])
+        try:
+            for key, value in arguments.items():
+                if value == args[1]:
+                    translated_arg1 = key
+                if value == args[2]:
+                    translated_arg2 = key
+        except:
+            translated_arg1 = args[1]
+            translated_arg2 = args[2]
+        
+        start = int(translated_arg1)  # pyright: ignore[reportPossiblyUnboundVariable]
+        end = int(translated_arg2) # pyright: ignore[reportPossiblyUnboundVariable]
 
         if start > current_row:
             print('Argument out of range.')
         else:
             totals_data = get_totals(start, end)
     except:
-        args = sys.argv
-        start = int(args[1])
+        try:
+            for key, value in arguments.items():
+                if value == args[1]:
+                    translated_arg1 = key
+        except:
+            translated_arg1 = args[1]
+            
+        start = int(translated_arg1) # pyright: ignore[reportPossiblyUnboundVariable]
         end = start
         
         if start > current_row:
@@ -81,11 +100,14 @@ for bar, value in zip(bars, filtered_values):
     )
 
 # Título
-last_result_date = df['Date'][end]
-if start != end:
-    plt.title(f"{df['Date'][start]} hasta {last_result_date}", fontsize=15, fontweight='bold')
-else:
-    plt.title(f"{df['Date'][start]}", fontsize=15, fontweight='bold')
+try:
+    last_result_date = df['Date'][end]
+    if start != end:
+        plt.title(f"{df['Date'][start]} hasta {last_result_date}", fontsize=15, fontweight='bold')
+    else:
+        plt.title(f"{df['Date'][start]}", fontsize=15, fontweight='bold')
+except:
+    pass
 
 plt.xticks(rotation=45, ha='right', fontsize=10)
 plt.yticks(fontsize=10)
