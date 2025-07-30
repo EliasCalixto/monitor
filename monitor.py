@@ -16,8 +16,8 @@ try:
                 if value == args[2]:
                     translated_arg2 = key
         except:
-            translated_arg1 = args[1]
-            translated_arg2 = args[2]
+            translated_arg1 = args[1] # aca estamos fornzando un error, ya que args[1] no existe
+            translated_arg2 = args[2] # idem
         
         start = int(translated_arg1)  # pyright: ignore[reportPossiblyUnboundVariable]
         end = int(translated_arg2) # pyright: ignore[reportPossiblyUnboundVariable]
@@ -32,7 +32,7 @@ try:
                 if value == args[1]:
                     translated_arg1 = key
         except:
-            translated_arg1 = args[1]
+            translated_arg1 = args[1] # aca estamos fornzando un error, ya que args[1] no existe
             
         start = int(translated_arg1) # pyright: ignore[reportPossiblyUnboundVariable]
         end = start
