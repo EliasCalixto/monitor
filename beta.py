@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 from setup import get_current_money, get_totals, current_row, df
 from arguments_helper import arguments
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning, message=".*set_ticklabels.*")
 
 args = sys.argv
 
