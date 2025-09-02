@@ -4,7 +4,6 @@ import matplotlib as mpl
 from setup import get_current_money, get_totals, current_row, df
 from arguments_helper import arguments
 
-
 args = sys.argv # lee los argumentos de la línea de comandos
 
 try:
