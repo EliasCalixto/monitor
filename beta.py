@@ -124,11 +124,15 @@ ax3.tick_params(axis='x', rotation=45)
 ax3.grid(True)
 
 # Cumulative spending per category
+colors_for_ax4 = ['#b9f5c4','#8ea9db','#fd9a9a','#fef2cb']
+i=0
+
 ax4 = axes[1, 1]
-category_df = df.loc[start:end, ['Savings','Setup','Home','Studies','Enjoy','Others','Fixed','Cashout']]
-cumulative = category_df.cumsum()
+category_df = df.loc[start:end, ['Savings','Setup','Home','Studies']]
+cumulative = category_df
 for cat in category_df.columns:
-    ax4.plot(date_range, cumulative[cat], label=cat, color=colors[cat])
+    ax4.plot(date_range, cumulative[cat], label=cat, color=colors_for_ax4[i])
+    i+=1
 ax4.set_title('Gasto acumulado por categoría')
 ax4.tick_params(axis='x', rotation=45)
 ax4.legend(fontsize=8)
