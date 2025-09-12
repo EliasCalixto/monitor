@@ -3,8 +3,6 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 import matplotlib.pyplot as plt
 import matplotlib as mpl
-import matplotlib.colors as mc
-import colorsys
 from setup import get_current_money, get_totals, current_row, df
 from arguments_helper import arguments
 import warnings
@@ -66,21 +64,9 @@ print(f'Current money: {my_money:.2f}')
 
 mpl.rcParams['font.family'] = 'Helvetica Neue'
 
-# Helper to darken hex colors slightly while keeping palette
-def darken(color, amount=0.15):
-    try:
-        c = mc.cnames.get(color, color)
-        r, g, b = mc.to_rgb(c) # type: ignore
-        h, l, s = colorsys.rgb_to_hls(r, g, b)
-        l = max(0, l * (1 - amount))
-        r2, g2, b2 = colorsys.hls_to_rgb(h, l, s)
-        return (r2, g2, b2)
-    except Exception:
-        return color
-
 # Filter categories with zero values
 filtered = [(cat, val) for cat, val in zip(categories, total_money) if val > 0]
-filtered_categories, filtered_values = zip(*filtered) if filtered else ([], [])
+filtered_categories, filtered_values = zip(*filtered)
 
 # Color mapping (Apple style)
 colors = {
@@ -94,81 +80,70 @@ colors = {
     'Cashout': '#fef2cb',  # Cashout
 }
 
-used_colors = [colors[cat] for cat in filtered_categories] if filtered_categories else []
+used_colors = [colors[cat] for cat in filtered_categories]
 
 # Prepare date range
 date_range = df['Date'][start:end + 1]
 
-# Use GridSpec to make the bottom-right chart span the full bottom row
-fig = plt.figure(figsize=(12, 8))
-gs = fig.add_gridspec(2, 2)
+fig, axes = plt.subplots(2, 2, figsize=(12, 8))
 
-# Bar chart (top-left)
-ax1 = fig.add_subplot(gs[0, 0])
-if filtered_categories:
-    bars = ax1.bar(
-        filtered_categories,
-        filtered_values,
-        color=used_colors,
-        edgecolor='white',
-        linewidth=1
+# Bar chart
+ax1 = axes[0, 0]
+bars = ax1.bar(
+    filtered_categories,
+    filtered_values,
+    color=used_colors,
+    edgecolor='white',
+    linewidth=1
+)
+for bar, value in zip(bars, filtered_values):
+    ax1.text(
+        bar.get_x() + bar.get_width() / 2,
+        bar.get_height(),
+        f'{value:.1f}',
+        ha='center',
+        va='bottom',
+        fontsize=10,
+        fontweight='bold'
     )
-    for bar, value in zip(bars, filtered_values):
-        ax1.text(
-            bar.get_x() + bar.get_width() / 2,
-            bar.get_height(),
-            f'{value:.1f}',
-            ha='center',
-            va='bottom',
-            fontsize=10,
-            fontweight='bold'
-        )
-    ax1.set_xticklabels(filtered_categories, rotation=45, ha='right', fontsize=10)
+ax1.set_xticklabels(filtered_categories, rotation=45, ha='right', fontsize=10)
 ax1.set_title('Total por categoría')
 
-# Pie chart of percentages (top-right)
-ax2 = fig.add_subplot(gs[0, 1])
-if filtered_categories:
-    ax2.pie(
-        filtered_values,
-        labels=filtered_categories,
-        colors=used_colors,
-        autopct='%1.1f%%',
-        startangle=90,
-        textprops={'fontsize': 10}
-    )
-    ax2.axis('equal')
+# Pie chart of percentages
+ax2 = axes[0, 1]
+ax2.pie(
+    filtered_values,
+    labels=filtered_categories,
+    colors=used_colors,
+    autopct='%1.1f%%',
+    startangle=90,
+    textprops={'fontsize': 10}
+)
+ax2.axis('equal')
 ax2.set_title('Distribución porcentual')
 
-# Cumulative spending per category — spans entire bottom row
-ax4 = fig.add_subplot(gs[1, :])
+# Cash balance over time
+ax3 = axes[1, 0]
+cash = df['Cash'][start:end + 1]
+ax3.plot(date_range, cash, marker='o')
+ax3.set_title('Saldo de caja')
+ax3.tick_params(axis='x', rotation=45)
+ax3.grid(True)
 
-# Slightly darker colors while keeping palette tones
-colors_for_ax4 = ['#b9f5c4', '#8ea9db', '#fd9a9a', '#fef2cb']
-colors_for_ax4_darker = [darken(c, 0.2) for c in colors_for_ax4]
+# Cumulative spending per category
+colors_for_ax4 = ['#b9f5c4','#8ea9db','#fd9a9a','#fef2cb']
+i=0
 
+ax4 = axes[1, 1]
 category_df = df.loc[start:end, ['Savings','Setup','Home','Studies']]
-
-# Make lines clearer: thicker lines, subtle markers
-for i, cat in enumerate(category_df.columns):
-    ax4.plot(
-        date_range,
-        category_df[cat],
-        label=cat,
-        color=colors_for_ax4_darker[i],
-        linewidth=2.4,
-        marker='o',
-        markersize=4,
-        markerfacecolor='white',
-        markeredgewidth=1.2,
-        alpha=0.95,
-        solid_capstyle='round'
-    )
-
+cumulative = category_df
+for cat in category_df.columns:
+    ax4.plot(date_range, cumulative[cat], label=cat, color=colors_for_ax4[i])
+    i+=1
 ax4.set_title('Gasto acumulado por categoría')
 ax4.tick_params(axis='x', rotation=45)
-ax4.legend(fontsize=9, ncol=2)
-ax4.grid(True, linestyle='--', alpha=0.4)
+ax4.legend(fontsize=8)
+ax4.grid(True)
 
 try:
     last_result_date = df['Date'][end]
@@ -181,4 +156,3 @@ except:
 
 plt.tight_layout()
 plt.show()
-
