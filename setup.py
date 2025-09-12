@@ -13,7 +13,6 @@ for i in range(len(df)):
 # Get Current Money
 def get_current_money():
     current_money = round(df['Cash'][current_row], 2)
-    print(current_money)
     return current_money
 
 # Get Totals
@@ -72,14 +71,14 @@ def get_totals(date_start, date_end):
                         fixed_percent,
                         cashout_percent]
 
-    print(f'Savings - {savings_percent}%')
-    print(f'Setup - {setup_percent}%')
-    print(f'Home - {home_percent}%')
-    print(f'Studies - {studies_percent}%')
-    print(f'Enjoy - {enjoy_percent}%')
-    print(f'Others - {others_percent}%')
-    print(f'Fixed - {fixed_percent}%')
-    print(f'Cashout - {cashout_percent}%')
+    print(f'Savings: {savings_percent}%')
+    print(f'Setup: {setup_percent}%')
+    print(f'Home: {home_percent}%')
+    print(f'Studies: {studies_percent}%')
+    print(f'Enjoy: {enjoy_percent}%')
+    print(f'Others: {others_percent}%')
+    print(f'Fixed: {fixed_percent}%')
+    print(f'Cashout: {cashout_percent}%')
 
     totals_data = [group_of_categories,group_of_totals,group_of_percent]
     return totals_data

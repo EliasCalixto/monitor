@@ -53,7 +53,14 @@ categories = totals_data[0]  # type: ignore
 total_money = totals_data[1]  # type: ignore
 percent = totals_data[2]  # type: ignore
 
+total_expend = sum(total_money)
 my_money = get_current_money()
+
+# prints del final
+
+print('')
+print(f'Total expended: {total_expend:.2f}')
+print(f'Current money: {my_money:.2f}')
 
 mpl.rcParams['font.family'] = 'Helvetica Neue'
 
