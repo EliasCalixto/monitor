@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 import matplotlib.colors as mc
 import colorsys
+from matplotlib.widgets import Slider
 from setup import get_current_money, get_totals, current_row, df
 from arguments_helper import arguments
 import warnings
@@ -143,19 +144,29 @@ ax2.set_title('Distribución porcentual')
 # Cumulative spending per category — spans entire bottom row
 ax4 = fig.add_subplot(gs[1, :])
 
-# Slightly darker colors while keeping palette tones
-colors_for_ax4 = ['#8dbad6', "#515151", "#e4b373", "#43859a", '#b9f5c4', '#fd9a9a']
-colors_for_ax4_darker = [darken(c, 0.2) for c in colors_for_ax4]
+category_columns = ['Savings', 'Setup', 'Home', 'Studies', 'Enjoy', 'Others', 'Fixed', 'Cashout']
+available_categories = [col for col in category_columns if col in df.columns]
+category_df = df.loc[start:end, available_categories]
+category_color_map = {
+    cat: darken(colors.get(cat, '#4c4c4c'), 0.2)
+    for cat in available_categories
+}
 
-category_df = df.loc[start:end, ['Savings','Setup','Home','Studies','Enjoy','Others']]
+category_slider = None
+has_slider = False
 
-# Make lines clearer: thicker lines, subtle markers
-for i, cat in enumerate(category_df.columns):
-    ax4.plot(
+if not available_categories or category_df.empty:
+    ax4.set_title('Sin datos disponibles para las categorías seleccionadas')
+    ax4.axis('off')
+else:
+    initial_index = 0
+    initial_category = available_categories[initial_index]
+    initial_color = category_color_map.get(initial_category, '#4c4c4c')
+    line, = ax4.plot(
         date_range,
-        category_df[cat],
-        label=cat,
-        color=colors_for_ax4_darker[i],
+        category_df[initial_category],
+        label=initial_category,
+        color=initial_color,
         linewidth=2.4,
         marker='o',
         markersize=4,
@@ -165,10 +176,52 @@ for i, cat in enumerate(category_df.columns):
         solid_capstyle='round'
     )
 
-ax4.set_title('Gasto acumulado por categoría')
-ax4.tick_params(axis='x', rotation=45)
-ax4.legend(fontsize=9, ncol=2)
-ax4.grid(True, linestyle='--', alpha=0.4)
+    ax4.set_title('Gasto acumulado por categoría')
+    ax4.tick_params(axis='x', rotation=45)
+    legend = ax4.legend([line], [initial_category], fontsize=9)
+    ax4.grid(True, linestyle='--', alpha=0.4)
+
+    def select_category(index: int) -> None:
+        if index < 0 or index >= len(available_categories):
+            return
+        category = available_categories[index]
+        color = category_color_map.get(category, '#4c4c4c')
+        line.set_ydata(category_df[category])
+        line.set_label(category)
+        line.set_color(color)
+        legend.texts[0].set_text(category)
+        legend_lines = legend.get_lines()
+        if legend_lines:
+            legend_lines[0].set_color(color)
+        ax4.relim()
+        ax4.autoscale_view()
+        if category_slider is not None:
+            category_slider.valtext.set_text(category)
+        fig.canvas.draw_idle()
+
+    if len(available_categories) > 1:
+        slider_ax = fig.add_axes([0.15, 0.05, 0.7, 0.04])
+        slider_ax.set_facecolor('#f0f0f0')
+        category_indices = list(range(len(available_categories)))
+        category_slider = Slider(
+            ax=slider_ax,
+            label='Categoría',
+            valmin=category_indices[0],
+            valmax=category_indices[-1],
+            valinit=initial_index,
+            valstep=category_indices
+        )
+        category_slider.valtext.set_text(initial_category)
+        category_slider.ax.set_xticks(category_indices)
+        category_slider.ax.set_xticklabels(available_categories, rotation=45, ha='right', fontsize=9)
+
+        def on_slider_change(value: float) -> None:
+            select_category(int(round(value)))
+
+        category_slider.on_changed(on_slider_change)
+        has_slider = True
+
+    select_category(initial_index)
 
 try:
     last_result_date = df['Date'][end]
@@ -179,6 +232,8 @@ try:
 except:
     pass
 
-plt.tight_layout()
+if has_slider:
+    plt.tight_layout(rect=(0, 0.1, 1, 1))
+else:
+    plt.tight_layout()
 plt.show()
-
