@@ -144,10 +144,10 @@ ax2.set_title('Distribución porcentual')
 ax4 = fig.add_subplot(gs[1, :])
 
 # Slightly darker colors while keeping palette tones
-colors_for_ax4 = ['#b9f5c4', '#8ea9db', '#fd9a9a', '#fef2cb']
+colors_for_ax4 = ['#8dbad6', "#515151", "#e4b373", "#43859a", '#b9f5c4', '#fd9a9a']
 colors_for_ax4_darker = [darken(c, 0.2) for c in colors_for_ax4]
 
-category_df = df.loc[start:end, ['Savings','Setup','Home','Studies']]
+category_df = df.loc[start:end, ['Savings','Setup','Home','Studies','Enjoy','Others']]
 
 # Make lines clearer: thicker lines, subtle markers
 for i, cat in enumerate(category_df.columns):
