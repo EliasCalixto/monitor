@@ -200,7 +200,7 @@ else:
         fig.canvas.draw_idle()
 
     if len(available_categories) > 1:
-        slider_ax = fig.add_axes([0.15, 0.05, 0.7, 0.04])
+        slider_ax = fig.add_axes([0.15, 0.05, 0.7, 0.04]) # type: ignore
         slider_ax.set_facecolor('#f0f0f0')
         category_indices = list(range(len(available_categories)))
         category_slider = Slider(

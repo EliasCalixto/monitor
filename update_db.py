@@ -22,9 +22,9 @@ CREATE TABLE {today} (
     id INT PRIMARY KEY,
     DateInfo VARCHAR(50),
     Income float,
+    Savings float,
     Setup float,
     Home float,
-    Savings float,
     Studies float,
     Enjoy float,
     Others float,
@@ -33,7 +33,7 @@ CREATE TABLE {today} (
     Cash float
 );
 
-INSERT INTO dbo.{today} (Id,DateInfo,Income,Setup,Home,Savings,Studies,Enjoy,Others,Fixed,Cashout,Cash)
+INSERT INTO dbo.{today} (Id,DateInfo,Income,Savings,Setup,Home,Studies,Enjoy,Others,Fixed,Cashout,Cash)
 VALUES
 """
 
