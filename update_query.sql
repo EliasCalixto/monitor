@@ -1,8 +1,8 @@
 USE main_db
-DROP TABLE dbo.October_02_2025;
+DROP TABLE dbo.October_13_2025;
 GO
 
-CREATE TABLE October_02_2025 (
+CREATE TABLE October_13_2025 (
     id INT PRIMARY KEY,
     DateInfo VARCHAR(50),
     Income float,
@@ -17,7 +17,7 @@ CREATE TABLE October_02_2025 (
     Cash float
 );
 
-INSERT INTO dbo.October_02_2025 (Id,DateInfo,Income,Savings,Setup,Home,Studies,Enjoy,Others,Fixed,Cashout,Cash)
+INSERT INTO dbo.October_13_2025 (Id,DateInfo,Income,Savings,Setup,Home,Studies,Enjoy,Others,Fixed,Cashout,Cash)
 VALUES
 (0,'Septiembre 2022',133.57,'0.0','0.0',0.0,0.0,0.0,0.0,0.0,0.0,133.57),
 (1,'Octubre 2022',1960.0,'0.0','1510.0',0.0,0.0,0.0,527.8,45.0,0.0,10.77),
@@ -56,8 +56,8 @@ VALUES
 (34,'Julio 2025',9714.67,'0.0','230.0',5098.88,1208.65,1503.75,172.99,391.03,123.72,533.66),
 (35,'Agosto 2025',6657.5,'2195.02','90.95',212.4,1449.19,1293.6,1475.0,180.43,191.57,103.0),
 (36,'Septiembre 2025',6013.41,'2000.0','757.05',677.7,1045.0,648.7,422.73,175.05,174.5,215.68),
-(37,'Octubre 2025',0.0,'0.0','0.0',0.0,0.0,0.0,0.0,0.0,2.0,213.68);
+(37,'Octubre 2025',0.0,'0.0','0.0',0.0,0.0,100.5,2.5,0.0,112.5,0.18);
 GO
 
-SELECT * FROM dbo.October_02_2025
+SELECT * FROM dbo.October_13_2025
 GO
