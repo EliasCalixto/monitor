@@ -98,8 +98,10 @@ colors = {
 
 used_colors = [colors[cat] for cat in filtered_categories] if filtered_categories else []
 
-# Prepare date range
-date_range = df['Date'][start:end + 1]
+# Prepare date range aligned with the filtered rows
+date_series = df.loc[start:end, 'Date'] if 'Date' in df.columns else df['Date'][start:end + 1]
+date_labels = list(date_series)
+x_positions = list(range(len(date_labels)))
 
 # Use GridSpec to make the bottom-right chart span the full bottom row
 fig = plt.figure(figsize=(12, 8))
@@ -163,9 +165,10 @@ else:
     initial_index = 0
     initial_category = available_categories[initial_index]
     initial_color = category_color_map.get(initial_category, '#4c4c4c')
+    initial_values = category_df[initial_category].to_numpy()
     line, = ax4.plot(
-        date_range,
-        category_df[initial_category],
+        x_positions,
+        initial_values,
         label=initial_category,
         color=initial_color,
         linewidth=2.4,
@@ -178,7 +181,8 @@ else:
     )
 
     ax4.set_title('Gasto acumulado por categoría')
-    ax4.tick_params(axis='x', rotation=45)
+    ax4.set_xticks(x_positions)
+    ax4.set_xticklabels(date_labels, rotation=45, ha='right')
     legend = ax4.legend([line], [initial_category], fontsize=9)
     ax4.grid(True, linestyle='--', alpha=0.4)
 
@@ -187,7 +191,7 @@ else:
             return
         category = available_categories[index]
         color = category_color_map.get(category, '#4c4c4c')
-        line.set_ydata(category_df[category])
+        line.set_ydata(category_df[category].to_numpy())
         line.set_label(category)
         line.set_color(color)
         legend.texts[0].set_text(category)
