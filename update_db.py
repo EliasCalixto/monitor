@@ -46,8 +46,8 @@ query += ',\n'.join(values) + ";\nGO"
 
 query += f"\n\nSELECT * FROM dbo.{today}\nGO"
 
-with open("/Users/darkesthj/Library/Mobile Documents/com~apple~CloudDocs/Dev/monitor/update_query.sql", 'w') as f:
+with open("/Users/darkesthj/Dev/monitor/update_query.sql", 'w') as f:
     f.write(query)
     
 # 3 Ejecuting the SQL request through terminal
-os.system(f'sqlcmd -S localhost,1433 -U sa -P {pwd} -d main_db -i "/Users/darkesthj/Library/Mobile Documents/com~apple~CloudDocs/Dev/monitor/update_query.sql"')
+os.system(f'sqlcmd -S localhost,1433 -U sa -P {pwd} -d main_db -i "/Users/darkesthj/Dev/monitor/update_query.sql"')
