@@ -91,7 +91,7 @@ colors = {
     'Home': '#8ea9db',     # Home
     'Studies': '#abb9d4',  # Studies
     'Enjoy': '#b9f5c4',    # Enjoy
-    'Others': '#fd9a9a',   # Others
+    'Losses': '#fd9a9a',   # Losses
     'Fixed': '#f8ccad',    # Fixed
     'Cashout': '#fef2cb',  # Cashout
 }
@@ -147,7 +147,7 @@ ax2.set_title('Distribución porcentual')
 # Cumulative spending per category — spans entire bottom row
 ax4 = fig.add_subplot(gs[1, :])
 
-category_columns = ['Savings', 'Setup', 'Home', 'Studies', 'Enjoy', 'Others', 'Fixed', 'Cashout']
+category_columns = ['Savings', 'Setup', 'Home', 'Studies', 'Enjoy', 'Losses', 'Fixed', 'Cashout']
 available_categories = [col for col in category_columns if col in df.columns]
 category_df = df.loc[start:end, available_categories]
 category_color_map = {

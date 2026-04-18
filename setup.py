@@ -7,7 +7,7 @@ df = pd.read_excel(main_path, sheet_name="DataRaw")
 # Get Current Row
 current_row = 0
 for i in range(len(df)):
-    if sum(df.iloc[i][['Savings','Setup','Home','Studies','Enjoy','Others','Fixed','Cashout']].values) != 0:
+    if sum(df.iloc[i][['Savings','Setup','Home','Studies','Enjoy','Losses','Fixed','Cashout']].values) != 0:
         current_row += 1
 
 # Get Current Money
@@ -22,7 +22,7 @@ def get_totals(date_start, date_end):
     total_home = round(np.sum(df['Home'][date_start:date_end+1]), 2)
     total_studies = round(np.sum(df['Studies'][date_start:date_end+1]), 2)
     total_enjoy = round(np.sum(df['Enjoy'][date_start:date_end+1]), 2)
-    total_others = round(np.sum(df['Others'][date_start:date_end+1]), 2)
+    total_losses = round(np.sum(df['Losses'][date_start:date_end+1]), 2)
     total_fixed = round(np.sum(df['Fixed'][date_start:date_end+1]), 2)
     total_cashout = round(np.sum(df['Cashout'][date_start:date_end+1]), 2)
 
@@ -31,7 +31,7 @@ def get_totals(date_start, date_end):
     # total_home = round(np.sum(df['Home'][date]), 2)
     # total_studies = round(np.sum(df['Studies'][date]), 2)
     # total_enjoy = round(np.sum(df['Enjoy'][date]), 2)
-    # total_others = round(np.sum(df['Others'][date]), 2)
+    # total_losses = round(np.sum(df['Losses'][date]), 2)
     # total_fixed = round(np.sum(df['Fixed'][date]), 2)
     # total_cashout = round(np.sum(df['Cashout'][date]), 2)
     
@@ -40,7 +40,7 @@ def get_totals(date_start, date_end):
                            'Home',
                            'Studies',
                            'Enjoy',
-                           'Others',
+                           'Losses',
                            'Fixed',
                            'Cashout']
 
@@ -49,7 +49,7 @@ def get_totals(date_start, date_end):
                        total_home,
                        total_studies, 
                        total_enjoy, 
-                       total_others, 
+                       total_losses, 
                        total_fixed, 
                        total_cashout]
 
@@ -58,7 +58,7 @@ def get_totals(date_start, date_end):
     home_percent = round((total_home/np.sum(group_of_totals))*100, 2)
     studies_percent = round((total_studies/np.sum(group_of_totals))*100, 2)
     enjoy_percent = round((total_enjoy/np.sum(group_of_totals))*100, 2)
-    others_percent = round((total_others/np.sum(group_of_totals))*100, 2)
+    losses_percent = round((total_losses/np.sum(group_of_totals))*100, 2)
     fixed_percent = round((total_fixed/np.sum(group_of_totals))*100, 2)
     cashout_percent = round((total_cashout/np.sum(group_of_totals))*100, 2)
 
@@ -67,7 +67,7 @@ def get_totals(date_start, date_end):
                         home_percent,
                         studies_percent,
                         enjoy_percent,
-                        others_percent,
+                        losses_percent,
                         fixed_percent,
                         cashout_percent]
 
@@ -76,7 +76,7 @@ def get_totals(date_start, date_end):
     print(f'Home: {home_percent}%')
     print(f'Studies: {studies_percent}%')
     print(f'Enjoy: {enjoy_percent}%')
-    print(f'Others: {others_percent}%')
+    print(f'Losses: {losses_percent}%')
     print(f'Fixed: {fixed_percent}%')
     print(f'Cashout: {cashout_percent}%')
 

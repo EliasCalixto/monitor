@@ -27,13 +27,13 @@ CREATE TABLE {today} (
     Home float,
     Studies float,
     Enjoy float,
-    Others float,
+    Losses float,
     Fixed float,
     Cashout float,
     Cash float
 );
 
-INSERT INTO dbo.{today} (Id,DateInfo,Income,Savings,Setup,Home,Studies,Enjoy,Others,Fixed,Cashout,Cash)
+INSERT INTO dbo.{today} (Id,DateInfo,Income,Savings,Setup,Home,Studies,Enjoy,Losses,Fixed,Cashout,Cash)
 VALUES
 """
 
