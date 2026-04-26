@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 import matplotlib.colors as mc
 import colorsys
-from matplotlib.widgets import Slider
 from setup import get_current_money, get_totals, current_row, df
 from arguments_helper import arguments
 import warnings
@@ -144,89 +143,59 @@ if filtered_categories:
     ax2.axis('equal')
 ax2.set_title('Distribución porcentual')
 
-# Cumulative spending per category — spans entire bottom row
+# Monthly comparison per category — spans entire bottom row
 ax4 = fig.add_subplot(gs[1, :])
 
 category_columns = ['Savings', 'Setup', 'Home', 'Studies', 'Enjoy', 'Losses', 'Fixed', 'Cashout']
 available_categories = [col for col in category_columns if col in df.columns]
-category_df = df.loc[start:end, available_categories]
+category_df = df.loc[start:end, available_categories].fillna(0)
+active_categories = [
+    cat
+    for cat in available_categories
+    if category_df[cat].sum() > 0
+]
 category_color_map = {
     cat: darken(colors.get(cat, '#4c4c4c'), 0.2)
     for cat in available_categories
 }
 
-category_slider = None
-has_slider = False
-
-if not available_categories or category_df.empty:
+if not active_categories or category_df.empty:
     ax4.set_title('Sin datos disponibles para las categorías seleccionadas')
     ax4.axis('off')
 else:
-    initial_index = 0
-    initial_category = available_categories[initial_index]
-    initial_color = category_color_map.get(initial_category, '#4c4c4c')
-    initial_values = category_df[initial_category].to_numpy()
-    line, = ax4.plot(
-        x_positions,
-        initial_values,
-        label=initial_category,
-        color=initial_color,
-        linewidth=2.4,
-        marker='o',
-        markersize=4,
-        markerfacecolor='white',
-        markeredgewidth=1.2,
-        alpha=0.95,
-        solid_capstyle='round'
-    )
+    category_count = len(active_categories)
+    bar_width = min(0.8 / category_count, 0.12)
+    category_offsets = [
+        (index - (category_count - 1) / 2) * bar_width
+        for index in range(category_count)
+    ]
 
-    ax4.set_title('Gasto acumulado por categoría')
+    for index, category in enumerate(active_categories):
+        bar_positions = [
+            position + category_offsets[index]
+            for position in x_positions
+        ]
+        ax4.bar(
+            bar_positions,
+            category_df[category].to_numpy(),
+            width=bar_width * 0.92,
+            label=category,
+            color=category_color_map.get(category, '#4c4c4c'),
+            edgecolor='white',
+            linewidth=0.4,
+            alpha=0.95
+        )
+
+    ax4.set_title('Comparativo mensual por categoría')
     ax4.set_xticks(x_positions)
     ax4.set_xticklabels(date_labels, rotation=45, ha='right')
-    legend = ax4.legend([line], [initial_category], fontsize=9)
-    ax4.grid(True, linestyle='--', alpha=0.4)
-
-    def select_category(index: int) -> None:
-        if index < 0 or index >= len(available_categories):
-            return
-        category = available_categories[index]
-        color = category_color_map.get(category, '#4c4c4c')
-        line.set_ydata(category_df[category].to_numpy())
-        line.set_label(category)
-        line.set_color(color)
-        legend.texts[0].set_text(category)
-        legend_lines = legend.get_lines()
-        if legend_lines:
-            legend_lines[0].set_color(color)
-        ax4.relim()
-        ax4.autoscale_view()
-        if category_slider is not None:
-            category_slider.valtext.set_text(category)
-        fig.canvas.draw_idle()
-
-    if len(available_categories) > 1:
-        slider_ax = fig.add_axes([0.15, 0.05, 0.7, 0.04]) # type: ignore
-        slider_ax.set_facecolor('#f0f0f0')
-        category_indices = list(range(len(available_categories)))
-        category_slider = Slider(
-            ax=slider_ax,
-            label='Categoría',
-            valmin=category_indices[0],
-            valmax=category_indices[-1],
-            valinit=initial_index,
-            valstep=category_indices
-        )
-        category_slider.valtext.set_text(initial_category)
-        category_slider.ax.set_xticks(category_indices)
-        category_slider.ax.set_xticklabels(available_categories, rotation=45, ha='right', fontsize=9)
-
-        def on_slider_change(value: float) -> None:
-            select_category(int(round(value)))
-
-        category_slider.on_changed(on_slider_change)
-        has_slider = True
-
-    select_category(initial_index)
+    ax4.set_xlim(-0.6, len(date_labels) - 0.4)
+    ax4.legend(
+        fontsize=8,
+        ncol=min(category_count, 4),
+        loc='upper right'
+    )
+    ax4.grid(True, axis='y', linestyle='--', alpha=0.4)
 
 try:
     last_result_date = df['Date'][end]
@@ -237,8 +206,5 @@ try:
 except:
     pass
 
-if has_slider:
-    plt.tight_layout(rect=(0, 0.1, 1, 1))
-else:
-    plt.tight_layout()
+plt.tight_layout()
 plt.show()
