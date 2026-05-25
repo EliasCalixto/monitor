@@ -1,3 +1,12 @@
+const RESUMEN_COLUMNS = [
+  "Cash",
+  "Total Papa",
+  "Cash Total",
+  "Tot. Savings",
+  "Tot. Income",
+  "Tot. Expenses",
+];
+
 const CATEGORY_COLORS = {
   Savings: "#8dbad6",
   Setup: "#9bc2e7",
@@ -142,7 +151,58 @@ function onDataReady() {
   }));
 
   buildCategoryChips();
+  renderResumen();
   applyAndRender();
+}
+
+function renderResumen() {
+  const grid = $("#resumen-grid");
+  const titleEl = $("#resumen-title");
+  grid.innerHTML = "";
+
+  const db = findDb("New database") || findDb("Resumen");
+  if (!db || !db.rows || db.rows.length === 0) {
+    titleEl.textContent = "Resumen";
+    return;
+  }
+
+  const row = db.rows[0];
+  titleEl.textContent = row.Name || "Resumen";
+
+  for (const col of RESUMEN_COLUMNS) {
+    const value = row[col];
+    if (typeof value !== "number" || Number.isNaN(value)) continue;
+    grid.appendChild(resumenCard(col, value));
+  }
+}
+
+function resumenCard(label, value) {
+  const el = document.createElement("div");
+  let klass = "kpi";
+  let valClass = "";
+  if (label === "Cash" || label === "Cash Total") {
+    if (value < 0) {
+      klass += " expense";
+      valClass = "negative";
+    } else {
+      klass += " income";
+      valClass = "positive";
+    }
+  } else if (label === "Tot. Income") {
+    klass += " income";
+  } else if (label === "Tot. Expenses") {
+    klass += " expense";
+  } else if (label === "Tot. Savings") {
+    klass += " net";
+  } else {
+    klass += " fixed";
+  }
+  el.className = klass;
+  el.innerHTML = `
+    <div class="kpi-label">${escapeHtml(label)}</div>
+    <div class="kpi-value ${valClass}">${fmtMoney(value)}</div>
+  `;
+  return el;
 }
 
 function buildCategoryChips() {
@@ -218,7 +278,6 @@ function applyAndRender() {
   );
   const filteredIncomes = state.incomes.filter((i) => inPeriod(i.date, from, to));
 
-  renderKpis(filteredExpenses, filteredIncomes);
   renderExpenseByCategory(filteredExpenses);
   renderExpenseOverTime(filteredExpenses);
   renderExpenseTable(filteredExpenses);
@@ -227,40 +286,6 @@ function applyAndRender() {
   renderIncomeTable(filteredIncomes);
 
   renderFixedExpenses();
-}
-
-function renderKpis(expenses, incomes) {
-  const totalExp = expenses.reduce((s, e) => s + e.price, 0);
-  const totalInc = incomes.reduce((s, i) => s + i.income, 0);
-  const totalFixed = state.fixedExpenses.reduce((s, f) => s + f.price, 0);
-  const net = totalInc - totalExp;
-
-  const grid = $("#kpi-grid");
-  grid.innerHTML = "";
-
-  grid.appendChild(
-    kpiCard("Ingresos", fmtMoney(totalInc), `${incomes.length} entradas`, "income", "positive"),
-  );
-  grid.appendChild(
-    kpiCard("Gastos", fmtMoney(totalExp), `${expenses.length} gastos`, "expense", "negative"),
-  );
-  grid.appendChild(
-    kpiCard("Neto", fmtMoney(net), net >= 0 ? "superávit" : "déficit", "net", net >= 0 ? "positive" : "negative"),
-  );
-  grid.appendChild(
-    kpiCard("Gastos fijos", fmtMoney(totalFixed), `${state.fixedExpenses.length} recurrentes`, "fixed", ""),
-  );
-}
-
-function kpiCard(label, value, sub, klass, valClass) {
-  const el = document.createElement("div");
-  el.className = `kpi ${klass || ""}`;
-  el.innerHTML = `
-    <div class="kpi-label">${label}</div>
-    <div class="kpi-value ${valClass || ""}">${value}</div>
-    ${sub ? `<div class="kpi-sub">${sub}</div>` : ""}
-  `;
-  return el;
 }
 
 function destroyChart(key) {
