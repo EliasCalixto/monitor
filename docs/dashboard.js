@@ -32,7 +32,9 @@ const CATEGORY_ORDER = [
 ];
 
 const DARK_GRAY = "#3a3a3c";
-const MUTED_GRAY = "#6e6e73"; // for soft labels (donut %, Total Papa value)
+const MUTED_GRAY = "#6e6e73"; // for soft labels in legends / small text
+const DONUT_LABEL_COLOR = "#4a4a4d"; // donut percentage labels: a bit darker for readability
+const BAR_LABEL_COLOR = "#5a5a5e"; // numbers above bars
 const SOFT_RED = "#fd9a9a"; // Losses pastel
 const SOFT_GREEN = "#b9f5c4"; // Enjoy pastel
 
@@ -202,23 +204,17 @@ function renderResumen() {
 }
 
 function resumenCard(label, value) {
+  // Border keeps the semantic color; value text is the same dark for every
+  // card so the row reads as one unit.
   const el = document.createElement("div");
   el.className = "kpi";
 
   let borderColor = DARK_GRAY;
-  let valColor = "";
 
   if (label === "Cash" || label === "Cash Total") {
-    if (value < 0) {
-      borderColor = SOFT_RED;
-      valColor = SOFT_RED;
-    } else {
-      borderColor = SOFT_GREEN;
-      valColor = SOFT_GREEN;
-    }
+    borderColor = value < 0 ? SOFT_RED : SOFT_GREEN;
   } else if (label === "Total Papa") {
     borderColor = MUTED_GRAY;
-    valColor = MUTED_GRAY;
   } else if (label === "Tot. Savings") {
     borderColor = CATEGORY_COLORS.Savings;
   } else if (label === "Tot. Income") {
@@ -228,10 +224,9 @@ function resumenCard(label, value) {
   }
 
   el.style.borderLeftColor = borderColor;
-  const valStyle = valColor ? `style="color:${valColor}"` : "";
   el.innerHTML = `
     <div class="kpi-label">${escapeHtml(label)}</div>
-    <div class="kpi-value" ${valStyle}>${fmtMoney(value)}</div>
+    <div class="kpi-value">${fmtMoney(value)}</div>
   `;
   return el;
 }
@@ -275,6 +270,13 @@ function buildCategoryChips() {
 function computePeriod() {
   const now = new Date();
   switch (state.period) {
+    case "this-week": {
+      // Monday-anchored week.
+      const dow = (now.getDay() + 6) % 7; // 0 = Mon … 6 = Sun
+      const from = new Date(now.getFullYear(), now.getMonth(), now.getDate() - dow);
+      const to = new Date(from.getFullYear(), from.getMonth(), from.getDate() + 6, 23, 59, 59);
+      return { from, to };
+    }
     case "this-month":
       return {
         from: new Date(now.getFullYear(), now.getMonth(), 1),
@@ -299,6 +301,11 @@ function computePeriod() {
       return {
         from: new Date(now.getFullYear(), 0, 1),
         to: new Date(now.getFullYear(), 11, 31, 23, 59, 59),
+      };
+    case "last-year":
+      return {
+        from: new Date(now.getFullYear() - 1, 0, 1),
+        to: new Date(now.getFullYear() - 1, 11, 31, 23, 59, 59),
       };
     case "custom":
       return {
@@ -422,7 +429,7 @@ function renderExpenseDonut(expenses) {
             const v = ctx.dataset.data[ctx.dataIndex];
             return total > 0 && (v / total) * 100 >= 4;
           },
-          color: MUTED_GRAY,
+          color: DONUT_LABEL_COLOR,
           font: { weight: "600", size: 11 },
           formatter: (v) => `${((v / total) * 100).toFixed(1)}%`,
           anchor: "center",
@@ -471,7 +478,7 @@ function renderExpenseSumBars(expenses) {
           anchor: "end",
           align: "top",
           offset: 4,
-          color: MUTED_GRAY,
+          color: BAR_LABEL_COLOR,
           font: { size: 10, weight: "600" },
           formatter: (v) => fmtMoney(v),
         },
@@ -604,7 +611,7 @@ function renderIncomeYearly() {
           anchor: "end",
           align: "top",
           offset: 4,
-          color: MUTED_GRAY,
+          color: BAR_LABEL_COLOR,
           font: { size: 10, weight: "600" },
           formatter: (v) => fmtMoney(v),
         },
@@ -662,7 +669,10 @@ function renderIncomeMonthly(incomes, { from, to }) {
         datalabels: { display: false },
       },
       scales: {
-        x: { grid: { display: false } },
+        x: {
+          grid: { display: false },
+          ticks: { maxRotation: 60, minRotation: 45, font: { size: 11 } },
+        },
         y: { beginAtZero: true, ticks: { callback: (v) => fmtMoney(v) } },
       },
     },
