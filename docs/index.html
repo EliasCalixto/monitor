@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Monitor · Notion Dashboard</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+    <script src="./dashboard.js" type="module" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-left">
+        <h1>Monitor</h1>
+        <span id="generated-at" class="muted"></span>
+      </div>
+      <div class="topbar-right">
+        <label class="db-picker">
+          <span>Database</span>
+          <select id="db-select"></select>
+        </label>
+        <button id="refresh" class="btn" title="Recargar data.json">↻</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="kpi-grid" class="kpi-grid"></section>
+
+      <section class="chart-row">
+        <article class="card chart-card">
+          <h2 id="chart1-title">Distribución</h2>
+          <div class="chart-controls">
+            <label>
+              Columna
+              <select id="chart1-field"></select>
+            </label>
+          </div>
+          <canvas id="chart1"></canvas>
+        </article>
+
+        <article class="card chart-card">
+          <h2 id="chart2-title">Tendencia</h2>
+          <div class="chart-controls">
+            <label>
+              Fecha
+              <select id="chart2-date"></select>
+            </label>
+            <label>
+              Valor
+              <select id="chart2-value"></select>
+            </label>
+          </div>
+          <canvas id="chart2"></canvas>
+        </article>
+      </section>
+
+      <section class="card table-card">
+        <header class="table-header">
+          <h2>Tabla</h2>
+          <div class="table-controls">
+            <input id="search" type="search" placeholder="Buscar…" />
+            <span id="row-count" class="muted"></span>
+          </div>
+        </header>
+        <div class="table-wrap">
+          <table id="data-table">
+            <thead></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="muted">
+      Datos sincronizados desde Notion via GitHub Actions.
+      <a id="repo-link" href="#" target="_blank" rel="noreferrer">Repo</a>
+    </footer>
+
+    <div id="status"></div>
+  </body>
+</html>
