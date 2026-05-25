@@ -1,0 +1,48 @@
+name: Sync Notion data
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "scripts/fetch_notion.py"
+      - ".github/workflows/sync-notion.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-notion
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch Notion data
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_PAGE_ID: ${{ secrets.NOTION_PAGE_ID }}
+        run: python scripts/fetch_notion.py
+
+      - name: Commit data.json if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- docs/data.json; then
+            echo "Sin cambios en docs/data.json"
+            exit 0
+          fi
+          git add docs/data.json
+          git commit -m "chore: sync Notion data ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git push
