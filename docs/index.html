@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f5f7" />
     <title>Monitor · Notion Dashboard</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect x=%228%22 y=%2236%22 width=%2212%22 height=%2220%22 rx=%223%22 fill=%22%238dbad6%22/%3E%3Crect x=%2226%22 y=%2222%22 width=%2212%22 height=%2234%22 rx=%223%22 fill=%22%23b9f5c4%22/%3E%3Crect x=%2244%22 y=%2210%22 width=%2212%22 height=%2246%22 rx=%223%22 fill=%22%23fd9a9a%22/%3E%3C/svg%3E" />
     <link rel="stylesheet" href="./styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js" defer></script>
@@ -12,10 +14,25 @@
   <body>
     <header class="topbar">
       <div class="topbar-left">
+        <svg class="logo" viewBox="0 0 64 64" width="28" height="28" aria-hidden="true" focusable="false">
+          <rect x="8" y="36" width="12" height="20" rx="3" fill="#8dbad6"/>
+          <rect x="26" y="22" width="12" height="34" rx="3" fill="#b9f5c4"/>
+          <rect x="44" y="10" width="12" height="46" rx="3" fill="#fd9a9a"/>
+        </svg>
         <h1>Monitor</h1>
         <span id="generated-at" class="muted"></span>
       </div>
-      <button id="refresh" class="btn-ghost" title="Reload data.json">↻</button>
+      <div class="topbar-actions">
+        <a id="sync-trigger" class="btn-ghost small"
+           href="https://github.com/EliasCalixto/monitor/actions/workflows/sync-notion.yml"
+           target="_blank" rel="noreferrer"
+           title="Opens GitHub Actions in a new tab — click 'Run workflow' there, wait ~30s, then click ↻ here to reload.">
+          <span class="sync-label-full">Sync from Notion</span>
+          <span class="sync-label-short">Sync</span>
+          <span aria-hidden="true">↗</span>
+        </a>
+        <button id="refresh" class="btn-ghost" title="Reload data.json">↻</button>
+      </div>
     </header>
 
     <section class="resumen-block">

@@ -2,6 +2,7 @@
   --bg: #f5f5f7;
   --card: #ffffff;
   --text: #1d1d1f;
+  --text-soft: #2c2c2e; /* a touch lighter — for KPI values and table content */
   --muted: #86868b;
   --border: #e5e5ea;
   --accent: #0071e3;
@@ -65,8 +66,41 @@ body {
 
 .topbar-left {
   display: flex;
-  align-items: baseline;
-  gap: 16px;
+  align-items: center;
+  gap: 12px;
+}
+
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo {
+  flex-shrink: 0;
+  display: block;
+}
+
+#sync-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  background-image: none;
+  padding-bottom: 6px;
+}
+
+.sync-label-short {
+  display: none;
+}
+
+@media (max-width: 720px) {
+  .sync-label-full {
+    display: none;
+  }
+  .sync-label-short {
+    display: inline;
+  }
 }
 
 .topbar h1 {
@@ -320,6 +354,7 @@ body > section.filters {
 }
 
 .kpi-value {
+  color: var(--text-soft);
   font-size: 24px;
   font-weight: 600;
   letter-spacing: -0.02em;
@@ -442,6 +477,7 @@ td {
   padding: 9px 16px;
   border-bottom: 1px solid var(--border);
   vertical-align: middle;
+  color: var(--text-soft);
 }
 
 tbody tr:hover {
@@ -466,7 +502,7 @@ td.num {
 
 td a,
 footer a {
-  color: var(--text);
+  color: var(--text-soft);
   text-decoration: none;
   font-weight: 500;
   background-image: linear-gradient(to right, var(--border), var(--border));
@@ -484,7 +520,7 @@ footer a:hover {
 }
 
 td a:visited {
-  color: var(--text);
+  color: var(--text-soft);
 }
 
 td a:visited:hover {
