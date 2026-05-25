@@ -14,66 +14,105 @@
         <h1>Monitor</h1>
         <span id="generated-at" class="muted"></span>
       </div>
-      <div class="topbar-right">
-        <label class="db-picker">
-          <span>Database</span>
-          <select id="db-select"></select>
-        </label>
-        <button id="refresh" class="btn" title="Recargar data.json">↻</button>
-      </div>
+      <button id="refresh" class="btn-ghost" title="Recargar data.json">↻</button>
     </header>
 
-    <main>
-      <section id="kpi-grid" class="kpi-grid"></section>
-
-      <section class="chart-row">
-        <article class="card chart-card">
-          <h2 id="chart1-title">Distribución</h2>
-          <div class="chart-controls">
-            <label>
-              Columna
-              <select id="chart1-field"></select>
-            </label>
-          </div>
-          <canvas id="chart1"></canvas>
-        </article>
-
-        <article class="card chart-card">
-          <h2 id="chart2-title">Tendencia</h2>
-          <div class="chart-controls">
-            <label>
-              Fecha
-              <select id="chart2-date"></select>
-            </label>
-            <label>
-              Valor
-              <select id="chart2-value"></select>
-            </label>
-          </div>
-          <canvas id="chart2"></canvas>
-        </article>
-      </section>
-
-      <section class="card table-card">
-        <header class="table-header">
-          <h2>Tabla</h2>
-          <div class="table-controls">
-            <input id="search" type="search" placeholder="Buscar…" />
-            <span id="row-count" class="muted"></span>
-          </div>
-        </header>
-        <div class="table-wrap">
-          <table id="data-table">
-            <thead></thead>
-            <tbody></tbody>
-          </table>
+    <section class="filters card">
+      <div class="filter-row">
+        <div class="filter-group">
+          <label for="period">Periodo</label>
+          <select id="period">
+            <option value="this-month">Este mes</option>
+            <option value="last-month">Mes pasado</option>
+            <option value="3m">Últimos 3 meses</option>
+            <option value="6m">Últimos 6 meses</option>
+            <option value="year">Este año</option>
+            <option value="all" selected>Todo</option>
+            <option value="custom">Personalizado</option>
+          </select>
         </div>
-      </section>
-    </main>
+        <div class="filter-group date-group" id="date-from-group" hidden>
+          <label for="date-from">Desde</label>
+          <input type="date" id="date-from" />
+        </div>
+        <div class="filter-group date-group" id="date-to-group" hidden>
+          <label for="date-to">Hasta</label>
+          <input type="date" id="date-to" />
+        </div>
+        <div class="filter-group filter-group-grow">
+          <label>Categorías</label>
+          <div id="category-chips" class="chip-row"></div>
+        </div>
+        <button id="reset-filters" class="btn-ghost small" title="Reset filtros">Reset</button>
+      </div>
+    </section>
+
+    <section id="kpi-grid" class="kpi-grid"></section>
+
+    <section class="card section-card">
+      <header class="section-head">
+        <h2>Expenses</h2>
+        <span id="exp-count" class="muted"></span>
+      </header>
+      <div class="charts-grid">
+        <div class="chart-box">
+          <h3>Por categoría</h3>
+          <canvas id="exp-by-category"></canvas>
+        </div>
+        <div class="chart-box">
+          <h3>Tendencia mensual</h3>
+          <canvas id="exp-over-time"></canvas>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table id="exp-table">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card section-card">
+      <header class="section-head">
+        <h2>Incomes</h2>
+        <span id="inc-count" class="muted"></span>
+      </header>
+      <div class="charts-grid one">
+        <div class="chart-box">
+          <h3>Ingresos en el tiempo</h3>
+          <canvas id="inc-over-time"></canvas>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table id="inc-table">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card section-card">
+      <header class="section-head">
+        <h2>Fixed Expenses <span class="muted small">— mensuales recurrentes</span></h2>
+        <span id="fixed-total" class="muted"></span>
+      </header>
+      <div class="charts-grid one">
+        <div class="chart-box">
+          <h3>Por tipo</h3>
+          <canvas id="fixed-by-type"></canvas>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table id="fixed-table">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
 
     <footer class="muted">
-      Datos sincronizados desde Notion via GitHub Actions.
-      <a id="repo-link" href="#" target="_blank" rel="noreferrer">Repo</a>
+      Datos sincronizados desde Notion via GitHub Actions ·
+      <a id="repo-link" href="https://github.com/EliasCalixto/monitor" target="_blank" rel="noreferrer">repo</a>
     </footer>
 
     <div id="status"></div>

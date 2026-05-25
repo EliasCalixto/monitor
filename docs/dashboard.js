@@ -1,22 +1,45 @@
-const PALETTE = [
-  "#8dbad6", "#9bc2e7", "#8ea9db", "#abb9d4",
-  "#b9f5c4", "#fd9a9a", "#f8ccad", "#fef2cb",
-  "#c4a7e7", "#a7c4e7", "#e7a7c4", "#a7e7c4",
+const CATEGORY_COLORS = {
+  Savings: "#8dbad6",
+  Setup: "#9bc2e7",
+  Home: "#8ea9db",
+  Studies: "#abb9d4",
+  Enjoy: "#b9f5c4",
+  Losses: "#fd9a9a",
+  Fixed: "#f8ccad",
+  Cashout: "#fef2cb",
+};
+
+const CATEGORY_ORDER = [
+  "Savings",
+  "Setup",
+  "Home",
+  "Studies",
+  "Enjoy",
+  "Losses",
+  "Fixed",
+  "Cashout",
 ];
 
-const REPO_URL = "https://github.com/EliasCalixto/monitor";
+const FALLBACK_PALETTE = [
+  "#8dbad6", "#9bc2e7", "#8ea9db", "#abb9d4",
+  "#b9f5c4", "#fd9a9a", "#f8ccad", "#fef2cb",
+];
 
 const state = {
   data: null,
-  currentDb: null,
-  search: "",
-  sortKey: null,
-  sortDir: 1,
-  chart1: null,
-  chart2: null,
+  expenses: [],
+  incomes: [],
+  fixedExpenses: [],
+  selectedCategories: new Set(CATEGORY_ORDER),
+  period: "all",
+  dateFrom: null,
+  dateTo: null,
+  sort: { exp: { key: null, dir: -1 }, inc: { key: null, dir: -1 }, fix: { key: null, dir: -1 } },
+  charts: {},
 };
 
-const $ = (sel) => document.querySelector(sel);
+const $ = (s) => document.querySelector(s);
+const $$ = (s) => document.querySelectorAll(s);
 
 function setStatus(msg, isError = false) {
   const el = $("#status");
@@ -27,7 +50,34 @@ function setStatus(msg, isError = false) {
   el.textContent = msg;
   el.classList.toggle("error", isError);
   el.classList.add("show");
-  if (!isError) setTimeout(() => el.classList.remove("show"), 3500);
+  if (!isError) setTimeout(() => el.classList.remove("show"), 3000);
+}
+
+function fmtMoney(n) {
+  if (n == null || Number.isNaN(n)) return "—";
+  return n.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
+function fmtDate(d) {
+  if (!d) return "—";
+  const dt = d instanceof Date ? d : new Date(d);
+  if (Number.isNaN(dt.getTime())) return String(d);
+  return dt.toLocaleDateString();
+}
+
+function getRowDate(row, key) {
+  const v = row[key];
+  if (!v) return null;
+  const start = typeof v === "object" ? v.start : v;
+  if (!start) return null;
+  const d = new Date(start);
+  return Number.isNaN(d.getTime()) ? null : d;
+}
+
+function findDb(title) {
+  return (state.data?.databases || []).find(
+    (d) => (d.title || "").toLowerCase() === title.toLowerCase(),
+  );
 }
 
 async function loadData() {
@@ -35,439 +85,533 @@ async function loadData() {
   try {
     const res = await fetch(`./data.json?ts=${Date.now()}`, { cache: "no-store" });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
-    state.data = data;
+    state.data = await res.json();
     onDataReady();
     setStatus("");
   } catch (e) {
     console.error(e);
     setStatus(
-      "No se pudo cargar data.json. ¿Ya corrió el workflow 'Sync Notion data'? Ve a Actions y ejecútalo manualmente la primera vez.",
+      "No se pudo cargar data.json. ¿Ya corrió el workflow 'Sync Notion data'?",
       true,
     );
   }
 }
 
 function onDataReady() {
-  const { databases, generated_at } = state.data;
+  const { generated_at, databases } = state.data;
   if (generated_at) {
-    const d = new Date(generated_at);
-    $("#generated-at").textContent = `Actualizado ${d.toLocaleString()}`;
+    $("#generated-at").textContent = `Actualizado ${new Date(generated_at).toLocaleString()}`;
   }
-  const dbSelect = $("#db-select");
-  dbSelect.innerHTML = "";
-  if (!databases || databases.length === 0) {
-    setStatus("No se encontraron databases en la página Monitor.", true);
-    return;
+
+  const expDb = findDb("Expenses");
+  const incDb = findDb("Incomes");
+  const fixDb = findDb("Fixed Expenses");
+
+  if (!expDb || !incDb || !fixDb) {
+    const missing = [
+      !expDb && "Expenses",
+      !incDb && "Incomes",
+      !fixDb && "Fixed Expenses",
+    ].filter(Boolean).join(", ");
+    setStatus(`Faltan databases: ${missing}`, true);
   }
-  databases.forEach((db, i) => {
-    const opt = document.createElement("option");
-    opt.value = String(i);
-    opt.textContent = db.title || "Untitled";
-    dbSelect.appendChild(opt);
-  });
-  dbSelect.onchange = () => selectDb(Number(dbSelect.value));
-  selectDb(0);
+
+  state.expenses = (expDb?.rows || []).map((r) => ({
+    id: r._id,
+    url: r._url,
+    name: r.Name || "",
+    category: r.Category || "—",
+    date: getRowDate(r, "Date Created"),
+    price: typeof r.Price === "number" ? r.Price : 0,
+  }));
+
+  state.incomes = (incDb?.rows || []).map((r) => ({
+    id: r._id,
+    url: r._url,
+    name: r.Name || "",
+    date: getRowDate(r, "Date Received"),
+    income: typeof r.Income === "number" ? r.Income : 0,
+  }));
+
+  state.fixedExpenses = (fixDb?.rows || []).map((r) => ({
+    id: r._id,
+    url: r._url,
+    name: r.Name || "",
+    type: r.Type || "—",
+    price: typeof r.Price === "number" ? r.Price : 0,
+  }));
+
+  buildCategoryChips();
+  applyAndRender();
 }
 
-function selectDb(index) {
-  state.currentDb = state.data.databases[index];
-  state.sortKey = null;
-  state.sortDir = 1;
-  state.search = "";
-  $("#search").value = "";
-  renderAll();
-}
+function buildCategoryChips() {
+  const present = new Set(state.expenses.map((e) => e.category).filter(Boolean));
+  const ordered = [
+    ...CATEGORY_ORDER.filter((c) => present.has(c)),
+    ...[...present].filter((c) => !CATEGORY_ORDER.includes(c)),
+  ];
+  state.selectedCategories = new Set(ordered);
 
-function isNumericField(db, key) {
-  const t = db.schema[key];
-  return t === "number" || t === "formula" || t === "rollup" || t === "unique_id";
-}
-
-function isCategoricalField(db, key) {
-  const t = db.schema[key];
-  return t === "select" || t === "status" || t === "multi_select";
-}
-
-function isDateField(db, key) {
-  const t = db.schema[key];
-  return t === "date" || t === "created_time" || t === "last_edited_time";
-}
-
-function getValue(row, key) {
-  const v = row[key];
-  if (v && typeof v === "object" && !Array.isArray(v) && "start" in v) {
-    return v.start;
+  const wrap = $("#category-chips");
+  wrap.innerHTML = "";
+  for (const cat of ordered) {
+    const chip = document.createElement("button");
+    chip.type = "button";
+    chip.className = "chip";
+    chip.dataset.cat = cat;
+    chip.textContent = cat;
+    chip.style.background = CATEGORY_COLORS[cat] || "#cccccc";
+    chip.addEventListener("click", () => {
+      if (state.selectedCategories.has(cat)) {
+        state.selectedCategories.delete(cat);
+        chip.classList.add("off");
+      } else {
+        state.selectedCategories.add(cat);
+        chip.classList.remove("off");
+      }
+      applyAndRender();
+    });
+    wrap.appendChild(chip);
   }
-  return v;
 }
 
-function getNumeric(row, key) {
-  const v = getValue(row, key);
-  if (typeof v === "number") return v;
-  if (typeof v === "string" && v.trim() !== "") {
-    const n = Number(v);
-    if (!Number.isNaN(n)) return n;
-  }
-  return null;
-}
-
-function getDate(row, key) {
-  const v = getValue(row, key);
-  if (!v) return null;
-  const d = new Date(v);
-  return Number.isNaN(d.getTime()) ? null : d;
-}
-
-function formatCell(value, type) {
-  if (value === null || value === undefined || value === "") return "—";
-  if (Array.isArray(value)) {
-    if (value.length === 0) return "—";
-    if (typeof value[0] === "object" && value[0] !== null && "url" in value[0]) {
-      return value
-        .map((f) => `<a href="${f.url}" target="_blank" rel="noreferrer">${escapeHtml(f.name || "file")}</a>`)
-        .join(", ");
+function computePeriod() {
+  const now = new Date();
+  const start = new Date(now.getFullYear(), now.getMonth(), 1);
+  switch (state.period) {
+    case "this-month":
+      return { from: start, to: null };
+    case "last-month": {
+      const from = new Date(now.getFullYear(), now.getMonth() - 1, 1);
+      const to = new Date(now.getFullYear(), now.getMonth(), 0, 23, 59, 59);
+      return { from, to };
     }
-    return value.map((v) => `<span class="tag">${escapeHtml(String(v))}</span>`).join("");
+    case "3m":
+      return { from: new Date(now.getFullYear(), now.getMonth() - 2, 1), to: null };
+    case "6m":
+      return { from: new Date(now.getFullYear(), now.getMonth() - 5, 1), to: null };
+    case "year":
+      return { from: new Date(now.getFullYear(), 0, 1), to: null };
+    case "custom":
+      return {
+        from: state.dateFrom ? new Date(state.dateFrom) : null,
+        to: state.dateTo ? new Date(`${state.dateTo}T23:59:59`) : null,
+      };
+    case "all":
+    default:
+      return { from: null, to: null };
   }
-  if (typeof value === "object") {
-    if ("start" in value) {
-      const s = value.start ? new Date(value.start).toLocaleDateString() : "";
-      const e = value.end ? ` → ${new Date(value.end).toLocaleDateString()}` : "";
-      return `${s}${e}`;
-    }
-    return escapeHtml(JSON.stringify(value));
-  }
-  if (typeof value === "boolean") {
-    return value
-      ? `<span class="checkbox-true">✓</span>`
-      : `<span class="checkbox-false">·</span>`;
-  }
-  if (typeof value === "number") {
-    return value.toLocaleString(undefined, { maximumFractionDigits: 2 });
-  }
-  if (type === "url" && typeof value === "string" && value.startsWith("http")) {
-    return `<a href="${value}" target="_blank" rel="noreferrer">${escapeHtml(value)}</a>`;
-  }
-  if (type === "email" && typeof value === "string") {
-    return `<a href="mailto:${value}">${escapeHtml(value)}</a>`;
-  }
-  if (typeof value === "string" && (type === "created_time" || type === "last_edited_time")) {
-    return new Date(value).toLocaleString();
-  }
-  return escapeHtml(String(value));
 }
 
-function escapeHtml(s) {
-  return s
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;");
+function inPeriod(date, from, to) {
+  if (!date) return false;
+  if (from && date < from) return false;
+  if (to && date > to) return false;
+  return true;
 }
 
-function renderAll() {
-  renderKpis();
-  renderChart1();
-  renderChart2();
-  renderTable();
+function applyAndRender() {
+  const { from, to } = computePeriod();
+  const filteredExpenses = state.expenses.filter(
+    (e) => inPeriod(e.date, from, to) && state.selectedCategories.has(e.category),
+  );
+  const filteredIncomes = state.incomes.filter((i) => inPeriod(i.date, from, to));
+
+  renderKpis(filteredExpenses, filteredIncomes);
+  renderExpenseByCategory(filteredExpenses);
+  renderExpenseOverTime(filteredExpenses);
+  renderExpenseTable(filteredExpenses);
+
+  renderIncomeOverTime(filteredIncomes);
+  renderIncomeTable(filteredIncomes);
+
+  renderFixedExpenses();
 }
 
-function renderKpis() {
-  const db = state.currentDb;
+function renderKpis(expenses, incomes) {
+  const totalExp = expenses.reduce((s, e) => s + e.price, 0);
+  const totalInc = incomes.reduce((s, i) => s + i.income, 0);
+  const totalFixed = state.fixedExpenses.reduce((s, f) => s + f.price, 0);
+  const net = totalInc - totalExp;
+
   const grid = $("#kpi-grid");
   grid.innerHTML = "";
 
-  const rows = db.rows;
-  const cards = [];
-  cards.push(kpiCard("Filas", rows.length.toLocaleString(), db.title));
-
-  const numericKeys = Object.keys(db.schema).filter((k) => isNumericField(db, k));
-  for (const key of numericKeys.slice(0, 5)) {
-    let sum = 0;
-    let count = 0;
-    for (const r of rows) {
-      const n = getNumeric(r, key);
-      if (n !== null) {
-        sum += n;
-        count += 1;
-      }
-    }
-    const avg = count ? sum / count : 0;
-    cards.push(
-      kpiCard(
-        `Σ ${key}`,
-        sum.toLocaleString(undefined, { maximumFractionDigits: 2 }),
-        `prom ${avg.toLocaleString(undefined, { maximumFractionDigits: 2 })} (${count})`,
-      ),
-    );
-  }
-
-  if (numericKeys.length === 0) {
-    const catKeys = Object.keys(db.schema).filter((k) => isCategoricalField(db, k));
-    for (const key of catKeys.slice(0, 3)) {
-      const counts = new Map();
-      for (const r of rows) {
-        const v = r[key];
-        const items = Array.isArray(v) ? v : v ? [v] : [];
-        for (const it of items) counts.set(it, (counts.get(it) || 0) + 1);
-      }
-      const top = [...counts.entries()].sort((a, b) => b[1] - a[1])[0];
-      cards.push(kpiCard(key, top ? top[0] : "—", top ? `${top[1]} filas` : ""));
-    }
-  }
-
-  for (const c of cards) grid.appendChild(c);
+  grid.appendChild(
+    kpiCard("Ingresos", fmtMoney(totalInc), `${incomes.length} entradas`, "income", "positive"),
+  );
+  grid.appendChild(
+    kpiCard("Gastos", fmtMoney(totalExp), `${expenses.length} gastos`, "expense", "negative"),
+  );
+  grid.appendChild(
+    kpiCard("Neto", fmtMoney(net), net >= 0 ? "superávit" : "déficit", "net", net >= 0 ? "positive" : "negative"),
+  );
+  grid.appendChild(
+    kpiCard("Gastos fijos", fmtMoney(totalFixed), `${state.fixedExpenses.length} recurrentes`, "fixed", ""),
+  );
 }
 
-function kpiCard(label, value, sub) {
+function kpiCard(label, value, sub, klass, valClass) {
   const el = document.createElement("div");
-  el.className = "kpi";
+  el.className = `kpi ${klass || ""}`;
   el.innerHTML = `
-    <div class="kpi-label">${escapeHtml(label)}</div>
-    <div class="kpi-value">${escapeHtml(String(value))}</div>
-    ${sub ? `<div class="kpi-sub">${escapeHtml(sub)}</div>` : ""}
+    <div class="kpi-label">${label}</div>
+    <div class="kpi-value ${valClass || ""}">${value}</div>
+    ${sub ? `<div class="kpi-sub">${sub}</div>` : ""}
   `;
   return el;
 }
 
-function populateSelect(sel, options, defaultValue) {
-  sel.innerHTML = "";
-  for (const opt of options) {
-    const o = document.createElement("option");
-    o.value = opt;
-    o.textContent = opt;
-    sel.appendChild(o);
-  }
-  if (defaultValue && options.includes(defaultValue)) {
-    sel.value = defaultValue;
-  } else if (options.length > 0) {
-    sel.value = options[0];
+function destroyChart(key) {
+  if (state.charts[key]) {
+    state.charts[key].destroy();
+    state.charts[key] = null;
   }
 }
 
-function renderChart1() {
-  const db = state.currentDb;
-  const sel = $("#chart1-field");
-  const candidates = Object.keys(db.schema).filter(
-    (k) => isCategoricalField(db, k) || isNumericField(db, k),
-  );
-  if (candidates.length === 0) {
-    if (state.chart1) state.chart1.destroy();
-    $("#chart1-title").textContent = "Sin columnas para graficar";
-    return;
-  }
-  const current = sel.value && candidates.includes(sel.value) ? sel.value : candidates[0];
-  populateSelect(sel, candidates, current);
-  sel.onchange = () => drawChart1(sel.value);
-  drawChart1(current);
-}
+function renderExpenseByCategory(expenses) {
+  destroyChart("expByCat");
+  const totals = new Map();
+  for (const e of expenses) totals.set(e.category, (totals.get(e.category) || 0) + e.price);
+  const present = [...totals.keys()].sort((a, b) => {
+    const ia = CATEGORY_ORDER.indexOf(a);
+    const ib = CATEGORY_ORDER.indexOf(b);
+    if (ia === -1 && ib === -1) return a.localeCompare(b);
+    if (ia === -1) return 1;
+    if (ib === -1) return -1;
+    return ia - ib;
+  });
+  const labels = present;
+  const values = labels.map((l) => totals.get(l));
+  const colors = labels.map((l, i) => CATEGORY_COLORS[l] || FALLBACK_PALETTE[i % FALLBACK_PALETTE.length]);
 
-function drawChart1(key) {
-  const db = state.currentDb;
-  const counts = new Map();
-  const numeric = isNumericField(db, key);
-
-  if (numeric) {
-    const numericKeys = Object.keys(db.schema).filter(
-      (k) => isCategoricalField(db, k),
-    );
-    const groupBy = numericKeys[0];
-    if (groupBy) {
-      for (const r of db.rows) {
-        const v = r[groupBy];
-        const items = Array.isArray(v) ? v : v ? [v] : ["(sin valor)"];
-        const num = getNumeric(r, key) || 0;
-        for (const it of items) {
-          counts.set(it, (counts.get(it) || 0) + num);
-        }
-      }
-      $("#chart1-title").textContent = `Σ ${key} por ${groupBy}`;
-    } else {
-      const numericVals = db.rows.map((r) => getNumeric(r, key)).filter((v) => v !== null);
-      const bins = 8;
-      if (numericVals.length === 0) {
-        $("#chart1-title").textContent = `${key} — sin datos`;
-      } else {
-        const min = Math.min(...numericVals);
-        const max = Math.max(...numericVals);
-        const step = (max - min) / bins || 1;
-        for (let i = 0; i < bins; i++) {
-          const lo = min + i * step;
-          const hi = lo + step;
-          const label = `${lo.toFixed(1)}–${hi.toFixed(1)}`;
-          counts.set(label, numericVals.filter((v) => v >= lo && (i === bins - 1 ? v <= hi : v < hi)).length);
-        }
-        $("#chart1-title").textContent = `Distribución de ${key}`;
-      }
-    }
-  } else {
-    for (const r of db.rows) {
-      const v = r[key];
-      const items = Array.isArray(v) ? v : v != null && v !== "" ? [v] : ["(sin valor)"];
-      for (const it of items) counts.set(it, (counts.get(it) || 0) + 1);
-    }
-    $("#chart1-title").textContent = `Distribución de ${key}`;
-  }
-
-  const entries = [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12);
-  const labels = entries.map((e) => String(e[0]));
-  const values = entries.map((e) => e[1]);
-  const colors = labels.map((_, i) => PALETTE[i % PALETTE.length]);
-
-  if (state.chart1) state.chart1.destroy();
-  const ctx = document.getElementById("chart1");
-  state.chart1 = new Chart(ctx, {
-    type: labels.length > 6 ? "bar" : "doughnut",
+  const ctx = document.getElementById("exp-by-category");
+  state.charts.expByCat = new Chart(ctx, {
+    type: "doughnut",
     data: { labels, datasets: [{ data: values, backgroundColor: colors, borderWidth: 0 }] },
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      cutout: "62%",
       plugins: {
-        legend: { position: labels.length > 6 ? "none" : "right", labels: { font: { size: 11 } } },
+        legend: { position: "right", labels: { font: { size: 12 }, boxWidth: 14, padding: 10 } },
+        tooltip: {
+          callbacks: {
+            label: (c) => `${c.label}: ${fmtMoney(c.parsed)} (${((c.parsed / values.reduce((a, b) => a + b, 0)) * 100).toFixed(1)}%)`,
+          },
+        },
       },
-      scales: labels.length > 6 ? { y: { beginAtZero: true } } : {},
     },
   });
 }
 
-function renderChart2() {
-  const db = state.currentDb;
-  const selDate = $("#chart2-date");
-  const selValue = $("#chart2-value");
-  const dateKeys = Object.keys(db.schema).filter((k) => isDateField(db, k));
-  const numKeys = Object.keys(db.schema).filter((k) => isNumericField(db, k));
-
-  if (dateKeys.length === 0 || numKeys.length === 0) {
-    if (state.chart2) state.chart2.destroy();
-    $("#chart2-title").textContent = "Necesita columna de fecha + número";
-    selDate.innerHTML = "";
-    selValue.innerHTML = "";
-    return;
-  }
-  populateSelect(selDate, dateKeys, selDate.value);
-  populateSelect(selValue, numKeys, selValue.value);
-  selDate.onchange = () => drawChart2(selDate.value, selValue.value);
-  selValue.onchange = () => drawChart2(selDate.value, selValue.value);
-  drawChart2(selDate.value, selValue.value);
+function monthKey(d) {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
 }
 
-function drawChart2(dateKey, valueKey) {
-  const db = state.currentDb;
-  const points = [];
-  for (const r of db.rows) {
-    const d = getDate(r, dateKey);
-    const v = getNumeric(r, valueKey);
-    if (d && v !== null) points.push({ x: d, y: v });
+function renderExpenseOverTime(expenses) {
+  destroyChart("expOverTime");
+  const byMonth = new Map();
+  for (const e of expenses) {
+    if (!e.date) continue;
+    const k = monthKey(e.date);
+    if (!byMonth.has(k)) byMonth.set(k, {});
+    byMonth.get(k)[e.category] = (byMonth.get(k)[e.category] || 0) + e.price;
   }
-  points.sort((a, b) => a.x - b.x);
+  const months = [...byMonth.keys()].sort();
+  const cats = [...new Set(expenses.map((e) => e.category))].sort((a, b) => {
+    const ia = CATEGORY_ORDER.indexOf(a);
+    const ib = CATEGORY_ORDER.indexOf(b);
+    return (ia === -1 ? 999 : ia) - (ib === -1 ? 999 : ib);
+  });
 
-  $("#chart2-title").textContent = `${valueKey} vs ${dateKey}`;
-  if (state.chart2) state.chart2.destroy();
-  const ctx = document.getElementById("chart2");
-  state.chart2 = new Chart(ctx, {
-    type: "line",
+  const datasets = cats.map((cat, i) => ({
+    label: cat,
+    data: months.map((m) => byMonth.get(m)[cat] || 0),
+    backgroundColor: CATEGORY_COLORS[cat] || FALLBACK_PALETTE[i % FALLBACK_PALETTE.length],
+    borderColor: CATEGORY_COLORS[cat] || FALLBACK_PALETTE[i % FALLBACK_PALETTE.length],
+    borderWidth: 0,
+  }));
+
+  const ctx = document.getElementById("exp-over-time");
+  state.charts.expOverTime = new Chart(ctx, {
+    type: "bar",
+    data: { labels: months, datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { position: "bottom", labels: { boxWidth: 12, font: { size: 11 } } },
+        tooltip: { callbacks: { label: (c) => `${c.dataset.label}: ${fmtMoney(c.parsed.y)}` } },
+      },
+      scales: {
+        x: { stacked: true, grid: { display: false } },
+        y: { stacked: true, ticks: { callback: (v) => fmtMoney(v) } },
+      },
+    },
+  });
+}
+
+function sortRows(rows, key, dir, getters) {
+  if (!key) return rows;
+  const get = getters[key];
+  return [...rows].sort((a, b) => {
+    const va = get(a);
+    const vb = get(b);
+    if (va == null && vb == null) return 0;
+    if (va == null) return 1;
+    if (vb == null) return -1;
+    if (va instanceof Date && vb instanceof Date) return (va - vb) * dir;
+    if (typeof va === "number" && typeof vb === "number") return (va - vb) * dir;
+    return String(va).localeCompare(String(vb)) * dir;
+  });
+}
+
+function buildSortableTable(tableSel, sortKey, columns, rows, getters, opts = {}) {
+  const sortState = state.sort[sortKey];
+  const sorted = sortRows(rows, sortState.key, sortState.dir, getters);
+
+  const thead = $(`${tableSel} thead`);
+  const tbody = $(`${tableSel} tbody`);
+
+  thead.innerHTML =
+    "<tr>" +
+    columns
+      .map((col) => {
+        let cls = "";
+        if (sortState.key === col.key) cls = sortState.dir === 1 ? "sorted-asc" : "sorted-desc";
+        if (col.num) cls += " num";
+        return `<th data-key="${col.key}" class="${cls.trim()}">${col.label}</th>`;
+      })
+      .join("") +
+    "</tr>";
+
+  tbody.innerHTML = sorted
+    .map(
+      (r) =>
+        "<tr>" +
+        columns.map((col) => `<td class="${col.num ? "num" : ""}">${col.render(r)}</td>`).join("") +
+        "</tr>",
+    )
+    .join("");
+
+  thead.querySelectorAll("th").forEach((th) => {
+    th.onclick = () => {
+      const k = th.dataset.key;
+      if (sortState.key === k) sortState.dir = -sortState.dir;
+      else {
+        sortState.key = k;
+        sortState.dir = 1;
+      }
+      applyAndRender();
+    };
+  });
+
+  if (opts.countEl) {
+    $(opts.countEl).textContent = `${sorted.length} ${opts.countLabel || "filas"}`;
+  }
+}
+
+function renderExpenseTable(expenses) {
+  const getters = {
+    date: (r) => r.date,
+    name: (r) => r.name,
+    category: (r) => r.category,
+    price: (r) => r.price,
+  };
+  const columns = [
+    { key: "date", label: "Fecha", num: false, render: (r) => fmtDate(r.date) },
+    {
+      key: "category",
+      label: "Categoría",
+      num: false,
+      render: (r) => {
+        const color = CATEGORY_COLORS[r.category] || "#dddddd";
+        return `<span class="category-tag" style="background:${color}">${escapeHtml(r.category)}</span>`;
+      },
+    },
+    {
+      key: "name",
+      label: "Nombre",
+      num: false,
+      render: (r) =>
+        r.url
+          ? `<a href="${r.url}" target="_blank" rel="noreferrer">${escapeHtml(r.name)}</a>`
+          : escapeHtml(r.name),
+    },
+    { key: "price", label: "Precio", num: true, render: (r) => fmtMoney(r.price) },
+  ];
+  buildSortableTable("#exp-table", "exp", columns, expenses, getters, {
+    countEl: "#exp-count",
+    countLabel: "gastos",
+  });
+}
+
+function renderIncomeOverTime(incomes) {
+  destroyChart("incOverTime");
+  const byMonth = new Map();
+  for (const i of incomes) {
+    if (!i.date) continue;
+    const k = monthKey(i.date);
+    byMonth.set(k, (byMonth.get(k) || 0) + i.income);
+  }
+  const months = [...byMonth.keys()].sort();
+  const values = months.map((m) => byMonth.get(m));
+
+  const ctx = document.getElementById("inc-over-time");
+  state.charts.incOverTime = new Chart(ctx, {
+    type: "bar",
     data: {
-      labels: points.map((p) => p.x.toLocaleDateString()),
+      labels: months,
       datasets: [
         {
-          label: valueKey,
-          data: points.map((p) => p.y),
-          borderColor: "#0071e3",
-          backgroundColor: "rgba(0,113,227,0.12)",
-          fill: true,
-          tension: 0.3,
-          pointRadius: 3,
+          label: "Ingresos",
+          data: values,
+          backgroundColor: "#b9f5c4",
+          borderRadius: 4,
         },
       ],
     },
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      plugins: { legend: { display: false } },
-      scales: { y: { beginAtZero: false } },
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: (c) => fmtMoney(c.parsed.y) } },
+      },
+      scales: {
+        x: { grid: { display: false } },
+        y: { ticks: { callback: (v) => fmtMoney(v) } },
+      },
     },
   });
 }
 
-function renderTable() {
-  const db = state.currentDb;
-  const thead = $("#data-table thead");
-  const tbody = $("#data-table tbody");
-  const keys = Object.keys(db.schema);
-  const q = state.search.toLowerCase();
-
-  let rows = db.rows;
-  if (q) {
-    rows = rows.filter((r) =>
-      keys.some((k) => {
-        const v = r[k];
-        if (v == null) return false;
-        return JSON.stringify(v).toLowerCase().includes(q);
-      }),
-    );
-  }
-  if (state.sortKey) {
-    const k = state.sortKey;
-    const dir = state.sortDir;
-    rows = [...rows].sort((a, b) => {
-      const va = getValue(a, k);
-      const vb = getValue(b, k);
-      if (va == null && vb == null) return 0;
-      if (va == null) return 1;
-      if (vb == null) return -1;
-      if (typeof va === "number" && typeof vb === "number") return (va - vb) * dir;
-      return String(va).localeCompare(String(vb)) * dir;
-    });
-  }
-
-  thead.innerHTML =
-    "<tr>" +
-    keys
-      .map((k) => {
-        let cls = "";
-        if (state.sortKey === k) cls = state.sortDir === 1 ? "sorted-asc" : "sorted-desc";
-        return `<th data-key="${escapeHtml(k)}" class="${cls}">${escapeHtml(k)}</th>`;
-      })
-      .join("") +
-    "</tr>";
-
-  tbody.innerHTML = rows
-    .map(
-      (r) =>
-        "<tr>" +
-        keys
-          .map((k) => {
-            const numeric = isNumericField(db, k);
-            return `<td class="${numeric ? "num" : ""}">${formatCell(r[k], db.schema[k])}</td>`;
-          })
-          .join("") +
-        "</tr>",
-    )
-    .join("");
-
-  $("#row-count").textContent = `${rows.length} de ${db.rows.length} filas`;
-
-  thead.querySelectorAll("th").forEach((th) => {
-    th.onclick = () => {
-      const k = th.dataset.key;
-      if (state.sortKey === k) state.sortDir = -state.sortDir;
-      else {
-        state.sortKey = k;
-        state.sortDir = 1;
-      }
-      renderTable();
-    };
+function renderIncomeTable(incomes) {
+  const getters = {
+    date: (r) => r.date,
+    name: (r) => r.name,
+    income: (r) => r.income,
+  };
+  const columns = [
+    { key: "date", label: "Fecha", num: false, render: (r) => fmtDate(r.date) },
+    {
+      key: "name",
+      label: "Nombre",
+      num: false,
+      render: (r) =>
+        r.url
+          ? `<a href="${r.url}" target="_blank" rel="noreferrer">${escapeHtml(r.name)}</a>`
+          : escapeHtml(r.name),
+    },
+    { key: "income", label: "Ingreso", num: true, render: (r) => fmtMoney(r.income) },
+  ];
+  buildSortableTable("#inc-table", "inc", columns, incomes, getters, {
+    countEl: "#inc-count",
+    countLabel: "ingresos",
   });
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  $("#repo-link").href = REPO_URL;
-  $("#refresh").onclick = loadData;
-  $("#search").addEventListener("input", (e) => {
-    state.search = e.target.value;
-    renderTable();
+function renderFixedExpenses() {
+  destroyChart("fixByType");
+  const totals = new Map();
+  for (const f of state.fixedExpenses) totals.set(f.type, (totals.get(f.type) || 0) + f.price);
+  const labels = [...totals.keys()];
+  const values = labels.map((l) => totals.get(l));
+  const colors = labels.map((_, i) => FALLBACK_PALETTE[i % FALLBACK_PALETTE.length]);
+
+  const ctx = document.getElementById("fixed-by-type");
+  state.charts.fixByType = new Chart(ctx, {
+    type: "bar",
+    data: {
+      labels,
+      datasets: [{ label: "Total", data: values, backgroundColor: colors, borderRadius: 4 }],
+    },
+    options: {
+      indexAxis: "y",
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: (c) => fmtMoney(c.parsed.x) } },
+      },
+      scales: {
+        x: { ticks: { callback: (v) => fmtMoney(v) } },
+        y: { grid: { display: false } },
+      },
+    },
   });
+
+  const total = state.fixedExpenses.reduce((s, f) => s + f.price, 0);
+  $("#fixed-total").textContent = `Total mensual: ${fmtMoney(total)}`;
+
+  const getters = {
+    name: (r) => r.name,
+    type: (r) => r.type,
+    price: (r) => r.price,
+  };
+  const columns = [
+    { key: "type", label: "Tipo", num: false, render: (r) => escapeHtml(r.type) },
+    {
+      key: "name",
+      label: "Nombre",
+      num: false,
+      render: (r) =>
+        r.url
+          ? `<a href="${r.url}" target="_blank" rel="noreferrer">${escapeHtml(r.name)}</a>`
+          : escapeHtml(r.name),
+    },
+    { key: "price", label: "Precio", num: true, render: (r) => fmtMoney(r.price) },
+  ];
+  buildSortableTable("#fixed-table", "fix", columns, state.fixedExpenses, getters);
+}
+
+function escapeHtml(s) {
+  return String(s ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
+}
+
+function attachFilterListeners() {
+  $("#period").addEventListener("change", (e) => {
+    state.period = e.target.value;
+    const showCustom = state.period === "custom";
+    $("#date-from-group").hidden = !showCustom;
+    $("#date-to-group").hidden = !showCustom;
+    applyAndRender();
+  });
+  $("#date-from").addEventListener("change", (e) => {
+    state.dateFrom = e.target.value || null;
+    applyAndRender();
+  });
+  $("#date-to").addEventListener("change", (e) => {
+    state.dateTo = e.target.value || null;
+    applyAndRender();
+  });
+  $("#reset-filters").addEventListener("click", () => {
+    state.period = "all";
+    state.dateFrom = null;
+    state.dateTo = null;
+    $("#period").value = "all";
+    $("#date-from").value = "";
+    $("#date-to").value = "";
+    $("#date-from-group").hidden = true;
+    $("#date-to-group").hidden = true;
+    state.selectedCategories = new Set(CATEGORY_ORDER);
+    $$("#category-chips .chip").forEach((c) => c.classList.remove("off"));
+    state.selectedCategories = new Set(
+      [...$$("#category-chips .chip")].map((c) => c.dataset.cat),
+    );
+    applyAndRender();
+  });
+  $("#refresh").addEventListener("click", loadData);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  attachFilterListeners();
   const tryLoad = () => {
     if (typeof Chart === "undefined") {
       setTimeout(tryLoad, 50);
