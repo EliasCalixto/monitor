@@ -2,7 +2,7 @@
   --bg: #f5f5f7;
   --card: #ffffff;
   --text: #1d1d1f;
-  --text-soft: #2c2c2e; /* a touch lighter — for KPI values and table content */
+  --text-soft: #4a4a4d; /* lighter body text — KPI values, table content, expense names */
   --muted: #86868b;
   --border: #e5e5ea;
   --accent: #0071e3;
@@ -76,31 +76,47 @@ body {
   gap: 8px;
 }
 
-.logo {
-  flex-shrink: 0;
-  display: block;
-}
+/* ---------- GitHub-style buttons ---------- */
 
-#sync-trigger {
+.btn-sync {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 6px;
-  text-decoration: none;
-  background-image: none;
-  padding-bottom: 6px;
+  height: 32px;
+  padding: 0 14px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 500;
+  font-family: inherit;
+  text-decoration: none !important;
+  background-image: none !important;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.12s ease, border-color 0.12s ease;
 }
 
-.sync-label-short {
-  display: none;
+.btn-sync:hover {
+  background: var(--hover-bg);
+  border-color: var(--hover-border);
+  color: var(--text);
 }
 
-@media (max-width: 720px) {
-  .sync-label-full {
-    display: none;
-  }
-  .sync-label-short {
-    display: inline;
-  }
+.btn-sync:active {
+  background: var(--border);
+}
+
+.btn-sync svg {
+  flex-shrink: 0;
+  opacity: 0.75;
+}
+
+.btn-sync.btn-icon {
+  padding: 0;
+  width: 32px;
 }
 
 .topbar h1 {
@@ -108,6 +124,16 @@ body {
   font-size: 22px;
   font-weight: 600;
   letter-spacing: -0.02em;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  flex-shrink: 0;
+  display: block;
+  width: 24px;
+  height: 24px;
 }
 
 .muted {
@@ -373,8 +399,7 @@ body > section.filters {
 .section-card {
   padding: 0;
   overflow: hidden;
-  margin-left: 32px;
-  margin-right: 32px;
+  /* margin-left/right come from `body > section` (auto -> centered). */
 }
 
 .section-head {
@@ -504,7 +529,7 @@ td a,
 footer a {
   color: var(--text-soft);
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 400;
   background-image: linear-gradient(to right, var(--border), var(--border));
   background-position: 0 100%;
   background-size: 100% 1px;
@@ -617,6 +642,13 @@ footer {
   #generated-at {
     font-size: 11px;
     flex-basis: 100%;
+  }
+  .sync-label {
+    display: none;
+  }
+  #sync-trigger {
+    padding: 0;
+    width: 32px;
   }
 
   .resumen-block {
