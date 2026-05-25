@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T15:43:35.759609+00:00",
+  "generated_at": "2026-05-25T17:23:12.930262+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 4349.450000000001,
-          "Tot. Expenses": 262276.8349999998,
+          "Tot. Expenses": 262281.3349999998,
           "Total Papa": 5368.75,
           "Tot. Savings": 12600,
           "SumIngresosPapa": 9718.2,
@@ -121,7 +121,7 @@
             "35ee6c72-cc72-8001-84e0-f30c8203feec",
             "35fe6c72-cc72-8009-8db5-fe64d50af83e"
           ],
-          "Cash": -51.4449999998,
+          "Cash": -55.9449999998,
           "Tot. Income": 262225.39,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -150,7 +150,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 5317.305000000199,
+          "Cash Total": 5312.805000000199,
           "Name": "Resumen"
         }
       ]
@@ -914,6 +914,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "36be6c72-cc72-809b-a096-c4f4f313fb75",
+          "_url": "https://www.notion.so/desayuno-y-pasajes-1-36be6c72cc72809ba096c4f4f313fb75",
+          "_created": "2026-05-25T16:38:00.000Z",
+          "_edited": "2026-05-25T16:38:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-05-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 4.5,
+          "Name": "desayuno y pasajes 1"
+        },
         {
           "_id": "36be6c72-cc72-807c-847c-f412050d438b",
           "_url": "https://www.notion.so/amalia-36be6c72cc72807c847cf412050d438b",
@@ -8817,9 +8834,9 @@
           "_id": "350e6c72-cc72-8069-b276-fe69c8b3bf73",
           "_url": "https://www.notion.so/Claude-350e6c72cc728069b276fe69c8b3bf73",
           "_created": "2026-04-28T02:31:00.000Z",
-          "_edited": "2026-05-25T14:13:00.000Z",
+          "_edited": "2026-05-25T16:37:00.000Z",
           "Type": "Auto",
-          "Price": 80,
+          "Price": 80.24,
           "Name": "Claude"
         },
         {
