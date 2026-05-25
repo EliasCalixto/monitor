@@ -48,11 +48,14 @@
           <label for="date-to">To</label>
           <input type="date" id="date-to" />
         </div>
-        <div class="filter-group filter-group-grow">
-          <label>Categories</label>
+        <div class="filter-spacer"></div>
+        <button id="reset-filters" class="btn-ghost small" title="Reset filters">Reset</button>
+      </div>
+      <div class="filter-row chips-row">
+        <div class="filter-group filter-group-full">
+          <label>Categories <span class="muted small">— click to focus</span></label>
           <div id="category-chips" class="chip-row"></div>
         </div>
-        <button id="reset-filters" class="btn-ghost small" title="Reset filters">Reset</button>
       </div>
     </section>
 

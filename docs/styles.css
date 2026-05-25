@@ -183,10 +183,22 @@ body > section.filters {
   gap: 16px;
 }
 
+.filter-row + .filter-row {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+.filter-spacer {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
 .filter-group {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 5px;
+  min-width: 0;
 }
 
 .filter-group label {
@@ -197,9 +209,27 @@ body > section.filters {
   font-weight: 500;
 }
 
-.filter-group-grow {
-  flex: 1 1 320px;
-  min-width: 280px;
+.filter-group-full {
+  flex: 1 1 100%;
+}
+
+.filter-row > .btn-ghost {
+  /* keep Reset aligned to the bottom of the inputs, not their labels */
+  align-self: flex-end;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.filters.card select,
+.filters.card input[type="date"] {
+  height: 32px;
+  min-width: 160px;
+}
+
+.chips-row {
+  width: 100%;
 }
 
 .chip-row {
@@ -213,22 +243,36 @@ body > section.filters {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 4px 12px;
+  padding: 5px 14px;
   border-radius: 999px;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
   user-select: none;
   border: 1.5px solid transparent;
-  transition: opacity 0.15s ease, transform 0.05s ease;
+  transition: opacity 0.15s ease, transform 0.05s ease, box-shadow 0.15s ease;
   color: #1d1d1f;
+  letter-spacing: 0.01em;
+}
+
+.chip:not(.off) {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 0 0 2px rgba(0, 113, 227, 0.12);
 }
 
 .chip.off {
-  opacity: 0.35;
+  opacity: 0.5;
   background: var(--card) !important;
   color: var(--muted);
   border-color: var(--border);
+  font-weight: 500;
+}
+
+.chip:hover:not(.off) {
+  transform: translateY(-1px);
+}
+
+.chip.off:hover {
+  opacity: 0.75;
 }
 
 .chip:active {
@@ -410,6 +454,35 @@ td.num {
   color: #1d1d1f;
 }
 
+/* ---------- Links ---------- */
+
+td a,
+footer a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 500;
+  background-image: linear-gradient(to right, var(--border), var(--border));
+  background-position: 0 100%;
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+  padding-bottom: 1px;
+  transition: color 0.12s ease, background-image 0.12s ease;
+}
+
+td a:hover,
+footer a:hover {
+  color: var(--accent);
+  background-image: linear-gradient(to right, var(--accent), var(--accent));
+}
+
+td a:visited {
+  color: var(--text);
+}
+
+td a:visited:hover {
+  color: var(--accent);
+}
+
 footer {
   text-align: center;
   padding: 24px;
@@ -440,11 +513,49 @@ footer {
 
 /* ---------- Responsive ---------- */
 
+@media (max-width: 900px) {
+  body > section,
+  body > footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .filters.card {
+    padding: 16px 16px;
+  }
+  .filter-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+  .filter-row + .filter-row {
+    margin-top: 14px;
+    padding-top: 14px;
+  }
+  .filter-group {
+    width: 100%;
+  }
+  .filter-spacer {
+    display: none;
+  }
+  .filters.card select,
+  .filters.card input[type="date"] {
+    width: 100%;
+    min-width: 0;
+  }
+  .filter-row > .btn-ghost {
+    align-self: stretch;
+    width: 100%;
+    justify-content: center;
+    height: 36px;
+  }
+}
+
 @media (max-width: 720px) {
   body > section,
   body > footer {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 14px;
+    padding-right: 14px;
   }
 
   .topbar {
@@ -465,26 +576,16 @@ footer {
   }
 
   .resumen-block {
-    padding: 0 16px;
+    padding: 0 14px;
     margin-top: 16px;
   }
 
-  .filters.card {
-    padding: 12px 14px;
-  }
-  .filter-row {
-    gap: 12px;
-  }
-  .filter-group-grow {
-    flex: 1 1 100%;
-    min-width: 0;
-  }
   .chip-row {
-    gap: 4px;
+    gap: 5px;
   }
   .chip {
     font-size: 11px;
-    padding: 3px 10px;
+    padding: 4px 11px;
   }
 
   .kpi-grid {
@@ -502,8 +603,6 @@ footer {
   }
 
   .section-card {
-    margin-left: 0;
-    margin-right: 0;
     border-radius: 12px;
   }
   .section-head {
@@ -545,15 +644,7 @@ footer {
   .kpi-grid {
     grid-template-columns: 1fr;
   }
-  .filter-row {
-    flex-direction: column;
-    align-items: stretch;
-  }
-  .filter-group {
-    width: 100%;
-  }
-  select,
-  input[type="date"] {
-    width: 100%;
+  .topbar h1 {
+    font-size: 16px;
   }
 }

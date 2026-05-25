@@ -32,12 +32,17 @@ const CATEGORY_ORDER = [
 ];
 
 const DARK_GRAY = "#3a3a3c";
+const MUTED_GRAY = "#6e6e73"; // for soft labels (donut %, Total Papa value)
+const SOFT_RED = "#fd9a9a"; // Losses pastel
+const SOFT_GREEN = "#b9f5c4"; // Enjoy pastel
 
 const state = {
   data: null,
   expenses: [],
   incomes: [],
-  selectedCategories: new Set(CATEGORY_ORDER),
+  // Empty set means "no filter" (show all categories). Clicking a chip
+  // adds it to the focus set; clicking an active chip removes it.
+  selectedCategories: new Set(),
   period: "all",
   dateFrom: null,
   dateTo: null,
@@ -205,14 +210,15 @@ function resumenCard(label, value) {
 
   if (label === "Cash" || label === "Cash Total") {
     if (value < 0) {
-      borderColor = "var(--red)";
-      valColor = "var(--red)";
+      borderColor = SOFT_RED;
+      valColor = SOFT_RED;
     } else {
-      borderColor = "var(--green)";
-      valColor = "var(--green)";
+      borderColor = SOFT_GREEN;
+      valColor = SOFT_GREEN;
     }
   } else if (label === "Total Papa") {
-    borderColor = DARK_GRAY;
+    borderColor = MUTED_GRAY;
+    valColor = MUTED_GRAY;
   } else if (label === "Tot. Savings") {
     borderColor = CATEGORY_COLORS.Savings;
   } else if (label === "Tot. Income") {
@@ -238,14 +244,15 @@ function buildCategoryChips() {
     ...CATEGORY_ORDER.filter((c) => present.has(c)),
     ...[...present].filter((c) => !CATEGORY_ORDER.includes(c)),
   ];
-  state.selectedCategories = new Set(ordered);
+  // Start with no focus: empty set = show all.
+  state.selectedCategories = new Set();
 
   const wrap = $("#category-chips");
   wrap.innerHTML = "";
   for (const cat of ordered) {
     const chip = document.createElement("button");
     chip.type = "button";
-    chip.className = "chip";
+    chip.className = "chip off"; // off = inactive by default
     chip.dataset.cat = cat;
     chip.textContent = cat;
     chip.style.background = CATEGORY_COLORS[cat] || "#cccccc";
@@ -334,9 +341,12 @@ function inPeriod(date, from, to) {
 
 function applyAndRender() {
   const { from, to } = computePeriod();
-  const filteredExpenses = state.expenses.filter(
-    (e) => inPeriod(e.date, from, to) && state.selectedCategories.has(e.category),
-  );
+  const noCategoryFilter = state.selectedCategories.size === 0;
+  const filteredExpenses = state.expenses.filter((e) => {
+    if (!inPeriod(e.date, from, to)) return false;
+    if (noCategoryFilter) return true;
+    return state.selectedCategories.has(e.category);
+  });
   const filteredIncomes = state.incomes.filter((i) => inPeriod(i.date, from, to));
 
   renderExpenseDonut(filteredExpenses);
@@ -412,7 +422,7 @@ function renderExpenseDonut(expenses) {
             const v = ctx.dataset.data[ctx.dataIndex];
             return total > 0 && (v / total) * 100 >= 4;
           },
-          color: "#1d1d1f",
+          color: MUTED_GRAY,
           font: { weight: "600", size: 11 },
           formatter: (v) => `${((v / total) * 100).toFixed(1)}%`,
           anchor: "center",
@@ -450,12 +460,21 @@ function renderExpenseSumBars(expenses) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      layout: { padding: { top: 24 } },
       plugins: {
         legend: { display: false },
         tooltip: {
           callbacks: { label: (c) => `${c.label}: ${fmtMoney(c.parsed.y)}` },
         },
-        datalabels: { display: false },
+        datalabels: {
+          display: (ctx) => (ctx.dataset.data[ctx.dataIndex] || 0) > 0,
+          anchor: "end",
+          align: "top",
+          offset: 4,
+          color: MUTED_GRAY,
+          font: { size: 10, weight: "600" },
+          formatter: (v) => fmtMoney(v),
+        },
       },
       scales: {
         x: { grid: { display: false } },
@@ -465,6 +484,7 @@ function renderExpenseSumBars(expenses) {
         },
       },
     },
+    plugins: [window.ChartDataLabels].filter(Boolean),
   });
 }
 
@@ -490,9 +510,10 @@ function monthsInRange(from, to, expenses) {
 function renderExpenseEvolution(expenses, { from, to }) {
   destroyChart("expEvolution");
 
-  const selectedCats = CATEGORY_ORDER.filter((c) =>
-    state.selectedCategories.has(c),
-  );
+  // Empty selection means "show all" — match the filter logic above.
+  const selectedCats = state.selectedCategories.size === 0
+    ? [...CATEGORY_ORDER]
+    : CATEGORY_ORDER.filter((c) => state.selectedCategories.has(c));
   const months = monthsInRange(from, to, expenses);
 
   // For each category, build month -> sum
@@ -574,16 +595,26 @@ function renderIncomeYearly() {
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      layout: { padding: { top: 24 } },
       plugins: {
         legend: { display: false },
         tooltip: { callbacks: { label: (c) => fmtMoney(c.parsed.y) } },
-        datalabels: { display: false },
+        datalabels: {
+          display: (ctx) => (ctx.dataset.data[ctx.dataIndex] || 0) > 0,
+          anchor: "end",
+          align: "top",
+          offset: 4,
+          color: MUTED_GRAY,
+          font: { size: 10, weight: "600" },
+          formatter: (v) => fmtMoney(v),
+        },
       },
       scales: {
         x: { grid: { display: false } },
         y: { beginAtZero: true, ticks: { callback: (v) => fmtMoney(v) } },
       },
     },
+    plugins: [window.ChartDataLabels].filter(Boolean),
   });
 }
 
@@ -601,17 +632,24 @@ function renderIncomeMonthly(incomes, { from, to }) {
   const labels = Object.keys(byMonth).sort();
   const values = labels.map((m) => byMonth[m]);
 
+  const lineColor = "#5fbb7d"; // darker variant of Enjoy for line visibility
+
   const ctx = document.getElementById("inc-monthly");
   state.charts.incMonthly = new Chart(ctx, {
-    type: "bar",
+    type: "line",
     data: {
       labels,
       datasets: [
         {
           label: "Income",
           data: values,
-          backgroundColor: CATEGORY_COLORS.Enjoy,
-          borderRadius: 4,
+          borderColor: lineColor,
+          backgroundColor: CATEGORY_COLORS.Enjoy + "66",
+          pointBackgroundColor: lineColor,
+          pointRadius: 3,
+          tension: 0.3,
+          fill: true,
+          borderWidth: 2,
         },
       ],
     },
@@ -780,10 +818,8 @@ function attachFilterListeners() {
     state.period = "all";
     $("#period").value = "all";
     syncDateInputsFromPeriod();
-    state.selectedCategories = new Set(
-      [...$$("#category-chips .chip")].map((c) => c.dataset.cat),
-    );
-    $$("#category-chips .chip").forEach((c) => c.classList.remove("off"));
+    state.selectedCategories = new Set();
+    $$("#category-chips .chip").forEach((c) => c.classList.add("off"));
     applyAndRender();
   });
   $("#refresh").addEventListener("click", loadData);
