@@ -1,3 +1,5 @@
+// ---------- Constants ----------
+
 const RESUMEN_COLUMNS = [
   "Cash",
   "Total Papa",
@@ -29,26 +31,24 @@ const CATEGORY_ORDER = [
   "Cashout",
 ];
 
-const FALLBACK_PALETTE = [
-  "#8dbad6", "#9bc2e7", "#8ea9db", "#abb9d4",
-  "#b9f5c4", "#fd9a9a", "#f8ccad", "#fef2cb",
-];
+const DARK_GRAY = "#3a3a3c";
 
 const state = {
   data: null,
   expenses: [],
   incomes: [],
-  fixedExpenses: [],
   selectedCategories: new Set(CATEGORY_ORDER),
   period: "all",
   dateFrom: null,
   dateTo: null,
-  sort: { exp: { key: null, dir: -1 }, inc: { key: null, dir: -1 }, fix: { key: null, dir: -1 } },
+  sort: { exp: { key: null, dir: -1 }, inc: { key: null, dir: -1 } },
   charts: {},
 };
 
 const $ = (s) => document.querySelector(s);
 const $$ = (s) => document.querySelectorAll(s);
+
+// ---------- Utils ----------
 
 function setStatus(msg, isError = false) {
   const el = $("#status");
@@ -69,18 +69,42 @@ function fmtMoney(n) {
 
 function fmtDate(d) {
   if (!d) return "—";
-  const dt = d instanceof Date ? d : new Date(d);
-  if (Number.isNaN(dt.getTime())) return String(d);
+  const dt = d instanceof Date ? d : parseLocalDate(d);
+  if (!dt || Number.isNaN(dt.getTime())) return String(d);
   return dt.toLocaleDateString();
+}
+
+function escapeHtml(s) {
+  return String(s ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
+}
+
+function isoLocal(d) {
+  if (!d) return "";
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
+function parseLocalDate(s) {
+  // Notion dates like "2026-04-15" should be treated as local-midnight,
+  // not UTC-midnight, otherwise filters drop entries near month boundaries
+  // due to the user's UTC offset.
+  if (!s) return null;
+  const match = String(s).match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (match) {
+    return new Date(Number(match[1]), Number(match[2]) - 1, Number(match[3]));
+  }
+  const d = new Date(s);
+  return Number.isNaN(d.getTime()) ? null : d;
 }
 
 function getRowDate(row, key) {
   const v = row[key];
   if (!v) return null;
-  const start = typeof v === "object" ? v.start : v;
-  if (!start) return null;
-  const d = new Date(start);
-  return Number.isNaN(d.getTime()) ? null : d;
+  const raw = typeof v === "object" ? v.start : v;
+  return parseLocalDate(raw);
 }
 
 function findDb(title) {
@@ -89,8 +113,14 @@ function findDb(title) {
   );
 }
 
+function monthKey(d) {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
+}
+
+// ---------- Data load ----------
+
 async function loadData() {
-  setStatus("Cargando data.json…");
+  setStatus("Loading data.json…");
   try {
     const res = await fetch(`./data.json?ts=${Date.now()}`, { cache: "no-store" });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -100,29 +130,24 @@ async function loadData() {
   } catch (e) {
     console.error(e);
     setStatus(
-      "No se pudo cargar data.json. ¿Ya corrió el workflow 'Sync Notion data'?",
+      "Could not load data.json. Has the 'Sync Notion data' workflow run yet?",
       true,
     );
   }
 }
 
 function onDataReady() {
-  const { generated_at, databases } = state.data;
+  const { generated_at } = state.data;
   if (generated_at) {
-    $("#generated-at").textContent = `Actualizado ${new Date(generated_at).toLocaleString()}`;
+    $("#generated-at").textContent = `Updated ${new Date(generated_at).toLocaleString()}`;
   }
 
   const expDb = findDb("Expenses");
   const incDb = findDb("Incomes");
-  const fixDb = findDb("Fixed Expenses");
 
-  if (!expDb || !incDb || !fixDb) {
-    const missing = [
-      !expDb && "Expenses",
-      !incDb && "Incomes",
-      !fixDb && "Fixed Expenses",
-    ].filter(Boolean).join(", ");
-    setStatus(`Faltan databases: ${missing}`, true);
+  if (!expDb || !incDb) {
+    const missing = [!expDb && "Expenses", !incDb && "Incomes"].filter(Boolean).join(", ");
+    setStatus(`Missing databases: ${missing}`, true);
   }
 
   state.expenses = (expDb?.rows || []).map((r) => ({
@@ -142,18 +167,13 @@ function onDataReady() {
     income: typeof r.Income === "number" ? r.Income : 0,
   }));
 
-  state.fixedExpenses = (fixDb?.rows || []).map((r) => ({
-    id: r._id,
-    url: r._url,
-    name: r.Name || "",
-    type: r.Type || "—",
-    price: typeof r.Price === "number" ? r.Price : 0,
-  }));
-
   buildCategoryChips();
   renderResumen();
+  syncDateInputsFromPeriod();
   applyAndRender();
 }
+
+// ---------- Resumen ----------
 
 function renderResumen() {
   const grid = $("#resumen-grid");
@@ -178,32 +198,39 @@ function renderResumen() {
 
 function resumenCard(label, value) {
   const el = document.createElement("div");
-  let klass = "kpi";
-  let valClass = "";
+  el.className = "kpi";
+
+  let borderColor = DARK_GRAY;
+  let valColor = "";
+
   if (label === "Cash" || label === "Cash Total") {
     if (value < 0) {
-      klass += " expense";
-      valClass = "negative";
+      borderColor = "var(--red)";
+      valColor = "var(--red)";
     } else {
-      klass += " income";
-      valClass = "positive";
+      borderColor = "var(--green)";
+      valColor = "var(--green)";
     }
-  } else if (label === "Tot. Income") {
-    klass += " income";
-  } else if (label === "Tot. Expenses") {
-    klass += " expense";
+  } else if (label === "Total Papa") {
+    borderColor = DARK_GRAY;
   } else if (label === "Tot. Savings") {
-    klass += " net";
-  } else {
-    klass += " fixed";
+    borderColor = CATEGORY_COLORS.Savings;
+  } else if (label === "Tot. Income") {
+    borderColor = CATEGORY_COLORS.Enjoy;
+  } else if (label === "Tot. Expenses") {
+    borderColor = CATEGORY_COLORS.Losses;
   }
-  el.className = klass;
+
+  el.style.borderLeftColor = borderColor;
+  const valStyle = valColor ? `style="color:${valColor}"` : "";
   el.innerHTML = `
     <div class="kpi-label">${escapeHtml(label)}</div>
-    <div class="kpi-value ${valClass}">${fmtMoney(value)}</div>
+    <div class="kpi-value" ${valStyle}>${fmtMoney(value)}</div>
   `;
   return el;
 }
+
+// ---------- Category chips ----------
 
 function buildCategoryChips() {
   const present = new Set(state.expenses.map((e) => e.category).filter(Boolean));
@@ -236,31 +263,63 @@ function buildCategoryChips() {
   }
 }
 
+// ---------- Period filter ----------
+
 function computePeriod() {
   const now = new Date();
-  const start = new Date(now.getFullYear(), now.getMonth(), 1);
   switch (state.period) {
     case "this-month":
-      return { from: start, to: null };
-    case "last-month": {
-      const from = new Date(now.getFullYear(), now.getMonth() - 1, 1);
-      const to = new Date(now.getFullYear(), now.getMonth(), 0, 23, 59, 59);
-      return { from, to };
-    }
+      return {
+        from: new Date(now.getFullYear(), now.getMonth(), 1),
+        to: new Date(now.getFullYear(), now.getMonth() + 1, 0, 23, 59, 59),
+      };
+    case "last-month":
+      return {
+        from: new Date(now.getFullYear(), now.getMonth() - 1, 1),
+        to: new Date(now.getFullYear(), now.getMonth(), 0, 23, 59, 59),
+      };
     case "3m":
-      return { from: new Date(now.getFullYear(), now.getMonth() - 2, 1), to: null };
+      return {
+        from: new Date(now.getFullYear(), now.getMonth() - 2, 1),
+        to: new Date(now.getFullYear(), now.getMonth() + 1, 0, 23, 59, 59),
+      };
     case "6m":
-      return { from: new Date(now.getFullYear(), now.getMonth() - 5, 1), to: null };
+      return {
+        from: new Date(now.getFullYear(), now.getMonth() - 5, 1),
+        to: new Date(now.getFullYear(), now.getMonth() + 1, 0, 23, 59, 59),
+      };
     case "year":
-      return { from: new Date(now.getFullYear(), 0, 1), to: null };
+      return {
+        from: new Date(now.getFullYear(), 0, 1),
+        to: new Date(now.getFullYear(), 11, 31, 23, 59, 59),
+      };
     case "custom":
       return {
-        from: state.dateFrom ? new Date(state.dateFrom) : null,
-        to: state.dateTo ? new Date(`${state.dateTo}T23:59:59`) : null,
+        from: state.dateFrom ? parseLocalDate(state.dateFrom) : null,
+        to: state.dateTo
+          ? (() => {
+              const d = parseLocalDate(state.dateTo);
+              if (d) d.setHours(23, 59, 59);
+              return d;
+            })()
+          : null,
       };
     case "all":
     default:
       return { from: null, to: null };
+  }
+}
+
+function syncDateInputsFromPeriod() {
+  const { from, to } = computePeriod();
+  $("#date-from").value = isoLocal(from);
+  $("#date-to").value = isoLocal(to);
+  if (from || to) {
+    state.dateFrom = isoLocal(from);
+    state.dateTo = isoLocal(to);
+  } else {
+    state.dateFrom = null;
+    state.dateTo = null;
   }
 }
 
@@ -271,6 +330,8 @@ function inPeriod(date, from, to) {
   return true;
 }
 
+// ---------- Filter + dispatch ----------
+
 function applyAndRender() {
   const { from, to } = computePeriod();
   const filteredExpenses = state.expenses.filter(
@@ -278,14 +339,14 @@ function applyAndRender() {
   );
   const filteredIncomes = state.incomes.filter((i) => inPeriod(i.date, from, to));
 
-  renderExpenseByCategory(filteredExpenses);
-  renderExpenseOverTime(filteredExpenses);
+  renderExpenseDonut(filteredExpenses);
+  renderExpenseSumBars(filteredExpenses);
+  renderExpenseEvolution(filteredExpenses, { from, to });
   renderExpenseTable(filteredExpenses);
 
-  renderIncomeOverTime(filteredIncomes);
+  renderIncomeYearly();
+  renderIncomeMonthly(filteredIncomes, { from, to });
   renderIncomeTable(filteredIncomes);
-
-  renderFixedExpenses();
 }
 
 function destroyChart(key) {
@@ -295,88 +356,282 @@ function destroyChart(key) {
   }
 }
 
-function renderExpenseByCategory(expenses) {
-  destroyChart("expByCat");
-  const totals = new Map();
-  for (const e of expenses) totals.set(e.category, (totals.get(e.category) || 0) + e.price);
-  const present = [...totals.keys()].sort((a, b) => {
-    const ia = CATEGORY_ORDER.indexOf(a);
-    const ib = CATEGORY_ORDER.indexOf(b);
-    if (ia === -1 && ib === -1) return a.localeCompare(b);
-    if (ia === -1) return 1;
-    if (ib === -1) return -1;
-    return ia - ib;
-  });
-  const labels = present;
-  const values = labels.map((l) => totals.get(l));
-  const colors = labels.map((l, i) => CATEGORY_COLORS[l] || FALLBACK_PALETTE[i % FALLBACK_PALETTE.length]);
+// ---------- Expense charts ----------
 
-  const ctx = document.getElementById("exp-by-category");
-  state.charts.expByCat = new Chart(ctx, {
+function sumByCategoryOrdered(expenses) {
+  const totals = new Map(CATEGORY_ORDER.map((c) => [c, 0]));
+  for (const e of expenses) {
+    if (!CATEGORY_ORDER.includes(e.category)) continue;
+    totals.set(e.category, (totals.get(e.category) || 0) + e.price);
+  }
+  return totals;
+}
+
+function renderExpenseDonut(expenses) {
+  destroyChart("expDonut");
+
+  const totals = sumByCategoryOrdered(expenses);
+  // Keep order but drop zero slices so the donut isn't cluttered.
+  const labels = [];
+  const values = [];
+  const colors = [];
+  for (const cat of CATEGORY_ORDER) {
+    const v = totals.get(cat) || 0;
+    if (v <= 0) continue;
+    labels.push(cat);
+    values.push(v);
+    colors.push(CATEGORY_COLORS[cat]);
+  }
+
+  const total = values.reduce((a, b) => a + b, 0);
+
+  const ctx = document.getElementById("exp-donut");
+  state.charts.expDonut = new Chart(ctx, {
     type: "doughnut",
-    data: { labels, datasets: [{ data: values, backgroundColor: colors, borderWidth: 0 }] },
+    data: {
+      labels,
+      datasets: [{ data: values, backgroundColor: colors, borderWidth: 0 }],
+    },
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      cutout: "62%",
+      cutout: "55%",
       plugins: {
-        legend: { position: "right", labels: { font: { size: 12 }, boxWidth: 14, padding: 10 } },
+        legend: {
+          position: "right",
+          labels: { font: { size: 12 }, boxWidth: 14, padding: 10 },
+        },
         tooltip: {
           callbacks: {
-            label: (c) => `${c.label}: ${fmtMoney(c.parsed)} (${((c.parsed / values.reduce((a, b) => a + b, 0)) * 100).toFixed(1)}%)`,
+            label: (c) =>
+              `${c.label}: ${fmtMoney(c.parsed)} (${((c.parsed / total) * 100).toFixed(1)}%)`,
           },
+        },
+        datalabels: {
+          display: (ctx) => {
+            const v = ctx.dataset.data[ctx.dataIndex];
+            return total > 0 && (v / total) * 100 >= 4;
+          },
+          color: "#1d1d1f",
+          font: { weight: "600", size: 11 },
+          formatter: (v) => `${((v / total) * 100).toFixed(1)}%`,
+          anchor: "center",
+          align: "center",
+        },
+      },
+    },
+    plugins: [window.ChartDataLabels].filter(Boolean),
+  });
+}
+
+function renderExpenseSumBars(expenses) {
+  destroyChart("expSumBars");
+
+  const totals = sumByCategoryOrdered(expenses);
+  const labels = CATEGORY_ORDER;
+  const values = CATEGORY_ORDER.map((c) => totals.get(c) || 0);
+  const colors = CATEGORY_ORDER.map((c) => CATEGORY_COLORS[c]);
+
+  const ctx = document.getElementById("exp-sum-bars");
+  state.charts.expSumBars = new Chart(ctx, {
+    type: "bar",
+    data: {
+      labels,
+      datasets: [
+        {
+          label: "Total",
+          data: values,
+          backgroundColor: colors,
+          borderRadius: 4,
+          borderWidth: 0,
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: { label: (c) => `${c.label}: ${fmtMoney(c.parsed.y)}` },
+        },
+        datalabels: { display: false },
+      },
+      scales: {
+        x: { grid: { display: false } },
+        y: {
+          beginAtZero: true,
+          ticks: { callback: (v) => fmtMoney(v) },
         },
       },
     },
   });
 }
 
-function monthKey(d) {
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
+function monthsInRange(from, to, expenses) {
+  // If period bounds exist, list every month between them.
+  // Else (All time), derive from the data so we don't get gaps.
+  const months = new Set();
+  if (from && to) {
+    const start = new Date(from.getFullYear(), from.getMonth(), 1);
+    const end = new Date(to.getFullYear(), to.getMonth(), 1);
+    while (start <= end) {
+      months.add(monthKey(start));
+      start.setMonth(start.getMonth() + 1);
+    }
+  } else {
+    for (const e of expenses) {
+      if (e.date) months.add(monthKey(e.date));
+    }
+  }
+  return [...months].sort();
 }
 
-function renderExpenseOverTime(expenses) {
-  destroyChart("expOverTime");
-  const byMonth = new Map();
+function renderExpenseEvolution(expenses, { from, to }) {
+  destroyChart("expEvolution");
+
+  const selectedCats = CATEGORY_ORDER.filter((c) =>
+    state.selectedCategories.has(c),
+  );
+  const months = monthsInRange(from, to, expenses);
+
+  // For each category, build month -> sum
+  const byCatMonth = {};
+  for (const cat of selectedCats) byCatMonth[cat] = Object.fromEntries(months.map((m) => [m, 0]));
   for (const e of expenses) {
     if (!e.date) continue;
+    if (!byCatMonth[e.category]) continue;
     const k = monthKey(e.date);
-    if (!byMonth.has(k)) byMonth.set(k, {});
-    byMonth.get(k)[e.category] = (byMonth.get(k)[e.category] || 0) + e.price;
+    if (!(k in byCatMonth[e.category])) byCatMonth[e.category][k] = 0;
+    byCatMonth[e.category][k] += e.price;
   }
-  const months = [...byMonth.keys()].sort();
-  const cats = [...new Set(expenses.map((e) => e.category))].sort((a, b) => {
-    const ia = CATEGORY_ORDER.indexOf(a);
-    const ib = CATEGORY_ORDER.indexOf(b);
-    return (ia === -1 ? 999 : ia) - (ib === -1 ? 999 : ib);
-  });
 
-  const datasets = cats.map((cat, i) => ({
+  const datasets = selectedCats.map((cat) => ({
     label: cat,
-    data: months.map((m) => byMonth.get(m)[cat] || 0),
-    backgroundColor: CATEGORY_COLORS[cat] || FALLBACK_PALETTE[i % FALLBACK_PALETTE.length],
-    borderColor: CATEGORY_COLORS[cat] || FALLBACK_PALETTE[i % FALLBACK_PALETTE.length],
-    borderWidth: 0,
+    data: months.map((m) => byCatMonth[cat][m] || 0),
+    borderColor: CATEGORY_COLORS[cat],
+    backgroundColor: CATEGORY_COLORS[cat] + "55",
+    pointBackgroundColor: CATEGORY_COLORS[cat],
+    pointRadius: 3,
+    tension: 0.3,
+    fill: false,
+    borderWidth: 2,
   }));
 
-  const ctx = document.getElementById("exp-over-time");
-  state.charts.expOverTime = new Chart(ctx, {
-    type: "bar",
+  const ctx = document.getElementById("exp-evolution");
+  state.charts.expEvolution = new Chart(ctx, {
+    type: "line",
     data: { labels: months, datasets },
     options: {
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
         legend: { position: "bottom", labels: { boxWidth: 12, font: { size: 11 } } },
-        tooltip: { callbacks: { label: (c) => `${c.dataset.label}: ${fmtMoney(c.parsed.y)}` } },
+        tooltip: {
+          callbacks: { label: (c) => `${c.dataset.label}: ${fmtMoney(c.parsed.y)}` },
+        },
+        datalabels: { display: false },
       },
       scales: {
-        x: { stacked: true, grid: { display: false } },
-        y: { stacked: true, ticks: { callback: (v) => fmtMoney(v) } },
+        x: { grid: { display: false } },
+        y: {
+          beginAtZero: true,
+          ticks: { callback: (v) => fmtMoney(v) },
+        },
       },
     },
   });
 }
+
+// ---------- Income charts ----------
+
+function renderIncomeYearly() {
+  destroyChart("incYearly");
+
+  const byYear = new Map();
+  for (const i of state.incomes) {
+    if (!i.date) continue;
+    const y = i.date.getFullYear();
+    byYear.set(y, (byYear.get(y) || 0) + i.income);
+  }
+  const years = [...byYear.keys()].sort();
+  const values = years.map((y) => byYear.get(y));
+
+  const ctx = document.getElementById("inc-yearly");
+  state.charts.incYearly = new Chart(ctx, {
+    type: "bar",
+    data: {
+      labels: years.map((y) => String(y)),
+      datasets: [
+        {
+          label: "Income",
+          data: values,
+          backgroundColor: CATEGORY_COLORS.Enjoy,
+          borderRadius: 4,
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: (c) => fmtMoney(c.parsed.y) } },
+        datalabels: { display: false },
+      },
+      scales: {
+        x: { grid: { display: false } },
+        y: { beginAtZero: true, ticks: { callback: (v) => fmtMoney(v) } },
+      },
+    },
+  });
+}
+
+function renderIncomeMonthly(incomes, { from, to }) {
+  destroyChart("incMonthly");
+
+  const months = monthsInRange(from, to, incomes.map((i) => ({ date: i.date })));
+  const byMonth = Object.fromEntries(months.map((m) => [m, 0]));
+  for (const i of incomes) {
+    if (!i.date) continue;
+    const k = monthKey(i.date);
+    if (!(k in byMonth)) byMonth[k] = 0;
+    byMonth[k] += i.income;
+  }
+  const labels = Object.keys(byMonth).sort();
+  const values = labels.map((m) => byMonth[m]);
+
+  const ctx = document.getElementById("inc-monthly");
+  state.charts.incMonthly = new Chart(ctx, {
+    type: "bar",
+    data: {
+      labels,
+      datasets: [
+        {
+          label: "Income",
+          data: values,
+          backgroundColor: CATEGORY_COLORS.Enjoy,
+          borderRadius: 4,
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: (c) => fmtMoney(c.parsed.y) } },
+        datalabels: { display: false },
+      },
+      scales: {
+        x: { grid: { display: false } },
+        y: { beginAtZero: true, ticks: { callback: (v) => fmtMoney(v) } },
+      },
+    },
+  });
+}
+
+// ---------- Tables ----------
 
 function sortRows(rows, key, dir, getters) {
   if (!key) return rows;
@@ -405,7 +660,8 @@ function buildSortableTable(tableSel, sortKey, columns, rows, getters, opts = {}
     columns
       .map((col) => {
         let cls = "";
-        if (sortState.key === col.key) cls = sortState.dir === 1 ? "sorted-asc" : "sorted-desc";
+        if (sortState.key === col.key)
+          cls = sortState.dir === 1 ? "sorted-asc" : "sorted-desc";
         if (col.num) cls += " num";
         return `<th data-key="${col.key}" class="${cls.trim()}">${col.label}</th>`;
       })
@@ -416,7 +672,9 @@ function buildSortableTable(tableSel, sortKey, columns, rows, getters, opts = {}
     .map(
       (r) =>
         "<tr>" +
-        columns.map((col) => `<td class="${col.num ? "num" : ""}">${col.render(r)}</td>`).join("") +
+        columns
+          .map((col) => `<td class="${col.num ? "num" : ""}">${col.render(r)}</td>`)
+          .join("") +
         "</tr>",
     )
     .join("");
@@ -434,7 +692,7 @@ function buildSortableTable(tableSel, sortKey, columns, rows, getters, opts = {}
   });
 
   if (opts.countEl) {
-    $(opts.countEl).textContent = `${sorted.length} ${opts.countLabel || "filas"}`;
+    $(opts.countEl).textContent = `${sorted.length} ${opts.countLabel || "rows"}`;
   }
 }
 
@@ -446,10 +704,10 @@ function renderExpenseTable(expenses) {
     price: (r) => r.price,
   };
   const columns = [
-    { key: "date", label: "Fecha", num: false, render: (r) => fmtDate(r.date) },
+    { key: "date", label: "Date", num: false, render: (r) => fmtDate(r.date) },
     {
       key: "category",
-      label: "Categoría",
+      label: "Category",
       num: false,
       render: (r) => {
         const color = CATEGORY_COLORS[r.category] || "#dddddd";
@@ -458,58 +716,18 @@ function renderExpenseTable(expenses) {
     },
     {
       key: "name",
-      label: "Nombre",
+      label: "Name",
       num: false,
       render: (r) =>
         r.url
           ? `<a href="${r.url}" target="_blank" rel="noreferrer">${escapeHtml(r.name)}</a>`
           : escapeHtml(r.name),
     },
-    { key: "price", label: "Precio", num: true, render: (r) => fmtMoney(r.price) },
+    { key: "price", label: "Price", num: true, render: (r) => fmtMoney(r.price) },
   ];
   buildSortableTable("#exp-table", "exp", columns, expenses, getters, {
     countEl: "#exp-count",
-    countLabel: "gastos",
-  });
-}
-
-function renderIncomeOverTime(incomes) {
-  destroyChart("incOverTime");
-  const byMonth = new Map();
-  for (const i of incomes) {
-    if (!i.date) continue;
-    const k = monthKey(i.date);
-    byMonth.set(k, (byMonth.get(k) || 0) + i.income);
-  }
-  const months = [...byMonth.keys()].sort();
-  const values = months.map((m) => byMonth.get(m));
-
-  const ctx = document.getElementById("inc-over-time");
-  state.charts.incOverTime = new Chart(ctx, {
-    type: "bar",
-    data: {
-      labels: months,
-      datasets: [
-        {
-          label: "Ingresos",
-          data: values,
-          backgroundColor: "#b9f5c4",
-          borderRadius: 4,
-        },
-      ],
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { display: false },
-        tooltip: { callbacks: { label: (c) => fmtMoney(c.parsed.y) } },
-      },
-      scales: {
-        x: { grid: { display: false } },
-        y: { ticks: { callback: (v) => fmtMoney(v) } },
-      },
-    },
+    countLabel: "expenses",
   });
 }
 
@@ -520,120 +738,58 @@ function renderIncomeTable(incomes) {
     income: (r) => r.income,
   };
   const columns = [
-    { key: "date", label: "Fecha", num: false, render: (r) => fmtDate(r.date) },
+    { key: "date", label: "Date", num: false, render: (r) => fmtDate(r.date) },
     {
       key: "name",
-      label: "Nombre",
+      label: "Name",
       num: false,
       render: (r) =>
         r.url
           ? `<a href="${r.url}" target="_blank" rel="noreferrer">${escapeHtml(r.name)}</a>`
           : escapeHtml(r.name),
     },
-    { key: "income", label: "Ingreso", num: true, render: (r) => fmtMoney(r.income) },
+    { key: "income", label: "Income", num: true, render: (r) => fmtMoney(r.income) },
   ];
   buildSortableTable("#inc-table", "inc", columns, incomes, getters, {
     countEl: "#inc-count",
-    countLabel: "ingresos",
+    countLabel: "incomes",
   });
 }
 
-function renderFixedExpenses() {
-  destroyChart("fixByType");
-  const totals = new Map();
-  for (const f of state.fixedExpenses) totals.set(f.type, (totals.get(f.type) || 0) + f.price);
-  const labels = [...totals.keys()];
-  const values = labels.map((l) => totals.get(l));
-  const colors = labels.map((_, i) => FALLBACK_PALETTE[i % FALLBACK_PALETTE.length]);
-
-  const ctx = document.getElementById("fixed-by-type");
-  state.charts.fixByType = new Chart(ctx, {
-    type: "bar",
-    data: {
-      labels,
-      datasets: [{ label: "Total", data: values, backgroundColor: colors, borderRadius: 4 }],
-    },
-    options: {
-      indexAxis: "y",
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { display: false },
-        tooltip: { callbacks: { label: (c) => fmtMoney(c.parsed.x) } },
-      },
-      scales: {
-        x: { ticks: { callback: (v) => fmtMoney(v) } },
-        y: { grid: { display: false } },
-      },
-    },
-  });
-
-  const total = state.fixedExpenses.reduce((s, f) => s + f.price, 0);
-  $("#fixed-total").textContent = `Total mensual: ${fmtMoney(total)}`;
-
-  const getters = {
-    name: (r) => r.name,
-    type: (r) => r.type,
-    price: (r) => r.price,
-  };
-  const columns = [
-    { key: "type", label: "Tipo", num: false, render: (r) => escapeHtml(r.type) },
-    {
-      key: "name",
-      label: "Nombre",
-      num: false,
-      render: (r) =>
-        r.url
-          ? `<a href="${r.url}" target="_blank" rel="noreferrer">${escapeHtml(r.name)}</a>`
-          : escapeHtml(r.name),
-    },
-    { key: "price", label: "Precio", num: true, render: (r) => fmtMoney(r.price) },
-  ];
-  buildSortableTable("#fixed-table", "fix", columns, state.fixedExpenses, getters);
-}
-
-function escapeHtml(s) {
-  return String(s ?? "")
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;");
-}
+// ---------- Listeners ----------
 
 function attachFilterListeners() {
   $("#period").addEventListener("change", (e) => {
     state.period = e.target.value;
-    const showCustom = state.period === "custom";
-    $("#date-from-group").hidden = !showCustom;
-    $("#date-to-group").hidden = !showCustom;
+    syncDateInputsFromPeriod();
     applyAndRender();
   });
   $("#date-from").addEventListener("change", (e) => {
+    state.period = "custom";
+    $("#period").value = "custom";
     state.dateFrom = e.target.value || null;
     applyAndRender();
   });
   $("#date-to").addEventListener("change", (e) => {
+    state.period = "custom";
+    $("#period").value = "custom";
     state.dateTo = e.target.value || null;
     applyAndRender();
   });
   $("#reset-filters").addEventListener("click", () => {
     state.period = "all";
-    state.dateFrom = null;
-    state.dateTo = null;
     $("#period").value = "all";
-    $("#date-from").value = "";
-    $("#date-to").value = "";
-    $("#date-from-group").hidden = true;
-    $("#date-to-group").hidden = true;
-    state.selectedCategories = new Set(CATEGORY_ORDER);
-    $$("#category-chips .chip").forEach((c) => c.classList.remove("off"));
+    syncDateInputsFromPeriod();
     state.selectedCategories = new Set(
       [...$$("#category-chips .chip")].map((c) => c.dataset.cat),
     );
+    $$("#category-chips .chip").forEach((c) => c.classList.remove("off"));
     applyAndRender();
   });
   $("#refresh").addEventListener("click", loadData);
 }
+
+// ---------- Bootstrap ----------
 
 function bootstrap() {
   attachFilterListeners();
@@ -641,6 +797,17 @@ function bootstrap() {
     if (typeof Chart === "undefined") {
       setTimeout(tryLoad, 50);
       return;
+    }
+    // datalabels is optional but lets the donut show percentages
+    if (window.ChartDataLabels && Chart.registry?.plugins?.get?.("datalabels") == null) {
+      try {
+        Chart.register(window.ChartDataLabels);
+      } catch (_) {}
+    }
+    // Default off everywhere; we opt-in per chart.
+    if (Chart.defaults?.plugins) {
+      Chart.defaults.plugins.datalabels = Chart.defaults.plugins.datalabels || {};
+      Chart.defaults.plugins.datalabels.display = false;
     }
     loadData();
   };
