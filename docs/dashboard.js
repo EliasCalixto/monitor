@@ -635,7 +635,7 @@ function attachFilterListeners() {
   $("#refresh").addEventListener("click", loadData);
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+function bootstrap() {
   attachFilterListeners();
   const tryLoad = () => {
     if (typeof Chart === "undefined") {
@@ -645,4 +645,10 @@ document.addEventListener("DOMContentLoaded", () => {
     loadData();
   };
   tryLoad();
-});
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", bootstrap, { once: true });
+} else {
+  bootstrap();
+}
