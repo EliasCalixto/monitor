@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T20:18:05.230808+00:00",
+  "generated_at": "2026-05-25T21:38:43.834350+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -121,8 +121,8 @@
             "35ee6c72-cc72-8001-84e0-f30c8203feec",
             "35fe6c72-cc72-8009-8db5-fe64d50af83e"
           ],
-          "Cash": -55.9449999998,
-          "Tot. Income": 262225.39,
+          "Cash": 1695.95500000024,
+          "Tot. Income": 263977.29000000004,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -150,7 +150,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 5312.805000000199,
+          "Cash Total": 7064.705000000239,
           "Name": "Resumen"
         }
       ]
@@ -165,6 +165,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "36be6c72-cc72-80f7-8f78-d378f89b6670",
+          "_url": "https://www.notion.so/fin-de-mes-area-36be6c72cc7280f78f78d378f89b6670",
+          "_created": "2026-05-25T20:52:00.000Z",
+          "_edited": "2026-05-25T20:52:00.000Z",
+          "Date Received": {
+            "start": "2026-05-25",
+            "end": null
+          },
+          "Income": 1751.9,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "fin de mes area"
+        },
         {
           "_id": "361e6c72-cc72-80aa-9936-e1f669f9bb6b",
           "_url": "https://www.notion.so/Quincena-TP-361e6c72cc7280aa9936e1f669f9bb6b",
