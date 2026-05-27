@@ -351,7 +351,7 @@ body > section.filters {
 
 .kpi-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(130px, 190px));
   gap: 16px;
   padding-left: 32px;
   padding-right: 32px;
@@ -840,10 +840,11 @@ footer {
     width: 100% !important;
   }
   .chart-box--donut {
-    min-height: 360px;
+    min-height: 260px;
+    max-height: 260px;
   }
   .chart-box--donut canvas {
-    max-height: 360px;
+    max-height: 260px;
   }
   .chart-box--bars {
     min-height: 200px;

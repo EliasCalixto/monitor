@@ -1,4 +1,4 @@
-const CACHE = "monitor-v8";
+const CACHE = "monitor-v9";
 const STATIC = [
   "./",
   "./index.html",
