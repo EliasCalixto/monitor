@@ -417,6 +417,13 @@ body > section.filters {
   letter-spacing: -0.01em;
 }
 
+.section-period {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--muted);
+  letter-spacing: 0;
+}
+
 .charts-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -811,6 +818,12 @@ footer {
   }
   .chart-box canvas {
     max-height: 240px;
+  }
+  .chart-box--donut {
+    min-height: 380px;
+  }
+  .chart-box--donut canvas {
+    max-height: 380px;
   }
 
   th,

@@ -45,7 +45,7 @@ const state = {
   // Empty set means "no filter" (show all categories). Clicking a chip
   // adds it to the focus set; clicking an active chip removes it.
   selectedCategories: new Set(),
-  period: "all",
+  period: "this-month",
   dateFrom: null,
   dateTo: null,
   sort: { exp: { key: null, dir: -1 }, inc: { key: null, dir: -1 } },
@@ -56,6 +56,45 @@ const $ = (s) => document.querySelector(s);
 const $$ = (s) => document.querySelectorAll(s);
 
 function isMobile() { return window.innerWidth < 640; }
+
+function formatPeriodLabel() {
+  const now = new Date();
+  const mo = (d) => d.toLocaleString(undefined, { month: "long", year: "numeric" });
+  switch (state.period) {
+    case "this-week":  return "This week";
+    case "this-month": return mo(now);
+    case "last-month": return mo(new Date(now.getFullYear(), now.getMonth() - 1, 1));
+    case "3m":         return "Last 3 months";
+    case "6m":         return "Last 6 months";
+    case "year":       return String(now.getFullYear());
+    case "last-year":  return String(now.getFullYear() - 1);
+    case "custom": {
+      if (state.dateFrom && state.dateTo) return `${state.dateFrom} – ${state.dateTo}`;
+      if (state.dateFrom) return `From ${state.dateFrom}`;
+      if (state.dateTo)   return `Until ${state.dateTo}`;
+      return "Custom range";
+    }
+    default: return "All time";
+  }
+}
+
+function categoryTextColor(bgHex) {
+  const r = parseInt(bgHex.slice(1,3), 16) / 255;
+  const g = parseInt(bgHex.slice(3,5), 16) / 255;
+  const b = parseInt(bgHex.slice(5,7), 16) / 255;
+  const max = Math.max(r, g, b), min = Math.min(r, g, b);
+  const l = (max + min) / 2;
+  if (max === min) return `hsl(0,0%,28%)`;
+  const d = max - min;
+  const s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+  let h;
+  switch (max) {
+    case r: h = ((g - b) / d + (g < b ? 6 : 0)) * 60; break;
+    case g: h = ((b - r) / d + 2) * 60; break;
+    default: h = ((r - g) / d + 4) * 60;
+  }
+  return `hsl(${Math.round(h)},${Math.round(s * 60)}%,28%)`;
+}
 
 // ---------- Utils ----------
 
@@ -459,6 +498,13 @@ function inPeriod(date, from, to) {
 // ---------- Filter + dispatch ----------
 
 function applyAndRender() {
+  const label = formatPeriodLabel();
+  const tag = label ? ` — ${label}` : "";
+  const epEl = document.getElementById("exp-period");
+  const ipEl = document.getElementById("inc-period");
+  if (epEl) epEl.textContent = tag;
+  if (ipEl) ipEl.textContent = tag;
+
   const { from, to } = computePeriod();
   const noCategoryFilter = state.selectedCategories.size === 0;
   const filteredExpenses = state.expenses.filter((e) => {
@@ -673,7 +719,16 @@ function renderExpenseEvolution(expenses, { from, to }) {
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { position: "bottom", labels: { boxWidth: 12, font: { size: 11 } } },
+        legend: {
+          position: "bottom",
+          labels: {
+            usePointStyle: true,
+            pointStyle: "circle",
+            boxWidth: 8,
+            padding: 12,
+            font: { size: isMobile() ? 10 : 11 },
+          },
+        },
         tooltip: {
           callbacks: { label: (c) => `${c.dataset.label}: ${fmtMoney(c.parsed.y)}` },
         },
@@ -890,8 +945,9 @@ function renderExpenseTable(expenses) {
       label: "Category",
       num: false,
       render: (r) => {
-        const color = CATEGORY_COLORS[r.category] || "#dddddd";
-        return `<span class="category-tag" style="background:${color}">${escapeHtml(r.category)}</span>`;
+        const bg = CATEGORY_COLORS[r.category] || "#dddddd";
+        const fg = categoryTextColor(bg);
+        return `<span class="category-tag" style="background:${bg};color:${fg}">${escapeHtml(r.category)}</span>`;
       },
     },
     {

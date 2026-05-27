@@ -59,13 +59,13 @@
           <label for="period">Period</label>
           <select id="period">
             <option value="this-week">This week</option>
-            <option value="this-month">This month</option>
+            <option value="this-month" selected>This month</option>
             <option value="last-month">Last month</option>
             <option value="3m">Last 3 months</option>
             <option value="6m">Last 6 months</option>
             <option value="year">This year</option>
             <option value="last-year">Last year</option>
-            <option value="all" selected>All time</option>
+            <option value="all">All time</option>
             <option value="custom">Custom</option>
           </select>
         </div>
@@ -90,11 +90,11 @@
 
     <section class="card section-card">
       <header class="section-head">
-        <h2>Expenses</h2>
+        <h2>Expenses<span id="exp-period" class="section-period"></span></h2>
         <span id="exp-count" class="muted"></span>
       </header>
       <div class="charts-grid">
-        <div class="chart-box">
+        <div class="chart-box chart-box--donut">
           <h3>By category</h3>
           <canvas id="exp-donut"></canvas>
         </div>
@@ -119,7 +119,7 @@
 
     <section class="card section-card">
       <header class="section-head">
-        <h2>Incomes</h2>
+        <h2>Incomes<span id="inc-period" class="section-period"></span></h2>
         <span id="inc-count" class="muted"></span>
       </header>
       <div class="charts-grid">
