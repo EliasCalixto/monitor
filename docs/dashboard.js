@@ -55,6 +55,8 @@ const state = {
 const $ = (s) => document.querySelector(s);
 const $$ = (s) => document.querySelectorAll(s);
 
+function isMobile() { return window.innerWidth < 640; }
+
 // ---------- Utils ----------
 
 function setStatus(msg, isError = false) {
@@ -525,8 +527,12 @@ function renderExpenseDonut(expenses) {
       cutout: "55%",
       plugins: {
         legend: {
-          position: "right",
-          labels: { font: { size: 12 }, boxWidth: 14, padding: 10 },
+          position: isMobile() ? "bottom" : "right",
+          labels: {
+            font: { size: isMobile() ? 11 : 12 },
+            boxWidth: isMobile() ? 11 : 14,
+            padding: isMobile() ? 8 : 10,
+          },
         },
         tooltip: {
           callbacks: {
@@ -594,10 +600,13 @@ function renderExpenseSumBars(expenses) {
         },
       },
       scales: {
-        x: { grid: { display: false } },
+        x: {
+          grid: { display: false },
+          ticks: { font: { size: isMobile() ? 9 : 11 }, maxRotation: 45, minRotation: 30 },
+        },
         y: {
           beginAtZero: true,
-          ticks: { callback: (v) => fmtMoney(v) },
+          ticks: { callback: (v) => fmtMoney(v), font: { size: isMobile() ? 9 : 11 } },
         },
       },
     },
@@ -671,10 +680,18 @@ function renderExpenseEvolution(expenses, { from, to }) {
         datalabels: { display: false },
       },
       scales: {
-        x: { grid: { display: false } },
+        x: {
+          grid: { display: false },
+          ticks: {
+            maxTicksLimit: isMobile() ? 6 : 20,
+            maxRotation: 45,
+            minRotation: 30,
+            font: { size: isMobile() ? 9 : 11 },
+          },
+        },
         y: {
           beginAtZero: true,
-          ticks: { callback: (v) => fmtMoney(v) },
+          ticks: { callback: (v) => fmtMoney(v), font: { size: isMobile() ? 9 : 11 } },
         },
       },
     },
@@ -781,7 +798,12 @@ function renderIncomeMonthly(incomes, { from, to }) {
       scales: {
         x: {
           grid: { display: false },
-          ticks: { maxRotation: 60, minRotation: 45, font: { size: 11 } },
+          ticks: {
+            maxTicksLimit: isMobile() ? 6 : 20,
+            maxRotation: 45,
+            minRotation: 30,
+            font: { size: isMobile() ? 9 : 11 },
+          },
         },
         y: { beginAtZero: true, ticks: { callback: (v) => fmtMoney(v) } },
       },
