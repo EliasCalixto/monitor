@@ -383,7 +383,7 @@ body > section.filters {
 
 .kpi-value {
   color: var(--text-soft);
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   letter-spacing: -0.02em;
   font-variant-numeric: tabular-nums;
@@ -472,6 +472,12 @@ body > section.filters {
 
 .chart-box--bars {
   min-height: 260px;
+}
+
+/* Donut row: single centered column, max 560px */
+.charts-grid--center-one {
+  grid-template-columns: minmax(0, 560px);
+  justify-content: center;
 }
 
 .table-wrap {
