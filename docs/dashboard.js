@@ -575,9 +575,12 @@ function renderExpenseDonut(expenses) {
         legend: {
           position: isMobile() ? "bottom" : "right",
           labels: {
-            font: { size: isMobile() ? 11 : 12 },
-            boxWidth: isMobile() ? 11 : 14,
-            padding: isMobile() ? 8 : 10,
+            usePointStyle: true,
+            pointStyle: "circle",
+            boxWidth: isMobile() ? 6 : 8,
+            boxHeight: isMobile() ? 6 : 8,
+            padding: isMobile() ? 6 : 10,
+            font: { size: isMobile() ? 9 : 12 },
           },
         },
         tooltip: {
@@ -724,9 +727,10 @@ function renderExpenseEvolution(expenses, { from, to }) {
           labels: {
             usePointStyle: true,
             pointStyle: "circle",
-            boxWidth: 8,
-            padding: 12,
-            font: { size: isMobile() ? 10 : 11 },
+            boxWidth: 6,
+            boxHeight: 6,
+            padding: 10,
+            font: { size: isMobile() ? 9 : 11 },
           },
         },
         tooltip: {
