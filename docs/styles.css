@@ -351,7 +351,7 @@ body > section.filters {
 
 .kpi-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(130px, 190px));
+  grid-template-columns: repeat(auto-fit, minmax(130px, 190px));
   gap: 16px;
   padding-left: 32px;
   padding-right: 32px;
@@ -383,7 +383,7 @@ body > section.filters {
 
 .kpi-value {
   color: var(--text-soft);
-  font-size: clamp(16px, 2vw, 24px);
+  font-size: clamp(15px, 1.6vw, 22px);
   font-weight: 600;
   letter-spacing: -0.02em;
   font-variant-numeric: tabular-nums;
