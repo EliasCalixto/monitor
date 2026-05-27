@@ -383,7 +383,7 @@ body > section.filters {
 
 .kpi-value {
   color: var(--text-soft);
-  font-size: 20px;
+  font-size: clamp(16px, 2vw, 24px);
   font-weight: 600;
   letter-spacing: -0.02em;
   font-variant-numeric: tabular-nums;
@@ -471,7 +471,7 @@ body > section.filters {
 }
 
 .chart-box--bars {
-  min-height: 260px;
+  min-height: 320px;
 }
 
 /* Donut row: single centered column, max 560px */
@@ -811,9 +811,6 @@ footer {
   .kpi {
     padding: 12px 14px;
   }
-  .kpi-value {
-    font-size: 18px;
-  }
   .kpi-label {
     font-size: 10px;
   }
@@ -847,6 +844,12 @@ footer {
   }
   .chart-box--donut canvas {
     max-height: 360px;
+  }
+  .chart-box--bars {
+    min-height: 200px;
+  }
+  .chart-box--bars canvas {
+    max-height: 200px;
   }
 
   th,
