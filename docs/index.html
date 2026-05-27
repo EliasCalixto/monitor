@@ -4,8 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#f5f5f7" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Monitor" />
     <title>Monitor · Notion Dashboard</title>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22%3E%3Crect x=%228%22 y=%2236%22 width=%2212%22 height=%2220%22 rx=%223%22 fill=%22%238dbad6%22/%3E%3Crect x=%2226%22 y=%2222%22 width=%2212%22 height=%2234%22 rx=%223%22 fill=%22%23b9f5c4%22/%3E%3Crect x=%2244%22 y=%2210%22 width=%2212%22 height=%2246%22 rx=%223%22 fill=%22%23fd9a9a%22/%3E%3C/svg%3E" />
+    <link rel="apple-touch-icon" href="./icons/icon-192.png" />
+    <link rel="manifest" href="./manifest.json" />
     <link rel="stylesheet" href="./styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js" defer></script>
@@ -167,5 +172,10 @@
         </form>
       </div>
     </div>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("./sw.js");
+      }
+    </script>
   </body>
 </html>
