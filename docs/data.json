@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T20:18:05.230808+00:00",
+  "generated_at": "2026-05-26T23:48:18.970109+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,10 +27,10 @@
           "_url": "https://www.notion.so/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 4349.450000000001,
-          "Tot. Expenses": 262281.3349999998,
-          "Total Papa": 5368.75,
-          "Tot. Savings": 12600,
+          "SumGastosPapa": 4549.450000000001,
+          "Tot. Expenses": 263883.7349999998,
+          "Total Papa": 5168.75,
+          "Tot. Savings": 14151.9,
           "SumIngresosPapa": 9718.2,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
@@ -121,8 +121,8 @@
             "35ee6c72-cc72-8001-84e0-f30c8203feec",
             "35fe6c72-cc72-8009-8db5-fe64d50af83e"
           ],
-          "Cash": -55.9449999998,
-          "Tot. Income": 262225.39,
+          "Cash": 93.55500000024,
+          "Tot. Income": 263977.29000000004,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -150,7 +150,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 5312.805000000199,
+          "Cash Total": 5262.305000000239,
           "Name": "Resumen"
         }
       ]
@@ -165,6 +165,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "36be6c72-cc72-80f7-8f78-d378f89b6670",
+          "_url": "https://www.notion.so/fin-de-mes-area-36be6c72cc7280f78f78d378f89b6670",
+          "_created": "2026-05-25T20:52:00.000Z",
+          "_edited": "2026-05-25T20:52:00.000Z",
+          "Date Received": {
+            "start": "2026-05-25",
+            "end": null
+          },
+          "Income": 1751.9,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "fin de mes area"
+        },
         {
           "_id": "361e6c72-cc72-80aa-9936-e1f669f9bb6b",
           "_url": "https://www.notion.so/Quincena-TP-361e6c72cc7280aa9936e1f669f9bb6b",
@@ -914,6 +929,110 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "36ce6c72-cc72-80f4-a0ee-f9f93d2e293b",
+          "_url": "https://www.notion.so/pasajes-y-desayuno-etc-36ce6c72cc7280f4a0eef9f93d2e293b",
+          "_created": "2026-05-26T20:00:00.000Z",
+          "_edited": "2026-05-26T20:00:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-05-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": null,
+          "Name": "pasajes y desayuno, etc"
+        },
+        {
+          "_id": "36ce6c72-cc72-80e8-bcec-e66a121f59d6",
+          "_url": "https://www.notion.so/filo-36ce6c72cc7280e8bcece66a121f59d6",
+          "_created": "2026-05-26T20:00:00.000Z",
+          "_edited": "2026-05-26T20:00:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-05-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 19.5,
+          "Name": "filo"
+        },
+        {
+          "_id": "36ce6c72-cc72-808e-9bac-d153d1c573aa",
+          "_url": "https://www.notion.so/pasajes-36ce6c72cc72808e9bacd153d1c573aa",
+          "_created": "2026-05-26T01:24:00.000Z",
+          "_edited": "2026-05-26T01:24:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-05-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2.5,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "36ce6c72-cc72-80ad-8174-d1bbf0bc6d08",
+          "_url": "https://www.notion.so/actividad-instituto-36ce6c72cc7280ad8174d1bbf0bc6d08",
+          "_created": "2026-05-26T01:24:00.000Z",
+          "_edited": "2026-05-26T01:24:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-05-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 10,
+          "Name": "actividad instituto"
+        },
+        {
+          "_id": "36ce6c72-cc72-8094-935d-c812e94ab18b",
+          "_url": "https://www.notion.so/acumulacion-36ce6c72cc728094935dc812e94ab18b",
+          "_created": "2026-05-26T01:23:00.000Z",
+          "_edited": "2026-05-26T01:23:00.000Z",
+          "Category": "Savings",
+          "Date Created": {
+            "start": "2026-05-25",
+            "end": null
+          },
+          "ExpensesSavings": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1551.9,
+          "Name": "acumulacion"
+        },
+        {
+          "_id": "36ce6c72-cc72-8089-90b8-e0f01babe3e0",
+          "_url": "https://www.notion.so/chifita-36ce6c72cc72808990b8e0f01babe3e0",
+          "_created": "2026-05-26T01:22:00.000Z",
+          "_edited": "2026-05-26T01:22:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-05-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 18.5,
+          "Name": "chifita"
+        },
         {
           "_id": "36be6c72-cc72-809b-a096-c4f4f313fb75",
           "_url": "https://www.notion.so/desayuno-y-pasajes-1-36be6c72cc72809ba096c4f4f313fb75",
@@ -8889,6 +9008,20 @@
       },
       "rows": [
         {
+          "_id": "36ce6c72-cc72-80db-b9ab-db69535d7725",
+          "_url": "https://www.notion.so/kit-kat-36ce6c72cc7280dbb9abdb69535d7725",
+          "_created": "2026-05-26T13:36:00.000Z",
+          "_edited": "2026-05-26T13:36:00.000Z",
+          "Date Created": {
+            "start": "2026-05-26",
+            "end": null
+          },
+          "Price": 5,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "kit kat"
+        },
+        {
           "_id": "36ae6c72-cc72-8073-8870-f7fd5511051e",
           "_url": "https://www.notion.so/Bembos-rico-36ae6c72cc7280738870f7fd5511051e",
           "_created": "2026-05-24T19:11:00.000Z",
@@ -9401,6 +9534,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "36ce6c72-cc72-800c-811a-f8de23f9595b",
+          "_url": "https://www.notion.so/no-se-quien-36ce6c72cc72800c811af8de23f9595b",
+          "_created": "2026-05-26T01:20:00.000Z",
+          "_edited": "2026-05-26T01:20:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-05-25",
+            "end": null
+          },
+          "Money": 200,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "no se quien"
+        },
         {
           "_id": "36be6c72-cc72-80a4-9760-c1b1d99318de",
           "_url": "https://www.notion.so/Broster-amalia-36be6c72cc7280a49760c1b1d99318de",
