@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T01:56:46.292783+00:00",
+  "generated_at": "2026-05-27T06:10:02.773343+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 4549.450000000001,
-          "Tot. Expenses": 263915.2349999998,
+          "Tot. Expenses": 264015.2349999998,
           "Total Papa": 5168.75,
           "Tot. Savings": 14151.9,
           "SumIngresosPapa": 9718.2,
@@ -121,7 +121,7 @@
             "35ee6c72-cc72-8001-84e0-f30c8203feec",
             "35fe6c72-cc72-8009-8db5-fe64d50af83e"
           ],
-          "Cash": 62.05500000024,
+          "Cash": -37.94499999976,
           "Tot. Income": 263977.29000000004,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -150,7 +150,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 5230.805000000239,
+          "Cash Total": 5130.805000000239,
           "Name": "Resumen"
         }
       ]
@@ -929,6 +929,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "36de6c72-cc72-80b6-8695-d2e8015a4ddd",
+          "_url": "https://www.notion.so/Trabajo-proyecto-36de6c72cc7280b68695d2e8015a4ddd",
+          "_created": "2026-05-27T04:45:00.000Z",
+          "_edited": "2026-05-27T04:45:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2026-05-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 100,
+          "Name": "Trabajo proyecto"
+        },
         {
           "_id": "36de6c72-cc72-80e7-9bee-df957370bb83",
           "_url": "https://www.notion.so/pasaje-36de6c72cc7280e79beedf957370bb83",
