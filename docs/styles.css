@@ -119,6 +119,8 @@ body {
   width: 32px;
 }
 
+.sync-icon-mobile { display: none; }
+
 .topbar h1 {
   margin: 0;
   font-size: 22px;
@@ -764,9 +766,9 @@ footer {
     font-size: 11px;
     flex-basis: 100%;
   }
-  .sync-label {
-    display: none;
-  }
+  .sync-label        { display: none; }
+  .sync-icon-desktop { display: none; }
+  .sync-icon-mobile  { display: block; }
   #sync-trigger {
     padding: 0;
     width: 32px;
@@ -810,20 +812,24 @@ footer {
   }
   .charts-grid {
     grid-template-columns: 1fr;
-    gap: 16px;
-    padding: 16px;
+    gap: 12px;
+    padding: 12px 8px;
   }
   .chart-box {
-    min-height: 240px;
+    min-height: 220px;
+    width: 100%;
+    overflow: hidden;
   }
   .chart-box canvas {
-    max-height: 240px;
+    max-height: 220px;
+    max-width: 100% !important;
+    width: 100% !important;
   }
   .chart-box--donut {
-    min-height: 380px;
+    min-height: 360px;
   }
   .chart-box--donut canvas {
-    max-height: 380px;
+    max-height: 360px;
   }
 
   th,

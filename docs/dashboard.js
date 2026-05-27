@@ -727,8 +727,8 @@ function renderExpenseEvolution(expenses, { from, to }) {
           labels: {
             usePointStyle: true,
             pointStyle: "circle",
-            boxWidth: 6,
-            boxHeight: 6,
+            boxWidth: 5,
+            boxHeight: 5,
             padding: 10,
             font: { size: isMobile() ? 9 : 11 },
           },
