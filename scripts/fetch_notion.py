@@ -216,10 +216,56 @@ def main() -> int:
         "databases": out_databases,
     }
 
+    passphrase = os.environ.get("DATA_PASSPHRASE")
+    if passphrase:
+        try:
+            output = encrypt_payload(payload, passphrase)
+            print("data.json will be written ENCRYPTED (AES-256-GCM / PBKDF2-SHA256).")
+        except Exception as exc:  # noqa: BLE001
+            print(f"ERROR encrypting payload: {exc}", file=sys.stderr)
+            return 1
+    else:
+        output = payload
+        print(
+            "WARNING: DATA_PASSPHRASE secret is not set — data.json will be written "
+            "in PLAINTEXT and is publicly readable on GitHub Pages.",
+            file=sys.stderr,
+        )
+
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Escrito {OUTPUT_PATH} ({sum(len(d['rows']) for d in out_databases)} filas en total)")
+    OUTPUT_PATH.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Wrote {OUTPUT_PATH} ({sum(len(d['rows']) for d in out_databases)} rows total)")
     return 0
+
+
+def encrypt_payload(plaintext_dict: dict, passphrase: str, iterations: int = 600_000) -> dict:
+    """Wrap the plaintext JSON in an AES-256-GCM envelope keyed off PBKDF2(passphrase).
+
+    Returns a JSON-serializable dict that the browser dashboard can decrypt via
+    WebCrypto using the same passphrase. The salt and IV are random per write,
+    so two snapshots with identical data still produce different ciphertexts.
+    """
+    import base64
+    import hashlib
+    from Crypto.Cipher import AES  # type: ignore[import-untyped]
+    from Crypto.Random import get_random_bytes  # type: ignore[import-untyped]
+
+    plaintext = json.dumps(plaintext_dict, ensure_ascii=False).encode("utf-8")
+    salt = get_random_bytes(16)
+    iv = get_random_bytes(12)
+    key = hashlib.pbkdf2_hmac(
+        "sha256", passphrase.encode("utf-8"), salt, iterations, dklen=32
+    )
+    cipher = AES.new(key, AES.MODE_GCM, nonce=iv)
+    ciphertext, tag = cipher.encrypt_and_digest(plaintext)
+    return {
+        "v": 1,
+        "kdf": "pbkdf2-sha256",
+        "iters": iterations,
+        "salt": base64.b64encode(salt).decode("ascii"),
+        "iv": base64.b64encode(iv).decode("ascii"),
+        "ct": base64.b64encode(ciphertext + tag).decode("ascii"),
+    }
 
 
 if __name__ == "__main__":

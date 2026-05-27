@@ -141,5 +141,31 @@
     </footer>
 
     <div id="status"></div>
+
+    <div id="auth-modal" class="modal" hidden>
+      <div class="modal-card">
+        <div class="modal-icon" aria-hidden="true">🔒</div>
+        <h2>Encrypted dashboard</h2>
+        <p class="muted">
+          This dashboard's data is encrypted. Enter your passphrase to unlock.
+        </p>
+        <form id="auth-form" autocomplete="off">
+          <input
+            type="password"
+            id="passphrase-input"
+            placeholder="Passphrase"
+            autocomplete="current-password"
+            spellcheck="false"
+            required
+          />
+          <label class="checkbox-row">
+            <input type="checkbox" id="remember-passphrase" checked />
+            <span>Remember on this device</span>
+          </label>
+          <button type="submit" id="auth-submit" class="btn-primary">Unlock</button>
+          <div id="auth-error" class="modal-error" role="alert"></div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>

@@ -29,10 +29,14 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install crypto dependency
+        run: pip install --quiet pycryptodome==3.20.0
+
       - name: Fetch Notion data
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_PAGE_ID: ${{ secrets.NOTION_PAGE_ID }}
+          DATA_PASSPHRASE: ${{ secrets.DATA_PASSPHRASE }}
         run: python scripts/fetch_notion.py
 
       - name: Commit data.json if changed

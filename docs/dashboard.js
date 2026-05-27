@@ -131,7 +131,12 @@ async function loadData() {
   try {
     const res = await fetch(`./data.json?ts=${Date.now()}`, { cache: "no-store" });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    state.data = await res.json();
+    const payload = await res.json();
+    if (isEncryptedEnvelope(payload)) {
+      state.data = await unlockEncrypted(payload);
+    } else {
+      state.data = payload;
+    }
     onDataReady();
     setStatus("");
   } catch (e) {
@@ -141,6 +146,111 @@ async function loadData() {
       true,
     );
   }
+}
+
+// ---------- Encryption ----------
+
+const PASSPHRASE_KEY = "monitor_passphrase";
+
+function isEncryptedEnvelope(p) {
+  return (
+    p && typeof p === "object" && p.v === 1 && p.kdf === "pbkdf2-sha256" &&
+    typeof p.iters === "number" && p.salt && p.iv && p.ct
+  );
+}
+
+function b64ToBuf(b64) {
+  const bin = atob(b64);
+  const buf = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) buf[i] = bin.charCodeAt(i);
+  return buf;
+}
+
+async function deriveAesKey(passphrase, salt, iterations) {
+  const enc = new TextEncoder();
+  const keyMaterial = await crypto.subtle.importKey(
+    "raw",
+    enc.encode(passphrase),
+    "PBKDF2",
+    false,
+    ["deriveKey"],
+  );
+  return crypto.subtle.deriveKey(
+    { name: "PBKDF2", salt, iterations, hash: "SHA-256" },
+    keyMaterial,
+    { name: "AES-GCM", length: 256 },
+    false,
+    ["decrypt"],
+  );
+}
+
+async function decryptEnvelope(envelope, passphrase) {
+  const salt = b64ToBuf(envelope.salt);
+  const iv = b64ToBuf(envelope.iv);
+  const ct = b64ToBuf(envelope.ct);
+  const key = await deriveAesKey(passphrase, salt, envelope.iters);
+  const plaintext = await crypto.subtle.decrypt(
+    { name: "AES-GCM", iv },
+    key,
+    ct,
+  );
+  return JSON.parse(new TextDecoder().decode(plaintext));
+}
+
+async function unlockEncrypted(envelope) {
+  // First try the cached passphrase (silent unlock).
+  const cached = localStorage.getItem(PASSPHRASE_KEY);
+  if (cached) {
+    try {
+      return await decryptEnvelope(envelope, cached);
+    } catch (_) {
+      localStorage.removeItem(PASSPHRASE_KEY);
+    }
+  }
+  return showAuthModalUntilUnlocked(envelope);
+}
+
+function showAuthModalUntilUnlocked(envelope) {
+  return new Promise((resolve) => {
+    const modal = $("#auth-modal");
+    const form = $("#auth-form");
+    const input = $("#passphrase-input");
+    const remember = $("#remember-passphrase");
+    const submitBtn = $("#auth-submit");
+    const errorEl = $("#auth-error");
+
+    modal.hidden = false;
+    errorEl.textContent = "";
+    setTimeout(() => input.focus(), 50);
+
+    form.onsubmit = async (e) => {
+      e.preventDefault();
+      const passphrase = input.value;
+      if (!passphrase) return;
+      submitBtn.disabled = true;
+      const originalLabel = submitBtn.textContent;
+      submitBtn.textContent = "Decrypting…";
+      errorEl.textContent = "";
+      try {
+        const data = await decryptEnvelope(envelope, passphrase);
+        if (remember.checked) {
+          localStorage.setItem(PASSPHRASE_KEY, passphrase);
+        } else {
+          localStorage.removeItem(PASSPHRASE_KEY);
+        }
+        modal.hidden = true;
+        input.value = "";
+        submitBtn.textContent = originalLabel;
+        submitBtn.disabled = false;
+        resolve(data);
+      } catch (err) {
+        submitBtn.textContent = originalLabel;
+        submitBtn.disabled = false;
+        errorEl.textContent = "Incorrect passphrase";
+        input.select();
+      }
+    };
+  });
 }
 
 function onDataReady() {

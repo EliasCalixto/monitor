@@ -4,6 +4,10 @@ Pasos manuales que **tú** tienes que hacer una sola vez. El código ya está li
 
 URL final del dashboard: **https://eliascalixto.github.io/monitor/**
 
+> **Aviso de privacidad:** sin el paso de encriptación (sección 7) el `data.json`
+> está expuesto públicamente en GitHub Pages. Si el repo es público y la página
+> contiene info financiera privada, **completa el paso 7 antes de exponer la URL**.
+
 ---
 
 ## 1. Crear la integración en Notion
@@ -101,8 +105,67 @@ Y abre <http://localhost:8000>.
 - **Las páginas no se actualizan** → GitHub Pages cachea ~10 min. Fuerza recarga con Ctrl+F5.
 - **No quieres esperar 15 min entre updates** → edita el cron en `.github/workflows/sync-notion.yml`. El mínimo práctico en GitHub Actions gratis es ~5 min (`*/5 * * * *`).
 
+## 7. (Recomendado) Encriptar el `data.json`
+
+> Sin esto, cualquiera con la URL del dashboard puede leer todos tus datos
+> financieros con un simple `curl`. Con esto, el `data.json` que sirve
+> GitHub Pages es **ciphertext AES-256-GCM** y solo se desencripta en tu
+> browser con la passphrase que sepas tú.
+
+### 7.1 Generar una passphrase fuerte
+
+Usa cualquier generador. Desde PowerShell:
+
+```powershell
+[Convert]::ToBase64String((1..32 | ForEach-Object { Get-Random -Maximum 256 }))
+```
+
+Eso te da algo como `kJ8p3vQz...` (~44 chars). **Guárdala en tu password manager**
+— si la pierdes, los `data.json` viejos siguen siendo ilegibles.
+
+### 7.2 Agregar la passphrase como secret de GitHub
+
+1. Abre <https://github.com/EliasCalixto/monitor/settings/secrets/actions>.
+2. Click **New repository secret**.
+3. Name: `DATA_PASSPHRASE`
+4. Secret: pega la passphrase del paso anterior.
+5. Click **Add secret**.
+
+### 7.3 Disparar el workflow para re-generar `data.json` encriptado
+
+1. <https://github.com/EliasCalixto/monitor/actions/workflows/sync-notion.yml>
+2. **Run workflow** → branch `main` → **Run workflow**
+3. Espera ~30 seg. El log debería decir
+   `data.json will be written ENCRYPTED (AES-256-GCM / PBKDF2-SHA256).`
+
+### 7.4 Probar el dashboard
+
+1. Abre <https://eliascalixto.github.io/monitor/> (Ctrl+F5).
+2. Aparecerá un modal "Encrypted dashboard".
+3. Pega tu passphrase, deja marcado "Remember on this device".
+4. Si la passphrase es correcta el dashboard carga normalmente.
+5. Recarga la página: ya no debería pedir la passphrase (queda guardada en `localStorage` solo de tu browser).
+
+### 7.5 Desactivar la encriptación
+
+Si en algún momento quieres volver a plaintext:
+
+1. Borra el secret `DATA_PASSPHRASE` en GitHub Settings.
+2. Re-dispara el workflow.
+3. Borra `localStorage` del dashboard (DevTools → Application → Local Storage → eliminar `monitor_passphrase`).
+
 ## Notas de seguridad
 
-- El `data.json` es **público** (cualquiera con la URL del Pages lo puede leer). No publiques databases con info privada.
-- Si necesitas privacidad: cambia el repo a privado y usa **GitHub Pages Private** (requiere plan Pro/Team) o migra a Cloudflare Pages con auth.
-- Si filtras el token por accidente: regrésate a la página de integraciones de Notion y haz **Regenerate** del secret.
+- `data.json` es **público** por defecto. Sin el paso 7 cualquiera con la URL del
+  Pages puede leerlo con `curl https://eliascalixto.github.io/monitor/data.json`.
+- Con el paso 7: ciphertext público pero ilegible sin la passphrase. PBKDF2 con
+  600k iteraciones hace brute-force inviable si la passphrase tiene ≥12 chars
+  random (24+ recomendado).
+- **El historial de Git ya tiene `data.json` plaintext** de los commits anteriores.
+  Esos quedan accesibles en commits viejos. Para limpiarlos hay que reescribir
+  historia con `git filter-repo` (no incluido aquí).
+- Si filtras el token de Notion por accidente: regrésate a la página de integraciones
+  de Notion y haz **Regenerate** del secret.
+- Si filtras la `DATA_PASSPHRASE`: cámbiala en el secret de GitHub y dispara el
+  workflow; el siguiente `data.json` se encriptará con la nueva. Los `data.json`
+  viejos commiteados siguen siendo descifrables con la passphrase vieja.
