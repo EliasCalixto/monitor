@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T19:13:21.540799+00:00",
+  "generated_at": "2026-05-27T21:11:38.769248+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,11 +27,11 @@
           "_url": "https://www.notion.so/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 4549.450000000001,
+          "SumGastosPapa": 5049.450000000001,
           "Tot. Expenses": 264015.2349999998,
-          "Total Papa": 5168.75,
+          "Total Papa": 6168.75,
           "Tot. Savings": 14151.9,
-          "SumIngresosPapa": 9718.2,
+          "SumIngresosPapa": 11218.2,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
             "34fe6c72-cc72-818b-a14d-f54df1618747",
@@ -119,7 +119,8 @@
             "358e6c72-cc72-80b3-a868-f13b404b907e",
             "35be6c72-cc72-802c-bce4-fb28726286f2",
             "35ee6c72-cc72-8001-84e0-f30c8203feec",
-            "35fe6c72-cc72-8009-8db5-fe64d50af83e"
+            "35fe6c72-cc72-8009-8db5-fe64d50af83e",
+            "36de6c72-cc72-805a-b6a3-c4cab8c613d8"
           ],
           "Cash": -37.94499999976,
           "Tot. Income": 263977.29000000004,
@@ -150,7 +151,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 5130.805000000239,
+          "Cash Total": 6130.805000000239,
           "Name": "Resumen"
         }
       ]
@@ -9602,6 +9603,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "36de6c72-cc72-805a-b6a3-c4cab8c613d8",
+          "_url": "https://www.notion.so/Le-yapearon-36de6c72cc72805ab6a3c4cab8c613d8",
+          "_created": "2026-05-27T20:27:00.000Z",
+          "_edited": "2026-05-27T20:27:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-05-27",
+            "end": null
+          },
+          "Money": 1500,
+          "Total Gastos Papa": [],
+          "Name": "Le yapearon"
+        },
+        {
+          "_id": "36de6c72-cc72-8065-baef-c02c59a31f01",
+          "_url": "https://www.notion.so/Hector-g-36de6c72cc728065baefc02c59a31f01",
+          "_created": "2026-05-27T20:27:00.000Z",
+          "_edited": "2026-05-27T20:27:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-05-27",
+            "end": null
+          },
+          "Money": 500,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Hector g"
+        },
         {
           "_id": "36ce6c72-cc72-800c-811a-f8de23f9595b",
           "_url": "https://www.notion.so/no-se-quien-36ce6c72cc72800c811af8de23f9595b",
