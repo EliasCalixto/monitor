@@ -464,6 +464,7 @@ body > section.filters {
 }
 
 .chart-box--donut {
+  height: 300px;
   max-height: 300px;
 }
 .chart-box--donut canvas {
@@ -840,11 +841,13 @@ footer {
     width: 100% !important;
   }
   .chart-box--donut {
-    min-height: 260px;
-    max-height: 260px;
+    height: 240px;
+    min-height: unset;
+    max-height: unset;
+    overflow: hidden;
   }
   .chart-box--donut canvas {
-    max-height: 260px;
+    max-height: 240px;
   }
   .chart-box--bars {
     min-height: 200px;
