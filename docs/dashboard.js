@@ -570,17 +570,17 @@ function renderExpenseDonut(expenses) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      cutout: isMobile() ? "45%" : "55%",
+      cutout: "55%",
       plugins: {
         legend: {
-          position: isMobile() ? "bottom" : "right",
+          position: "right",
           labels: {
             usePointStyle: true,
             pointStyle: "circle",
-            boxWidth: isMobile() ? 6 : 8,
-            boxHeight: isMobile() ? 6 : 8,
-            padding: isMobile() ? 5 : 10,
-            font: { size: isMobile() ? 9 : 12 },
+            boxWidth: 8,
+            boxHeight: 8,
+            padding: isMobile() ? 8 : 10,
+            font: { size: isMobile() ? 11 : 12 },
           },
         },
         tooltip: {
