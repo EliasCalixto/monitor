@@ -840,11 +840,11 @@ footer {
     width: 100% !important;
   }
   .chart-box--donut {
-    min-height: 260px;
-    max-height: 260px;
+    min-height: 360px;
+    max-height: 360px;
   }
   .chart-box--donut canvas {
-    max-height: 260px;
+    max-height: 360px;
   }
   .chart-box--bars {
     min-height: 200px;
