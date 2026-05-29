@@ -734,16 +734,20 @@ footer {
     padding: 16px 16px;
   }
   .filter-row {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 12px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 8px;
   }
   .filter-row + .filter-row {
     margin-top: 14px;
     padding-top: 14px;
   }
   .filter-group {
-    width: 100%;
+    flex: 1 1 100%;
+  }
+  .filter-group.date-group {
+    flex: 1 1 calc(50% - 8px);
   }
   .filter-spacer {
     display: none;
@@ -754,7 +758,7 @@ footer {
     min-width: 0;
   }
   .filter-row > .btn-ghost {
-    align-self: stretch;
+    flex: 1 1 100%;
     width: 100%;
     justify-content: center;
     height: 36px;

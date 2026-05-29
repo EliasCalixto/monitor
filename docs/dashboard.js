@@ -889,6 +889,14 @@ function renderIncomeMonthly(incomes, { from, to }) {
             maxRotation: 45,
             minRotation: 30,
             font: { size: isMobile() ? 9 : 11 },
+            callback: function (value) {
+              const label = this.getLabelForValue(value);
+              const [y, m] = label.split("-");
+              return new Date(+y, +m - 1, 1).toLocaleDateString("en-US", {
+                month: "short",
+                year: "numeric",
+              });
+            },
           },
         },
         y: { beginAtZero: true, ticks: { callback: (v) => fmtMoney(v) } },
