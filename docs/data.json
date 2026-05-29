@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T17:55:32.408026+00:00",
+  "generated_at": "2026-05-29T20:02:56.656633+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -122,8 +122,8 @@
             "35fe6c72-cc72-8009-8db5-fe64d50af83e",
             "36de6c72-cc72-805a-b6a3-c4cab8c613d8"
           ],
-          "Cash": -52.94499999976,
-          "Tot. Income": 263977.29000000004,
+          "Cash": 2429.83500000027,
+          "Tot. Income": 266460.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -151,7 +151,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 6115.805000000239,
+          "Cash Total": 8598.585000000268,
           "Name": "Resumen"
         }
       ]
@@ -166,6 +166,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "36fe6c72-cc72-8030-b134-d240ce232b65",
+          "_url": "https://www.notion.so/Fin-de-mes-tp-36fe6c72cc728030b134d240ce232b65",
+          "_created": "2026-05-29T20:00:00.000Z",
+          "_edited": "2026-05-29T20:01:00.000Z",
+          "Date Received": {
+            "start": "2026-05-29",
+            "end": null
+          },
+          "Income": 2482.78,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Fin de mes tp"
+        },
         {
           "_id": "36be6c72-cc72-80f7-8f78-d378f89b6670",
           "_url": "https://www.notion.so/fin-de-mes-area-36be6c72cc7280f78f78d378f89b6670",
