@@ -46,8 +46,6 @@ const state = {
   // adds it to the focus set; clicking an active chip removes it.
   selectedCategories: new Set(),
   period: "this-month",
-  dateFrom: null,
-  dateTo: null,
   sort: { exp: { key: null, dir: -1 }, inc: { key: null, dir: -1 } },
   charts: {},
 };
@@ -68,12 +66,6 @@ function formatPeriodLabel() {
     case "6m":         return "Last 6 months";
     case "year":       return String(now.getFullYear());
     case "last-year":  return String(now.getFullYear() - 1);
-    case "custom": {
-      if (state.dateFrom && state.dateTo) return `${state.dateFrom} – ${state.dateTo}`;
-      if (state.dateFrom) return `From ${state.dateFrom}`;
-      if (state.dateTo)   return `Until ${state.dateTo}`;
-      return "Custom range";
-    }
     default: return "All time";
   }
 }
@@ -327,7 +319,6 @@ function onDataReady() {
 
   buildCategoryChips();
   renderResumen();
-  syncDateInputsFromPeriod();
   applyAndRender();
 }
 
@@ -458,33 +449,9 @@ function computePeriod() {
         from: new Date(now.getFullYear() - 1, 0, 1),
         to: new Date(now.getFullYear() - 1, 11, 31, 23, 59, 59),
       };
-    case "custom":
-      return {
-        from: state.dateFrom ? parseLocalDate(state.dateFrom) : null,
-        to: state.dateTo
-          ? (() => {
-              const d = parseLocalDate(state.dateTo);
-              if (d) d.setHours(23, 59, 59);
-              return d;
-            })()
-          : null,
-      };
     case "all":
     default:
       return { from: null, to: null };
-  }
-}
-
-function syncDateInputsFromPeriod() {
-  const { from, to } = computePeriod();
-  $("#date-from").value = isoLocal(from);
-  $("#date-to").value = isoLocal(to);
-  if (from || to) {
-    state.dateFrom = isoLocal(from);
-    state.dateTo = isoLocal(to);
-  } else {
-    state.dateFrom = null;
-    state.dateTo = null;
   }
 }
 
@@ -1036,25 +1003,11 @@ function renderIncomeTable(incomes) {
 function attachFilterListeners() {
   $("#period").addEventListener("change", (e) => {
     state.period = e.target.value;
-    syncDateInputsFromPeriod();
-    applyAndRender();
-  });
-  $("#date-from").addEventListener("change", (e) => {
-    state.period = "custom";
-    $("#period").value = "custom";
-    state.dateFrom = e.target.value || null;
-    applyAndRender();
-  });
-  $("#date-to").addEventListener("change", (e) => {
-    state.period = "custom";
-    $("#period").value = "custom";
-    state.dateTo = e.target.value || null;
     applyAndRender();
   });
   $("#reset-filters").addEventListener("click", () => {
-    state.period = "all";
-    $("#period").value = "all";
-    syncDateInputsFromPeriod();
+    state.period = "this-month";
+    $("#period").value = "this-month";
     state.selectedCategories = new Set();
     $$("#category-chips .chip").forEach((c) => c.classList.add("off"));
     applyAndRender();
