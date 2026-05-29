@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T11:54:02.610012+00:00",
+  "generated_at": "2026-05-29T14:30:32.655612+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 5049.450000000001,
-          "Tot. Expenses": 264015.2349999998,
+          "Tot. Expenses": 264030.2349999998,
           "Total Papa": 6168.75,
           "Tot. Savings": 14151.9,
           "SumIngresosPapa": 11218.2,
@@ -122,7 +122,7 @@
             "35fe6c72-cc72-8009-8db5-fe64d50af83e",
             "36de6c72-cc72-805a-b6a3-c4cab8c613d8"
           ],
-          "Cash": -37.94499999976,
+          "Cash": -52.94499999976,
           "Tot. Income": 263977.29000000004,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -151,7 +151,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 6130.805000000239,
+          "Cash Total": 6115.805000000239,
           "Name": "Resumen"
         }
       ]
@@ -930,6 +930,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "36fe6c72-cc72-80b1-86ca-c7edfb5e384d",
+          "_url": "https://www.notion.so/netflix-36fe6c72cc7280b186cac7edfb5e384d",
+          "_created": "2026-05-29T13:27:00.000Z",
+          "_edited": "2026-05-29T13:27:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-05-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 15,
+          "Name": "netflix"
+        },
         {
           "_id": "36de6c72-cc72-80b6-8695-d2e8015a4ddd",
           "_url": "https://www.notion.so/Trabajo-proyecto-36de6c72cc7280b68695d2e8015a4ddd",
