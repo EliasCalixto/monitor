@@ -744,24 +744,18 @@ footer {
     padding-top: 14px;
   }
   .filter-group {
-    flex: 1 1 100%;
-  }
-  .filter-group.date-group {
-    flex: 1 1 calc(50% - 8px);
+    flex: 1 1 auto;
   }
   .filter-spacer {
     display: none;
   }
-  .filters.card select,
-  .filters.card input[type="date"] {
+  .filters.card select {
     width: 100%;
     min-width: 0;
   }
   .filter-row > .btn-ghost {
-    flex: 1 1 100%;
-    width: 100%;
-    justify-content: center;
-    height: 36px;
+    align-self: flex-end;
+    height: 32px;
   }
 }
 
