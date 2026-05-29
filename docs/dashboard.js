@@ -520,7 +520,33 @@ function applyAndRender() {
   renderExpenseTable(filteredExpenses);
 
   renderIncomeYearly();
-  renderIncomeMonthly(filteredIncomes, { from, to });
+
+  // Monthly income chart shows context beyond the selected period:
+  // - "all time" → all incomes, no date bounds
+  // - short periods (this week/month/year) → full current year for context
+  // - longer periods → exactly the selected period
+  let incMonthlyIncomes, incMonthlyFrom, incMonthlyTo, incMonthlyLabel;
+  if (state.period === "all") {
+    incMonthlyIncomes = state.incomes;
+    incMonthlyFrom = null;
+    incMonthlyTo = null;
+    incMonthlyLabel = "— all time";
+  } else if (["this-week", "this-month", "year"].includes(state.period)) {
+    const y = new Date().getFullYear();
+    incMonthlyFrom = new Date(y, 0, 1);
+    incMonthlyTo = new Date(y, 11, 31, 23, 59, 59);
+    incMonthlyIncomes = state.incomes.filter((i) => inPeriod(i.date, incMonthlyFrom, incMonthlyTo));
+    incMonthlyLabel = "— this year";
+  } else {
+    incMonthlyIncomes = filteredIncomes;
+    incMonthlyFrom = from;
+    incMonthlyTo = to;
+    incMonthlyLabel = "— filtered";
+  }
+  const incMonthlyLabelEl = document.getElementById("inc-monthly-label");
+  if (incMonthlyLabelEl) incMonthlyLabelEl.textContent = incMonthlyLabel;
+
+  renderIncomeMonthly(incMonthlyIncomes, { from: incMonthlyFrom, to: incMonthlyTo });
   renderIncomeTable(filteredIncomes);
 }
 
@@ -569,18 +595,19 @@ function renderExpenseDonut(expenses) {
     },
     options: {
       responsive: true,
-      maintainAspectRatio: false,
-      cutout: isMobile() ? "45%" : "55%",
+      maintainAspectRatio: isMobile(),
+      aspectRatio: 1.5,
+      cutout: "55%",
       plugins: {
         legend: {
-          position: isMobile() ? "bottom" : "right",
+          position: "right",
           labels: {
             usePointStyle: true,
             pointStyle: "circle",
-            boxWidth: isMobile() ? 6 : 8,
-            boxHeight: isMobile() ? 6 : 8,
-            padding: isMobile() ? 5 : 10,
-            font: { size: isMobile() ? 9 : 12 },
+            boxWidth: 8,
+            boxHeight: 8,
+            padding: isMobile() ? 8 : 10,
+            font: { size: isMobile() ? 11 : 12 },
           },
         },
         tooltip: {
