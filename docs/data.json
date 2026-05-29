@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T22:03:09.632353+00:00",
+  "generated_at": "2026-05-29T23:40:37.975573+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -945,6 +945,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "36fe6c72-cc72-8001-8a38-d5057167291e",
+          "_url": "https://www.notion.so/Deuda-papa-36fe6c72cc7280018a38d5057167291e",
+          "_created": "2026-05-29T22:14:00.000Z",
+          "_edited": "2026-05-29T22:15:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-05-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2634.7,
+          "Name": "Deuda papa"
+        },
+        {
+          "_id": "36fe6c72-cc72-8000-b704-f76610c1d94e",
+          "_url": "https://www.notion.so/Int-36fe6c72cc728000b704f76610c1d94e",
+          "_created": "2026-05-29T22:14:00.000Z",
+          "_edited": "2026-05-29T22:14:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-05-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -2634.7,
+          "Name": "Int"
+        },
         {
           "_id": "36fe6c72-cc72-80f2-a773-ded505c9a72e",
           "_url": "https://www.notion.so/Acum-36fe6c72cc7280f2a773ded505c9a72e",
