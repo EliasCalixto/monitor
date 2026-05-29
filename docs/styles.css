@@ -841,13 +841,12 @@ footer {
     width: 100% !important;
   }
   .chart-box--donut {
-    height: 240px;
+    height: auto;
     min-height: unset;
     max-height: unset;
-    overflow: hidden;
   }
   .chart-box--donut canvas {
-    max-height: 240px;
+    max-height: 280px;
   }
   .chart-box--bars {
     min-height: 200px;
