@@ -157,6 +157,21 @@ function monthKey(d) {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
 }
 
+function dayKey(d) {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
+function daysInRange(from, to) {
+  const days = [];
+  const cur = new Date(from.getFullYear(), from.getMonth(), from.getDate());
+  const end = new Date(to.getFullYear(), to.getMonth(), to.getDate());
+  while (cur <= end) {
+    days.push(dayKey(cur));
+    cur.setDate(cur.getDate() + 1);
+  }
+  return days;
+}
+
 // ---------- Data load ----------
 
 async function loadData() {
@@ -675,39 +690,54 @@ function monthsInRange(from, to, expenses) {
 function renderExpenseEvolution(expenses, { from, to }) {
   destroyChart("expEvolution");
 
-  // Empty selection means "show all" — match the filter logic above.
   const selectedCats = state.selectedCategories.size === 0
     ? [...CATEGORY_ORDER]
     : CATEGORY_ORDER.filter((c) => state.selectedCategories.has(c));
-  const months = monthsInRange(from, to, expenses);
 
-  // For each category, build month -> sum
-  const byCatMonth = {};
-  for (const cat of selectedCats) byCatMonth[cat] = Object.fromEntries(months.map((m) => [m, 0]));
+  // Use daily buckets for single-month periods so the chart shows per-day data.
+  const isDaily = ["this-month", "last-month"].includes(state.period) && from && to;
+  const labels = isDaily ? daysInRange(from, to) : monthsInRange(from, to, expenses);
+  const getKey = isDaily ? (e) => dayKey(e.date) : (e) => monthKey(e.date);
+
+  const byCatKey = {};
+  for (const cat of selectedCats) byCatKey[cat] = Object.fromEntries(labels.map((k) => [k, 0]));
   for (const e of expenses) {
     if (!e.date) continue;
-    if (!byCatMonth[e.category]) continue;
-    const k = monthKey(e.date);
-    if (!(k in byCatMonth[e.category])) byCatMonth[e.category][k] = 0;
-    byCatMonth[e.category][k] += e.price;
+    if (!byCatKey[e.category]) continue;
+    const k = getKey(e);
+    if (k in byCatKey[e.category]) byCatKey[e.category][k] += e.price;
   }
 
   const datasets = selectedCats.map((cat) => ({
     label: cat,
-    data: months.map((m) => byCatMonth[cat][m] || 0),
+    data: labels.map((k) => byCatKey[cat][k] || 0),
     borderColor: CATEGORY_COLORS[cat],
     backgroundColor: CATEGORY_COLORS[cat] + "55",
     pointBackgroundColor: CATEGORY_COLORS[cat],
-    pointRadius: 3,
+    pointRadius: isDaily ? 2 : 3,
     tension: 0.3,
     fill: false,
     borderWidth: 2,
   }));
 
+  const xTickCallback = isDaily
+    ? function (value) {
+        const label = this.getLabelForValue(value);
+        return String(parseInt(label.split("-")[2], 10));
+      }
+    : function (value) {
+        const label = this.getLabelForValue(value);
+        const [y, m] = label.split("-");
+        return new Date(+y, +m - 1, 1).toLocaleDateString("en-US", {
+          month: "short",
+          year: "numeric",
+        });
+      };
+
   const ctx = document.getElementById("exp-evolution");
   state.charts.expEvolution = new Chart(ctx, {
     type: "line",
-    data: { labels: months, datasets },
+    data: { labels, datasets },
     options: {
       responsive: true,
       maintainAspectRatio: false,
@@ -724,7 +754,15 @@ function renderExpenseEvolution(expenses, { from, to }) {
           },
         },
         tooltip: {
-          callbacks: { label: (c) => `${c.dataset.label}: ${fmtMoney(c.parsed.y)}` },
+          callbacks: {
+            title: isDaily
+              ? (items) => {
+                  const d = new Date(items[0].label + "T00:00:00");
+                  return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+                }
+              : undefined,
+            label: (c) => `${c.dataset.label}: ${fmtMoney(c.parsed.y)}`,
+          },
         },
         datalabels: { display: false },
       },
@@ -732,10 +770,11 @@ function renderExpenseEvolution(expenses, { from, to }) {
         x: {
           grid: { display: false },
           ticks: {
-            maxTicksLimit: isMobile() ? 6 : 20,
-            maxRotation: 45,
-            minRotation: 30,
+            maxTicksLimit: isMobile() ? 8 : (isDaily ? 16 : 20),
+            maxRotation: isDaily ? 0 : 45,
+            minRotation: 0,
             font: { size: isMobile() ? 9 : 11 },
+            callback: xTickCallback,
           },
         },
         y: {
