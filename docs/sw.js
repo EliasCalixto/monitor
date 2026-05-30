@@ -1,18 +1,13 @@
-const CACHE = "monitor-v11";
-const STATIC = [
-  "./",
-  "./index.html",
-  "./styles.css",
-  "./dashboard.js",
-  "./manifest.json",
+const CACHE = "monitor-v12";
+const CDN = [
   "https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js",
   "https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"
 ];
 
-// Install: cache all static assets
+// Install: pre-cache only CDN assets (app files are always fetched fresh)
 self.addEventListener("install", (e) => {
   e.waitUntil(
-    caches.open(CACHE).then((c) => c.addAll(STATIC))
+    caches.open(CACHE).then((c) => c.addAll(CDN))
   );
   self.skipWaiting();
 });
@@ -28,27 +23,27 @@ self.addEventListener("activate", (e) => {
 });
 
 // Fetch strategy:
-// - data.json → network first (always try to get fresh data)
-// - everything else → cache first
+// - App files (HTML, JS, CSS, data) → network first, cache as offline fallback
+// - CDN assets → cache first for performance
 self.addEventListener("fetch", (e) => {
   const url = new URL(e.request.url);
+  const isCdn = CDN.includes(url.href);
 
-  if (url.pathname.endsWith("data.json")) {
-    // Network first — fall back to cache if offline
+  if (isCdn) {
     e.respondWith(
-      fetch(e.request)
-        .then((res) => {
-          const clone = res.clone();
-          caches.open(CACHE).then((c) => c.put(e.request, clone));
-          return res;
-        })
-        .catch(() => caches.match(e.request))
+      caches.match(e.request).then((cached) => cached || fetch(e.request))
     );
     return;
   }
 
-  // Cache first — fall back to network
+  // Network first for everything else — always serve fresh app code
   e.respondWith(
-    caches.match(e.request).then((cached) => cached || fetch(e.request))
+    fetch(e.request)
+      .then((res) => {
+        const clone = res.clone();
+        caches.open(CACHE).then((c) => c.put(e.request, clone));
+        return res;
+      })
+      .catch(() => caches.match(e.request))
   );
 });
