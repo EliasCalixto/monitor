@@ -351,13 +351,9 @@ function resumenCard(label, value) {
   const el = document.createElement("div");
   el.className = "kpi";
 
-  let borderColor = DARK_GRAY;
+  let borderColor = MUTED_GRAY;
 
-  if (label === "Cash" || label === "Cash Total") {
-    borderColor = value < 0 ? SOFT_RED : SOFT_GREEN;
-  } else if (label === "Total Papa") {
-    borderColor = MUTED_GRAY;
-  } else if (label === "Tot. Savings") {
+  if (label === "Tot. Savings") {
     borderColor = CATEGORY_COLORS.Savings;
   } else if (label === "Tot. Income") {
     borderColor = CATEGORY_COLORS.Enjoy;
