@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T16:45:48.384421+00:00",
+  "generated_at": "2026-05-31T17:50:30.319535+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 5049.450000000001,
-          "Tot. Expenses": 266550.01499999984,
+          "Tot. Expenses": 266557.01499999984,
           "Total Papa": 6198.75,
           "Tot. Savings": 16634.68,
           "SumIngresosPapa": 11248.2,
@@ -123,7 +123,7 @@
             "36de6c72-cc72-805a-b6a3-c4cab8c613d8",
             "370e6c72-cc72-8007-a784-c7d9580e61d6"
           ],
-          "Cash": -89.94499999977,
+          "Cash": -96.94499999977,
           "Tot. Income": 266460.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -152,7 +152,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 6108.805000000229,
+          "Cash Total": 6101.805000000229,
           "Name": "Resumen"
         }
       ]
@@ -946,6 +946,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "371e6c72-cc72-80a0-abd4-f7c1246fc597",
+          "_url": "https://www.notion.so/Sandia-371e6c72cc7280a0abd4f7c1246fc597",
+          "_created": "2026-05-31T16:49:00.000Z",
+          "_edited": "2026-05-31T16:49:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-05-31",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 7,
+          "Name": "Sandia"
+        },
         {
           "_id": "370e6c72-cc72-8098-baa2-edc10e2fb962",
           "_url": "https://www.notion.so/Carne-para-almuerzo-370e6c72cc728098baa2edc10e2fb962",
