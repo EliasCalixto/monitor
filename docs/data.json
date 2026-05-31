@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T23:42:02.085968+00:00",
+  "generated_at": "2026-05-31T01:22:45.016374+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -1689,10 +1689,10 @@
           "_id": "361e6c72-cc72-8096-992c-cfd29b461698",
           "_url": "https://www.notion.so/uso-del-cambio-a-dolares-en-compras-de-tarjeta-361e6c72cc728096992ccfd29b461698",
           "_created": "2026-05-15T18:15:00.000Z",
-          "_edited": "2026-05-15T18:15:00.000Z",
+          "_edited": "2026-05-31T01:22:00.000Z",
           "Category": "Cashout",
           "Date Created": {
-            "start": "2026-05-15",
+            "start": "2026-05-14",
             "end": null
           },
           "ExpensesSavings": [],
@@ -1842,10 +1842,10 @@
           "_id": "35ee6c72-cc72-80db-a76f-c4ab371479d1",
           "_url": "https://www.notion.so/Pago-disposici-n-de-efectivo-35ee6c72cc7280dba76fc4ab371479d1",
           "_created": "2026-05-12T21:10:00.000Z",
-          "_edited": "2026-05-12T21:10:00.000Z",
+          "_edited": "2026-05-31T01:21:00.000Z",
           "Category": "Cashout",
           "Date Created": {
-            "start": "2026-05-12",
+            "start": "2026-05-05",
             "end": null
           },
           "ExpensesSavings": [],
@@ -1910,10 +1910,10 @@
           "_id": "35ee6c72-cc72-8056-872e-cd50bb25cdcc",
           "_url": "https://www.notion.so/Pago-disposicion-de-efectivo-35ee6c72cc728056872ecd50bb25cdcc",
           "_created": "2026-05-12T11:10:00.000Z",
-          "_edited": "2026-05-12T11:10:00.000Z",
+          "_edited": "2026-05-31T01:21:00.000Z",
           "Category": "Cashout",
           "Date Created": {
-            "start": "2026-05-12",
+            "start": "2026-05-05",
             "end": null
           },
           "ExpensesSavings": [],
@@ -9179,6 +9179,20 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "371e6c72-cc72-8042-9367-d4258db4fc29",
+          "_url": "https://www.notion.so/dota-371e6c72cc7280429367d4258db4fc29",
+          "_created": "2026-05-31T00:30:00.000Z",
+          "_edited": "2026-05-31T00:39:00.000Z",
+          "Date Created": {
+            "start": "2026-05-30",
+            "end": null
+          },
+          "Price": 15,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "dota"
+        },
         {
           "_id": "36ce6c72-cc72-80db-b9ab-db69535d7725",
           "_url": "https://www.notion.so/kit-kat-36ce6c72cc7280dbb9abdb69535d7725",
