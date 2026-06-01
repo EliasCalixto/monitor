@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T12:21:07.117936+00:00",
+  "generated_at": "2026-06-01T18:20:38.167863+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 5049.450000000001,
-          "Tot. Expenses": 266557.01499999984,
+          "Tot. Expenses": 266568.71499999985,
           "Total Papa": 6198.75,
           "Tot. Savings": 16634.68,
           "SumIngresosPapa": 11248.2,
@@ -123,7 +123,7 @@
             "36de6c72-cc72-805a-b6a3-c4cab8c613d8",
             "370e6c72-cc72-8007-a784-c7d9580e61d6"
           ],
-          "Cash": -96.94499999977,
+          "Cash": -108.64499999978,
           "Tot. Income": 266460.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -152,7 +152,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 6101.805000000229,
+          "Cash Total": 6090.105000000219,
           "Name": "Resumen"
         }
       ]
@@ -946,6 +946,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "372e6c72-cc72-8051-b38d-d382b7197292",
+          "_url": "https://www.notion.so/pasaje-372e6c72cc728051b38dd382b7197292",
+          "_created": "2026-06-01T13:20:00.000Z",
+          "_edited": "2026-06-01T13:21:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-06-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1.5,
+          "Name": "pasaje"
+        },
+        {
+          "_id": "372e6c72-cc72-80a3-b857-f45c6595fc43",
+          "_url": "https://www.notion.so/taxi-372e6c72cc7280a3b857f45c6595fc43",
+          "_created": "2026-06-01T13:20:00.000Z",
+          "_edited": "2026-06-01T13:20:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-06-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 10.2,
+          "Name": "taxi"
+        },
         {
           "_id": "371e6c72-cc72-80a0-abd4-f7c1246fc597",
           "_url": "https://www.notion.so/Sandia-371e6c72cc7280a0abd4f7c1246fc597",
@@ -9187,6 +9221,20 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "372e6c72-cc72-801e-bf83-cd36b8338ea2",
+          "_url": "https://www.notion.so/Pollito-don-tito-372e6c72cc72801ebf83cd36b8338ea2",
+          "_created": "2026-06-01T18:02:00.000Z",
+          "_edited": "2026-06-01T18:03:00.000Z",
+          "Date Created": {
+            "start": "2026-06-01",
+            "end": null
+          },
+          "Price": 46.8,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Pollito don tito"
+        },
         {
           "_id": "371e6c72-cc72-8042-9367-d4258db4fc29",
           "_url": "https://www.notion.so/dota-371e6c72cc7280429367d4258db4fc29",
