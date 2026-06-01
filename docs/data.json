@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T01:36:51.058320+00:00",
+  "generated_at": "2026-06-01T06:32:19.881251+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -9111,15 +9111,6 @@
         "Name": "title"
       },
       "rows": [
-        {
-          "_id": "356e6c72-cc72-8014-b1e0-e52c65ba3eb8",
-          "_url": "https://www.notion.so/Dota-356e6c72cc728014b1e0e52c65ba3eb8",
-          "_created": "2026-05-04T00:43:00.000Z",
-          "_edited": "2026-05-04T00:44:00.000Z",
-          "Type": "Auto",
-          "Price": 13.5,
-          "Name": "Dota+"
-        },
         {
           "_id": "350e6c72-cc72-80ea-b8e7-d199696bea45",
           "_url": "https://www.notion.so/iCloud-350e6c72cc7280eab8e7d199696bea45",
