@@ -17,7 +17,7 @@ const CATEGORY_COLORS = {
   Enjoy: "#b9f5c4",
   Losses: "#fd9a9a",
   Fixed: "#f8ccad",
-  Cashout: "#d4a844",
+  Cashout: "#fef2cb",
 };
 
 const CATEGORY_ORDER = [
@@ -708,17 +708,21 @@ function renderExpenseEvolution(expenses, { from, to }) {
     if (k in byCatKey[e.category]) byCatKey[e.category][k] += e.price;
   }
 
-  const datasets = selectedCats.map((cat) => ({
+  const LINE_COLOR_OVERRIDES = { Cashout: "#d4a844" };
+  const datasets = selectedCats.map((cat) => {
+    const color = LINE_COLOR_OVERRIDES[cat] || CATEGORY_COLORS[cat];
+    return {
     label: cat,
     data: labels.map((k) => byCatKey[cat][k] || 0),
-    borderColor: CATEGORY_COLORS[cat],
-    backgroundColor: CATEGORY_COLORS[cat] + "55",
-    pointBackgroundColor: CATEGORY_COLORS[cat],
+    borderColor: color,
+    backgroundColor: color + "55",
+    pointBackgroundColor: color,
     pointRadius: isDaily ? 2 : 3,
     tension: 0.3,
     fill: false,
     borderWidth: 2,
-  }));
+    };
+  });
 
   const xTickCallback = isDaily
     ? function (value) {
