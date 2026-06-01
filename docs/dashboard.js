@@ -17,7 +17,7 @@ const CATEGORY_COLORS = {
   Enjoy: "#b9f5c4",
   Losses: "#fd9a9a",
   Fixed: "#f8ccad",
-  Cashout: "#fef2cb",
+  Cashout: "#d4a844",
 };
 
 const CATEGORY_ORDER = [
@@ -734,6 +734,8 @@ function renderExpenseEvolution(expenses, { from, to }) {
           },
         },
         tooltip: {
+          mode: "index",
+          intersect: false,
           callbacks: { label: (c) => `${c.dataset.label}: ${fmtMoney(c.parsed.y)}` },
         },
         datalabels: { display: false },
@@ -851,7 +853,11 @@ function renderIncomeMonthly(incomes, { from, to }) {
       maintainAspectRatio: false,
       plugins: {
         legend: { display: false },
-        tooltip: { callbacks: { label: (c) => fmtMoney(c.parsed.y) } },
+        tooltip: {
+          mode: "index",
+          intersect: false,
+          callbacks: { label: (c) => fmtMoney(c.parsed.y) },
+        },
         datalabels: { display: false },
       },
       scales: {
