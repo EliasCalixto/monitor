@@ -46,8 +46,6 @@ const state = {
   // adds it to the focus set; clicking an active chip removes it.
   selectedCategories: new Set(),
   period: "this-month",
-  dateFrom: null,
-  dateTo: null,
   sort: { exp: { key: null, dir: -1 }, inc: { key: null, dir: -1 } },
   charts: {},
 };
@@ -68,12 +66,6 @@ function formatPeriodLabel() {
     case "6m":         return "Last 6 months";
     case "year":       return String(now.getFullYear());
     case "last-year":  return String(now.getFullYear() - 1);
-    case "custom": {
-      if (state.dateFrom && state.dateTo) return `${state.dateFrom} – ${state.dateTo}`;
-      if (state.dateFrom) return `From ${state.dateFrom}`;
-      if (state.dateTo)   return `Until ${state.dateTo}`;
-      return "Custom range";
-    }
     default: return "All time";
   }
 }
@@ -163,6 +155,21 @@ function findDb(title) {
 
 function monthKey(d) {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
+}
+
+function dayKey(d) {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
+function daysInRange(from, to) {
+  const days = [];
+  const cur = new Date(from.getFullYear(), from.getMonth(), from.getDate());
+  const end = new Date(to.getFullYear(), to.getMonth(), to.getDate());
+  while (cur <= end) {
+    days.push(dayKey(cur));
+    cur.setDate(cur.getDate() + 1);
+  }
+  return days;
 }
 
 // ---------- Data load ----------
@@ -327,7 +334,6 @@ function onDataReady() {
 
   buildCategoryChips();
   renderResumen();
-  syncDateInputsFromPeriod();
   applyAndRender();
 }
 
@@ -360,13 +366,9 @@ function resumenCard(label, value) {
   const el = document.createElement("div");
   el.className = "kpi";
 
-  let borderColor = DARK_GRAY;
+  let borderColor = MUTED_GRAY;
 
-  if (label === "Cash" || label === "Cash Total") {
-    borderColor = value < 0 ? SOFT_RED : SOFT_GREEN;
-  } else if (label === "Total Papa") {
-    borderColor = MUTED_GRAY;
-  } else if (label === "Tot. Savings") {
+  if (label === "Tot. Savings") {
     borderColor = CATEGORY_COLORS.Savings;
   } else if (label === "Tot. Income") {
     borderColor = CATEGORY_COLORS.Enjoy;
@@ -458,33 +460,9 @@ function computePeriod() {
         from: new Date(now.getFullYear() - 1, 0, 1),
         to: new Date(now.getFullYear() - 1, 11, 31, 23, 59, 59),
       };
-    case "custom":
-      return {
-        from: state.dateFrom ? parseLocalDate(state.dateFrom) : null,
-        to: state.dateTo
-          ? (() => {
-              const d = parseLocalDate(state.dateTo);
-              if (d) d.setHours(23, 59, 59);
-              return d;
-            })()
-          : null,
-      };
     case "all":
     default:
       return { from: null, to: null };
-  }
-}
-
-function syncDateInputsFromPeriod() {
-  const { from, to } = computePeriod();
-  $("#date-from").value = isoLocal(from);
-  $("#date-to").value = isoLocal(to);
-  if (from || to) {
-    state.dateFrom = isoLocal(from);
-    state.dateTo = isoLocal(to);
-  } else {
-    state.dateFrom = null;
-    state.dateTo = null;
   }
 }
 
@@ -520,7 +498,33 @@ function applyAndRender() {
   renderExpenseTable(filteredExpenses);
 
   renderIncomeYearly();
-  renderIncomeMonthly(filteredIncomes, { from, to });
+
+  // Monthly income chart shows context beyond the selected period:
+  // - "all time" → all incomes, no date bounds
+  // - short periods (this week/month/year) → full current year for context
+  // - longer periods → exactly the selected period
+  let incMonthlyIncomes, incMonthlyFrom, incMonthlyTo, incMonthlyLabel;
+  if (state.period === "all") {
+    incMonthlyIncomes = state.incomes;
+    incMonthlyFrom = null;
+    incMonthlyTo = null;
+    incMonthlyLabel = "— all time";
+  } else if (["this-week", "this-month", "year"].includes(state.period)) {
+    const y = new Date().getFullYear();
+    incMonthlyFrom = new Date(y, 0, 1);
+    incMonthlyTo = new Date(y, 11, 31, 23, 59, 59);
+    incMonthlyIncomes = state.incomes.filter((i) => inPeriod(i.date, incMonthlyFrom, incMonthlyTo));
+    incMonthlyLabel = "— this year";
+  } else {
+    incMonthlyIncomes = filteredIncomes;
+    incMonthlyFrom = from;
+    incMonthlyTo = to;
+    incMonthlyLabel = "— filtered";
+  }
+  const incMonthlyLabelEl = document.getElementById("inc-monthly-label");
+  if (incMonthlyLabelEl) incMonthlyLabelEl.textContent = incMonthlyLabel;
+
+  renderIncomeMonthly(incMonthlyIncomes, { from: incMonthlyFrom, to: incMonthlyTo });
   renderIncomeTable(filteredIncomes);
 }
 
@@ -569,18 +573,19 @@ function renderExpenseDonut(expenses) {
     },
     options: {
       responsive: true,
-      maintainAspectRatio: false,
-      cutout: isMobile() ? "45%" : "55%",
+      maintainAspectRatio: isMobile(),
+      aspectRatio: 1.5,
+      cutout: "55%",
       plugins: {
         legend: {
-          position: isMobile() ? "bottom" : "right",
+          position: "right",
           labels: {
             usePointStyle: true,
             pointStyle: "circle",
-            boxWidth: isMobile() ? 6 : 8,
-            boxHeight: isMobile() ? 6 : 8,
-            padding: isMobile() ? 5 : 10,
-            font: { size: isMobile() ? 9 : 12 },
+            boxWidth: 8,
+            boxHeight: 8,
+            padding: isMobile() ? 8 : 10,
+            font: { size: isMobile() ? 11 : 12 },
           },
         },
         tooltip: {
@@ -685,39 +690,54 @@ function monthsInRange(from, to, expenses) {
 function renderExpenseEvolution(expenses, { from, to }) {
   destroyChart("expEvolution");
 
-  // Empty selection means "show all" — match the filter logic above.
   const selectedCats = state.selectedCategories.size === 0
     ? [...CATEGORY_ORDER]
     : CATEGORY_ORDER.filter((c) => state.selectedCategories.has(c));
-  const months = monthsInRange(from, to, expenses);
 
-  // For each category, build month -> sum
-  const byCatMonth = {};
-  for (const cat of selectedCats) byCatMonth[cat] = Object.fromEntries(months.map((m) => [m, 0]));
+  // Use daily buckets for single-month periods so the chart shows per-day data.
+  const isDaily = ["this-month", "last-month"].includes(state.period) && from && to;
+  const labels = isDaily ? daysInRange(from, to) : monthsInRange(from, to, expenses);
+  const getKey = isDaily ? (e) => dayKey(e.date) : (e) => monthKey(e.date);
+
+  const byCatKey = {};
+  for (const cat of selectedCats) byCatKey[cat] = Object.fromEntries(labels.map((k) => [k, 0]));
   for (const e of expenses) {
     if (!e.date) continue;
-    if (!byCatMonth[e.category]) continue;
-    const k = monthKey(e.date);
-    if (!(k in byCatMonth[e.category])) byCatMonth[e.category][k] = 0;
-    byCatMonth[e.category][k] += e.price;
+    if (!byCatKey[e.category]) continue;
+    const k = getKey(e);
+    if (k in byCatKey[e.category]) byCatKey[e.category][k] += e.price;
   }
 
   const datasets = selectedCats.map((cat) => ({
     label: cat,
-    data: months.map((m) => byCatMonth[cat][m] || 0),
+    data: labels.map((k) => byCatKey[cat][k] || 0),
     borderColor: CATEGORY_COLORS[cat],
     backgroundColor: CATEGORY_COLORS[cat] + "55",
     pointBackgroundColor: CATEGORY_COLORS[cat],
-    pointRadius: 3,
+    pointRadius: isDaily ? 2 : 3,
     tension: 0.3,
     fill: false,
     borderWidth: 2,
   }));
 
+  const xTickCallback = isDaily
+    ? function (value) {
+        const label = this.getLabelForValue(value);
+        return String(parseInt(label.split("-")[2], 10));
+      }
+    : function (value) {
+        const label = this.getLabelForValue(value);
+        const [y, m] = label.split("-");
+        return new Date(+y, +m - 1, 1).toLocaleDateString("en-US", {
+          month: "short",
+          year: "numeric",
+        });
+      };
+
   const ctx = document.getElementById("exp-evolution");
   state.charts.expEvolution = new Chart(ctx, {
     type: "line",
-    data: { labels: months, datasets },
+    data: { labels, datasets },
     options: {
       responsive: true,
       maintainAspectRatio: false,
@@ -736,7 +756,15 @@ function renderExpenseEvolution(expenses, { from, to }) {
         tooltip: {
           mode: "index",
           intersect: false,
-          callbacks: { label: (c) => `${c.dataset.label}: ${fmtMoney(c.parsed.y)}` },
+          callbacks: {
+            title: isDaily
+              ? (items) => {
+                  const d = new Date(items[0].label + "T00:00:00");
+                  return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+                }
+              : undefined,
+            label: (c) => `${c.dataset.label}: ${fmtMoney(c.parsed.y)}`,
+          },
         },
         datalabels: { display: false },
       },
@@ -744,10 +772,11 @@ function renderExpenseEvolution(expenses, { from, to }) {
         x: {
           grid: { display: false },
           ticks: {
-            maxTicksLimit: isMobile() ? 6 : 20,
-            maxRotation: 45,
-            minRotation: 30,
+            maxTicksLimit: isMobile() ? 8 : (isDaily ? 16 : 20),
+            maxRotation: isDaily ? 0 : 45,
+            minRotation: 0,
             font: { size: isMobile() ? 9 : 11 },
+            callback: xTickCallback,
           },
         },
         y: {
@@ -868,6 +897,14 @@ function renderIncomeMonthly(incomes, { from, to }) {
             maxRotation: 45,
             minRotation: 30,
             font: { size: isMobile() ? 9 : 11 },
+            callback: function (value) {
+              const label = this.getLabelForValue(value);
+              const [y, m] = label.split("-");
+              return new Date(+y, +m - 1, 1).toLocaleDateString("en-US", {
+                month: "short",
+                year: "numeric",
+              });
+            },
           },
         },
         y: { beginAtZero: true, ticks: { callback: (v) => fmtMoney(v) } },
@@ -1007,25 +1044,11 @@ function renderIncomeTable(incomes) {
 function attachFilterListeners() {
   $("#period").addEventListener("change", (e) => {
     state.period = e.target.value;
-    syncDateInputsFromPeriod();
-    applyAndRender();
-  });
-  $("#date-from").addEventListener("change", (e) => {
-    state.period = "custom";
-    $("#period").value = "custom";
-    state.dateFrom = e.target.value || null;
-    applyAndRender();
-  });
-  $("#date-to").addEventListener("change", (e) => {
-    state.period = "custom";
-    $("#period").value = "custom";
-    state.dateTo = e.target.value || null;
     applyAndRender();
   });
   $("#reset-filters").addEventListener("click", () => {
-    state.period = "all";
-    $("#period").value = "all";
-    syncDateInputsFromPeriod();
+    state.period = "this-month";
+    $("#period").value = "this-month";
     state.selectedCategories = new Set();
     $$("#category-chips .chip").forEach((c) => c.classList.add("off"));
     applyAndRender();

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T12:53:47.306354+00:00",
+  "generated_at": "2026-06-01T01:36:51.058320+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,10 +28,10 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 5049.450000000001,
-          "Tot. Expenses": 264015.2349999998,
-          "Total Papa": 6168.75,
-          "Tot. Savings": 14151.9,
-          "SumIngresosPapa": 11218.2,
+          "Tot. Expenses": 266557.01499999984,
+          "Total Papa": 6198.75,
+          "Tot. Savings": 16634.68,
+          "SumIngresosPapa": 11248.2,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
             "34fe6c72-cc72-818b-a14d-f54df1618747",
@@ -120,10 +120,11 @@
             "35be6c72-cc72-802c-bce4-fb28726286f2",
             "35ee6c72-cc72-8001-84e0-f30c8203feec",
             "35fe6c72-cc72-8009-8db5-fe64d50af83e",
-            "36de6c72-cc72-805a-b6a3-c4cab8c613d8"
+            "36de6c72-cc72-805a-b6a3-c4cab8c613d8",
+            "370e6c72-cc72-8007-a784-c7d9580e61d6"
           ],
-          "Cash": -37.94499999976,
-          "Tot. Income": 263977.29000000004,
+          "Cash": -96.94499999977,
+          "Tot. Income": 266460.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -151,7 +152,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 6130.805000000239,
+          "Cash Total": 6101.805000000229,
           "Name": "Resumen"
         }
       ]
@@ -166,6 +167,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "36fe6c72-cc72-8030-b134-d240ce232b65",
+          "_url": "https://www.notion.so/Fin-de-mes-tp-36fe6c72cc728030b134d240ce232b65",
+          "_created": "2026-05-29T20:00:00.000Z",
+          "_edited": "2026-05-29T20:01:00.000Z",
+          "Date Received": {
+            "start": "2026-05-29",
+            "end": null
+          },
+          "Income": 2482.78,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Fin de mes tp"
+        },
         {
           "_id": "36be6c72-cc72-80f7-8f78-d378f89b6670",
           "_url": "https://www.notion.so/fin-de-mes-area-36be6c72cc7280f78f78d378f89b6670",
@@ -931,6 +947,110 @@
       },
       "rows": [
         {
+          "_id": "371e6c72-cc72-80a0-abd4-f7c1246fc597",
+          "_url": "https://www.notion.so/Sandia-371e6c72cc7280a0abd4f7c1246fc597",
+          "_created": "2026-05-31T16:49:00.000Z",
+          "_edited": "2026-05-31T16:49:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-05-31",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 7,
+          "Name": "Sandia"
+        },
+        {
+          "_id": "370e6c72-cc72-8098-baa2-edc10e2fb962",
+          "_url": "https://www.notion.so/Carne-para-almuerzo-370e6c72cc728098baa2edc10e2fb962",
+          "_created": "2026-05-30T18:43:00.000Z",
+          "_edited": "2026-05-30T18:43:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-05-30",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 37,
+          "Name": "Carne para almuerzo"
+        },
+        {
+          "_id": "36fe6c72-cc72-8001-8a38-d5057167291e",
+          "_url": "https://www.notion.so/Deuda-papa-36fe6c72cc7280018a38d5057167291e",
+          "_created": "2026-05-29T22:14:00.000Z",
+          "_edited": "2026-05-29T22:15:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-05-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2634.7,
+          "Name": "Deuda papa"
+        },
+        {
+          "_id": "36fe6c72-cc72-8000-b704-f76610c1d94e",
+          "_url": "https://www.notion.so/Int-36fe6c72cc728000b704f76610c1d94e",
+          "_created": "2026-05-29T22:14:00.000Z",
+          "_edited": "2026-05-29T22:14:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-05-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -2634.7,
+          "Name": "Int"
+        },
+        {
+          "_id": "36fe6c72-cc72-80f2-a773-ded505c9a72e",
+          "_url": "https://www.notion.so/Acum-36fe6c72cc7280f2a773ded505c9a72e",
+          "_created": "2026-05-29T21:13:00.000Z",
+          "_edited": "2026-05-29T21:14:00.000Z",
+          "Category": "Savings",
+          "Date Created": {
+            "start": "2026-05-29",
+            "end": null
+          },
+          "ExpensesSavings": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2482.78,
+          "Name": "Acum"
+        },
+        {
+          "_id": "36fe6c72-cc72-80b1-86ca-c7edfb5e384d",
+          "_url": "https://www.notion.so/netflix-36fe6c72cc7280b186cac7edfb5e384d",
+          "_created": "2026-05-29T13:27:00.000Z",
+          "_edited": "2026-05-29T13:27:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-05-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 15,
+          "Name": "netflix"
+        },
+        {
           "_id": "36de6c72-cc72-80b6-8695-d2e8015a4ddd",
           "_url": "https://www.notion.so/Trabajo-proyecto-36de6c72cc7280b68695d2e8015a4ddd",
           "_created": "2026-05-27T04:45:00.000Z",
@@ -1586,10 +1706,10 @@
           "_id": "361e6c72-cc72-8096-992c-cfd29b461698",
           "_url": "https://www.notion.so/uso-del-cambio-a-dolares-en-compras-de-tarjeta-361e6c72cc728096992ccfd29b461698",
           "_created": "2026-05-15T18:15:00.000Z",
-          "_edited": "2026-05-15T18:15:00.000Z",
+          "_edited": "2026-05-31T01:22:00.000Z",
           "Category": "Cashout",
           "Date Created": {
-            "start": "2026-05-15",
+            "start": "2026-05-14",
             "end": null
           },
           "ExpensesSavings": [],
@@ -1739,10 +1859,10 @@
           "_id": "35ee6c72-cc72-80db-a76f-c4ab371479d1",
           "_url": "https://www.notion.so/Pago-disposici-n-de-efectivo-35ee6c72cc7280dba76fc4ab371479d1",
           "_created": "2026-05-12T21:10:00.000Z",
-          "_edited": "2026-05-12T21:10:00.000Z",
+          "_edited": "2026-05-31T01:21:00.000Z",
           "Category": "Cashout",
           "Date Created": {
-            "start": "2026-05-12",
+            "start": "2026-05-05",
             "end": null
           },
           "ExpensesSavings": [],
@@ -1807,10 +1927,10 @@
           "_id": "35ee6c72-cc72-8056-872e-cd50bb25cdcc",
           "_url": "https://www.notion.so/Pago-disposicion-de-efectivo-35ee6c72cc728056872ecd50bb25cdcc",
           "_created": "2026-05-12T11:10:00.000Z",
-          "_edited": "2026-05-12T11:10:00.000Z",
+          "_edited": "2026-05-31T01:21:00.000Z",
           "Category": "Cashout",
           "Date Created": {
-            "start": "2026-05-12",
+            "start": "2026-05-05",
             "end": null
           },
           "ExpensesSavings": [],
@@ -9077,6 +9197,20 @@
       },
       "rows": [
         {
+          "_id": "371e6c72-cc72-8042-9367-d4258db4fc29",
+          "_url": "https://www.notion.so/dota-371e6c72cc7280429367d4258db4fc29",
+          "_created": "2026-05-31T00:30:00.000Z",
+          "_edited": "2026-05-31T00:39:00.000Z",
+          "Date Created": {
+            "start": "2026-05-30",
+            "end": null
+          },
+          "Price": 15,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "dota"
+        },
+        {
           "_id": "36ce6c72-cc72-80db-b9ab-db69535d7725",
           "_url": "https://www.notion.so/kit-kat-36ce6c72cc7280dbb9abdb69535d7725",
           "_created": "2026-05-26T13:36:00.000Z",
@@ -9603,6 +9737,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "370e6c72-cc72-8007-a784-c7d9580e61d6",
+          "_url": "https://www.notion.so/Efra-370e6c72cc728007a784c7d9580e61d6",
+          "_created": "2026-05-30T04:09:00.000Z",
+          "_edited": "2026-05-30T04:10:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-05-29",
+            "end": null
+          },
+          "Money": 30,
+          "Total Gastos Papa": [],
+          "Name": "Efra"
+        },
         {
           "_id": "36de6c72-cc72-805a-b6a3-c4cab8c613d8",
           "_url": "https://www.notion.so/Le-yapearon-36de6c72cc72805ab6a3c4cab8c613d8",

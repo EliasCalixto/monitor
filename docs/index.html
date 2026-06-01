@@ -71,18 +71,8 @@
             <option value="year">This year</option>
             <option value="last-year">Last year</option>
             <option value="all">All time</option>
-            <option value="custom">Custom</option>
           </select>
         </div>
-        <div class="filter-group date-group">
-          <label for="date-from">From</label>
-          <input type="date" id="date-from" />
-        </div>
-        <div class="filter-group date-group">
-          <label for="date-to">To</label>
-          <input type="date" id="date-to" />
-        </div>
-        <div class="filter-spacer"></div>
         <button id="reset-filters" class="btn-ghost small" title="Reset filters">Reset</button>
       </div>
       <div class="filter-row chips-row">
@@ -135,7 +125,7 @@
           <canvas id="inc-yearly"></canvas>
         </div>
         <div class="chart-box">
-          <h3>Monthly <span class="muted small">— filtered</span></h3>
+          <h3>Monthly <span id="inc-monthly-label" class="muted small">— this year</span></h3>
           <canvas id="inc-monthly"></canvas>
         </div>
       </div>

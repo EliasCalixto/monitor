@@ -351,7 +351,7 @@ body > section.filters {
 
 .kpi-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(130px, 190px));
+  grid-template-columns: repeat(6, 1fr);
   gap: 16px;
   padding-left: 32px;
   padding-right: 32px;
@@ -464,6 +464,7 @@ body > section.filters {
 }
 
 .chart-box--donut {
+  height: 300px;
   max-height: 300px;
 }
 .chart-box--donut canvas {
@@ -733,30 +734,28 @@ footer {
     padding: 16px 16px;
   }
   .filter-row {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 12px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 8px;
   }
   .filter-row + .filter-row {
     margin-top: 14px;
     padding-top: 14px;
   }
   .filter-group {
-    width: 100%;
+    flex: 1 1 auto;
   }
   .filter-spacer {
     display: none;
   }
-  .filters.card select,
-  .filters.card input[type="date"] {
+  .filters.card select {
     width: 100%;
     min-width: 0;
   }
   .filter-row > .btn-ghost {
-    align-self: stretch;
-    width: 100%;
-    justify-content: center;
-    height: 36px;
+    align-self: flex-end;
+    height: 32px;
   }
 }
 
@@ -840,11 +839,12 @@ footer {
     width: 100% !important;
   }
   .chart-box--donut {
-    min-height: 360px;
-    max-height: 360px;
+    height: auto;
+    min-height: unset;
+    max-height: unset;
   }
   .chart-box--donut canvas {
-    max-height: 360px;
+    max-height: 280px;
   }
   .chart-box--bars {
     min-height: 200px;
