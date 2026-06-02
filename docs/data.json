@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T10:59:57.493547+00:00",
+  "generated_at": "2026-06-02T14:53:02.530732+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -9255,6 +9255,20 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "373e6c72-cc72-8096-9e7a-c44a16e5fc87",
+          "_url": "https://www.notion.so/galleta-373e6c72cc7280969e7ac44a16e5fc87",
+          "_created": "2026-06-02T13:19:00.000Z",
+          "_edited": "2026-06-02T13:19:00.000Z",
+          "Date Created": {
+            "start": "2026-06-02",
+            "end": null
+          },
+          "Price": 3.5,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "galleta"
+        },
         {
           "_id": "372e6c72-cc72-801e-bf83-cd36b8338ea2",
           "_url": "https://www.notion.so/Pollito-don-tito-372e6c72cc72801ebf83cd36b8338ea2",
