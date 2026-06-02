@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T18:28:17.243112+00:00",
+  "generated_at": "2026-06-02T21:08:00.932274+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://www.notion.so/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 5049.450000000001,
-          "Tot. Expenses": 266580.71499999985,
-          "Total Papa": 6198.75,
+          "SumGastosPapa": 5089.450000000001,
+          "Tot. Expenses": 266592.21499999985,
+          "Total Papa": 6158.75,
           "Tot. Savings": 16634.68,
           "SumIngresosPapa": 11248.2,
           "Expenses": [
@@ -123,7 +123,7 @@
             "36de6c72-cc72-805a-b6a3-c4cab8c613d8",
             "370e6c72-cc72-8007-a784-c7d9580e61d6"
           ],
-          "Cash": -120.64499999978,
+          "Cash": -132.14499999978,
           "Tot. Income": 266460.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -152,7 +152,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 6078.105000000219,
+          "Cash Total": 6026.605000000219,
           "Name": "Resumen"
         }
       ]
@@ -946,6 +946,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "373e6c72-cc72-81a2-a8d7-fa6c5e0273f6",
+          "_url": "https://www.notion.so/Pasajes-al-trabajo-373e6c72cc7281a2a8d7fa6c5e0273f6",
+          "_created": "2026-06-02T19:13:00.000Z",
+          "_edited": "2026-06-02T19:13:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-06-02",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 11.5,
+          "Name": "Pasajes al trabajo"
+        },
         {
           "_id": "373e6c72-cc72-80df-acb0-dcad0245d926",
           "_url": "https://www.notion.so/torta-de-chocolate-alfred-373e6c72cc7280dfacb0dcad0245d926",
@@ -9256,6 +9273,20 @@
       },
       "rows": [
         {
+          "_id": "373e6c72-cc72-81e3-9327-f5a168ec8072",
+          "_url": "https://www.notion.so/Almuerzo-cafeter-a-trabajo-373e6c72cc7281e39327f5a168ec8072",
+          "_created": "2026-06-02T19:10:00.000Z",
+          "_edited": "2026-06-02T19:10:00.000Z",
+          "Date Created": {
+            "start": "2026-06-02",
+            "end": null
+          },
+          "Price": 12,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Almuerzo cafetería trabajo"
+        },
+        {
           "_id": "373e6c72-cc72-8096-9e7a-c44a16e5fc87",
           "_url": "https://www.notion.so/galleta-373e6c72cc7280969e7ac44a16e5fc87",
           "_created": "2026-06-02T13:19:00.000Z",
@@ -9824,6 +9855,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "373e6c72-cc72-80c4-a3b9-e5bc08a83121",
+          "_url": "https://www.notion.so/Carapulcra-Obispo-373e6c72cc7280c4a3b9e5bc08a83121",
+          "_created": "2026-06-02T19:13:00.000Z",
+          "_edited": "2026-06-02T19:14:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-02",
+            "end": null
+          },
+          "Money": 40,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Carapulcra Obispo"
+        },
         {
           "_id": "370e6c72-cc72-8007-a784-c7d9580e61d6",
           "_url": "https://www.notion.so/Efra-370e6c72cc728007a784c7d9580e61d6",
