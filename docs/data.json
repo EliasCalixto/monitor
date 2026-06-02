@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T23:19:42.119089+00:00",
+  "generated_at": "2026-06-02T01:42:04.924768+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 5049.450000000001,
-          "Tot. Expenses": 266568.71499999985,
+          "Tot. Expenses": 266580.71499999985,
           "Total Papa": 6198.75,
           "Tot. Savings": 16634.68,
           "SumIngresosPapa": 11248.2,
@@ -123,7 +123,7 @@
             "36de6c72-cc72-805a-b6a3-c4cab8c613d8",
             "370e6c72-cc72-8007-a784-c7d9580e61d6"
           ],
-          "Cash": -108.64499999978,
+          "Cash": -120.64499999978,
           "Tot. Income": 266460.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -152,7 +152,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 6090.105000000219,
+          "Cash Total": 6078.105000000219,
           "Name": "Resumen"
         }
       ]
@@ -946,6 +946,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "373e6c72-cc72-80df-acb0-dcad0245d926",
+          "_url": "https://www.notion.so/torta-de-chocolate-alfred-373e6c72cc7280dfacb0dcad0245d926",
+          "_created": "2026-06-02T00:10:00.000Z",
+          "_edited": "2026-06-02T00:11:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 10,
+          "Name": "torta de chocolate alfred"
+        },
+        {
+          "_id": "373e6c72-cc72-805c-ad81-c6e8f131a0e4",
+          "_url": "https://www.notion.so/pasaje-373e6c72cc72805cad81c6e8f131a0e4",
+          "_created": "2026-06-02T00:10:00.000Z",
+          "_edited": "2026-06-02T00:10:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-06-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2,
+          "Name": "pasaje"
+        },
         {
           "_id": "372e6c72-cc72-8051-b38d-d382b7197292",
           "_url": "https://www.notion.so/pasaje-372e6c72cc728051b38dd382b7197292",
@@ -10483,6 +10517,14 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "373e6c72-cc72-8073-b191-c5a9c1b0eaa9",
+          "_url": "https://www.notion.so/pago-1-junio-373e6c72cc728073b191c5a9c1b0eaa9",
+          "_created": "2026-06-02T00:26:00.000Z",
+          "_edited": "2026-06-02T00:26:00.000Z",
+          "Money": 160,
+          "Name": "pago 1 junio"
+        },
         {
           "_id": "355e6c72-cc72-80a0-963a-fd91d559afaf",
           "_url": "https://www.notion.so/pago-2-de-mayo-355e6c72cc7280a0963afd91d559afaf",
