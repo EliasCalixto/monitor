@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T11:31:02.564018+00:00",
+  "generated_at": "2026-06-03T16:04:49.826535+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -9311,12 +9311,12 @@
           "_id": "374e6c72-cc72-8108-8e24-ecf83605251f",
           "_url": "https://app.notion.com/p/Wallet-Reloj-374e6c72cc7281088e24ecf83605251f",
           "_created": "2026-06-03T01:11:00.000Z",
-          "_edited": "2026-06-03T01:12:00.000Z",
+          "_edited": "2026-06-03T13:39:00.000Z",
           "Date Created": {
             "start": "2026-06-02",
             "end": null
           },
-          "Price": 393.67,
+          "Price": 538.47,
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Wallet + Reloj",
