@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T01:47:02.478372+00:00",
+  "generated_at": "2026-06-03T06:41:35.976758+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 5089.450000000001,
-          "Tot. Expenses": 266595.21499999985,
+          "Tot. Expenses": 266655.21499999985,
           "Total Papa": 6158.75,
           "Tot. Savings": 16634.68,
           "SumIngresosPapa": 11248.2,
@@ -123,7 +123,7 @@
             "36de6c72-cc72-805a-b6a3-c4cab8c613d8",
             "370e6c72-cc72-8007-a784-c7d9580e61d6"
           ],
-          "Cash": -135.14499999978,
+          "Cash": -195.14499999978,
           "Tot. Income": 266460.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -152,7 +152,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 6023.605000000219,
+          "Cash Total": 5963.605000000219,
           "Name": "Resumen"
         }
       ]
@@ -946,6 +946,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "374e6c72-cc72-8080-b7a2-df466703fcbf",
+          "_url": "https://app.notion.com/p/Trabajo-usil-374e6c72cc728080b7a2df466703fcbf",
+          "_created": "2026-06-03T03:31:00.000Z",
+          "_edited": "2026-06-03T03:31:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2026-06-02",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 60,
+          "Name": "Trabajo usil"
+        },
         {
           "_id": "374e6c72-cc72-8060-aca4-e74d63491dcb",
           "_url": "https://app.notion.com/p/pasajes-2-374e6c72cc728060aca4e74d63491dcb",
