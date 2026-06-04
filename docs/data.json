@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T22:50:15.657997+00:00",
+  "generated_at": "2026-06-04T23:57:35.593934+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 5089.450000000001,
-          "Tot. Expenses": 266655.21499999985,
-          "Total Papa": 6158.75,
+          "SumGastosPapa": 5175.450000000001,
+          "Tot. Expenses": 266659.71499999985,
+          "Total Papa": 6072.75,
           "Tot. Savings": 16634.68,
           "SumIngresosPapa": 11248.2,
           "Expenses": [
@@ -123,7 +123,7 @@
             "36de6c72-cc72-805a-b6a3-c4cab8c613d8",
             "370e6c72-cc72-8007-a784-c7d9580e61d6"
           ],
-          "Cash": -195.14499999978,
+          "Cash": -199.64499999978,
           "Tot. Income": 266460.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -152,7 +152,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 5963.605000000219,
+          "Cash Total": 5873.105000000219,
           "Name": "Resumen"
         }
       ]
@@ -946,6 +946,38 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "375e6c72-cc72-803f-8f87-ccb436535c4e",
+          "_url": "https://app.notion.com/p/pasajes-375e6c72cc72803f8f87ccb436535c4e",
+          "_created": "2026-06-04T23:57:00.000Z",
+          "_edited": "2026-06-04T23:57:00.000Z",
+          "Category": null,
+          "Date Created": {
+            "start": "2026-06-04",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [],
+          "Price": null,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "375e6c72-cc72-806a-9a8c-c0444d62d37d",
+          "_url": "https://app.notion.com/p/almuerzo-375e6c72cc72806a9a8cc0444d62d37d",
+          "_created": "2026-06-04T23:57:00.000Z",
+          "_edited": "2026-06-04T23:57:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-06-04",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 4.5,
+          "Name": "almuerzo"
+        },
         {
           "_id": "374e6c72-cc72-8080-b7a2-df466703fcbf",
           "_url": "https://app.notion.com/p/Trabajo-usil-374e6c72cc728080b7a2df466703fcbf",
@@ -9308,6 +9340,21 @@
       },
       "rows": [
         {
+          "_id": "375e6c72-cc72-8009-a9cb-c8f5e323ba75",
+          "_url": "https://app.notion.com/p/chocolate-helado-375e6c72cc728009a9cbc8f5e323ba75",
+          "_created": "2026-06-04T23:57:00.000Z",
+          "_edited": "2026-06-04T23:57:00.000Z",
+          "Date Created": {
+            "start": "2026-06-04",
+            "end": null
+          },
+          "Price": 5.5,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "chocolate helado",
+          "Category": null
+        },
+        {
           "_id": "374e6c72-cc72-8108-8e24-ecf83605251f",
           "_url": "https://app.notion.com/p/Wallet-Reloj-374e6c72cc7281088e24ecf83605251f",
           "_created": "2026-06-03T01:11:00.000Z",
@@ -9942,6 +9989,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "375e6c72-cc72-805f-be76-c57a89c41ef8",
+          "_url": "https://app.notion.com/p/recarga-mama-375e6c72cc72805fbe76c57a89c41ef8",
+          "_created": "2026-06-04T23:56:00.000Z",
+          "_edited": "2026-06-04T23:57:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-04",
+            "end": null
+          },
+          "Money": 6,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "recarga mama"
+        },
+        {
+          "_id": "375e6c72-cc72-8095-9136-f01fc1dda8be",
+          "_url": "https://app.notion.com/p/45-375e6c72cc7280959136f01fc1dda8be",
+          "_created": "2026-06-04T23:56:00.000Z",
+          "_edited": "2026-06-04T23:56:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-04",
+            "end": null
+          },
+          "Money": 45,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "45"
+        },
+        {
+          "_id": "375e6c72-cc72-8030-825b-dab19f43b2b4",
+          "_url": "https://app.notion.com/p/35-375e6c72cc728030825bdab19f43b2b4",
+          "_created": "2026-06-04T23:56:00.000Z",
+          "_edited": "2026-06-04T23:56:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-04",
+            "end": null
+          },
+          "Money": 35,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "35"
+        },
         {
           "_id": "373e6c72-cc72-80c4-a3b9-e5bc08a83121",
           "_url": "https://app.notion.com/p/Carapulcra-Obispo-373e6c72cc7280c4a3b9e5bc08a83121",
