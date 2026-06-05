@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T16:16:22.651015+00:00",
+  "generated_at": "2026-06-05T18:18:20.726946+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 5347.950000000001,
-          "Tot. Expenses": 266711.26499999984,
-          "Total Papa": 5900.25,
+          "SumGastosPapa": 5374.950000000001,
+          "Tot. Expenses": 266676.26499999984,
+          "Total Papa": 5873.25,
           "Tot. Savings": 14563.86,
           "SumIngresosPapa": 11248.2,
           "Expenses": [
@@ -123,7 +123,7 @@
             "36de6c72-cc72-805a-b6a3-c4cab8c613d8",
             "370e6c72-cc72-8007-a784-c7d9580e61d6"
           ],
-          "Cash": -251.19499999977,
+          "Cash": -216.19499999977,
           "Tot. Income": 266460.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -152,7 +152,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 5649.055000000229,
+          "Cash Total": 5657.055000000229,
           "Name": "Resumen"
         }
       ]
@@ -946,6 +946,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "376e6c72-cc72-80d4-b87d-dafd0942a6ae",
+          "_url": "https://app.notion.com/p/almuerzo-agraria-376e6c72cc7280d4b87ddafd0942a6ae",
+          "_created": "2026-06-05T18:15:00.000Z",
+          "_edited": "2026-06-05T18:15:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-05",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -35,
+          "Name": "almuerzo agraria"
+        },
         {
           "_id": "376e6c72-cc72-8113-a074-dd3c8ed5fec1",
           "_url": "https://app.notion.com/p/Acumulacion-negativa-376e6c72cc728113a074dd3c8ed5fec1",
@@ -9406,6 +9423,21 @@
       },
       "rows": [
         {
+          "_id": "376e6c72-cc72-8067-abb4-cbc2c2b1f1c3",
+          "_url": "https://app.notion.com/p/agraria-376e6c72cc728067abb4cbc2c2b1f1c3",
+          "_created": "2026-06-05T18:15:00.000Z",
+          "_edited": "2026-06-05T18:15:00.000Z",
+          "Date Created": {
+            "start": "2026-06-05",
+            "end": null
+          },
+          "Price": 70,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "agraria",
+          "Category": null
+        },
+        {
           "_id": "375e6c72-cc72-8009-a9cb-c8f5e323ba75",
           "_url": "https://app.notion.com/p/chocolate-helado-375e6c72cc728009a9cbc8f5e323ba75",
           "_created": "2026-06-04T23:57:00.000Z",
@@ -10055,6 +10087,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "376e6c72-cc72-8024-aba1-d9b04113f3cd",
+          "_url": "https://app.notion.com/p/pescado-376e6c72cc728024aba1d9b04113f3cd",
+          "_created": "2026-06-05T18:15:00.000Z",
+          "_edited": "2026-06-05T18:15:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-05",
+            "end": null
+          },
+          "Money": 27,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "pescado"
+        },
         {
           "_id": "376e6c72-cc72-80da-8480-e7f986c96c39",
           "_url": "https://app.notion.com/p/Amalia-376e6c72cc7280da8480e7f986c96c39",
