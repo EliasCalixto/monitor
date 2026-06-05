@@ -760,11 +760,9 @@ function renderExpenseEvolution(expenses, { from, to }) {
         tooltip: {
           mode: "index",
           intersect: false,
-          filter: (item) => Number(item.raw) > 0,
           callbacks: {
             title: isDaily
               ? (items) => {
-                  if (!items.length) return "";
                   const d = new Date(items[0].label + "T00:00:00");
                   return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
                 }
