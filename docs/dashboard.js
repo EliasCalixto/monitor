@@ -585,7 +585,7 @@ function renderExpenseDonut(expenses) {
             boxWidth: 8,
             boxHeight: 8,
             padding: isMobile() ? 8 : 10,
-            font: { size: isMobile() ? 11 : 12 },
+            font: { size: isMobile() ? 12 : 14 },
           },
         },
         tooltip: {
@@ -600,7 +600,7 @@ function renderExpenseDonut(expenses) {
             return total > 0 && (v / total) * 100 >= 4;
           },
           color: DONUT_LABEL_COLOR,
-          font: { weight: "400", size: 11 },
+          font: { weight: "400", size: 13 },
           formatter: (v) => `${((v / total) * 100).toFixed(1)}%`,
           anchor: "center",
           align: "center",
@@ -649,18 +649,18 @@ function renderExpenseSumBars(expenses) {
           align: "top",
           offset: 4,
           color: BAR_LABEL_COLOR,
-          font: { size: 10, weight: "400" },
+          font: { size: 12, weight: "400" },
           formatter: (v) => fmtMoney(v),
         },
       },
       scales: {
         x: {
           grid: { display: false },
-          ticks: { font: { size: isMobile() ? 9 : 11 }, maxRotation: 45, minRotation: 30 },
+          ticks: { font: { size: isMobile() ? 11 : 13 }, maxRotation: 45, minRotation: 30 },
         },
         y: {
           beginAtZero: true,
-          ticks: { callback: (v) => fmtMoney(v), font: { size: isMobile() ? 9 : 11 } },
+          ticks: { callback: (v) => fmtMoney(v), font: { size: isMobile() ? 11 : 13 } },
         },
       },
     },
@@ -754,7 +754,7 @@ function renderExpenseEvolution(expenses, { from, to }) {
             boxWidth: 5,
             boxHeight: 5,
             padding: 10,
-            font: { size: isMobile() ? 9 : 11 },
+            font: { size: isMobile() ? 11 : 13 },
           },
         },
         tooltip: {
@@ -779,13 +779,13 @@ function renderExpenseEvolution(expenses, { from, to }) {
             maxTicksLimit: isMobile() ? 8 : (isDaily ? 16 : 20),
             maxRotation: isDaily ? 0 : 45,
             minRotation: 0,
-            font: { size: isMobile() ? 9 : 11 },
+            font: { size: isMobile() ? 11 : 13 },
             callback: xTickCallback,
           },
         },
         y: {
           beginAtZero: true,
-          ticks: { callback: (v) => fmtMoney(v), font: { size: isMobile() ? 9 : 11 } },
+          ticks: { callback: (v) => fmtMoney(v), font: { size: isMobile() ? 11 : 13 } },
         },
       },
     },
@@ -833,7 +833,7 @@ function renderIncomeYearly() {
           align: "top",
           offset: 4,
           color: BAR_LABEL_COLOR,
-          font: { size: 10, weight: "400" },
+          font: { size: 12, weight: "400" },
           formatter: (v) => fmtMoney(v),
         },
       },
@@ -900,7 +900,7 @@ function renderIncomeMonthly(incomes, { from, to }) {
             maxTicksLimit: isMobile() ? 6 : 20,
             maxRotation: 45,
             minRotation: 30,
-            font: { size: isMobile() ? 9 : 11 },
+            font: { size: isMobile() ? 11 : 13 },
             callback: function (value) {
               const label = this.getLabelForValue(value);
               const [y, m] = label.split("-");
@@ -1079,13 +1079,12 @@ function bootstrap() {
     if (Chart.defaults?.plugins) {
       Chart.defaults.plugins.datalabels = Chart.defaults.plugins.datalabels || {};
       Chart.defaults.plugins.datalabels.display = false;
-      // Larger, more readable tooltips across all charts.
-      Chart.defaults.plugins.tooltip.titleFont  = { size: 16, weight: "600" };
-      Chart.defaults.plugins.tooltip.bodyFont   = { size: 15 };
-      Chart.defaults.plugins.tooltip.padding    = 16;
-      Chart.defaults.plugins.tooltip.boxWidth   = 14;
-      Chart.defaults.plugins.tooltip.boxHeight  = 14;
-      Chart.defaults.plugins.tooltip.cornerRadius = 10;
+      Chart.defaults.plugins.tooltip.titleFont  = { size: 14, weight: "600" };
+      Chart.defaults.plugins.tooltip.bodyFont   = { size: 13 };
+      Chart.defaults.plugins.tooltip.padding    = 12;
+      Chart.defaults.plugins.tooltip.boxWidth   = 12;
+      Chart.defaults.plugins.tooltip.boxHeight  = 12;
+      Chart.defaults.plugins.tooltip.cornerRadius = 8;
     }
     loadData();
   };
