@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T23:59:59.741728+00:00",
+  "generated_at": "2026-06-05T00:03:27.649050+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -1035,8 +1035,8 @@
           "_id": "374e6c72-cc72-8060-aca4-e74d63491dcb",
           "_url": "https://app.notion.com/p/pasajes-2-374e6c72cc728060aca4e74d63491dcb",
           "_created": "2026-06-03T01:16:00.000Z",
-          "_edited": "2026-06-03T01:16:00.000Z",
-          "Category": null,
+          "_edited": "2026-06-05T00:00:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-06-02",
             "end": null
