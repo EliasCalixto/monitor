@@ -46,7 +46,7 @@ body {
   color: var(--text);
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI",
     Roboto, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
 }
@@ -374,7 +374,7 @@ body > section.filters {
 .kpi.fixed { border-left-color: var(--cat-fixed); }
 
 .kpi-label {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -383,7 +383,7 @@ body > section.filters {
 
 .kpi-value {
   color: var(--text-soft);
-  font-size: clamp(15px, 1.6vw, 22px);
+  font-size: clamp(16px, 1.7vw, 24px);
   font-weight: 600;
   letter-spacing: -0.02em;
   font-variant-numeric: tabular-nums;
@@ -393,7 +393,7 @@ body > section.filters {
 .kpi-value.negative { color: var(--red); }
 
 .kpi-sub {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--muted);
   font-variant-numeric: tabular-nums;
 }
@@ -414,13 +414,13 @@ body > section.filters {
 
 .section-head h2 {
   margin: 0;
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 600;
   letter-spacing: -0.01em;
 }
 
 .section-period {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400;
   color: var(--muted);
   letter-spacing: 0;
@@ -451,7 +451,7 @@ body > section.filters {
 
 .chart-box h3 {
   margin: 0 0 12px;
-  font-size: 12px;
+  font-size: 13px;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -491,7 +491,7 @@ body > section.filters {
 table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 thead {
@@ -510,7 +510,7 @@ th {
   white-space: nowrap;
   user-select: none;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
