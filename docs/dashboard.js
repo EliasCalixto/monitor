@@ -764,6 +764,7 @@ function renderExpenseEvolution(expenses, { from, to }) {
           callbacks: {
             title: isDaily
               ? (items) => {
+                  if (!items.length) return "";
                   const d = new Date(items[0].label + "T00:00:00");
                   return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
                 }
