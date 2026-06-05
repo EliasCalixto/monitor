@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T13:40:30.460799+00:00",
+  "generated_at": "2026-06-05T16:16:22.651015+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -30,7 +30,7 @@
           "SumGastosPapa": 5347.950000000001,
           "Tot. Expenses": 266711.26499999984,
           "Total Papa": 5900.25,
-          "Tot. Savings": 16634.68,
+          "Tot. Savings": 14563.86,
           "SumIngresosPapa": 11248.2,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
@@ -946,6 +946,36 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "376e6c72-cc72-8113-a074-dd3c8ed5fec1",
+          "_url": "https://app.notion.com/p/Acumulacion-negativa-376e6c72cc728113a074dd3c8ed5fec1",
+          "_created": "2026-06-05T15:12:00.000Z",
+          "_edited": "2026-06-05T15:13:00.000Z",
+          "Category": "Savings",
+          "Date Created": null,
+          "ExpensesSavings": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -2070.82,
+          "Name": "Acumulacion negativa"
+        },
+        {
+          "_id": "376e6c72-cc72-8137-b0e2-fe764ab11fd3",
+          "_url": "https://app.notion.com/p/Cuota-banco-376e6c72cc728137b0e2fe764ab11fd3",
+          "_created": "2026-06-05T15:09:00.000Z",
+          "_edited": "2026-06-05T15:09:00.000Z",
+          "Category": "Losses",
+          "Date Created": null,
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2070.82,
+          "Name": "Cuota banco"
+        },
         {
           "_id": "375e6c72-cc72-80e2-9e99-d8fa9e3483d8",
           "_url": "https://app.notion.com/p/almuerzo-375e6c72cc7280e29e99d8fa9e3483d8",
