@@ -760,7 +760,7 @@ function renderExpenseEvolution(expenses, { from, to }) {
         tooltip: {
           mode: "index",
           intersect: false,
-          filter: (item) => item.parsed.y > 0,
+          filter: (item) => Number(item.raw) > 0,
           callbacks: {
             title: isDaily
               ? (items) => {
