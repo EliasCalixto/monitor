@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T18:18:20.726946+00:00",
+  "generated_at": "2026-06-05T20:19:40.982398+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 5374.950000000001,
+          "SumGastosPapa": 5574.950000000001,
           "Tot. Expenses": 266676.26499999984,
-          "Total Papa": 5873.25,
+          "Total Papa": 5673.25,
           "Tot. Savings": 14563.86,
           "SumIngresosPapa": 11248.2,
           "Expenses": [
@@ -152,7 +152,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 5657.055000000229,
+          "Cash Total": 5457.055000000229,
           "Name": "Resumen"
         }
       ]
@@ -10087,6 +10087,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "376e6c72-cc72-81ad-a4d0-f0a57084a55f",
+          "_url": "https://app.notion.com/p/Yape-t-a-Gloria-376e6c72cc7281ada4d0f0a57084a55f",
+          "_created": "2026-06-05T19:44:00.000Z",
+          "_edited": "2026-06-05T19:44:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-05",
+            "end": null
+          },
+          "Money": 200,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Yape tía Gloria"
+        },
         {
           "_id": "376e6c72-cc72-8024-aba1-d9b04113f3cd",
           "_url": "https://app.notion.com/p/pescado-376e6c72cc728024aba1d9b04113f3cd",
