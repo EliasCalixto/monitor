@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T00:03:27.649050+00:00",
+  "generated_at": "2026-06-05T02:42:43.589651+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 5175.450000000001,
+          "SumGastosPapa": 5319.950000000001,
           "Tot. Expenses": 266711.26499999984,
-          "Total Papa": 6072.75,
+          "Total Papa": 5928.25,
           "Tot. Savings": 16634.68,
           "SumIngresosPapa": 11248.2,
           "Expenses": [
@@ -152,7 +152,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 5821.555000000229,
+          "Cash Total": 5677.055000000229,
           "Name": "Resumen"
         }
       ]
@@ -10025,6 +10025,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "376e6c72-cc72-81ed-ae96-cf583246f99c",
+          "_url": "https://app.notion.com/p/Gasto-376e6c72cc7281edae96cf583246f99c",
+          "_created": "2026-06-05T01:03:00.000Z",
+          "_edited": "2026-06-05T01:03:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-04",
+            "end": null
+          },
+          "Money": 80,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Gasto"
+        },
+        {
+          "_id": "376e6c72-cc72-8095-a254-cdf0166d716c",
+          "_url": "https://app.notion.com/p/64-50-376e6c72cc728095a254cdf0166d716c",
+          "_created": "2026-06-05T00:19:00.000Z",
+          "_edited": "2026-06-05T00:19:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-04",
+            "end": null
+          },
+          "Money": 64.5,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "64.50"
+        },
         {
           "_id": "375e6c72-cc72-805f-be76-c57a89c41ef8",
           "_url": "https://app.notion.com/p/recarga-mama-375e6c72cc72805fbe76c57a89c41ef8",
