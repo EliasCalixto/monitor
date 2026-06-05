@@ -1079,6 +1079,13 @@ function bootstrap() {
     if (Chart.defaults?.plugins) {
       Chart.defaults.plugins.datalabels = Chart.defaults.plugins.datalabels || {};
       Chart.defaults.plugins.datalabels.display = false;
+      // Larger, more readable tooltips across all charts.
+      Chart.defaults.plugins.tooltip.titleFont  = { size: 13, weight: "600" };
+      Chart.defaults.plugins.tooltip.bodyFont   = { size: 13 };
+      Chart.defaults.plugins.tooltip.padding    = 12;
+      Chart.defaults.plugins.tooltip.boxWidth   = 12;
+      Chart.defaults.plugins.tooltip.boxHeight  = 12;
+      Chart.defaults.plugins.tooltip.cornerRadius = 8;
     }
     loadData();
   };
