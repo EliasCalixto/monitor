@@ -2,33 +2,7 @@ import sys
 from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 import matplotlib.pyplot as plt
-import matplotlib as mpl
-import matplotlib.colors as mc
-import colorsys
-from matplotlib.widgets import Slider
-from setup import get_current_money, get_totals, current_row, df
-from arguments_helper import arguments
-import warnings
-
-warnings.filterwarnings("ignore")
-
-args = sys.argv
-
-try:
-    try:
-        try:
-            for key, value in arguments.items():
-                if value == args[1]:
-                    translated_arg1 = key
-                if value == args[2]:
-                    translated_arg2 = key
-        except:
-            translated_arg1 = args[1]
-            translated_arg2 = args[2]
-
-        start = int(translated_arg1)  # pyright: ignore[reportPossiblyUnboundVariable]
-        end = int(translated_arg2)    # pyright: ignore[reportPossiblyUnboundVariable]
-
+import matplotlib as mpl import matplotlib.colors as mc import colorsys from matplotlib.widgets import Slider from setup import get_current_money, get_totals, current_row, df from arguments_helper import arguments import warnings warnings.filterwarnings("ignore") args = sys.argv try: try: try: for key, value in arguments.items(): if value == args[1]: translated_arg1 = key if value == args[2]: translated_arg2 = key except: translated_arg1 = args[1] translated_arg2 = args[2] start = int(translated_arg1)  # pyright: ignore[reportPossiblyUnboundVariable] end = int(translated_arg2)    # pyright: ignore[reportPossiblyUnboundVariable]
         if start > current_row:
             print('Argument out of range.')
         else:
