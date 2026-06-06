@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T20:20:41.082094+00:00",
+  "generated_at": "2026-06-06T21:33:25.876554+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,11 +27,11 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 5574.950000000001,
-          "Tot. Expenses": 266676.26499999984,
-          "Total Papa": 5673.25,
+          "SumGastosPapa": 5976.950000000001,
+          "Tot. Expenses": 266689.76499999984,
+          "Total Papa": 5811.25,
           "Tot. Savings": 14563.86,
-          "SumIngresosPapa": 11248.2,
+          "SumIngresosPapa": 11788.2,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
             "34fe6c72-cc72-818b-a14d-f54df1618747",
@@ -121,9 +121,10 @@
             "35ee6c72-cc72-8001-84e0-f30c8203feec",
             "35fe6c72-cc72-8009-8db5-fe64d50af83e",
             "36de6c72-cc72-805a-b6a3-c4cab8c613d8",
-            "370e6c72-cc72-8007-a784-c7d9580e61d6"
+            "370e6c72-cc72-8007-a784-c7d9580e61d6",
+            "377e6c72-cc72-807b-8932-ec371fedb400"
           ],
-          "Cash": -216.19499999977,
+          "Cash": -229.69499999977,
           "Tot. Income": 266460.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -152,7 +153,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 5457.055000000229,
+          "Cash Total": 5581.555000000229,
           "Name": "Resumen"
         }
       ]
@@ -946,6 +947,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "377e6c72-cc72-804b-b0a4-dd40c7ad68c0",
+          "_url": "https://app.notion.com/p/pasajes-377e6c72cc72804bb0a4dd40c7ad68c0",
+          "_created": "2026-06-06T21:09:00.000Z",
+          "_edited": "2026-06-06T21:10:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-06-06",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 13.5,
+          "Name": "pasajes"
+        },
         {
           "_id": "376e6c72-cc72-80d4-b87d-dafd0942a6ae",
           "_url": "https://app.notion.com/p/almuerzo-agraria-376e6c72cc7280d4b87ddafd0942a6ae",
@@ -10087,6 +10105,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "377e6c72-cc72-8078-8249-f38df7c3ce39",
+          "_url": "https://app.notion.com/p/396-377e6c72cc7280788249f38df7c3ce39",
+          "_created": "2026-06-06T21:08:00.000Z",
+          "_edited": "2026-06-06T21:08:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-06",
+            "end": null
+          },
+          "Money": 396,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "396"
+        },
+        {
+          "_id": "377e6c72-cc72-80a4-831a-f0df0ec84b67",
+          "_url": "https://app.notion.com/p/6-377e6c72cc7280a4831af0df0ec84b67",
+          "_created": "2026-06-06T21:07:00.000Z",
+          "_edited": "2026-06-06T21:08:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-06",
+            "end": null
+          },
+          "Money": 6,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "6"
+        },
+        {
+          "_id": "377e6c72-cc72-807b-8932-ec371fedb400",
+          "_url": "https://app.notion.com/p/540-377e6c72cc72807b8932ec371fedb400",
+          "_created": "2026-06-06T21:07:00.000Z",
+          "_edited": "2026-06-06T21:07:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-06-06",
+            "end": null
+          },
+          "Money": 540,
+          "Total Gastos Papa": [],
+          "Name": "540"
+        },
         {
           "_id": "376e6c72-cc72-81ad-a4d0-f0a57084a55f",
           "_url": "https://app.notion.com/p/Yape-t-a-Gloria-376e6c72cc7281ada4d0f0a57084a55f",
