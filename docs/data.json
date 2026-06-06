@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T21:33:25.876554+00:00",
+  "generated_at": "2026-06-06T22:29:58.836744+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -9441,6 +9441,21 @@
       },
       "rows": [
         {
+          "_id": "377e6c72-cc72-8087-b358-dd1688b1031f",
+          "_url": "https://app.notion.com/p/win-377e6c72cc728087b358dd1688b1031f",
+          "_created": "2026-06-06T22:23:00.000Z",
+          "_edited": "2026-06-06T22:23:00.000Z",
+          "Date Created": {
+            "start": "2026-06-01",
+            "end": null
+          },
+          "Price": 109,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "win",
+          "Category": null
+        },
+        {
           "_id": "376e6c72-cc72-8067-abb4-cbc2c2b1f1c3",
           "_url": "https://app.notion.com/p/agraria-376e6c72cc728067abb4cbc2c2b1f1c3",
           "_created": "2026-06-05T18:15:00.000Z",
@@ -9519,12 +9534,12 @@
           "_id": "372e6c72-cc72-801e-bf83-cd36b8338ea2",
           "_url": "https://app.notion.com/p/Pollito-don-tito-372e6c72cc72801ebf83cd36b8338ea2",
           "_created": "2026-06-01T18:02:00.000Z",
-          "_edited": "2026-06-01T18:03:00.000Z",
+          "_edited": "2026-06-06T22:24:00.000Z",
           "Date Created": {
             "start": "2026-06-01",
             "end": null
           },
-          "Price": 46.8,
+          "Price": 48.6,
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Pollito don tito",
@@ -9592,9 +9607,9 @@
         },
         {
           "_id": "367e6c72-cc72-8037-b5e5-fd8e59ada8eb",
-          "_url": "https://app.notion.com/p/aspiradora-aotrnillador-367e6c72cc728037b5e5fd8e59ada8eb",
+          "_url": "https://app.notion.com/p/case-aotrnillador-367e6c72cc728037b5e5fd8e59ada8eb",
           "_created": "2026-05-21T15:11:00.000Z",
-          "_edited": "2026-05-21T15:11:00.000Z",
+          "_edited": "2026-06-06T22:25:00.000Z",
           "Date Created": {
             "start": "2026-05-21",
             "end": null
@@ -9602,7 +9617,7 @@
           "Price": 207,
           "Date Payed": null,
           "Status": "Pending",
-          "Name": "aspiradora + aotrnillador",
+          "Name": "case + aotrnillador",
           "Category": null
         },
         {
@@ -10107,9 +10122,9 @@
       "rows": [
         {
           "_id": "377e6c72-cc72-8078-8249-f38df7c3ce39",
-          "_url": "https://app.notion.com/p/396-377e6c72cc7280788249f38df7c3ce39",
+          "_url": "https://app.notion.com/p/Jesus-servicios-377e6c72cc7280788249f38df7c3ce39",
           "_created": "2026-06-06T21:08:00.000Z",
-          "_edited": "2026-06-06T21:08:00.000Z",
+          "_edited": "2026-06-06T22:19:00.000Z",
           "Total Ingresos Papa": [],
           "Type": "Gasto",
           "Date Created": {
@@ -10120,13 +10135,13 @@
           "Total Gastos Papa": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
-          "Name": "396"
+          "Name": "Jesus servicios"
         },
         {
           "_id": "377e6c72-cc72-80a4-831a-f0df0ec84b67",
-          "_url": "https://app.notion.com/p/6-377e6c72cc7280a4831af0df0ec84b67",
+          "_url": "https://app.notion.com/p/6-soles-no-se-377e6c72cc7280a4831af0df0ec84b67",
           "_created": "2026-06-06T21:07:00.000Z",
-          "_edited": "2026-06-06T21:08:00.000Z",
+          "_edited": "2026-06-06T22:19:00.000Z",
           "Total Ingresos Papa": [],
           "Type": "Gasto",
           "Date Created": {
@@ -10137,13 +10152,13 @@
           "Total Gastos Papa": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
-          "Name": "6"
+          "Name": "6 soles no se"
         },
         {
           "_id": "377e6c72-cc72-807b-8932-ec371fedb400",
-          "_url": "https://app.notion.com/p/540-377e6c72cc72807b8932ec371fedb400",
+          "_url": "https://app.notion.com/p/540-corte-377e6c72cc72807b8932ec371fedb400",
           "_created": "2026-06-06T21:07:00.000Z",
-          "_edited": "2026-06-06T21:07:00.000Z",
+          "_edited": "2026-06-06T22:19:00.000Z",
           "Total Ingresos Papa": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
@@ -10154,7 +10169,7 @@
           },
           "Money": 540,
           "Total Gastos Papa": [],
-          "Name": "540"
+          "Name": "540 corte"
         },
         {
           "_id": "376e6c72-cc72-81ad-a4d0-f0a57084a55f",
@@ -10226,9 +10241,9 @@
         },
         {
           "_id": "376e6c72-cc72-8095-a254-cdf0166d716c",
-          "_url": "https://app.notion.com/p/64-50-376e6c72cc728095a254cdf0166d716c",
+          "_url": "https://app.notion.com/p/64-50-nose-376e6c72cc728095a254cdf0166d716c",
           "_created": "2026-06-05T00:19:00.000Z",
-          "_edited": "2026-06-05T00:19:00.000Z",
+          "_edited": "2026-06-06T22:19:00.000Z",
           "Total Ingresos Papa": [],
           "Type": "Gasto",
           "Date Created": {
@@ -10239,7 +10254,7 @@
           "Total Gastos Papa": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
-          "Name": "64.50"
+          "Name": "64.50 nose"
         },
         {
           "_id": "375e6c72-cc72-805f-be76-c57a89c41ef8",
@@ -10260,9 +10275,9 @@
         },
         {
           "_id": "375e6c72-cc72-8095-9136-f01fc1dda8be",
-          "_url": "https://app.notion.com/p/45-375e6c72cc7280959136f01fc1dda8be",
+          "_url": "https://app.notion.com/p/45-nose-375e6c72cc7280959136f01fc1dda8be",
           "_created": "2026-06-04T23:56:00.000Z",
-          "_edited": "2026-06-04T23:56:00.000Z",
+          "_edited": "2026-06-06T22:19:00.000Z",
           "Total Ingresos Papa": [],
           "Type": "Gasto",
           "Date Created": {
@@ -10273,13 +10288,13 @@
           "Total Gastos Papa": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
-          "Name": "45"
+          "Name": "45 nose"
         },
         {
           "_id": "375e6c72-cc72-8030-825b-dab19f43b2b4",
-          "_url": "https://app.notion.com/p/35-375e6c72cc728030825bdab19f43b2b4",
+          "_url": "https://app.notion.com/p/nose-375e6c72cc728030825bdab19f43b2b4",
           "_created": "2026-06-04T23:56:00.000Z",
-          "_edited": "2026-06-04T23:56:00.000Z",
+          "_edited": "2026-06-06T22:19:00.000Z",
           "Total Ingresos Papa": [],
           "Type": "Gasto",
           "Date Created": {
@@ -10290,7 +10305,7 @@
           "Total Gastos Papa": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
-          "Name": "35"
+          "Name": "nose"
         },
         {
           "_id": "373e6c72-cc72-80c4-a3b9-e5bc08a83121",
