@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T18:30:51.428680+00:00",
+  "generated_at": "2026-06-07T19:25:27.956057+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 6176.950000000001,
-          "Tot. Expenses": 266799.46499999985,
+          "Tot. Expenses": 266800.96499999985,
           "Total Papa": 5611.25,
           "Tot. Savings": 14563.86,
           "SumIngresosPapa": 11788.2,
@@ -124,7 +124,7 @@
             "370e6c72-cc72-8007-a784-c7d9580e61d6",
             "377e6c72-cc72-807b-8932-ec371fedb400"
           ],
-          "Cash": -339.39499999978,
+          "Cash": -340.89499999978,
           "Tot. Income": 266460.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -153,7 +153,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 5271.855000000219,
+          "Cash Total": 5270.355000000219,
           "Name": "Resumen"
         }
       ]
@@ -948,6 +948,74 @@
       },
       "rows": [
         {
+          "_id": "378e6c72-cc72-803c-b0ff-ec4883131823",
+          "_url": "https://app.notion.com/p/Agua-limon-378e6c72cc72803cb0ffec4883131823",
+          "_created": "2026-06-07T19:05:00.000Z",
+          "_edited": "2026-06-07T19:06:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-07",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2,
+          "Name": "Agua limon"
+        },
+        {
+          "_id": "378e6c72-cc72-80d1-a942-facc88f12860",
+          "_url": "https://app.notion.com/p/1-sol-no-se-que-que-378e6c72cc7280d1a942facc88f12860",
+          "_created": "2026-06-07T18:40:00.000Z",
+          "_edited": "2026-06-07T18:40:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-06-07",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1,
+          "Name": "1 sol no se que que"
+        },
+        {
+          "_id": "378e6c72-cc72-8101-85a5-fc43ee2d1df5",
+          "_url": "https://app.notion.com/p/Taxi-a-casa-378e6c72cc72810185a5fc43ee2d1df5",
+          "_created": "2026-06-07T18:35:00.000Z",
+          "_edited": "2026-06-07T18:35:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-06-06",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 45,
+          "Name": "Taxi a casa"
+        },
+        {
+          "_id": "378e6c72-cc72-8165-97b2-fa17342ea35f",
+          "_url": "https://app.notion.com/p/Taxi-a-casa-de-Val-378e6c72cc72816597b2fa17342ea35f",
+          "_created": "2026-06-07T18:35:00.000Z",
+          "_edited": "2026-06-07T18:35:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-06-06",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 10.2,
+          "Name": "Taxi a casa de Val"
+        },
+        {
           "_id": "378e6c72-cc72-811a-97df-c414f1284146",
           "_url": "https://app.notion.com/p/Yape-a-Jairo-378e6c72cc72811a97dfc414f1284146",
           "_created": "2026-06-07T16:27:00.000Z",
@@ -967,41 +1035,16 @@
           "_created": "2026-06-07T15:43:00.000Z",
           "_edited": "2026-06-07T15:43:00.000Z",
           "Category": "Cashout",
-          "Date Created": null,
+          "Date Created": {
+            "start": "2026-06-06",
+            "end": null
+          },
           "ExpensesSavings": [],
           "Resumen": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
           "Price": 4.5,
           "Name": "Pasajes Mega Plaza"
-        },
-        {
-          "_id": "378e6c72-cc72-8191-ab5c-e0e55adb94db",
-          "_url": "https://app.notion.com/p/Taxi-378e6c72cc728191ab5ce0e55adb94db",
-          "_created": "2026-06-07T15:43:00.000Z",
-          "_edited": "2026-06-07T15:43:00.000Z",
-          "Category": "Cashout",
-          "Date Created": null,
-          "ExpensesSavings": [],
-          "Resumen": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Price": 45,
-          "Name": "Taxi"
-        },
-        {
-          "_id": "378e6c72-cc72-8198-8de0-dc5f9cd78756",
-          "_url": "https://app.notion.com/p/Taxi-378e6c72cc7281988de0dc5f9cd78756",
-          "_created": "2026-06-07T15:43:00.000Z",
-          "_edited": "2026-06-07T15:43:00.000Z",
-          "Category": "Cashout",
-          "Date Created": null,
-          "ExpensesSavings": [],
-          "Resumen": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Price": 10.2,
-          "Name": "Taxi"
         },
         {
           "_id": "377e6c72-cc72-804b-b0a4-dd40c7ad68c0",
@@ -1218,23 +1261,6 @@
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
           "Price": 2,
-          "Name": "pasaje"
-        },
-        {
-          "_id": "372e6c72-cc72-8051-b38d-d382b7197292",
-          "_url": "https://app.notion.com/p/pasaje-372e6c72cc728051b38dd382b7197292",
-          "_created": "2026-06-01T13:20:00.000Z",
-          "_edited": "2026-06-01T13:21:00.000Z",
-          "Category": "Cashout",
-          "Date Created": {
-            "start": "2026-06-01",
-            "end": null
-          },
-          "ExpensesSavings": [],
-          "Resumen": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Price": 1.5,
           "Name": "pasaje"
         },
         {
