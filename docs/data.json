@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T14:44:20.843231+00:00",
+  "generated_at": "2026-06-07T15:58:08.258927+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 6176.950000000001,
-          "Tot. Expenses": 266689.76499999984,
+          "Tot. Expenses": 266749.46499999985,
           "Total Papa": 5611.25,
           "Tot. Savings": 14563.86,
           "SumIngresosPapa": 11788.2,
@@ -124,7 +124,7 @@
             "370e6c72-cc72-8007-a784-c7d9580e61d6",
             "377e6c72-cc72-807b-8932-ec371fedb400"
           ],
-          "Cash": -229.69499999977,
+          "Cash": -289.39499999978,
           "Tot. Income": 266460.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -153,7 +153,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 5381.555000000229,
+          "Cash Total": 5321.855000000219,
           "Name": "Resumen"
         }
       ]
@@ -947,6 +947,48 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "378e6c72-cc72-8105-b30a-c4567a23e8a9",
+          "_url": "https://app.notion.com/p/Pasajes-Mega-Plaza-378e6c72cc728105b30ac4567a23e8a9",
+          "_created": "2026-06-07T15:43:00.000Z",
+          "_edited": "2026-06-07T15:43:00.000Z",
+          "Category": "Cashout",
+          "Date Created": null,
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 4.5,
+          "Name": "Pasajes Mega Plaza"
+        },
+        {
+          "_id": "378e6c72-cc72-8191-ab5c-e0e55adb94db",
+          "_url": "https://app.notion.com/p/Taxi-378e6c72cc728191ab5ce0e55adb94db",
+          "_created": "2026-06-07T15:43:00.000Z",
+          "_edited": "2026-06-07T15:43:00.000Z",
+          "Category": "Cashout",
+          "Date Created": null,
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 45,
+          "Name": "Taxi"
+        },
+        {
+          "_id": "378e6c72-cc72-8198-8de0-dc5f9cd78756",
+          "_url": "https://app.notion.com/p/Taxi-378e6c72cc7281988de0dc5f9cd78756",
+          "_created": "2026-06-07T15:43:00.000Z",
+          "_edited": "2026-06-07T15:43:00.000Z",
+          "Category": "Cashout",
+          "Date Created": null,
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 10.2,
+          "Name": "Taxi"
+        },
         {
           "_id": "377e6c72-cc72-804b-b0a4-dd40c7ad68c0",
           "_url": "https://app.notion.com/p/pasajes-377e6c72cc72804bb0a4dd40c7ad68c0",
@@ -9440,6 +9482,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "378e6c72-cc72-81f9-a99d-eb8394a33c56",
+          "_url": "https://app.notion.com/p/Pardo-s-Chicken-378e6c72cc7281f9a99deb8394a33c56",
+          "_created": "2026-06-07T15:43:00.000Z",
+          "_edited": "2026-06-07T15:43:00.000Z",
+          "Date Created": {
+            "start": "2026-06-07",
+            "end": null
+          },
+          "Price": 94.3,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Pardo's Chicken",
+          "Category": null
+        },
         {
           "_id": "377e6c72-cc72-8087-b358-dd1688b1031f",
           "_url": "https://app.notion.com/p/win-377e6c72cc728087b358dd1688b1031f",
