@@ -1062,8 +1062,20 @@ function attachFilterListeners() {
 
 // ---------- Bootstrap ----------
 
+// iOS/macOS PWAs can stay frozen in the background for a long time and
+// resume without re-running any JS — so refetch fresh data whenever the
+// app regains visibility (e.g. switching back to it from the home screen).
+function attachVisibilityRefresh() {
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible" && state.data) {
+      loadData();
+    }
+  });
+}
+
 function bootstrap() {
   attachFilterListeners();
+  attachVisibilityRefresh();
   const tryLoad = () => {
     if (typeof Chart === "undefined") {
       setTimeout(tryLoad, 50);
