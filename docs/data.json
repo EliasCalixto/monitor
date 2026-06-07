@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T15:58:08.258927+00:00",
+  "generated_at": "2026-06-07T17:08:55.030503+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 6176.950000000001,
-          "Tot. Expenses": 266749.46499999985,
+          "Tot. Expenses": 266799.46499999985,
           "Total Papa": 5611.25,
           "Tot. Savings": 14563.86,
           "SumIngresosPapa": 11788.2,
@@ -124,7 +124,7 @@
             "370e6c72-cc72-8007-a784-c7d9580e61d6",
             "377e6c72-cc72-807b-8932-ec371fedb400"
           ],
-          "Cash": -289.39499999978,
+          "Cash": -339.39499999978,
           "Tot. Income": 266460.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -153,7 +153,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 5321.855000000219,
+          "Cash Total": 5271.855000000219,
           "Name": "Resumen"
         }
       ]
@@ -947,6 +947,20 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "378e6c72-cc72-811a-97df-c414f1284146",
+          "_url": "https://app.notion.com/p/Yape-a-Jairo-378e6c72cc72811a97dfc414f1284146",
+          "_created": "2026-06-07T16:27:00.000Z",
+          "_edited": "2026-06-07T16:27:00.000Z",
+          "Category": "Losses",
+          "Date Created": null,
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 50,
+          "Name": "Yape a Jairo"
+        },
         {
           "_id": "378e6c72-cc72-8105-b30a-c4567a23e8a9",
           "_url": "https://app.notion.com/p/Pasajes-Mega-Plaza-378e6c72cc728105b30ac4567a23e8a9",
