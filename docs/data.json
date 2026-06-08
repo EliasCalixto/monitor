@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T17:00:11.403254+00:00",
+  "generated_at": "2026-06-08T19:21:36.583391+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 6569.950000000001,
-          "Tot. Expenses": 266800.96499999985,
+          "Tot. Expenses": 266981.96499999985,
           "Total Papa": 5218.25,
           "Tot. Savings": 14563.86,
           "SumIngresosPapa": 11788.2,
@@ -124,7 +124,7 @@
             "370e6c72-cc72-8007-a784-c7d9580e61d6",
             "377e6c72-cc72-807b-8932-ec371fedb400"
           ],
-          "Cash": -340.89499999978,
+          "Cash": -521.89499999978,
           "Tot. Income": 266460.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -153,7 +153,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 4877.355000000219,
+          "Cash Total": 4696.355000000219,
           "Name": "Resumen"
         }
       ]
@@ -947,6 +947,48 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "379e6c72-cc72-8141-a027-cd6ac579a378",
+          "_url": "https://app.notion.com/p/Concierto-Insite-379e6c72cc728141a027cd6ac579a378",
+          "_created": "2026-06-08T18:24:00.000Z",
+          "_edited": "2026-06-08T18:24:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": null,
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 161.5,
+          "Name": "Concierto Insite"
+        },
+        {
+          "_id": "379e6c72-cc72-8150-8e53-cd7cae17819e",
+          "_url": "https://app.notion.com/p/Heladito-379e6c72cc7281508e53cd7cae17819e",
+          "_created": "2026-06-08T18:24:00.000Z",
+          "_edited": "2026-06-08T18:24:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": null,
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 6.5,
+          "Name": "Heladito"
+        },
+        {
+          "_id": "379e6c72-cc72-81e0-888e-e633d334fa98",
+          "_url": "https://app.notion.com/p/Almuerzo-379e6c72cc7281e0888ee633d334fa98",
+          "_created": "2026-06-08T18:24:00.000Z",
+          "_edited": "2026-06-08T18:24:00.000Z",
+          "Category": "Fixed",
+          "Date Created": null,
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 13,
+          "Name": "Almuerzo"
+        },
         {
           "_id": "378e6c72-cc72-803c-b0ff-ec4883131823",
           "_url": "https://app.notion.com/p/Agua-limon-378e6c72cc72803cb0ffec4883131823",
