@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T13:48:37.624442+00:00",
+  "generated_at": "2026-06-08T17:00:11.403254+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -9531,6 +9531,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "379e6c72-cc72-814e-a2b3-e449ed1c370f",
+          "_url": "https://app.notion.com/p/chocolate-hna-monica-379e6c72cc72814ea2b3e449ed1c370f",
+          "_created": "2026-06-08T14:36:00.000Z",
+          "_edited": "2026-06-08T14:36:00.000Z",
+          "Date Created": {
+            "start": "2026-06-08",
+            "end": null
+          },
+          "Price": 2.9,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "chocolate hna monica",
+          "Category": null
+        },
         {
           "_id": "378e6c72-cc72-81f9-a99d-eb8394a33c56",
           "_url": "https://app.notion.com/p/Pardo-s-Chicken-378e6c72cc7281f9a99deb8394a33c56",
