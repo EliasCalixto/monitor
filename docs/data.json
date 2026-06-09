@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T16:45:58.895416+00:00",
+  "generated_at": "2026-06-09T19:05:06.710160+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 6619.950000000001,
-          "Tot. Expenses": 267053.46499999985,
-          "Total Papa": 5168.25,
+          "SumGastosPapa": 6637.950000000001,
+          "Tot. Expenses": 267576.48499999987,
+          "Total Papa": 5150.25,
           "Tot. Savings": 14563.86,
           "SumIngresosPapa": 11788.2,
           "Expenses": [
@@ -124,7 +124,7 @@
             "370e6c72-cc72-8007-a784-c7d9580e61d6",
             "377e6c72-cc72-807b-8932-ec371fedb400"
           ],
-          "Cash": -593.39499999978,
+          "Cash": -1116.4149999998,
           "Tot. Income": 266460.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -153,7 +153,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 4574.855000000219,
+          "Cash Total": 4033.835000000199,
           "Name": "Resumen"
         }
       ]
@@ -947,6 +947,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "37ae6c72-cc72-80ec-b9ff-c5e46da1f325",
+          "_url": "https://app.notion.com/p/uso-de-acumulacion-523-02-37ae6c72cc7280ecb9ffc5e46da1f325",
+          "_created": "2026-06-09T19:01:00.000Z",
+          "_edited": "2026-06-09T19:01:00.000Z",
+          "Category": null,
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 523.02,
+          "Name": "uso de acumulacion 523.02"
+        },
         {
           "_id": "37ae6c72-cc72-8008-8a57-eb79b9c7c080",
           "_url": "https://app.notion.com/p/desayuno-y-pasajes-37ae6c72cc7280088a57eb79b9c7c080",
@@ -9625,6 +9642,51 @@
       },
       "rows": [
         {
+          "_id": "37ae6c72-cc72-803e-bbe8-e72d199aa71c",
+          "_url": "https://app.notion.com/p/Usil-37ae6c72cc72803ebbe8e72d199aa71c",
+          "_created": "2026-06-09T18:58:00.000Z",
+          "_edited": "2026-06-09T18:59:00.000Z",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Price": 523.02,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Usil",
+          "Category": null
+        },
+        {
+          "_id": "37ae6c72-cc72-80f7-b5df-ffb2c23d8be2",
+          "_url": "https://app.notion.com/p/pedal-phaser-37ae6c72cc7280f7b5dfffb2c23d8be2",
+          "_created": "2026-06-09T18:52:00.000Z",
+          "_edited": "2026-06-09T18:52:00.000Z",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Price": 357,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "pedal phaser",
+          "Category": null
+        },
+        {
+          "_id": "37ae6c72-cc72-81db-9c57-f911401a7da4",
+          "_url": "https://app.notion.com/p/Almuerzo-37ae6c72cc7281db9c57f911401a7da4",
+          "_created": "2026-06-09T18:01:00.000Z",
+          "_edited": "2026-06-09T18:01:00.000Z",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Price": 12,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Almuerzo",
+          "Category": null
+        },
+        {
           "_id": "379e6c72-cc72-814e-a2b3-e449ed1c370f",
           "_url": "https://app.notion.com/p/chocolate-hna-monica-379e6c72cc72814ea2b3e449ed1c370f",
           "_created": "2026-06-08T14:36:00.000Z",
@@ -10334,6 +10396,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "37ae6c72-cc72-8141-a881-ddec6b5f9517",
+          "_url": "https://app.notion.com/p/Gasto-Papa-37ae6c72cc728141a881ddec6b5f9517",
+          "_created": "2026-06-09T18:01:00.000Z",
+          "_edited": "2026-06-09T18:01:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Money": 18,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Gasto Papa"
+        },
         {
           "_id": "37ae6c72-cc72-81e0-8843-e4de9aa62d0c",
           "_url": "https://app.notion.com/p/Broster-yapeo-t-a-37ae6c72cc7281e08843e4de9aa62d0c",
