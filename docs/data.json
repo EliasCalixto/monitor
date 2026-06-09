@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T23:55:43.274295+00:00",
+  "generated_at": "2026-06-09T00:48:29.675164+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 6569.950000000001,
-          "Tot. Expenses": 266981.96499999985,
+          "Tot. Expenses": 267053.46499999985,
           "Total Papa": 5218.25,
           "Tot. Savings": 14563.86,
           "SumIngresosPapa": 11788.2,
@@ -124,7 +124,7 @@
             "370e6c72-cc72-8007-a784-c7d9580e61d6",
             "377e6c72-cc72-807b-8932-ec371fedb400"
           ],
-          "Cash": -521.89499999978,
+          "Cash": -593.39499999978,
           "Tot. Income": 266460.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -153,7 +153,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 4696.355000000219,
+          "Cash Total": 4624.855000000219,
           "Name": "Resumen"
         }
       ]
@@ -948,6 +948,74 @@
       },
       "rows": [
         {
+          "_id": "37ae6c72-cc72-8008-8a57-eb79b9c7c080",
+          "_url": "https://app.notion.com/p/desayuno-y-pasajes-37ae6c72cc7280088a57eb79b9c7c080",
+          "_created": "2026-06-09T00:11:00.000Z",
+          "_edited": "2026-06-09T00:11:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-06-08",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 7.5,
+          "Name": "desayuno y pasajes"
+        },
+        {
+          "_id": "37ae6c72-cc72-8064-afde-dd3f886cec36",
+          "_url": "https://app.notion.com/p/Almuerzo-chifita-37ae6c72cc728064afdedd3f886cec36",
+          "_created": "2026-06-09T00:11:00.000Z",
+          "_edited": "2026-06-09T00:11:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-06-08",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 13,
+          "Name": "Almuerzo chifita"
+        },
+        {
+          "_id": "37ae6c72-cc72-810f-9342-ce41788f0ccc",
+          "_url": "https://app.notion.com/p/Sand-a-37ae6c72cc72810f9342ce41788f0ccc",
+          "_created": "2026-06-09T00:09:00.000Z",
+          "_edited": "2026-06-09T00:09:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-08",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 8,
+          "Name": "Sandía"
+        },
+        {
+          "_id": "379e6c72-cc72-8196-a735-e6028c92ddcd",
+          "_url": "https://app.notion.com/p/Proyecto-universidad-379e6c72cc728196a735e6028c92ddcd",
+          "_created": "2026-06-08T23:59:00.000Z",
+          "_edited": "2026-06-08T23:59:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2026-06-08",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 50,
+          "Name": "Proyecto universidad"
+        },
+        {
           "_id": "379e6c72-cc72-8141-a027-cd6ac579a378",
           "_url": "https://app.notion.com/p/Concierto-Insite-379e6c72cc728141a027cd6ac579a378",
           "_created": "2026-06-08T18:24:00.000Z",
@@ -1321,23 +1389,6 @@
           ],
           "Price": 10.2,
           "Name": "taxi"
-        },
-        {
-          "_id": "371e6c72-cc72-80a0-abd4-f7c1246fc597",
-          "_url": "https://app.notion.com/p/Sandia-371e6c72cc7280a0abd4f7c1246fc597",
-          "_created": "2026-05-31T16:49:00.000Z",
-          "_edited": "2026-05-31T16:49:00.000Z",
-          "Category": "Enjoy",
-          "Date Created": {
-            "start": "2026-05-31",
-            "end": null
-          },
-          "ExpensesSavings": [],
-          "Resumen": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Price": 7,
-          "Name": "Sandia"
         },
         {
           "_id": "370e6c72-cc72-8098-baa2-edc10e2fb962",
