@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T19:05:06.710160+00:00",
+  "generated_at": "2026-06-09T21:06:53.404996+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,10 +27,10 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 6637.950000000001,
-          "Tot. Expenses": 267576.48499999987,
-          "Total Papa": 5150.25,
-          "Tot. Savings": 14563.86,
+          "SumGastosPapa": 7337.950000000001,
+          "Tot. Expenses": 267053.46499999997,
+          "Total Papa": 4450.25,
+          "Tot. Savings": 11068.54,
           "SumIngresosPapa": 11788.2,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
@@ -124,7 +124,7 @@
             "370e6c72-cc72-8007-a784-c7d9580e61d6",
             "377e6c72-cc72-807b-8932-ec371fedb400"
           ],
-          "Cash": -1116.4149999998,
+          "Cash": -593.3949999999,
           "Tot. Income": 266460.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -153,7 +153,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 4033.835000000199,
+          "Cash Total": 3856.855000000099,
           "Name": "Resumen"
         }
       ]
@@ -948,11 +948,11 @@
       },
       "rows": [
         {
-          "_id": "37ae6c72-cc72-80ec-b9ff-c5e46da1f325",
-          "_url": "https://app.notion.com/p/uso-de-acumulacion-523-02-37ae6c72cc7280ecb9ffc5e46da1f325",
-          "_created": "2026-06-09T19:01:00.000Z",
-          "_edited": "2026-06-09T19:01:00.000Z",
-          "Category": null,
+          "_id": "37ae6c72-cc72-80f3-8299-d4f899cbaaf0",
+          "_url": "https://app.notion.com/p/Usil-37ae6c72cc7280f38299d4f899cbaaf0",
+          "_created": "2026-06-09T19:36:00.000Z",
+          "_edited": "2026-06-09T19:37:00.000Z",
+          "Category": "Studies",
           "Date Created": {
             "start": "2026-06-09",
             "end": null
@@ -962,7 +962,502 @@
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
           "Price": 523.02,
-          "Name": "uso de acumulacion 523.02"
+          "Name": "Usil"
+        },
+        {
+          "_id": "37ae6c72-cc72-8081-adf7-f27c95e6bce8",
+          "_url": "https://app.notion.com/p/Pedal-Phaser-37ae6c72cc728081adf7f27c95e6bce8",
+          "_created": "2026-06-09T19:36:00.000Z",
+          "_edited": "2026-06-09T19:36:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 357,
+          "Name": "Pedal Phaser"
+        },
+        {
+          "_id": "37ae6c72-cc72-80b4-a3e8-d92c8ecf68d4",
+          "_url": "https://app.notion.com/p/Almuerzo-37ae6c72cc7280b4a3e8d92c8ecf68d4",
+          "_created": "2026-06-09T19:36:00.000Z",
+          "_edited": "2026-06-09T19:36:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 12,
+          "Name": "Almuerzo"
+        },
+        {
+          "_id": "37ae6c72-cc72-8068-81c1-da67932430e9",
+          "_url": "https://app.notion.com/p/Chocolate-hna-monica-37ae6c72cc72806881c1da67932430e9",
+          "_created": "2026-06-09T19:36:00.000Z",
+          "_edited": "2026-06-09T19:36:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2.9,
+          "Name": "Chocolate hna monica"
+        },
+        {
+          "_id": "37ae6c72-cc72-80df-97cd-fc84bc324755",
+          "_url": "https://app.notion.com/p/pardon-chicken-con-Val-37ae6c72cc7280df97cdfc84bc324755",
+          "_created": "2026-06-09T19:36:00.000Z",
+          "_edited": "2026-06-09T19:36:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 94.3,
+          "Name": "pardon chicken con Val"
+        },
+        {
+          "_id": "37ae6c72-cc72-805d-988f-ed0e42bb0828",
+          "_url": "https://app.notion.com/p/agraria-37ae6c72cc72805d988fed0e42bb0828",
+          "_created": "2026-06-09T19:35:00.000Z",
+          "_edited": "2026-06-09T19:36:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 70,
+          "Name": "agraria"
+        },
+        {
+          "_id": "37ae6c72-cc72-8029-b440-cb09ab8c5c36",
+          "_url": "https://app.notion.com/p/chocolate-helado-37ae6c72cc728029b440cb09ab8c5c36",
+          "_created": "2026-06-09T19:35:00.000Z",
+          "_edited": "2026-06-09T19:35:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 5.5,
+          "Name": "chocolate helado"
+        },
+        {
+          "_id": "37ae6c72-cc72-807d-97ff-cdcb7dd56d10",
+          "_url": "https://app.notion.com/p/wallet-reloj-37ae6c72cc72807d97ffcdcb7dd56d10",
+          "_created": "2026-06-09T19:35:00.000Z",
+          "_edited": "2026-06-09T19:35:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 538.47,
+          "Name": "wallet + reloj"
+        },
+        {
+          "_id": "37ae6c72-cc72-8003-882a-f653cf3e4d5c",
+          "_url": "https://app.notion.com/p/Almuerzo-cafeteria-trabajo-37ae6c72cc728003882af653cf3e4d5c",
+          "_created": "2026-06-09T19:35:00.000Z",
+          "_edited": "2026-06-09T19:35:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 12,
+          "Name": "Almuerzo cafeteria trabajo"
+        },
+        {
+          "_id": "37ae6c72-cc72-80f2-8a62-d97cb21b238c",
+          "_url": "https://app.notion.com/p/galleta-37ae6c72cc7280f28a62d97cb21b238c",
+          "_created": "2026-06-09T19:11:00.000Z",
+          "_edited": "2026-06-09T19:11:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3.5,
+          "Name": "galleta"
+        },
+        {
+          "_id": "37ae6c72-cc72-807c-a253-dc20eab177f4",
+          "_url": "https://app.notion.com/p/win-37ae6c72cc72807ca253dc20eab177f4",
+          "_created": "2026-06-09T19:11:00.000Z",
+          "_edited": "2026-06-09T19:11:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 109,
+          "Name": "win"
+        },
+        {
+          "_id": "37ae6c72-cc72-8086-805b-fb81f9b28583",
+          "_url": "https://app.notion.com/p/pollito-don-tito-37ae6c72cc728086805bfb81f9b28583",
+          "_created": "2026-06-09T19:10:00.000Z",
+          "_edited": "2026-06-09T19:11:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 48.6,
+          "Name": "pollito don tito"
+        },
+        {
+          "_id": "37ae6c72-cc72-8037-8099-ff16d4f5ae5e",
+          "_url": "https://app.notion.com/p/dota-37ae6c72cc7280378099ff16d4f5ae5e",
+          "_created": "2026-06-09T19:10:00.000Z",
+          "_edited": "2026-06-09T19:10:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 15,
+          "Name": "dota +"
+        },
+        {
+          "_id": "37ae6c72-cc72-8065-930f-e2edc68ff20c",
+          "_url": "https://app.notion.com/p/kitkat-37ae6c72cc728065930fe2edc68ff20c",
+          "_created": "2026-06-09T19:10:00.000Z",
+          "_edited": "2026-06-09T19:10:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 5,
+          "Name": "kitkat"
+        },
+        {
+          "_id": "37ae6c72-cc72-8001-ac34-efd99d7d6801",
+          "_url": "https://app.notion.com/p/bembos-rico-37ae6c72cc728001ac34efd99d7d6801",
+          "_created": "2026-06-09T19:10:00.000Z",
+          "_edited": "2026-06-09T19:10:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 25.8,
+          "Name": "bembos rico"
+        },
+        {
+          "_id": "37ae6c72-cc72-808b-9ed7-d16d7db7b575",
+          "_url": "https://app.notion.com/p/poker-37ae6c72cc72808b9ed7d16d7db7b575",
+          "_created": "2026-06-09T19:10:00.000Z",
+          "_edited": "2026-06-09T19:10:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 200,
+          "Name": "poker"
+        },
+        {
+          "_id": "37ae6c72-cc72-80d8-ba2c-c27c6ef55326",
+          "_url": "https://app.notion.com/p/case-ipad-atornillador-37ae6c72cc7280d8ba2cc27c6ef55326",
+          "_created": "2026-06-09T19:10:00.000Z",
+          "_edited": "2026-06-09T19:10:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 207,
+          "Name": "case ipad + atornillador"
+        },
+        {
+          "_id": "37ae6c72-cc72-8055-b3e1-d8e2b09121b2",
+          "_url": "https://app.notion.com/p/aspiradora-37ae6c72cc728055b3e1d8e2b09121b2",
+          "_created": "2026-06-09T19:09:00.000Z",
+          "_edited": "2026-06-09T19:10:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 164.01,
+          "Name": "aspiradora"
+        },
+        {
+          "_id": "37ae6c72-cc72-808c-96ff-db4fbdf4c7a8",
+          "_url": "https://app.notion.com/p/leche-asada-37ae6c72cc72808c96ffdb4fbdf4c7a8",
+          "_created": "2026-06-09T19:09:00.000Z",
+          "_edited": "2026-06-09T19:09:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3.9,
+          "Name": "leche asada"
+        },
+        {
+          "_id": "37ae6c72-cc72-8024-ba3d-f3513d9f1738",
+          "_url": "https://app.notion.com/p/Usil-Mayo-37ae6c72cc728024ba3df3513d9f1738",
+          "_created": "2026-06-09T19:08:00.000Z",
+          "_edited": "2026-06-09T19:09:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 563.59,
+          "Name": "Usil Mayo"
+        },
+        {
+          "_id": "37ae6c72-cc72-8073-90cd-c6d50abecff6",
+          "_url": "https://app.notion.com/p/heladito-37ae6c72cc72807390cdc6d50abecff6",
+          "_created": "2026-06-09T19:08:00.000Z",
+          "_edited": "2026-06-09T19:08:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 4.9,
+          "Name": "heladito"
+        },
+        {
+          "_id": "37ae6c72-cc72-8093-82eb-e94836413785",
+          "_url": "https://app.notion.com/p/frutos-secos-y-yogurt-37ae6c72cc72809382ebe94836413785",
+          "_created": "2026-06-09T19:07:00.000Z",
+          "_edited": "2026-06-09T19:08:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 13.4,
+          "Name": "frutos secos y yogurt"
+        },
+        {
+          "_id": "37ae6c72-cc72-8070-943f-e6c7df7982cb",
+          "_url": "https://app.notion.com/p/sandia-37ae6c72cc728070943fe6c7df7982cb",
+          "_created": "2026-06-09T19:07:00.000Z",
+          "_edited": "2026-06-09T19:07:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 6,
+          "Name": "sandia"
+        },
+        {
+          "_id": "37ae6c72-cc72-8069-8ebd-e3df7f68d892",
+          "_url": "https://app.notion.com/p/cena-cumple-de-mi-papa-37ae6c72cc7280698ebde3df7f68d892",
+          "_created": "2026-06-09T19:07:00.000Z",
+          "_edited": "2026-06-09T20:41:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 156.38,
+          "Name": "cena cumple de mi papa"
+        },
+        {
+          "_id": "37ae6c72-cc72-808f-b32d-e8039edc4d40",
+          "_url": "https://app.notion.com/p/magnesio-37ae6c72cc72808fb32de8039edc4d40",
+          "_created": "2026-06-09T19:07:00.000Z",
+          "_edited": "2026-06-09T19:07:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 168.95,
+          "Name": "magnesio"
+        },
+        {
+          "_id": "37ae6c72-cc72-8097-9abd-e67843131446",
+          "_url": "https://app.notion.com/p/gastos-dia-de-la-madre-37ae6c72cc7280979abde67843131446",
+          "_created": "2026-06-09T19:07:00.000Z",
+          "_edited": "2026-06-09T19:07:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 50.2,
+          "Name": "gastos dia de la madre"
+        },
+        {
+          "_id": "37ae6c72-cc72-809b-9499-c791da3b5eff",
+          "_url": "https://app.notion.com/p/postresillos-37ae6c72cc72809b9499c791da3b5eff",
+          "_created": "2026-06-09T19:06:00.000Z",
+          "_edited": "2026-06-09T19:06:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 18,
+          "Name": "postresillos"
+        },
+        {
+          "_id": "37ae6c72-cc72-8066-b58c-d8c525904736",
+          "_url": "https://app.notion.com/p/chifa-37ae6c72cc728066b58cd8c525904736",
+          "_created": "2026-06-09T19:06:00.000Z",
+          "_edited": "2026-06-09T20:41:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 86,
+          "Name": "chifa"
+        },
+        {
+          "_id": "37ae6c72-cc72-8058-b624-e1ebbbdc606a",
+          "_url": "https://app.notion.com/p/bembos-37ae6c72cc728058b624e1ebbbdc606a",
+          "_created": "2026-06-09T19:06:00.000Z",
+          "_edited": "2026-06-09T19:06:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 30.9,
+          "Name": "bembos"
+        },
+        {
+          "_id": "37ae6c72-cc72-80ec-b9ff-c5e46da1f325",
+          "_url": "https://app.notion.com/p/uso-de-acumulacion-3495-32-37ae6c72cc7280ecb9ffc5e46da1f325",
+          "_created": "2026-06-09T19:01:00.000Z",
+          "_edited": "2026-06-09T19:05:00.000Z",
+          "Category": "Savings",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "ExpensesSavings": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -3495.32,
+          "Name": "uso de acumulacion 3495.32"
         },
         {
           "_id": "37ae6c72-cc72-8008-8a57-eb79b9c7c080",
@@ -9645,14 +10140,17 @@
           "_id": "37ae6c72-cc72-803e-bbe8-e72d199aa71c",
           "_url": "https://app.notion.com/p/Usil-37ae6c72cc72803ebbe8e72d199aa71c",
           "_created": "2026-06-09T18:58:00.000Z",
-          "_edited": "2026-06-09T18:59:00.000Z",
+          "_edited": "2026-06-09T19:37:00.000Z",
           "Date Created": {
             "start": "2026-06-09",
             "end": null
           },
           "Price": 523.02,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Usil",
           "Category": null
         },
@@ -9660,14 +10158,17 @@
           "_id": "37ae6c72-cc72-80f7-b5df-ffb2c23d8be2",
           "_url": "https://app.notion.com/p/pedal-phaser-37ae6c72cc7280f7b5dfffb2c23d8be2",
           "_created": "2026-06-09T18:52:00.000Z",
-          "_edited": "2026-06-09T18:52:00.000Z",
+          "_edited": "2026-06-09T19:36:00.000Z",
           "Date Created": {
             "start": "2026-06-09",
             "end": null
           },
           "Price": 357,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "pedal phaser",
           "Category": null
         },
@@ -9675,14 +10176,17 @@
           "_id": "37ae6c72-cc72-81db-9c57-f911401a7da4",
           "_url": "https://app.notion.com/p/Almuerzo-37ae6c72cc7281db9c57f911401a7da4",
           "_created": "2026-06-09T18:01:00.000Z",
-          "_edited": "2026-06-09T18:01:00.000Z",
+          "_edited": "2026-06-09T19:36:00.000Z",
           "Date Created": {
             "start": "2026-06-09",
             "end": null
           },
           "Price": 12,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Almuerzo",
           "Category": null
         },
@@ -9690,14 +10194,17 @@
           "_id": "379e6c72-cc72-814e-a2b3-e449ed1c370f",
           "_url": "https://app.notion.com/p/chocolate-hna-monica-379e6c72cc72814ea2b3e449ed1c370f",
           "_created": "2026-06-08T14:36:00.000Z",
-          "_edited": "2026-06-08T14:36:00.000Z",
+          "_edited": "2026-06-09T19:36:00.000Z",
           "Date Created": {
             "start": "2026-06-08",
             "end": null
           },
           "Price": 2.9,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "chocolate hna monica",
           "Category": null
         },
@@ -9705,14 +10212,17 @@
           "_id": "378e6c72-cc72-81f9-a99d-eb8394a33c56",
           "_url": "https://app.notion.com/p/Pardo-s-Chicken-378e6c72cc7281f9a99deb8394a33c56",
           "_created": "2026-06-07T15:43:00.000Z",
-          "_edited": "2026-06-07T15:43:00.000Z",
+          "_edited": "2026-06-09T19:36:00.000Z",
           "Date Created": {
             "start": "2026-06-07",
             "end": null
           },
           "Price": 94.3,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Pardo's Chicken",
           "Category": null
         },
@@ -9720,14 +10230,17 @@
           "_id": "377e6c72-cc72-8087-b358-dd1688b1031f",
           "_url": "https://app.notion.com/p/win-377e6c72cc728087b358dd1688b1031f",
           "_created": "2026-06-06T22:23:00.000Z",
-          "_edited": "2026-06-06T22:23:00.000Z",
+          "_edited": "2026-06-09T19:11:00.000Z",
           "Date Created": {
             "start": "2026-06-01",
             "end": null
           },
           "Price": 109,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "win",
           "Category": null
         },
@@ -9735,14 +10248,17 @@
           "_id": "376e6c72-cc72-8067-abb4-cbc2c2b1f1c3",
           "_url": "https://app.notion.com/p/agraria-376e6c72cc728067abb4cbc2c2b1f1c3",
           "_created": "2026-06-05T18:15:00.000Z",
-          "_edited": "2026-06-05T18:15:00.000Z",
+          "_edited": "2026-06-09T19:36:00.000Z",
           "Date Created": {
             "start": "2026-06-05",
             "end": null
           },
           "Price": 70,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "agraria",
           "Category": null
         },
@@ -9750,14 +10266,17 @@
           "_id": "375e6c72-cc72-8009-a9cb-c8f5e323ba75",
           "_url": "https://app.notion.com/p/chocolate-helado-375e6c72cc728009a9cbc8f5e323ba75",
           "_created": "2026-06-04T23:57:00.000Z",
-          "_edited": "2026-06-04T23:57:00.000Z",
+          "_edited": "2026-06-09T19:36:00.000Z",
           "Date Created": {
             "start": "2026-06-04",
             "end": null
           },
           "Price": 5.5,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "chocolate helado",
           "Category": null
         },
@@ -9765,14 +10284,17 @@
           "_id": "374e6c72-cc72-8108-8e24-ecf83605251f",
           "_url": "https://app.notion.com/p/Wallet-Reloj-374e6c72cc7281088e24ecf83605251f",
           "_created": "2026-06-03T01:11:00.000Z",
-          "_edited": "2026-06-03T13:39:00.000Z",
+          "_edited": "2026-06-09T19:35:00.000Z",
           "Date Created": {
             "start": "2026-06-02",
             "end": null
           },
           "Price": 538.47,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Wallet + Reloj",
           "Category": "Enjoy"
         },
@@ -9780,14 +10302,17 @@
           "_id": "373e6c72-cc72-81e3-9327-f5a168ec8072",
           "_url": "https://app.notion.com/p/Almuerzo-cafeter-a-trabajo-373e6c72cc7281e39327f5a168ec8072",
           "_created": "2026-06-02T19:10:00.000Z",
-          "_edited": "2026-06-02T19:10:00.000Z",
+          "_edited": "2026-06-09T19:35:00.000Z",
           "Date Created": {
             "start": "2026-06-02",
             "end": null
           },
           "Price": 12,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Almuerzo cafetería trabajo",
           "Category": null
         },
@@ -9795,14 +10320,17 @@
           "_id": "373e6c72-cc72-8096-9e7a-c44a16e5fc87",
           "_url": "https://app.notion.com/p/galleta-373e6c72cc7280969e7ac44a16e5fc87",
           "_created": "2026-06-02T13:19:00.000Z",
-          "_edited": "2026-06-02T13:19:00.000Z",
+          "_edited": "2026-06-09T19:35:00.000Z",
           "Date Created": {
             "start": "2026-06-02",
             "end": null
           },
           "Price": 3.5,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "galleta",
           "Category": null
         },
@@ -9810,14 +10338,17 @@
           "_id": "372e6c72-cc72-801e-bf83-cd36b8338ea2",
           "_url": "https://app.notion.com/p/Pollito-don-tito-372e6c72cc72801ebf83cd36b8338ea2",
           "_created": "2026-06-01T18:02:00.000Z",
-          "_edited": "2026-06-06T22:24:00.000Z",
+          "_edited": "2026-06-09T19:11:00.000Z",
           "Date Created": {
             "start": "2026-06-01",
             "end": null
           },
           "Price": 48.6,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Pollito don tito",
           "Category": null
         },
@@ -9825,14 +10356,17 @@
           "_id": "371e6c72-cc72-8042-9367-d4258db4fc29",
           "_url": "https://app.notion.com/p/dota-371e6c72cc7280429367d4258db4fc29",
           "_created": "2026-05-31T00:30:00.000Z",
-          "_edited": "2026-05-31T00:39:00.000Z",
+          "_edited": "2026-06-09T19:10:00.000Z",
           "Date Created": {
             "start": "2026-05-30",
             "end": null
           },
           "Price": 15,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "dota",
           "Category": null
         },
@@ -9840,14 +10374,17 @@
           "_id": "36ce6c72-cc72-80db-b9ab-db69535d7725",
           "_url": "https://app.notion.com/p/kit-kat-36ce6c72cc7280dbb9abdb69535d7725",
           "_created": "2026-05-26T13:36:00.000Z",
-          "_edited": "2026-05-26T13:36:00.000Z",
+          "_edited": "2026-06-09T19:10:00.000Z",
           "Date Created": {
             "start": "2026-05-26",
             "end": null
           },
           "Price": 5,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "kit kat",
           "Category": null
         },
@@ -9855,14 +10392,17 @@
           "_id": "36ae6c72-cc72-8073-8870-f7fd5511051e",
           "_url": "https://app.notion.com/p/Bembos-rico-36ae6c72cc7280738870f7fd5511051e",
           "_created": "2026-05-24T19:11:00.000Z",
-          "_edited": "2026-05-24T19:11:00.000Z",
+          "_edited": "2026-06-09T19:10:00.000Z",
           "Date Created": {
             "start": "2026-05-24",
             "end": null
           },
           "Price": 25.8,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Bembos rico",
           "Category": null
         },
@@ -9870,14 +10410,17 @@
           "_id": "369e6c72-cc72-8082-8b5c-f7aa44da6b5c",
           "_url": "https://app.notion.com/p/poker-369e6c72cc7280828b5cf7aa44da6b5c",
           "_created": "2026-05-23T16:24:00.000Z",
-          "_edited": "2026-05-23T16:24:00.000Z",
+          "_edited": "2026-06-09T19:10:00.000Z",
           "Date Created": {
             "start": "2026-05-23",
             "end": null
           },
           "Price": 200,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "poker",
           "Category": null
         },
@@ -9885,14 +10428,17 @@
           "_id": "367e6c72-cc72-8037-b5e5-fd8e59ada8eb",
           "_url": "https://app.notion.com/p/case-aotrnillador-367e6c72cc728037b5e5fd8e59ada8eb",
           "_created": "2026-05-21T15:11:00.000Z",
-          "_edited": "2026-06-06T22:25:00.000Z",
+          "_edited": "2026-06-09T19:10:00.000Z",
           "Date Created": {
             "start": "2026-05-21",
             "end": null
           },
           "Price": 207,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "case + aotrnillador",
           "Category": null
         },
@@ -9900,14 +10446,17 @@
           "_id": "367e6c72-cc72-80a9-9542-df5c406bfa6a",
           "_url": "https://app.notion.com/p/aspiradora-367e6c72cc7280a99542df5c406bfa6a",
           "_created": "2026-05-21T15:09:00.000Z",
-          "_edited": "2026-05-21T15:09:00.000Z",
+          "_edited": "2026-06-09T19:10:00.000Z",
           "Date Created": {
             "start": "2026-05-21",
             "end": null
           },
           "Price": 164.01,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "aspiradora",
           "Category": null
         },
@@ -9915,14 +10464,17 @@
           "_id": "366e6c72-cc72-8018-95cb-e630014d22a4",
           "_url": "https://app.notion.com/p/Leche-asasa-366e6c72cc72801895cbe630014d22a4",
           "_created": "2026-05-20T18:43:00.000Z",
-          "_edited": "2026-05-20T18:43:00.000Z",
+          "_edited": "2026-06-09T19:09:00.000Z",
           "Date Created": {
             "start": "2026-05-20",
             "end": null
           },
           "Price": 3.9,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Leche asasa",
           "Category": null
         },
@@ -9930,14 +10482,17 @@
           "_id": "365e6c72-cc72-80fe-a3fc-e69d6c33b27f",
           "_url": "https://app.notion.com/p/Usil-365e6c72cc7280fea3fce69d6c33b27f",
           "_created": "2026-05-19T22:18:00.000Z",
-          "_edited": "2026-05-19T22:18:00.000Z",
+          "_edited": "2026-06-09T19:09:00.000Z",
           "Date Created": {
             "start": "2026-05-19",
             "end": null
           },
           "Price": 563.59,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Usil",
           "Category": null
         },
@@ -9945,14 +10500,17 @@
           "_id": "365e6c72-cc72-80cb-883c-d6d84b2ade52",
           "_url": "https://app.notion.com/p/heladito-365e6c72cc7280cb883cd6d84b2ade52",
           "_created": "2026-05-19T20:16:00.000Z",
-          "_edited": "2026-05-19T20:16:00.000Z",
+          "_edited": "2026-06-09T19:08:00.000Z",
           "Date Created": {
             "start": "2026-05-19",
             "end": null
           },
           "Price": 4.9,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "heladito",
           "Category": null
         },
@@ -9960,14 +10518,17 @@
           "_id": "362e6c72-cc72-8052-bc9f-d9eb14cfd08d",
           "_url": "https://app.notion.com/p/frutos-secos-y-yogurt-362e6c72cc728052bc9fd9eb14cfd08d",
           "_created": "2026-05-16T01:05:00.000Z",
-          "_edited": "2026-05-16T01:05:00.000Z",
+          "_edited": "2026-06-09T19:08:00.000Z",
           "Date Created": {
             "start": "2026-05-15",
             "end": null
           },
           "Price": 13.4,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "frutos secos y yogurt",
           "Category": null
         },
@@ -9975,14 +10536,17 @@
           "_id": "35fe6c72-cc72-801c-80d4-ea64c06157b6",
           "_url": "https://app.notion.com/p/sandia-35fe6c72cc72801c80d4ea64c06157b6",
           "_created": "2026-05-13T15:45:00.000Z",
-          "_edited": "2026-05-13T15:45:00.000Z",
+          "_edited": "2026-06-09T19:07:00.000Z",
           "Date Created": {
             "start": "2026-05-13",
             "end": null
           },
           "Price": 6,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "sandia",
           "Category": null
         },
@@ -9990,14 +10554,17 @@
           "_id": "35fe6c72-cc72-8069-b0d3-dbddd4a64ce9",
           "_url": "https://app.notion.com/p/cena-cumple-de-mi-papa-35fe6c72cc728069b0d3dbddd4a64ce9",
           "_created": "2026-05-13T01:30:00.000Z",
-          "_edited": "2026-05-15T18:14:00.000Z",
+          "_edited": "2026-06-09T19:07:00.000Z",
           "Date Created": {
             "start": "2026-05-12",
             "end": null
           },
           "Price": 156.38,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "cena cumple de mi papa",
           "Category": null
         },
@@ -10005,14 +10572,17 @@
           "_id": "35de6c72-cc72-800e-b824-e1ab00407b6b",
           "_url": "https://app.notion.com/p/Magnesio-35de6c72cc72800eb824e1ab00407b6b",
           "_created": "2026-05-11T02:10:00.000Z",
-          "_edited": "2026-05-11T02:10:00.000Z",
+          "_edited": "2026-06-09T19:07:00.000Z",
           "Date Created": {
             "start": "2026-05-10",
             "end": null
           },
           "Price": 168.95,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Magnesio",
           "Category": null
         },
@@ -10020,14 +10590,17 @@
           "_id": "35ce6c72-cc72-80a8-bff2-d989e1e6af9f",
           "_url": "https://app.notion.com/p/Gastos-dias-de-la-madre-35ce6c72cc7280a8bff2d989e1e6af9f",
           "_created": "2026-05-10T20:49:00.000Z",
-          "_edited": "2026-05-10T20:50:00.000Z",
+          "_edited": "2026-06-09T19:07:00.000Z",
           "Date Created": {
             "start": "2026-05-10",
             "end": null
           },
           "Price": 50.2,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Gastos dias de la madre",
           "Category": null
         },
@@ -10035,14 +10608,17 @@
           "_id": "35be6c72-cc72-8063-b04d-ecf1742b56d4",
           "_url": "https://app.notion.com/p/Postresillos-35be6c72cc728063b04decf1742b56d4",
           "_created": "2026-05-09T23:14:00.000Z",
-          "_edited": "2026-05-09T23:14:00.000Z",
+          "_edited": "2026-06-09T19:07:00.000Z",
           "Date Created": {
             "start": "2026-05-09",
             "end": null
           },
           "Price": 18,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Postresillos",
           "Category": null
         },
@@ -10050,14 +10626,17 @@
           "_id": "35ae6c72-cc72-8015-bcc5-ff297f67f543",
           "_url": "https://app.notion.com/p/chifa-35ae6c72cc728015bcc5ff297f67f543",
           "_created": "2026-05-08T18:37:00.000Z",
-          "_edited": "2026-05-08T18:37:00.000Z",
+          "_edited": "2026-06-09T19:06:00.000Z",
           "Date Created": {
             "start": "2026-05-08",
             "end": null
           },
           "Price": 86,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "chifa",
           "Category": null
         },
@@ -10065,14 +10644,17 @@
           "_id": "358e6c72-cc72-80eb-b4b4-fe6923fbe7fd",
           "_url": "https://app.notion.com/p/Bembos-358e6c72cc7280ebb4b4fe6923fbe7fd",
           "_created": "2026-05-06T17:53:00.000Z",
-          "_edited": "2026-05-06T17:53:00.000Z",
+          "_edited": "2026-06-09T19:06:00.000Z",
           "Date Created": {
             "start": "2026-05-06",
             "end": null
           },
           "Price": 30.9,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Bembos",
           "Category": null
         },
@@ -10396,6 +10978,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "37ae6c72-cc72-803d-b3ca-cc8cc53e8b89",
+          "_url": "https://app.notion.com/p/700-37ae6c72cc72803db3cacc8cc53e8b89",
+          "_created": "2026-06-09T20:37:00.000Z",
+          "_edited": "2026-06-09T20:38:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-09",
+            "end": null
+          },
+          "Money": 700,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "700"
+        },
         {
           "_id": "37ae6c72-cc72-8141-a881-ddec6b5f9517",
           "_url": "https://app.notion.com/p/Gasto-Papa-37ae6c72cc728141a881ddec6b5f9517",
