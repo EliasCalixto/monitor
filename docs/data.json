@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T14:50:50.977933+00:00",
+  "generated_at": "2026-06-10T17:47:27.152048+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -10136,6 +10136,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "37be6c72-cc72-81fb-ac33-f49d2ee157a2",
+          "_url": "https://app.notion.com/p/Almuerzo-37be6c72cc7281fbac33f49d2ee157a2",
+          "_created": "2026-06-10T17:26:00.000Z",
+          "_edited": "2026-06-10T17:26:00.000Z",
+          "Date Created": {
+            "start": "2026-06-10",
+            "end": null
+          },
+          "Price": 12,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Almuerzo",
+          "Category": null
+        },
         {
           "_id": "37be6c72-cc72-81a4-a956-fcfe6d98a217",
           "_url": "https://app.notion.com/p/Papas-Inkachips-37be6c72cc7281a4a956fcfe6d98a217",
