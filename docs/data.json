@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T20:42:36.983881+00:00",
+  "generated_at": "2026-06-11T22:26:58.647999+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -30,7 +30,7 @@
           "SumGastosPapa": 7343.950000000001,
           "Tot. Expenses": 267084.9649999999,
           "Total Papa": 4984.25,
-          "Tot. Savings": 11068.54,
+          "Tot. Savings": 11067.77,
           "SumIngresosPapa": 12328.2,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
@@ -948,6 +948,42 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "37ce6c72-cc72-80da-a5dd-e44130221093",
+          "_url": "https://app.notion.com/p/negativo-acumulacion-37ce6c72cc7280daa5dde44130221093",
+          "_created": "2026-06-11T22:25:00.000Z",
+          "_edited": "2026-06-11T22:26:00.000Z",
+          "Category": "Savings",
+          "Date Created": {
+            "start": "2026-06-11",
+            "end": null
+          },
+          "ExpensesSavings": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -0.77,
+          "Name": "negativo acumulacion"
+        },
+        {
+          "_id": "37ce6c72-cc72-80cb-820c-eedefa95f89b",
+          "_url": "https://app.notion.com/p/Pago-degravamen-37ce6c72cc7280cb820ceedefa95f89b",
+          "_created": "2026-06-11T22:25:00.000Z",
+          "_edited": "2026-06-11T22:25:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-06-11",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 0.77,
+          "Name": "Pago degravamen"
+        },
         {
           "_id": "37ce6c72-cc72-804f-aea4-e24f5cb58397",
           "_url": "https://app.notion.com/p/chaufita-37ce6c72cc72804faea4e24f5cb58397",
