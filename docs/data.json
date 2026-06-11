@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T15:24:55.345985+00:00",
+  "generated_at": "2026-06-11T18:29:10.056050+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -10150,6 +10150,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "37ce6c72-cc72-812b-9143-ea508fdd61fd",
+          "_url": "https://app.notion.com/p/Helado-37ce6c72cc72812b9143ea508fdd61fd",
+          "_created": "2026-06-11T18:21:00.000Z",
+          "_edited": "2026-06-11T18:21:00.000Z",
+          "Date Created": {
+            "start": "2026-06-11",
+            "end": null
+          },
+          "Price": 4.9,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Helado",
+          "Category": null
+        },
         {
           "_id": "37ce6c72-cc72-814d-9faf-feebe3ba2782",
           "_url": "https://app.notion.com/p/Doritos-37ce6c72cc72814d9faffeebe3ba2782",
