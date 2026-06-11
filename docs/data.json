@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T02:07:43.364023+00:00",
+  "generated_at": "2026-06-11T07:02:38.714070+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 7337.950000000001,
-          "Tot. Expenses": 267053.46499999997,
-          "Total Papa": 4450.25,
+          "SumGastosPapa": 7343.950000000001,
+          "Tot. Expenses": 267071.96499999997,
+          "Total Papa": 4444.25,
           "Tot. Savings": 11068.54,
           "SumIngresosPapa": 11788.2,
           "Expenses": [
@@ -124,7 +124,7 @@
             "370e6c72-cc72-8007-a784-c7d9580e61d6",
             "377e6c72-cc72-807b-8932-ec371fedb400"
           ],
-          "Cash": -593.3949999999,
+          "Cash": -611.8949999999,
           "Tot. Income": 266460.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -153,7 +153,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 3856.855000000099,
+          "Cash Total": 3832.355000000099,
           "Name": "Resumen"
         }
       ]
@@ -947,6 +947,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "37ce6c72-cc72-8049-871d-fa88b2b56113",
+          "_url": "https://app.notion.com/p/pasajes-desayunos-etc-37ce6c72cc728049871dfa88b2b56113",
+          "_created": "2026-06-11T04:00:00.000Z",
+          "_edited": "2026-06-11T04:00:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-06-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 9.5,
+          "Name": "pasajes desayunos etc"
+        },
+        {
+          "_id": "37ce6c72-cc72-80b4-8fe0-ff90616006b0",
+          "_url": "https://app.notion.com/p/taxi-37ce6c72cc7280b48fe0ff90616006b0",
+          "_created": "2026-06-11T04:00:00.000Z",
+          "_edited": "2026-06-11T04:00:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-06-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 5,
+          "Name": "taxi"
+        },
+        {
+          "_id": "37ce6c72-cc72-807e-9354-cfc91f9e65cf",
+          "_url": "https://app.notion.com/p/4-so-37ce6c72cc72807e9354cfc91f9e65cf",
+          "_created": "2026-06-11T03:58:00.000Z",
+          "_edited": "2026-06-11T04:00:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-06-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 4,
+          "Name": "4 so"
+        },
         {
           "_id": "37ae6c72-cc72-80f3-8299-d4f899cbaaf0",
           "_url": "https://app.notion.com/p/Usil-37ae6c72cc7280f38299d4f899cbaaf0",
@@ -11008,6 +11059,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "37ce6c72-cc72-80c9-8a3e-db0ff09b7408",
+          "_url": "https://app.notion.com/p/6-so-37ce6c72cc7280c98a3edb0ff09b7408",
+          "_created": "2026-06-11T03:57:00.000Z",
+          "_edited": "2026-06-11T03:57:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-10",
+            "end": null
+          },
+          "Money": 6,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "6 so"
+        },
         {
           "_id": "37ae6c72-cc72-803d-b3ca-cc8cc53e8b89",
           "_url": "https://app.notion.com/p/700-37ae6c72cc72803db3cacc8cc53e8b89",
