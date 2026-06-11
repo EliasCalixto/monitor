@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T11:46:02.132368+00:00",
+  "generated_at": "2026-06-11T15:24:55.345985+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,10 +28,10 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 7343.950000000001,
-          "Tot. Expenses": 267071.96499999997,
-          "Total Papa": 4444.25,
+          "Tot. Expenses": 267071.9649999999,
+          "Total Papa": 4984.25,
           "Tot. Savings": 11068.54,
-          "SumIngresosPapa": 11788.2,
+          "SumIngresosPapa": 12328.2,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
             "34fe6c72-cc72-818b-a14d-f54df1618747",
@@ -122,9 +122,10 @@
             "35fe6c72-cc72-8009-8db5-fe64d50af83e",
             "36de6c72-cc72-805a-b6a3-c4cab8c613d8",
             "370e6c72-cc72-8007-a784-c7d9580e61d6",
-            "377e6c72-cc72-807b-8932-ec371fedb400"
+            "377e6c72-cc72-807b-8932-ec371fedb400",
+            "37ce6c72-cc72-80ec-9d86-fbe431764989"
           ],
-          "Cash": -611.8949999999,
+          "Cash": -611.89499999983,
           "Tot. Income": 266460.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -153,7 +154,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 3832.355000000099,
+          "Cash Total": 4372.355000000169,
           "Name": "Resumen"
         }
       ]
@@ -1492,25 +1493,6 @@
           "Name": "bembos"
         },
         {
-          "_id": "37ae6c72-cc72-80ec-b9ff-c5e46da1f325",
-          "_url": "https://app.notion.com/p/uso-de-acumulacion-3495-32-37ae6c72cc7280ecb9ffc5e46da1f325",
-          "_created": "2026-06-09T19:01:00.000Z",
-          "_edited": "2026-06-09T19:05:00.000Z",
-          "Category": "Savings",
-          "Date Created": {
-            "start": "2026-06-09",
-            "end": null
-          },
-          "ExpensesSavings": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Resumen": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Price": -3495.32,
-          "Name": "uso de acumulacion 3495.32"
-        },
-        {
           "_id": "37ae6c72-cc72-8008-8a57-eb79b9c7c080",
           "_url": "https://app.notion.com/p/desayuno-y-pasajes-37ae6c72cc7280088a57eb79b9c7c080",
           "_created": "2026-06-09T00:11:00.000Z",
@@ -2005,25 +1987,6 @@
           "Name": "Int"
         },
         {
-          "_id": "36fe6c72-cc72-80f2-a773-ded505c9a72e",
-          "_url": "https://app.notion.com/p/Acum-36fe6c72cc7280f2a773ded505c9a72e",
-          "_created": "2026-05-29T21:13:00.000Z",
-          "_edited": "2026-05-29T21:14:00.000Z",
-          "Category": "Savings",
-          "Date Created": {
-            "start": "2026-05-29",
-            "end": null
-          },
-          "ExpensesSavings": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Resumen": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Price": 2482.78,
-          "Name": "Acum"
-        },
-        {
           "_id": "36fe6c72-cc72-80b1-86ca-c7edfb5e384d",
           "_url": "https://app.notion.com/p/netflix-36fe6c72cc7280b186cac7edfb5e384d",
           "_created": "2026-05-29T13:27:00.000Z",
@@ -2180,7 +2143,7 @@
           "_id": "36ce6c72-cc72-8094-935d-c812e94ab18b",
           "_url": "https://app.notion.com/p/acumulacion-36ce6c72cc728094935dc812e94ab18b",
           "_created": "2026-05-26T01:23:00.000Z",
-          "_edited": "2026-05-26T01:23:00.000Z",
+          "_edited": "2026-06-11T12:43:00.000Z",
           "Category": "Savings",
           "Date Created": {
             "start": "2026-05-25",
@@ -2192,7 +2155,7 @@
           "Resumen": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
-          "Price": 1551.9,
+          "Price": 539.36,
           "Name": "acumulacion"
         },
         {
@@ -10188,6 +10151,21 @@
       },
       "rows": [
         {
+          "_id": "37ce6c72-cc72-814d-9faf-feebe3ba2782",
+          "_url": "https://app.notion.com/p/Doritos-37ce6c72cc72814d9faffeebe3ba2782",
+          "_created": "2026-06-11T14:11:00.000Z",
+          "_edited": "2026-06-11T14:11:00.000Z",
+          "Date Created": {
+            "start": "2026-06-11",
+            "end": null
+          },
+          "Price": 3,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Doritos",
+          "Category": null
+        },
+        {
           "_id": "37be6c72-cc72-81fb-ac33-f49d2ee157a2",
           "_url": "https://app.notion.com/p/Almuerzo-37be6c72cc7281fbac33f49d2ee157a2",
           "_created": "2026-06-10T17:26:00.000Z",
@@ -11059,6 +11037,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "37ce6c72-cc72-80ec-9d86-fbe431764989",
+          "_url": "https://app.notion.com/p/540-corte-37ce6c72cc7280ec9d86fbe431764989",
+          "_created": "2026-06-11T13:55:00.000Z",
+          "_edited": "2026-06-11T13:55:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-06-11",
+            "end": null
+          },
+          "Money": 540,
+          "Total Gastos Papa": [],
+          "Name": "540 corte"
+        },
         {
           "_id": "37ce6c72-cc72-80c9-8a3e-db0ff09b7408",
           "_url": "https://app.notion.com/p/6-so-37ce6c72cc7280c98a3edb0ff09b7408",
