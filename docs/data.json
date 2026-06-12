@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T17:15:37.526795+00:00",
+  "generated_at": "2026-06-12T19:26:20.742284+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 7399.950000000001,
-          "Tot. Expenses": 267105.9649999999,
+          "Tot. Expenses": 267173.4649999999,
           "Total Papa": 4928.25,
           "Tot. Savings": 11067.77,
           "SumIngresosPapa": 12328.2,
@@ -125,7 +125,7 @@
             "377e6c72-cc72-807b-8932-ec371fedb400",
             "37ce6c72-cc72-80ec-9d86-fbe431764989"
           ],
-          "Cash": 274.10500000017,
+          "Cash": 206.60500000017,
           "Tot. Income": 267380.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -154,7 +154,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 5202.355000000169,
+          "Cash Total": 5134.855000000169,
           "Name": "Resumen"
         }
       ]
@@ -963,6 +963,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "37de6c72-cc72-8071-a14f-c01ca44ccc54",
+          "_url": "https://app.notion.com/p/pasaje-37de6c72cc728071a14fc01ca44ccc54",
+          "_created": "2026-06-12T18:44:00.000Z",
+          "_edited": "2026-06-12T18:44:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-06-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2,
+          "Name": "pasaje"
+        },
+        {
+          "_id": "37de6c72-cc72-803e-83d2-c807cb202d36",
+          "_url": "https://app.notion.com/p/agraria-37de6c72cc72803e83d2c807cb202d36",
+          "_created": "2026-06-12T18:43:00.000Z",
+          "_edited": "2026-06-12T18:44:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 65.5,
+          "Name": "agraria"
+        },
         {
           "_id": "37de6c72-cc72-8004-bf17-e03ee343e4cb",
           "_url": "https://app.notion.com/p/Nose-pero-supongo-que-pasajes-37de6c72cc728004bf17e03ee343e4cb",
