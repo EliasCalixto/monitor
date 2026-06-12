@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T11:11:17.303807+00:00",
+  "generated_at": "2026-06-12T14:14:54.869228+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 7343.950000000001,
-          "Tot. Expenses": 267084.9649999999,
+          "Tot. Expenses": 267105.9649999999,
           "Total Papa": 4984.25,
           "Tot. Savings": 11067.77,
           "SumIngresosPapa": 12328.2,
@@ -125,7 +125,7 @@
             "377e6c72-cc72-807b-8932-ec371fedb400",
             "37ce6c72-cc72-80ec-9d86-fbe431764989"
           ],
-          "Cash": -624.89499999983,
+          "Cash": -645.89499999983,
           "Tot. Income": 266460.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -154,7 +154,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 4359.355000000169,
+          "Cash Total": 4338.355000000169,
           "Name": "Resumen"
         }
       ]
@@ -948,6 +948,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "37de6c72-cc72-8004-bf17-e03ee343e4cb",
+          "_url": "https://app.notion.com/p/Nose-pero-supongo-que-pasajes-37de6c72cc728004bf17e03ee343e4cb",
+          "_created": "2026-06-12T12:27:00.000Z",
+          "_edited": "2026-06-12T12:28:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-06-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 8.5,
+          "Name": "Nose pero supongo que pasajes"
+        },
+        {
+          "_id": "37de6c72-cc72-807b-b46c-efe7e26042db",
+          "_url": "https://app.notion.com/p/Pasaje-y-desayuno-3-37de6c72cc72807bb46cefe7e26042db",
+          "_created": "2026-06-12T12:24:00.000Z",
+          "_edited": "2026-06-12T12:24:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-06-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 12.5,
+          "Name": "Pasaje y desayuno 3"
+        },
         {
           "_id": "37ce6c72-cc72-80da-a5dd-e44130221093",
           "_url": "https://app.notion.com/p/negativo-acumulacion-37ce6c72cc7280daa5dde44130221093",
