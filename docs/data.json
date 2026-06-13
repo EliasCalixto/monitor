@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T17:04:55.436239+00:00",
+  "generated_at": "2026-06-13T18:22:15.878825+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -978,6 +978,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "37ee6c72-cc72-8081-b67f-ee57c9aaff4f",
+          "_url": "https://app.notion.com/p/retiro-37ee6c72cc728081b67fee57c9aaff4f",
+          "_created": "2026-06-13T17:59:00.000Z",
+          "_edited": "2026-06-13T17:59:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-06-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 100,
+          "Name": "retiro"
+        },
+        {
+          "_id": "37ee6c72-cc72-80b9-b054-f8366fe1cd9e",
+          "_url": "https://app.notion.com/p/100-mama-37ee6c72cc7280b9b054f8366fe1cd9e",
+          "_created": "2026-06-13T17:59:00.000Z",
+          "_edited": "2026-06-13T17:59:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-06-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -100,
+          "Name": "-100 mama"
+        },
         {
           "_id": "37ee6c72-cc72-8051-ba9a-ea4f41a321fc",
           "_url": "https://app.notion.com/p/Pasaje-37ee6c72cc728051ba9aea4f41a321fc",
@@ -10269,6 +10303,15 @@
       },
       "rows": [
         {
+          "_id": "37ee6c72-cc72-80e4-a104-f71fa3994047",
+          "_url": "https://app.notion.com/p/Netflix-37ee6c72cc7280e4a104f71fa3994047",
+          "_created": "2026-06-13T18:16:00.000Z",
+          "_edited": "2026-06-13T18:19:00.000Z",
+          "Type": "Manual",
+          "Price": 15,
+          "Name": "Netflix"
+        },
+        {
           "_id": "378e6c72-cc72-8076-a553-fb72b43ea322",
           "_url": "https://app.notion.com/p/Dota-378e6c72cc728076a553fb72b43ea322",
           "_created": "2026-06-07T23:36:00.000Z",
@@ -10354,6 +10397,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "37ee6c72-cc72-80c7-b161-d7bb4ed868d8",
+          "_url": "https://app.notion.com/p/pistola-de-silicona-37ee6c72cc7280c7b161d7bb4ed868d8",
+          "_created": "2026-06-13T17:58:00.000Z",
+          "_edited": "2026-06-13T17:58:00.000Z",
+          "Date Created": {
+            "start": "2026-06-13",
+            "end": null
+          },
+          "Price": 100,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "pistola de silicona",
+          "Category": null
+        },
         {
           "_id": "37ce6c72-cc72-812b-9143-ea508fdd61fd",
           "_url": "https://app.notion.com/p/Helado-37ce6c72cc72812b9143ea508fdd61fd",
