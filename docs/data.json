@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T21:06:55.893287+00:00",
+  "generated_at": "2026-06-13T22:16:28.410282+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 7482.750000000001,
-          "Tot. Expenses": 268890.9349999999,
+          "Tot. Expenses": 269010.9349999999,
           "Total Papa": 4845.45,
           "Tot. Savings": 12774.74,
           "SumIngresosPapa": 12328.2,
@@ -125,7 +125,7 @@
             "377e6c72-cc72-807b-8932-ec371fedb400",
             "37ce6c72-cc72-80ec-9d86-fbe431764989"
           ],
-          "Cash": 196.10500000014,
+          "Cash": 76.10500000014,
           "Tot. Income": 269087.04000000004,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -154,7 +154,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 5041.555000000139,
+          "Cash Total": 4921.555000000139,
           "Name": "Resumen"
         }
       ]
@@ -978,6 +978,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "37ee6c72-cc72-80b1-9136-c0ed0ad1b9f9",
+          "_url": "https://app.notion.com/p/Dentista-37ee6c72cc7280b19136c0ed0ad1b9f9",
+          "_created": "2026-06-13T21:07:00.000Z",
+          "_edited": "2026-06-13T21:08:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-06-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 120,
+          "Name": "Dentista"
+        },
         {
           "_id": "37ee6c72-cc72-8081-b67f-ee57c9aaff4f",
           "_url": "https://app.notion.com/p/retiro-37ee6c72cc728081b67fee57c9aaff4f",
@@ -10397,21 +10414,6 @@
         "Category": "select"
       },
       "rows": [
-        {
-          "_id": "37ee6c72-cc72-8056-abb7-c24e03b1c55b",
-          "_url": "https://app.notion.com/p/reloj-orient-blue-37ee6c72cc728056abb7c24e03b1c55b",
-          "_created": "2026-06-13T19:04:00.000Z",
-          "_edited": "2026-06-13T19:04:00.000Z",
-          "Date Created": {
-            "start": "2026-06-13",
-            "end": null
-          },
-          "Price": 574,
-          "Date Payed": null,
-          "Status": "Pending",
-          "Name": "reloj orient blue",
-          "Category": null
-        },
         {
           "_id": "37ee6c72-cc72-80c7-b161-d7bb4ed868d8",
           "_url": "https://app.notion.com/p/pistola-de-silicona-37ee6c72cc7280c7b161d7bb4ed868d8",
