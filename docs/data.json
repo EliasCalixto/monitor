@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T18:22:15.878825+00:00",
+  "generated_at": "2026-06-13T19:57:46.377599+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -10397,6 +10397,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "37ee6c72-cc72-8056-abb7-c24e03b1c55b",
+          "_url": "https://app.notion.com/p/reloj-orient-blue-37ee6c72cc728056abb7c24e03b1c55b",
+          "_created": "2026-06-13T19:04:00.000Z",
+          "_edited": "2026-06-13T19:04:00.000Z",
+          "Date Created": {
+            "start": "2026-06-13",
+            "end": null
+          },
+          "Price": 574,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "reloj orient blue",
+          "Category": null
+        },
         {
           "_id": "37ee6c72-cc72-80c7-b161-d7bb4ed868d8",
           "_url": "https://app.notion.com/p/pistola-de-silicona-37ee6c72cc7280c7b161d7bb4ed868d8",
