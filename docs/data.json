@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T00:05:40.881205+00:00",
+  "generated_at": "2026-06-13T04:46:40.932931+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 7399.950000000001,
+          "SumGastosPapa": 7422.750000000001,
           "Tot. Expenses": 267173.4649999999,
-          "Total Papa": 4928.25,
+          "Total Papa": 4905.45,
           "Tot. Savings": 11067.77,
           "SumIngresosPapa": 12328.2,
           "Expenses": [
@@ -125,8 +125,8 @@
             "377e6c72-cc72-807b-8932-ec371fedb400",
             "37ce6c72-cc72-80ec-9d86-fbe431764989"
           ],
-          "Cash": 206.60500000017,
-          "Tot. Income": 267380.07000000007,
+          "Cash": 1913.57500000014,
+          "Tot. Income": 269087.04000000004,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -154,7 +154,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 5134.855000000169,
+          "Cash Total": 6819.025000000139,
           "Name": "Resumen"
         }
       ]
@@ -169,6 +169,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "37ee6c72-cc72-806f-9421-e55096fcecc8",
+          "_url": "https://app.notion.com/p/Quincena-Area-37ee6c72cc72806f9421e55096fcecc8",
+          "_created": "2026-06-13T01:56:00.000Z",
+          "_edited": "2026-06-13T01:56:00.000Z",
+          "Date Received": {
+            "start": "2026-06-12",
+            "end": null
+          },
+          "Income": 1706.97,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Quincena Area"
+        },
         {
           "_id": "37de6c72-cc72-8062-ade9-c425f684b95c",
           "_url": "https://app.notion.com/p/quincena-TP-37de6c72cc728062ade9c425f684b95c",
@@ -11188,6 +11203,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "37ee6c72-cc72-8126-b3f5-cd0421a11241",
+          "_url": "https://app.notion.com/p/Gasto-Papa-37ee6c72cc728126b3f5cd0421a11241",
+          "_created": "2026-06-13T00:55:00.000Z",
+          "_edited": "2026-06-13T00:55:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-12",
+            "end": null
+          },
+          "Money": 22.8,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Gasto Papa"
+        },
         {
           "_id": "37de6c72-cc72-8055-b702-d22215862a7f",
           "_url": "https://app.notion.com/p/56-37de6c72cc728055b702d22215862a7f",
