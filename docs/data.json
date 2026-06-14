@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T01:58:34.667644+00:00",
+  "generated_at": "2026-06-14T06:33:40.959502+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -10319,6 +10319,15 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "37fe6c72-cc72-8067-9687-ef2ed141a2bd",
+          "_url": "https://app.notion.com/p/Smartfit-37fe6c72cc7280679687ef2ed141a2bd",
+          "_created": "2026-06-14T03:36:00.000Z",
+          "_edited": "2026-06-14T03:37:00.000Z",
+          "Type": "Auto",
+          "Price": 120,
+          "Name": "Smartfit"
+        },
         {
           "_id": "37ee6c72-cc72-80e4-a104-f71fa3994047",
           "_url": "https://app.notion.com/p/Netflix-37ee6c72cc7280e4a104f71fa3994047",
