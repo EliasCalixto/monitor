@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T20:13:52.743144+00:00",
+  "generated_at": "2026-06-14T21:38:32.053754+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -10535,6 +10535,51 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "37fe6c72-cc72-8018-b873-c134fb5aeece",
+          "_url": "https://app.notion.com/p/Foco-inteligente-37fe6c72cc728018b873c134fb5aeece",
+          "_created": "2026-06-14T21:28:00.000Z",
+          "_edited": "2026-06-14T21:29:00.000Z",
+          "Date Created": {
+            "start": "2026-06-14",
+            "end": null
+          },
+          "Price": 49.9,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Foco inteligente",
+          "Category": null
+        },
+        {
+          "_id": "37fe6c72-cc72-80d2-bf2f-e0d38e02e783",
+          "_url": "https://app.notion.com/p/Sodimac-black-out-1-37fe6c72cc7280d2bf2fe0d38e02e783",
+          "_created": "2026-06-14T21:28:00.000Z",
+          "_edited": "2026-06-14T21:28:00.000Z",
+          "Date Created": {
+            "start": "2026-06-14",
+            "end": null
+          },
+          "Price": 199.9,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Sodimac black out 1",
+          "Category": null
+        },
+        {
+          "_id": "37fe6c72-cc72-808c-9922-db68ba1e966f",
+          "_url": "https://app.notion.com/p/Long-horn-celebracion-37fe6c72cc72808c9922db68ba1e966f",
+          "_created": "2026-06-14T21:27:00.000Z",
+          "_edited": "2026-06-14T21:28:00.000Z",
+          "Date Created": {
+            "start": "2026-06-14",
+            "end": null
+          },
+          "Price": 110,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Long horn celebracion",
+          "Category": null
+        },
         {
           "_id": "37ee6c72-cc72-80c7-b161-d7bb4ed868d8",
           "_url": "https://app.notion.com/p/pistola-de-silicona-37ee6c72cc7280c7b161d7bb4ed868d8",
