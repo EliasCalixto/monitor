@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T02:54:41.643649+00:00",
+  "generated_at": "2026-06-15T08:43:43.496712+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -10423,107 +10423,6 @@
       ]
     },
     {
-      "id": "350e6c72-cc72-805f-bb9e-d419a3575006",
-      "title": "Fixed Expenses",
-      "schema": {
-        "Type": "select",
-        "Price": "number",
-        "Name": "title"
-      },
-      "rows": [
-        {
-          "_id": "37fe6c72-cc72-8067-9687-ef2ed141a2bd",
-          "_url": "https://app.notion.com/p/Smartfit-37fe6c72cc7280679687ef2ed141a2bd",
-          "_created": "2026-06-14T03:36:00.000Z",
-          "_edited": "2026-06-14T03:37:00.000Z",
-          "Type": "Auto",
-          "Price": 120,
-          "Name": "Smartfit"
-        },
-        {
-          "_id": "37ee6c72-cc72-80e4-a104-f71fa3994047",
-          "_url": "https://app.notion.com/p/Netflix-37ee6c72cc7280e4a104f71fa3994047",
-          "_created": "2026-06-13T18:16:00.000Z",
-          "_edited": "2026-06-13T18:19:00.000Z",
-          "Type": "Manual",
-          "Price": 15,
-          "Name": "Netflix"
-        },
-        {
-          "_id": "378e6c72-cc72-8076-a553-fb72b43ea322",
-          "_url": "https://app.notion.com/p/Dota-378e6c72cc728076a553fb72b43ea322",
-          "_created": "2026-06-07T23:36:00.000Z",
-          "_edited": "2026-06-07T23:37:00.000Z",
-          "Type": "Auto",
-          "Price": 13.5,
-          "Name": "Dota+"
-        },
-        {
-          "_id": "350e6c72-cc72-80ea-b8e7-d199696bea45",
-          "_url": "https://app.notion.com/p/iCloud-350e6c72cc7280eab8e7d199696bea45",
-          "_created": "2026-04-28T02:31:00.000Z",
-          "_edited": "2026-04-28T17:48:00.000Z",
-          "Type": "Auto",
-          "Price": 12.9,
-          "Name": "iCloud"
-        },
-        {
-          "_id": "350e6c72-cc72-804e-8d78-e0dc71f28a27",
-          "_url": "https://app.notion.com/p/YouTube-350e6c72cc72804e8d78e0dc71f28a27",
-          "_created": "2026-04-28T02:31:00.000Z",
-          "_edited": "2026-04-28T17:48:00.000Z",
-          "Type": "Auto",
-          "Price": 17.9,
-          "Name": "YouTube"
-        },
-        {
-          "_id": "350e6c72-cc72-8069-b276-fe69c8b3bf73",
-          "_url": "https://app.notion.com/p/Claude-350e6c72cc728069b276fe69c8b3bf73",
-          "_created": "2026-04-28T02:31:00.000Z",
-          "_edited": "2026-05-25T16:37:00.000Z",
-          "Type": "Auto",
-          "Price": 80.24,
-          "Name": "Claude"
-        },
-        {
-          "_id": "350e6c72-cc72-8039-a03a-ccef718e578c",
-          "_url": "https://app.notion.com/p/Apple-Music-350e6c72cc728039a03accef718e578c",
-          "_created": "2026-04-28T02:31:00.000Z",
-          "_edited": "2026-05-16T22:55:00.000Z",
-          "Type": "Auto",
-          "Price": 10.9,
-          "Name": "Apple Music"
-        },
-        {
-          "_id": "350e6c72-cc72-8073-b1a3-de3b2e99b10b",
-          "_url": "https://app.notion.com/p/Win-350e6c72cc728073b1a3de3b2e99b10b",
-          "_created": "2026-04-28T02:30:00.000Z",
-          "_edited": "2026-04-28T02:31:00.000Z",
-          "Type": "Manual",
-          "Price": 109,
-          "Name": "Win"
-        },
-        {
-          "_id": "350e6c72-cc72-8048-93ce-f23caa909bce",
-          "_url": "https://app.notion.com/p/Dentista-350e6c72cc72804893cef23caa909bce",
-          "_created": "2026-04-28T02:30:00.000Z",
-          "_edited": "2026-04-28T02:30:00.000Z",
-          "Type": "Manual",
-          "Price": 120,
-          "Name": "Dentista"
-        },
-        {
-          "_id": "350e6c72-cc72-8038-9658-f232651d5f75",
-          "_url": "https://app.notion.com/p/Home-350e6c72cc7280389658f232651d5f75",
-          "_created": "2026-04-28T02:29:00.000Z",
-          "_edited": "2026-06-06T22:31:00.000Z",
-          "Type": "Manual",
-          "Price": 270,
-          "Name": "Home"
-        }
-      ]
-    },
-    {
       "id": "350e6c72-cc72-80a8-9f3b-d5709ac8e466",
       "title": "CC",
       "schema": {
@@ -10535,6 +10434,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "380e6c72-cc72-8036-9d0c-d46914bfa661",
+          "_url": "https://app.notion.com/p/Orient-bambino-blue-380e6c72cc7280369d0cd46914bfa661",
+          "_created": "2026-06-15T05:09:00.000Z",
+          "_edited": "2026-06-15T05:09:00.000Z",
+          "Date Created": {
+            "start": "2026-06-15",
+            "end": null
+          },
+          "Price": 985,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Orient bambino blue",
+          "Category": null
+        },
         {
           "_id": "37fe6c72-cc72-8018-b873-c134fb5aeece",
           "_url": "https://app.notion.com/p/Foco-inteligente-37fe6c72cc728018b873c134fb5aeece",
@@ -11482,6 +11396,107 @@
           "Status": "Payed",
           "Name": "Guitar + Pedals",
           "Category": null
+        }
+      ]
+    },
+    {
+      "id": "350e6c72-cc72-805f-bb9e-d419a3575006",
+      "title": "Fixed Expenses",
+      "schema": {
+        "Type": "select",
+        "Price": "number",
+        "Name": "title"
+      },
+      "rows": [
+        {
+          "_id": "37fe6c72-cc72-8067-9687-ef2ed141a2bd",
+          "_url": "https://app.notion.com/p/Smartfit-37fe6c72cc7280679687ef2ed141a2bd",
+          "_created": "2026-06-14T03:36:00.000Z",
+          "_edited": "2026-06-14T03:37:00.000Z",
+          "Type": "Auto",
+          "Price": 120,
+          "Name": "Smartfit"
+        },
+        {
+          "_id": "37ee6c72-cc72-80e4-a104-f71fa3994047",
+          "_url": "https://app.notion.com/p/Netflix-37ee6c72cc7280e4a104f71fa3994047",
+          "_created": "2026-06-13T18:16:00.000Z",
+          "_edited": "2026-06-13T18:19:00.000Z",
+          "Type": "Manual",
+          "Price": 15,
+          "Name": "Netflix"
+        },
+        {
+          "_id": "378e6c72-cc72-8076-a553-fb72b43ea322",
+          "_url": "https://app.notion.com/p/Dota-378e6c72cc728076a553fb72b43ea322",
+          "_created": "2026-06-07T23:36:00.000Z",
+          "_edited": "2026-06-07T23:37:00.000Z",
+          "Type": "Auto",
+          "Price": 13.5,
+          "Name": "Dota+"
+        },
+        {
+          "_id": "350e6c72-cc72-80ea-b8e7-d199696bea45",
+          "_url": "https://app.notion.com/p/iCloud-350e6c72cc7280eab8e7d199696bea45",
+          "_created": "2026-04-28T02:31:00.000Z",
+          "_edited": "2026-04-28T17:48:00.000Z",
+          "Type": "Auto",
+          "Price": 12.9,
+          "Name": "iCloud"
+        },
+        {
+          "_id": "350e6c72-cc72-804e-8d78-e0dc71f28a27",
+          "_url": "https://app.notion.com/p/YouTube-350e6c72cc72804e8d78e0dc71f28a27",
+          "_created": "2026-04-28T02:31:00.000Z",
+          "_edited": "2026-04-28T17:48:00.000Z",
+          "Type": "Auto",
+          "Price": 17.9,
+          "Name": "YouTube"
+        },
+        {
+          "_id": "350e6c72-cc72-8069-b276-fe69c8b3bf73",
+          "_url": "https://app.notion.com/p/Claude-350e6c72cc728069b276fe69c8b3bf73",
+          "_created": "2026-04-28T02:31:00.000Z",
+          "_edited": "2026-05-25T16:37:00.000Z",
+          "Type": "Auto",
+          "Price": 80.24,
+          "Name": "Claude"
+        },
+        {
+          "_id": "350e6c72-cc72-8039-a03a-ccef718e578c",
+          "_url": "https://app.notion.com/p/Apple-Music-350e6c72cc728039a03accef718e578c",
+          "_created": "2026-04-28T02:31:00.000Z",
+          "_edited": "2026-05-16T22:55:00.000Z",
+          "Type": "Auto",
+          "Price": 10.9,
+          "Name": "Apple Music"
+        },
+        {
+          "_id": "350e6c72-cc72-8073-b1a3-de3b2e99b10b",
+          "_url": "https://app.notion.com/p/Win-350e6c72cc728073b1a3de3b2e99b10b",
+          "_created": "2026-04-28T02:30:00.000Z",
+          "_edited": "2026-04-28T02:31:00.000Z",
+          "Type": "Manual",
+          "Price": 109,
+          "Name": "Win"
+        },
+        {
+          "_id": "350e6c72-cc72-8048-93ce-f23caa909bce",
+          "_url": "https://app.notion.com/p/Dentista-350e6c72cc72804893cef23caa909bce",
+          "_created": "2026-04-28T02:30:00.000Z",
+          "_edited": "2026-04-28T02:30:00.000Z",
+          "Type": "Manual",
+          "Price": 120,
+          "Name": "Dentista"
+        },
+        {
+          "_id": "350e6c72-cc72-8038-9658-f232651d5f75",
+          "_url": "https://app.notion.com/p/Home-350e6c72cc7280389658f232651d5f75",
+          "_created": "2026-04-28T02:29:00.000Z",
+          "_edited": "2026-06-06T22:31:00.000Z",
+          "Type": "Manual",
+          "Price": 270,
+          "Name": "Home"
         }
       ]
     },
