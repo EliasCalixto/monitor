@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T14:48:02.072424+00:00",
+  "generated_at": "2026-06-15T18:58:24.673584+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 7482.750000000001,
-          "Tot. Expenses": 269025.4349999999,
+          "Tot. Expenses": 269047.4349999999,
           "Total Papa": 4845.45,
           "Tot. Savings": 12774.74,
           "SumIngresosPapa": 12328.2,
@@ -125,7 +125,7 @@
             "377e6c72-cc72-807b-8932-ec371fedb400",
             "37ce6c72-cc72-80ec-9d86-fbe431764989"
           ],
-          "Cash": 61.60500000014,
+          "Cash": 39.60500000014,
           "Tot. Income": 269087.04000000004,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -154,7 +154,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 4907.055000000139,
+          "Cash Total": 4885.055000000139,
           "Name": "Resumen"
         }
       ]
@@ -1090,6 +1090,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "380e6c72-cc72-809d-8145-df176bdb512e",
+          "_url": "https://app.notion.com/p/pollito-de-almuerzo-380e6c72cc72809d8145df176bdb512e",
+          "_created": "2026-06-15T18:28:00.000Z",
+          "_edited": "2026-06-15T18:28:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-06-15",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 22,
+          "Name": "pollito de almuerzo"
+        },
         {
           "_id": "380e6c72-cc72-80be-812d-d022c2160f14",
           "_url": "https://app.notion.com/p/pasajes-380e6c72cc7280be812dd022c2160f14",
@@ -11446,9 +11463,9 @@
           "_id": "37fe6c72-cc72-8067-9687-ef2ed141a2bd",
           "_url": "https://app.notion.com/p/Smartfit-37fe6c72cc7280679687ef2ed141a2bd",
           "_created": "2026-06-14T03:36:00.000Z",
-          "_edited": "2026-06-14T03:37:00.000Z",
+          "_edited": "2026-06-15T16:48:00.000Z",
           "Type": "Auto",
-          "Price": 120,
+          "Price": 109.9,
           "Name": "Smartfit"
         },
         {
