@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Rutina — Hipertrofia + Movilidad</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#15161B; --bg2:#1B1D24; --bg3:#21242C;
+    --line:#2C2F38; --muscle:#2E323D; --bone:#262932;
+    --txt:#F3F2EE; --muted:#9A9DA6; --faint:#71747E;
+    --accent:#FF8A3D;
+    --disp:'Oswald',system-ui,sans-serif;
+    --body:'Inter',system-ui,sans-serif;
+    --mono:'JetBrains Mono',ui-monospace,monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    background:var(--bg); color:var(--txt);
+    font-family:var(--body); line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+    padding:26px 16px 56px;
+  }
+  .wrap{max-width:780px;margin:0 auto}
+
+  /* ---------- header ---------- */
+  .eyebrow{
+    font-family:var(--mono); font-size:11px; letter-spacing:.28em;
+    text-transform:uppercase; color:var(--faint); margin-bottom:10px;
+    display:flex; align-items:center; gap:10px;
+  }
+  .eyebrow::before{content:"";width:26px;height:1px;background:var(--line)}
+  h1{
+    font-family:var(--disp); font-weight:700; text-transform:uppercase;
+    font-size:clamp(38px,11vw,66px); line-height:.92; letter-spacing:.005em;
+  }
+  h1 span{display:block;color:var(--accent);transition:color .4s ease}
+  .meta{
+    margin-top:14px; display:flex; flex-wrap:wrap; gap:8px;
+  }
+  .meta b{
+    font-family:var(--mono); font-size:11px; font-weight:500;
+    letter-spacing:.04em; color:var(--muted);
+    background:var(--bg2); border:1px solid var(--line);
+    padding:5px 10px; border-radius:100px;
+  }
+
+  /* ---------- week strip ---------- */
+  .week-label{
+    font-family:var(--mono); font-size:10.5px; letter-spacing:.22em;
+    text-transform:uppercase; color:var(--faint); margin:30px 0 11px;
+  }
+  .week{
+    display:flex; gap:8px; overflow-x:auto; padding-bottom:8px;
+    scroll-snap-type:x mandatory; -webkit-overflow-scrolling:touch;
+  }
+  .week::-webkit-scrollbar{height:5px}
+  .week::-webkit-scrollbar-thumb{background:var(--line);border-radius:10px}
+  .day-btn{
+    scroll-snap-align:start; flex:0 0 auto; cursor:pointer;
+    min-width:92px; text-align:left; color:var(--muted);
+    background:var(--bg2); border:1px solid var(--line);
+    border-radius:13px; padding:11px 12px 12px; overflow:hidden;
+    position:relative; transition:border-color .2s, background .2s, color .2s, transform .15s;
+    font-family:inherit;
+  }
+  .day-btn::before{
+    content:""; position:absolute; top:0; left:0; right:0; height:3px;
+    background:var(--dc); opacity:.5; transition:opacity .2s;
+  }
+  .day-btn .dnum{font-family:var(--mono);font-size:10px;letter-spacing:.1em;color:var(--faint)}
+  .day-btn .dfoc{
+    font-family:var(--disp); font-weight:600; text-transform:uppercase;
+    font-size:17px; line-height:1.05; margin-top:5px; letter-spacing:.01em;
+  }
+  .day-btn:hover{transform:translateY(-2px);border-color:var(--dc)}
+  .day-btn[aria-selected="true"]{
+    color:var(--txt);
+    background:color-mix(in srgb,var(--dc) 15%, var(--bg2));
+    border-color:var(--dc);
+  }
+  .day-btn[aria-selected="true"]::before{opacity:1;height:4px}
+  .day-btn[aria-selected="true"] .dfoc{color:var(--dc)}
+
+  /* ---------- detail card ---------- */
+  .card{
+    margin-top:16px; background:var(--bg2); border:1px solid var(--line);
+    border-radius:20px; overflow:hidden;
+  }
+  .card-top{
+    padding:22px 22px 20px; border-bottom:1px solid var(--line);
+    background:
+      radial-gradient(120% 130% at 100% 0%, color-mix(in srgb,var(--accent) 13%, transparent), transparent 55%),
+      var(--bg2);
+  }
+  .tag{
+    font-family:var(--mono); font-size:10.5px; letter-spacing:.16em;
+    text-transform:uppercase; color:var(--accent);
+    border:1px solid color-mix(in srgb,var(--accent) 40%, var(--line));
+    background:color-mix(in srgb,var(--accent) 12%, transparent);
+    padding:4px 9px; border-radius:100px; display:inline-block;
+  }
+  .focus{
+    font-family:var(--disp); font-weight:700; text-transform:uppercase;
+    font-size:clamp(30px,8vw,46px); line-height:.95; margin-top:12px;
+    color:var(--accent); transition:color .4s ease;
+  }
+  .focus-sub{
+    font-family:var(--disp); font-weight:500; text-transform:uppercase;
+    letter-spacing:.05em; font-size:15px; color:var(--muted); margin-top:5px;
+  }
+  .chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:16px}
+  .chip{
+    font-family:var(--mono); font-size:11px; letter-spacing:.02em;
+    color:var(--muted); background:var(--bg3);
+    border:1px solid var(--line); padding:5px 10px; border-radius:8px;
+  }
+  .chip b{color:var(--txt);font-weight:700}
+
+  .card-body{
+    display:grid; grid-template-columns:1fr; gap:0;
+  }
+  @media(min-width:680px){
+    .card-body{grid-template-columns:264px 1fr}
+  }
+
+  /* ---------- muscle map ---------- */
+  .map{
+    padding:20px 18px 22px; border-bottom:1px solid var(--line);
+    background:var(--bg2);
+  }
+  @media(min-width:680px){
+    .map{border-bottom:none;border-right:1px solid var(--line)}
+  }
+  .map-head{
+    display:flex;align-items:center;justify-content:space-between;
+    margin-bottom:6px;
+  }
+  .map-title{
+    font-family:var(--mono);font-size:10px;letter-spacing:.2em;
+    text-transform:uppercase;color:var(--faint);
+  }
+  .legend{display:flex;align-items:center;gap:6px}
+  .legend i{
+    width:10px;height:10px;border-radius:3px;background:var(--accent);
+    transition:background .4s ease;
+    box-shadow:0 0 7px color-mix(in srgb,var(--accent) 60%, transparent);
+  }
+  .legend span{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:.04em}
+  .figs{display:flex;gap:6px;justify-content:center}
+  .fig-col{flex:1;max-width:140px;text-align:center}
+  .figure{width:100%;height:auto;display:block}
+  .fig-label{
+    font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;
+    text-transform:uppercase;color:var(--faint);margin-top:2px;
+  }
+  .m{fill:var(--muscle);transition:fill .4s ease, filter .4s ease}
+  .b{fill:var(--bone)}
+  .m.on{
+    fill:var(--accent);
+    filter:drop-shadow(0 0 5px color-mix(in srgb,var(--accent) 65%, transparent));
+  }
+  .m.soft{fill:color-mix(in srgb,var(--accent) 38%, var(--muscle))}
+
+  /* ---------- exercises ---------- */
+  .ex{padding:8px 8px 10px}
+  .ex-row{
+    display:flex;align-items:center;gap:13px;
+    padding:13px 14px;border-radius:12px;
+    transition:background .15s;
+  }
+  .ex-row + .ex-row{border-top:1px solid var(--line)}
+  .ex-row:hover{background:var(--bg3)}
+  .ex-n{
+    flex:0 0 auto;width:24px;height:24px;border-radius:7px;
+    display:grid;place-items:center;
+    font-family:var(--mono);font-size:11px;font-weight:700;
+    color:var(--accent);
+    background:color-mix(in srgb,var(--accent) 14%, transparent);
+    border:1px solid color-mix(in srgb,var(--accent) 30%, var(--line));
+    transition:color .4s, background .4s, border-color .4s;
+  }
+  .ex-name{flex:1;font-size:14.5px;font-weight:500;color:var(--txt)}
+  .ex-name small{display:block;font-size:12px;color:var(--faint);font-weight:400;margin-top:1px}
+  .ex-vol{
+    flex:0 0 auto;font-family:var(--mono);font-weight:700;font-size:13px;
+    color:var(--txt);letter-spacing:.02em;white-space:nowrap;
+  }
+  .ex-vol span{color:var(--faint);font-weight:500}
+
+  /* ---------- principles ---------- */
+  .sec-label{
+    font-family:var(--mono);font-size:10.5px;letter-spacing:.22em;
+    text-transform:uppercase;color:var(--faint);margin:34px 0 12px;
+    display:flex;align-items:center;gap:10px;
+  }
+  .sec-label::after{content:"";flex:1;height:1px;background:var(--line)}
+  .grid4{
+    display:grid;gap:10px;
+    grid-template-columns:repeat(2,1fr);
+  }
+  @media(min-width:680px){.grid4{grid-template-columns:repeat(4,1fr)}}
+  .pcard{
+    background:var(--bg2);border:1px solid var(--line);border-radius:15px;
+    padding:16px 15px;
+  }
+  .pcard .pk{
+    font-family:var(--mono);font-size:18px;font-weight:700;color:var(--accent);
+    letter-spacing:.02em;
+  }
+  .pcard h3{
+    font-family:var(--disp);font-weight:600;text-transform:uppercase;
+    font-size:15px;letter-spacing:.02em;margin:9px 0 5px;color:var(--txt);
+  }
+  .pcard p{font-size:12.5px;color:var(--muted);line-height:1.45}
+
+  .foot{
+    margin-top:18px;padding:16px 18px;border-radius:14px;
+    background:var(--bg2);border:1px solid var(--line);
+    border-left:3px solid var(--accent);
+    font-size:13px;color:var(--muted);line-height:1.55;
+  }
+  .foot b{color:var(--txt);font-weight:600}
+
+  @media (prefers-reduced-motion: reduce){
+    *{transition:none!important}
+  }
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:8px}
+</style>
+</head>
+<body>
+<div class="wrap" id="app">
+
+  <header>
+    <div class="eyebrow">Plan semanal · 1 h / día</div>
+    <h1>Mi rutina<span>de gym</span></h1>
+    <div class="meta">
+      <b>HIPERTROFIA + MOVILIDAD</b>
+      <b>PUSH · PULL · PIERNA ×2</b>
+      <b>7 DÍAS</b>
+    </div>
+  </header>
+
+  <div class="week-label">Elige el día · desliza →</div>
+  <div class="week" id="week" role="tablist" aria-label="Días de la semana"></div>
+
+  <section class="card" id="card" data-type="push" aria-live="polite">
+    <div class="card-top">
+      <span class="tag" id="d-tag">DÍA 1</span>
+      <div class="focus" id="d-focus">EMPUJE</div>
+      <div class="focus-sub" id="d-sub">Pecho · Hombro · Tríceps</div>
+      <div class="chips" id="d-chips"></div>
+    </div>
+    <div class="card-body">
+      <div class="map">
+        <div class="map-head">
+          <span class="map-title">Músculos</span>
+          <span class="legend"><i></i><span>Trabajado</span></span>
+        </div>
+        <div class="figs">
+          <div class="fig-col">
+            <svg class="figure" id="fig-front" viewBox="0 0 150 330" aria-hidden="true">
+              <g stroke="#0F1115" stroke-width="1.5" stroke-linejoin="round">
+                <circle class="b" cx="75" cy="30" r="16"/>
+                <rect class="b" x="67" y="43" width="16" height="11" rx="4"/>
+                <ellipse class="m" data-k="frontdelt" cx="44" cy="69" rx="14" ry="12"/>
+                <ellipse class="m" data-k="frontdelt" cx="106" cy="69" rx="14" ry="12"/>
+                <rect class="m" data-k="chest" x="52" y="65" width="21" height="26" rx="9"/>
+                <rect class="m" data-k="chest" x="77" y="65" width="21" height="26" rx="9"/>
+                <rect class="m" data-k="biceps" x="28" y="84" width="15" height="44" rx="7"/>
+                <rect class="m" data-k="biceps" x="107" y="84" width="15" height="44" rx="7"/>
+                <rect class="m" data-k="forearms" x="26" y="126" width="14" height="46" rx="6"/>
+                <rect class="m" data-k="forearms" x="110" y="126" width="14" height="46" rx="6"/>
+                <rect class="m" data-k="abs" x="58" y="93" width="34" height="63" rx="10"/>
+                <rect class="m" data-k="quads" x="50" y="166" width="23" height="74" rx="11"/>
+                <rect class="m" data-k="quads" x="77" y="166" width="23" height="74" rx="11"/>
+                <rect class="m" data-k="calves" x="52" y="244" width="19" height="68" rx="9"/>
+                <rect class="m" data-k="calves" x="79" y="244" width="19" height="68" rx="9"/>
+                <ellipse class="b" cx="61" cy="318" rx="12" ry="6"/>
+                <ellipse class="b" cx="89" cy="318" rx="12" ry="6"/>
+              </g>
+            </svg>
+            <div class="fig-label">Frente</div>
+          </div>
+          <div class="fig-col">
+            <svg class="figure" id="fig-back" viewBox="0 0 150 330" aria-hidden="true">
+              <g stroke="#0F1115" stroke-width="1.5" stroke-linejoin="round">
+                <circle class="b" cx="75" cy="30" r="16"/>
+                <rect class="b" x="67" y="43" width="16" height="11" rx="4"/>
+                <rect class="m" data-k="traps" x="54" y="55" width="42" height="21" rx="9"/>
+                <ellipse class="m" data-k="reardelt" cx="44" cy="70" rx="14" ry="11"/>
+                <ellipse class="m" data-k="reardelt" cx="106" cy="70" rx="14" ry="11"/>
+                <rect class="m" data-k="back" x="53" y="76" width="20" height="44" rx="9"/>
+                <rect class="m" data-k="back" x="77" y="76" width="20" height="44" rx="9"/>
+                <rect class="m" data-k="triceps" x="28" y="84" width="15" height="44" rx="7"/>
+                <rect class="m" data-k="triceps" x="107" y="84" width="15" height="44" rx="7"/>
+                <rect class="m" data-k="forearms" x="26" y="126" width="14" height="46" rx="6"/>
+                <rect class="m" data-k="forearms" x="110" y="126" width="14" height="46" rx="6"/>
+                <rect class="m" data-k="lowerback" x="58" y="120" width="34" height="34" rx="9"/>
+                <rect class="m" data-k="glutes" x="52" y="156" width="22" height="30" rx="11"/>
+                <rect class="m" data-k="glutes" x="76" y="156" width="22" height="30" rx="11"/>
+                <rect class="m" data-k="hamstrings" x="50" y="188" width="23" height="58" rx="11"/>
+                <rect class="m" data-k="hamstrings" x="77" y="188" width="23" height="58" rx="11"/>
+                <rect class="m" data-k="calves" x="52" y="250" width="19" height="62" rx="9"/>
+                <rect class="m" data-k="calves" x="79" y="250" width="19" height="62" rx="9"/>
+                <ellipse class="b" cx="61" cy="318" rx="12" ry="6"/>
+                <ellipse class="b" cx="89" cy="318" rx="12" ry="6"/>
+              </g>
+            </svg>
+            <div class="fig-label">Espalda</div>
+          </div>
+        </div>
+      </div>
+      <div class="ex" id="d-ex"></div>
+    </div>
+  </section>
+
+  <div class="sec-label">Principios para crecer</div>
+  <div class="grid4">
+    <div class="pcard"><div class="pk">↑</div><h3>Sobrecarga progresiva</h3><p>Sube peso o repeticiones cada semana. Sin progresión, no hay crecimiento.</p></div>
+    <div class="pcard"><div class="pk">1.6–2</div><h3>Proteína</h3><p>Gramos por kg de peso corporal al día. El músculo se construye en la cocina.</p></div>
+    <div class="pcard"><div class="pk">7–9</div><h3>Sueño</h3><p>Horas por noche. El músculo crece cuando descansas, no mientras entrenas.</p></div>
+    <div class="pcard"><div class="pk">8–12</div><h3>Rango de reps</h3><p>Zona ideal de hipertrofia. Descansa 60–90 s entre series.</p></div>
+  </div>
+
+  <div class="foot">
+    <b>¿7 días seguidos?</b> Funciona porque cada grupo muscular descansa ~72 h con este split. Pero si un día estás agotado o muy adolorido, un descanso completo <b>suma</b>, no resta. Escucha a tu cuerpo.
+  </div>
+
+</div>
+
+<script>
+const ACCENT = {push:'#FF8A3D', pull:'#38C7F0', legs:'#C2E23A', mob:'#B79CFF'};
+
+const WEEK = [
+  {n:'Día 1', short:'Empuje', type:'push'},
+  {n:'Día 2', short:'Jalón',  type:'pull'},
+  {n:'Día 3', short:'Pierna', type:'legs'},
+  {n:'Día 4', short:'Empuje', type:'push'},
+  {n:'Día 5', short:'Jalón',  type:'pull'},
+  {n:'Día 6', short:'Pierna', type:'legs'},
+  {n:'Día 7', short:'Movilidad', type:'mob'},
+];
+
+const PLANS = {
+  push:{
+    focus:'Empuje', sub:'Pecho · Hombro · Tríceps',
+    chips:['<b>Calentar</b> 5–10′','<b>Fuerza</b> ~40′','<b>Estirar</b> 10′'],
+    muscles:['chest','frontdelt','triceps'],
+    ex:[
+      {name:'Press de banca', vol:'4×8-10'},
+      {name:'Press inclinado con mancuernas', vol:'3×10-12'},
+      {name:'Press militar de hombro', vol:'3×8-10'},
+      {name:'Elevaciones laterales', vol:'3×12-15'},
+      {name:'Fondos o press francés', sub:'tríceps', vol:'3×10-12'},
+      {name:'Extensión de tríceps en polea', vol:'3×12-15'},
+    ]
+  },
+  pull:{
+    focus:'Jalón', sub:'Espalda · Bíceps',
+    chips:['<b>Calentar</b> 5–10′','<b>Fuerza</b> ~40′','<b>Estirar</b> 10′'],
+    muscles:['back','traps','reardelt','biceps','forearms'],
+    ex:[
+      {name:'Dominadas o jalón al pecho', vol:'4×8-10'},
+      {name:'Remo con barra', vol:'4×8-10'},
+      {name:'Remo con mancuerna', vol:'3×10-12'},
+      {name:'Face pulls', sub:'hombro posterior', vol:'3×12-15'},
+      {name:'Curl de bíceps con barra', vol:'3×10-12'},
+      {name:'Curl martillo', vol:'3×12'},
+    ]
+  },
+  legs:{
+    focus:'Pierna', sub:'Cuádriceps · Femoral · Glúteo',
+    chips:['<b>Calentar</b> 5–10′','<b>Fuerza</b> ~40′','<b>Estirar</b> 10′'],
+    muscles:['quads','hamstrings','glutes','calves'],
+    ex:[
+      {name:'Sentadilla', vol:'4×8-10'},
+      {name:'Prensa', vol:'3×10-12'},
+      {name:'Peso muerto rumano', sub:'femoral', vol:'3×10-12'},
+      {name:'Zancadas', vol:'3×12 / pierna'},
+      {name:'Extensión de cuádriceps', vol:'3×12-15'},
+      {name:'Elevación de gemelos', vol:'4×15-20'},
+    ]
+  },
+  mob:{
+    focus:'Movilidad', sub:'Cuerpo completo · Recuperación activa',
+    chips:['<b>Recuperación</b> activa','~40–50′','<b>Cardio</b> opcional 20′'],
+    muscles:['all'],
+    ex:[
+      {name:'Movilidad de cadera 90/90', vol:'2×60s'},
+      {name:'Gato–camello', sub:'columna', vol:'8-10'},
+      {name:'Estiramiento de isquios', vol:'2×30s'},
+      {name:'Apertura de pecho en pared', vol:'2×30s'},
+      {name:'Pass-through de hombros', sub:'con palo o banda', vol:'2×10'},
+      {name:'Sentadilla profunda sostenida', vol:'2×45s'},
+      {name:'Cardio suave', sub:'opcional', vol:'20′'},
+    ]
+  }
+};
+
+const card  = document.getElementById('card');
+const weekEl = document.getElementById('week');
+const figMs  = document.querySelectorAll('.m');
+
+// build week strip
+WEEK.forEach((d,i)=>{
+  const b=document.createElement('button');
+  b.className='day-btn'; b.role='tab'; b.style.setProperty('--dc',ACCENT[d.type]);
+  b.setAttribute('aria-selected', i===0);
+  b.innerHTML=`<div class="dnum">${d.n.toUpperCase()}</div><div class="dfoc">${d.short}</div>`;
+  b.addEventListener('click',()=>select(i));
+  weekEl.appendChild(b);
+});
+const btns=weekEl.querySelectorAll('.day-btn');
+
+function select(i){
+  const d=WEEK[i], p=PLANS[d.type], col=ACCENT[d.type];
+  card.style.setProperty('--accent',col);
+  card.dataset.type=d.type;
+
+  btns.forEach((b,j)=>b.setAttribute('aria-selected', j===i));
+
+  document.getElementById('d-tag').textContent   = d.n.toUpperCase();
+  document.getElementById('d-focus').textContent = p.focus;
+  document.getElementById('d-sub').textContent   = p.sub;
+  document.getElementById('d-chips').innerHTML    =
+    p.chips.map(c=>`<span class="chip">${c}</span>`).join('');
+
+  document.getElementById('d-ex').innerHTML = p.ex.map((e,k)=>`
+    <div class="ex-row">
+      <span class="ex-n">${k+1}</span>
+      <span class="ex-name">${e.name}${e.sub?`<small>${e.sub}</small>`:''}</span>
+      <span class="ex-vol">${e.vol.replace('×','<span>×</span>')}</span>
+    </div>`).join('');
+
+  // muscle map
+  const all = p.muscles.includes('all');
+  figMs.forEach(m=>{
+    m.classList.remove('on','soft');
+    if(all){ m.classList.add('soft'); }
+    else if(p.muscles.includes(m.dataset.k)){ m.classList.add('on'); }
+  });
+}
+
+select(0);
+</script>
+</body>
+</html>
