@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T18:58:24.673584+00:00",
+  "generated_at": "2026-06-15T21:40:59.088442+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -10486,6 +10486,21 @@
       },
       "rows": [
         {
+          "_id": "380e6c72-cc72-8009-944a-deb10767b90d",
+          "_url": "https://app.notion.com/p/Sodimac-black-out-2-380e6c72cc728009944adeb10767b90d",
+          "_created": "2026-06-15T20:05:00.000Z",
+          "_edited": "2026-06-15T20:05:00.000Z",
+          "Date Created": {
+            "start": "2026-06-15",
+            "end": null
+          },
+          "Price": 1359,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Sodimac black out 2",
+          "Category": null
+        },
+        {
           "_id": "380e6c72-cc72-8036-9d0c-d46914bfa661",
           "_url": "https://app.notion.com/p/Orient-bambino-blue-380e6c72cc7280369d0cd46914bfa661",
           "_created": "2026-06-15T05:09:00.000Z",
@@ -10519,7 +10534,7 @@
           "_id": "37fe6c72-cc72-80d2-bf2f-e0d38e02e783",
           "_url": "https://app.notion.com/p/Sodimac-black-out-1-37fe6c72cc7280d2bf2fe0d38e02e783",
           "_created": "2026-06-14T21:28:00.000Z",
-          "_edited": "2026-06-14T21:28:00.000Z",
+          "_edited": "2026-06-15T20:05:00.000Z",
           "Date Created": {
             "start": "2026-06-14",
             "end": null
