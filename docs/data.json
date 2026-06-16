@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T23:23:12.701271+00:00",
+  "generated_at": "2026-06-16T02:03:46.459567+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 7482.750000000001,
-          "Tot. Expenses": 269047.4349999999,
-          "Total Papa": 4845.45,
+          "SumGastosPapa": 7598.350000000001,
+          "Tot. Expenses": 269052.4349999999,
+          "Total Papa": 4729.85,
           "Tot. Savings": 12774.74,
           "SumIngresosPapa": 12328.2,
           "Expenses": [
@@ -125,7 +125,7 @@
             "377e6c72-cc72-807b-8932-ec371fedb400",
             "37ce6c72-cc72-80ec-9d86-fbe431764989"
           ],
-          "Cash": 39.60500000014,
+          "Cash": 34.60500000014,
           "Tot. Income": 269087.04000000004,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -154,7 +154,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 4885.055000000139,
+          "Cash Total": 4764.455000000139,
           "Name": "Resumen"
         }
       ]
@@ -1090,6 +1090,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "380e6c72-cc72-802e-b52b-c25ab34c1570",
+          "_url": "https://app.notion.com/p/Helado-fosh-380e6c72cc72802eb52bc25ab34c1570",
+          "_created": "2026-06-15T23:48:00.000Z",
+          "_edited": "2026-06-15T23:48:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-15",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 5,
+          "Name": "Helado fosh"
+        },
         {
           "_id": "380e6c72-cc72-809d-8145-df176bdb512e",
           "_url": "https://app.notion.com/p/pollito-de-almuerzo-380e6c72cc72809d8145df176bdb512e",
@@ -11578,6 +11595,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "381e6c72-cc72-8013-8e98-fba93f61df85",
+          "_url": "https://app.notion.com/p/115-60-381e6c72cc7280138e98fba93f61df85",
+          "_created": "2026-06-16T01:53:00.000Z",
+          "_edited": "2026-06-16T01:53:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-15",
+            "end": null
+          },
+          "Money": 115.6,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "115.60"
+        },
         {
           "_id": "37ee6c72-cc72-80c4-98f3-d7b770b6ac8c",
           "_url": "https://app.notion.com/p/6pollto-37ee6c72cc7280c498f3d7b770b6ac8c",
