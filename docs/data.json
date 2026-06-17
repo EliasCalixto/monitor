@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T11:59:50.264863+00:00",
+  "generated_at": "2026-06-17T15:26:45.791802+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 7928.350000000001,
-          "Tot. Expenses": 269078.73499999987,
+          "Tot. Expenses": 269093.23499999987,
           "Total Papa": 4924.85,
           "Tot. Savings": 12774.74,
           "SumIngresosPapa": 12853.2,
@@ -126,7 +126,7 @@
             "37ce6c72-cc72-80ec-9d86-fbe431764989",
             "382e6c72-cc72-8031-b48a-e1378dd385e3"
           ],
-          "Cash": 8.30500000017,
+          "Cash": -6.19499999983,
           "Tot. Income": 269087.04000000004,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -155,7 +155,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 4933.155000000169,
+          "Cash Total": 4918.655000000169,
           "Name": "Resumen"
         }
       ]
@@ -1091,6 +1091,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "382e6c72-cc72-8023-9565-c394cfbb760b",
+          "_url": "https://app.notion.com/p/pasajes-382e6c72cc7280239565c394cfbb760b",
+          "_created": "2026-06-17T13:26:00.000Z",
+          "_edited": "2026-06-17T13:26:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-06-17",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 14.5,
+          "Name": "pasajes"
+        },
         {
           "_id": "381e6c72-cc72-803a-82ca-d4286a0d5773",
           "_url": "https://app.notion.com/p/almuerzo-381e6c72cc72803a82cad4286a0d5773",
