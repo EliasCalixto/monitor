@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T02:09:34.710162+00:00",
+  "generated_at": "2026-06-17T07:25:56.544913+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,11 +27,11 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 7638.350000000001,
+          "SumGastosPapa": 7928.350000000001,
           "Tot. Expenses": 269078.73499999987,
-          "Total Papa": 4689.85,
+          "Total Papa": 4924.85,
           "Tot. Savings": 12774.74,
-          "SumIngresosPapa": 12328.2,
+          "SumIngresosPapa": 12853.2,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
             "34fe6c72-cc72-818b-a14d-f54df1618747",
@@ -123,7 +123,8 @@
             "36de6c72-cc72-805a-b6a3-c4cab8c613d8",
             "370e6c72-cc72-8007-a784-c7d9580e61d6",
             "377e6c72-cc72-807b-8932-ec371fedb400",
-            "37ce6c72-cc72-80ec-9d86-fbe431764989"
+            "37ce6c72-cc72-80ec-9d86-fbe431764989",
+            "382e6c72-cc72-8031-b48a-e1378dd385e3"
           ],
           "Cash": 8.30500000017,
           "Tot. Income": 269087.04000000004,
@@ -154,7 +155,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 4698.155000000169,
+          "Cash Total": 4933.155000000169,
           "Name": "Resumen"
         }
       ]
@@ -11620,6 +11621,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "382e6c72-cc72-80f2-b03c-e4c1c68be17a",
+          "_url": "https://app.notion.com/p/Tia-gloria-382e6c72cc7280f2b03ce4c1c68be17a",
+          "_created": "2026-06-17T03:19:00.000Z",
+          "_edited": "2026-06-17T03:20:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-16",
+            "end": null
+          },
+          "Money": 50,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Tia gloria"
+        },
+        {
+          "_id": "382e6c72-cc72-801c-ba13-c85cc349595a",
+          "_url": "https://app.notion.com/p/Psicologo-382e6c72cc72801cba13c85cc349595a",
+          "_created": "2026-06-17T03:10:00.000Z",
+          "_edited": "2026-06-17T03:19:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-16",
+            "end": null
+          },
+          "Money": 240,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Psicologo"
+        },
+        {
+          "_id": "382e6c72-cc72-8031-b48a-e1378dd385e3",
+          "_url": "https://app.notion.com/p/525-382e6c72cc728031b48ae1378dd385e3",
+          "_created": "2026-06-17T03:07:00.000Z",
+          "_edited": "2026-06-17T03:07:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-06-16",
+            "end": null
+          },
+          "Money": 525,
+          "Total Gastos Papa": [],
+          "Name": "525"
+        },
         {
           "_id": "381e6c72-cc72-801a-8382-de519deda7d0",
           "_url": "https://app.notion.com/p/20-381e6c72cc72801a8382de519deda7d0",
