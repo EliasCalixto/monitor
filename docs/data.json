@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T18:00:55.706110+00:00",
+  "generated_at": "2026-06-17T20:29:03.677015+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 7928.350000000001,
+          "SumGastosPapa": 8173.350000000001,
           "Tot. Expenses": 269093.23499999987,
-          "Total Papa": 4924.85,
+          "Total Papa": 4679.85,
           "Tot. Savings": 12774.74,
           "SumIngresosPapa": 12853.2,
           "Expenses": [
@@ -155,7 +155,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 4918.655000000169,
+          "Cash Total": 4673.655000000169,
           "Name": "Resumen"
         }
       ]
@@ -10555,6 +10555,21 @@
       },
       "rows": [
         {
+          "_id": "382e6c72-cc72-8012-a4b2-d0bdda274754",
+          "_url": "https://app.notion.com/p/lomo-saltado-382e6c72cc728012a4b2d0bdda274754",
+          "_created": "2026-06-17T18:55:00.000Z",
+          "_edited": "2026-06-17T18:55:00.000Z",
+          "Date Created": {
+            "start": "2026-06-17",
+            "end": null
+          },
+          "Price": 22,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "lomo saltado",
+          "Category": null
+        },
+        {
           "_id": "380e6c72-cc72-8009-944a-deb10767b90d",
           "_url": "https://app.notion.com/p/Sodimac-black-out-2-380e6c72cc728009944adeb10767b90d",
           "_created": "2026-06-15T20:05:00.000Z",
@@ -11638,6 +11653,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "382e6c72-cc72-8014-983a-fb8efaf7fc2e",
+          "_url": "https://app.notion.com/p/Wilmer-382e6c72cc728014983afb8efaf7fc2e",
+          "_created": "2026-06-17T18:11:00.000Z",
+          "_edited": "2026-06-17T18:11:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-17",
+            "end": null
+          },
+          "Money": 245,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Wilmer"
+        },
         {
           "_id": "382e6c72-cc72-80f2-b03c-e4c1c68be17a",
           "_url": "https://app.notion.com/p/Tia-gloria-382e6c72cc7280f2b03ce4c1c68be17a",
