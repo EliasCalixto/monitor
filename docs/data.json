@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T21:53:53.743768+00:00",
+  "generated_at": "2026-06-18T23:26:19.664827+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 8238.300000000003,
+          "SumGastosPapa": 8429.300000000003,
           "Tot. Expenses": 269096.23499999987,
-          "Total Papa": 4614.9,
+          "Total Papa": 4423.9,
           "Tot. Savings": 12774.74,
           "SumIngresosPapa": 12853.2,
           "Expenses": [
@@ -155,7 +155,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 4605.705000000167,
+          "Cash Total": 4414.705000000167,
           "Name": "Resumen"
         }
       ]
@@ -11670,6 +11670,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "383e6c72-cc72-8038-b194-f02dcc50f288",
+          "_url": "https://app.notion.com/p/Primos-chicken-383e6c72cc728038b194f02dcc50f288",
+          "_created": "2026-06-18T23:12:00.000Z",
+          "_edited": "2026-06-18T23:13:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-18",
+            "end": null
+          },
+          "Money": 191,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Primos chicken"
+        },
         {
           "_id": "383e6c72-cc72-80e7-93f9-f60ea54beea1",
           "_url": "https://app.notion.com/p/bitel-383e6c72cc7280e793f9f60ea54beea1",
