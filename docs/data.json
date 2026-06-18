@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T19:53:25.102827+00:00",
+  "generated_at": "2026-06-18T21:53:53.743768+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -10614,21 +10614,6 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Sodimac black out 2",
-          "Category": null
-        },
-        {
-          "_id": "380e6c72-cc72-8036-9d0c-d46914bfa661",
-          "_url": "https://app.notion.com/p/Orient-bambino-blue-380e6c72cc7280369d0cd46914bfa661",
-          "_created": "2026-06-15T05:09:00.000Z",
-          "_edited": "2026-06-15T05:09:00.000Z",
-          "Date Created": {
-            "start": "2026-06-15",
-            "end": null
-          },
-          "Price": 985,
-          "Date Payed": null,
-          "Status": "Pending",
-          "Name": "Orient bambino blue",
           "Category": null
         },
         {
