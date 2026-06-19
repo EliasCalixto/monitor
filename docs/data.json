@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T02:11:48.722638+00:00",
+  "generated_at": "2026-06-19T07:24:28.853996+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -29,9 +29,9 @@
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 8463.700000000003,
           "Tot. Expenses": 269106.23499999987,
-          "Total Papa": 4389.5,
+          "Total Papa": 5314.5,
           "Tot. Savings": 12774.74,
-          "SumIngresosPapa": 12853.2,
+          "SumIngresosPapa": 13778.2,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
             "34fe6c72-cc72-818b-a14d-f54df1618747",
@@ -124,7 +124,8 @@
             "370e6c72-cc72-8007-a784-c7d9580e61d6",
             "377e6c72-cc72-807b-8932-ec371fedb400",
             "37ce6c72-cc72-80ec-9d86-fbe431764989",
-            "382e6c72-cc72-8031-b48a-e1378dd385e3"
+            "382e6c72-cc72-8031-b48a-e1378dd385e3",
+            "384e6c72-cc72-80c1-9f95-e86611032424"
           ],
           "Cash": -19.19499999983,
           "Tot. Income": 269087.04000000004,
@@ -155,7 +156,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 4370.305000000167,
+          "Cash Total": 5295.305000000167,
           "Name": "Resumen"
         }
       ]
@@ -11687,6 +11688,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "384e6c72-cc72-80c1-9f95-e86611032424",
+          "_url": "https://app.notion.com/p/Nose-384e6c72cc7280c19f95e86611032424",
+          "_created": "2026-06-19T02:45:00.000Z",
+          "_edited": "2026-06-19T02:45:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-06-18",
+            "end": null
+          },
+          "Money": 925,
+          "Total Gastos Papa": [],
+          "Name": "Nose"
+        },
         {
           "_id": "384e6c72-cc72-8060-947b-d8141de7e94a",
           "_url": "https://app.notion.com/p/postres-384e6c72cc728060947bd8141de7e94a",
