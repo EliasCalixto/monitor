@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T14:28:18.659791+00:00",
+  "generated_at": "2026-06-19T16:56:47.994861+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -30,7 +30,7 @@
           "SumGastosPapa": 8463.700000000003,
           "Tot. Expenses": 269106.23499999987,
           "Total Papa": 5314.5,
-          "Tot. Savings": 12774.74,
+          "Tot. Savings": 10000,
           "SumIngresosPapa": 13778.2,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
@@ -180,16 +180,6 @@
           "Status": "Urgent",
           "Details": "",
           "Name": "Brevete"
-        },
-        {
-          "_id": "360e6c72-cc72-80d7-a7ab-ff9c8324abdc",
-          "_url": "https://app.notion.com/p/Operacion-de-la-vista-360e6c72cc7280d7a7abff9c8324abdc",
-          "_created": "2026-05-14T23:49:00.000Z",
-          "_edited": "2026-06-14T16:09:00.000Z",
-          "Price": 1900,
-          "Status": "To buy",
-          "Details": "",
-          "Name": "Operacion de la vista"
         },
         {
           "_id": "32ae6c72-cc72-80be-9205-cd7636595f5d",
@@ -1092,6 +1082,42 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "384e6c72-cc72-800a-ac7a-e77b1816b3e8",
+          "_url": "https://app.notion.com/p/2774-74-amortizacion-384e6c72cc72800aac7ae77b1816b3e8",
+          "_created": "2026-06-19T15:52:00.000Z",
+          "_edited": "2026-06-19T15:53:00.000Z",
+          "Category": "Savings",
+          "Date Created": {
+            "start": "2026-06-19",
+            "end": null
+          },
+          "ExpensesSavings": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -2774.74,
+          "Name": "2774.74 amortizacion"
+        },
+        {
+          "_id": "384e6c72-cc72-80a1-828d-c974b70f3644",
+          "_url": "https://app.notion.com/p/2774-74-amortizacion-384e6c72cc7280a1828dc974b70f3644",
+          "_created": "2026-06-19T15:52:00.000Z",
+          "_edited": "2026-06-19T15:52:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-06-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2774.74,
+          "Name": "2774.74 amortizacion"
+        },
         {
           "_id": "384e6c72-cc72-8036-b2b7-db4209d46226",
           "_url": "https://app.notion.com/p/desayuno-y-pasajes-384e6c72cc728036b2b7db4209d46226",
