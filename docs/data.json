@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T11:44:06.977775+00:00",
+  "generated_at": "2026-06-19T14:28:18.659791+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -10589,6 +10589,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "384e6c72-cc72-80d9-a547-f2822274683e",
+          "_url": "https://app.notion.com/p/regalo-para-papa-reloj-384e6c72cc7280d9a547f2822274683e",
+          "_created": "2026-06-19T12:21:00.000Z",
+          "_edited": "2026-06-19T12:22:00.000Z",
+          "Date Created": {
+            "start": "2026-06-19",
+            "end": null
+          },
+          "Price": 120,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "regalo para papa reloj",
+          "Category": null
+        },
         {
           "_id": "383e6c72-cc72-8023-9745-ec782eed7585",
           "_url": "https://app.notion.com/p/frutos-secos-papitas-383e6c72cc7280239745ec782eed7585",
