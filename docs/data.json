@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T19:52:31.572985+00:00",
+  "generated_at": "2026-06-20T20:59:22.914184+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -10615,6 +10615,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "385e6c72-cc72-813d-bfac-d04fdb381497",
+          "_url": "https://app.notion.com/p/Bembos-385e6c72cc72813dbfacd04fdb381497",
+          "_created": "2026-06-20T20:28:00.000Z",
+          "_edited": "2026-06-20T20:28:00.000Z",
+          "Date Created": {
+            "start": "2026-06-20",
+            "end": null
+          },
+          "Price": 24.9,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Bembos",
+          "Category": null
+        },
         {
           "_id": "385e6c72-cc72-80ee-a9b8-e07d34024feb",
           "_url": "https://app.notion.com/p/Reloj-orient-385e6c72cc7280eea9b8e07d34024feb",
