@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T01:37:57.102793+00:00",
+  "generated_at": "2026-06-20T06:01:35.801865+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -10615,6 +10615,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "385e6c72-cc72-80ee-a9b8-e07d34024feb",
+          "_url": "https://app.notion.com/p/Reloj-orient-385e6c72cc7280eea9b8e07d34024feb",
+          "_created": "2026-06-20T02:04:00.000Z",
+          "_edited": "2026-06-20T02:04:00.000Z",
+          "Date Created": {
+            "start": "2026-06-19",
+            "end": null
+          },
+          "Price": 549.78,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Reloj orient",
+          "Category": null
+        },
         {
           "_id": "384e6c72-cc72-80d9-a547-f2822274683e",
           "_url": "https://app.notion.com/p/regalo-para-papa-reloj-384e6c72cc7280d9a547f2822274683e",
