@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T22:04:31.400453+00:00",
+  "generated_at": "2026-06-20T23:23:12.044709+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 8966.700000000003,
-          "Tot. Expenses": 269106.23499999987,
+          "Tot. Expenses": 269204.33499999985,
           "Total Papa": 4811.5,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 13778.2,
@@ -127,7 +127,7 @@
             "382e6c72-cc72-8031-b48a-e1378dd385e3",
             "384e6c72-cc72-80c1-9f95-e86611032424"
           ],
-          "Cash": -19.19499999983,
+          "Cash": -117.29499999981,
           "Tot. Income": 269087.04000000004,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -156,7 +156,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 4792.305000000167,
+          "Cash Total": 4694.205000000187,
           "Name": "Resumen"
         }
       ]
@@ -1082,6 +1082,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "385e6c72-cc72-8075-9f56-d26d3c060ad1",
+          "_url": "https://app.notion.com/p/pasajes-385e6c72cc7280759f56d26d3c060ad1",
+          "_created": "2026-06-20T23:21:00.000Z",
+          "_edited": "2026-06-20T23:22:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-06-20",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 23.1,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "385e6c72-cc72-80e7-96a3-c96aa4e67876",
+          "_url": "https://app.notion.com/p/lavada-de-terno-385e6c72cc7280e796a3c96aa4e67876",
+          "_created": "2026-06-20T23:21:00.000Z",
+          "_edited": "2026-06-20T23:21:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-06-20",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 15,
+          "Name": "lavada de terno"
+        },
+        {
+          "_id": "385e6c72-cc72-8061-8f7e-f7e9a8a0ae17",
+          "_url": "https://app.notion.com/p/prestamo-a-rogy-385e6c72cc7280618f7ef7e9a8a0ae17",
+          "_created": "2026-06-20T23:21:00.000Z",
+          "_edited": "2026-06-20T23:21:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-06-20",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 60,
+          "Name": "prestamo a rogy"
+        },
         {
           "_id": "384e6c72-cc72-800a-ac7a-e77b1816b3e8",
           "_url": "https://app.notion.com/p/2774-74-amortizacion-384e6c72cc72800aac7ae77b1816b3e8",
