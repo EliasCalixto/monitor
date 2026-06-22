@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T13:15:51.050355+00:00",
+  "generated_at": "2026-06-22T17:58:21.051525+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 8966.700000000003,
-          "Tot. Expenses": 269234.33499999985,
+          "Tot. Expenses": 269335.03499999986,
           "Total Papa": 4811.5,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 13778.2,
@@ -127,7 +127,7 @@
             "382e6c72-cc72-8031-b48a-e1378dd385e3",
             "384e6c72-cc72-80c1-9f95-e86611032424"
           ],
-          "Cash": -147.29499999981,
+          "Cash": -247.99499999982,
           "Tot. Income": 269087.04000000004,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -156,7 +156,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 4664.205000000187,
+          "Cash Total": 4563.505000000177,
           "Name": "Resumen"
         }
       ]
@@ -1082,6 +1082,74 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "387e6c72-cc72-802d-8b41-f9cd8ede12fc",
+          "_url": "https://app.notion.com/p/50-387e6c72cc72802d8b41f9cd8ede12fc",
+          "_created": "2026-06-22T16:51:00.000Z",
+          "_edited": "2026-06-22T16:51:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-06-22",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 50,
+          "Name": "50"
+        },
+        {
+          "_id": "387e6c72-cc72-8026-982e-df0e886f1eb0",
+          "_url": "https://app.notion.com/p/bembos-387e6c72cc728026982edf0e886f1eb0",
+          "_created": "2026-06-22T16:27:00.000Z",
+          "_edited": "2026-06-22T16:27:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-22",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 38.8,
+          "Name": "bembos"
+        },
+        {
+          "_id": "387e6c72-cc72-809b-b4b1-cec96171f53b",
+          "_url": "https://app.notion.com/p/3-90-387e6c72cc72809bb4b1cec96171f53b",
+          "_created": "2026-06-22T13:30:00.000Z",
+          "_edited": "2026-06-22T13:31:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-06-22",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3.9,
+          "Name": "3.90"
+        },
+        {
+          "_id": "387e6c72-cc72-8095-934c-fc4b4aabed8f",
+          "_url": "https://app.notion.com/p/taxi-y-pasajes-387e6c72cc728095934cfc4b4aabed8f",
+          "_created": "2026-06-22T13:19:00.000Z",
+          "_edited": "2026-06-22T13:19:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-06-22",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 8,
+          "Name": "taxi y pasajes"
+        },
         {
           "_id": "387e6c72-cc72-8197-93ce-d7d538aa3e97",
           "_url": "https://app.notion.com/p/Torta-d-a-del-padre-387e6c72cc72819793ced7d538aa3e97",
@@ -10734,6 +10802,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "387e6c72-cc72-803b-b48b-f369fb801a7d",
+          "_url": "https://app.notion.com/p/Gaseosas-387e6c72cc72803bb48bf369fb801a7d",
+          "_created": "2026-06-22T17:48:00.000Z",
+          "_edited": "2026-06-22T17:48:00.000Z",
+          "Date Created": {
+            "start": "2026-06-22",
+            "end": null
+          },
+          "Price": 7,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Gaseosas",
+          "Category": null
+        },
         {
           "_id": "385e6c72-cc72-813d-bfac-d04fdb381497",
           "_url": "https://app.notion.com/p/Bembos-385e6c72cc72813dbfacd04fdb381497",
