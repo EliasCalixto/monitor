@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T23:41:54.189275+00:00",
+  "generated_at": "2026-06-22T02:07:37.455513+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -1082,6 +1082,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "387e6c72-cc72-80b1-b416-c33401bcc89b",
+          "_url": "https://app.notion.com/p/devolucion-de-Jairo-387e6c72cc7280b1b416c33401bcc89b",
+          "_created": "2026-06-22T00:55:00.000Z",
+          "_edited": "2026-06-22T00:55:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-06-21",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -50,
+          "Name": "devolucion de Jairo"
+        },
+        {
+          "_id": "387e6c72-cc72-8062-89cd-cae4c3adbbab",
+          "_url": "https://app.notion.com/p/Prestamo-a-rodro-387e6c72cc72806289cdcae4c3adbbab",
+          "_created": "2026-06-22T00:39:00.000Z",
+          "_edited": "2026-06-22T00:39:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-06-21",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 50,
+          "Name": "Prestamo a rodro"
+        },
         {
           "_id": "385e6c72-cc72-8075-9f56-d26d3c060ad1",
           "_url": "https://app.notion.com/p/pasajes-385e6c72cc7280759f56d26d3c060ad1",
