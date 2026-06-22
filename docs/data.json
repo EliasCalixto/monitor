@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T02:07:37.455513+00:00",
+  "generated_at": "2026-06-22T07:37:29.489665+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 8966.700000000003,
-          "Tot. Expenses": 269204.33499999985,
+          "Tot. Expenses": 269234.33499999985,
           "Total Papa": 4811.5,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 13778.2,
@@ -127,7 +127,7 @@
             "382e6c72-cc72-8031-b48a-e1378dd385e3",
             "384e6c72-cc72-80c1-9f95-e86611032424"
           ],
-          "Cash": -117.29499999981,
+          "Cash": -147.29499999981,
           "Tot. Income": 269087.04000000004,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -156,7 +156,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 4694.205000000187,
+          "Cash Total": 4664.205000000187,
           "Name": "Resumen"
         }
       ]
@@ -1082,6 +1082,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "387e6c72-cc72-8197-93ce-d7d538aa3e97",
+          "_url": "https://app.notion.com/p/Torta-d-a-del-padre-387e6c72cc72819793ced7d538aa3e97",
+          "_created": "2026-06-22T04:15:00.000Z",
+          "_edited": "2026-06-22T04:15:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-21",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 28,
+          "Name": "Torta día del padre"
+        },
+        {
+          "_id": "387e6c72-cc72-803a-8a52-d13b6fa3ffd4",
+          "_url": "https://app.notion.com/p/Agua-limin-387e6c72cc72803a8a52d13b6fa3ffd4",
+          "_created": "2026-06-22T02:55:00.000Z",
+          "_edited": "2026-06-22T02:56:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-21",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2,
+          "Name": "Agua limin"
+        },
         {
           "_id": "387e6c72-cc72-80b1-b416-c33401bcc89b",
           "_url": "https://app.notion.com/p/devolucion-de-Jairo-387e6c72cc7280b1b416c33401bcc89b",
