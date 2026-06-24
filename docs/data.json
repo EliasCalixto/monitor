@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T11:26:17.678135+00:00",
+  "generated_at": "2026-06-24T13:33:14.282300+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -10820,6 +10820,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "389e6c72-cc72-80f2-85c2-ea64600baf57",
+          "_url": "https://app.notion.com/p/sopita-389e6c72cc7280f285c2ea64600baf57",
+          "_created": "2026-06-24T12:43:00.000Z",
+          "_edited": "2026-06-24T12:44:00.000Z",
+          "Date Created": {
+            "start": "2026-06-24",
+            "end": null
+          },
+          "Price": 3.9,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "sopita",
+          "Category": null
+        },
         {
           "_id": "388e6c72-cc72-805d-b942-d22864bad275",
           "_url": "https://app.notion.com/p/Menu-provoca-388e6c72cc72805db942d22864bad275",
