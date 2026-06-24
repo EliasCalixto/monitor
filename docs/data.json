@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T01:21:08.396961+00:00",
+  "generated_at": "2026-06-24T05:12:29.486783+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,10 +28,10 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 9044.700000000003,
-          "Tot. Expenses": 269335.03499999986,
-          "Total Papa": 4733.5,
+          "Tot. Expenses": 269345.13499999983,
+          "Total Papa": 4833.5,
           "Tot. Savings": 10000,
-          "SumIngresosPapa": 13778.2,
+          "SumIngresosPapa": 13878.2,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
             "34fe6c72-cc72-818b-a14d-f54df1618747",
@@ -125,9 +125,10 @@
             "377e6c72-cc72-807b-8932-ec371fedb400",
             "37ce6c72-cc72-80ec-9d86-fbe431764989",
             "382e6c72-cc72-8031-b48a-e1378dd385e3",
-            "384e6c72-cc72-80c1-9f95-e86611032424"
+            "384e6c72-cc72-80c1-9f95-e86611032424",
+            "389e6c72-cc72-807e-a9ea-e888dd8b3fd9"
           ],
-          "Cash": -247.99499999982,
+          "Cash": -258.09499999979,
           "Tot. Income": 269087.04000000004,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -156,7 +157,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 4485.505000000177,
+          "Cash Total": 4575.405000000207,
           "Name": "Resumen"
         }
       ]
@@ -1082,6 +1083,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "389e6c72-cc72-80c2-a5b2-f0e3318e5e34",
+          "_url": "https://app.notion.com/p/pasajes-y-desayuno-389e6c72cc7280c2a5b2f0e3318e5e34",
+          "_created": "2026-06-24T03:55:00.000Z",
+          "_edited": "2026-06-24T03:55:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-06-23",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 10.1,
+          "Name": "pasajes y desayuno"
+        },
         {
           "_id": "387e6c72-cc72-802d-8b41-f9cd8ede12fc",
           "_url": "https://app.notion.com/p/50-387e6c72cc72802d8b41f9cd8ede12fc",
@@ -11952,15 +11970,6 @@
           "Type": "Manual",
           "Price": 120,
           "Name": "Dentista"
-        },
-        {
-          "_id": "350e6c72-cc72-8038-9658-f232651d5f75",
-          "_url": "https://app.notion.com/p/Home-350e6c72cc7280389658f232651d5f75",
-          "_created": "2026-04-28T02:29:00.000Z",
-          "_edited": "2026-06-06T22:31:00.000Z",
-          "Type": "Manual",
-          "Price": 270,
-          "Name": "Home"
         }
       ]
     },
@@ -11976,6 +11985,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "389e6c72-cc72-807e-a9ea-e888dd8b3fd9",
+          "_url": "https://app.notion.com/p/yuri-fisher-389e6c72cc72807ea9eae888dd8b3fd9",
+          "_created": "2026-06-24T03:54:00.000Z",
+          "_edited": "2026-06-24T03:54:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-06-21",
+            "end": null
+          },
+          "Money": 100,
+          "Total Gastos Papa": [],
+          "Name": "yuri fisher"
+        },
         {
           "_id": "388e6c72-cc72-80ef-8668-f99557834030",
           "_url": "https://app.notion.com/p/sac-388e6c72cc7280ef8668f99557834030",
