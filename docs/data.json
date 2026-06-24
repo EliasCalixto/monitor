@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T19:21:53.120851+00:00",
+  "generated_at": "2026-06-24T21:03:13.260969+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 9044.700000000003,
-          "Tot. Expenses": 269345.13499999983,
+          "Tot. Expenses": 269401.83499999985,
           "Total Papa": 4833.5,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 13878.2,
@@ -128,7 +128,7 @@
             "384e6c72-cc72-80c1-9f95-e86611032424",
             "389e6c72-cc72-807e-a9ea-e888dd8b3fd9"
           ],
-          "Cash": -258.09499999979,
+          "Cash": -314.79499999981,
           "Tot. Income": 269087.04000000004,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -157,7 +157,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 4575.405000000207,
+          "Cash Total": 4518.705000000187,
           "Name": "Resumen"
         }
       ]
@@ -1083,6 +1083,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "389e6c72-cc72-8040-9ae0-d0686007eded",
+          "_url": "https://app.notion.com/p/almuerzo-don-mamino-389e6c72cc7280409ae0d0686007eded",
+          "_created": "2026-06-24T20:41:00.000Z",
+          "_edited": "2026-06-24T20:41:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 56.7,
+          "Name": "almuerzo don mamino"
+        },
         {
           "_id": "389e6c72-cc72-80c2-a5b2-f0e3318e5e34",
           "_url": "https://app.notion.com/p/pasajes-y-desayuno-389e6c72cc7280c2a5b2f0e3318e5e34",
