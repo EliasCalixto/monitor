@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T20:26:24.875012+00:00",
+  "generated_at": "2026-06-25T21:58:04.275050+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,10 +28,10 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 9190.700000000003,
-          "Tot. Expenses": 269408.63499999983,
-          "Total Papa": 4687.5,
+          "Tot. Expenses": 270008.63499999983,
+          "Total Papa": 4887.5,
           "Tot. Savings": 10000,
-          "SumIngresosPapa": 13878.2,
+          "SumIngresosPapa": 14078.2,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
             "34fe6c72-cc72-818b-a14d-f54df1618747",
@@ -126,9 +126,10 @@
             "37ce6c72-cc72-80ec-9d86-fbe431764989",
             "382e6c72-cc72-8031-b48a-e1378dd385e3",
             "384e6c72-cc72-80c1-9f95-e86611032424",
-            "389e6c72-cc72-807e-a9ea-e888dd8b3fd9"
+            "389e6c72-cc72-807e-a9ea-e888dd8b3fd9",
+            "38ae6c72-cc72-8054-8904-dc5ec48b4d4b"
           ],
-          "Cash": 5763.54500000022,
+          "Cash": 5163.54500000022,
           "Tot. Income": 275172.18000000005,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -157,7 +158,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 10451.045000000217,
+          "Cash Total": 10051.045000000217,
           "Name": "Resumen"
         }
       ]
@@ -1098,6 +1099,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "38ae6c72-cc72-808b-9771-fb20262b6698",
+          "_url": "https://app.notion.com/p/cambio-a-dolares-38ae6c72cc72808b9771fb20262b6698",
+          "_created": "2026-06-25T21:01:00.000Z",
+          "_edited": "2026-06-25T21:02:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-06-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 500,
+          "Name": "cambio a dolares"
+        },
+        {
+          "_id": "38ae6c72-cc72-80cb-9e0e-c8f563b98808",
+          "_url": "https://app.notion.com/p/baby-shower-Yomali-38ae6c72cc7280cb9e0ec8f563b98808",
+          "_created": "2026-06-25T20:56:00.000Z",
+          "_edited": "2026-06-25T20:57:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-06-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 100,
+          "Name": "baby shower Yomali"
+        },
         {
           "_id": "38ae6c72-cc72-809a-b6f2-f7545a2bde5c",
           "_url": "https://app.notion.com/p/pasajes-y-desayuno-38ae6c72cc72809ab6f2f7545a2bde5c",
@@ -10870,6 +10905,36 @@
       },
       "rows": [
         {
+          "_id": "38ae6c72-cc72-801b-8241-d7796a6f6471",
+          "_url": "https://app.notion.com/p/ULTIMO-PAGO-USIL-38ae6c72cc72801b8241d7796a6f6471",
+          "_created": "2026-06-25T21:03:00.000Z",
+          "_edited": "2026-06-25T21:03:00.000Z",
+          "Date Created": {
+            "start": "2026-06-25",
+            "end": null
+          },
+          "Price": 522.5,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "ULTIMO PAGO USIL",
+          "Category": null
+        },
+        {
+          "_id": "38ae6c72-cc72-80bb-814a-cc4e130b3799",
+          "_url": "https://app.notion.com/p/win-38ae6c72cc7280bb814acc4e130b3799",
+          "_created": "2026-06-25T21:03:00.000Z",
+          "_edited": "2026-06-25T21:03:00.000Z",
+          "Date Created": {
+            "start": "2026-06-25",
+            "end": null
+          },
+          "Price": 109,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "win",
+          "Category": null
+        },
+        {
           "_id": "38ae6c72-cc72-809b-b4e1-c380a9e73bed",
           "_url": "https://app.notion.com/p/almuerzo-provoca-38ae6c72cc72809bb4e1c380a9e73bed",
           "_created": "2026-06-25T18:08:00.000Z",
@@ -12064,6 +12129,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "38ae6c72-cc72-8054-8904-dc5ec48b4d4b",
+          "_url": "https://app.notion.com/p/200-tacsa-38ae6c72cc7280548904dc5ec48b4d4b",
+          "_created": "2026-06-25T21:22:00.000Z",
+          "_edited": "2026-06-25T21:22:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-06-25",
+            "end": null
+          },
+          "Money": 200,
+          "Total Gastos Papa": [],
+          "Name": "200 tacsa"
+        },
         {
           "_id": "38ae6c72-cc72-8027-84be-caed4d7faf98",
           "_url": "https://app.notion.com/p/73-38ae6c72cc72802784becaed4d7faf98",
