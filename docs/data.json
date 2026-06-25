@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T01:54:06.845568+00:00",
+  "generated_at": "2026-06-25T05:53:48.260262+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 9044.700000000003,
-          "Tot. Expenses": 269401.83499999985,
+          "Tot. Expenses": 269408.63499999983,
           "Total Papa": 4833.5,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 13878.2,
@@ -128,7 +128,7 @@
             "384e6c72-cc72-80c1-9f95-e86611032424",
             "389e6c72-cc72-807e-a9ea-e888dd8b3fd9"
           ],
-          "Cash": -314.79499999981,
+          "Cash": -321.59499999979,
           "Tot. Income": 269087.04000000004,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -157,7 +157,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 4518.705000000187,
+          "Cash Total": 4511.905000000207,
           "Name": "Resumen"
         }
       ]
@@ -1083,6 +1083,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "38ae6c72-cc72-809a-b6f2-f7545a2bde5c",
+          "_url": "https://app.notion.com/p/pasajes-y-desayuno-38ae6c72cc72809ab6f2f7545a2bde5c",
+          "_created": "2026-06-25T02:38:00.000Z",
+          "_edited": "2026-06-25T02:39:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-06-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 6.8,
+          "Name": "pasajes y desayuno"
+        },
         {
           "_id": "389e6c72-cc72-8040-9ae0-d0686007eded",
           "_url": "https://app.notion.com/p/almuerzo-don-mamino-389e6c72cc7280409ae0d0686007eded",
