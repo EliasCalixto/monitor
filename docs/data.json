@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T16:07:46.297386+00:00",
+  "generated_at": "2026-06-25T18:23:12.653041+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 9044.700000000003,
+          "SumGastosPapa": 9190.700000000003,
           "Tot. Expenses": 269408.63499999983,
-          "Total Papa": 4833.5,
+          "Total Papa": 4687.5,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 13878.2,
           "Expenses": [
@@ -157,7 +157,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 4511.905000000207,
+          "Cash Total": 4365.905000000207,
           "Name": "Resumen"
         }
       ]
@@ -10855,6 +10855,21 @@
       },
       "rows": [
         {
+          "_id": "38ae6c72-cc72-809b-b4e1-c380a9e73bed",
+          "_url": "https://app.notion.com/p/almuerzo-provoca-38ae6c72cc72809bb4e1c380a9e73bed",
+          "_created": "2026-06-25T18:08:00.000Z",
+          "_edited": "2026-06-25T18:08:00.000Z",
+          "Date Created": {
+            "start": "2026-06-25",
+            "end": null
+          },
+          "Price": 12,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "almuerzo provoca",
+          "Category": null
+        },
+        {
           "_id": "389e6c72-cc72-80f2-85c2-ea64600baf57",
           "_url": "https://app.notion.com/p/sopita-389e6c72cc7280f285c2ea64600baf57",
           "_created": "2026-06-24T12:43:00.000Z",
@@ -12034,6 +12049,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "38ae6c72-cc72-8027-84be-caed4d7faf98",
+          "_url": "https://app.notion.com/p/73-38ae6c72cc72802784becaed4d7faf98",
+          "_created": "2026-06-25T18:06:00.000Z",
+          "_edited": "2026-06-25T18:06:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-25",
+            "end": null
+          },
+          "Money": 73,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "73"
+        },
+        {
+          "_id": "38ae6c72-cc72-8053-9569-fc9eea7416d8",
+          "_url": "https://app.notion.com/p/60-38ae6c72cc7280539569fc9eea7416d8",
+          "_created": "2026-06-25T17:42:00.000Z",
+          "_edited": "2026-06-25T17:42:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-25",
+            "end": null
+          },
+          "Money": 60,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "60"
+        },
+        {
+          "_id": "38ae6c72-cc72-802c-9bf9-f349d22774ce",
+          "_url": "https://app.notion.com/p/13-38ae6c72cc72802c9bf9f349d22774ce",
+          "_created": "2026-06-25T17:39:00.000Z",
+          "_edited": "2026-06-25T17:39:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-25",
+            "end": null
+          },
+          "Money": 13,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "13"
+        },
         {
           "_id": "389e6c72-cc72-807e-a9ea-e888dd8b3fd9",
           "_url": "https://app.notion.com/p/yuri-fisher-389e6c72cc72807ea9eae888dd8b3fd9",
