@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T13:26:01.371656+00:00",
+  "generated_at": "2026-06-26T15:35:20.921631+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,10 +27,10 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 9190.700000000003,
-          "Tot. Expenses": 275556.85499999986,
-          "Total Papa": 4887.5,
-          "Tot. Savings": 15585.14,
+          "SumGastosPapa": 9215.700000000003,
+          "Tot. Expenses": 275128.1249999998,
+          "Total Papa": 4862.5,
+          "Tot. Savings": 16859.88,
           "SumIngresosPapa": 14078.2,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
@@ -129,7 +129,7 @@
             "389e6c72-cc72-807e-a9ea-e888dd8b3fd9",
             "38ae6c72-cc72-8054-8904-dc5ec48b4d4b"
           ],
-          "Cash": -384.67499999981,
+          "Cash": 44.05500000025,
           "Tot. Income": 275172.18000000005,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -158,7 +158,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 4502.825000000187,
+          "Cash Total": 4906.555000000247,
           "Name": "Resumen"
         }
       ]
@@ -173,6 +173,26 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "38be6c72-cc72-8051-8334-c76c1cea86fd",
+          "_url": "https://app.notion.com/p/Luminarias-e-Interruptores-38be6c72cc7280518334c76c1cea86fd",
+          "_created": "2026-06-26T14:58:00.000Z",
+          "_edited": "2026-06-26T14:58:00.000Z",
+          "Price": 200,
+          "Status": "Urgent",
+          "Details": "",
+          "Name": "Luminarias e Interruptores"
+        },
+        {
+          "_id": "38be6c72-cc72-8026-9962-e64b1c3ca33e",
+          "_url": "https://app.notion.com/p/Puerta-38be6c72cc7280269962e64b1c3ca33e",
+          "_created": "2026-06-26T14:58:00.000Z",
+          "_edited": "2026-06-26T14:58:00.000Z",
+          "Price": 500,
+          "Status": "Urgent",
+          "Details": "",
+          "Name": "Puerta"
+        },
         {
           "_id": "37fe6c72-cc72-80e6-a8a4-cebbe09fe64c",
           "_url": "https://app.notion.com/p/Brevete-37fe6c72cc7280e6a8a4cebbe09fe64c",
@@ -1100,6 +1120,40 @@
       },
       "rows": [
         {
+          "_id": "38be6c72-cc72-8075-86af-f86d4ed69900",
+          "_url": "https://app.notion.com/p/ITF-38be6c72cc72807586aff86d4ed69900",
+          "_created": "2026-06-26T14:30:00.000Z",
+          "_edited": "2026-06-26T14:30:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-06-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 0.05,
+          "Name": "ITF"
+        },
+        {
+          "_id": "38be6c72-cc72-8043-bc8b-f3146a7c7280",
+          "_url": "https://app.notion.com/p/Diezmo-Junio-2026-38be6c72cc728043bc8bf3146a7c7280",
+          "_created": "2026-06-26T14:22:00.000Z",
+          "_edited": "2026-06-26T14:23:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-06-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1071.22,
+          "Name": "Diezmo Junio 2026"
+        },
+        {
           "_id": "38be6c72-cc72-808e-bdb7-edc749fe2421",
           "_url": "https://app.notion.com/p/nose-38be6c72cc72808ebdb7edc749fe2421",
           "_created": "2026-06-26T12:47:00.000Z",
@@ -1171,7 +1225,7 @@
           "_id": "38be6c72-cc72-80f9-b1f6-e8bb36427468",
           "_url": "https://app.notion.com/p/acumulacion-de-la-grati-Area-38be6c72cc7280f9b1f6e8bb36427468",
           "_created": "2026-06-26T12:41:00.000Z",
-          "_edited": "2026-06-26T12:42:00.000Z",
+          "_edited": "2026-06-26T14:30:00.000Z",
           "Category": "Savings",
           "Date Created": {
             "start": "2026-06-26",
@@ -1183,7 +1237,7 @@
           "Resumen": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
-          "Price": 5585.14,
+          "Price": 4085.14,
           "Name": "acumulacion de la grati Area"
         },
         {
@@ -1474,42 +1528,6 @@
           ],
           "Price": 60,
           "Name": "prestamo a rogy"
-        },
-        {
-          "_id": "384e6c72-cc72-800a-ac7a-e77b1816b3e8",
-          "_url": "https://app.notion.com/p/2774-74-amortizacion-384e6c72cc72800aac7ae77b1816b3e8",
-          "_created": "2026-06-19T15:52:00.000Z",
-          "_edited": "2026-06-19T15:53:00.000Z",
-          "Category": "Savings",
-          "Date Created": {
-            "start": "2026-06-19",
-            "end": null
-          },
-          "ExpensesSavings": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Resumen": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Price": -2774.74,
-          "Name": "2774.74 amortizacion"
-        },
-        {
-          "_id": "384e6c72-cc72-80a1-828d-c974b70f3644",
-          "_url": "https://app.notion.com/p/2774-74-amortizacion-384e6c72cc7280a1828dc974b70f3644",
-          "_created": "2026-06-19T15:52:00.000Z",
-          "_edited": "2026-06-19T15:52:00.000Z",
-          "Category": "Losses",
-          "Date Created": {
-            "start": "2026-06-19",
-            "end": null
-          },
-          "ExpensesSavings": [],
-          "Resumen": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Price": 2774.74,
-          "Name": "2774.74 amortizacion"
         },
         {
           "_id": "384e6c72-cc72-8036-b2b7-db4209d46226",
@@ -12187,9 +12205,9 @@
           "_id": "350e6c72-cc72-8069-b276-fe69c8b3bf73",
           "_url": "https://app.notion.com/p/Claude-350e6c72cc728069b276fe69c8b3bf73",
           "_created": "2026-04-28T02:31:00.000Z",
-          "_edited": "2026-05-25T16:37:00.000Z",
+          "_edited": "2026-06-26T14:46:00.000Z",
           "Type": "Auto",
-          "Price": 80.24,
+          "Price": 83.24,
           "Name": "Claude"
         },
         {
@@ -12233,6 +12251,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "38be6c72-cc72-8038-ae7e-d3ed051cf141",
+          "_url": "https://app.notion.com/p/inversiones-jj-38be6c72cc728038ae7ed3ed051cf141",
+          "_created": "2026-06-26T14:56:00.000Z",
+          "_edited": "2026-06-26T14:57:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-26",
+            "end": null
+          },
+          "Money": 25,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "inversiones jj"
+        },
         {
           "_id": "38ae6c72-cc72-8054-8904-dc5ec48b4d4b",
           "_url": "https://app.notion.com/p/200-tacsa-38ae6c72cc7280548904dc5ec48b4d4b",
