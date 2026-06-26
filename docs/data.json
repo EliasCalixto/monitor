@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T11:19:05.566411+00:00",
+  "generated_at": "2026-06-26T13:26:01.371656+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,9 +28,9 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 9190.700000000003,
-          "Tot. Expenses": 270008.63499999983,
+          "Tot. Expenses": 275556.85499999986,
           "Total Papa": 4887.5,
-          "Tot. Savings": 10000,
+          "Tot. Savings": 15585.14,
           "SumIngresosPapa": 14078.2,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
@@ -129,7 +129,7 @@
             "389e6c72-cc72-807e-a9ea-e888dd8b3fd9",
             "38ae6c72-cc72-8054-8904-dc5ec48b4d4b"
           ],
-          "Cash": 5163.54500000022,
+          "Cash": -384.67499999981,
           "Tot. Income": 275172.18000000005,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -158,7 +158,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 10051.045000000217,
+          "Cash Total": 4502.825000000187,
           "Name": "Resumen"
         }
       ]
@@ -1099,6 +1099,110 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "38be6c72-cc72-808e-bdb7-edc749fe2421",
+          "_url": "https://app.notion.com/p/nose-38be6c72cc72808ebdb7edc749fe2421",
+          "_created": "2026-06-26T12:47:00.000Z",
+          "_edited": "2026-06-26T12:47:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-06-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 9.58,
+          "Name": "nose"
+        },
+        {
+          "_id": "38be6c72-cc72-80cb-80b3-c58b166d6e26",
+          "_url": "https://app.notion.com/p/pasajes-38be6c72cc7280cb80b3c58b166d6e26",
+          "_created": "2026-06-26T12:44:00.000Z",
+          "_edited": "2026-06-26T12:45:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-06-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 6,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "38be6c72-cc72-80be-b8cf-fc0945e6051c",
+          "_url": "https://app.notion.com/p/2desayuno-38be6c72cc7280beb8cffc0945e6051c",
+          "_created": "2026-06-26T12:44:00.000Z",
+          "_edited": "2026-06-26T12:44:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-06-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2.5,
+          "Name": "2desayuno"
+        },
+        {
+          "_id": "38be6c72-cc72-80ac-a9ad-ff1f2724950d",
+          "_url": "https://app.notion.com/p/taxi-38be6c72cc7280aca9adff1f2724950d",
+          "_created": "2026-06-26T12:44:00.000Z",
+          "_edited": "2026-06-26T12:44:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-06-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 5,
+          "Name": "taxi"
+        },
+        {
+          "_id": "38be6c72-cc72-80f9-b1f6-e8bb36427468",
+          "_url": "https://app.notion.com/p/acumulacion-de-la-grati-Area-38be6c72cc7280f9b1f6e8bb36427468",
+          "_created": "2026-06-26T12:41:00.000Z",
+          "_edited": "2026-06-26T12:42:00.000Z",
+          "Category": "Savings",
+          "Date Created": {
+            "start": "2026-06-26",
+            "end": null
+          },
+          "ExpensesSavings": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 5585.14,
+          "Name": "acumulacion de la grati Area"
+        },
+        {
+          "_id": "38be6c72-cc72-805d-af14-e4c12c943099",
+          "_url": "https://app.notion.com/p/prestamo-a-rogy-me-devolvio-38be6c72cc72805daf14e4c12c943099",
+          "_created": "2026-06-26T12:40:00.000Z",
+          "_edited": "2026-06-26T12:40:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-06-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -60,
+          "Name": "prestamo a rogy me devolvio"
+        },
         {
           "_id": "38ae6c72-cc72-808b-9771-fb20262b6698",
           "_url": "https://app.notion.com/p/cambio-a-dolares-38ae6c72cc72808b9771fb20262b6698",
