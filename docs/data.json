@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T15:35:20.921631+00:00",
+  "generated_at": "2026-06-26T17:20:42.084735+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 9215.700000000003,
-          "Tot. Expenses": 275128.1249999998,
-          "Total Papa": 4862.5,
+          "SumGastosPapa": 9276.200000000003,
+          "Tot. Expenses": 275078.1249999998,
+          "Total Papa": 4802,
           "Tot. Savings": 16859.88,
           "SumIngresosPapa": 14078.2,
           "Expenses": [
@@ -129,7 +129,7 @@
             "389e6c72-cc72-807e-a9ea-e888dd8b3fd9",
             "38ae6c72-cc72-8054-8904-dc5ec48b4d4b"
           ],
-          "Cash": 44.05500000025,
+          "Cash": 94.05500000025,
           "Tot. Income": 275172.18000000005,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -158,7 +158,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 4906.555000000247,
+          "Cash Total": 4896.055000000247,
           "Name": "Resumen"
         }
       ]
@@ -1119,6 +1119,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "38be6c72-cc72-80d5-a325-ffca8e3c6c05",
+          "_url": "https://app.notion.com/p/Rodro-pago-38be6c72cc7280d5a325ffca8e3c6c05",
+          "_created": "2026-06-26T17:13:00.000Z",
+          "_edited": "2026-06-26T17:13:00.000Z",
+          "Category": null,
+          "Date Created": {
+            "start": "2026-06-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -50,
+          "Name": "Rodro pago"
+        },
         {
           "_id": "38be6c72-cc72-8075-86af-f86d4ed69900",
           "_url": "https://app.notion.com/p/ITF-38be6c72cc72807586aff86d4ed69900",
@@ -12251,6 +12268,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "38be6c72-cc72-8016-9ad6-d4a458901f7f",
+          "_url": "https://app.notion.com/p/38-38be6c72cc7280169ad6d4a458901f7f",
+          "_created": "2026-06-26T16:46:00.000Z",
+          "_edited": "2026-06-26T16:46:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-26",
+            "end": null
+          },
+          "Money": 38,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "38"
+        },
+        {
+          "_id": "38be6c72-cc72-8034-9b18-fa4af5a61ead",
+          "_url": "https://app.notion.com/p/mama-38be6c72cc7280349b18fa4af5a61ead",
+          "_created": "2026-06-26T16:37:00.000Z",
+          "_edited": "2026-06-26T16:37:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-26",
+            "end": null
+          },
+          "Money": 22.5,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "mama"
+        },
         {
           "_id": "38be6c72-cc72-8038-ae7e-d3ed051cf141",
           "_url": "https://app.notion.com/p/inversiones-jj-38be6c72cc728038ae7ed3ed051cf141",
