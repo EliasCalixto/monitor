@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T00:18:43.418434+00:00",
+  "generated_at": "2026-06-27T04:30:27.902962+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 9301.200000000003,
-          "Tot. Expenses": 275078.1249999998,
+          "Tot. Expenses": 275081.6249999998,
           "Total Papa": 4777,
           "Tot. Savings": 16859.88,
           "SumIngresosPapa": 14078.2,
@@ -129,7 +129,7 @@
             "389e6c72-cc72-807e-a9ea-e888dd8b3fd9",
             "38ae6c72-cc72-8054-8904-dc5ec48b4d4b"
           ],
-          "Cash": 94.05500000025,
+          "Cash": 90.55500000025,
           "Tot. Income": 275172.18000000005,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -158,7 +158,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 4871.055000000247,
+          "Cash Total": 4867.555000000247,
           "Name": "Resumen"
         }
       ]
@@ -1119,6 +1119,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "38ce6c72-cc72-8047-a2d2-f64fdd1418ed",
+          "_url": "https://app.notion.com/p/pasajes-38ce6c72cc728047a2d2f64fdd1418ed",
+          "_created": "2026-06-27T00:54:00.000Z",
+          "_edited": "2026-06-27T00:54:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-06-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3.5,
+          "Name": "pasajes"
+        },
         {
           "_id": "38be6c72-cc72-80d6-9404-dbb382345c5b",
           "_url": "https://app.notion.com/p/cambio-a-dolares-que-use-para-pagar-tarjeta-38be6c72cc7280d69404dbb382345c5b",
@@ -11077,6 +11094,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "38ce6c72-cc72-800f-a650-f00d3d7599ca",
+          "_url": "https://app.notion.com/p/correa-acero-apple-watch-38ce6c72cc72800fa650f00d3d7599ca",
+          "_created": "2026-06-27T04:23:00.000Z",
+          "_edited": "2026-06-27T04:23:00.000Z",
+          "Date Created": {
+            "start": "2026-06-26",
+            "end": null
+          },
+          "Price": 57.85,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "correa acero apple watch",
+          "Category": null
+        },
         {
           "_id": "38ae6c72-cc72-801b-8241-d7796a6f6471",
           "_url": "https://app.notion.com/p/ULTIMO-PAGO-USIL-38ae6c72cc72801b8241d7796a6f6471",
