@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T18:57:26.305621+00:00",
+  "generated_at": "2026-06-28T20:07:45.338493+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 9301.200000000003,
-          "Tot. Expenses": 275081.6249999998,
+          "Tot. Expenses": 275082.6249999998,
           "Total Papa": 5077,
           "Tot. Savings": 16859.88,
           "SumIngresosPapa": 14378.2,
@@ -130,7 +130,7 @@
             "38ae6c72-cc72-8054-8904-dc5ec48b4d4b",
             "38de6c72-cc72-8044-859f-c2e54b51146c"
           ],
-          "Cash": 90.55500000025,
+          "Cash": 89.55500000025,
           "Tot. Income": 275172.18000000005,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -159,7 +159,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 5167.555000000247,
+          "Cash Total": 5166.555000000247,
           "Name": "Resumen"
         }
       ]
@@ -1120,6 +1120,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "38de6c72-cc72-808a-9b0a-ef29eb9058c5",
+          "_url": "https://app.notion.com/p/Bombom-38de6c72cc72808a9b0aef29eb9058c5",
+          "_created": "2026-06-28T19:22:00.000Z",
+          "_edited": "2026-06-28T19:22:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-28",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1,
+          "Name": "Bombom"
+        },
         {
           "_id": "38ce6c72-cc72-8047-a2d2-f64fdd1418ed",
           "_url": "https://app.notion.com/p/pasajes-38ce6c72cc728047a2d2f64fdd1418ed",
