@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T14:56:28.594190+00:00",
+  "generated_at": "2026-06-29T17:27:04.561958+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 9301.200000000003,
-          "Tot. Expenses": 275127.27499999985,
+          "Tot. Expenses": 275142.16499999986,
           "Total Papa": 5077,
           "Tot. Savings": 16859.88,
           "SumIngresosPapa": 14378.2,
@@ -130,7 +130,7 @@
             "38ae6c72-cc72-8054-8904-dc5ec48b4d4b",
             "38de6c72-cc72-8044-859f-c2e54b51146c"
           ],
-          "Cash": 44.9050000002,
+          "Cash": 30.01500000019,
           "Tot. Income": 275172.18000000005,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -159,7 +159,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 5121.905000000197,
+          "Cash Total": 5107.015000000187,
           "Name": "Resumen"
         }
       ]
@@ -1120,6 +1120,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "38ee6c72-cc72-80c6-a3cb-c96fac1d7888",
+          "_url": "https://app.notion.com/p/pechuga-de-pollo-38ee6c72cc7280c6a3cbc96fac1d7888",
+          "_created": "2026-06-29T17:23:00.000Z",
+          "_edited": "2026-06-29T17:24:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 8.89,
+          "Name": "pechuga de pollo"
+        },
+        {
+          "_id": "38ee6c72-cc72-8040-beae-fc3c88fc1a37",
+          "_url": "https://app.notion.com/p/escobilla-y-betun-38ee6c72cc728040beaefc3c88fc1a37",
+          "_created": "2026-06-29T17:23:00.000Z",
+          "_edited": "2026-06-29T17:23:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-06-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 6,
+          "Name": "escobilla y betun"
+        },
         {
           "_id": "38ee6c72-cc72-8006-b1b5-fe139a822e29",
           "_url": "https://app.notion.com/p/Gastos-salida-con-amigos-38ee6c72cc728006b1b5fe139a822e29",
