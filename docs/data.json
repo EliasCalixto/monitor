@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T23:44:00.543184+00:00",
+  "generated_at": "2026-06-29T01:54:20.610644+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -11112,6 +11112,36 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "38ee6c72-cc72-8160-8026-d799d1d4f551",
+          "_url": "https://app.notion.com/p/Zapatillas-negras-38ee6c72cc7281608026d799d1d4f551",
+          "_created": "2026-06-29T01:12:00.000Z",
+          "_edited": "2026-06-29T01:12:00.000Z",
+          "Date Created": {
+            "start": "2026-06-28",
+            "end": null
+          },
+          "Price": 139.2,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Zapatillas negras",
+          "Category": null
+        },
+        {
+          "_id": "38ee6c72-cc72-80c0-9165-cfb892ba0e2d",
+          "_url": "https://app.notion.com/p/Ropita-38ee6c72cc7280c09165cfb892ba0e2d",
+          "_created": "2026-06-29T00:08:00.000Z",
+          "_edited": "2026-06-29T00:08:00.000Z",
+          "Date Created": {
+            "start": "2026-06-28",
+            "end": null
+          },
+          "Price": 470.59,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Ropita",
+          "Category": null
+        },
         {
           "_id": "38ce6c72-cc72-800f-a650-f00d3d7599ca",
           "_url": "https://app.notion.com/p/correa-acero-apple-watch-38ce6c72cc72800fa650f00d3d7599ca",
