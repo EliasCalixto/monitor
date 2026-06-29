@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T01:54:20.610644+00:00",
+  "generated_at": "2026-06-29T06:24:38.145372+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 9301.200000000003,
-          "Tot. Expenses": 275082.6249999998,
+          "Tot. Expenses": 275127.27499999985,
           "Total Papa": 5077,
           "Tot. Savings": 16859.88,
           "SumIngresosPapa": 14378.2,
@@ -130,7 +130,7 @@
             "38ae6c72-cc72-8054-8904-dc5ec48b4d4b",
             "38de6c72-cc72-8044-859f-c2e54b51146c"
           ],
-          "Cash": 89.55500000025,
+          "Cash": 44.9050000002,
           "Tot. Income": 275172.18000000005,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -159,7 +159,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 5166.555000000247,
+          "Cash Total": 5121.905000000197,
           "Name": "Resumen"
         }
       ]
@@ -1120,6 +1120,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "38ee6c72-cc72-8006-b1b5-fe139a822e29",
+          "_url": "https://app.notion.com/p/Gastos-salida-con-amigos-38ee6c72cc728006b1b5fe139a822e29",
+          "_created": "2026-06-29T02:10:00.000Z",
+          "_edited": "2026-06-29T02:11:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-28",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 38.15,
+          "Name": "Gastos salida con amigos"
+        },
+        {
+          "_id": "38ee6c72-cc72-802d-8d59-efd5d612580c",
+          "_url": "https://app.notion.com/p/Agua-38ee6c72cc72802d8d59efd5d612580c",
+          "_created": "2026-06-29T02:10:00.000Z",
+          "_edited": "2026-06-29T02:10:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-06-28",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2.5,
+          "Name": "Agua"
+        },
+        {
+          "_id": "38ee6c72-cc72-80c3-84f1-d3eb1c2113d8",
+          "_url": "https://app.notion.com/p/Pasajes-38ee6c72cc7280c384f1d3eb1c2113d8",
+          "_created": "2026-06-29T02:09:00.000Z",
+          "_edited": "2026-06-29T02:09:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-06-28",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 4,
+          "Name": "Pasajes"
+        },
         {
           "_id": "38de6c72-cc72-808a-9b0a-ef29eb9058c5",
           "_url": "https://app.notion.com/p/Bombom-38de6c72cc72808a9b0aef29eb9058c5",
@@ -11112,6 +11163,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "38ee6c72-cc72-80e4-bf51-d56a21943281",
+          "_url": "https://app.notion.com/p/Heladito-38ee6c72cc7280e4bf51d56a21943281",
+          "_created": "2026-06-29T02:08:00.000Z",
+          "_edited": "2026-06-29T02:08:00.000Z",
+          "Date Created": {
+            "start": "2026-06-28",
+            "end": null
+          },
+          "Price": 14,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Heladito",
+          "Category": null
+        },
         {
           "_id": "38ee6c72-cc72-8160-8026-d799d1d4f551",
           "_url": "https://app.notion.com/p/Zapatillas-negras-38ee6c72cc7281608026d799d1d4f551",
