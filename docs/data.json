@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T19:19:32.190638+00:00",
+  "generated_at": "2026-06-29T21:00:46.599331+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 9301.200000000003,
+          "SumGastosPapa": 9348.200000000003,
           "Tot. Expenses": 275142.16499999986,
-          "Total Papa": 5077,
+          "Total Papa": 5030,
           "Tot. Savings": 16859.88,
           "SumIngresosPapa": 14378.2,
           "Expenses": [
@@ -159,7 +159,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 5107.015000000187,
+          "Cash Total": 5060.015000000187,
           "Name": "Resumen"
         }
       ]
@@ -12397,15 +12397,6 @@
       },
       "rows": [
         {
-          "_id": "37ee6c72-cc72-80e4-a104-f71fa3994047",
-          "_url": "https://app.notion.com/p/Netflix-37ee6c72cc7280e4a104f71fa3994047",
-          "_created": "2026-06-13T18:16:00.000Z",
-          "_edited": "2026-06-13T18:19:00.000Z",
-          "Type": "Manual",
-          "Price": 15,
-          "Name": "Netflix"
-        },
-        {
           "_id": "378e6c72-cc72-8076-a553-fb72b43ea322",
           "_url": "https://app.notion.com/p/Dota-378e6c72cc728076a553fb72b43ea322",
           "_created": "2026-06-07T23:36:00.000Z",
@@ -12483,10 +12474,27 @@
       },
       "rows": [
         {
+          "_id": "38ee6c72-cc72-8022-af8a-e6c316ba4469",
+          "_url": "https://app.notion.com/p/chifa-38ee6c72cc728022af8ae6c316ba4469",
+          "_created": "2026-06-29T19:45:00.000Z",
+          "_edited": "2026-06-29T19:46:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-29",
+            "end": null
+          },
+          "Money": 47,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "chifa"
+        },
+        {
           "_id": "38de6c72-cc72-8044-859f-c2e54b51146c",
           "_url": "https://app.notion.com/p/Tacsa-38de6c72cc728044859fc2e54b51146c",
           "_created": "2026-06-28T16:11:00.000Z",
-          "_edited": "2026-06-28T16:11:00.000Z",
+          "_edited": "2026-06-29T19:46:00.000Z",
           "Total Ingresos Papa": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
