@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T11:36:22.513009+00:00",
+  "generated_at": "2026-06-30T13:28:00.616321+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 10378.250000000002,
-          "Tot. Expenses": 275142.16499999986,
+          "Tot. Expenses": 275153.66499999986,
           "Total Papa": 3999.95,
           "Tot. Savings": 16859.88,
           "SumIngresosPapa": 14378.2,
@@ -130,7 +130,7 @@
             "38ae6c72-cc72-8054-8904-dc5ec48b4d4b",
             "38de6c72-cc72-8044-859f-c2e54b51146c"
           ],
-          "Cash": 30.01500000019,
+          "Cash": 18.51500000019,
           "Tot. Income": 275172.18000000005,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -159,7 +159,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 4029.965000000188,
+          "Cash Total": 4018.465000000188,
           "Name": "Resumen"
         }
       ]
@@ -1120,6 +1120,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "38fe6c72-cc72-8031-88bf-d1996bc9badd",
+          "_url": "https://app.notion.com/p/pasaje-38fe6c72cc72803188bfd1996bc9badd",
+          "_created": "2026-06-30T13:12:00.000Z",
+          "_edited": "2026-06-30T13:12:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-06-30",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2,
+          "Name": "pasaje"
+        },
+        {
+          "_id": "38fe6c72-cc72-800c-8d1e-cf4a1ee4d508",
+          "_url": "https://app.notion.com/p/desayuno-38fe6c72cc72800c8d1ecf4a1ee4d508",
+          "_created": "2026-06-30T13:12:00.000Z",
+          "_edited": "2026-06-30T13:12:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-06-30",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3.5,
+          "Name": "desayuno"
+        },
+        {
+          "_id": "38fe6c72-cc72-80ad-a13a-caa08d0d0786",
+          "_url": "https://app.notion.com/p/taxi-38fe6c72cc7280ada13acaa08d0d0786",
+          "_created": "2026-06-30T13:12:00.000Z",
+          "_edited": "2026-06-30T13:12:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-06-30",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 6,
+          "Name": "taxi"
+        },
         {
           "_id": "38ee6c72-cc72-80c6-a3cb-c96fac1d7888",
           "_url": "https://app.notion.com/p/pechuga-de-pollo-38ee6c72cc7280c6a3cbc96fac1d7888",
