@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T18:19:37.637143+00:00",
+  "generated_at": "2026-07-01T20:19:55.658612+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 12385.200000000003,
-          "Tot. Expenses": 277892.0749999999,
-          "Total Papa": 1993,
+          "SumGastosPapa": 12781.200000000003,
+          "Tot. Expenses": 277855.1749999999,
+          "Total Papa": 1597,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 14378.2,
           "Expenses": [
@@ -130,7 +130,7 @@
             "38ae6c72-cc72-8054-8904-dc5ec48b4d4b",
             "38de6c72-cc72-8044-859f-c2e54b51146c"
           ],
-          "Cash": -72.00499999983,
+          "Cash": -35.10499999983,
           "Tot. Income": 277820.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -159,7 +159,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 1920.995000000167,
+          "Cash Total": 1561.895000000167,
           "Name": "Resumen"
         }
       ]
@@ -1135,6 +1135,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "390e6c72-cc72-8083-8804-fb84733a4d97",
+          "_url": "https://app.notion.com/p/fruta-390e6c72cc7280838804fb84733a4d97",
+          "_created": "2026-07-01T18:42:00.000Z",
+          "_edited": "2026-07-01T18:42:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 7,
+          "Name": "fruta"
+        },
+        {
+          "_id": "390e6c72-cc72-80d3-87fb-f63dd7e884ba",
+          "_url": "https://app.notion.com/p/med-buguer-de-lance-390e6c72cc7280d387fbf63dd7e884ba",
+          "_created": "2026-07-01T18:41:00.000Z",
+          "_edited": "2026-07-01T18:42:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -43.9,
+          "Name": "med buguer de lance"
+        },
         {
           "_id": "390e6c72-cc72-806c-b294-e7ff6d155551",
           "_url": "https://app.notion.com/p/pasajes-390e6c72cc72806cb294e7ff6d155551",
@@ -11383,6 +11417,21 @@
       },
       "rows": [
         {
+          "_id": "390e6c72-cc72-8095-9ead-dd712290c158",
+          "_url": "https://app.notion.com/p/mad-burguer-390e6c72cc7280959eaddd712290c158",
+          "_created": "2026-07-01T18:41:00.000Z",
+          "_edited": "2026-07-01T18:41:00.000Z",
+          "Date Created": {
+            "start": "2026-07-01",
+            "end": null
+          },
+          "Price": 79.8,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "mad burguer",
+          "Category": null
+        },
+        {
           "_id": "38ee6c72-cc72-80e4-bf51-d56a21943281",
           "_url": "https://app.notion.com/p/Heladito-38ee6c72cc7280e4bf51d56a21943281",
           "_created": "2026-06-29T02:08:00.000Z",
@@ -12658,6 +12707,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "390e6c72-cc72-802b-9e07-cf353091475d",
+          "_url": "https://app.notion.com/p/Jesus-Servicio-Junio-7-390e6c72cc72802b9e07cf353091475d",
+          "_created": "2026-07-01T18:37:00.000Z",
+          "_edited": "2026-07-01T18:37:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-07-01",
+            "end": null
+          },
+          "Money": 396,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Jesus Servicio Junio 7"
+        },
         {
           "_id": "390e6c72-cc72-8194-8d7e-d12039a967cc",
           "_url": "https://app.notion.com/p/Recarga-para-mam-390e6c72cc7281948d7ed12039a967cc",
