@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T00:18:25.286232+00:00",
+  "generated_at": "2026-07-01T04:58:59.339294+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,10 +27,10 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 10378.250000000002,
-          "Tot. Expenses": 275229.95499999984,
-          "Total Papa": 3999.95,
-          "Tot. Savings": 16859.88,
+          "SumGastosPapa": 12385.200000000003,
+          "Tot. Expenses": 277882.84499999986,
+          "Total Papa": 1993,
+          "Tot. Savings": 10000,
           "SumIngresosPapa": 14378.2,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
@@ -130,7 +130,7 @@
             "38ae6c72-cc72-8054-8904-dc5ec48b4d4b",
             "38de6c72-cc72-8044-859f-c2e54b51146c"
           ],
-          "Cash": 2590.11500000023,
+          "Cash": -62.77499999979,
           "Tot. Income": 277820.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -159,7 +159,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 6590.065000000228,
+          "Cash Total": 1930.225000000207,
           "Name": "Resumen"
         }
       ]
@@ -1136,10 +1136,80 @@
       },
       "rows": [
         {
+          "_id": "390e6c72-cc72-80c8-8c7a-e6d9199b4157",
+          "_url": "https://app.notion.com/p/no-idea-390e6c72cc7280c88c7ae6d9199b4157",
+          "_created": "2026-07-01T00:27:00.000Z",
+          "_edited": "2026-07-01T00:27:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-06-30",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 12.77,
+          "Name": "no idea"
+        },
+        {
+          "_id": "390e6c72-cc72-8075-9e45-cfb53c0b546f",
+          "_url": "https://app.notion.com/p/Dinero-en-BBVA-390e6c72cc7280759e45cfb53c0b546f",
+          "_created": "2026-07-01T00:25:00.000Z",
+          "_edited": "2026-07-01T00:25:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-06-30",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 500,
+          "Name": "Dinero en BBVA"
+        },
+        {
+          "_id": "390e6c72-cc72-8009-bf28-fd725521df30",
+          "_url": "https://app.notion.com/p/se-quita-de-ahorro-para-amortizar-390e6c72cc728009bf28fd725521df30",
+          "_created": "2026-07-01T00:23:00.000Z",
+          "_edited": "2026-07-01T00:23:00.000Z",
+          "Category": "Savings",
+          "Date Created": {
+            "start": "2026-06-30",
+            "end": null
+          },
+          "ExpensesSavings": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -2774.74,
+          "Name": "se quita de ahorro para amortizar"
+        },
+        {
+          "_id": "390e6c72-cc72-807c-b4ab-f0b4073af0e7",
+          "_url": "https://app.notion.com/p/AMORTIZACION-AL-BBVA-390e6c72cc72807cb4abf0b4073af0e7",
+          "_created": "2026-07-01T00:22:00.000Z",
+          "_edited": "2026-07-01T00:22:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-06-30",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 9000,
+          "Name": "AMORTIZACION AL BBVA"
+        },
+        {
           "_id": "38fe6c72-cc72-807c-95fc-e38a795070e1",
-          "_url": "https://app.notion.com/p/fixed-38fe6c72cc72807c95fce38a795070e1",
+          "_url": "https://app.notion.com/p/diezmo-38fe6c72cc72807c95fce38a795070e1",
           "_created": "2026-06-30T19:20:00.000Z",
-          "_edited": "2026-06-30T19:20:00.000Z",
+          "_edited": "2026-07-01T00:26:00.000Z",
           "Category": "Fixed",
           "Date Created": {
             "start": "2026-06-30",
@@ -1150,7 +1220,7 @@
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
           "Price": 64.79,
-          "Name": "fixed"
+          "Name": "diezmo"
         },
         {
           "_id": "38fe6c72-cc72-80de-ad02-f5d5086d4d5b",
@@ -1491,25 +1561,6 @@
           ],
           "Price": 5,
           "Name": "taxi"
-        },
-        {
-          "_id": "38be6c72-cc72-80f9-b1f6-e8bb36427468",
-          "_url": "https://app.notion.com/p/acumulacion-de-la-grati-Area-38be6c72cc7280f9b1f6e8bb36427468",
-          "_created": "2026-06-26T12:41:00.000Z",
-          "_edited": "2026-06-26T14:30:00.000Z",
-          "Category": "Savings",
-          "Date Created": {
-            "start": "2026-06-26",
-            "end": null
-          },
-          "ExpensesSavings": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Resumen": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Price": 4085.14,
-          "Name": "acumulacion de la grati Area"
         },
         {
           "_id": "38be6c72-cc72-805d-af14-e4c12c943099",
@@ -12574,17 +12625,34 @@
       },
       "rows": [
         {
+          "_id": "390e6c72-cc72-8194-8d7e-d12039a967cc",
+          "_url": "https://app.notion.com/p/Recarga-para-mam-390e6c72cc7281948d7ed12039a967cc",
+          "_created": "2026-07-01T04:00:00.000Z",
+          "_edited": "2026-07-01T04:00:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-06-30",
+            "end": null
+          },
+          "Money": 7,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Recarga para mamá"
+        },
+        {
           "_id": "38ee6c72-cc72-8042-98fe-db20684fd9da",
           "_url": "https://app.notion.com/p/Retiro-38ee6c72cc72804298fedb20684fd9da",
           "_created": "2026-06-29T23:13:00.000Z",
-          "_edited": "2026-06-29T23:13:00.000Z",
+          "_edited": "2026-07-01T00:24:00.000Z",
           "Total Ingresos Papa": [],
           "Type": "Gasto",
           "Date Created": {
             "start": "2026-06-29",
             "end": null
           },
-          "Money": 1000.05,
+          "Money": 3000,
           "Total Gastos Papa": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
