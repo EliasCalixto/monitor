@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T11:47:52.417224+00:00",
+  "generated_at": "2026-07-01T13:58:26.311207+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 12385.200000000003,
-          "Tot. Expenses": 277882.84499999986,
+          "Tot. Expenses": 277892.0749999999,
           "Total Papa": 1993,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 14378.2,
@@ -130,7 +130,7 @@
             "38ae6c72-cc72-8054-8904-dc5ec48b4d4b",
             "38de6c72-cc72-8044-859f-c2e54b51146c"
           ],
-          "Cash": -62.77499999979,
+          "Cash": -72.00499999983,
           "Tot. Income": 277820.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -159,7 +159,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 1930.225000000207,
+          "Cash Total": 1920.995000000167,
           "Name": "Resumen"
         }
       ]
@@ -1135,6 +1135,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "390e6c72-cc72-806c-b294-e7ff6d155551",
+          "_url": "https://app.notion.com/p/pasajes-390e6c72cc72806cb294e7ff6d155551",
+          "_created": "2026-07-01T13:00:00.000Z",
+          "_edited": "2026-07-01T13:00:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 4.53,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "390e6c72-cc72-80aa-8769-fcfcc6672150",
+          "_url": "https://app.notion.com/p/caramandungas-390e6c72cc7280aa8769fcfcc6672150",
+          "_created": "2026-07-01T12:59:00.000Z",
+          "_edited": "2026-07-01T12:59:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 4.7,
+          "Name": "caramandungas"
+        },
         {
           "_id": "390e6c72-cc72-80c8-8c7a-e6d9199b4157",
           "_url": "https://app.notion.com/p/no-idea-390e6c72cc7280c88c7ae6d9199b4157",
