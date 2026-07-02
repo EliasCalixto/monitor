@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T19:46:45.027849+00:00",
+  "generated_at": "2026-07-02T20:47:36.826568+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 12822.200000000003,
-          "Tot. Expenses": 277896.1749999999,
+          "Tot. Expenses": 277397.40499999985,
           "Total Papa": 1556,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 14378.2,
@@ -130,7 +130,7 @@
             "38ae6c72-cc72-8054-8904-dc5ec48b4d4b",
             "38de6c72-cc72-8044-859f-c2e54b51146c"
           ],
-          "Cash": -76.10499999983,
+          "Cash": 422.66500000022,
           "Tot. Income": 277820.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -159,7 +159,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 1479.895000000167,
+          "Cash Total": 1978.665000000217,
           "Name": "Resumen"
         }
       ]
@@ -1136,6 +1136,23 @@
       },
       "rows": [
         {
+          "_id": "391e6c72-cc72-80d1-9a12-f99bae2083ea",
+          "_url": "https://app.notion.com/p/Ass-391e6c72cc7280d19a12f99bae2083ea",
+          "_created": "2026-07-02T20:20:00.000Z",
+          "_edited": "2026-07-02T20:21:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-07-02",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1.23,
+          "Name": "Ass"
+        },
+        {
           "_id": "391e6c72-cc72-801e-9135-f83a2a46f7b5",
           "_url": "https://app.notion.com/p/almuerzo-en-mira-mar-391e6c72cc72801e9135f83a2a46f7b5",
           "_created": "2026-07-02T18:43:00.000Z",
@@ -1236,23 +1253,6 @@
           ],
           "Price": 12.77,
           "Name": "no idea"
-        },
-        {
-          "_id": "390e6c72-cc72-8075-9e45-cfb53c0b546f",
-          "_url": "https://app.notion.com/p/Dinero-en-BBVA-390e6c72cc7280759e45cfb53c0b546f",
-          "_created": "2026-07-01T00:25:00.000Z",
-          "_edited": "2026-07-01T00:25:00.000Z",
-          "Category": "Cashout",
-          "Date Created": {
-            "start": "2026-06-30",
-            "end": null
-          },
-          "ExpensesSavings": [],
-          "Resumen": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Price": 500,
-          "Name": "Dinero en BBVA"
         },
         {
           "_id": "390e6c72-cc72-8009-bf28-fd725521df30",
