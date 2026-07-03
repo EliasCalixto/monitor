@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T16:49:32.198644+00:00",
+  "generated_at": "2026-07-03T18:05:35.393422+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -11467,6 +11467,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "392e6c72-cc72-809e-a6a1-dd5a095cdd44",
+          "_url": "https://app.notion.com/p/almuerzo-provoca-392e6c72cc72809ea6a1dd5a095cdd44",
+          "_created": "2026-07-03T17:40:00.000Z",
+          "_edited": "2026-07-03T17:40:00.000Z",
+          "Date Created": {
+            "start": "2026-07-03",
+            "end": null
+          },
+          "Price": 12,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "almuerzo provoca",
+          "Category": null
+        },
         {
           "_id": "392e6c72-cc72-8172-b8ba-fe2c4ae47341",
           "_url": "https://app.notion.com/p/Papitas-Inka-Chips-392e6c72cc728172b8bafe2c4ae47341",
