@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T13:06:18.044380+00:00",
+  "generated_at": "2026-07-03T15:22:39.718062+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 12822.200000000003,
-          "Tot. Expenses": 277397.40499999985,
+          "Tot. Expenses": 277409.40499999985,
           "Total Papa": 1556,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 14378.2,
@@ -130,7 +130,7 @@
             "38ae6c72-cc72-8054-8904-dc5ec48b4d4b",
             "38de6c72-cc72-8044-859f-c2e54b51146c"
           ],
-          "Cash": 422.66500000022,
+          "Cash": 410.66500000022,
           "Tot. Income": 277820.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -159,7 +159,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 1978.665000000217,
+          "Cash Total": 1966.665000000217,
           "Name": "Resumen"
         }
       ]
@@ -1136,10 +1136,44 @@
       },
       "rows": [
         {
+          "_id": "392e6c72-cc72-8011-862d-e92a7e883df6",
+          "_url": "https://app.notion.com/p/pasajes-a-work-392e6c72cc728011862de92a7e883df6",
+          "_created": "2026-07-03T14:34:00.000Z",
+          "_edited": "2026-07-03T14:34:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-03",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2,
+          "Name": "pasajes a work"
+        },
+        {
+          "_id": "392e6c72-cc72-808e-b30b-f6eb42c07b9b",
+          "_url": "https://app.notion.com/p/taxi-392e6c72cc72808eb30bf6eb42c07b9b",
+          "_created": "2026-07-03T14:34:00.000Z",
+          "_edited": "2026-07-03T14:34:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-07-03",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 10,
+          "Name": "taxi"
+        },
+        {
           "_id": "391e6c72-cc72-80d1-9a12-f99bae2083ea",
-          "_url": "https://app.notion.com/p/Ass-391e6c72cc7280d19a12f99bae2083ea",
+          "_url": "https://app.notion.com/p/asdasd-391e6c72cc7280d19a12f99bae2083ea",
           "_created": "2026-07-02T20:20:00.000Z",
-          "_edited": "2026-07-02T20:21:00.000Z",
+          "_edited": "2026-07-03T14:34:00.000Z",
           "Category": "Losses",
           "Date Created": {
             "start": "2026-07-02",
@@ -1150,7 +1184,7 @@
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
           "Price": 1.23,
-          "Name": "Ass"
+          "Name": "asdasd"
         },
         {
           "_id": "391e6c72-cc72-801e-9135-f83a2a46f7b5",
@@ -11433,6 +11467,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "392e6c72-cc72-8172-b8ba-fe2c4ae47341",
+          "_url": "https://app.notion.com/p/Papitas-Inka-Chips-392e6c72cc728172b8bafe2c4ae47341",
+          "_created": "2026-07-03T14:33:00.000Z",
+          "_edited": "2026-07-03T14:33:00.000Z",
+          "Date Created": {
+            "start": "2026-07-03",
+            "end": null
+          },
+          "Price": 2.5,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Papitas Inka Chips",
+          "Category": null
+        },
         {
           "_id": "390e6c72-cc72-8095-9ead-dd712290c158",
           "_url": "https://app.notion.com/p/mad-burguer-390e6c72cc7280959eaddd712290c158",
