@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T01:14:06.268862+00:00",
+  "generated_at": "2026-07-04T04:50:25.407339+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 12822.200000000003,
-          "Tot. Expenses": 277409.40499999985,
-          "Total Papa": 1556,
+          "SumGastosPapa": 12829.200000000003,
+          "Tot. Expenses": 277413.40499999985,
+          "Total Papa": 1549,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 14378.2,
           "Expenses": [
@@ -130,7 +130,7 @@
             "38ae6c72-cc72-8054-8904-dc5ec48b4d4b",
             "38de6c72-cc72-8044-859f-c2e54b51146c"
           ],
-          "Cash": 410.66500000022,
+          "Cash": 406.66500000022,
           "Tot. Income": 277820.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -159,7 +159,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 1966.665000000217,
+          "Cash Total": 1955.665000000217,
           "Name": "Resumen"
         }
       ]
@@ -1135,6 +1135,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "393e6c72-cc72-80e8-98dd-d399b62ba998",
+          "_url": "https://app.notion.com/p/pasajes-y-comida-393e6c72cc7280e898ddd399b62ba998",
+          "_created": "2026-07-04T02:41:00.000Z",
+          "_edited": "2026-07-04T02:41:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-03",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 4,
+          "Name": "pasajes y comida"
+        },
         {
           "_id": "392e6c72-cc72-8011-862d-e92a7e883df6",
           "_url": "https://app.notion.com/p/pasajes-a-work-392e6c72cc728011862de92a7e883df6",
@@ -11468,6 +11485,21 @@
       },
       "rows": [
         {
+          "_id": "393e6c72-cc72-80d2-b9b2-f5ffa09490b4",
+          "_url": "https://app.notion.com/p/aoe-para-masato-393e6c72cc7280d2b9b2f5ffa09490b4",
+          "_created": "2026-07-04T02:40:00.000Z",
+          "_edited": "2026-07-04T02:41:00.000Z",
+          "Date Created": {
+            "start": "2026-07-03",
+            "end": null
+          },
+          "Price": 29,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "aoe para masato",
+          "Category": null
+        },
+        {
           "_id": "392e6c72-cc72-809e-a6a1-dd5a095cdd44",
           "_url": "https://app.notion.com/p/almuerzo-provoca-392e6c72cc72809ea6a1dd5a095cdd44",
           "_created": "2026-07-03T17:40:00.000Z",
@@ -12788,6 +12820,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "393e6c72-cc72-802c-8a17-ccc8a3db3dc3",
+          "_url": "https://app.notion.com/p/recarga-a-mama-393e6c72cc72802c8a17ccc8a3db3dc3",
+          "_created": "2026-07-04T02:41:00.000Z",
+          "_edited": "2026-07-04T02:42:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-07-03",
+            "end": null
+          },
+          "Money": 7,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "recarga a mama"
+        },
         {
           "_id": "391e6c72-cc72-80ae-a8d2-e9d390c9b0b1",
           "_url": "https://app.notion.com/p/Dni-391e6c72cc7280aea8d2e9d390c9b0b1",
