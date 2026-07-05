@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T23:39:54.528618+00:00",
+  "generated_at": "2026-07-05T01:21:26.233778+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 12869.200000000003,
-          "Tot. Expenses": 277248.40499999985,
+          "Tot. Expenses": 277249.40499999985,
           "Total Papa": 1509,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 14378.2,
@@ -130,7 +130,7 @@
             "38ae6c72-cc72-8054-8904-dc5ec48b4d4b",
             "38de6c72-cc72-8044-859f-c2e54b51146c"
           ],
-          "Cash": 571.66500000022,
+          "Cash": 570.66500000022,
           "Tot. Income": 277820.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -159,7 +159,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2080.665000000217,
+          "Cash Total": 2079.665000000217,
           "Name": "Resumen"
         }
       ]
@@ -1156,7 +1156,7 @@
           "_id": "393e6c72-cc72-80e8-98dd-d399b62ba998",
           "_url": "https://app.notion.com/p/pasajes-y-comida-393e6c72cc7280e898ddd399b62ba998",
           "_created": "2026-07-04T02:41:00.000Z",
-          "_edited": "2026-07-04T02:41:00.000Z",
+          "_edited": "2026-07-05T00:53:00.000Z",
           "Category": "Fixed",
           "Date Created": {
             "start": "2026-07-03",
@@ -1166,7 +1166,7 @@
           "Resumen": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
-          "Price": 4,
+          "Price": 5,
           "Name": "pasajes y comida"
         },
         {
