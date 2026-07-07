@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T11:34:58.214220+00:00",
+  "generated_at": "2026-07-07T13:50:47.706790+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 12968.200000000003,
-          "Tot. Expenses": 277261.40499999985,
-          "Total Papa": 1410,
+          "SumGastosPapa": 13361.200000000003,
+          "Tot. Expenses": 277274.90499999985,
+          "Total Papa": 1017,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 14378.2,
           "Expenses": [
@@ -130,7 +130,7 @@
             "38ae6c72-cc72-8054-8904-dc5ec48b4d4b",
             "38de6c72-cc72-8044-859f-c2e54b51146c"
           ],
-          "Cash": 558.66500000022,
+          "Cash": 545.16500000022,
           "Tot. Income": 277820.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -159,7 +159,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 1968.665000000217,
+          "Cash Total": 1562.165000000217,
           "Name": "Resumen"
         }
       ]
@@ -1135,6 +1135,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "396e6c72-cc72-8062-8877-e8fd4366498b",
+          "_url": "https://app.notion.com/p/desayuno-396e6c72cc7280628877e8fd4366498b",
+          "_created": "2026-07-07T12:42:00.000Z",
+          "_edited": "2026-07-07T12:43:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-07",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 0.5,
+          "Name": "desayuno"
+        },
+        {
+          "_id": "396e6c72-cc72-8044-9326-f73074e22a74",
+          "_url": "https://app.notion.com/p/pasajes-396e6c72cc7280449326f73074e22a74",
+          "_created": "2026-07-07T12:42:00.000Z",
+          "_edited": "2026-07-07T12:42:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-07-07",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 13,
+          "Name": "pasajes"
+        },
         {
           "_id": "395e6c72-cc72-80cc-838d-ce1503a3ae4e",
           "_url": "https://app.notion.com/p/almuerzo-en-chifita-395e6c72cc7280cc838dce1503a3ae4e",
@@ -12854,6 +12888,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "396e6c72-cc72-8085-ad08-d9d29f4a0495",
+          "_url": "https://app.notion.com/p/Pension-mkl-396e6c72cc728085ad08d9d29f4a0495",
+          "_created": "2026-07-07T12:18:00.000Z",
+          "_edited": "2026-07-07T12:18:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-07-07",
+            "end": null
+          },
+          "Money": 393,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Pension mkl"
+        },
         {
           "_id": "396e6c72-cc72-809c-af65-cb40dd28605d",
           "_url": "https://app.notion.com/p/yapeo-para-libro-de-mikalah-396e6c72cc72809caf65cb40dd28605d",
