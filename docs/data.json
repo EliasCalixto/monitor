@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T19:52:12.806713+00:00",
+  "generated_at": "2026-07-08T20:51:33.368712+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 13361.200000000003,
-          "Tot. Expenses": 277299.14499999984,
+          "Tot. Expenses": 277294.44499999983,
           "Total Papa": 1017,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 14378.2,
@@ -130,7 +130,7 @@
             "38ae6c72-cc72-8054-8904-dc5ec48b4d4b",
             "38de6c72-cc72-8044-859f-c2e54b51146c"
           ],
-          "Cash": 520.92500000023,
+          "Cash": 525.62500000024,
           "Tot. Income": 277820.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -159,7 +159,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 1537.925000000227,
+          "Cash Total": 1542.625000000237,
           "Name": "Resumen"
         }
       ]
@@ -1135,6 +1135,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "397e6c72-cc72-81f4-9d74-f2319afe0070",
+          "_url": "https://app.notion.com/p/Helado-de-Franco-397e6c72cc7281f49d74f2319afe0070",
+          "_created": "2026-07-08T20:27:00.000Z",
+          "_edited": "2026-07-08T20:27:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-08",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -4.7,
+          "Name": "Helado de Franco"
+        },
         {
           "_id": "397e6c72-cc72-800c-acaa-eeaa72a7d472",
           "_url": "https://app.notion.com/p/pasajes-desayuno-etc-397e6c72cc72800cacaaeeaa72a7d472",
@@ -11586,6 +11603,36 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "397e6c72-cc72-8110-8f2a-d08ab302c538",
+          "_url": "https://app.notion.com/p/DUPLICADO-borrar-Helado-de-Franco-397e6c72cc7281108f2ad08ab302c538",
+          "_created": "2026-07-08T20:26:00.000Z",
+          "_edited": "2026-07-08T20:26:00.000Z",
+          "Date Created": {
+            "start": "2026-07-08",
+            "end": null
+          },
+          "Price": 0,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "[DUPLICADO - borrar] Helado de Franco",
+          "Category": null
+        },
+        {
+          "_id": "397e6c72-cc72-8112-8eee-e93330e47244",
+          "_url": "https://app.notion.com/p/Helados-397e6c72cc7281128eeee93330e47244",
+          "_created": "2026-07-08T20:26:00.000Z",
+          "_edited": "2026-07-08T20:26:00.000Z",
+          "Date Created": {
+            "start": "2026-07-08",
+            "end": null
+          },
+          "Price": 9.4,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Helados",
+          "Category": null
+        },
         {
           "_id": "396e6c72-cc72-80bc-a0d8-e3cbca96a90c",
           "_url": "https://app.notion.com/p/Almuerzo-provoca-396e6c72cc7280bca0d8e3cbca96a90c",
