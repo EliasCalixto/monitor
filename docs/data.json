@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T20:51:33.368712+00:00",
+  "generated_at": "2026-07-08T21:54:37.036638+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -29,9 +29,9 @@
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 13361.200000000003,
           "Tot. Expenses": 277294.44499999983,
-          "Total Papa": 1017,
+          "Total Papa": 1079.86,
           "Tot. Savings": 10000,
-          "SumIngresosPapa": 14378.2,
+          "SumIngresosPapa": 14441.060000000001,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
             "34fe6c72-cc72-818b-a14d-f54df1618747",
@@ -128,7 +128,8 @@
             "384e6c72-cc72-80c1-9f95-e86611032424",
             "389e6c72-cc72-807e-a9ea-e888dd8b3fd9",
             "38ae6c72-cc72-8054-8904-dc5ec48b4d4b",
-            "38de6c72-cc72-8044-859f-c2e54b51146c"
+            "38de6c72-cc72-8044-859f-c2e54b51146c",
+            "397e6c72-cc72-80a5-a261-db0fd7c6bcbf"
           ],
           "Cash": 525.62500000024,
           "Tot. Income": 277820.07000000007,
@@ -159,7 +160,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 1542.625000000237,
+          "Cash Total": 1605.485000000238,
           "Name": "Resumen"
         }
       ]
@@ -12985,6 +12986,23 @@
       },
       "rows": [
         {
+          "_id": "397e6c72-cc72-80a5-a261-db0fd7c6bcbf",
+          "_url": "https://app.notion.com/p/quedo-de-retiro-397e6c72cc7280a5a261db0fd7c6bcbf",
+          "_created": "2026-07-08T21:03:00.000Z",
+          "_edited": "2026-07-08T21:03:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-07-08",
+            "end": null
+          },
+          "Money": 62.86,
+          "Total Gastos Papa": [],
+          "Name": "quedo de retiro"
+        },
+        {
           "_id": "396e6c72-cc72-8085-ad08-d9d29f4a0495",
           "_url": "https://app.notion.com/p/Pension-mkl-396e6c72cc728085ad08d9d29f4a0495",
           "_created": "2026-07-07T12:18:00.000Z",
@@ -14682,40 +14700,6 @@
           },
           "Money": 5961.2,
           "Total Gastos Papa": [],
-          "Name": "Integration"
-        }
-      ]
-    },
-    {
-      "id": "352e6c72-cc72-8033-8b1e-ecec163831e5",
-      "title": "Rxdrx",
-      "schema": {
-        "Money": "number",
-        "Name": "title"
-      },
-      "rows": [
-        {
-          "_id": "373e6c72-cc72-8073-b191-c5a9c1b0eaa9",
-          "_url": "https://app.notion.com/p/pago-1-junio-373e6c72cc728073b191c5a9c1b0eaa9",
-          "_created": "2026-06-02T00:26:00.000Z",
-          "_edited": "2026-06-03T01:16:00.000Z",
-          "Money": -160,
-          "Name": "pago 1 junio"
-        },
-        {
-          "_id": "355e6c72-cc72-80a0-963a-fd91d559afaf",
-          "_url": "https://app.notion.com/p/pago-2-de-mayo-355e6c72cc7280a0963afd91d559afaf",
-          "_created": "2026-05-03T07:10:00.000Z",
-          "_edited": "2026-05-03T07:10:00.000Z",
-          "Money": -400,
-          "Name": "pago 2 de mayo"
-        },
-        {
-          "_id": "352e6c72-cc72-8080-b9db-fcde0539c141",
-          "_url": "https://app.notion.com/p/Integration-352e6c72cc728080b9dbfcde0539c141",
-          "_created": "2026-04-30T06:44:00.000Z",
-          "_edited": "2026-04-30T06:44:00.000Z",
-          "Money": 860.6,
           "Name": "Integration"
         }
       ]
