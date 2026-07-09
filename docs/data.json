@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T16:58:01.674152+00:00",
+  "generated_at": "2026-07-09T18:46:49.971578+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -1158,7 +1158,7 @@
           "_id": "398e6c72-cc72-8021-92b0-fd03e750b1ba",
           "_url": "https://app.notion.com/p/chicharron-mixto-de-mira-mar-398e6c72cc72802192b0fd03e750b1ba",
           "_created": "2026-07-09T13:14:00.000Z",
-          "_edited": "2026-07-09T13:14:00.000Z",
+          "_edited": "2026-07-09T18:31:00.000Z",
           "Category": "Enjoy",
           "Date Created": {
             "start": "2026-07-09",
@@ -11639,6 +11639,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "398e6c72-cc72-80ee-b2a5-ffd67d8bba58",
+          "_url": "https://app.notion.com/p/almuerzo-provoca-398e6c72cc7280eeb2a5ffd67d8bba58",
+          "_created": "2026-07-09T18:21:00.000Z",
+          "_edited": "2026-07-09T18:21:00.000Z",
+          "Date Created": {
+            "start": "2026-07-09",
+            "end": null
+          },
+          "Price": 12,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "almuerzo provoca",
+          "Category": null
+        },
         {
           "_id": "398e6c72-cc72-8014-8963-eb45739ff073",
           "_url": "https://app.notion.com/p/papitas-398e6c72cc7280148963eb45739ff073",
