@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T11:47:27.581851+00:00",
+  "generated_at": "2026-07-09T14:19:37.090586+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,10 +28,10 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 13361.200000000003,
-          "Tot. Expenses": 277294.44499999983,
-          "Total Papa": 1079.86,
+          "Tot. Expenses": 277343.64499999984,
+          "Total Papa": 1579.86,
           "Tot. Savings": 10000,
-          "SumIngresosPapa": 14441.060000000001,
+          "SumIngresosPapa": 14941.060000000001,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
             "34fe6c72-cc72-818b-a14d-f54df1618747",
@@ -129,9 +129,10 @@
             "389e6c72-cc72-807e-a9ea-e888dd8b3fd9",
             "38ae6c72-cc72-8054-8904-dc5ec48b4d4b",
             "38de6c72-cc72-8044-859f-c2e54b51146c",
-            "397e6c72-cc72-80a5-a261-db0fd7c6bcbf"
+            "397e6c72-cc72-80a5-a261-db0fd7c6bcbf",
+            "398e6c72-cc72-80f7-91ab-d2bbd5c187c4"
           ],
-          "Cash": 525.62500000024,
+          "Cash": 476.42500000023,
           "Tot. Income": 277820.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -160,7 +161,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 1605.485000000238,
+          "Cash Total": 2056.285000000228,
           "Name": "Resumen"
         }
       ]
@@ -1136,6 +1137,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "398e6c72-cc72-8054-9b4f-cc8bba6eeec2",
+          "_url": "https://app.notion.com/p/pasajes-y-desayunos-398e6c72cc7280549b4fcc8bba6eeec2",
+          "_created": "2026-07-09T13:14:00.000Z",
+          "_edited": "2026-07-09T13:14:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 5,
+          "Name": "pasajes y desayunos"
+        },
+        {
+          "_id": "398e6c72-cc72-8021-92b0-fd03e750b1ba",
+          "_url": "https://app.notion.com/p/chicharron-mixto-de-mira-mar-398e6c72cc72802192b0fd03e750b1ba",
+          "_created": "2026-07-09T13:14:00.000Z",
+          "_edited": "2026-07-09T13:14:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 44.2,
+          "Name": "chicharron mixto de mira mar"
+        },
         {
           "_id": "397e6c72-cc72-81f4-9d74-f2319afe0070",
           "_url": "https://app.notion.com/p/Helado-de-Franco-397e6c72cc7281f49d74f2319afe0070",
@@ -12985,6 +13020,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "398e6c72-cc72-80f7-91ab-d2bbd5c187c4",
+          "_url": "https://app.notion.com/p/yapeo-de-mi-tio-angel-398e6c72cc7280f791abd2bbd5c187c4",
+          "_created": "2026-07-09T13:23:00.000Z",
+          "_edited": "2026-07-09T13:24:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-07-09",
+            "end": null
+          },
+          "Money": 500,
+          "Total Gastos Papa": [],
+          "Name": "yapeo de mi tio angel"
+        },
         {
           "_id": "397e6c72-cc72-80a5-a261-db0fd7c6bcbf",
           "_url": "https://app.notion.com/p/quedo-de-retiro-397e6c72cc7280a5a261db0fd7c6bcbf",
