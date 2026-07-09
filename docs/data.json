@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T18:46:49.971578+00:00",
+  "generated_at": "2026-07-09T20:29:36.531751+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 13361.200000000003,
+          "SumGastosPapa": 13430.200000000003,
           "Tot. Expenses": 277343.64499999984,
-          "Total Papa": 1579.86,
+          "Total Papa": 1510.86,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 14941.060000000001,
           "Expenses": [
@@ -161,7 +161,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2056.285000000228,
+          "Cash Total": 1987.285000000228,
           "Name": "Resumen"
         }
       ]
@@ -13050,6 +13050,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "398e6c72-cc72-80b8-a3e8-d5d7715d1d8f",
+          "_url": "https://app.notion.com/p/compra-de-power-bank-398e6c72cc7280b8a3e8d5d7715d1d8f",
+          "_created": "2026-07-09T18:50:00.000Z",
+          "_edited": "2026-07-09T18:50:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-07-09",
+            "end": null
+          },
+          "Money": 69,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "compra de power bank"
+        },
         {
           "_id": "398e6c72-cc72-80f7-91ab-d2bbd5c187c4",
           "_url": "https://app.notion.com/p/yapeo-de-mi-tio-angel-398e6c72cc7280f791abd2bbd5c187c4",
