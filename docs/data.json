@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T14:19:37.090586+00:00",
+  "generated_at": "2026-07-09T16:58:01.674152+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -11639,6 +11639,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "398e6c72-cc72-8014-8963-eb45739ff073",
+          "_url": "https://app.notion.com/p/papitas-398e6c72cc7280148963eb45739ff073",
+          "_created": "2026-07-09T14:31:00.000Z",
+          "_edited": "2026-07-09T14:31:00.000Z",
+          "Date Created": {
+            "start": "2026-07-09",
+            "end": null
+          },
+          "Price": 2.5,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "papitas",
+          "Category": null
+        },
         {
           "_id": "397e6c72-cc72-8110-8f2a-d08ab302c538",
           "_url": "https://app.notion.com/p/DUPLICADO-borrar-Helado-de-Franco-397e6c72cc7281108f2ad08ab302c538",
