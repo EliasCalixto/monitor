@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T13:01:30.488040+00:00",
+  "generated_at": "2026-07-10T15:38:42.300656+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -11718,21 +11718,6 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "papitas",
-          "Category": null
-        },
-        {
-          "_id": "397e6c72-cc72-8110-8f2a-d08ab302c538",
-          "_url": "https://app.notion.com/p/DUPLICADO-borrar-Helado-de-Franco-397e6c72cc7281108f2ad08ab302c538",
-          "_created": "2026-07-08T20:26:00.000Z",
-          "_edited": "2026-07-08T20:26:00.000Z",
-          "Date Created": {
-            "start": "2026-07-08",
-            "end": null
-          },
-          "Price": 0,
-          "Date Payed": null,
-          "Status": "Pending",
-          "Name": "[DUPLICADO - borrar] Helado de Franco",
           "Category": null
         },
         {
