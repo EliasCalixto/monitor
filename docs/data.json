@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T10:48:10.533485+00:00",
+  "generated_at": "2026-07-10T13:01:30.488040+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 13430.200000000003,
-          "Tot. Expenses": 277352.64499999984,
+          "Tot. Expenses": 277356.64499999984,
           "Total Papa": 1510.86,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 14941.060000000001,
@@ -132,7 +132,7 @@
             "397e6c72-cc72-80a5-a261-db0fd7c6bcbf",
             "398e6c72-cc72-80f7-91ab-d2bbd5c187c4"
           ],
-          "Cash": 467.42500000023,
+          "Cash": 463.42500000023,
           "Tot. Income": 277820.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -161,7 +161,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 1978.285000000228,
+          "Cash Total": 1974.285000000228,
           "Name": "Resumen"
         }
       ]
@@ -1137,6 +1137,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "399e6c72-cc72-81b3-97d9-d6abcee23597",
+          "_url": "https://app.notion.com/p/Desayuno-Pan-con-pollo-y-7-semillas-399e6c72cc7281b397d9d6abcee23597",
+          "_created": "2026-07-10T12:37:00.000Z",
+          "_edited": "2026-07-10T12:37:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 4,
+          "Name": "Desayuno - Pan con pollo y 7 semillas"
+        },
         {
           "_id": "398e6c72-cc72-80c5-b398-c4f86b920b77",
           "_url": "https://app.notion.com/p/Pasajes-398e6c72cc7280c5b398c4f86b920b77",
