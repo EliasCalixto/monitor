@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T23:27:34.823657+00:00",
+  "generated_at": "2026-07-11T00:55:01.942554+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -11690,6 +11690,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "39ae6c72-cc72-8078-90f1-dfd712e9d534",
+          "_url": "https://app.notion.com/p/Papitas-39ae6c72cc72807890f1dfd712e9d534",
+          "_created": "2026-07-11T00:11:00.000Z",
+          "_edited": "2026-07-11T00:11:00.000Z",
+          "Date Created": {
+            "start": "2026-07-10",
+            "end": null
+          },
+          "Price": 14.9,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Papitas",
+          "Category": null
+        },
         {
           "_id": "398e6c72-cc72-80ee-b2a5-ffd67d8bba58",
           "_url": "https://app.notion.com/p/almuerzo-provoca-398e6c72cc7280eeb2a5ffd67d8bba58",
