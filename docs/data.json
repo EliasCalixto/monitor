@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T17:39:31.269349+00:00",
+  "generated_at": "2026-07-12T18:32:41.937009+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -11734,6 +11734,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "39be6c72-cc72-8027-821f-cc77ffe737f7",
+          "_url": "https://app.notion.com/p/Vaporizador-39be6c72cc728027821fcc77ffe737f7",
+          "_created": "2026-07-12T18:04:00.000Z",
+          "_edited": "2026-07-12T18:04:00.000Z",
+          "Date Created": {
+            "start": "2026-07-12",
+            "end": null
+          },
+          "Price": 137.61,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Vaporizador",
+          "Category": null
+        },
         {
           "_id": "39ae6c72-cc72-8078-90f1-dfd712e9d534",
           "_url": "https://app.notion.com/p/Papitas-39ae6c72cc72807890f1dfd712e9d534",
