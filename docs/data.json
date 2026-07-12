@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T15:41:08.806214+00:00",
+  "generated_at": "2026-07-12T16:32:37.976237+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -176,6 +176,16 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "39be6c72-cc72-80d0-aedb-e7aee35fe8c6",
+          "_url": "https://app.notion.com/p/Operaci-n-de-ojos-39be6c72cc7280d0aedbe7aee35fe8c6",
+          "_created": "2026-07-12T16:10:00.000Z",
+          "_edited": "2026-07-12T16:11:00.000Z",
+          "Price": 1900,
+          "Status": "Urgent",
+          "Details": "",
+          "Name": "Operación de ojos"
+        },
         {
           "_id": "38be6c72-cc72-8051-8334-c76c1cea86fd",
           "_url": "https://app.notion.com/p/Luminarias-e-Interruptores-38be6c72cc7280518334c76c1cea86fd",
