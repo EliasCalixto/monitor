@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T20:32:07.421940+00:00",
+  "generated_at": "2026-07-12T21:29:32.312199+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,11 +27,11 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 13692.200000000003,
+          "SumGastosPapa": 13732.200000000003,
           "Tot. Expenses": 277383.64499999984,
-          "Total Papa": 1248.86,
+          "Total Papa": 1211.86,
           "Tot. Savings": 10000,
-          "SumIngresosPapa": 14941.060000000001,
+          "SumIngresosPapa": 14944.060000000001,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
             "34fe6c72-cc72-818b-a14d-f54df1618747",
@@ -130,7 +130,8 @@
             "38ae6c72-cc72-8054-8904-dc5ec48b4d4b",
             "38de6c72-cc72-8044-859f-c2e54b51146c",
             "397e6c72-cc72-80a5-a261-db0fd7c6bcbf",
-            "398e6c72-cc72-80f7-91ab-d2bbd5c187c4"
+            "398e6c72-cc72-80f7-91ab-d2bbd5c187c4",
+            "39be6c72-cc72-8019-ba7b-d5096f5d4983"
           ],
           "Cash": 436.42500000023,
           "Tot. Income": 277820.07000000007,
@@ -161,7 +162,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 1685.285000000228,
+          "Cash Total": 1648.285000000228,
           "Name": "Resumen"
         }
       ]
@@ -13160,6 +13161,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "39be6c72-cc72-803c-b4c2-d52dd5af8de5",
+          "_url": "https://app.notion.com/p/Cecilia-39be6c72cc72803cb4c2d52dd5af8de5",
+          "_created": "2026-07-12T20:46:00.000Z",
+          "_edited": "2026-07-12T20:46:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-07-12",
+            "end": null
+          },
+          "Money": 40,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Cecilia"
+        },
+        {
+          "_id": "39be6c72-cc72-8019-ba7b-d5096f5d4983",
+          "_url": "https://app.notion.com/p/Tia-39be6c72cc728019ba7bd5096f5d4983",
+          "_created": "2026-07-12T20:46:00.000Z",
+          "_edited": "2026-07-12T20:46:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-07-12",
+            "end": null
+          },
+          "Money": 3,
+          "Total Gastos Papa": [],
+          "Name": "Tia"
+        },
         {
           "_id": "39be6c72-cc72-80d9-bdda-fbe35c59afc8",
           "_url": "https://app.notion.com/p/Mama-39be6c72cc7280d9bddafbe35c59afc8",
