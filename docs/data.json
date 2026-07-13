@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T12:26:03.368976+00:00",
+  "generated_at": "2026-07-13T15:17:54.210092+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 13732.200000000003,
-          "Tot. Expenses": 277383.64499999984,
+          "Tot. Expenses": 277385.64499999984,
           "Total Papa": 1211.86,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 14944.060000000001,
@@ -133,7 +133,7 @@
             "398e6c72-cc72-80f7-91ab-d2bbd5c187c4",
             "39be6c72-cc72-8019-ba7b-d5096f5d4983"
           ],
-          "Cash": 436.42500000023,
+          "Cash": 434.42500000023,
           "Tot. Income": 277820.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -162,7 +162,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 1648.285000000228,
+          "Cash Total": 1646.285000000228,
           "Name": "Resumen"
         }
       ]
@@ -1148,6 +1148,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "39ce6c72-cc72-80d4-baff-da66aa0d79a8",
+          "_url": "https://app.notion.com/p/pasajes-39ce6c72cc7280d4baffda66aa0d79a8",
+          "_created": "2026-07-13T14:41:00.000Z",
+          "_edited": "2026-07-13T14:41:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2,
+          "Name": "pasajes"
+        },
         {
           "_id": "39be6c72-cc72-801a-a48f-d861cc998d66",
           "_url": "https://app.notion.com/p/Pizza-argentina-39be6c72cc72801aa48fd861cc998d66",
@@ -11735,6 +11752,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "39ce6c72-cc72-806c-958e-ee3a145ae987",
+          "_url": "https://app.notion.com/p/cargador-inalambrico-3-en-1-39ce6c72cc72806c958eee3a145ae987",
+          "_created": "2026-07-13T14:19:00.000Z",
+          "_edited": "2026-07-13T14:19:00.000Z",
+          "Date Created": {
+            "start": "2026-07-13",
+            "end": null
+          },
+          "Price": 356.02,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "cargador inalambrico 3 en 1",
+          "Category": null
+        },
         {
           "_id": "39be6c72-cc72-8027-821f-cc77ffe737f7",
           "_url": "https://app.notion.com/p/Vaporizador-39be6c72cc728027821fcc77ffe737f7",
