@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T17:25:53.258458+00:00",
+  "generated_at": "2026-07-13T18:52:37.581662+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 13732.200000000003,
-          "Tot. Expenses": 277385.64499999984,
+          "Tot. Expenses": 277397.64499999984,
           "Total Papa": 1211.86,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 14944.060000000001,
@@ -133,7 +133,7 @@
             "398e6c72-cc72-80f7-91ab-d2bbd5c187c4",
             "39be6c72-cc72-8019-ba7b-d5096f5d4983"
           ],
-          "Cash": 434.42500000023,
+          "Cash": 422.42500000023,
           "Tot. Income": 277820.07000000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -162,7 +162,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 1646.285000000228,
+          "Cash Total": 1634.285000000228,
           "Name": "Resumen"
         }
       ]
@@ -1148,6 +1148,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "39ce6c72-cc72-80b2-a004-f2b035586592",
+          "_url": "https://app.notion.com/p/almuerzo-39ce6c72cc7280b2a004f2b035586592",
+          "_created": "2026-07-13T18:06:00.000Z",
+          "_edited": "2026-07-13T18:06:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 12,
+          "Name": "almuerzo"
+        },
         {
           "_id": "39ce6c72-cc72-80d4-baff-da66aa0d79a8",
           "_url": "https://app.notion.com/p/pasajes-39ce6c72cc7280d4baffda66aa0d79a8",
