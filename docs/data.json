@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T21:26:49.939402+00:00",
+  "generated_at": "2026-07-14T22:27:46.312214+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -12328,6 +12328,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "39de6c72-cc72-8004-ab26-d13d20fe4ddf",
+          "_url": "https://app.notion.com/p/Los-primeros-90-dias-39de6c72cc728004ab26d13d20fe4ddf",
+          "_created": "2026-07-14T22:17:00.000Z",
+          "_edited": "2026-07-14T22:18:00.000Z",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Price": 52.9,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Los primeros 90 dias",
+          "Category": null
+        },
         {
           "_id": "39ce6c72-cc72-806c-958e-ee3a145ae987",
           "_url": "https://app.notion.com/p/cargador-inalambrico-3-en-1-39ce6c72cc72806c958eee3a145ae987",
