@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T12:21:04.080744+00:00",
+  "generated_at": "2026-07-14T14:19:23.471034+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 13732.200000000003,
-          "Tot. Expenses": 277397.64499999984,
+          "Tot. Expenses": 279101.085,
           "Total Papa": 1211.86,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 14944.060000000001,
@@ -133,7 +133,7 @@
             "398e6c72-cc72-80f7-91ab-d2bbd5c187c4",
             "39be6c72-cc72-8019-ba7b-d5096f5d4983"
           ],
-          "Cash": 2129.3950000002,
+          "Cash": 425.95500000004,
           "Tot. Income": 279527.04000000004,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -162,7 +162,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 3341.255000000198,
+          "Cash Total": 1637.815000000038,
           "Name": "Resumen"
         }
       ]
@@ -1163,6 +1163,550 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "39de6c72-cc72-80ff-8bd9-eec4b77bf2b8",
+          "_url": "https://app.notion.com/p/nose-39de6c72cc7280ff8bd9eec4b77bf2b8",
+          "_created": "2026-07-14T14:00:00.000Z",
+          "_edited": "2026-07-14T14:00:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1,
+          "Name": "nose"
+        },
+        {
+          "_id": "39de6c72-cc72-80e6-bd8c-de205c323040",
+          "_url": "https://app.notion.com/p/zapatillas-negras-39de6c72cc7280e6bd8cde205c323040",
+          "_created": "2026-07-14T13:56:00.000Z",
+          "_edited": "2026-07-14T13:56:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 139.2,
+          "Name": "zapatillas negras"
+        },
+        {
+          "_id": "39de6c72-cc72-80e5-bcdd-e139bf299cdd",
+          "_url": "https://app.notion.com/p/ropita-39de6c72cc7280e5bcdde139bf299cdd",
+          "_created": "2026-07-14T13:56:00.000Z",
+          "_edited": "2026-07-14T13:56:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 470.59,
+          "Name": "ropita"
+        },
+        {
+          "_id": "39de6c72-cc72-809e-8194-fc08aaa2056d",
+          "_url": "https://app.notion.com/p/correa-acero-apple-watch-39de6c72cc72809e8194fc08aaa2056d",
+          "_created": "2026-07-14T13:56:00.000Z",
+          "_edited": "2026-07-14T13:56:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 57.85,
+          "Name": "correa acero apple watch"
+        },
+        {
+          "_id": "39de6c72-cc72-8094-b724-eda12cd2b2cb",
+          "_url": "https://app.notion.com/p/ultimo-pago-usil-39de6c72cc728094b724eda12cd2b2cb",
+          "_created": "2026-07-14T13:56:00.000Z",
+          "_edited": "2026-07-14T13:56:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 126.5,
+          "Name": "ultimo pago usil"
+        },
+        {
+          "_id": "39de6c72-cc72-8019-b620-fbd6b91f13ee",
+          "_url": "https://app.notion.com/p/almuerzo-provoca-39de6c72cc728019b620fbd6b91f13ee",
+          "_created": "2026-07-14T13:54:00.000Z",
+          "_edited": "2026-07-14T13:54:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 12,
+          "Name": "almuerzo provoca"
+        },
+        {
+          "_id": "39de6c72-cc72-8087-b806-ce230139d4da",
+          "_url": "https://app.notion.com/p/papitas-39de6c72cc728087b806ce230139d4da",
+          "_created": "2026-07-14T13:53:00.000Z",
+          "_edited": "2026-07-14T13:53:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2.5,
+          "Name": "papitas"
+        },
+        {
+          "_id": "39de6c72-cc72-8070-9cea-de8f2449d88c",
+          "_url": "https://app.notion.com/p/helados-39de6c72cc7280709ceade8f2449d88c",
+          "_created": "2026-07-14T13:53:00.000Z",
+          "_edited": "2026-07-14T13:53:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 9.4,
+          "Name": "helados"
+        },
+        {
+          "_id": "39de6c72-cc72-806b-9d96-dcb61ecc7d7c",
+          "_url": "https://app.notion.com/p/almuerzo-provoca-39de6c72cc72806b9d96dcb61ecc7d7c",
+          "_created": "2026-07-14T13:53:00.000Z",
+          "_edited": "2026-07-14T13:53:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 12,
+          "Name": "almuerzo provoca"
+        },
+        {
+          "_id": "39de6c72-cc72-80fb-aca6-c012bb93e933",
+          "_url": "https://app.notion.com/p/aoe-para-masato-39de6c72cc7280fbaca6c012bb93e933",
+          "_created": "2026-07-14T13:53:00.000Z",
+          "_edited": "2026-07-14T13:53:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 29,
+          "Name": "aoe para masato"
+        },
+        {
+          "_id": "39de6c72-cc72-8099-a4ce-cd90b7285b54",
+          "_url": "https://app.notion.com/p/almuerzo-provoca-39de6c72cc728099a4cecd90b7285b54",
+          "_created": "2026-07-14T13:53:00.000Z",
+          "_edited": "2026-07-14T13:53:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 12,
+          "Name": "almuerzo provoca"
+        },
+        {
+          "_id": "39de6c72-cc72-8091-b7a1-c5e4b84a2264",
+          "_url": "https://app.notion.com/p/papitas-inka-chips-39de6c72cc728091b7a1c5e4b84a2264",
+          "_created": "2026-07-14T13:52:00.000Z",
+          "_edited": "2026-07-14T13:53:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2.5,
+          "Name": "papitas inka chips"
+        },
+        {
+          "_id": "39de6c72-cc72-80da-8a74-c220496f25ca",
+          "_url": "https://app.notion.com/p/papitas-39de6c72cc7280da8a74c220496f25ca",
+          "_created": "2026-07-14T13:52:00.000Z",
+          "_edited": "2026-07-14T13:52:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 13.9,
+          "Name": "papitas"
+        },
+        {
+          "_id": "39de6c72-cc72-8058-ac2b-dde92c4b6ca1",
+          "_url": "https://app.notion.com/p/win-39de6c72cc728058ac2bdde92c4b6ca1",
+          "_created": "2026-07-14T13:51:00.000Z",
+          "_edited": "2026-07-14T13:51:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 109,
+          "Name": "win"
+        },
+        {
+          "_id": "39de6c72-cc72-8071-87f6-e8f97b069c58",
+          "_url": "https://app.notion.com/p/almuerzo-provoca-39de6c72cc72807187f6e8f97b069c58",
+          "_created": "2026-07-14T13:51:00.000Z",
+          "_edited": "2026-07-14T13:51:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 24,
+          "Name": "almuerzo provoca"
+        },
+        {
+          "_id": "39de6c72-cc72-80c1-b08d-daf985b02aed",
+          "_url": "https://app.notion.com/p/sopita-39de6c72cc7280c1b08ddaf985b02aed",
+          "_created": "2026-07-14T13:51:00.000Z",
+          "_edited": "2026-07-14T13:51:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3.9,
+          "Name": "sopita"
+        },
+        {
+          "_id": "39de6c72-cc72-80ba-a4ef-f80e1247cb5e",
+          "_url": "https://app.notion.com/p/menu-proboca-39de6c72cc7280baa4eff80e1247cb5e",
+          "_created": "2026-07-14T13:51:00.000Z",
+          "_edited": "2026-07-14T13:51:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 12,
+          "Name": "menu proboca"
+        },
+        {
+          "_id": "39de6c72-cc72-80d8-b628-c5287b9bfd78",
+          "_url": "https://app.notion.com/p/gaseosas-39de6c72cc7280d8b628c5287b9bfd78",
+          "_created": "2026-07-14T13:49:00.000Z",
+          "_edited": "2026-07-14T13:51:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 7,
+          "Name": "gaseosas"
+        },
+        {
+          "_id": "39de6c72-cc72-809c-95f2-f81e381c8dd9",
+          "_url": "https://app.notion.com/p/bembos-39de6c72cc72809c95f2f81e381c8dd9",
+          "_created": "2026-07-14T13:49:00.000Z",
+          "_edited": "2026-07-14T13:49:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 24.9,
+          "Name": "bembos"
+        },
+        {
+          "_id": "39de6c72-cc72-803d-add9-e525d11afc24",
+          "_url": "https://app.notion.com/p/regalo-para-papa-reloj-39de6c72cc72803dadd9e525d11afc24",
+          "_created": "2026-07-14T13:48:00.000Z",
+          "_edited": "2026-07-14T13:49:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 120,
+          "Name": "regalo para papa reloj"
+        },
+        {
+          "_id": "39de6c72-cc72-8059-930d-edd8f85363ed",
+          "_url": "https://app.notion.com/p/frutos-secos-papitas-39de6c72cc728059930dedd8f85363ed",
+          "_created": "2026-07-14T13:48:00.000Z",
+          "_edited": "2026-07-14T13:48:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 5.5,
+          "Name": "frutos secos + papitas"
+        },
+        {
+          "_id": "39de6c72-cc72-807e-a14c-deae43bef4d9",
+          "_url": "https://app.notion.com/p/lomo-saltado-39de6c72cc72807ea14cdeae43bef4d9",
+          "_created": "2026-07-14T13:48:00.000Z",
+          "_edited": "2026-07-14T13:48:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 22,
+          "Name": "lomo saltado"
+        },
+        {
+          "_id": "39de6c72-cc72-8057-af35-c58974b74d00",
+          "_url": "https://app.notion.com/p/foco-inteligente-39de6c72cc728057af35c58974b74d00",
+          "_created": "2026-07-14T12:46:00.000Z",
+          "_edited": "2026-07-14T12:46:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 49.9,
+          "Name": "foco inteligente"
+        },
+        {
+          "_id": "39de6c72-cc72-8060-afc1-f5432c4a4c6b",
+          "_url": "https://app.notion.com/p/sodimac-black-out-1-39de6c72cc728060afc1f5432c4a4c6b",
+          "_created": "2026-07-14T12:46:00.000Z",
+          "_edited": "2026-07-14T12:46:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 199.9,
+          "Name": "sodimac black out 1"
+        },
+        {
+          "_id": "39de6c72-cc72-80da-8c8b-f5746446914a",
+          "_url": "https://app.notion.com/p/long-horn-celebracion-39de6c72cc7280da8c8bf5746446914a",
+          "_created": "2026-07-14T12:46:00.000Z",
+          "_edited": "2026-07-14T12:46:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 110,
+          "Name": "long horn celebracion"
+        },
+        {
+          "_id": "39de6c72-cc72-8004-bec4-d217852b0c5b",
+          "_url": "https://app.notion.com/p/pistola-de-silicona-de-mama-39de6c72cc728004bec4d217852b0c5b",
+          "_created": "2026-07-14T12:45:00.000Z",
+          "_edited": "2026-07-14T12:45:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 100,
+          "Name": "pistola de silicona de mama"
+        },
+        {
+          "_id": "39de6c72-cc72-8057-b2bf-fce9c5657881",
+          "_url": "https://app.notion.com/p/doritos-39de6c72cc728057b2bffce9c5657881",
+          "_created": "2026-07-14T12:45:00.000Z",
+          "_edited": "2026-07-14T12:45:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3,
+          "Name": "doritos"
+        },
+        {
+          "_id": "39de6c72-cc72-80ed-b915-d148547c66a2",
+          "_url": "https://app.notion.com/p/helado-39de6c72cc7280edb915d148547c66a2",
+          "_created": "2026-07-14T12:45:00.000Z",
+          "_edited": "2026-07-14T12:45:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 4.9,
+          "Name": "helado"
+        },
+        {
+          "_id": "39de6c72-cc72-80d4-849a-ef6d26688896",
+          "_url": "https://app.notion.com/p/papas-inkachips-39de6c72cc7280d4849aef6d26688896",
+          "_created": "2026-07-14T12:45:00.000Z",
+          "_edited": "2026-07-14T12:45:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2.5,
+          "Name": "papas inkachips"
+        },
+        {
+          "_id": "39de6c72-cc72-8018-8b83-cd91147fac0d",
+          "_url": "https://app.notion.com/p/proboca-39de6c72cc7280188b83cd91147fac0d",
+          "_created": "2026-07-14T12:45:00.000Z",
+          "_edited": "2026-07-14T12:45:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 12,
+          "Name": "proboca"
+        },
+        {
+          "_id": "39de6c72-cc72-8000-9608-e4b78760b139",
+          "_url": "https://app.notion.com/p/desayuno-39de6c72cc7280009608e4b78760b139",
+          "_created": "2026-07-14T12:41:00.000Z",
+          "_edited": "2026-07-14T12:41:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3.5,
+          "Name": "desayuno"
+        },
+        {
+          "_id": "39de6c72-cc72-8054-be61-d2f0fab092d2",
+          "_url": "https://app.notion.com/p/pasajes-39de6c72cc728054be61d2f0fab092d2",
+          "_created": "2026-07-14T12:41:00.000Z",
+          "_edited": "2026-07-14T12:41:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1,
+          "Name": "pasajes"
+        },
         {
           "_id": "39ce6c72-cc72-80b2-a004-f2b035586592",
           "_url": "https://app.notion.com/p/almuerzo-39ce6c72cc7280b2a004f2b035586592",
@@ -11818,14 +12362,17 @@
           "_id": "39ae6c72-cc72-8078-90f1-dfd712e9d534",
           "_url": "https://app.notion.com/p/Papitas-39ae6c72cc72807890f1dfd712e9d534",
           "_created": "2026-07-11T00:11:00.000Z",
-          "_edited": "2026-07-11T00:11:00.000Z",
+          "_edited": "2026-07-14T13:52:00.000Z",
           "Date Created": {
             "start": "2026-07-10",
             "end": null
           },
           "Price": 14.9,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Papitas",
           "Category": null
         },
@@ -11833,14 +12380,17 @@
           "_id": "398e6c72-cc72-80ee-b2a5-ffd67d8bba58",
           "_url": "https://app.notion.com/p/almuerzo-provoca-398e6c72cc7280eeb2a5ffd67d8bba58",
           "_created": "2026-07-09T18:21:00.000Z",
-          "_edited": "2026-07-09T18:21:00.000Z",
+          "_edited": "2026-07-14T13:54:00.000Z",
           "Date Created": {
             "start": "2026-07-09",
             "end": null
           },
           "Price": 12,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "almuerzo provoca",
           "Category": null
         },
@@ -11848,14 +12398,17 @@
           "_id": "398e6c72-cc72-8014-8963-eb45739ff073",
           "_url": "https://app.notion.com/p/papitas-398e6c72cc7280148963eb45739ff073",
           "_created": "2026-07-09T14:31:00.000Z",
-          "_edited": "2026-07-09T14:31:00.000Z",
+          "_edited": "2026-07-14T13:54:00.000Z",
           "Date Created": {
             "start": "2026-07-09",
             "end": null
           },
           "Price": 2.5,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "papitas",
           "Category": null
         },
@@ -11863,14 +12416,17 @@
           "_id": "397e6c72-cc72-8112-8eee-e93330e47244",
           "_url": "https://app.notion.com/p/Helados-397e6c72cc7281128eeee93330e47244",
           "_created": "2026-07-08T20:26:00.000Z",
-          "_edited": "2026-07-08T20:26:00.000Z",
+          "_edited": "2026-07-14T13:53:00.000Z",
           "Date Created": {
             "start": "2026-07-08",
             "end": null
           },
           "Price": 9.4,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Helados",
           "Category": null
         },
@@ -11878,14 +12434,17 @@
           "_id": "396e6c72-cc72-80bc-a0d8-e3cbca96a90c",
           "_url": "https://app.notion.com/p/Almuerzo-provoca-396e6c72cc7280bca0d8e3cbca96a90c",
           "_created": "2026-07-07T17:06:00.000Z",
-          "_edited": "2026-07-07T17:07:00.000Z",
+          "_edited": "2026-07-14T13:53:00.000Z",
           "Date Created": {
             "start": "2026-07-07",
             "end": null
           },
           "Price": 12,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Almuerzo provoca",
           "Category": null
         },
@@ -11893,14 +12452,17 @@
           "_id": "393e6c72-cc72-80d2-b9b2-f5ffa09490b4",
           "_url": "https://app.notion.com/p/aoe-para-masato-393e6c72cc7280d2b9b2f5ffa09490b4",
           "_created": "2026-07-04T02:40:00.000Z",
-          "_edited": "2026-07-04T02:41:00.000Z",
+          "_edited": "2026-07-14T13:53:00.000Z",
           "Date Created": {
             "start": "2026-07-03",
             "end": null
           },
           "Price": 29,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "aoe para masato",
           "Category": null
         },
@@ -11908,14 +12470,17 @@
           "_id": "392e6c72-cc72-809e-a6a1-dd5a095cdd44",
           "_url": "https://app.notion.com/p/almuerzo-provoca-392e6c72cc72809ea6a1dd5a095cdd44",
           "_created": "2026-07-03T17:40:00.000Z",
-          "_edited": "2026-07-03T17:40:00.000Z",
+          "_edited": "2026-07-14T13:53:00.000Z",
           "Date Created": {
             "start": "2026-07-03",
             "end": null
           },
           "Price": 12,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "almuerzo provoca",
           "Category": null
         },
@@ -11923,14 +12488,17 @@
           "_id": "392e6c72-cc72-8172-b8ba-fe2c4ae47341",
           "_url": "https://app.notion.com/p/Papitas-Inka-Chips-392e6c72cc728172b8bafe2c4ae47341",
           "_created": "2026-07-03T14:33:00.000Z",
-          "_edited": "2026-07-03T14:33:00.000Z",
+          "_edited": "2026-07-14T13:53:00.000Z",
           "Date Created": {
             "start": "2026-07-03",
             "end": null
           },
           "Price": 2.5,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Papitas Inka Chips",
           "Category": null
         },
@@ -11953,13 +12521,16 @@
           "_id": "38ee6c72-cc72-80e4-bf51-d56a21943281",
           "_url": "https://app.notion.com/p/Heladito-38ee6c72cc7280e4bf51d56a21943281",
           "_created": "2026-06-29T02:08:00.000Z",
-          "_edited": "2026-06-29T02:08:00.000Z",
+          "_edited": "2026-07-14T14:03:00.000Z",
           "Date Created": {
             "start": "2026-06-28",
             "end": null
           },
           "Price": 14,
-          "Date Payed": null,
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
           "Status": "Pending",
           "Name": "Heladito",
           "Category": null
@@ -11968,14 +12539,17 @@
           "_id": "38ee6c72-cc72-8160-8026-d799d1d4f551",
           "_url": "https://app.notion.com/p/Zapatillas-negras-38ee6c72cc7281608026d799d1d4f551",
           "_created": "2026-06-29T01:12:00.000Z",
-          "_edited": "2026-06-29T01:12:00.000Z",
+          "_edited": "2026-07-14T13:57:00.000Z",
           "Date Created": {
             "start": "2026-06-28",
             "end": null
           },
           "Price": 139.2,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Zapatillas negras",
           "Category": null
         },
@@ -11983,14 +12557,17 @@
           "_id": "38ee6c72-cc72-80c0-9165-cfb892ba0e2d",
           "_url": "https://app.notion.com/p/Ropita-38ee6c72cc7280c09165cfb892ba0e2d",
           "_created": "2026-06-29T00:08:00.000Z",
-          "_edited": "2026-06-29T00:08:00.000Z",
+          "_edited": "2026-07-14T13:56:00.000Z",
           "Date Created": {
             "start": "2026-06-28",
             "end": null
           },
           "Price": 470.59,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Ropita",
           "Category": null
         },
@@ -11998,14 +12575,17 @@
           "_id": "38ce6c72-cc72-800f-a650-f00d3d7599ca",
           "_url": "https://app.notion.com/p/correa-acero-apple-watch-38ce6c72cc72800fa650f00d3d7599ca",
           "_created": "2026-06-27T04:23:00.000Z",
-          "_edited": "2026-06-27T04:23:00.000Z",
+          "_edited": "2026-07-14T13:56:00.000Z",
           "Date Created": {
             "start": "2026-06-26",
             "end": null
           },
           "Price": 57.85,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "correa acero apple watch",
           "Category": null
         },
@@ -12013,14 +12593,17 @@
           "_id": "38ae6c72-cc72-801b-8241-d7796a6f6471",
           "_url": "https://app.notion.com/p/ULTIMO-PAGO-USIL-38ae6c72cc72801b8241d7796a6f6471",
           "_created": "2026-06-25T21:03:00.000Z",
-          "_edited": "2026-06-26T18:36:00.000Z",
+          "_edited": "2026-07-14T13:56:00.000Z",
           "Date Created": {
             "start": "2026-06-25",
             "end": null
           },
           "Price": 126.5,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "ULTIMO PAGO USIL",
           "Category": null
         },
@@ -12028,14 +12611,17 @@
           "_id": "38ae6c72-cc72-80bb-814a-cc4e130b3799",
           "_url": "https://app.notion.com/p/win-38ae6c72cc7280bb814acc4e130b3799",
           "_created": "2026-06-25T21:03:00.000Z",
-          "_edited": "2026-06-25T21:03:00.000Z",
+          "_edited": "2026-07-14T13:51:00.000Z",
           "Date Created": {
             "start": "2026-06-25",
             "end": null
           },
           "Price": 109,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "win",
           "Category": null
         },
@@ -12043,14 +12629,17 @@
           "_id": "38ae6c72-cc72-809b-b4e1-c380a9e73bed",
           "_url": "https://app.notion.com/p/almuerzo-provoca-38ae6c72cc72809bb4e1c380a9e73bed",
           "_created": "2026-06-25T18:08:00.000Z",
-          "_edited": "2026-06-26T17:22:00.000Z",
+          "_edited": "2026-07-14T13:51:00.000Z",
           "Date Created": {
             "start": "2026-06-25",
             "end": null
           },
           "Price": 24,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "almuerzo provoca",
           "Category": null
         },
@@ -12058,14 +12647,17 @@
           "_id": "389e6c72-cc72-80f2-85c2-ea64600baf57",
           "_url": "https://app.notion.com/p/sopita-389e6c72cc7280f285c2ea64600baf57",
           "_created": "2026-06-24T12:43:00.000Z",
-          "_edited": "2026-06-24T12:44:00.000Z",
+          "_edited": "2026-07-14T13:51:00.000Z",
           "Date Created": {
             "start": "2026-06-24",
             "end": null
           },
           "Price": 3.9,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "sopita",
           "Category": null
         },
@@ -12073,14 +12665,17 @@
           "_id": "388e6c72-cc72-805d-b942-d22864bad275",
           "_url": "https://app.notion.com/p/Menu-provoca-388e6c72cc72805db942d22864bad275",
           "_created": "2026-06-23T17:16:00.000Z",
-          "_edited": "2026-06-23T17:16:00.000Z",
+          "_edited": "2026-07-14T13:51:00.000Z",
           "Date Created": {
             "start": "2026-06-23",
             "end": null
           },
           "Price": 12,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Menu provoca",
           "Category": null
         },
@@ -12088,14 +12683,17 @@
           "_id": "387e6c72-cc72-803b-b48b-f369fb801a7d",
           "_url": "https://app.notion.com/p/Gaseosas-387e6c72cc72803bb48bf369fb801a7d",
           "_created": "2026-06-22T17:48:00.000Z",
-          "_edited": "2026-06-22T17:48:00.000Z",
+          "_edited": "2026-07-14T13:51:00.000Z",
           "Date Created": {
             "start": "2026-06-22",
             "end": null
           },
           "Price": 7,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Gaseosas",
           "Category": null
         },
@@ -12103,14 +12701,17 @@
           "_id": "385e6c72-cc72-813d-bfac-d04fdb381497",
           "_url": "https://app.notion.com/p/Bembos-385e6c72cc72813dbfacd04fdb381497",
           "_created": "2026-06-20T20:28:00.000Z",
-          "_edited": "2026-06-20T20:28:00.000Z",
+          "_edited": "2026-07-14T13:49:00.000Z",
           "Date Created": {
             "start": "2026-06-20",
             "end": null
           },
           "Price": 24.9,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Bembos",
           "Category": null
         },
@@ -12133,14 +12734,17 @@
           "_id": "384e6c72-cc72-80d9-a547-f2822274683e",
           "_url": "https://app.notion.com/p/regalo-para-papa-reloj-384e6c72cc7280d9a547f2822274683e",
           "_created": "2026-06-19T12:21:00.000Z",
-          "_edited": "2026-06-19T12:22:00.000Z",
+          "_edited": "2026-07-14T13:49:00.000Z",
           "Date Created": {
             "start": "2026-06-19",
             "end": null
           },
           "Price": 120,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "regalo para papa reloj",
           "Category": null
         },
@@ -12148,14 +12752,17 @@
           "_id": "383e6c72-cc72-8023-9745-ec782eed7585",
           "_url": "https://app.notion.com/p/frutos-secos-papitas-383e6c72cc7280239745ec782eed7585",
           "_created": "2026-06-18T18:13:00.000Z",
-          "_edited": "2026-06-18T18:13:00.000Z",
+          "_edited": "2026-07-14T13:48:00.000Z",
           "Date Created": {
             "start": "2026-06-18",
             "end": null
           },
           "Price": 5.5,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "frutos secos + papitas",
           "Category": null
         },
@@ -12163,14 +12770,17 @@
           "_id": "382e6c72-cc72-8012-a4b2-d0bdda274754",
           "_url": "https://app.notion.com/p/lomo-saltado-382e6c72cc728012a4b2d0bdda274754",
           "_created": "2026-06-17T18:55:00.000Z",
-          "_edited": "2026-06-17T18:55:00.000Z",
+          "_edited": "2026-07-14T13:48:00.000Z",
           "Date Created": {
             "start": "2026-06-17",
             "end": null
           },
           "Price": 22,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "lomo saltado",
           "Category": null
         },
@@ -12193,14 +12803,17 @@
           "_id": "37fe6c72-cc72-8018-b873-c134fb5aeece",
           "_url": "https://app.notion.com/p/Foco-inteligente-37fe6c72cc728018b873c134fb5aeece",
           "_created": "2026-06-14T21:28:00.000Z",
-          "_edited": "2026-06-14T21:29:00.000Z",
+          "_edited": "2026-07-14T12:46:00.000Z",
           "Date Created": {
             "start": "2026-06-14",
             "end": null
           },
           "Price": 49.9,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Foco inteligente",
           "Category": null
         },
@@ -12208,14 +12821,17 @@
           "_id": "37fe6c72-cc72-80d2-bf2f-e0d38e02e783",
           "_url": "https://app.notion.com/p/Sodimac-black-out-1-37fe6c72cc7280d2bf2fe0d38e02e783",
           "_created": "2026-06-14T21:28:00.000Z",
-          "_edited": "2026-06-15T20:05:00.000Z",
+          "_edited": "2026-07-14T12:46:00.000Z",
           "Date Created": {
             "start": "2026-06-14",
             "end": null
           },
           "Price": 199.9,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Sodimac black out 1",
           "Category": null
         },
@@ -12223,14 +12839,17 @@
           "_id": "37fe6c72-cc72-808c-9922-db68ba1e966f",
           "_url": "https://app.notion.com/p/Long-horn-celebracion-37fe6c72cc72808c9922db68ba1e966f",
           "_created": "2026-06-14T21:27:00.000Z",
-          "_edited": "2026-06-14T21:28:00.000Z",
+          "_edited": "2026-07-14T12:46:00.000Z",
           "Date Created": {
             "start": "2026-06-14",
             "end": null
           },
           "Price": 110,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Long horn celebracion",
           "Category": null
         },
@@ -12238,14 +12857,17 @@
           "_id": "37ee6c72-cc72-80c7-b161-d7bb4ed868d8",
           "_url": "https://app.notion.com/p/pistola-de-silicona-37ee6c72cc7280c7b161d7bb4ed868d8",
           "_created": "2026-06-13T17:58:00.000Z",
-          "_edited": "2026-06-13T17:58:00.000Z",
+          "_edited": "2026-07-14T12:46:00.000Z",
           "Date Created": {
             "start": "2026-06-13",
             "end": null
           },
           "Price": 100,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "pistola de silicona",
           "Category": null
         },
@@ -12253,14 +12875,17 @@
           "_id": "37ce6c72-cc72-812b-9143-ea508fdd61fd",
           "_url": "https://app.notion.com/p/Helado-37ce6c72cc72812b9143ea508fdd61fd",
           "_created": "2026-06-11T18:21:00.000Z",
-          "_edited": "2026-06-11T18:21:00.000Z",
+          "_edited": "2026-07-14T12:45:00.000Z",
           "Date Created": {
             "start": "2026-06-11",
             "end": null
           },
           "Price": 4.9,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Helado",
           "Category": null
         },
@@ -12268,14 +12893,17 @@
           "_id": "37ce6c72-cc72-814d-9faf-feebe3ba2782",
           "_url": "https://app.notion.com/p/Doritos-37ce6c72cc72814d9faffeebe3ba2782",
           "_created": "2026-06-11T14:11:00.000Z",
-          "_edited": "2026-06-11T14:11:00.000Z",
+          "_edited": "2026-07-14T12:45:00.000Z",
           "Date Created": {
             "start": "2026-06-11",
             "end": null
           },
           "Price": 3,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Doritos",
           "Category": null
         },
@@ -12283,14 +12911,17 @@
           "_id": "37be6c72-cc72-81fb-ac33-f49d2ee157a2",
           "_url": "https://app.notion.com/p/Almuerzo-37be6c72cc7281fbac33f49d2ee157a2",
           "_created": "2026-06-10T17:26:00.000Z",
-          "_edited": "2026-06-10T17:26:00.000Z",
+          "_edited": "2026-07-14T12:45:00.000Z",
           "Date Created": {
             "start": "2026-06-10",
             "end": null
           },
           "Price": 12,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Almuerzo",
           "Category": null
         },
@@ -12298,14 +12929,17 @@
           "_id": "37be6c72-cc72-81a4-a956-fcfe6d98a217",
           "_url": "https://app.notion.com/p/Papas-Inkachips-37be6c72cc7281a4a956fcfe6d98a217",
           "_created": "2026-06-10T13:55:00.000Z",
-          "_edited": "2026-06-10T13:55:00.000Z",
+          "_edited": "2026-07-14T12:45:00.000Z",
           "Date Created": {
             "start": "2026-06-10",
             "end": null
           },
           "Price": 2.5,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Papas Inkachips",
           "Category": null
         },
