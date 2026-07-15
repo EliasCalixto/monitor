@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T14:25:09.928590+00:00",
+  "generated_at": "2026-07-15T15:56:13.099903+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,9 +28,9 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 13752.200000000003,
-          "Tot. Expenses": 279103.085,
+          "Tot. Expenses": 283636.82500000007,
           "Total Papa": 1191.86,
-          "Tot. Savings": 10000,
+          "Tot. Savings": 11270.53,
           "SumIngresosPapa": 14944.060000000001,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
@@ -133,8 +133,8 @@
             "398e6c72-cc72-80f7-91ab-d2bbd5c187c4",
             "39be6c72-cc72-8019-ba7b-d5096f5d4983"
           ],
-          "Cash": 423.95500000004,
-          "Tot. Income": 279527.04000000004,
+          "Cash": 423.95499999993,
+          "Tot. Income": 284060.78,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -162,7 +162,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 1615.815000000038,
+          "Cash Total": 1615.814999999928,
           "Name": "Resumen"
         }
       ]
@@ -309,6 +309,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "39ee6c72-cc72-8027-abd9-feab369fd401",
+          "_url": "https://app.notion.com/p/quincena-TP-grati-TP-39ee6c72cc728027abd9feab369fd401",
+          "_created": "2026-07-15T14:25:00.000Z",
+          "_edited": "2026-07-15T14:26:00.000Z",
+          "Date Received": {
+            "start": "2026-07-15",
+            "end": null
+          },
+          "Income": 4533.74,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "quincena TP + grati TP"
+        },
         {
           "_id": "39ce6c72-cc72-80da-94c0-d9c1b8e7387d",
           "_url": "https://app.notion.com/p/Area-quincena-39ce6c72cc7280da94c0d9c1b8e7387d",
@@ -1163,6 +1178,161 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "39ee6c72-cc72-80e8-b15d-c8db6d4025b4",
+          "_url": "https://app.notion.com/p/acumulacion-Julio-39ee6c72cc7280e8b15dc8db6d4025b4",
+          "_created": "2026-07-15T15:54:00.000Z",
+          "_edited": "2026-07-15T15:54:00.000Z",
+          "Category": "Savings",
+          "Date Created": {
+            "start": "2026-07-15",
+            "end": null
+          },
+          "ExpensesSavings": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1270.53,
+          "Name": "acumulacion Julio"
+        },
+        {
+          "_id": "39ee6c72-cc72-80fb-b4bf-dbd70a19d033",
+          "_url": "https://app.notion.com/p/cambio-a-dolares-39ee6c72cc7280fbb4bfdbd70a19d033",
+          "_created": "2026-07-15T15:53:00.000Z",
+          "_edited": "2026-07-15T15:53:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-07-15",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 714.1,
+          "Name": "cambio a dolares"
+        },
+        {
+          "_id": "39ee6c72-cc72-808b-88ce-fd909d10b1c2",
+          "_url": "https://app.notion.com/p/los-primeros-90-dias-39ee6c72cc72808b88cefd909d10b1c2",
+          "_created": "2026-07-15T14:29:00.000Z",
+          "_edited": "2026-07-15T14:29:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2026-07-15",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 52.9,
+          "Name": "los primeros 90 dias"
+        },
+        {
+          "_id": "39ee6c72-cc72-80e1-8bc5-f51f339298cb",
+          "_url": "https://app.notion.com/p/cargador-inalambrico-3-en-1-39ee6c72cc7280e18bc5f51f339298cb",
+          "_created": "2026-07-15T14:28:00.000Z",
+          "_edited": "2026-07-15T14:29:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2026-07-15",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 356.02,
+          "Name": "cargador inalambrico 3 en 1"
+        },
+        {
+          "_id": "39ee6c72-cc72-8057-a922-cccc70feadfd",
+          "_url": "https://app.notion.com/p/vaporizador-39ee6c72cc728057a922cccc70feadfd",
+          "_created": "2026-07-15T14:28:00.000Z",
+          "_edited": "2026-07-15T14:28:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-07-15",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 137.61,
+          "Name": "vaporizador"
+        },
+        {
+          "_id": "39ee6c72-cc72-80a3-95cb-e35f942cbfea",
+          "_url": "https://app.notion.com/p/madburguer-39ee6c72cc7280a395cbe35f942cbfea",
+          "_created": "2026-07-15T14:28:00.000Z",
+          "_edited": "2026-07-15T14:28:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-15",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 79.8,
+          "Name": "madburguer"
+        },
+        {
+          "_id": "39ee6c72-cc72-8067-9d36-de17041b6970",
+          "_url": "https://app.notion.com/p/Heladito-39ee6c72cc7280679d36de17041b6970",
+          "_created": "2026-07-15T14:28:00.000Z",
+          "_edited": "2026-07-15T14:28:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-15",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 14,
+          "Name": "Heladito"
+        },
+        {
+          "_id": "39ee6c72-cc72-8013-a5f3-d96fdd9a13a1",
+          "_url": "https://app.notion.com/p/reloj-orient-39ee6c72cc728013a5f3d96fdd9a13a1",
+          "_created": "2026-07-15T14:28:00.000Z",
+          "_edited": "2026-07-15T14:28:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-15",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 549.78,
+          "Name": "reloj orient"
+        },
+        {
+          "_id": "39ee6c72-cc72-80c2-b9ef-f69971499bc8",
+          "_url": "https://app.notion.com/p/sodimac-black-out-2-39ee6c72cc7280c2b9eff69971499bc8",
+          "_created": "2026-07-15T14:27:00.000Z",
+          "_edited": "2026-07-15T14:28:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-07-15",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1359,
+          "Name": "sodimac black out 2"
+        },
         {
           "_id": "39de6c72-cc72-8066-9fcc-c1f45268444d",
           "_url": "https://app.notion.com/p/pasajes-39de6c72cc7280669fccc1f45268444d",
@@ -12349,14 +12519,17 @@
           "_id": "39de6c72-cc72-8004-ab26-d13d20fe4ddf",
           "_url": "https://app.notion.com/p/Los-primeros-90-dias-39de6c72cc728004ab26d13d20fe4ddf",
           "_created": "2026-07-14T22:17:00.000Z",
-          "_edited": "2026-07-14T22:18:00.000Z",
+          "_edited": "2026-07-15T14:29:00.000Z",
           "Date Created": {
             "start": "2026-07-14",
             "end": null
           },
           "Price": 52.9,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-15",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Los primeros 90 dias",
           "Category": null
         },
@@ -12364,14 +12537,17 @@
           "_id": "39ce6c72-cc72-806c-958e-ee3a145ae987",
           "_url": "https://app.notion.com/p/cargador-inalambrico-3-en-1-39ce6c72cc72806c958eee3a145ae987",
           "_created": "2026-07-13T14:19:00.000Z",
-          "_edited": "2026-07-13T14:19:00.000Z",
+          "_edited": "2026-07-15T14:29:00.000Z",
           "Date Created": {
             "start": "2026-07-13",
             "end": null
           },
           "Price": 356.02,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-15",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "cargador inalambrico 3 en 1",
           "Category": null
         },
@@ -12379,14 +12555,17 @@
           "_id": "39be6c72-cc72-8027-821f-cc77ffe737f7",
           "_url": "https://app.notion.com/p/Vaporizador-39be6c72cc728027821fcc77ffe737f7",
           "_created": "2026-07-12T18:04:00.000Z",
-          "_edited": "2026-07-12T18:04:00.000Z",
+          "_edited": "2026-07-15T14:28:00.000Z",
           "Date Created": {
             "start": "2026-07-12",
             "end": null
           },
           "Price": 137.61,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-15",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Vaporizador",
           "Category": null
         },
@@ -12538,14 +12717,17 @@
           "_id": "390e6c72-cc72-8095-9ead-dd712290c158",
           "_url": "https://app.notion.com/p/mad-burguer-390e6c72cc7280959eaddd712290c158",
           "_created": "2026-07-01T18:41:00.000Z",
-          "_edited": "2026-07-01T18:41:00.000Z",
+          "_edited": "2026-07-15T14:28:00.000Z",
           "Date Created": {
             "start": "2026-07-01",
             "end": null
           },
           "Price": 79.8,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-15",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "mad burguer",
           "Category": null
         },
@@ -12553,17 +12735,17 @@
           "_id": "38ee6c72-cc72-80e4-bf51-d56a21943281",
           "_url": "https://app.notion.com/p/Heladito-38ee6c72cc7280e4bf51d56a21943281",
           "_created": "2026-06-29T02:08:00.000Z",
-          "_edited": "2026-07-14T14:03:00.000Z",
+          "_edited": "2026-07-15T14:28:00.000Z",
           "Date Created": {
             "start": "2026-06-28",
             "end": null
           },
           "Price": 14,
           "Date Payed": {
-            "start": "2026-07-14",
+            "start": "2026-07-15",
             "end": null
           },
-          "Status": "Pending",
+          "Status": "Payed",
           "Name": "Heladito",
           "Category": null
         },
@@ -12751,14 +12933,17 @@
           "_id": "385e6c72-cc72-80ee-a9b8-e07d34024feb",
           "_url": "https://app.notion.com/p/Reloj-orient-385e6c72cc7280eea9b8e07d34024feb",
           "_created": "2026-06-20T02:04:00.000Z",
-          "_edited": "2026-06-20T02:04:00.000Z",
+          "_edited": "2026-07-15T14:28:00.000Z",
           "Date Created": {
             "start": "2026-06-19",
             "end": null
           },
           "Price": 549.78,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-15",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Reloj orient",
           "Category": null
         },
@@ -12820,14 +13005,17 @@
           "_id": "380e6c72-cc72-8009-944a-deb10767b90d",
           "_url": "https://app.notion.com/p/Sodimac-black-out-2-380e6c72cc728009944adeb10767b90d",
           "_created": "2026-06-15T20:05:00.000Z",
-          "_edited": "2026-06-15T20:05:00.000Z",
+          "_edited": "2026-07-15T14:28:00.000Z",
           "Date Created": {
             "start": "2026-06-15",
             "end": null
           },
           "Price": 1359,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-07-15",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Sodimac black out 2",
           "Category": null
         },
