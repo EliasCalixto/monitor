@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T15:56:13.099903+00:00",
+  "generated_at": "2026-07-15T17:03:11.202406+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 13752.200000000003,
+          "SumGastosPapa": 13850.200000000003,
           "Tot. Expenses": 283636.82500000007,
-          "Total Papa": 1191.86,
+          "Total Papa": 1093.86,
           "Tot. Savings": 11270.53,
           "SumIngresosPapa": 14944.060000000001,
           "Expenses": [
@@ -162,7 +162,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 1615.814999999928,
+          "Cash Total": 1517.814999999928,
           "Name": "Resumen"
         }
       ]
@@ -14079,6 +14079,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "39ee6c72-cc72-807f-bfef-da6e0b6e1163",
+          "_url": "https://app.notion.com/p/linda-karen-39ee6c72cc72807fbfefda6e0b6e1163",
+          "_created": "2026-07-15T16:01:00.000Z",
+          "_edited": "2026-07-15T16:01:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-07-15",
+            "end": null
+          },
+          "Money": 28,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "linda karen"
+        },
+        {
+          "_id": "39ee6c72-cc72-8015-aae6-f62042a3682a",
+          "_url": "https://app.notion.com/p/amalia-39ee6c72cc728015aae6f62042a3682a",
+          "_created": "2026-07-15T15:58:00.000Z",
+          "_edited": "2026-07-15T15:58:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-07-15",
+            "end": null
+          },
+          "Money": 70,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "amalia"
+        },
         {
           "_id": "39de6c72-cc72-8084-9dd8-ff0e8cb8d893",
           "_url": "https://app.notion.com/p/katheryhn-39de6c72cc7280849dd8ff0e8cb8d893",
