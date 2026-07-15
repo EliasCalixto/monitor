@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T18:18:09.908014+00:00",
+  "generated_at": "2026-07-15T19:42:46.484792+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 13850.200000000003,
-          "Tot. Expenses": 283639.82500000007,
+          "Tot. Expenses": 283839.82500000007,
           "Total Papa": 1093.86,
           "Tot. Savings": 11270.53,
           "SumIngresosPapa": 14944.060000000001,
@@ -133,7 +133,7 @@
             "398e6c72-cc72-80f7-91ab-d2bbd5c187c4",
             "39be6c72-cc72-8019-ba7b-d5096f5d4983"
           ],
-          "Cash": 420.95499999993,
+          "Cash": 220.95499999993,
           "Tot. Income": 284060.78,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -162,7 +162,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 1514.814999999928,
+          "Cash Total": 1314.814999999928,
           "Name": "Resumen"
         }
       ]
@@ -1178,6 +1178,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "39ee6c72-cc72-80b4-9772-c4df79df608d",
+          "_url": "https://app.notion.com/p/Rogy-prestamo-39ee6c72cc7280b49772c4df79df608d",
+          "_created": "2026-07-15T19:26:00.000Z",
+          "_edited": "2026-07-15T19:26:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-07-15",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 200,
+          "Name": "Rogy prestamo"
+        },
         {
           "_id": "39ee6c72-cc72-8014-835a-f262747e211a",
           "_url": "https://app.notion.com/p/pasajes-39ee6c72cc728014835af262747e211a",
