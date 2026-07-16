@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T01:04:33.951226+00:00",
+  "generated_at": "2026-07-16T04:22:05.874092+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 13850.200000000003,
-          "Tot. Expenses": 283839.8150000001,
+          "Tot. Expenses": 283847.8150000001,
           "Total Papa": 1093.86,
           "Tot. Savings": 11270.53,
           "SumIngresosPapa": 14944.060000000001,
@@ -133,7 +133,7 @@
             "398e6c72-cc72-80f7-91ab-d2bbd5c187c4",
             "39be6c72-cc72-8019-ba7b-d5096f5d4983"
           ],
-          "Cash": 220.9649999999,
+          "Cash": 212.9649999999,
           "Tot. Income": 284060.78,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -162,7 +162,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 1314.824999999898,
+          "Cash Total": 1306.824999999898,
           "Name": "Resumen"
         }
       ]
@@ -1178,6 +1178,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "39fe6c72-cc72-809f-af32-eaea3563c9a5",
+          "_url": "https://app.notion.com/p/Pollito-broster-39fe6c72cc72809faf32eaea3563c9a5",
+          "_created": "2026-07-16T03:03:00.000Z",
+          "_edited": "2026-07-16T03:03:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-15",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 8,
+          "Name": "Pollito broster"
+        },
         {
           "_id": "39ee6c72-cc72-80ce-9ba9-c92abb1a8411",
           "_url": "https://app.notion.com/p/Gastos-fijos-en-dolares-39ee6c72cc7280ce9ba9c92abb1a8411",
