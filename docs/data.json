@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T14:18:55.300442+00:00",
+  "generated_at": "2026-07-16T15:51:09.251172+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -12600,6 +12600,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "39fe6c72-cc72-80c7-bc9a-ec441d437d28",
+          "_url": "https://app.notion.com/p/sopita-39fe6c72cc7280c7bc9aec441d437d28",
+          "_created": "2026-07-16T14:34:00.000Z",
+          "_edited": "2026-07-16T14:34:00.000Z",
+          "Date Created": {
+            "start": "2026-07-16",
+            "end": null
+          },
+          "Price": 3.9,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "sopita",
+          "Category": null
+        },
         {
           "_id": "39de6c72-cc72-8004-ab26-d13d20fe4ddf",
           "_url": "https://app.notion.com/p/Los-primeros-90-dias-39de6c72cc728004ab26d13d20fe4ddf",
