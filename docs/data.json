@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T15:51:09.251172+00:00",
+  "generated_at": "2026-07-16T16:57:49.753060+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 13850.200000000003,
+          "SumGastosPapa": 13865.200000000003,
           "Tot. Expenses": 283861.8150000001,
-          "Total Papa": 1093.86,
+          "Total Papa": 1078.86,
           "Tot. Savings": 11270.53,
           "SumIngresosPapa": 14944.060000000001,
           "Expenses": [
@@ -162,7 +162,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 1292.824999999898,
+          "Cash Total": 1277.824999999898,
           "Name": "Resumen"
         }
       ]
@@ -14179,6 +14179,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "39fe6c72-cc72-806f-990b-cc15a1fcf2c1",
+          "_url": "https://app.notion.com/p/yape-39fe6c72cc72806f990bcc15a1fcf2c1",
+          "_created": "2026-07-16T16:17:00.000Z",
+          "_edited": "2026-07-16T16:17:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-07-16",
+            "end": null
+          },
+          "Money": 15,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "yape"
+        },
         {
           "_id": "39ee6c72-cc72-807f-bfef-da6e0b6e1163",
           "_url": "https://app.notion.com/p/linda-karen-39ee6c72cc72807fbfefda6e0b6e1163",
