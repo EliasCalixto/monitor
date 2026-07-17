@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T12:46:02.649901+00:00",
+  "generated_at": "2026-07-17T14:21:43.305707+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 13865.200000000003,
-          "Tot. Expenses": 283929.8150000001,
+          "Tot. Expenses": 283938.1150000001,
           "Total Papa": 1078.86,
           "Tot. Savings": 11270.53,
           "SumIngresosPapa": 14944.060000000001,
@@ -133,7 +133,7 @@
             "398e6c72-cc72-80f7-91ab-d2bbd5c187c4",
             "39be6c72-cc72-8019-ba7b-d5096f5d4983"
           ],
-          "Cash": 130.9649999999,
+          "Cash": 122.6649999999,
           "Tot. Income": 284060.78,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -162,7 +162,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 1209.824999999898,
+          "Cash Total": 1201.524999999898,
           "Name": "Resumen"
         }
       ]
@@ -1178,6 +1178,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3a0e6c72-cc72-80fd-895b-e6e10e071878",
+          "_url": "https://app.notion.com/p/pasaje-y-desayuni-3a0e6c72cc7280fd895be6e10e071878",
+          "_created": "2026-07-17T13:42:00.000Z",
+          "_edited": "2026-07-17T13:42:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-17",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 8.3,
+          "Name": "pasaje y desayuni"
+        },
         {
           "_id": "3a0e6c72-cc72-80f2-959c-e34adaa05ffa",
           "_url": "https://app.notion.com/p/terapia-3a0e6c72cc7280f2959ce34adaa05ffa",
@@ -12634,6 +12651,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3a0e6c72-cc72-80ae-8061-d26b09fc2516",
+          "_url": "https://app.notion.com/p/gfalletitia-y-frugos-3a0e6c72cc7280ae8061d26b09fc2516",
+          "_created": "2026-07-17T13:42:00.000Z",
+          "_edited": "2026-07-17T13:43:00.000Z",
+          "Date Created": {
+            "start": "2026-07-17",
+            "end": null
+          },
+          "Price": 7,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "gfalletitia y frugos",
+          "Category": null
+        },
         {
           "_id": "39fe6c72-cc72-80c7-bc9a-ec441d437d28",
           "_url": "https://app.notion.com/p/sopita-39fe6c72cc7280c7bc9aec441d437d28",
