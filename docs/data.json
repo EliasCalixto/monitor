@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T00:09:52.851908+00:00",
+  "generated_at": "2026-07-17T03:32:51.409763+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 13865.200000000003,
-          "Tot. Expenses": 283861.8150000001,
+          "Tot. Expenses": 283929.8150000001,
           "Total Papa": 1078.86,
           "Tot. Savings": 11270.53,
           "SumIngresosPapa": 14944.060000000001,
@@ -133,7 +133,7 @@
             "398e6c72-cc72-80f7-91ab-d2bbd5c187c4",
             "39be6c72-cc72-8019-ba7b-d5096f5d4983"
           ],
-          "Cash": 198.9649999999,
+          "Cash": 130.9649999999,
           "Tot. Income": 284060.78,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -162,7 +162,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 1277.824999999898,
+          "Cash Total": 1209.824999999898,
           "Name": "Resumen"
         }
       ]
@@ -1178,6 +1178,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3a0e6c72-cc72-80f2-959c-e34adaa05ffa",
+          "_url": "https://app.notion.com/p/terapia-3a0e6c72cc7280f2959ce34adaa05ffa",
+          "_created": "2026-07-17T01:15:00.000Z",
+          "_edited": "2026-07-17T01:16:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2026-07-16",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 65,
+          "Name": "terapia"
+        },
+        {
+          "_id": "3a0e6c72-cc72-80a6-88f5-f280e64c52d2",
+          "_url": "https://app.notion.com/p/Pasaje-3a0e6c72cc7280a688f5f280e64c52d2",
+          "_created": "2026-07-17T00:25:00.000Z",
+          "_edited": "2026-07-17T00:25:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-16",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3,
+          "Name": "Pasaje"
+        },
         {
           "_id": "39fe6c72-cc72-80d9-b1cb-e2a14999a875",
           "_url": "https://app.notion.com/p/pasaje-39fe6c72cc7280d9b1cbe2a14999a875",
