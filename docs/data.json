@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T21:01:54.071877+00:00",
+  "generated_at": "2026-07-18T22:03:13.630467+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -177,6 +177,16 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3a1e6c72-cc72-802b-82fb-f4472dce90df",
+          "_url": "https://app.notion.com/p/Studio-Mano-de-Obra-3a1e6c72cc72802b82fbf4472dce90df",
+          "_created": "2026-07-18T21:26:00.000Z",
+          "_edited": "2026-07-18T21:27:00.000Z",
+          "Price": 400,
+          "Status": "Urgent",
+          "Details": "",
+          "Name": "Studio Mano de Obra"
+        },
         {
           "_id": "39be6c72-cc72-80d0-aedb-e7aee35fe8c6",
           "_url": "https://app.notion.com/p/Operaci-n-de-ojos-39be6c72cc7280d0aedbe7aee35fe8c6",
