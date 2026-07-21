@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T21:30:49.899328+00:00",
+  "generated_at": "2026-07-21T22:32:37.628030+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -29,9 +29,9 @@
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 13905.200000000003,
           "Tot. Expenses": 283989.6150000001,
-          "Total Papa": 1038.86,
+          "Total Papa": 10038.86,
           "Tot. Savings": 11270.53,
-          "SumIngresosPapa": 14944.060000000001,
+          "SumIngresosPapa": 23944.06,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
             "34fe6c72-cc72-818b-a14d-f54df1618747",
@@ -131,7 +131,8 @@
             "38de6c72-cc72-8044-859f-c2e54b51146c",
             "397e6c72-cc72-80a5-a261-db0fd7c6bcbf",
             "398e6c72-cc72-80f7-91ab-d2bbd5c187c4",
-            "39be6c72-cc72-8019-ba7b-d5096f5d4983"
+            "39be6c72-cc72-8019-ba7b-d5096f5d4983",
+            "3a4e6c72-cc72-8097-9428-ec96a22afa51"
           ],
           "Cash": 71.1649999999,
           "Tot. Income": 284060.78,
@@ -162,7 +163,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 1110.024999999898,
+          "Cash Total": 10110.024999999898,
           "Name": "Resumen"
         }
       ]
@@ -14355,6 +14356,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3a4e6c72-cc72-8097-9428-ec96a22afa51",
+          "_url": "https://app.notion.com/p/Tacsa-3a4e6c72cc7280979428ec96a22afa51",
+          "_created": "2026-07-21T22:15:00.000Z",
+          "_edited": "2026-07-21T22:15:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-07-21",
+            "end": null
+          },
+          "Money": 9000,
+          "Total Gastos Papa": [],
+          "Name": "Tacsa"
+        },
         {
           "_id": "3a1e6c72-cc72-815c-a490-ec9fc97027f7",
           "_url": "https://app.notion.com/p/Gasto-pap-3a1e6c72cc72815ca490ec9fc97027f7",
