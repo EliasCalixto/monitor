@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T01:03:41.995670+00:00",
+  "generated_at": "2026-07-22T04:29:27.602611+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 13905.200000000003,
-          "Tot. Expenses": 283989.6150000001,
-          "Total Papa": 10038.86,
+          "SumGastosPapa": 13930.200000000003,
+          "Tot. Expenses": 284031.51500000013,
+          "Total Papa": 10013.86,
           "Tot. Savings": 11270.53,
           "SumIngresosPapa": 23944.06,
           "Expenses": [
@@ -134,7 +134,7 @@
             "39be6c72-cc72-8019-ba7b-d5096f5d4983",
             "3a4e6c72-cc72-8097-9428-ec96a22afa51"
           ],
-          "Cash": 71.1649999999,
+          "Cash": 29.26499999987,
           "Tot. Income": 284060.78,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -163,7 +163,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 10110.024999999898,
+          "Cash Total": 10043.124999999867,
           "Name": "Resumen"
         }
       ]
@@ -1189,6 +1189,74 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3a5e6c72-cc72-8063-b00c-e5ca3fe9d8cc",
+          "_url": "https://app.notion.com/p/ni-idea-3a5e6c72cc728063b00ce5ca3fe9d8cc",
+          "_created": "2026-07-22T01:20:00.000Z",
+          "_edited": "2026-07-22T01:20:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-07-21",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 4.9,
+          "Name": "ni idea"
+        },
+        {
+          "_id": "3a5e6c72-cc72-8067-9ad5-ee30dd4f33a1",
+          "_url": "https://app.notion.com/p/fruta-y-frutos-secos-3a5e6c72cc7280679ad5ee30dd4f33a1",
+          "_created": "2026-07-22T01:18:00.000Z",
+          "_edited": "2026-07-22T01:18:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-21",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 19,
+          "Name": "fruta y frutos secos"
+        },
+        {
+          "_id": "3a5e6c72-cc72-802a-8662-e23906223213",
+          "_url": "https://app.notion.com/p/lavada-de-terno-3a5e6c72cc72802a8662e23906223213",
+          "_created": "2026-07-22T01:17:00.000Z",
+          "_edited": "2026-07-22T01:17:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-07-21",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 15,
+          "Name": "lavada de terno"
+        },
+        {
+          "_id": "3a5e6c72-cc72-80ea-9028-f0dc71541cb9",
+          "_url": "https://app.notion.com/p/pasaje-3a5e6c72cc7280ea9028f0dc71541cb9",
+          "_created": "2026-07-22T01:17:00.000Z",
+          "_edited": "2026-07-22T01:17:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-21",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3,
+          "Name": "pasaje"
+        },
         {
           "_id": "3a4e6c72-cc72-80a2-9e87-e2371abd4828",
           "_url": "https://app.notion.com/p/pasaje-3a4e6c72cc7280a29e87e2371abd4828",
@@ -12748,6 +12816,51 @@
       },
       "rows": [
         {
+          "_id": "3a5e6c72-cc72-8062-9aef-ea27ef4fdcc0",
+          "_url": "https://app.notion.com/p/Luminarias-3a5e6c72cc7280629aefea27ef4fdcc0",
+          "_created": "2026-07-22T03:26:00.000Z",
+          "_edited": "2026-07-22T03:26:00.000Z",
+          "Date Created": {
+            "start": "2026-07-21",
+            "end": null
+          },
+          "Price": 350,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Luminarias",
+          "Category": null
+        },
+        {
+          "_id": "3a5e6c72-cc72-8062-be2a-fefa6e752b9c",
+          "_url": "https://app.notion.com/p/Win-julio-3a5e6c72cc728062be2afefa6e752b9c",
+          "_created": "2026-07-22T02:35:00.000Z",
+          "_edited": "2026-07-22T02:35:00.000Z",
+          "Date Created": {
+            "start": "2026-07-21",
+            "end": null
+          },
+          "Price": 109,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Win julio",
+          "Category": null
+        },
+        {
+          "_id": "3a5e6c72-cc72-80d2-a9cc-c18e90e98227",
+          "_url": "https://app.notion.com/p/examen-ingles-usil-PTE-3a5e6c72cc7280d2a9ccc18e90e98227",
+          "_created": "2026-07-22T01:16:00.000Z",
+          "_edited": "2026-07-22T01:16:00.000Z",
+          "Date Created": {
+            "start": "2026-07-21",
+            "end": null
+          },
+          "Price": 485,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "examen ingles usil PTE",
+          "Category": null
+        },
+        {
           "_id": "3a0e6c72-cc72-80a5-bd9a-e5230bc7e7be",
           "_url": "https://app.notion.com/p/mad-butguer-3a0e6c72cc7280a5bd9ae5230bc7e7be",
           "_created": "2026-07-17T18:25:00.000Z",
@@ -14356,6 +14469,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3a5e6c72-cc72-80a5-bf70-dd16bee4f5c4",
+          "_url": "https://app.notion.com/p/bella-3a5e6c72cc7280a5bf70dd16bee4f5c4",
+          "_created": "2026-07-22T01:18:00.000Z",
+          "_edited": "2026-07-22T01:18:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-07-21",
+            "end": null
+          },
+          "Money": 25,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "bella"
+        },
         {
           "_id": "3a4e6c72-cc72-8097-9428-ec96a22afa51",
           "_url": "https://app.notion.com/p/Tacsa-3a4e6c72cc7280979428ec96a22afa51",
