@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T21:18:35.068463+00:00",
+  "generated_at": "2026-07-23T22:27:58.765614+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -12758,21 +12758,6 @@
         "Category": "select"
       },
       "rows": [
-        {
-          "_id": "3a5e6c72-cc72-8062-9aef-ea27ef4fdcc0",
-          "_url": "https://app.notion.com/p/Luminarias-3a5e6c72cc7280629aefea27ef4fdcc0",
-          "_created": "2026-07-22T03:26:00.000Z",
-          "_edited": "2026-07-22T03:26:00.000Z",
-          "Date Created": {
-            "start": "2026-07-21",
-            "end": null
-          },
-          "Price": 350,
-          "Date Payed": null,
-          "Status": "Pending",
-          "Name": "Luminarias",
-          "Category": null
-        },
         {
           "_id": "3a5e6c72-cc72-8062-be2a-fefa6e752b9c",
           "_url": "https://app.notion.com/p/Win-julio-3a5e6c72cc728062be2afefa6e752b9c",
