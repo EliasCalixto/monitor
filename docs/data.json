@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T23:58:30.640534+00:00",
+  "generated_at": "2026-07-23T02:14:21.824781+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 13930.200000000003,
-          "Tot. Expenses": 284143.8150000001,
-          "Total Papa": 10013.86,
+          "SumGastosPapa": 14024.200000000003,
+          "Tot. Expenses": 284281.3150000001,
+          "Total Papa": 9919.86,
           "Tot. Savings": 11270.53,
           "SumIngresosPapa": 23944.06,
           "Expenses": [
@@ -134,7 +134,7 @@
             "39be6c72-cc72-8019-ba7b-d5096f5d4983",
             "3a4e6c72-cc72-8097-9428-ec96a22afa51"
           ],
-          "Cash": -83.0350000001,
+          "Cash": -220.5350000001,
           "Tot. Income": 284060.78,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -163,170 +163,8 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 9930.824999999895,
+          "Cash Total": 9699.324999999895,
           "Name": "Resumen"
-        }
-      ]
-    },
-    {
-      "id": "262e6c72-cc72-80d6-90ac-ef7a711d53bc",
-      "title": "To Buy",
-      "schema": {
-        "Price": "number",
-        "Status": "status",
-        "Details": "rich_text",
-        "Name": "title"
-      },
-      "rows": [
-        {
-          "_id": "3a5e6c72-cc72-80dd-8698-e7229c65ea76",
-          "_url": "https://app.notion.com/p/Zapatillas-de-futbol-3a5e6c72cc7280dd8698e7229c65ea76",
-          "_created": "2026-07-22T14:18:00.000Z",
-          "_edited": "2026-07-22T14:18:00.000Z",
-          "Price": 200,
-          "Status": "Urgent",
-          "Details": "",
-          "Name": "Zapatillas de futbol"
-        },
-        {
-          "_id": "3a5e6c72-cc72-8058-a173-ed2a99e0f357",
-          "_url": "https://app.notion.com/p/Camisas-Blancas-x5-3a5e6c72cc728058a173ed2a99e0f357",
-          "_created": "2026-07-22T13:57:00.000Z",
-          "_edited": "2026-07-22T14:18:00.000Z",
-          "Price": 150,
-          "Status": "Urgent",
-          "Details": "",
-          "Name": "Camisas Blancas x5"
-        },
-        {
-          "_id": "3a1e6c72-cc72-802b-82fb-f4472dce90df",
-          "_url": "https://app.notion.com/p/Studio-Mano-de-Obra-3a1e6c72cc72802b82fbf4472dce90df",
-          "_created": "2026-07-18T21:26:00.000Z",
-          "_edited": "2026-07-18T21:27:00.000Z",
-          "Price": 400,
-          "Status": "Urgent",
-          "Details": "",
-          "Name": "Studio Mano de Obra"
-        },
-        {
-          "_id": "39be6c72-cc72-80d0-aedb-e7aee35fe8c6",
-          "_url": "https://app.notion.com/p/Operaci-n-de-ojos-39be6c72cc7280d0aedbe7aee35fe8c6",
-          "_created": "2026-07-12T16:10:00.000Z",
-          "_edited": "2026-07-12T16:11:00.000Z",
-          "Price": 1900,
-          "Status": "Urgent",
-          "Details": "",
-          "Name": "Operación de ojos"
-        },
-        {
-          "_id": "38be6c72-cc72-8051-8334-c76c1cea86fd",
-          "_url": "https://app.notion.com/p/Luminarias-e-Interruptores-38be6c72cc7280518334c76c1cea86fd",
-          "_created": "2026-06-26T14:58:00.000Z",
-          "_edited": "2026-07-22T14:19:00.000Z",
-          "Price": 200,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Luminarias e Interruptores"
-        },
-        {
-          "_id": "38be6c72-cc72-8026-9962-e64b1c3ca33e",
-          "_url": "https://app.notion.com/p/Puerta-38be6c72cc7280269962e64b1c3ca33e",
-          "_created": "2026-06-26T14:58:00.000Z",
-          "_edited": "2026-06-26T14:58:00.000Z",
-          "Price": 500,
-          "Status": "Urgent",
-          "Details": "",
-          "Name": "Puerta"
-        },
-        {
-          "_id": "37fe6c72-cc72-80e6-a8a4-cebbe09fe64c",
-          "_url": "https://app.notion.com/p/Brevete-37fe6c72cc7280e6a8a4cebbe09fe64c",
-          "_created": "2026-06-14T15:48:00.000Z",
-          "_edited": "2026-06-14T15:48:00.000Z",
-          "Price": 700,
-          "Status": "Urgent",
-          "Details": "",
-          "Name": "Brevete"
-        },
-        {
-          "_id": "32ae6c72-cc72-80be-9205-cd7636595f5d",
-          "_url": "https://app.notion.com/p/Recuerdo-para-familia-32ae6c72cc7280be9205cd7636595f5d",
-          "_created": "2026-03-21T21:59:00.000Z",
-          "_edited": "2026-03-27T04:30:00.000Z",
-          "Price": 100,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Recuerdo para familia"
-        },
-        {
-          "_id": "318e6c72-cc72-80c2-947b-fca59cc7bb39",
-          "_url": "https://app.notion.com/p/Zapatillas-blancas-x1-318e6c72cc7280c2947bfca59cc7bb39",
-          "_created": "2026-03-03T02:17:00.000Z",
-          "_edited": "2026-03-17T17:04:00.000Z",
-          "Price": 400,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Zapatillas blancas x1"
-        },
-        {
-          "_id": "2e6e6c72-cc72-8001-9e59-ce1d36dd078d",
-          "_url": "https://app.notion.com/p/Guitarra-Acoustica-2e6e6c72cc7280019e59ce1d36dd078d",
-          "_created": "2026-01-12T02:23:00.000Z",
-          "_edited": "2026-01-13T16:33:00.000Z",
-          "Price": 900,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Guitarra Acoustica"
-        },
-        {
-          "_id": "2e0e6c72-cc72-80b4-8e15-f90092179bd3",
-          "_url": "https://app.notion.com/p/Zapatillas-blancas-x2-2e0e6c72cc7280b48e15f90092179bd3",
-          "_created": "2026-01-06T00:59:00.000Z",
-          "_edited": "2026-04-26T06:52:00.000Z",
-          "Price": 700,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Zapatillas blancas x2"
-        },
-        {
-          "_id": "2c5e6c72-cc72-80f0-bf1b-fad2d3d99a49",
-          "_url": "https://app.notion.com/p/Polos-blancos-x2-2c5e6c72cc7280f0bf1bfad2d3d99a49",
-          "_created": "2025-12-10T03:51:00.000Z",
-          "_edited": "2025-12-23T00:17:00.000Z",
-          "Price": 150,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Polos blancos x2"
-        },
-        {
-          "_id": "2c5e6c72-cc72-800c-94b9-ce4c04db43d8",
-          "_url": "https://app.notion.com/p/Medias-x3-2c5e6c72cc72800c94b9ce4c04db43d8",
-          "_created": "2025-12-10T03:51:00.000Z",
-          "_edited": "2025-12-23T00:14:00.000Z",
-          "Price": 100,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Medias x3"
-        },
-        {
-          "_id": "2c5e6c72-cc72-80c3-a728-d5a9de4bb316",
-          "_url": "https://app.notion.com/p/Zapatos-Comodos-2c5e6c72cc7280c3a728d5a9de4bb316",
-          "_created": "2025-12-10T03:50:00.000Z",
-          "_edited": "2025-12-22T19:55:00.000Z",
-          "Price": 300,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Zapatos Comodos"
-        },
-        {
-          "_id": "262e6c72-cc72-8051-8fa3-de6209a64474",
-          "_url": "https://app.notion.com/p/Casaca-x2-262e6c72cc7280518fa3de6209a64474",
-          "_created": "2025-09-02T17:57:00.000Z",
-          "_edited": "2025-09-04T03:28:00.000Z",
-          "Price": 400,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Casaca x2"
         }
       ]
     },
@@ -1209,6 +1047,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3a6e6c72-cc72-80e3-bd46-e503ff88943a",
+          "_url": "https://app.notion.com/p/almuerzo-en-chifita-3a6e6c72cc7280e3bd46e503ff88943a",
+          "_created": "2026-07-23T00:02:00.000Z",
+          "_edited": "2026-07-23T00:02:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-22",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 14,
+          "Name": "almuerzo en chifita"
+        },
+        {
+          "_id": "3a6e6c72-cc72-8002-9b8d-d224ad4f4425",
+          "_url": "https://app.notion.com/p/pasajes-3a6e6c72cc7280029b8dd224ad4f4425",
+          "_created": "2026-07-23T00:01:00.000Z",
+          "_edited": "2026-07-23T00:02:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-22",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3.5,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "3a6e6c72-cc72-8073-9a02-ffa20ff1e23b",
+          "_url": "https://app.notion.com/p/dentista-3a6e6c72cc7280739a02ffa20ff1e23b",
+          "_created": "2026-07-23T00:01:00.000Z",
+          "_edited": "2026-07-23T00:01:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-07-22",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 120,
+          "Name": "dentista"
+        },
         {
           "_id": "3a5e6c72-cc72-8055-b94a-fe01c9428904",
           "_url": "https://app.notion.com/p/pasajes-3a5e6c72cc728055b94afe01c9428904",
@@ -14524,19 +14413,55 @@
       },
       "rows": [
         {
-          "_id": "3a5e6c72-cc72-8040-89cd-d8a7b31a7f7f",
-          "_url": "https://app.notion.com/p/3a5e6c72cc72804089cdd8a7b31a7f7f",
-          "_created": "2026-07-22T23:57:00.000Z",
-          "_edited": "2026-07-22T23:57:00.000Z",
+          "_id": "3a6e6c72-cc72-80a9-b188-faeb222bad65",
+          "_url": "https://app.notion.com/p/mama-3a6e6c72cc7280a9b188faeb222bad65",
+          "_created": "2026-07-23T00:01:00.000Z",
+          "_edited": "2026-07-23T00:01:00.000Z",
           "Total Ingresos Papa": [],
-          "Type": null,
+          "Type": "Gasto",
           "Date Created": {
             "start": "2026-07-22",
             "end": null
           },
-          "Money": null,
-          "Total Gastos Papa": [],
-          "Name": ""
+          "Money": 15,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "mama"
+        },
+        {
+          "_id": "3a6e6c72-cc72-80de-bc6a-c597133c61be",
+          "_url": "https://app.notion.com/p/mama-3a6e6c72cc7280debc6ac597133c61be",
+          "_created": "2026-07-23T00:01:00.000Z",
+          "_edited": "2026-07-23T00:01:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-07-22",
+            "end": null
+          },
+          "Money": 36,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "mama"
+        },
+        {
+          "_id": "3a5e6c72-cc72-8040-89cd-d8a7b31a7f7f",
+          "_url": "https://app.notion.com/p/mama-3a5e6c72cc72804089cdd8a7b31a7f7f",
+          "_created": "2026-07-22T23:57:00.000Z",
+          "_edited": "2026-07-23T00:01:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-07-22",
+            "end": null
+          },
+          "Money": 43,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "mama"
         },
         {
           "_id": "3a5e6c72-cc72-80a5-bf70-dd16bee4f5c4",
