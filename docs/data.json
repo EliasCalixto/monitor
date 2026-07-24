@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T03:50:32.505066+00:00",
+  "generated_at": "2026-07-24T06:15:53.282043+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -12759,12 +12759,27 @@
       },
       "rows": [
         {
+          "_id": "3a7e6c72-cc72-81cb-b2d7-fa63c891f3ba",
+          "_url": "https://app.notion.com/p/Manija-foco-e-interruptor-3a7e6c72cc7281cbb2d7fa63c891f3ba",
+          "_created": "2026-07-24T04:28:00.000Z",
+          "_edited": "2026-07-24T05:15:00.000Z",
+          "Date Created": {
+            "start": "2026-07-24",
+            "end": null
+          },
+          "Price": 183.3,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Manija, foco e interruptor",
+          "Category": null
+        },
+        {
           "_id": "3a7e6c72-cc72-80a8-992d-c30b48be268e",
           "_url": "https://app.notion.com/p/peque-a-comoda-porta-toalla-y-eso-3a7e6c72cc7280a8992dc30b48be268e",
           "_created": "2026-07-24T03:04:00.000Z",
-          "_edited": "2026-07-24T03:05:00.000Z",
+          "_edited": "2026-07-24T05:13:00.000Z",
           "Date Created": {
-            "start": "2026-07-23",
+            "start": "2026-07-24",
             "end": null
           },
           "Price": 254.7,
