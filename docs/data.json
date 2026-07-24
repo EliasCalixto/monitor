@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T20:06:50.003523+00:00",
+  "generated_at": "2026-07-24T21:17:47.680356+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,9 +28,9 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 14052.200000000003,
-          "Tot. Expenses": 284699.45500000013,
+          "Tot. Expenses": 285699.48500000016,
           "Total Papa": 9891.86,
-          "Tot. Savings": 11270.53,
+          "Tot. Savings": 12270.560000000001,
           "SumIngresosPapa": 23944.06,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
@@ -134,8 +134,8 @@
             "39be6c72-cc72-8019-ba7b-d5096f5d4983",
             "3a4e6c72-cc72-8097-9428-ec96a22afa51"
           ],
-          "Cash": -638.67500000013,
-          "Tot. Income": 284060.78,
+          "Cash": 61.3249999999,
+          "Tot. Income": 285760.81000000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -163,7 +163,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 9253.184999999869,
+          "Cash Total": 9953.184999999898,
           "Name": "Resumen"
         }
       ]
@@ -178,6 +178,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3a7e6c72-cc72-80bf-8906-fc3638d08aaa",
+          "_url": "https://app.notion.com/p/Fin-de-mes-area-3a7e6c72cc7280bf8906fc3638d08aaa",
+          "_created": "2026-07-24T20:50:00.000Z",
+          "_edited": "2026-07-24T20:51:00.000Z",
+          "Date Received": {
+            "start": "2026-07-24",
+            "end": null
+          },
+          "Income": 1700.03,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Fin de mes area"
+        },
         {
           "_id": "39ee6c72-cc72-8027-abd9-feab369fd401",
           "_url": "https://app.notion.com/p/quincena-TP-grati-TP-39ee6c72cc728027abd9feab369fd401",
@@ -1047,6 +1062,25 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3a7e6c72-cc72-80cf-b1bf-fef7855caedb",
+          "_url": "https://app.notion.com/p/Acumulciom-fin-de-mes-area-3a7e6c72cc7280cfb1bffef7855caedb",
+          "_created": "2026-07-24T20:51:00.000Z",
+          "_edited": "2026-07-24T20:54:00.000Z",
+          "Category": "Savings",
+          "Date Created": {
+            "start": "2026-07-24",
+            "end": null
+          },
+          "ExpensesSavings": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1000.03,
+          "Name": "Acumulciom fin de mes area"
+        },
         {
           "_id": "3a7e6c72-cc72-808a-8acd-e09133184713",
           "_url": "https://app.notion.com/p/pasajes-3a7e6c72cc72808a8acde09133184713",
