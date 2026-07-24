@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T14:24:13.782907+00:00",
+  "generated_at": "2026-07-24T15:50:02.554735+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 14052.200000000003,
-          "Tot. Expenses": 284281.3150000001,
+          "Tot. Expenses": 284681.3150000001,
           "Total Papa": 9891.86,
           "Tot. Savings": 11270.53,
           "SumIngresosPapa": 23944.06,
@@ -134,7 +134,7 @@
             "39be6c72-cc72-8019-ba7b-d5096f5d4983",
             "3a4e6c72-cc72-8097-9428-ec96a22afa51"
           ],
-          "Cash": -220.5350000001,
+          "Cash": -620.5350000001,
           "Tot. Income": 284060.78,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -163,7 +163,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 9671.324999999895,
+          "Cash Total": 9271.324999999895,
           "Name": "Resumen"
         }
       ]
@@ -1047,6 +1047,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3a7e6c72-cc72-80c6-9f4d-db49cb46af8a",
+          "_url": "https://app.notion.com/p/mano-de-obra-Deyvi-3a7e6c72cc7280c69f4ddb49cb46af8a",
+          "_created": "2026-07-24T15:40:00.000Z",
+          "_edited": "2026-07-24T15:40:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-07-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 400,
+          "Name": "mano de obra Deyvi"
+        },
         {
           "_id": "3a6e6c72-cc72-80e3-bd46-e503ff88943a",
           "_url": "https://app.notion.com/p/almuerzo-en-chifita-3a6e6c72cc7280e3bd46e503ff88943a",
