@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T17:16:53.235403+00:00",
+  "generated_at": "2026-07-24T18:51:57.114563+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 14052.200000000003,
-          "Tot. Expenses": 284681.3150000001,
+          "Tot. Expenses": 284699.45500000013,
           "Total Papa": 9891.86,
           "Tot. Savings": 11270.53,
           "SumIngresosPapa": 23944.06,
@@ -134,7 +134,7 @@
             "39be6c72-cc72-8019-ba7b-d5096f5d4983",
             "3a4e6c72-cc72-8097-9428-ec96a22afa51"
           ],
-          "Cash": -620.5350000001,
+          "Cash": -638.67500000013,
           "Tot. Income": 284060.78,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -163,7 +163,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 9271.324999999895,
+          "Cash Total": 9253.184999999869,
           "Name": "Resumen"
         }
       ]
@@ -1047,6 +1047,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3a7e6c72-cc72-808a-8acd-e09133184713",
+          "_url": "https://app.notion.com/p/pasajes-3a7e6c72cc72808a8acde09133184713",
+          "_created": "2026-07-24T18:03:00.000Z",
+          "_edited": "2026-07-24T18:03:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "3a7e6c72-cc72-809b-a857-c073c2c6553b",
+          "_url": "https://app.notion.com/p/almuerzo-chifita-3a7e6c72cc72809ba857c073c2c6553b",
+          "_created": "2026-07-24T18:03:00.000Z",
+          "_edited": "2026-07-24T18:03:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 12.5,
+          "Name": "almuerzo chifita"
+        },
+        {
+          "_id": "3a7e6c72-cc72-8074-aa60-f7d55e4950bf",
+          "_url": "https://app.notion.com/p/caramanducas-3a7e6c72cc728074aa60f7d55e4950bf",
+          "_created": "2026-07-24T18:02:00.000Z",
+          "_edited": "2026-07-24T18:03:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2.64,
+          "Name": "caramanducas"
+        },
         {
           "_id": "3a7e6c72-cc72-80c6-9f4d-db49cb46af8a",
           "_url": "https://app.notion.com/p/mano-de-obra-Deyvi-3a7e6c72cc7280c69f4ddb49cb46af8a",
