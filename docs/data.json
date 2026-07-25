@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T19:31:37.752415+00:00",
+  "generated_at": "2026-07-25T20:29:36.119042+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,9 +28,9 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 14347.200000000003,
-          "Tot. Expenses": 285835.98500000016,
+          "Tot. Expenses": 285848.48500000016,
           "Total Papa": 9596.86,
-          "Tot. Savings": 12270.560000000001,
+          "Tot. Savings": 12270.56,
           "SumIngresosPapa": 23944.06,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
@@ -134,7 +134,7 @@
             "39be6c72-cc72-8019-ba7b-d5096f5d4983",
             "3a4e6c72-cc72-8097-9428-ec96a22afa51"
           ],
-          "Cash": -75.1750000001,
+          "Cash": -87.6750000001,
           "Tot. Income": 285760.81000000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -163,7 +163,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 9521.684999999898,
+          "Cash Total": 9509.184999999898,
           "Name": "Resumen"
         }
       ]
@@ -1062,6 +1062,73 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3a8e6c72-cc72-800d-a643-ed548e3cbeec",
+          "_url": "https://app.notion.com/p/nose-3a8e6c72cc72800da643ed548e3cbeec",
+          "_created": "2026-07-25T19:37:00.000Z",
+          "_edited": "2026-07-25T19:37:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-07-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3,
+          "Name": "nose"
+        },
+        {
+          "_id": "3a8e6c72-cc72-80bd-a2bb-c367c7c7f835",
+          "_url": "https://app.notion.com/p/agua-cielo-3a8e6c72cc7280bda2bbc367c7c7f835",
+          "_created": "2026-07-25T19:36:00.000Z",
+          "_edited": "2026-07-25T19:36:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1.5,
+          "Name": "agua cielo"
+        },
+        {
+          "_id": "3a8e6c72-cc72-808a-9731-d4ee151a3b1c",
+          "_url": "https://app.notion.com/p/ceviche-de-pota-3a8e6c72cc72808a9731d4ee151a3b1c",
+          "_created": "2026-07-25T19:35:00.000Z",
+          "_edited": "2026-07-25T19:35:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 8,
+          "Name": "ceviche de pota"
+        },
+        {
+          "_id": "3a8e6c72-cc72-8043-8776-c1f3581cf76e",
+          "_url": "https://app.notion.com/p/nose-3a8e6c72cc7280438776c1f3581cf76e",
+          "_created": "2026-07-25T19:34:00.000Z",
+          "_edited": "2026-07-25T19:35:00.000Z",
+          "Category": "Savings",
+          "Date Created": null,
+          "ExpensesSavings": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -1e-12,
+          "Name": "nose"
+        },
         {
           "_id": "3a8e6c72-cc72-8044-b485-e9282c29c6d6",
           "_url": "https://app.notion.com/p/pasaje-moto-para-alamo-3a8e6c72cc728044b485e9282c29c6d6",
@@ -12065,7 +12132,7 @@
           "_id": "34fe6c72-cc72-81e4-8da8-fb06dbffc2cf",
           "_url": "https://app.notion.com/p/Integration-34fe6c72cc7281e48da8fb06dbffc2cf",
           "_created": "2026-04-27T19:15:00.000Z",
-          "_edited": "2026-04-30T06:02:00.000Z",
+          "_edited": "2026-07-25T19:33:00.000Z",
           "Category": "Savings",
           "Date Created": {
             "start": "2026-04-01",
