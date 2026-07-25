@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T18:07:03.548084+00:00",
+  "generated_at": "2026-07-25T19:31:37.752415+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 14340.200000000003,
-          "Tot. Expenses": 285829.98500000016,
-          "Total Papa": 9603.86,
+          "SumGastosPapa": 14347.200000000003,
+          "Tot. Expenses": 285835.98500000016,
+          "Total Papa": 9596.86,
           "Tot. Savings": 12270.560000000001,
           "SumIngresosPapa": 23944.06,
           "Expenses": [
@@ -134,7 +134,7 @@
             "39be6c72-cc72-8019-ba7b-d5096f5d4983",
             "3a4e6c72-cc72-8097-9428-ec96a22afa51"
           ],
-          "Cash": -69.1750000001,
+          "Cash": -75.1750000001,
           "Tot. Income": 285760.81000000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -163,7 +163,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 9534.684999999898,
+          "Cash Total": 9521.684999999898,
           "Name": "Resumen"
         }
       ]
@@ -1062,6 +1062,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3a8e6c72-cc72-8044-b485-e9282c29c6d6",
+          "_url": "https://app.notion.com/p/pasaje-moto-para-alamo-3a8e6c72cc728044b485e9282c29c6d6",
+          "_created": "2026-07-25T19:30:00.000Z",
+          "_edited": "2026-07-25T19:31:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 6,
+          "Name": "pasaje moto para alamo"
+        },
         {
           "_id": "3a8e6c72-cc72-8067-85ec-f90d86f187c7",
           "_url": "https://app.notion.com/p/Lata-de-atun-3a8e6c72cc72806785ecf90d86f187c7",
@@ -14563,6 +14580,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3a8e6c72-cc72-801e-be75-fa771ef01d32",
+          "_url": "https://app.notion.com/p/recarga-mama-3a8e6c72cc72801ebe75fa771ef01d32",
+          "_created": "2026-07-25T19:30:00.000Z",
+          "_edited": "2026-07-25T19:30:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-07-25",
+            "end": null
+          },
+          "Money": 7,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "recarga mama"
+        },
         {
           "_id": "3a8e6c72-cc72-80f7-9565-fd6bcead88a9",
           "_url": "https://app.notion.com/p/Ropa-de-mikalah-3a8e6c72cc7280f79565fd6bcead88a9",
