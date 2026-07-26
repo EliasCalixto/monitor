@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T23:10:42.386998+00:00",
+  "generated_at": "2026-07-26T00:10:12.180264+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -12978,6 +12978,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3a8e6c72-cc72-815e-915c-dae0f7995713",
+          "_url": "https://app.notion.com/p/Regalo-Mikalah-3a8e6c72cc72815e915cdae0f7995713",
+          "_created": "2026-07-25T23:31:00.000Z",
+          "_edited": "2026-07-25T23:31:00.000Z",
+          "Date Created": {
+            "start": "2026-07-25",
+            "end": null
+          },
+          "Price": 109.8,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Regalo Mikalah",
+          "Category": null
+        },
         {
           "_id": "3a7e6c72-cc72-81cb-b2d7-fa63c891f3ba",
           "_url": "https://app.notion.com/p/Manija-foco-e-interruptor-3a7e6c72cc7281cbb2d7fa63c891f3ba",
