@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T00:10:12.180264+00:00",
+  "generated_at": "2026-07-26T03:50:55.630288+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -12978,6 +12978,111 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3a9e6c72-cc72-81fa-8614-c135acffe84d",
+          "_url": "https://app.notion.com/p/Casaca-jean-negra-3a9e6c72cc7281fa8614c135acffe84d",
+          "_created": "2026-07-26T02:09:00.000Z",
+          "_edited": "2026-07-26T02:09:00.000Z",
+          "Date Created": {
+            "start": "2026-07-25",
+            "end": null
+          },
+          "Price": 343.2,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Casaca jean negra",
+          "Category": null
+        },
+        {
+          "_id": "3a9e6c72-cc72-813c-b821-efe51e47eca2",
+          "_url": "https://app.notion.com/p/Aruma-Mikalah-3a9e6c72cc72813cb821efe51e47eca2",
+          "_created": "2026-07-26T00:49:00.000Z",
+          "_edited": "2026-07-26T00:49:00.000Z",
+          "Date Created": {
+            "start": "2026-07-25",
+            "end": null
+          },
+          "Price": 13.8,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Aruma Mikalah",
+          "Category": null
+        },
+        {
+          "_id": "3a9e6c72-cc72-80b6-82cc-f0915849fbcf",
+          "_url": "https://app.notion.com/p/Bolso-de-mikalah-3a9e6c72cc7280b682ccf0915849fbcf",
+          "_created": "2026-07-26T00:42:00.000Z",
+          "_edited": "2026-07-26T00:42:00.000Z",
+          "Date Created": {
+            "start": "2026-07-25",
+            "end": null
+          },
+          "Price": 35.75,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Bolso de mikalah",
+          "Category": null
+        },
+        {
+          "_id": "3a9e6c72-cc72-80e2-bd88-efd364c3840b",
+          "_url": "https://app.notion.com/p/Pantalon-unbranded-3a9e6c72cc7280e2bd88efd364c3840b",
+          "_created": "2026-07-26T00:41:00.000Z",
+          "_edited": "2026-07-26T00:42:00.000Z",
+          "Date Created": {
+            "start": "2026-07-25",
+            "end": null
+          },
+          "Price": 369,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Pantalon unbranded",
+          "Category": null
+        },
+        {
+          "_id": "3a9e6c72-cc72-80e6-9cf2-c9119ea8d909",
+          "_url": "https://app.notion.com/p/Polos-unbranded-3a9e6c72cc7280e69cf2c9119ea8d909",
+          "_created": "2026-07-26T00:41:00.000Z",
+          "_edited": "2026-07-26T00:41:00.000Z",
+          "Date Created": {
+            "start": "2026-07-25",
+            "end": null
+          },
+          "Price": 269,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Polos unbranded",
+          "Category": null
+        },
+        {
+          "_id": "3a9e6c72-cc72-8016-b532-cb7c82c87b5f",
+          "_url": "https://app.notion.com/p/Cinammom-3a9e6c72cc728016b532cb7c82c87b5f",
+          "_created": "2026-07-26T00:40:00.000Z",
+          "_edited": "2026-07-26T00:41:00.000Z",
+          "Date Created": {
+            "start": "2026-07-25",
+            "end": null
+          },
+          "Price": 24,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Cinammom",
+          "Category": null
+        },
+        {
+          "_id": "3a9e6c72-cc72-80bb-84c1-d14eb117b467",
+          "_url": "https://app.notion.com/p/Coca-zero-3a9e6c72cc7280bb84c1d14eb117b467",
+          "_created": "2026-07-26T00:40:00.000Z",
+          "_edited": "2026-07-26T00:40:00.000Z",
+          "Date Created": {
+            "start": "2026-07-25",
+            "end": null
+          },
+          "Price": 5,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Coca zero",
+          "Category": null
+        },
         {
           "_id": "3a8e6c72-cc72-815e-915c-dae0f7995713",
           "_url": "https://app.notion.com/p/Regalo-Mikalah-3a8e6c72cc72815e915cdae0f7995713",
