@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T21:36:34.365582+00:00",
+  "generated_at": "2026-07-26T22:37:42.022634+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 14347.200000000003,
-          "Tot. Expenses": 285848.48500000016,
+          "Tot. Expenses": 286048.48500000016,
           "Total Papa": 9596.86,
           "Tot. Savings": 12270.56,
           "SumIngresosPapa": 23944.06,
@@ -134,7 +134,7 @@
             "39be6c72-cc72-8019-ba7b-d5096f5d4983",
             "3a4e6c72-cc72-8097-9428-ec96a22afa51"
           ],
-          "Cash": -87.6750000001,
+          "Cash": -287.6750000001,
           "Tot. Income": 285760.81000000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -163,7 +163,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 9509.184999999898,
+          "Cash Total": 9309.184999999898,
           "Name": "Resumen"
         }
       ]
@@ -1062,6 +1062,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3a9e6c72-cc72-81c5-b71d-d7b6dc1d2831",
+          "_url": "https://app.notion.com/p/Puerta-3a9e6c72cc7281c5b71dd7b6dc1d2831",
+          "_created": "2026-07-26T21:42:00.000Z",
+          "_edited": "2026-07-26T21:42:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-07-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 200,
+          "Name": "Puerta"
+        },
         {
           "_id": "3a8e6c72-cc72-800d-a643-ed548e3cbeec",
           "_url": "https://app.notion.com/p/nose-3a8e6c72cc72800da643ed548e3cbeec",
