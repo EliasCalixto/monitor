@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T14:02:31.586273+00:00",
+  "generated_at": "2026-07-27T16:32:09.757228+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 14347.200000000003,
-          "Tot. Expenses": 286048.48500000016,
+          "Tot. Expenses": 286052.33500000014,
           "Total Papa": 9596.86,
           "Tot. Savings": 12270.56,
           "SumIngresosPapa": 23944.06,
@@ -134,7 +134,7 @@
             "39be6c72-cc72-8019-ba7b-d5096f5d4983",
             "3a4e6c72-cc72-8097-9428-ec96a22afa51"
           ],
-          "Cash": -287.6750000001,
+          "Cash": -291.52500000008,
           "Tot. Income": 285760.81000000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -163,7 +163,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 9309.184999999898,
+          "Cash Total": 9305.334999999915,
           "Name": "Resumen"
         }
       ]
@@ -1062,6 +1062,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3aae6c72-cc72-8074-a1d1-c219703151a4",
+          "_url": "https://app.notion.com/p/caramanducas-3aae6c72cc728074a1d1c219703151a4",
+          "_created": "2026-07-27T14:15:00.000Z",
+          "_edited": "2026-07-27T14:15:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-27",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3.85,
+          "Name": "caramanducas"
+        },
         {
           "_id": "3a9e6c72-cc72-81c5-b71d-d7b6dc1d2831",
           "_url": "https://app.notion.com/p/Puerta-3a9e6c72cc7281c5b71dd7b6dc1d2831",
@@ -12995,21 +13012,6 @@
         "Category": "select"
       },
       "rows": [
-        {
-          "_id": "3aae6c72-cc72-8068-9086-cc337232fde4",
-          "_url": "https://app.notion.com/p/Caramanducas-3aae6c72cc7280689086cc337232fde4",
-          "_created": "2026-07-27T12:43:00.000Z",
-          "_edited": "2026-07-27T12:43:00.000Z",
-          "Date Created": {
-            "start": "2026-07-27",
-            "end": null
-          },
-          "Price": 3.85,
-          "Date Payed": null,
-          "Status": "Pending",
-          "Name": "Caramanducas",
-          "Category": null
-        },
         {
           "_id": "3aae6c72-cc72-8054-8c8d-c23683b85ec2",
           "_url": "https://app.notion.com/p/Frugos-3aae6c72cc7280548c8dc23683b85ec2",
