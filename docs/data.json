@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T20:57:15.702011+00:00",
+  "generated_at": "2026-07-27T21:57:24.501604+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -1218,8 +1218,8 @@
           "_id": "3a8e6c72-cc72-8044-b485-e9282c29c6d6",
           "_url": "https://app.notion.com/p/pasaje-moto-para-alamo-3a8e6c72cc728044b485e9282c29c6d6",
           "_created": "2026-07-25T19:30:00.000Z",
-          "_edited": "2026-07-25T19:31:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:21:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-07-25",
             "end": null
@@ -1288,8 +1288,8 @@
           "_id": "3a7e6c72-cc72-808a-8acd-e09133184713",
           "_url": "https://app.notion.com/p/pasajes-3a7e6c72cc72808a8acde09133184713",
           "_created": "2026-07-24T18:03:00.000Z",
-          "_edited": "2026-07-24T18:03:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:22:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-07-24",
             "end": null
@@ -1373,8 +1373,8 @@
           "_id": "3a6e6c72-cc72-8002-9b8d-d224ad4f4425",
           "_url": "https://app.notion.com/p/pasajes-3a6e6c72cc7280029b8dd224ad4f4425",
           "_created": "2026-07-23T00:01:00.000Z",
-          "_edited": "2026-07-23T00:02:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:26:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-07-22",
             "end": null
@@ -1407,8 +1407,8 @@
           "_id": "3a5e6c72-cc72-8055-b94a-fe01c9428904",
           "_url": "https://app.notion.com/p/pasajes-3a5e6c72cc728055b94afe01c9428904",
           "_created": "2026-07-22T13:10:00.000Z",
-          "_edited": "2026-07-22T13:11:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:26:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-07-22",
             "end": null
@@ -1492,8 +1492,8 @@
           "_id": "3a5e6c72-cc72-80ea-9028-f0dc71541cb9",
           "_url": "https://app.notion.com/p/pasaje-3a5e6c72cc7280ea9028f0dc71541cb9",
           "_created": "2026-07-22T01:17:00.000Z",
-          "_edited": "2026-07-22T01:17:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:26:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-07-21",
             "end": null
@@ -1509,8 +1509,8 @@
           "_id": "3a4e6c72-cc72-80a2-9e87-e2371abd4828",
           "_url": "https://app.notion.com/p/pasaje-3a4e6c72cc7280a29e87e2371abd4828",
           "_created": "2026-07-21T14:50:00.000Z",
-          "_edited": "2026-07-21T14:50:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:26:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-07-21",
             "end": null
@@ -1560,8 +1560,8 @@
           "_id": "3a0e6c72-cc72-805e-8eaf-d26ea71532c6",
           "_url": "https://app.notion.com/p/pasajes-3a0e6c72cc72805e8eafd26ea71532c6",
           "_created": "2026-07-17T23:53:00.000Z",
-          "_edited": "2026-07-17T23:54:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:26:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-07-17",
             "end": null
@@ -1628,8 +1628,8 @@
           "_id": "3a0e6c72-cc72-80a6-88f5-f280e64c52d2",
           "_url": "https://app.notion.com/p/Pasaje-3a0e6c72cc7280a688f5f280e64c52d2",
           "_created": "2026-07-17T00:25:00.000Z",
-          "_edited": "2026-07-17T00:25:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:26:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-07-16",
             "end": null
@@ -1730,8 +1730,8 @@
           "_id": "39ee6c72-cc72-8014-835a-f262747e211a",
           "_url": "https://app.notion.com/p/pasajes-39ee6c72cc728014835af262747e211a",
           "_created": "2026-07-15T18:09:00.000Z",
-          "_edited": "2026-07-16T12:35:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:26:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-07-15",
             "end": null
@@ -2429,8 +2429,8 @@
           "_id": "39de6c72-cc72-8054-be61-d2f0fab092d2",
           "_url": "https://app.notion.com/p/pasajes-39de6c72cc728054be61d2f0fab092d2",
           "_created": "2026-07-14T12:41:00.000Z",
-          "_edited": "2026-07-14T12:41:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:23:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-07-14",
             "end": null
@@ -2463,8 +2463,8 @@
           "_id": "39ce6c72-cc72-80d4-baff-da66aa0d79a8",
           "_url": "https://app.notion.com/p/pasajes-39ce6c72cc7280d4baffda66aa0d79a8",
           "_created": "2026-07-13T14:41:00.000Z",
-          "_edited": "2026-07-13T14:41:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:26:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-07-13",
             "end": null
@@ -2531,8 +2531,8 @@
           "_id": "398e6c72-cc72-80c5-b398-c4f86b920b77",
           "_url": "https://app.notion.com/p/Pasajes-398e6c72cc7280c5b398c4f86b920b77",
           "_created": "2026-07-09T22:22:00.000Z",
-          "_edited": "2026-07-09T22:22:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:26:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-07-09",
             "end": null
@@ -2565,8 +2565,8 @@
           "_id": "398e6c72-cc72-8054-9b4f-cc8bba6eeec2",
           "_url": "https://app.notion.com/p/pasajes-y-desayunos-398e6c72cc7280549b4fcc8bba6eeec2",
           "_created": "2026-07-09T13:14:00.000Z",
-          "_edited": "2026-07-09T13:14:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:26:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-07-09",
             "end": null
@@ -2616,8 +2616,8 @@
           "_id": "397e6c72-cc72-800c-acaa-eeaa72a7d472",
           "_url": "https://app.notion.com/p/pasajes-desayuno-etc-397e6c72cc72800cacaaeeaa72a7d472",
           "_created": "2026-07-08T14:54:00.000Z",
-          "_edited": "2026-07-08T14:56:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:26:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-07-08",
             "end": null
@@ -2735,8 +2735,8 @@
           "_id": "392e6c72-cc72-8011-862d-e92a7e883df6",
           "_url": "https://app.notion.com/p/pasajes-a-work-392e6c72cc728011862de92a7e883df6",
           "_created": "2026-07-03T14:34:00.000Z",
-          "_edited": "2026-07-03T14:34:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:22:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-07-03",
             "end": null
@@ -2837,8 +2837,8 @@
           "_id": "390e6c72-cc72-806c-b294-e7ff6d155551",
           "_url": "https://app.notion.com/p/pasajes-390e6c72cc72806cb294e7ff6d155551",
           "_created": "2026-07-01T13:00:00.000Z",
-          "_edited": "2026-07-01T13:00:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:22:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-07-01",
             "end": null
@@ -3230,8 +3230,8 @@
           "_id": "38be6c72-cc72-80cb-80b3-c58b166d6e26",
           "_url": "https://app.notion.com/p/pasajes-38be6c72cc7280cb80b3c58b166d6e26",
           "_created": "2026-06-26T12:44:00.000Z",
-          "_edited": "2026-06-26T12:45:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:25:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-06-26",
             "end": null
@@ -3587,8 +3587,8 @@
           "_id": "382e6c72-cc72-80e0-a5a3-e9f265c24694",
           "_url": "https://app.notion.com/p/pasajes-382e6c72cc7280e0a5a3e9f265c24694",
           "_created": "2026-06-17T22:25:00.000Z",
-          "_edited": "2026-06-17T22:25:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:25:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-06-17",
             "end": null
@@ -3604,8 +3604,8 @@
           "_id": "382e6c72-cc72-8023-9565-c394cfbb760b",
           "_url": "https://app.notion.com/p/pasajes-382e6c72cc7280239565c394cfbb760b",
           "_created": "2026-06-17T13:26:00.000Z",
-          "_edited": "2026-06-17T13:26:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:25:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-06-17",
             "end": null
@@ -3689,8 +3689,8 @@
           "_id": "380e6c72-cc72-80be-812d-d022c2160f14",
           "_url": "https://app.notion.com/p/pasajes-380e6c72cc7280be812dd022c2160f14",
           "_created": "2026-06-15T13:28:00.000Z",
-          "_edited": "2026-06-15T13:31:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:25:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-06-15",
             "end": null
@@ -4799,8 +4799,8 @@
           "_id": "375e6c72-cc72-803f-8f87-ccb436535c4e",
           "_url": "https://app.notion.com/p/pasajes-375e6c72cc72803f8f87ccb436535c4e",
           "_created": "2026-06-04T23:57:00.000Z",
-          "_edited": "2026-06-04T23:59:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:25:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-06-04",
             "end": null
@@ -5260,8 +5260,8 @@
           "_id": "368e6c72-cc72-8011-9f48-e1a892edc945",
           "_url": "https://app.notion.com/p/pasajes-368e6c72cc7280119f48e1a892edc945",
           "_created": "2026-05-22T23:15:00.000Z",
-          "_edited": "2026-05-22T23:15:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:25:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-05-22",
             "end": null
@@ -5379,8 +5379,8 @@
           "_id": "366e6c72-cc72-80cc-b668-e59c5bfd3cfb",
           "_url": "https://app.notion.com/p/Pasaje-366e6c72cc7280ccb668e59c5bfd3cfb",
           "_created": "2026-05-20T23:07:00.000Z",
-          "_edited": "2026-05-20T23:07:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:25:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-05-20",
             "end": null
@@ -5447,8 +5447,8 @@
           "_id": "366e6c72-cc72-8004-afc6-dc2aee1a0227",
           "_url": "https://app.notion.com/p/pasaje-366e6c72cc728004afc6dc2aee1a0227",
           "_created": "2026-05-20T01:03:00.000Z",
-          "_edited": "2026-05-20T01:03:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:25:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-05-19",
             "end": null
@@ -6097,8 +6097,8 @@
           "_id": "35ae6c72-cc72-80c8-8bbd-ec776ac8890f",
           "_url": "https://app.notion.com/p/pasaje-de-josfel-a-constructores-35ae6c72cc7280c88bbdec776ac8890f",
           "_created": "2026-05-08T15:06:00.000Z",
-          "_edited": "2026-05-08T15:07:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-07-27T21:25:00.000Z",
+          "Category": "Cashout",
           "Date Created": {
             "start": "2026-05-08",
             "end": null
