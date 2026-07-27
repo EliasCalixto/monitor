@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T11:46:14.400569+00:00",
+  "generated_at": "2026-07-27T14:02:31.586273+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -12995,6 +12995,36 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3aae6c72-cc72-8068-9086-cc337232fde4",
+          "_url": "https://app.notion.com/p/Caramanducas-3aae6c72cc7280689086cc337232fde4",
+          "_created": "2026-07-27T12:43:00.000Z",
+          "_edited": "2026-07-27T12:43:00.000Z",
+          "Date Created": {
+            "start": "2026-07-27",
+            "end": null
+          },
+          "Price": 3.85,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Caramanducas",
+          "Category": null
+        },
+        {
+          "_id": "3aae6c72-cc72-8054-8c8d-c23683b85ec2",
+          "_url": "https://app.notion.com/p/Frugos-3aae6c72cc7280548c8dc23683b85ec2",
+          "_created": "2026-07-27T12:43:00.000Z",
+          "_edited": "2026-07-27T12:43:00.000Z",
+          "Date Created": {
+            "start": "2026-07-27",
+            "end": null
+          },
+          "Price": 3.5,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Frugos",
+          "Category": null
+        },
         {
           "_id": "3a9e6c72-cc72-81f1-b385-f2d4d9aa31d8",
           "_url": "https://app.notion.com/p/Socket-y-visagra-3a9e6c72cc7281f1b385f2d4d9aa31d8",
