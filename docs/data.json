@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T18:10:26.899940+00:00",
+  "generated_at": "2026-07-27T19:50:01.726460+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 14347.200000000003,
-          "Tot. Expenses": 285802.33500000014,
+          "Tot. Expenses": 285549.83500000014,
           "Total Papa": 9596.86,
           "Tot. Savings": 12270.56,
           "SumIngresosPapa": 23944.06,
@@ -134,7 +134,7 @@
             "39be6c72-cc72-8019-ba7b-d5096f5d4983",
             "3a4e6c72-cc72-8097-9428-ec96a22afa51"
           ],
-          "Cash": -41.52500000008,
+          "Cash": 210.97499999992,
           "Tot. Income": 285760.81000000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -163,7 +163,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 9555.334999999915,
+          "Cash Total": 9807.834999999915,
           "Name": "Resumen"
         }
       ]
@@ -1062,6 +1062,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3aae6c72-cc72-8081-a89b-e81958c6fc40",
+          "_url": "https://app.notion.com/p/Almuerzo-con-compitas-3aae6c72cc728081a89be81958c6fc40",
+          "_created": "2026-07-27T19:31:00.000Z",
+          "_edited": "2026-07-27T19:31:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-27",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 47.5,
+          "Name": "Almuerzo con compitas"
+        },
+        {
+          "_id": "3aae6c72-cc72-8063-8a83-c29d6a2c110e",
+          "_url": "https://app.notion.com/p/Rogy-pago-3aae6c72cc7280638a83c29d6a2c110e",
+          "_created": "2026-07-27T19:30:00.000Z",
+          "_edited": "2026-07-27T19:31:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-07-27",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -300,
+          "Name": "Rogy pago"
+        },
         {
           "_id": "3aae6c72-cc72-80bc-b8d8-d025d6bc7dcf",
           "_url": "https://app.notion.com/p/juan-diego-pago-iphone-3aae6c72cc7280bcb8d8d025d6bc7dcf",
