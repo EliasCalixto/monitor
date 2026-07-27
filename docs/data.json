@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T16:32:09.757228+00:00",
+  "generated_at": "2026-07-27T18:10:26.899940+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 14347.200000000003,
-          "Tot. Expenses": 286052.33500000014,
+          "Tot. Expenses": 285802.33500000014,
           "Total Papa": 9596.86,
           "Tot. Savings": 12270.56,
           "SumIngresosPapa": 23944.06,
@@ -134,7 +134,7 @@
             "39be6c72-cc72-8019-ba7b-d5096f5d4983",
             "3a4e6c72-cc72-8097-9428-ec96a22afa51"
           ],
-          "Cash": -291.52500000008,
+          "Cash": -41.52500000008,
           "Tot. Income": 285760.81000000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -163,7 +163,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 9305.334999999915,
+          "Cash Total": 9555.334999999915,
           "Name": "Resumen"
         }
       ]
@@ -1062,6 +1062,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3aae6c72-cc72-80bc-b8d8-d025d6bc7dcf",
+          "_url": "https://app.notion.com/p/juan-diego-pago-iphone-3aae6c72cc7280bcb8d8d025d6bc7dcf",
+          "_created": "2026-07-27T16:49:00.000Z",
+          "_edited": "2026-07-27T16:49:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2026-07-27",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -250,
+          "Name": "juan diego pago iphone"
+        },
         {
           "_id": "3aae6c72-cc72-8074-a1d1-c219703151a4",
           "_url": "https://app.notion.com/p/caramanducas-3aae6c72cc728074a1d1c219703151a4",
@@ -13013,6 +13030,21 @@
       },
       "rows": [
         {
+          "_id": "3aae6c72-cc72-80a9-bdb1-ed6872ede666",
+          "_url": "https://app.notion.com/p/Tokens-Claude-3aae6c72cc7280a9bdb1ed6872ede666",
+          "_created": "2026-07-27T17:47:00.000Z",
+          "_edited": "2026-07-27T17:47:00.000Z",
+          "Date Created": {
+            "start": "2026-07-27",
+            "end": null
+          },
+          "Price": 62.14,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Tokens Claude",
+          "Category": null
+        },
+        {
           "_id": "3aae6c72-cc72-8054-8c8d-c23683b85ec2",
           "_url": "https://app.notion.com/p/Frugos-3aae6c72cc7280548c8dc23683b85ec2",
           "_created": "2026-07-27T12:43:00.000Z",
@@ -14845,9 +14877,9 @@
           "_id": "350e6c72-cc72-8069-b276-fe69c8b3bf73",
           "_url": "https://app.notion.com/p/Claude-350e6c72cc728069b276fe69c8b3bf73",
           "_created": "2026-04-28T02:31:00.000Z",
-          "_edited": "2026-07-18T20:55:00.000Z",
+          "_edited": "2026-07-27T16:54:00.000Z",
           "Type": "Auto",
-          "Price": 383.35,
+          "Price": 82.5,
           "Name": "Claude"
         },
         {
