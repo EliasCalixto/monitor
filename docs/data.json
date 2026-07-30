@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T20:23:03.657900+00:00",
+  "generated_at": "2026-07-30T21:37:15.224977+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -30,7 +30,7 @@
           "SumGastosPapa": 14347.200000000003,
           "Tot. Expenses": 286901.77500000014,
           "Total Papa": 9596.86,
-          "Tot. Savings": 13622.5,
+          "Tot. Savings": 12020.56,
           "SumIngresosPapa": 23944.06,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
@@ -1078,10 +1078,10 @@
       },
       "rows": [
         {
-          "_id": "3ade6c72-cc72-8062-9b7d-e29b00a08e0d",
-          "_url": "https://app.notion.com/p/acumulacion-fin-de-julio-3ade6c72cc7280629b7de29b00a08e0d",
-          "_created": "2026-07-30T15:44:00.000Z",
-          "_edited": "2026-07-30T20:07:00.000Z",
+          "_id": "3ade6c72-cc72-8018-afdc-f3d3c3a5fa81",
+          "_url": "https://app.notion.com/p/acumulacion-fin-de-julio-3ade6c72cc728018afdcf3d3c3a5fa81",
+          "_created": "2026-07-30T21:18:00.000Z",
+          "_edited": "2026-07-30T21:22:00.000Z",
           "Category": "Savings",
           "Date Created": {
             "start": "2026-07-30",
@@ -1095,6 +1095,25 @@
           ],
           "Price": 1351.94,
           "Name": "acumulacion fin de julio"
+        },
+        {
+          "_id": "3ade6c72-cc72-80a8-b22c-ff6ca54009c0",
+          "_url": "https://app.notion.com/p/pago-de-jd-3ade6c72cc7280a8b22cff6ca54009c0",
+          "_created": "2026-07-30T21:18:00.000Z",
+          "_edited": "2026-07-30T21:22:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2026-07-30",
+            "end": null
+          },
+          "ExpensesSavings": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -250,
+          "Name": "pago de jd"
         },
         {
           "_id": "3aae6c72-cc72-8081-a89b-e81958c6fc40",
