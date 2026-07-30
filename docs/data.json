@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T14:38:15.646875+00:00",
+  "generated_at": "2026-07-30T16:12:19.402833+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,9 +28,9 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 14347.200000000003,
-          "Tot. Expenses": 285549.83500000014,
+          "Tot. Expenses": 286901.77500000014,
           "Total Papa": 9596.86,
-          "Tot. Savings": 12270.56,
+          "Tot. Savings": 13622.5,
           "SumIngresosPapa": 23944.06,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
@@ -135,7 +135,7 @@
             "3a4e6c72-cc72-8097-9428-ec96a22afa51"
           ],
           "Cash": 210.97499999992,
-          "Tot. Income": 285760.81000000006,
+          "Tot. Income": 287112.75000000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -178,6 +178,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3ade6c72-cc72-80e7-b1c3-f2dd01f8b33a",
+          "_url": "https://app.notion.com/p/Teleperformance-fin-de-mes-3ade6c72cc7280e7b1c3f2dd01f8b33a",
+          "_created": "2026-07-30T15:44:00.000Z",
+          "_edited": "2026-07-30T15:44:00.000Z",
+          "Date Received": {
+            "start": "2026-07-30",
+            "end": null
+          },
+          "Income": 1351.94,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Teleperformance fin de mes"
+        },
         {
           "_id": "3a7e6c72-cc72-80bf-8906-fc3638d08aaa",
           "_url": "https://app.notion.com/p/Fin-de-mes-area-3a7e6c72cc7280bf8906fc3638d08aaa",
@@ -1062,6 +1077,25 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3ade6c72-cc72-8062-9b7d-e29b00a08e0d",
+          "_url": "https://app.notion.com/p/acumulacion-fin-de-julio-3ade6c72cc7280629b7de29b00a08e0d",
+          "_created": "2026-07-30T15:44:00.000Z",
+          "_edited": "2026-07-30T15:44:00.000Z",
+          "Category": "Savings",
+          "Date Created": {
+            "start": "2026-07-30",
+            "end": null
+          },
+          "ExpensesSavings": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1351.94,
+          "Name": "acumulacion fin de julio"
+        },
         {
           "_id": "3aae6c72-cc72-8081-a89b-e81958c6fc40",
           "_url": "https://app.notion.com/p/Almuerzo-con-compitas-3aae6c72cc728081a89be81958c6fc40",
