@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T00:08:19.843598+00:00",
+  "generated_at": "2026-07-30T03:22:10.365297+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -14909,12 +14909,12 @@
         },
         {
           "_id": "350e6c72-cc72-8069-b276-fe69c8b3bf73",
-          "_url": "https://app.notion.com/p/Claude-350e6c72cc728069b276fe69c8b3bf73",
+          "_url": "https://app.notion.com/p/ChatGPT-350e6c72cc728069b276fe69c8b3bf73",
           "_created": "2026-04-28T02:31:00.000Z",
-          "_edited": "2026-07-27T16:54:00.000Z",
+          "_edited": "2026-07-30T01:32:00.000Z",
           "Type": "Auto",
-          "Price": 82.5,
-          "Name": "Claude"
+          "Price": 79.9,
+          "Name": "ChatGPT"
         },
         {
           "_id": "350e6c72-cc72-8039-a03a-ccef718e578c",
