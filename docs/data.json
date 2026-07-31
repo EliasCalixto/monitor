@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T17:58:33.062673+00:00",
+  "generated_at": "2026-07-31T19:16:23.015103+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 14347.200000000003,
+          "SumGastosPapa": 14487.200000000003,
           "Tot. Expenses": 286697.27500000014,
-          "Total Papa": 9596.86,
+          "Total Papa": 9456.86,
           "Tot. Savings": 12020.56,
           "SumIngresosPapa": 23944.06,
           "Expenses": [
@@ -163,7 +163,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 10012.334999999915,
+          "Cash Total": 9872.334999999915,
           "Name": "Resumen"
         }
       ]
@@ -15093,6 +15093,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3aee6c72-cc72-80c1-8265-e09fe4f30450",
+          "_url": "https://app.notion.com/p/entradas-al-cine-3aee6c72cc7280c18265e09fe4f30450",
+          "_created": "2026-07-31T18:08:00.000Z",
+          "_edited": "2026-07-31T18:09:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-07-31",
+            "end": null
+          },
+          "Money": 140,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "entradas al cine"
+        },
         {
           "_id": "3a8e6c72-cc72-801e-be75-fa771ef01d32",
           "_url": "https://app.notion.com/p/recarga-mama-3a8e6c72cc72801ebe75fa771ef01d32",
