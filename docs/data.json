@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T01:09:58.555813+00:00",
+  "generated_at": "2026-08-01T04:31:29.857582+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,9 +28,9 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 14487.200000000003,
-          "Tot. Expenses": 286697.27500000014,
+          "Tot. Expenses": 286678.27500000014,
           "Total Papa": 9456.86,
-          "Tot. Savings": 12020.56,
+          "Tot. Savings": 8398.06,
           "SumIngresosPapa": 23944.06,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
@@ -134,7 +134,7 @@
             "39be6c72-cc72-8019-ba7b-d5096f5d4983",
             "3a4e6c72-cc72-8097-9428-ec96a22afa51"
           ],
-          "Cash": 415.47499999992,
+          "Cash": 434.47499999992,
           "Tot. Income": 287112.75000000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -163,7 +163,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 9872.334999999915,
+          "Cash Total": 9891.334999999915,
           "Name": "Resumen"
         }
       ]
@@ -1078,10 +1078,63 @@
       },
       "rows": [
         {
+          "_id": "3afe6c72-cc72-80ed-9eec-c79c3b4c1d08",
+          "_url": "https://app.notion.com/p/pasajes-3afe6c72cc7280ed9eecc79c3b4c1d08",
+          "_created": "2026-08-01T01:30:00.000Z",
+          "_edited": "2026-08-01T01:30:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-31",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3.5,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "3afe6c72-cc72-8020-99a8-e1b9fb467957",
+          "_url": "https://app.notion.com/p/pago-a-banco-amortizacion-3afe6c72cc72802099a8e1b9fb467957",
+          "_created": "2026-08-01T01:30:00.000Z",
+          "_edited": "2026-08-01T01:30:00.000Z",
+          "Category": "Savings",
+          "Date Created": {
+            "start": "2026-07-31",
+            "end": null
+          },
+          "ExpensesSavings": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -3622.5,
+          "Name": "pago a banco amortizacion"
+        },
+        {
+          "_id": "3afe6c72-cc72-8056-a2f7-fe3c8bace783",
+          "_url": "https://app.notion.com/p/pago-a-banco-amortizacion-3afe6c72cc728056a2f7fe3c8bace783",
+          "_created": "2026-08-01T01:27:00.000Z",
+          "_edited": "2026-08-01T01:29:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-07-31",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3600,
+          "Name": "pago a banco amortizacion"
+        },
+        {
           "_id": "d2e2a6b1-c6e3-4ca0-8e4e-3c4f87941c41",
           "_url": "https://app.notion.com/p/Taxi-d2e2a6b1c6e34ca08e4e3c4f87941c41",
           "_created": "2026-07-31T12:54:00.000Z",
-          "_edited": "2026-07-31T12:55:00.000Z",
+          "_edited": "2026-08-01T01:30:00.000Z",
           "Category": "Fixed",
           "Date Created": {
             "start": "2026-07-31",
