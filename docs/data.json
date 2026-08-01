@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T15:16:37.107518+00:00",
+  "generated_at": "2026-08-01T16:26:40.214729+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -165,6 +165,138 @@
           ],
           "Cash Total": 9891.334999999915,
           "Name": "Resumen"
+        }
+      ]
+    },
+    {
+      "id": "262e6c72-cc72-80d6-90ac-ef7a711d53bc",
+      "title": "To Buy",
+      "schema": {
+        "Price": "number",
+        "Status": "status",
+        "Details": "rich_text",
+        "Name": "title"
+      },
+      "rows": [
+        {
+          "_id": "3a5e6c72-cc72-8058-a173-ed2a99e0f357",
+          "_url": "https://app.notion.com/p/Camisas-Blancas-x5-3a5e6c72cc728058a173ed2a99e0f357",
+          "_created": "2026-07-22T13:57:00.000Z",
+          "_edited": "2026-08-01T15:35:00.000Z",
+          "Price": 150,
+          "Status": "Bought",
+          "Details": "",
+          "Name": "Camisas Blancas x5"
+        },
+        {
+          "_id": "3a1e6c72-cc72-802b-82fb-f4472dce90df",
+          "_url": "https://app.notion.com/p/Studio-Mano-de-Obra-3a1e6c72cc72802b82fbf4472dce90df",
+          "_created": "2026-07-18T21:26:00.000Z",
+          "_edited": "2026-08-01T15:35:00.000Z",
+          "Price": 400,
+          "Status": "Bought",
+          "Details": "",
+          "Name": "Studio Mano de Obra"
+        },
+        {
+          "_id": "39be6c72-cc72-80d0-aedb-e7aee35fe8c6",
+          "_url": "https://app.notion.com/p/Operaci-n-de-ojos-39be6c72cc7280d0aedbe7aee35fe8c6",
+          "_created": "2026-07-12T16:10:00.000Z",
+          "_edited": "2026-08-01T15:35:00.000Z",
+          "Price": 1900,
+          "Status": "Urgent",
+          "Details": "",
+          "Name": "Operación de ojos"
+        },
+        {
+          "_id": "38be6c72-cc72-8051-8334-c76c1cea86fd",
+          "_url": "https://app.notion.com/p/Luminarias-e-Interruptores-38be6c72cc7280518334c76c1cea86fd",
+          "_created": "2026-06-26T14:58:00.000Z",
+          "_edited": "2026-07-22T14:19:00.000Z",
+          "Price": 200,
+          "Status": "Bought",
+          "Details": "",
+          "Name": "Luminarias e Interruptores"
+        },
+        {
+          "_id": "32ae6c72-cc72-80be-9205-cd7636595f5d",
+          "_url": "https://app.notion.com/p/Recuerdo-para-familia-32ae6c72cc7280be9205cd7636595f5d",
+          "_created": "2026-03-21T21:59:00.000Z",
+          "_edited": "2026-03-27T04:30:00.000Z",
+          "Price": 100,
+          "Status": "Bought",
+          "Details": "",
+          "Name": "Recuerdo para familia"
+        },
+        {
+          "_id": "318e6c72-cc72-80c2-947b-fca59cc7bb39",
+          "_url": "https://app.notion.com/p/Zapatillas-blancas-x1-318e6c72cc7280c2947bfca59cc7bb39",
+          "_created": "2026-03-03T02:17:00.000Z",
+          "_edited": "2026-03-17T17:04:00.000Z",
+          "Price": 400,
+          "Status": "Bought",
+          "Details": "",
+          "Name": "Zapatillas blancas x1"
+        },
+        {
+          "_id": "2e6e6c72-cc72-8001-9e59-ce1d36dd078d",
+          "_url": "https://app.notion.com/p/Guitarra-Acoustica-2e6e6c72cc7280019e59ce1d36dd078d",
+          "_created": "2026-01-12T02:23:00.000Z",
+          "_edited": "2026-01-13T16:33:00.000Z",
+          "Price": 900,
+          "Status": "Bought",
+          "Details": "",
+          "Name": "Guitarra Acoustica"
+        },
+        {
+          "_id": "2e0e6c72-cc72-80b4-8e15-f90092179bd3",
+          "_url": "https://app.notion.com/p/Zapatillas-blancas-x2-2e0e6c72cc7280b48e15f90092179bd3",
+          "_created": "2026-01-06T00:59:00.000Z",
+          "_edited": "2026-04-26T06:52:00.000Z",
+          "Price": 700,
+          "Status": "Bought",
+          "Details": "",
+          "Name": "Zapatillas blancas x2"
+        },
+        {
+          "_id": "2c5e6c72-cc72-80f0-bf1b-fad2d3d99a49",
+          "_url": "https://app.notion.com/p/Polos-blancos-x2-2c5e6c72cc7280f0bf1bfad2d3d99a49",
+          "_created": "2025-12-10T03:51:00.000Z",
+          "_edited": "2025-12-23T00:17:00.000Z",
+          "Price": 150,
+          "Status": "Bought",
+          "Details": "",
+          "Name": "Polos blancos x2"
+        },
+        {
+          "_id": "2c5e6c72-cc72-800c-94b9-ce4c04db43d8",
+          "_url": "https://app.notion.com/p/Medias-x3-2c5e6c72cc72800c94b9ce4c04db43d8",
+          "_created": "2025-12-10T03:51:00.000Z",
+          "_edited": "2025-12-23T00:14:00.000Z",
+          "Price": 100,
+          "Status": "Bought",
+          "Details": "",
+          "Name": "Medias x3"
+        },
+        {
+          "_id": "2c5e6c72-cc72-80c3-a728-d5a9de4bb316",
+          "_url": "https://app.notion.com/p/Zapatos-Comodos-2c5e6c72cc7280c3a728d5a9de4bb316",
+          "_created": "2025-12-10T03:50:00.000Z",
+          "_edited": "2025-12-22T19:55:00.000Z",
+          "Price": 300,
+          "Status": "Bought",
+          "Details": "",
+          "Name": "Zapatos Comodos"
+        },
+        {
+          "_id": "262e6c72-cc72-8051-8fa3-de6209a64474",
+          "_url": "https://app.notion.com/p/Casaca-x2-262e6c72cc7280518fa3de6209a64474",
+          "_created": "2025-09-02T17:57:00.000Z",
+          "_edited": "2025-09-04T03:28:00.000Z",
+          "Price": 400,
+          "Status": "Bought",
+          "Details": "",
+          "Name": "Casaca x2"
         }
       ]
     },
