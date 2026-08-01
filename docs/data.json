@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T21:32:04.915235+00:00",
+  "generated_at": "2026-08-01T22:33:33.883565+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -13369,6 +13369,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3afe6c72-cc72-81da-b9d6-dae1145d623d",
+          "_url": "https://app.notion.com/p/Canchita-del-cine-3afe6c72cc7281dab9d6dae1145d623d",
+          "_created": "2026-08-01T22:25:00.000Z",
+          "_edited": "2026-08-01T22:25:00.000Z",
+          "Date Created": {
+            "start": "2026-08-01",
+            "end": null
+          },
+          "Price": 61,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Canchita del cine",
+          "Category": null
+        },
         {
           "_id": "6b285e85-4ac4-4cfe-aced-009c9adeea66",
           "_url": "https://app.notion.com/p/Almuerzo-en-trabajo-6b285e854ac44cfeaced009c9adeea66",
