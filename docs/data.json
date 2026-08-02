@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T16:33:14.980690+00:00",
+  "generated_at": "2026-08-02T17:41:04.851246+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -13369,6 +13369,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3b0e6c72-cc72-8176-97f6-ccc76da36022",
+          "_url": "https://app.notion.com/p/Creatina-3b0e6c72cc72817697f6ccc76da36022",
+          "_created": "2026-08-02T17:08:00.000Z",
+          "_edited": "2026-08-02T17:08:00.000Z",
+          "Date Created": {
+            "start": "2026-08-02",
+            "end": null
+          },
+          "Price": 48.51,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Creatina",
+          "Category": null
+        },
         {
           "_id": "3afe6c72-cc72-81da-b9d6-dae1145d623d",
           "_url": "https://app.notion.com/p/Canchita-del-cine-3afe6c72cc7281dab9d6dae1145d623d",
