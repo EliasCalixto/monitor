@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T18:37:55.768253+00:00",
+  "generated_at": "2026-08-02T19:48:56.487584+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -178,6 +178,16 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3b0e6c72-cc72-8046-802a-d3c23e4d9319",
+          "_url": "https://app.notion.com/p/Mamparas-3b0e6c72cc728046802ad3c23e4d9319",
+          "_created": "2026-08-02T19:00:00.000Z",
+          "_edited": "2026-08-02T19:00:00.000Z",
+          "Price": 2000,
+          "Status": "Urgent",
+          "Details": "",
+          "Name": "Mamparas"
+        },
         {
           "_id": "3a5e6c72-cc72-8058-a173-ed2a99e0f357",
           "_url": "https://app.notion.com/p/Camisas-Blancas-x5-3a5e6c72cc728058a173ed2a99e0f357",
