@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T01:12:01.328566+00:00",
+  "generated_at": "2026-08-03T04:44:53.808394+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,10 +27,10 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 14487.200000000003,
-          "Tot. Expenses": 286678.27500000014,
-          "Total Papa": 9456.86,
-          "Tot. Savings": 8398.06,
+          "SumGastosPapa": 14501.200000000003,
+          "Tot. Expenses": 286678.27500000026,
+          "Total Papa": 9442.86,
+          "Tot. Savings": 9750,
           "SumIngresosPapa": 23944.06,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
@@ -134,7 +134,7 @@
             "39be6c72-cc72-8019-ba7b-d5096f5d4983",
             "3a4e6c72-cc72-8097-9428-ec96a22afa51"
           ],
-          "Cash": 434.47499999992,
+          "Cash": 434.4749999998,
           "Tot. Income": 287112.75000000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -163,7 +163,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 9891.334999999915,
+          "Cash Total": 9877.334999999795,
           "Name": "Resumen"
         }
       ]
@@ -1237,25 +1237,6 @@
           "Name": "pasajes"
         },
         {
-          "_id": "3afe6c72-cc72-8020-99a8-e1b9fb467957",
-          "_url": "https://app.notion.com/p/pago-a-banco-amortizacion-3afe6c72cc72802099a8e1b9fb467957",
-          "_created": "2026-08-01T01:30:00.000Z",
-          "_edited": "2026-08-01T01:30:00.000Z",
-          "Category": "Savings",
-          "Date Created": {
-            "start": "2026-07-31",
-            "end": null
-          },
-          "ExpensesSavings": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Resumen": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Price": -3622.5,
-          "Name": "pago a banco amortizacion"
-        },
-        {
           "_id": "3afe6c72-cc72-8056-a2f7-fe3c8bace783",
           "_url": "https://app.notion.com/p/pago-a-banco-amortizacion-3afe6c72cc728056a2f7fe3c8bace783",
           "_created": "2026-08-01T01:27:00.000Z",
@@ -1339,25 +1320,6 @@
           ],
           "Price": 10,
           "Name": "almuerzo"
-        },
-        {
-          "_id": "3ade6c72-cc72-8018-afdc-f3d3c3a5fa81",
-          "_url": "https://app.notion.com/p/acumulacion-fin-de-julio-3ade6c72cc728018afdcf3d3c3a5fa81",
-          "_created": "2026-07-30T21:18:00.000Z",
-          "_edited": "2026-07-30T21:22:00.000Z",
-          "Category": "Savings",
-          "Date Created": {
-            "start": "2026-07-30",
-            "end": null
-          },
-          "ExpensesSavings": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Resumen": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Price": 1351.94,
-          "Name": "acumulacion fin de julio"
         },
         {
           "_id": "3ade6c72-cc72-80a8-b22c-ff6ca54009c0",
@@ -1515,22 +1477,6 @@
           "Name": "ceviche de pota"
         },
         {
-          "_id": "3a8e6c72-cc72-8043-8776-c1f3581cf76e",
-          "_url": "https://app.notion.com/p/nose-3a8e6c72cc7280438776c1f3581cf76e",
-          "_created": "2026-07-25T19:34:00.000Z",
-          "_edited": "2026-07-25T19:35:00.000Z",
-          "Category": "Savings",
-          "Date Created": null,
-          "ExpensesSavings": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Resumen": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Price": -1e-12,
-          "Name": "nose"
-        },
-        {
           "_id": "3a8e6c72-cc72-8044-b485-e9282c29c6d6",
           "_url": "https://app.notion.com/p/pasaje-moto-para-alamo-3a8e6c72cc728044b485e9282c29c6d6",
           "_created": "2026-07-25T19:30:00.000Z",
@@ -1580,25 +1526,6 @@
           ],
           "Price": 125,
           "Name": "Camidas blancas x5"
-        },
-        {
-          "_id": "3a7e6c72-cc72-80cf-b1bf-fef7855caedb",
-          "_url": "https://app.notion.com/p/Acumulciom-fin-de-mes-area-3a7e6c72cc7280cfb1bffef7855caedb",
-          "_created": "2026-07-24T20:51:00.000Z",
-          "_edited": "2026-07-24T20:54:00.000Z",
-          "Category": "Savings",
-          "Date Created": {
-            "start": "2026-07-24",
-            "end": null
-          },
-          "ExpensesSavings": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Resumen": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Price": 1000.03,
-          "Name": "Acumulciom fin de mes area"
         },
         {
           "_id": "3a7e6c72-cc72-808a-8acd-e09133184713",
@@ -2058,25 +1985,6 @@
           ],
           "Price": 6,
           "Name": "pasajes"
-        },
-        {
-          "_id": "39ee6c72-cc72-80e8-b15d-c8db6d4025b4",
-          "_url": "https://app.notion.com/p/acumulacion-Julio-39ee6c72cc7280e8b15dc8db6d4025b4",
-          "_created": "2026-07-15T15:54:00.000Z",
-          "_edited": "2026-07-15T15:54:00.000Z",
-          "Category": "Savings",
-          "Date Created": {
-            "start": "2026-07-15",
-            "end": null
-          },
-          "ExpensesSavings": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Resumen": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Price": 1270.53,
-          "Name": "acumulacion Julio"
         },
         {
           "_id": "39ee6c72-cc72-808b-88ce-fd909d10b1c2",
@@ -3201,25 +3109,6 @@
           "Name": "no idea"
         },
         {
-          "_id": "390e6c72-cc72-8009-bf28-fd725521df30",
-          "_url": "https://app.notion.com/p/se-quita-de-ahorro-para-amortizar-390e6c72cc728009bf28fd725521df30",
-          "_created": "2026-07-01T00:23:00.000Z",
-          "_edited": "2026-07-01T00:23:00.000Z",
-          "Category": "Savings",
-          "Date Created": {
-            "start": "2026-06-30",
-            "end": null
-          },
-          "ExpensesSavings": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Resumen": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Price": -2774.74,
-          "Name": "se quita de ahorro para amortizar"
-        },
-        {
           "_id": "390e6c72-cc72-807c-b4ab-f0b4073af0e7",
           "_url": "https://app.notion.com/p/AMORTIZACION-AL-BBVA-390e6c72cc72807cb4abf0b4073af0e7",
           "_created": "2026-07-01T00:22:00.000Z",
@@ -4121,25 +4010,6 @@
           "Name": "Trabajo usil"
         },
         {
-          "_id": "37ee6c72-cc72-80a1-b781-f152ad0dc299",
-          "_url": "https://app.notion.com/p/Acum-37ee6c72cc7280a1b781f152ad0dc299",
-          "_created": "2026-06-13T15:58:00.000Z",
-          "_edited": "2026-06-13T15:58:00.000Z",
-          "Category": "Savings",
-          "Date Created": {
-            "start": "2026-06-13",
-            "end": null
-          },
-          "ExpensesSavings": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Resumen": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Price": 1706.97,
-          "Name": "Acum"
-        },
-        {
           "_id": "37de6c72-cc72-8071-a14f-c01ca44ccc54",
           "_url": "https://app.notion.com/p/pasaje-37de6c72cc728071a14fc01ca44ccc54",
           "_created": "2026-06-12T18:44:00.000Z",
@@ -4206,25 +4076,6 @@
           ],
           "Price": 12.5,
           "Name": "Pasaje y desayuno 3"
-        },
-        {
-          "_id": "37ce6c72-cc72-80da-a5dd-e44130221093",
-          "_url": "https://app.notion.com/p/negativo-acumulacion-37ce6c72cc7280daa5dde44130221093",
-          "_created": "2026-06-11T22:25:00.000Z",
-          "_edited": "2026-06-11T22:26:00.000Z",
-          "Category": "Savings",
-          "Date Created": {
-            "start": "2026-06-11",
-            "end": null
-          },
-          "ExpensesSavings": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Resumen": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Price": -0.77,
-          "Name": "negativo acumulacion"
         },
         {
           "_id": "37ce6c72-cc72-80cb-820c-eedefa95f89b",
@@ -5048,22 +4899,6 @@
           "Name": "almuerzo agraria"
         },
         {
-          "_id": "376e6c72-cc72-8113-a074-dd3c8ed5fec1",
-          "_url": "https://app.notion.com/p/Acumulacion-negativa-376e6c72cc728113a074dd3c8ed5fec1",
-          "_created": "2026-06-05T15:12:00.000Z",
-          "_edited": "2026-06-05T15:13:00.000Z",
-          "Category": "Savings",
-          "Date Created": null,
-          "ExpensesSavings": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Resumen": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Price": -2070.82,
-          "Name": "Acumulacion negativa"
-        },
-        {
           "_id": "376e6c72-cc72-8137-b0e2-fe764ab11fd3",
           "_url": "https://app.notion.com/p/Cuota-banco-376e6c72cc728137b0e2fe764ab11fd3",
           "_created": "2026-06-05T15:09:00.000Z",
@@ -5452,25 +5287,6 @@
           "Name": "actividad instituto"
         },
         {
-          "_id": "36ce6c72-cc72-8094-935d-c812e94ab18b",
-          "_url": "https://app.notion.com/p/acumulacion-36ce6c72cc728094935dc812e94ab18b",
-          "_created": "2026-05-26T01:23:00.000Z",
-          "_edited": "2026-06-11T12:43:00.000Z",
-          "Category": "Savings",
-          "Date Created": {
-            "start": "2026-05-25",
-            "end": null
-          },
-          "ExpensesSavings": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Resumen": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Price": 539.36,
-          "Name": "acumulacion"
-        },
-        {
           "_id": "36ce6c72-cc72-8089-90b8-e0f01babe3e0",
           "_url": "https://app.notion.com/p/chifita-36ce6c72cc72808990b8e0f01babe3e0",
           "_created": "2026-05-26T01:22:00.000Z",
@@ -5811,25 +5627,6 @@
           "Name": "gastos en pasajes y desayuno"
         },
         {
-          "_id": "364e6c72-cc72-8024-bc36-e00f0b9ea49d",
-          "_url": "https://app.notion.com/p/acumulacion-364e6c72cc728024bc36e00f0b9ea49d",
-          "_created": "2026-05-18T15:03:00.000Z",
-          "_edited": "2026-05-18T15:04:00.000Z",
-          "Category": "Savings",
-          "Date Created": {
-            "start": "2026-05-18",
-            "end": null
-          },
-          "ExpensesSavings": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Resumen": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Price": 1800,
-          "Name": "acumulacion"
-        },
-        {
           "_id": "364e6c72-cc72-803c-8dbe-ec9536a2fd9f",
           "_url": "https://app.notion.com/p/venta-de-iphone-16-pro-parte-1-364e6c72cc72803c8dbeec9536a2fd9f",
           "_created": "2026-05-18T14:59:00.000Z",
@@ -5947,25 +5744,6 @@
           ],
           "Price": 9.3,
           "Name": "taxi y desayuno para el work"
-        },
-        {
-          "_id": "361e6c72-cc72-80fe-b259-d938dc41b23a",
-          "_url": "https://app.notion.com/p/acumulacion-361e6c72cc7280feb259d938dc41b23a",
-          "_created": "2026-05-15T18:18:00.000Z",
-          "_edited": "2026-05-16T22:40:00.000Z",
-          "Category": "Savings",
-          "Date Created": {
-            "start": "2026-05-15",
-            "end": null
-          },
-          "ExpensesSavings": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Resumen": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Price": 800,
-          "Name": "acumulacion"
         },
         {
           "_id": "361e6c72-cc72-8096-992c-cfd29b461698",
@@ -13380,6 +13158,51 @@
       },
       "rows": [
         {
+          "_id": "3b1e6c72-cc72-81a1-91c4-c02ec8623441",
+          "_url": "https://app.notion.com/p/Entrada-a-Insite-de-Rxdrx-3b1e6c72cc7281a191c4c02ec8623441",
+          "_created": "2026-08-03T04:27:00.000Z",
+          "_edited": "2026-08-03T04:27:00.000Z",
+          "Date Created": {
+            "start": "2026-08-02",
+            "end": null
+          },
+          "Price": 190,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Entrada a Insite de Rxdrx",
+          "Category": null
+        },
+        {
+          "_id": "3b1e6c72-cc72-819d-8e4b-f4aa450f129d",
+          "_url": "https://app.notion.com/p/Escritorio-regulable-3b1e6c72cc72819d8e4bf4aa450f129d",
+          "_created": "2026-08-03T02:52:00.000Z",
+          "_edited": "2026-08-03T02:52:00.000Z",
+          "Date Created": {
+            "start": "2026-08-02",
+            "end": null
+          },
+          "Price": 795.85,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Escritorio regulable",
+          "Category": null
+        },
+        {
+          "_id": "3b1e6c72-cc72-8199-93d5-e682f51f1221",
+          "_url": "https://app.notion.com/p/Cuadros-para-t-tulos-3b1e6c72cc72819993d5e682f51f1221",
+          "_created": "2026-08-03T02:19:00.000Z",
+          "_edited": "2026-08-03T02:19:00.000Z",
+          "Date Created": {
+            "start": "2026-08-02",
+            "end": null
+          },
+          "Price": 178,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Cuadros para títulos",
+          "Category": null
+        },
+        {
           "_id": "3b0e6c72-cc72-8176-97f6-ccc76da36022",
           "_url": "https://app.notion.com/p/Creatina-3b0e6c72cc72817697f6ccc76da36022",
           "_created": "2026-08-02T17:08:00.000Z",
@@ -15318,6 +15141,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3b1e6c72-cc72-81b4-8b82-f452e1ef3126",
+          "_url": "https://app.notion.com/p/Gasto-de-Papa-3b1e6c72cc7281b48b82f452e1ef3126",
+          "_created": "2026-08-03T02:05:00.000Z",
+          "_edited": "2026-08-03T02:05:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-08-02",
+            "end": null
+          },
+          "Money": 14,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Gasto de Papa"
+        },
         {
           "_id": "3aee6c72-cc72-80c1-8265-e09fe4f30450",
           "_url": "https://app.notion.com/p/entradas-al-cine-3aee6c72cc7280c18265e09fe4f30450",
