@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T18:13:12.683341+00:00",
+  "generated_at": "2026-08-03T19:55:20.786521+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 14501.200000000003,
-          "Tot. Expenses": 286688.27500000026,
+          "Tot. Expenses": 287061.27500000026,
           "Total Papa": 9442.86,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 23944.06,
@@ -134,7 +134,7 @@
             "39be6c72-cc72-8019-ba7b-d5096f5d4983",
             "3a4e6c72-cc72-8097-9428-ec96a22afa51"
           ],
-          "Cash": 424.4749999998,
+          "Cash": 51.4749999998,
           "Tot. Income": 287112.75000000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -163,7 +163,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 9867.334999999795,
+          "Cash Total": 9494.334999999795,
           "Name": "Resumen"
         }
       ]
@@ -1219,6 +1219,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3b1e6c72-cc72-816d-bb69-ee87f130ff76",
+          "_url": "https://app.notion.com/p/Pago-de-matr-cula-de-Andrea-3b1e6c72cc72816dbb69ee87f130ff76",
+          "_created": "2026-08-03T18:53:00.000Z",
+          "_edited": "2026-08-03T18:53:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-08-03",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 373,
+          "Name": "Pago de matrícula de Andrea"
+        },
         {
           "_id": "3b1e6c72-cc72-805b-9e82-e22502ef9670",
           "_url": "https://app.notion.com/p/taxi-a-trabajo-3b1e6c72cc72805b9e82e22502ef9670",
@@ -13172,6 +13189,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3b1e6c72-cc72-818e-a5ee-cb154df52ed6",
+          "_url": "https://app.notion.com/p/Almuerzo-3b1e6c72cc72818ea5eecb154df52ed6",
+          "_created": "2026-08-03T19:17:00.000Z",
+          "_edited": "2026-08-03T19:17:00.000Z",
+          "Date Created": {
+            "start": "2026-08-03",
+            "end": null
+          },
+          "Price": 15,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Almuerzo",
+          "Category": "Fixed"
+        },
         {
           "_id": "3b1e6c72-cc72-814c-abae-f0790df7dc77",
           "_url": "https://app.notion.com/p/sopita-3b1e6c72cc72814cabaef0790df7dc77",
