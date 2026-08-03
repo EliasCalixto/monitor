@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T11:39:46.127181+00:00",
+  "generated_at": "2026-08-03T14:00:03.101693+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 14501.200000000003,
-          "Tot. Expenses": 286678.27500000026,
+          "Tot. Expenses": 286688.27500000026,
           "Total Papa": 9442.86,
           "Tot. Savings": 9750,
           "SumIngresosPapa": 23944.06,
@@ -134,7 +134,7 @@
             "39be6c72-cc72-8019-ba7b-d5096f5d4983",
             "3a4e6c72-cc72-8097-9428-ec96a22afa51"
           ],
-          "Cash": 434.4749999998,
+          "Cash": 424.4749999998,
           "Tot. Income": 287112.75000000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -163,7 +163,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 9877.334999999795,
+          "Cash Total": 9867.334999999795,
           "Name": "Resumen"
         }
       ]
@@ -1219,6 +1219,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3b1e6c72-cc72-805b-9e82-e22502ef9670",
+          "_url": "https://app.notion.com/p/taxi-a-trabajo-3b1e6c72cc72805b9e82e22502ef9670",
+          "_created": "2026-08-03T13:19:00.000Z",
+          "_edited": "2026-08-03T13:33:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-08-03",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 10,
+          "Name": "taxi a trabajo"
+        },
         {
           "_id": "3afe6c72-cc72-80ed-9eec-c79c3b4c1d08",
           "_url": "https://app.notion.com/p/pasajes-3afe6c72cc7280ed9eecc79c3b4c1d08",
@@ -2926,7 +2943,7 @@
           "_url": "https://app.notion.com/p/Venta-de-zapatillas-393e6c72cc7280c6acb0dca208a59554",
           "_created": "2026-07-04T20:27:00.000Z",
           "_edited": "2026-07-04T20:27:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2026-07-04",
             "end": null
@@ -3232,7 +3249,7 @@
           "_url": "https://app.notion.com/p/escobilla-y-betun-38ee6c72cc728040beaefc3c88fc1a37",
           "_created": "2026-06-29T17:23:00.000Z",
           "_edited": "2026-06-29T17:23:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2026-06-29",
             "end": null
@@ -3742,7 +3759,7 @@
           "_url": "https://app.notion.com/p/lavada-de-terno-385e6c72cc7280e796a3c96aa4e67876",
           "_created": "2026-06-20T23:21:00.000Z",
           "_edited": "2026-06-20T23:21:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2026-06-20",
             "end": null
@@ -3912,7 +3929,7 @@
           "_url": "https://app.notion.com/p/pasta-dental-380e6c72cc728059ba48c85d3a076d2f",
           "_created": "2026-06-15T13:28:00.000Z",
           "_edited": "2026-06-15T13:28:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2026-06-15",
             "end": null
@@ -3929,7 +3946,7 @@
           "_url": "https://app.notion.com/p/Dentista-37ee6c72cc7280b19136c0ed0ad1b9f9",
           "_created": "2026-06-13T21:07:00.000Z",
           "_edited": "2026-06-13T21:08:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2026-06-13",
             "end": null
@@ -4575,7 +4592,7 @@
           "_url": "https://app.notion.com/p/magnesio-37ae6c72cc72808fb32de8039edc4d40",
           "_created": "2026-06-09T19:07:00.000Z",
           "_edited": "2026-06-09T19:07:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2026-06-09",
             "end": null
@@ -5206,7 +5223,7 @@
           "_url": "https://app.notion.com/p/corte-de-pelo-36de6c72cc7280bfa5f1cee77aa7c520",
           "_created": "2026-05-27T00:58:00.000Z",
           "_edited": "2026-05-27T00:58:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2026-05-26",
             "end": null
@@ -5410,7 +5427,7 @@
           "_url": "https://app.notion.com/p/desodorante-368e6c72cc7280cea681d6cb9a7134bc",
           "_created": "2026-05-22T23:14:00.000Z",
           "_edited": "2026-05-22T23:14:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2026-05-22",
             "end": null
@@ -5529,7 +5546,7 @@
           "_url": "https://app.notion.com/p/Terno-366e6c72cc7280449e7de3d305a1e3ca",
           "_created": "2026-05-20T23:06:00.000Z",
           "_edited": "2026-05-20T23:07:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2026-05-20",
             "end": null
@@ -5716,7 +5733,7 @@
           "_url": "https://app.notion.com/p/Dentista-362e6c72cc7280489510ff645e12ae40",
           "_created": "2026-05-16T22:40:00.000Z",
           "_edited": "2026-05-16T22:40:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2026-05-16",
             "end": null
@@ -13161,7 +13178,7 @@
           "_id": "3b1e6c72-cc72-81a1-91c4-c02ec8623441",
           "_url": "https://app.notion.com/p/Entrada-a-Insite-de-Rxdrx-3b1e6c72cc7281a191c4c02ec8623441",
           "_created": "2026-08-03T04:27:00.000Z",
-          "_edited": "2026-08-03T04:27:00.000Z",
+          "_edited": "2026-08-03T13:37:00.000Z",
           "Date Created": {
             "start": "2026-08-02",
             "end": null
@@ -13170,13 +13187,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Entrada a Insite de Rxdrx",
-          "Category": null
+          "Category": "Enjoy"
         },
         {
           "_id": "3b1e6c72-cc72-819d-8e4b-f4aa450f129d",
           "_url": "https://app.notion.com/p/Escritorio-regulable-3b1e6c72cc72819d8e4bf4aa450f129d",
           "_created": "2026-08-03T02:52:00.000Z",
-          "_edited": "2026-08-03T02:52:00.000Z",
+          "_edited": "2026-08-03T13:37:00.000Z",
           "Date Created": {
             "start": "2026-08-02",
             "end": null
@@ -13185,13 +13202,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Escritorio regulable",
-          "Category": null
+          "Category": "Home"
         },
         {
           "_id": "3b1e6c72-cc72-8199-93d5-e682f51f1221",
           "_url": "https://app.notion.com/p/Cuadros-para-t-tulos-3b1e6c72cc72819993d5e682f51f1221",
           "_created": "2026-08-03T02:19:00.000Z",
-          "_edited": "2026-08-03T02:19:00.000Z",
+          "_edited": "2026-08-03T13:37:00.000Z",
           "Date Created": {
             "start": "2026-08-02",
             "end": null
@@ -13200,13 +13217,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Cuadros para títulos",
-          "Category": null
+          "Category": "Home"
         },
         {
           "_id": "3b0e6c72-cc72-8176-97f6-ccc76da36022",
           "_url": "https://app.notion.com/p/Creatina-3b0e6c72cc72817697f6ccc76da36022",
           "_created": "2026-08-02T17:08:00.000Z",
-          "_edited": "2026-08-02T17:08:00.000Z",
+          "_edited": "2026-08-03T13:55:00.000Z",
           "Date Created": {
             "start": "2026-08-02",
             "end": null
@@ -13215,13 +13232,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Creatina",
-          "Category": null
+          "Category": "Personal"
         },
         {
           "_id": "3afe6c72-cc72-81da-b9d6-dae1145d623d",
           "_url": "https://app.notion.com/p/Canchita-del-cine-3afe6c72cc7281dab9d6dae1145d623d",
           "_created": "2026-08-01T22:25:00.000Z",
-          "_edited": "2026-08-01T22:25:00.000Z",
+          "_edited": "2026-08-03T13:37:00.000Z",
           "Date Created": {
             "start": "2026-08-01",
             "end": null
@@ -13230,13 +13247,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Canchita del cine",
-          "Category": null
+          "Category": "Enjoy"
         },
         {
           "_id": "6b285e85-4ac4-4cfe-aced-009c9adeea66",
           "_url": "https://app.notion.com/p/Almuerzo-en-trabajo-6b285e854ac44cfeaced009c9adeea66",
           "_created": "2026-07-31T17:18:00.000Z",
-          "_edited": "2026-07-31T20:20:00.000Z",
+          "_edited": "2026-08-03T13:36:00.000Z",
           "Date Created": {
             "start": "2026-07-31",
             "end": null
@@ -13245,28 +13262,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Almuerzo en trabajo",
-          "Category": "Enjoy"
-        },
-        {
-          "_id": "3aae6c72-cc72-80a9-bdb1-ed6872ede666",
-          "_url": "https://app.notion.com/p/Tokens-Claude-3aae6c72cc7280a9bdb1ed6872ede666",
-          "_created": "2026-07-27T17:47:00.000Z",
-          "_edited": "2026-07-27T17:47:00.000Z",
-          "Date Created": {
-            "start": "2026-07-27",
-            "end": null
-          },
-          "Price": 62.14,
-          "Date Payed": null,
-          "Status": "Pending",
-          "Name": "Tokens Claude",
-          "Category": null
+          "Category": "Fixed"
         },
         {
           "_id": "3aae6c72-cc72-8054-8c8d-c23683b85ec2",
           "_url": "https://app.notion.com/p/Frugos-3aae6c72cc7280548c8dc23683b85ec2",
           "_created": "2026-07-27T12:43:00.000Z",
-          "_edited": "2026-07-27T12:43:00.000Z",
+          "_edited": "2026-08-03T13:37:00.000Z",
           "Date Created": {
             "start": "2026-07-27",
             "end": null
@@ -13275,13 +13277,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Frugos",
-          "Category": null
+          "Category": "Enjoy"
         },
         {
           "_id": "3a9e6c72-cc72-81f1-b385-f2d4d9aa31d8",
           "_url": "https://app.notion.com/p/Socket-y-visagra-3a9e6c72cc7281f1b385f2d4d9aa31d8",
           "_created": "2026-07-26T20:12:00.000Z",
-          "_edited": "2026-07-26T20:12:00.000Z",
+          "_edited": "2026-08-03T13:37:00.000Z",
           "Date Created": {
             "start": "2026-07-26",
             "end": null
@@ -13290,13 +13292,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Socket y visagra",
-          "Category": null
+          "Category": "Home"
         },
         {
           "_id": "3a9e6c72-cc72-81a0-ba7d-c71c5a741b50",
           "_url": "https://app.notion.com/p/Perfume-Jean-Paul-Gaultier-75ml-3a9e6c72cc7281a0ba7dc71c5a741b50",
           "_created": "2026-07-26T20:00:00.000Z",
-          "_edited": "2026-07-26T20:00:00.000Z",
+          "_edited": "2026-08-03T13:37:00.000Z",
           "Date Created": {
             "start": "2026-07-26",
             "end": null
@@ -13305,13 +13307,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Perfume Jean Paul Gaultier 75ml",
-          "Category": null
+          "Category": "Enjoy"
         },
         {
           "_id": "3a9e6c72-cc72-80f1-ae70-ea8ac9c5417a",
           "_url": "https://app.notion.com/p/zapatillas-converse-de-mikalah-3a9e6c72cc7280f1ae70ea8ac9c5417a",
           "_created": "2026-07-26T07:16:00.000Z",
-          "_edited": "2026-07-26T07:16:00.000Z",
+          "_edited": "2026-08-03T13:36:00.000Z",
           "Date Created": {
             "start": "2026-07-26",
             "end": null
@@ -13320,13 +13322,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "zapatillas converse de mikalah",
-          "Category": null
+          "Category": "Enjoy"
         },
         {
           "_id": "3a9e6c72-cc72-80ee-b5e3-c6aef25483fc",
           "_url": "https://app.notion.com/p/polo-blanco-mikalah-3a9e6c72cc7280eeb5e3c6aef25483fc",
           "_created": "2026-07-26T07:11:00.000Z",
-          "_edited": "2026-07-26T07:11:00.000Z",
+          "_edited": "2026-08-03T13:36:00.000Z",
           "Date Created": {
             "start": "2026-07-26",
             "end": null
@@ -13335,13 +13337,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "polo blanco mikalah",
-          "Category": null
+          "Category": "Enjoy"
         },
         {
           "_id": "3a9e6c72-cc72-8060-b75c-c0595539780d",
           "_url": "https://app.notion.com/p/cena-en-long-horn-3a9e6c72cc728060b75cc0595539780d",
           "_created": "2026-07-26T07:10:00.000Z",
-          "_edited": "2026-07-26T07:10:00.000Z",
+          "_edited": "2026-08-03T13:36:00.000Z",
           "Date Created": {
             "start": "2026-07-26",
             "end": null
@@ -13350,13 +13352,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "cena en long horn",
-          "Category": null
+          "Category": "Enjoy"
         },
         {
           "_id": "3a9e6c72-cc72-81fa-8614-c135acffe84d",
           "_url": "https://app.notion.com/p/Casaca-jean-negra-3a9e6c72cc7281fa8614c135acffe84d",
           "_created": "2026-07-26T02:09:00.000Z",
-          "_edited": "2026-07-26T02:09:00.000Z",
+          "_edited": "2026-08-03T13:43:00.000Z",
           "Date Created": {
             "start": "2026-07-25",
             "end": null
@@ -13365,13 +13367,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Casaca jean negra",
-          "Category": null
+          "Category": "Enjoy"
         },
         {
           "_id": "3a9e6c72-cc72-813c-b821-efe51e47eca2",
           "_url": "https://app.notion.com/p/Aruma-Mikalah-3a9e6c72cc72813cb821efe51e47eca2",
           "_created": "2026-07-26T00:49:00.000Z",
-          "_edited": "2026-07-26T00:49:00.000Z",
+          "_edited": "2026-08-03T13:36:00.000Z",
           "Date Created": {
             "start": "2026-07-25",
             "end": null
@@ -13380,13 +13382,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Aruma Mikalah",
-          "Category": null
+          "Category": "Enjoy"
         },
         {
           "_id": "3a9e6c72-cc72-80b6-82cc-f0915849fbcf",
           "_url": "https://app.notion.com/p/Bolso-de-mikalah-3a9e6c72cc7280b682ccf0915849fbcf",
           "_created": "2026-07-26T00:42:00.000Z",
-          "_edited": "2026-07-26T00:42:00.000Z",
+          "_edited": "2026-08-03T13:36:00.000Z",
           "Date Created": {
             "start": "2026-07-25",
             "end": null
@@ -13395,13 +13397,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Bolso de mikalah",
-          "Category": null
+          "Category": "Enjoy"
         },
         {
           "_id": "3a9e6c72-cc72-80e2-bd88-efd364c3840b",
           "_url": "https://app.notion.com/p/Pantalon-unbranded-3a9e6c72cc7280e2bd88efd364c3840b",
           "_created": "2026-07-26T00:41:00.000Z",
-          "_edited": "2026-07-26T00:42:00.000Z",
+          "_edited": "2026-08-03T13:36:00.000Z",
           "Date Created": {
             "start": "2026-07-25",
             "end": null
@@ -13410,13 +13412,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Pantalon unbranded",
-          "Category": null
+          "Category": "Home"
         },
         {
           "_id": "3a9e6c72-cc72-80e6-9cf2-c9119ea8d909",
           "_url": "https://app.notion.com/p/Polos-unbranded-3a9e6c72cc7280e69cf2c9119ea8d909",
           "_created": "2026-07-26T00:41:00.000Z",
-          "_edited": "2026-07-26T00:41:00.000Z",
+          "_edited": "2026-08-03T13:36:00.000Z",
           "Date Created": {
             "start": "2026-07-25",
             "end": null
@@ -13425,13 +13427,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Polos unbranded",
-          "Category": null
+          "Category": "Home"
         },
         {
           "_id": "3a9e6c72-cc72-8016-b532-cb7c82c87b5f",
           "_url": "https://app.notion.com/p/Cinammom-3a9e6c72cc728016b532cb7c82c87b5f",
           "_created": "2026-07-26T00:40:00.000Z",
-          "_edited": "2026-07-26T00:41:00.000Z",
+          "_edited": "2026-08-03T13:36:00.000Z",
           "Date Created": {
             "start": "2026-07-25",
             "end": null
@@ -13440,13 +13442,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Cinammom",
-          "Category": null
+          "Category": "Enjoy"
         },
         {
           "_id": "3a9e6c72-cc72-80bb-84c1-d14eb117b467",
           "_url": "https://app.notion.com/p/Coca-zero-3a9e6c72cc7280bb84c1d14eb117b467",
           "_created": "2026-07-26T00:40:00.000Z",
-          "_edited": "2026-07-26T00:40:00.000Z",
+          "_edited": "2026-08-03T13:36:00.000Z",
           "Date Created": {
             "start": "2026-07-25",
             "end": null
@@ -13455,13 +13457,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Coca zero",
-          "Category": null
+          "Category": "Enjoy"
         },
         {
           "_id": "3a8e6c72-cc72-815e-915c-dae0f7995713",
           "_url": "https://app.notion.com/p/Regalo-Mikalah-3a8e6c72cc72815e915cdae0f7995713",
           "_created": "2026-07-25T23:31:00.000Z",
-          "_edited": "2026-07-25T23:31:00.000Z",
+          "_edited": "2026-08-03T13:36:00.000Z",
           "Date Created": {
             "start": "2026-07-25",
             "end": null
@@ -13470,13 +13472,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Regalo Mikalah",
-          "Category": null
+          "Category": "Enjoy"
         },
         {
           "_id": "3a7e6c72-cc72-81cb-b2d7-fa63c891f3ba",
           "_url": "https://app.notion.com/p/Manija-foco-e-interruptor-3a7e6c72cc7281cbb2d7fa63c891f3ba",
           "_created": "2026-07-24T04:28:00.000Z",
-          "_edited": "2026-07-24T05:15:00.000Z",
+          "_edited": "2026-08-03T13:36:00.000Z",
           "Date Created": {
             "start": "2026-07-24",
             "end": null
@@ -13485,13 +13487,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Manija, foco e interruptor",
-          "Category": null
+          "Category": "Home"
         },
         {
           "_id": "3a7e6c72-cc72-80a8-992d-c30b48be268e",
           "_url": "https://app.notion.com/p/peque-a-comoda-porta-toalla-y-eso-3a7e6c72cc7280a8992dc30b48be268e",
           "_created": "2026-07-24T03:04:00.000Z",
-          "_edited": "2026-07-24T05:13:00.000Z",
+          "_edited": "2026-08-03T13:36:00.000Z",
           "Date Created": {
             "start": "2026-07-24",
             "end": null
@@ -13500,13 +13502,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "pequeña comoda porta toalla y eso",
-          "Category": null
+          "Category": "Home"
         },
         {
           "_id": "3a5e6c72-cc72-8062-be2a-fefa6e752b9c",
           "_url": "https://app.notion.com/p/Win-julio-3a5e6c72cc728062be2afefa6e752b9c",
           "_created": "2026-07-22T02:35:00.000Z",
-          "_edited": "2026-07-22T02:35:00.000Z",
+          "_edited": "2026-08-03T13:36:00.000Z",
           "Date Created": {
             "start": "2026-07-21",
             "end": null
@@ -13515,13 +13517,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Win julio",
-          "Category": null
+          "Category": "Fixed"
         },
         {
           "_id": "3a5e6c72-cc72-80d2-a9cc-c18e90e98227",
           "_url": "https://app.notion.com/p/examen-ingles-usil-PTE-3a5e6c72cc7280d2a9ccc18e90e98227",
           "_created": "2026-07-22T01:16:00.000Z",
-          "_edited": "2026-07-22T01:16:00.000Z",
+          "_edited": "2026-08-03T13:36:00.000Z",
           "Date Created": {
             "start": "2026-07-21",
             "end": null
@@ -13530,13 +13532,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "examen ingles usil PTE",
-          "Category": null
+          "Category": "Studies"
         },
         {
           "_id": "3a0e6c72-cc72-80a5-bd9a-e5230bc7e7be",
           "_url": "https://app.notion.com/p/mad-butguer-3a0e6c72cc7280a5bd9ae5230bc7e7be",
           "_created": "2026-07-17T18:25:00.000Z",
-          "_edited": "2026-07-17T18:26:00.000Z",
+          "_edited": "2026-08-03T13:36:00.000Z",
           "Date Created": {
             "start": "2026-07-17",
             "end": null
@@ -13545,13 +13547,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "mad butguer",
-          "Category": null
+          "Category": "Enjoy"
         },
         {
           "_id": "3a0e6c72-cc72-80ae-8061-d26b09fc2516",
           "_url": "https://app.notion.com/p/gfalletitia-y-frugos-3a0e6c72cc7280ae8061d26b09fc2516",
           "_created": "2026-07-17T13:42:00.000Z",
-          "_edited": "2026-07-17T13:43:00.000Z",
+          "_edited": "2026-08-03T13:36:00.000Z",
           "Date Created": {
             "start": "2026-07-17",
             "end": null
@@ -13560,13 +13562,13 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "gfalletitia y frugos",
-          "Category": null
+          "Category": "Enjoy"
         },
         {
           "_id": "39fe6c72-cc72-80c7-bc9a-ec441d437d28",
           "_url": "https://app.notion.com/p/sopita-39fe6c72cc7280c7bc9aec441d437d28",
           "_created": "2026-07-16T14:34:00.000Z",
-          "_edited": "2026-07-16T14:34:00.000Z",
+          "_edited": "2026-08-03T13:36:00.000Z",
           "Date Created": {
             "start": "2026-07-16",
             "end": null
@@ -13575,7 +13577,7 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "sopita",
-          "Category": null
+          "Category": "Enjoy"
         },
         {
           "_id": "39de6c72-cc72-8004-ab26-d13d20fe4ddf",
