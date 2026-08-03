@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T14:00:03.101693+00:00",
+  "generated_at": "2026-08-03T16:24:18.347779+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -30,7 +30,7 @@
           "SumGastosPapa": 14501.200000000003,
           "Tot. Expenses": 286688.27500000026,
           "Total Papa": 9442.86,
-          "Tot. Savings": 9750,
+          "Tot. Savings": 10000,
           "SumIngresosPapa": 23944.06,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
@@ -1348,9 +1348,7 @@
             "start": "2026-07-30",
             "end": null
           },
-          "ExpensesSavings": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
+          "ExpensesSavings": [],
           "Resumen": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
@@ -1531,8 +1529,8 @@
           "_id": "3a8e6c72-cc72-80c0-9973-e53212a4f329",
           "_url": "https://app.notion.com/p/Camidas-blancas-x5-3a8e6c72cc7280c09973e53212a4f329",
           "_created": "2026-07-25T06:46:00.000Z",
-          "_edited": "2026-07-25T06:46:00.000Z",
-          "Category": "Home",
+          "_edited": "2026-08-03T14:20:00.000Z",
+          "Category": "Personal",
           "Date Created": {
             "start": "2026-07-25",
             "end": null
@@ -1651,7 +1649,7 @@
           "_url": "https://app.notion.com/p/dentista-3a6e6c72cc7280739a02ffa20ff1e23b",
           "_created": "2026-07-23T00:01:00.000Z",
           "_edited": "2026-07-23T00:01:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2026-07-22",
             "end": null
@@ -1736,7 +1734,7 @@
           "_url": "https://app.notion.com/p/lavada-de-terno-3a5e6c72cc72802a8662e23906223213",
           "_created": "2026-07-22T01:17:00.000Z",
           "_edited": "2026-07-22T01:17:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2026-07-21",
             "end": null
@@ -1871,8 +1869,8 @@
           "_id": "3a0e6c72-cc72-80f2-959c-e34adaa05ffa",
           "_url": "https://app.notion.com/p/terapia-3a0e6c72cc7280f2959ce34adaa05ffa",
           "_created": "2026-07-17T01:15:00.000Z",
-          "_edited": "2026-07-17T01:16:00.000Z",
-          "Category": "Studies",
+          "_edited": "2026-08-03T14:20:00.000Z",
+          "Category": "Personal",
           "Date Created": {
             "start": "2026-07-16",
             "end": null
@@ -2041,8 +2039,8 @@
           "_id": "39ee6c72-cc72-8057-a922-cccc70feadfd",
           "_url": "https://app.notion.com/p/vaporizador-39ee6c72cc728057a922cccc70feadfd",
           "_created": "2026-07-15T14:28:00.000Z",
-          "_edited": "2026-07-15T14:28:00.000Z",
-          "Category": "Home",
+          "_edited": "2026-08-03T14:20:00.000Z",
+          "Category": "Personal",
           "Date Created": {
             "start": "2026-07-15",
             "end": null
@@ -2161,7 +2159,7 @@
           "_url": "https://app.notion.com/p/zapatillas-negras-39de6c72cc7280e6bd8cde205c323040",
           "_created": "2026-07-14T13:56:00.000Z",
           "_edited": "2026-07-14T13:56:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2026-07-14",
             "end": null
@@ -2178,7 +2176,7 @@
           "_url": "https://app.notion.com/p/ropita-39de6c72cc7280e5bcdde139bf299cdd",
           "_created": "2026-07-14T13:56:00.000Z",
           "_edited": "2026-07-14T13:56:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2026-07-14",
             "end": null
@@ -2875,7 +2873,7 @@
           "_url": "https://app.notion.com/p/corte-de-peluqui-397e6c72cc7280ce9c28cdb5b0c4a9bf",
           "_created": "2026-07-08T14:54:00.000Z",
           "_edited": "2026-07-08T14:54:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2026-07-08",
             "end": null
@@ -4302,8 +4300,8 @@
           "_id": "37ae6c72-cc72-807d-97ff-cdcb7dd56d10",
           "_url": "https://app.notion.com/p/wallet-reloj-37ae6c72cc72807d97ffcdcb7dd56d10",
           "_created": "2026-06-09T19:35:00.000Z",
-          "_edited": "2026-06-09T19:35:00.000Z",
-          "Category": "Home",
+          "_edited": "2026-08-03T14:21:00.000Z",
+          "Category": "Enjoy",
           "Date Created": {
             "start": "2026-06-09",
             "end": null
@@ -4455,8 +4453,8 @@
           "_id": "37ae6c72-cc72-80d8-ba2c-c27c6ef55326",
           "_url": "https://app.notion.com/p/case-ipad-atornillador-37ae6c72cc7280d8ba2cc27c6ef55326",
           "_created": "2026-06-09T19:10:00.000Z",
-          "_edited": "2026-06-09T19:10:00.000Z",
-          "Category": "Home",
+          "_edited": "2026-08-03T14:21:00.000Z",
+          "Category": "Setup",
           "Date Created": {
             "start": "2026-06-09",
             "end": null
@@ -5154,8 +5152,8 @@
           "_id": "36fe6c72-cc72-80b1-86ca-c7edfb5e384d",
           "_url": "https://app.notion.com/p/netflix-36fe6c72cc7280b186cac7edfb5e384d",
           "_created": "2026-05-29T13:27:00.000Z",
-          "_edited": "2026-05-29T13:27:00.000Z",
-          "Category": "Fixed",
+          "_edited": "2026-08-03T14:25:00.000Z",
+          "Category": "Enjoy",
           "Date Created": {
             "start": "2026-05-29",
             "end": null
@@ -5817,8 +5815,8 @@
           "_id": "361e6c72-cc72-8065-9a84-d3b0b7aad33f",
           "_url": "https://app.notion.com/p/perfume-sauvage-eau-de-parfum-361e6c72cc7280659a84d3b0b7aad33f",
           "_created": "2026-05-15T18:12:00.000Z",
-          "_edited": "2026-05-15T18:13:00.000Z",
-          "Category": "Home",
+          "_edited": "2026-08-03T14:21:00.000Z",
+          "Category": "Enjoy",
           "Date Created": {
             "start": "2026-05-15",
             "end": null
@@ -10901,7 +10899,7 @@
           "_url": "https://app.notion.com/p/Integration-34fe6c72cc72815abaeefce7f2a09f3a",
           "_created": "2026-04-27T19:15:00.000Z",
           "_edited": "2026-04-27T19:15:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2025-12-01",
             "end": null
@@ -10918,7 +10916,7 @@
           "_url": "https://app.notion.com/p/Integration-34fe6c72cc7281bfa986c9902d5165ad",
           "_created": "2026-04-27T19:15:00.000Z",
           "_edited": "2026-04-27T19:15:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2025-11-01",
             "end": null
@@ -10952,7 +10950,7 @@
           "_url": "https://app.notion.com/p/Integration-34fe6c72cc72817b9ffed3aebb0a670a",
           "_created": "2026-04-27T19:15:00.000Z",
           "_edited": "2026-04-27T19:15:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2025-10-01",
             "end": null
@@ -10969,7 +10967,7 @@
           "_url": "https://app.notion.com/p/Integration-34fe6c72cc7281f3a6c8dc0a26d7da7f",
           "_created": "2026-04-27T19:15:00.000Z",
           "_edited": "2026-04-27T19:15:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2025-08-01",
             "end": null
@@ -11105,7 +11103,7 @@
           "_url": "https://app.notion.com/p/Integration-34fe6c72cc7281caa93ccc5999aef6d4",
           "_created": "2026-04-27T19:15:00.000Z",
           "_edited": "2026-04-27T19:15:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2024-12-01",
             "end": null
@@ -11122,7 +11120,7 @@
           "_url": "https://app.notion.com/p/Integration-34fe6c72cc7281f8b106f19ab7b14c5b",
           "_created": "2026-04-27T19:15:00.000Z",
           "_edited": "2026-04-27T19:15:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2024-11-01",
             "end": null
@@ -11224,7 +11222,7 @@
           "_url": "https://app.notion.com/p/Integration-34fe6c72cc728157b8c8df0be50cc7ff",
           "_created": "2026-04-27T19:15:00.000Z",
           "_edited": "2026-04-27T19:15:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2024-05-01",
             "end": null
@@ -11275,7 +11273,7 @@
           "_url": "https://app.notion.com/p/Integration-34fe6c72cc72818baaa1c0da4facf4e9",
           "_created": "2026-04-27T19:15:00.000Z",
           "_edited": "2026-04-27T19:15:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2024-02-01",
             "end": null
@@ -11309,7 +11307,7 @@
           "_url": "https://app.notion.com/p/Integration-34fe6c72cc728113aee5fb7c0cad3d61",
           "_created": "2026-04-27T19:15:00.000Z",
           "_edited": "2026-04-27T19:15:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2023-12-01",
             "end": null
@@ -11428,7 +11426,7 @@
           "_url": "https://app.notion.com/p/Integration-34fe6c72cc7281d4a226f157f8082cfe",
           "_created": "2026-04-27T19:15:00.000Z",
           "_edited": "2026-04-27T19:15:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2023-05-01",
             "end": null
@@ -11462,7 +11460,7 @@
           "_url": "https://app.notion.com/p/Integration-34fe6c72cc72817599c3da1edd6b3d63",
           "_created": "2026-04-27T19:15:00.000Z",
           "_edited": "2026-04-27T19:15:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2023-03-01",
             "end": null
@@ -11530,7 +11528,7 @@
           "_url": "https://app.notion.com/p/Integration-34fe6c72cc7281df9d3aff90b5f2491b",
           "_created": "2026-04-27T19:15:00.000Z",
           "_edited": "2026-04-27T19:15:00.000Z",
-          "Category": "Home",
+          "Category": "Personal",
           "Date Created": {
             "start": "2022-11-01",
             "end": null
@@ -13175,6 +13173,21 @@
       },
       "rows": [
         {
+          "_id": "3b1e6c72-cc72-814c-abae-f0790df7dc77",
+          "_url": "https://app.notion.com/p/sopita-3b1e6c72cc72814cabaef0790df7dc77",
+          "_created": "2026-08-03T15:17:00.000Z",
+          "_edited": "2026-08-03T15:17:00.000Z",
+          "Date Created": {
+            "start": "2026-08-03",
+            "end": null
+          },
+          "Price": 3.9,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "sopita",
+          "Category": "Enjoy"
+        },
+        {
           "_id": "3b1e6c72-cc72-81a1-91c4-c02ec8623441",
           "_url": "https://app.notion.com/p/Entrada-a-Insite-de-Rxdrx-3b1e6c72cc7281a191c4c02ec8623441",
           "_created": "2026-08-03T04:27:00.000Z",
@@ -13412,7 +13425,7 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Pantalon unbranded",
-          "Category": "Home"
+          "Category": "Personal"
         },
         {
           "_id": "3a9e6c72-cc72-80e6-9cf2-c9119ea8d909",
@@ -13427,7 +13440,7 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Polos unbranded",
-          "Category": "Home"
+          "Category": "Personal"
         },
         {
           "_id": "3a9e6c72-cc72-8016-b532-cb7c82c87b5f",
@@ -13829,7 +13842,7 @@
           },
           "Status": "Payed",
           "Name": "Zapatillas negras",
-          "Category": null
+          "Category": "Personal"
         },
         {
           "_id": "38ee6c72-cc72-80c0-9165-cfb892ba0e2d",
@@ -13847,7 +13860,7 @@
           },
           "Status": "Payed",
           "Name": "Ropita",
-          "Category": null
+          "Category": "Personal"
         },
         {
           "_id": "38ce6c72-cc72-800f-a650-f00d3d7599ca",
@@ -14675,7 +14688,7 @@
           },
           "Status": "Payed",
           "Name": "Magnesio",
-          "Category": null
+          "Category": "Personal"
         },
         {
           "_id": "35ce6c72-cc72-80a8-bff2-d989e1e6af9f",
