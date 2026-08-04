@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T13:28:54.260979+00:00",
+  "generated_at": "2026-08-04T15:52:53.940773+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -13223,6 +13223,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3b2e6c72-cc72-81a7-8ab9-d3c5d2f39217",
+          "_url": "https://app.notion.com/p/Frutos-secos-3b2e6c72cc7281a78ab9d3c5d2f39217",
+          "_created": "2026-08-04T14:50:00.000Z",
+          "_edited": "2026-08-04T14:50:00.000Z",
+          "Date Created": {
+            "start": "2026-08-04",
+            "end": null
+          },
+          "Price": 3,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Frutos secos",
+          "Category": null
+        },
         {
           "_id": "3b1e6c72-cc72-818e-a5ee-cb154df52ed6",
           "_url": "https://app.notion.com/p/Almuerzo-3b1e6c72cc72818ea5eecb154df52ed6",
