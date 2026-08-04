@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T22:43:13.741760+00:00",
+  "generated_at": "2026-08-04T23:41:06.412854+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 14521.200000000003,
-          "Tot. Expenses": 287102.77500000026,
+          "Tot. Expenses": 287114.97500000027,
           "Total Papa": 9454.86,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 23976.06,
@@ -135,7 +135,7 @@
             "3a4e6c72-cc72-8097-9428-ec96a22afa51",
             "3b2e6c72-cc72-8169-b362-e332d1c6245c"
           ],
-          "Cash": 9.9749999998,
+          "Cash": -2.22500000021,
           "Tot. Income": 287112.75000000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -164,7 +164,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 9464.834999999795,
+          "Cash Total": 9452.634999999787,
           "Name": "Resumen"
         }
       ]
@@ -1220,6 +1220,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3b2e6c72-cc72-8152-8a38-e403bc3a2f7d",
+          "_url": "https://app.notion.com/p/Fruta-3b2e6c72cc7281528a38e403bc3a2f7d",
+          "_created": "2026-08-04T23:00:00.000Z",
+          "_edited": "2026-08-04T23:00:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-04",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 12.2,
+          "Name": "Fruta"
+        },
         {
           "_id": "3b2e6c72-cc72-807a-880a-f27b615c4ffc",
           "_url": "https://app.notion.com/p/Pasajes-3b2e6c72cc72807a880af27b615c4ffc",
