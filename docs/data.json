@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T01:01:47.780558+00:00",
+  "generated_at": "2026-08-05T04:25:28.252717+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 14521.200000000003,
-          "Tot. Expenses": 287114.97500000027,
+          "Tot. Expenses": 287127.97500000027,
           "Total Papa": 9454.86,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 23976.06,
@@ -135,7 +135,7 @@
             "3a4e6c72-cc72-8097-9428-ec96a22afa51",
             "3b2e6c72-cc72-8169-b362-e332d1c6245c"
           ],
-          "Cash": -2.22500000021,
+          "Cash": -15.22500000021,
           "Tot. Income": 287112.75000000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -164,7 +164,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 9452.634999999787,
+          "Cash Total": 9439.634999999787,
           "Name": "Resumen"
         }
       ]
@@ -1220,6 +1220,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3b3e6c72-cc72-80b4-9e4c-c8ed9e0ec026",
+          "_url": "https://app.notion.com/p/pasajes-3b3e6c72cc7280b49e4cc8ed9e0ec026",
+          "_created": "2026-08-05T01:33:00.000Z",
+          "_edited": "2026-08-05T01:33:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-08-04",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 4,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "3b3e6c72-cc72-81df-b478-cf4c95a7e276",
+          "_url": "https://app.notion.com/p/Empanada-de-poll-chicha-Dar-o-3b3e6c72cc7281dfb478cf4c95a7e276",
+          "_created": "2026-08-05T01:28:00.000Z",
+          "_edited": "2026-08-05T01:28:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-04",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 9,
+          "Name": "Empanada de polló + chicha (Darío)"
+        },
         {
           "_id": "3b2e6c72-cc72-8152-8a38-e403bc3a2f7d",
           "_url": "https://app.notion.com/p/Fruta-3b2e6c72cc7281528a38e403bc3a2f7d",
