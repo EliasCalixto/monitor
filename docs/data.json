@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T12:06:37.152763+00:00",
+  "generated_at": "2026-08-07T13:33:37.960567+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 14792.000000000002,
-          "Tot. Expenses": 287151.97500000027,
+          "Tot. Expenses": 287168.97500000027,
           "Total Papa": 9184.06,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 23976.06,
@@ -135,7 +135,7 @@
             "3a4e6c72-cc72-8097-9428-ec96a22afa51",
             "3b2e6c72-cc72-8169-b362-e332d1c6245c"
           ],
-          "Cash": -39.22500000021,
+          "Cash": -56.22500000021,
           "Tot. Income": 287112.75000000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -164,7 +164,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 9144.834999999788,
+          "Cash Total": 9127.834999999788,
           "Name": "Resumen"
         }
       ]
@@ -1220,6 +1220,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3b5e6c72-cc72-80d8-a381-f605e78f001d",
+          "_url": "https://app.notion.com/p/mas-pasajes-3b5e6c72cc7280d8a381f605e78f001d",
+          "_created": "2026-08-07T12:47:00.000Z",
+          "_edited": "2026-08-07T12:47:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-08-07",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 7,
+          "Name": "mas pasajes"
+        },
+        {
+          "_id": "3b5e6c72-cc72-80d2-9cb7-e3b27b0525c7",
+          "_url": "https://app.notion.com/p/agua-de-limon-3b5e6c72cc7280d29cb7e3b27b0525c7",
+          "_created": "2026-08-07T12:46:00.000Z",
+          "_edited": "2026-08-07T12:46:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-07",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2,
+          "Name": "agua de limon"
+        },
+        {
+          "_id": "3b5e6c72-cc72-8038-9d31-ce51c141fc0e",
+          "_url": "https://app.notion.com/p/pasajes-3b5e6c72cc7280389d31ce51c141fc0e",
+          "_created": "2026-08-07T12:46:00.000Z",
+          "_edited": "2026-08-07T12:46:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-08-07",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 8,
+          "Name": "pasajes"
+        },
         {
           "_id": "3b3e6c72-cc72-8134-81c3-e63b0d9555fe",
           "_url": "https://app.notion.com/p/Higado-y-molleja-con-papa-3b3e6c72cc72813481c3e63b0d9555fe",
