@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T14:36:25.102595+00:00",
+  "generated_at": "2026-08-07T15:31:49.372709+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 14792.000000000002,
+          "SumGastosPapa": 14977.000000000002,
           "Tot. Expenses": 287168.97500000027,
-          "Total Papa": 9184.06,
+          "Total Papa": 8999.06,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 23976.06,
           "Expenses": [
@@ -164,7 +164,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 9127.834999999788,
+          "Cash Total": 8942.834999999788,
           "Name": "Resumen"
         }
       ]
@@ -15404,6 +15404,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3b5e6c72-cc72-8174-94c4-c892f42449cb",
+          "_url": "https://app.notion.com/p/Yape-de-mam-a-pap-3b5e6c72cc72817494c4c892f42449cb",
+          "_created": "2026-08-07T15:16:00.000Z",
+          "_edited": "2026-08-07T15:16:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-08-07",
+            "end": null
+          },
+          "Money": 185,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Yape de mamá a papá"
+        },
         {
           "_id": "3b4e6c72-cc72-8163-9b51-ce3040338a85",
           "_url": "https://app.notion.com/p/Yape-a-Rique-3b4e6c72cc7281639b51ce3040338a85",
