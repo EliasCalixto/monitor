@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T18:16:45.617482+00:00",
+  "generated_at": "2026-08-08T19:04:36.799301+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 14977.000000000002,
-          "Tot. Expenses": 287333.9250000003,
+          "Tot. Expenses": 287383.77500000026,
           "Total Papa": 8999.06,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 23976.06,
@@ -135,7 +135,7 @@
             "3a4e6c72-cc72-8097-9428-ec96a22afa51",
             "3b2e6c72-cc72-8169-b362-e332d1c6245c"
           ],
-          "Cash": -221.17500000024,
+          "Cash": -271.0250000002,
           "Tot. Income": 287112.75000000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -164,7 +164,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 8777.884999999758,
+          "Cash Total": 8728.034999999798,
           "Name": "Resumen"
         }
       ]
@@ -1220,6 +1220,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "6433e269-bb29-45d8-abe3-79c6b2dfbe8e",
+          "_url": "https://app.notion.com/p/Regalo-baby-shower-Fer-6433e269bb2945d8abe379c6b2dfbe8e",
+          "_created": "2026-08-08T19:02:00.000Z",
+          "_edited": "2026-08-08T19:02:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-08-08",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 49.85,
+          "Name": "Regalo baby shower Fer"
+        },
         {
           "_id": "3b6e6c72-cc72-80d4-9a57-cadd0242f371",
           "_url": "https://app.notion.com/p/gastos-concierto-de-insite-3b6e6c72cc7280d49a57cadd0242f371",
