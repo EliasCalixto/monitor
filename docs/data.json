@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T23:59:58.801481+00:00",
+  "generated_at": "2026-08-09T01:39:55.108940+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,10 +28,10 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 14977.000000000002,
-          "Tot. Expenses": 287383.77500000026,
-          "Total Papa": 8999.06,
+          "Tot. Expenses": 287411.77500000026,
+          "Total Papa": 9027.06,
           "Tot. Savings": 10000,
-          "SumIngresosPapa": 23976.06,
+          "SumIngresosPapa": 24004.06,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
             "34fe6c72-cc72-818b-a14d-f54df1618747",
@@ -133,9 +133,10 @@
             "398e6c72-cc72-80f7-91ab-d2bbd5c187c4",
             "39be6c72-cc72-8019-ba7b-d5096f5d4983",
             "3a4e6c72-cc72-8097-9428-ec96a22afa51",
-            "3b2e6c72-cc72-8169-b362-e332d1c6245c"
+            "3b2e6c72-cc72-8169-b362-e332d1c6245c",
+            "3b7e6c72-cc72-8031-b99a-ca022de91ba1"
           ],
-          "Cash": -271.0250000002,
+          "Cash": -299.0250000002,
           "Tot. Income": 287112.75000000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -1220,6 +1221,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3b7e6c72-cc72-80b5-a9f0-f57539b447e8",
+          "_url": "https://app.notion.com/p/recojo-escritorio-3b7e6c72cc7280b5a9f0f57539b447e8",
+          "_created": "2026-08-09T00:36:00.000Z",
+          "_edited": "2026-08-09T00:36:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-08-08",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 28,
+          "Name": "recojo escritorio"
+        },
         {
           "_id": "6433e269-bb29-45d8-abe3-79c6b2dfbe8e",
           "_url": "https://app.notion.com/p/Regalo-baby-shower-Fer-6433e269bb2945d8abe379c6b2dfbe8e",
@@ -15470,6 +15488,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3b7e6c72-cc72-8031-b99a-ca022de91ba1",
+          "_url": "https://app.notion.com/p/recojo-shalom-3b7e6c72cc728031b99aca022de91ba1",
+          "_created": "2026-08-09T00:36:00.000Z",
+          "_edited": "2026-08-09T00:36:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-08-08",
+            "end": null
+          },
+          "Money": 28,
+          "Total Gastos Papa": [],
+          "Name": "recojo shalom"
+        },
         {
           "_id": "3b5e6c72-cc72-8174-94c4-c892f42449cb",
           "_url": "https://app.notion.com/p/Yape-de-mam-a-pap-3b5e6c72cc72817494c4c892f42449cb",
