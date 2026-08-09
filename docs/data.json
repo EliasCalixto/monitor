@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T18:57:14.359901+00:00",
+  "generated_at": "2026-08-09T19:25:14.105213+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 14977.000000000002,
-          "Tot. Expenses": 287411.77500000026,
-          "Total Papa": 9027.06,
+          "SumGastosPapa": 14997.000000000002,
+          "Tot. Expenses": 287425.57500000024,
+          "Total Papa": 9007.06,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 24004.06,
           "Expenses": [
@@ -136,7 +136,7 @@
             "3b2e6c72-cc72-8169-b362-e332d1c6245c",
             "3b7e6c72-cc72-8031-b99a-ca022de91ba1"
           ],
-          "Cash": -299.0250000002,
+          "Cash": -312.82500000018,
           "Tot. Income": 287112.75000000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -165,7 +165,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 8728.034999999798,
+          "Cash Total": 8694.234999999819,
           "Name": "Resumen"
         }
       ]
@@ -1221,6 +1221,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3b7e6c72-cc72-80cf-8ec5-f273d1a9b16b",
+          "_url": "https://app.notion.com/p/comida-saludable-pollo-avena-palta-3b7e6c72cc7280cf8ec5f273d1a9b16b",
+          "_created": "2026-08-09T19:18:00.000Z",
+          "_edited": "2026-08-09T19:18:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-08-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 13.8,
+          "Name": "comida saludable pollo, avena, palta"
+        },
         {
           "_id": "3b7e6c72-cc72-80b5-a9f0-f57539b447e8",
           "_url": "https://app.notion.com/p/recojo-escritorio-3b7e6c72cc7280b5a9f0f57539b447e8",
@@ -13430,10 +13447,25 @@
       },
       "rows": [
         {
+          "_id": "3b7e6c72-cc72-8009-a6bf-e278633f84f1",
+          "_url": "https://app.notion.com/p/focos-para-studio-y-ugreen-hub-3b7e6c72cc728009a6bfe278633f84f1",
+          "_created": "2026-08-09T19:17:00.000Z",
+          "_edited": "2026-08-09T19:17:00.000Z",
+          "Date Created": {
+            "start": "2026-08-09",
+            "end": null
+          },
+          "Price": 226.56,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "focos para studio y ugreen hub",
+          "Category": "Home"
+        },
+        {
           "_id": "3b5e6c72-cc72-81a6-a7d0-c474051d4d09",
           "_url": "https://app.notion.com/p/Pizza-Hut-3b5e6c72cc7281a6a7d0c474051d4d09",
           "_created": "2026-08-07T23:17:00.000Z",
-          "_edited": "2026-08-07T23:17:00.000Z",
+          "_edited": "2026-08-09T19:17:00.000Z",
           "Date Created": {
             "start": "2026-08-07",
             "end": null
@@ -13442,7 +13474,7 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Pizza Hut",
-          "Category": null
+          "Category": "Enjoy"
         },
         {
           "_id": "3b4e6c72-cc72-81b1-90a9-ccd4816bb649",
@@ -15488,6 +15520,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3b7e6c72-cc72-8010-b826-e32c3ce4531a",
+          "_url": "https://app.notion.com/p/amalia-3b7e6c72cc728010b826e32c3ce4531a",
+          "_created": "2026-08-09T19:17:00.000Z",
+          "_edited": "2026-08-09T19:17:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-08-09",
+            "end": null
+          },
+          "Money": 20,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "amalia"
+        },
         {
           "_id": "3b7e6c72-cc72-8031-b99a-ca022de91ba1",
           "_url": "https://app.notion.com/p/recojo-shalom-3b7e6c72cc728031b99aca022de91ba1",
