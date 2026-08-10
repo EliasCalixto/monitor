@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T19:11:45.126430+00:00",
+  "generated_at": "2026-08-10T19:59:07.493144+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 15632.000000000002,
-          "Tot. Expenses": 304711.47500000027,
+          "Tot. Expenses": 333058.6750000001,
           "Total Papa": 8372.06,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 24004.06,
@@ -136,7 +136,7 @@
             "3b2e6c72-cc72-8169-b362-e332d1c6245c",
             "3b7e6c72-cc72-8031-b99a-ca022de91ba1"
           ],
-          "Cash": 28771.66500000043,
+          "Cash": 424.4650000006,
           "Tot. Income": 333483.1400000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -165,7 +165,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 37143.72500000043,
+          "Cash Total": 8796.525000000598,
           "Name": "Resumen"
         }
       ]
@@ -1986,6 +1986,2879 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3b8e6c72-cc72-810a-8b93-da22a7badca4",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc72810a8b93da22a7badca4",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:25:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2020-11-23",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 17.98,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8133-93ea-ec84315f2c27",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc72813393eaec84315f2c27",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:25:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2019-10-28",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 89.88,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8136-b7d1-fa90d7f4520e",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc728136b7d1fa90d7f4520e",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:25:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2019-10-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 107.86,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8141-aed1-de52606b5c46",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc728141aed1de52606b5c46",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:25:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2019-10-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 17.98,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8143-ac18-dac03d5eeed1",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc728143ac18dac03d5eeed1",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:25:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2020-11-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 107.86,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8145-8f7e-f942a1abb69b",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc7281458f7ef942a1abb69b",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:25:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2020-11-21",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 125.8,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8146-abe7-c9741938fcfa",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc728146abe7c9741938fcfa",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:25:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2020-11-28",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 17.98,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-814d-83ef-d5304a3682cd",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc72814d83efd5304a3682cd",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:25:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2020-07-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 89.88,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8151-ba73-f9eaf796ce67",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc728151ba73f9eaf796ce67",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:25:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2019-10-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 125.84,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8168-95a6-dbe0dbc3a5e3",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc72816895a6dbe0dbc3a5e3",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:25:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2020-07-21",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 125.84,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8177-9981-fb007e67ccb7",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc7281779981fb007e67ccb7",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:25:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2019-10-23",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 17.98,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81ab-8abe-c14f1d971246",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc7281ab8abec14f1d971246",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:25:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2020-07-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 107.86,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81ac-9a72-f95de6d5e0b5",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc7281ac9a72f95de6d5e0b5",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:25:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2020-11-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 89.88,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81bb-8381-e50b9875fc9b",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc7281bb8381e50b9875fc9b",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:25:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2020-07-23",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 17.98,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81d8-af06-c5eaccce7a08",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc7281d8af06c5eaccce7a08",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:25:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2020-07-28",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 17.98,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-811b-afe9-d24d067c900d",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc72811bafe9d24d067c900d",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:24:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2018-07-28",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 17.98,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8127-8581-f1aeabe23786",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc7281278581f1aeabe23786",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:24:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2018-07-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 107.86,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8135-aa3e-f91b98e106bc",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc728135aa3ef91b98e106bc",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:24:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2018-07-21",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 125.84,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8139-98f2-f5a5ea50dec5",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc72813998f2f5a5ea50dec5",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:24:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2018-12-23",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 17.98,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-813f-a58d-f3714e087065",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc72813fa58df3714e087065",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:24:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2018-07-23",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 17.98,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8141-abcb-e8bcf4e0a78e",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc728141abcbe8bcf4e0a78e",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:24:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2019-07-23",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 17.98,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8159-a956-f53f8ad5568b",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc728159a956f53f8ad5568b",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:24:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2019-07-28",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 17.98,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8162-a3ae-f64af1e6550c",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc728162a3aef64af1e6550c",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:24:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2018-12-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 107.86,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-817f-bd99-deaaff30afe7",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc72817fbd99deaaff30afe7",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:24:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2018-12-27",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 125.84,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8195-8d25-c1e6cdf0abb8",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc7281958d25c1e6cdf0abb8",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:24:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2019-07-21",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 125.84,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81ad-a8f2-f47c78f9e32c",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc7281ada8f2f47c78f9e32c",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:24:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2019-07-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 89.88,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81c0-9f58-e2ca972c63e7",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc7281c09f58e2ca972c63e7",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:24:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2018-12-28",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 17.98,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81dd-b753-defac7525f4b",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc7281ddb753defac7525f4b",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:24:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2018-12-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 89.88,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81e8-9b0f-e2b21de9cde2",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc7281e89b0fe2b21de9cde2",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:24:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2019-07-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 107.86,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81fc-9401-d0dec641c0ca",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc7281fc9401d0dec641c0ca",
+          "_created": "2026-08-10T19:24:00.000Z",
+          "_edited": "2026-08-10T19:24:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2018-07-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 89.88,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8104-8f64-eda9fb1797c1",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc7281048f64eda9fb1797c1",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2022-07-05",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 129.73,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8105-be82-fdbee2abc662",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc728105be82fdbee2abc662",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2022-06-18",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 532.8,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8136-92d5-e48e43ca3ee6",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc72813692d5e48e43ca3ee6",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2022-08-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 792.31,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8137-8fe9-db1813279a88",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc7281378fe9db1813279a88",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2022-07-27",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 778.35,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-814b-b5f8-ceb234b3fec4",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc72814bb5f8ceb234b3fec4",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2020-11-05",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 62.71,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8154-99ff-f45f31069023",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc72815499fff45f31069023",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2022-07-11",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 129.73,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8155-92dd-c57221c289b1",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc72815592ddc57221c289b1",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2022-06-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 745.92,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-815c-8e14-ff7598b4230c",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc72815c8e14ff7598b4230c",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2022-07-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 908.08,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8163-97c6-f81b2dca35ea",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc72816397c6f81b2dca35ea",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2022-06-16",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 106.56,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8165-8d79-e8aae2ba9459",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc7281658d79e8aae2ba9459",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2022-07-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 648.63,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-816d-aad4-ec2e87ae3371",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc72816daad4ec2e87ae3371",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2022-08-18",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 660.24,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8181-a60d-d7464f56d58c",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc728181a60dd7464f56d58c",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2022-08-03",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 132.03,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81b4-9cf3-f392ffb7f8d3",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc7281b49cf3f392ffb7f8d3",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2020-11-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 313.53,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81d3-ba9b-da975194ca00",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc7281d3ba9bda975194ca00",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2022-08-08",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 924.37,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81d7-815e-d946d6724bbf",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc7281d7815ed946d6724bbf",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2020-11-03",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 62.71,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81da-bc6e-f37b1de8277d",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc7281dabc6ef37b1de8277d",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2022-08-05",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 132.03,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81dc-80ec-c006ad5eb4bb",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc7281dc80ecc006ad5eb4bb",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2020-11-06",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 376.24,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81f1-b525-ff683508a599",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc7281f1b525ff683508a599",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2022-06-03",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 106.56,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81fa-b94a-d903b16552c0",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc7281fab94ad903b16552c0",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2022-06-22",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 639.36,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8104-8bf8-d23ae903a002",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc7281048bf8d23ae903a002",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2020-11-08",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 438.94,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8112-86ba-df3c5444d369",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc72811286badf3c5444d369",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2020-07-06",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 413.29,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-811b-9928-c0fe9677232d",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc72811b9928c0fe9677232d",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2020-09-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 225.43,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-811f-8642-f3d7c30c3f2b",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc72811f8642f3d7c30c3f2b",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2020-09-08",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 263,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8128-a143-fcb3d5d1bed7",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc728128a143fcb3d5d1bed7",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2020-08-05",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 37.57,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-812f-bcf6-c6b126b5c42a",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc72812fbcf6c6b126b5c42a",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2020-08-03",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 37.57,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8137-ab07-dc51b9af477f",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc728137ab07dc51b9af477f",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2020-07-18",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 344.41,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-813b-8b19-e36ae755fa5c",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc72813b8b19e36ae755fa5c",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2020-09-16",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 37.57,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-815d-8b6d-e650ed6f3703",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc72815d8b6de650ed6f3703",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2020-07-03",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 68.88,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-815d-9c0f-c5251b61c5a4",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc72815d9c0fc5251b61c5a4",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2020-09-03",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 37.57,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-816b-8e29-c83238a9dafb",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc72816b8e29c83238a9dafb",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2020-09-18",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 187.86,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-817d-9b1b-f3ea7dc17ee4",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc72817d9b1bf3ea7dc17ee4",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2020-08-18",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 187.86,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-817e-80d5-c12c6c8dbdb1",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc72817e80d5c12c6c8dbdb1",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2020-10-18",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 187.86,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81ad-9bac-dbe59bfd484c",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc7281ad9bacdbe59bfd484c",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2020-10-03",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 37.57,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81bc-9ad0-dfd1277fd84e",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc7281bc9ad0dfd1277fd84e",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2020-08-08",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 263,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81d0-bc1b-c355d4ca3959",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc7281d0bc1bc355d4ca3959",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2020-10-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 263,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81dd-92fb-c82deb5165dd",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc7281dd92fbc82deb5165dd",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2020-10-16",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 37.57,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81e0-9898-dd54e1f9bb71",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc7281e09898dd54e1f9bb71",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2020-08-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 225.43,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81e0-bc67-ecbd8c298ac9",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc7281e0bc67ecbd8c298ac9",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2020-10-22",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 225.43,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81f2-b854-e3aeb54b47eb",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc7281f2b854e3aeb54b47eb",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2020-07-16",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 68.88,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8100-8bea-e6a19d1332ed",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc7281008beae6a19d1332ed",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2020-06-16",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 37.57,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8100-8c74-cde60181aab2",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc7281008c74cde60181aab2",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2020-04-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 187.86,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8108-b7a7-c2625913a40e",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc728108b7a7c2625913a40e",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2020-04-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 225.43,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-810b-8fbd-d6e6135232f9",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc72810b8fbdd6e6135232f9",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2020-06-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 187.86,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8118-83cc-d0f2e2dd8864",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc72811883ccd0f2e2dd8864",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2020-05-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 321.65,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-811b-a512-d312a039d37e",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc72811ba512d312a039d37e",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2020-05-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 275.7,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-812a-9a59-f6696e9e489b",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc72812a9a59f6696e9e489b",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2020-04-05",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 37.57,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-813e-bad2-d751a87c3a26",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc72813ebad2d751a87c3a26",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2020-06-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 263,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-814d-91d7-f357790d5ab4",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc72814d91d7f357790d5ab4",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2020-05-05",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 45.95,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8152-b8bd-d7c649fde89c",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc728152b8bdd7c649fde89c",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2020-03-05",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 37.57,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-816b-b93a-ead1aa471543",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc72816bb93aead1aa471543",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2020-06-27",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 225.43,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8176-bca0-cac97fc51147",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc728176bca0cac97fc51147",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2020-06-11",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 37.57,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-817d-bd63-ed561ba88802",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc72817dbd63ed561ba88802",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2020-03-06",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 225.43,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81a2-93ac-cf3cf2ffca24",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc7281a293accf3cf2ffca24",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2020-03-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 187.86,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81b7-919e-e5e84d052fd6",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc7281b7919ee5e84d052fd6",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2020-05-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 229.75,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81d1-aafd-f5dc2e93f520",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc7281d1aafdf5dc2e93f520",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2020-04-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 263,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81d4-addf-dd4792d6a2a0",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc7281d4addfdd4792d6a2a0",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2020-04-11",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 37.57,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81d5-87e1-dd50279f0f56",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc7281d587e1dd50279f0f56",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2020-07-08",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 482.18,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81da-a78f-d7dc44286d77",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc7281daa78fd7dc44286d77",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2020-05-11",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 45.95,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81f4-883c-c341a66e5743",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc7281f4883cc341a66e5743",
+          "_created": "2026-08-10T19:21:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2020-03-11",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 37.57,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8113-913a-c5d86686eb9a",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc728113913ac5d86686eb9a",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2019-10-18",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 321.82,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-811d-9fa6-fb18fca30acd",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc72811d9fa6fb18fca30acd",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2019-06-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 39.6,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8120-a914-d6f90f16af18",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc728120a914d6f90f16af18",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2019-07-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 274.43,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-814b-aeb7-f9834796e11a",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc72814baeb7f9834796e11a",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2019-05-03",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 40.98,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-815c-b632-ef5cec32cfcf",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc72815cb632ef5cec32cfcf",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2019-07-05",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 62.81,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8162-9e78-fe56693b2352",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc7281629e78fe56693b2352",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2019-10-03",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 72.29,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-816b-949b-df5217d609c9",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc72816b949bdf5217d609c9",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2019-09-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 55.44,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8170-a2ac-e5ebfe5a22f5",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc728170a2ace5ebfe5a22f5",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2019-09-18",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 39.6,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-817b-bee0-dd06286a98ad",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc72817bbee0dd06286a98ad",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2019-10-05",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 72.29,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8188-ac79-ee13cfd2ad9d",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc728188ac79ee13cfd2ad9d",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2019-09-06",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 47.52,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81a7-a0da-e81374f0980e",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc7281a7a0dae81374f0980e",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2019-10-06",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 386.19,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81b6-8663-daa184ff9463",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc7281b68663daa184ff9463",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2019-05-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 165.27,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81b8-aae2-f655436c4f02",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc7281b8aae2f655436c4f02",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2019-07-11",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 62.81,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81c1-9543-dfae2648e336",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc7281c19543dfae2648e336",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2019-10-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 450.55,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81c4-b54d-c5c47cb8fd88",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc7281c4b54dc5c47cb8fd88",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2019-07-27",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 329.31,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81d3-8834-dd86c81dbe3c",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc7281d38834dd86c81dbe3c",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2020-03-08",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 263,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81db-952c-f5171d5c8ec1",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc7281db952cf5171d5c8ec1",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2019-06-27",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 47.52,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81e0-a302-ffe8198d717e",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc7281e0a302ffe8198d717e",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2019-07-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 384.2,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81ee-8cd7-e5417c005d6d",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc7281ee8cd7e5417c005d6d",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2019-05-05",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 40.98,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81f1-ba90-c9d72346b489",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc7281f1ba90c9d72346b489",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:21:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2019-06-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 55.44,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8128-b904-c5996cf8757f",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc728128b904c5996cf8757f",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2019-01-16",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 37.57,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8143-903a-e43540cd8ae7",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc728143903ae43540cd8ae7",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2019-01-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 225.43,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8154-be07-d908a281cd20",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc728154be07d908a281cd20",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2019-01-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 263,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8158-ac75-d3b79c629305",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc728158ac75d3b79c629305",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2019-02-18",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 187.86,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8171-9a8e-fe7dfe3163aa",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc7281719a8efe7dfe3163aa",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2019-02-08",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 263,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8173-9d90-dc46b57ddf79",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc7281739d90dc46b57ddf79",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2019-02-11",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 37.57,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8182-95ec-c4ec0e875805",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc72818295ecc4ec0e875805",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2019-05-06",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 198.33,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8189-8eb6-cb5cffd6e38e",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc7281898eb6cb5cffd6e38e",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2019-04-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 39.6,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-818e-a19f-ecf90e3578cc",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc72818ea19fecf90e3578cc",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2019-04-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 55.44,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-818e-ab00-c8310163cb79",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc72818eab00c8310163cb79",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2018-12-05",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 54.89,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8199-bbd0-db1f135562b5",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc728199bbd0db1f135562b5",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2019-02-06",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 225.43,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-819a-a53a-c1d41f1d3fd3",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc72819aa53ac1d41f1d3fd3",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2018-12-11",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 54.89,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-819b-9767-c8238823f60d",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc72819b9767c8238823f60d",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2018-12-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 384.2,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81ab-87bd-ea10837b376d",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc7281ab87bdea10837b376d",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2019-02-05",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 37.57,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81bc-acff-d1a86f2f5662",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc7281bcacffd1a86f2f5662",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2018-12-18",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 274.43,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81ce-9ed7-cf83d6d672bb",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc7281ce9ed7cf83d6d672bb",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2018-12-22",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 329.31,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81d1-991b-c850ccb8123e",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc7281d1991bc850ccb8123e",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2019-04-06",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 47.52,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81d6-9cbc-eb7ec6d1dba0",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc7281d69cbceb7ec6d1dba0",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2019-01-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 187.86,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81fb-8343-fb75c3b9897a",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc7281fb8343fb75c3b9897a",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2019-05-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 231.38,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81fe-88bb-e3cf840bfb40",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc7281fe88bbe3cf840bfb40",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2019-01-03",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 37.57,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8114-95bb-cc007c30a5ab",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc72811495bbcc007c30a5ab",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2018-09-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 55.44,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8123-af5d-dc2b6db6360c",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc728123af5ddc2b6db6360c",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2018-05-03",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 34.55,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8126-987f-d1079bb3b261",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc728126987fd1079bb3b261",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2018-07-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 329.31,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8137-b1b1-e18da9920159",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc728137b1b1e18da9920159",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2018-10-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 47.52,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8137-be3b-fdca637d0620",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc728137be3bfdca637d0620",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2018-11-11",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 48.9,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8139-958e-ce83e1fba501",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc728139958ece83e1fba501",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2018-06-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 39.6,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8143-9e6c-c3e35d8b6368",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc7281439e6cc3e35d8b6368",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2018-07-11",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 62.81,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8145-99da-f8b31fb85946",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc72814599daf8b31fb85946",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2018-10-08",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 55.44,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8149-95c4-ff1a8150466e",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc72814995c4ff1a8150466e",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2018-07-08",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 384.2,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-815e-acd9-e718d0a961d0",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc72815eacd9e718d0a961d0",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2018-07-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 274.43,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8166-b402-ea892c550f44",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc728166b402ea892c550f44",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2018-11-05",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 48.9,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-817b-a6c0-c22be94ea54f",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc72817ba6c0c22be94ea54f",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2018-06-06",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 47.52,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-819d-b75c-df53fdc59758",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc72819db75cdf53fdc59758",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2018-10-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 39.6,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81a9-861a-c31de7457aa3",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc7281a9861ac31de7457aa3",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2018-09-27",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 47.52,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81be-b2a9-c68a998a8a24",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc7281beb2a9c68a998a8a24",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2018-11-27",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 198.33,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81ca-81b2-c6e533dcaef9",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc7281ca81b2c6e533dcaef9",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2018-11-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 165.27,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81d9-9db0-ea2b6959593b",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc7281d99db0ea2b6959593b",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2018-09-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 39.6,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81ec-bbaa-ffa3931e2734",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc7281ecbbaaffa3931e2734",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2018-07-05",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 62.81,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81fb-a643-f3db2b3d54dc",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc7281fba643f3db2b3d54dc",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2018-06-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 55.44,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81fc-88d7-e1e11fa9d902",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc7281fc88d7e1e11fa9d902",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2018-11-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 231.38,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8110-a858-da2634029dee",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc728110a858da2634029dee",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2018-05-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 186.42,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-812a-ba66-f5d7a6b3acb3",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc72812aba66f5d7a6b3acb3",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2018-01-03",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 51.51,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8135-bdf1-e325e18abdd0",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc728135bdf1e325e18abdd0",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2017-12-18",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 85.85,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8148-b8bc-dbfbdc787a4f",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc728148b8bcdbfbdc787a4f",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2018-04-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 55.44,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-814b-be24-cecfdfa501a8",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc72814bbe24cecfdfa501a8",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2018-01-16",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 51.51,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-814f-8b7d-e26e8f124ecd",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc72814f8b7de26e8f124ecd",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2017-12-27",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 103.02,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8169-b43c-d6941ba0097a",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc728169b43cd6941ba0097a",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2017-12-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 120.19,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8189-b9c0-c3f132af41ed",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc728189b9c0c3f132af41ed",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2018-05-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 133.16,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-818d-97be-d6b82850c1e6",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc72818d97bed6b82850c1e6",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2018-05-27",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 159.79,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8199-85bb-cfbafec2c35e",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc72819985bbcfbafec2c35e",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2018-02-05",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 34.34,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81a5-b2b6-d44809951233",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc7281a5b2b6d44809951233",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2018-02-27",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 206.04,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81b3-8dfe-d508669c22d6",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc7281b38dfed508669c22d6",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2018-01-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 240.38,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81b8-8923-c0a2c1aa12f2",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc7281b88923c0a2c1aa12f2",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2018-01-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 206.04,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81cc-bfd8-e87dd2049bf7",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc7281ccbfd8e87dd2049bf7",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2018-04-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 39.6,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81d1-a7da-ed1ba45aecba",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc7281d1a7daed1ba45aecba",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2018-01-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 171.7,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81d2-9322-f06b1b117df7",
+          "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b8e6c72cc7281d29322f06b1b117df7",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2018-04-06",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 47.52,
+          "Name": "Est. — Salidas y comidas"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81ee-b12b-de9d95c0f98a",
+          "_url": "https://app.notion.com/p/Est-Equipos-y-accesorios-3b8e6c72cc7281eeb12bde9d95c0f98a",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2018-02-08",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 240.38,
+          "Name": "Est. — Equipos y accesorios"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81f4-83e7-c0e48ce3dbcc",
+          "_url": "https://app.notion.com/p/Est-Gastos-fijos-3b8e6c72cc7281f483e7c0e48ce3dbcc",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2018-02-03",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 34.34,
+          "Name": "Est. — Gastos fijos"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81f4-aacc-dce21ea57c9b",
+          "_url": "https://app.notion.com/p/Est-Efectivo-3b8e6c72cc7281f4aaccdce21ea57c9b",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2018-05-05",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 34.55,
+          "Name": "Est. — Efectivo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81f8-965c-cf8eaf5be703",
+          "_url": "https://app.notion.com/p/Est-Ropa-y-cuidado-personal-3b8e6c72cc7281f8965ccf8eaf5be703",
+          "_created": "2026-08-10T19:20:00.000Z",
+          "_edited": "2026-08-10T19:20:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2018-02-18",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 171.7,
+          "Name": "Est. — Ropa y cuidado personal"
+        },
         {
           "_id": "3b8e6c72-cc72-8121-a991-ea97a02e91c9",
           "_url": "https://app.notion.com/p/Est-Matr-cula-instituto-3b8e6c72cc728121a991ea97a02e91c9",
