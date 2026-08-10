@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T18:08:37.229118+00:00",
+  "generated_at": "2026-08-10T19:11:45.126430+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 15632.000000000002,
-          "Tot. Expenses": 287431.47500000027,
+          "Tot. Expenses": 304711.47500000027,
           "Total Papa": 8372.06,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 24004.06,
@@ -136,8 +136,8 @@
             "3b2e6c72-cc72-8169-b362-e332d1c6245c",
             "3b7e6c72-cc72-8031-b99a-ca022de91ba1"
           ],
-          "Cash": -318.72500000021,
-          "Tot. Income": 287112.75000000006,
+          "Cash": 28771.66500000043,
+          "Tot. Income": 333483.1400000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -165,7 +165,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 8053.334999999788,
+          "Cash Total": 37143.72500000043,
           "Name": "Resumen"
         }
       ]
@@ -322,6 +322,771 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3b8e6c72-cc72-8103-b22d-c2a3547fad74",
+          "_url": "https://app.notion.com/p/Est-Sueldo-3b8e6c72cc728103b22dc2a3547fad74",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Date Received": {
+            "start": "2020-12-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-810d-890e-d846c2a983f8",
+          "_url": "https://app.notion.com/p/Est-Sueldo-agosto-estimado-3b8e6c72cc72810d890ed846c2a983f8",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Date Received": {
+            "start": "2022-08-01",
+            "end": null
+          },
+          "Income": 2850,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo (agosto, estimado)"
+        },
+        {
+          "_id": "3b8e6c72-cc72-810f-bb6c-da5b16e567df",
+          "_url": "https://app.notion.com/p/Est-Sueldo-3b8e6c72cc72810fbb6cda5b16e567df",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Date Received": {
+            "start": "2020-08-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8113-90bb-e0b82104c7b3",
+          "_url": "https://app.notion.com/p/Est-Sueldo-3b8e6c72cc72811390bbe0b82104c7b3",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Date Received": {
+            "start": "2020-05-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8118-a3b6-c3e6d3a29f83",
+          "_url": "https://app.notion.com/p/Est-CTS-trunca-nov-dic20-3b8e6c72cc728118a3b6c3e6d3a29f83",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Date Received": {
+            "start": "2020-12-31",
+            "end": null
+          },
+          "Income": 180.83,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — CTS trunca (nov–dic20)"
+        },
+        {
+          "_id": "3b8e6c72-cc72-811b-b4cd-e2d520ac1291",
+          "_url": "https://app.notion.com/p/Est-Sueldo-nuevo-trabajo-3b8e6c72cc72811bb4cde2d520ac1291",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Date Received": {
+            "start": "2022-06-01",
+            "end": null
+          },
+          "Income": 2300,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo (nuevo trabajo)"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8129-b544-c46cf3bc9e70",
+          "_url": "https://app.notion.com/p/Est-Sueldo-3b8e6c72cc728129b544c46cf3bc9e70",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Date Received": {
+            "start": "2022-07-01",
+            "end": null
+          },
+          "Income": 2800,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8143-88ca-e7423e8ca739",
+          "_url": "https://app.notion.com/p/Est-Grati-julio-mar-jun-3b8e6c72cc72814388cae7423e8ca739",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Date Received": {
+            "start": "2020-07-15",
+            "end": null
+          },
+          "Income": 675.8,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Grati julio (mar–jun)"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8163-99bf-ed50491e5d76",
+          "_url": "https://app.notion.com/p/Est-Sueldo-3b8e6c72cc72816399bfed50491e5d76",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Date Received": {
+            "start": "2020-10-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8167-8daf-eb52088ab245",
+          "_url": "https://app.notion.com/p/Est-CTS-may-oct20-3b8e6c72cc7281678dafeb52088ab245",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Date Received": {
+            "start": "2020-11-15",
+            "end": null
+          },
+          "Income": 542.5,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — CTS (may–oct20)"
+        },
+        {
+          "_id": "3b8e6c72-cc72-816e-8a3a-c9e35cc78074",
+          "_url": "https://app.notion.com/p/Est-Sueldo-3b8e6c72cc72816e8a3ac9e35cc78074",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Date Received": {
+            "start": "2020-03-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8197-9bd6-d238d31ac483",
+          "_url": "https://app.notion.com/p/Est-Sueldo-3b8e6c72cc7281979bd6d238d31ac483",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Date Received": {
+            "start": "2020-07-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-819c-afb0-c61201b05240",
+          "_url": "https://app.notion.com/p/Est-Sueldo-3b8e6c72cc72819cafb0c61201b05240",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Date Received": {
+            "start": "2020-06-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81aa-a7d3-fdbfeb17455a",
+          "_url": "https://app.notion.com/p/Est-Gratificaci-n-diciembre-3b8e6c72cc7281aaa7d3fdbfeb17455a",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Date Received": {
+            "start": "2020-12-15",
+            "end": null
+          },
+          "Income": 1013.7,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Gratificación diciembre"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81b8-b31e-d9e32bf36eed",
+          "_url": "https://app.notion.com/p/Est-Sueldo-3b8e6c72cc7281b8b31ed9e32bf36eed",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Date Received": {
+            "start": "2020-09-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81ba-b7f4-e57ac0c5d84f",
+          "_url": "https://app.notion.com/p/Est-CTS-mar-abr20-3b8e6c72cc7281bab7f4e57ac0c5d84f",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Date Received": {
+            "start": "2020-05-15",
+            "end": null
+          },
+          "Income": 180.83,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — CTS (mar–abr20)"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81c8-82a7-cb0bb1e5e73d",
+          "_url": "https://app.notion.com/p/Est-Sueldo-3b8e6c72cc7281c882a7cb0bb1e5e73d",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Date Received": {
+            "start": "2020-11-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81ca-9c9a-ec1faaa7120d",
+          "_url": "https://app.notion.com/p/Est-Sueldo-3b8e6c72cc7281ca9c9aec1faaa7120d",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Date Received": {
+            "start": "2020-04-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo"
+        },
+        {
+          "_id": "3b8e6c72-cc72-811f-b487-d86b3dc549ef",
+          "_url": "https://app.notion.com/p/Est-Sueldo-GSS-3b8e6c72cc72811fb487d86b3dc549ef",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2019-09-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo GSS"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8120-8c21-cf6458faf78e",
+          "_url": "https://app.notion.com/p/Est-Grati-trunca-jul-oct19-3b8e6c72cc7281208c21cf6458faf78e",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2019-10-31",
+            "end": null
+          },
+          "Income": 675.8,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Grati trunca (jul–oct19)"
+        },
+        {
+          "_id": "3b8e6c72-cc72-812a-b772-ddcd2085ff87",
+          "_url": "https://app.notion.com/p/Est-Ventas-independiente-3b8e6c72cc72812ab772ddcd2085ff87",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2019-11-01",
+            "end": null
+          },
+          "Income": 600,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Ventas independiente"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8151-8d76-cac044ad4102",
+          "_url": "https://app.notion.com/p/Est-Sueldo-GSS-3b8e6c72cc7281518d76cac044ad4102",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2019-01-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo GSS"
+        },
+        {
+          "_id": "3b8e6c72-cc72-815f-9ab3-e3c87c2f8796",
+          "_url": "https://app.notion.com/p/Est-Sueldo-GSS-3b8e6c72cc72815f9ab3e3c87c2f8796",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2019-04-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo GSS"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8165-9c62-e2433c26bceb",
+          "_url": "https://app.notion.com/p/Est-Sueldo-GSS-3b8e6c72cc7281659c62e2433c26bceb",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2019-02-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo GSS"
+        },
+        {
+          "_id": "3b8e6c72-cc72-817e-ba77-ce4cc67c66e5",
+          "_url": "https://app.notion.com/p/Est-CTS-trunca-may-oct19-3b8e6c72cc72817eba77ce4cc67c66e5",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2019-10-31",
+            "end": null
+          },
+          "Income": 542.5,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — CTS trunca (may–oct19)"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8195-9b49-cd55cdf47daa",
+          "_url": "https://app.notion.com/p/Est-Sueldo-GSS-3b8e6c72cc7281959b49cd55cdf47daa",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2019-07-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo GSS"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81c9-874d-d259e012ec8e",
+          "_url": "https://app.notion.com/p/Est-Ventas-independiente-3b8e6c72cc7281c9874dd259e012ec8e",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2019-12-01",
+            "end": null
+          },
+          "Income": 600,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Ventas independiente"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81ca-a683-eff9c503a59c",
+          "_url": "https://app.notion.com/p/Est-Sueldo-GSS-3b8e6c72cc7281caa683eff9c503a59c",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2019-10-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo GSS"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81cd-8407-efb58fc9416c",
+          "_url": "https://app.notion.com/p/Est-Sueldo-GSS-3b8e6c72cc7281cd8407efb58fc9416c",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2019-06-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo GSS"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81d5-961a-f90bbed38bce",
+          "_url": "https://app.notion.com/p/Est-Sueldo-GSS-3b8e6c72cc7281d5961af90bbed38bce",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2019-05-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo GSS"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81eb-9f3e-e3c25d98ee19",
+          "_url": "https://app.notion.com/p/Est-Sueldo-GSS-3b8e6c72cc7281eb9f3ee3c25d98ee19",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2019-03-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo GSS"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81ec-a940-f98ffaa9e590",
+          "_url": "https://app.notion.com/p/Est-Sueldo-GSS-3b8e6c72cc7281eca940f98ffaa9e590",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2019-08-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo GSS"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81f3-9735-fd6338e5e9ea",
+          "_url": "https://app.notion.com/p/Est-Gratificaci-n-julio-3b8e6c72cc7281f39735fd6338e5e9ea",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2019-07-15",
+            "end": null
+          },
+          "Income": 1013.7,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Gratificación julio"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81f9-897a-f99866914f50",
+          "_url": "https://app.notion.com/p/Est-CTS-nov18-abr19-3b8e6c72cc7281f9897af99866914f50",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2019-05-15",
+            "end": null
+          },
+          "Income": 542.5,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — CTS (nov18–abr19)"
+        },
+        {
+          "_id": "3b8e6c72-cc72-810a-bbf3-f9d810ba0eb1",
+          "_url": "https://app.notion.com/p/Est-CTS-dic17-abr18-3b8e6c72cc72810abbf3f9d810ba0eb1",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2018-05-15",
+            "end": null
+          },
+          "Income": 403.86,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — CTS (dic17–abr18)"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8112-adf8-f8dc58ff704d",
+          "_url": "https://app.notion.com/p/Est-Sueldo-GSS-3b8e6c72cc728112adf8f8dc58ff704d",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2018-03-01",
+            "end": null
+          },
+          "Income": 741.2,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo GSS"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8119-83a0-cb09d82e25fc",
+          "_url": "https://app.notion.com/p/Est-CTS-may-oct18-3b8e6c72cc72811983a0cb09d82e25fc",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2018-11-15",
+            "end": null
+          },
+          "Income": 542.5,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — CTS (may–oct18)"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8124-b127-dec2efef87f5",
+          "_url": "https://app.notion.com/p/Est-Sueldo-GSS-3b8e6c72cc728124b127dec2efef87f5",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2018-04-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo GSS"
+        },
+        {
+          "_id": "3b8e6c72-cc72-812e-9cc6-f213612498f8",
+          "_url": "https://app.notion.com/p/Est-Sueldo-GSS-3b8e6c72cc72812e9cc6f213612498f8",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2018-05-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo GSS"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8136-b9e7-d7deba7cc570",
+          "_url": "https://app.notion.com/p/Est-Gratificaci-n-diciembre-3b8e6c72cc728136b9e7d7deba7cc570",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2018-12-15",
+            "end": null
+          },
+          "Income": 1013.7,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Gratificación diciembre"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8142-9df4-da5bd1004000",
+          "_url": "https://app.notion.com/p/Est-Sueldo-GSS-3b8e6c72cc7281429df4da5bd1004000",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2018-07-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo GSS"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8155-af9a-f13d7a5c5ffb",
+          "_url": "https://app.notion.com/p/Est-Sueldo-GSS-3b8e6c72cc728155af9af13d7a5c5ffb",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2018-06-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo GSS"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8171-8a9f-f7f65c72d621",
+          "_url": "https://app.notion.com/p/Est-Sueldo-GSS-3b8e6c72cc7281718a9ff7f65c72d621",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2018-11-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo GSS"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8172-8187-f47010e4fbed",
+          "_url": "https://app.notion.com/p/Est-Sueldo-GSS-3b8e6c72cc7281728187f47010e4fbed",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2018-10-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo GSS"
+        },
+        {
+          "_id": "3b8e6c72-cc72-817d-899e-fef4402ea5d1",
+          "_url": "https://app.notion.com/p/Est-Sueldo-GSS-3b8e6c72cc72817d899efef4402ea5d1",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2018-12-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo GSS"
+        },
+        {
+          "_id": "3b8e6c72-cc72-819d-8ccd-dcd7e59e4361",
+          "_url": "https://app.notion.com/p/Est-Gratificaci-n-julio-3b8e6c72cc72819d8ccddcd7e59e4361",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2018-07-15",
+            "end": null
+          },
+          "Income": 1013.7,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Gratificación julio"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81a2-98b7-d70ac6c64fd2",
+          "_url": "https://app.notion.com/p/Est-Sueldo-GSS-3b8e6c72cc7281a298b7d70ac6c64fd2",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2018-01-01",
+            "end": null
+          },
+          "Income": 741.2,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo GSS"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81c8-8414-fe4e1c39d264",
+          "_url": "https://app.notion.com/p/Est-Sueldo-GSS-15-d-as-3b8e6c72cc7281c88414fe4e1c39d264",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2017-12-01",
+            "end": null
+          },
+          "Income": 370.6,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo GSS (15 días)"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81d9-8ebe-e2bf635d5e9f",
+          "_url": "https://app.notion.com/p/Est-Sueldo-GSS-3b8e6c72cc7281d98ebee2bf635d5e9f",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2018-02-01",
+            "end": null
+          },
+          "Income": 741.2,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo GSS"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81df-8896-cdd4e5e05ab2",
+          "_url": "https://app.notion.com/p/Est-Sueldo-GSS-3b8e6c72cc7281df8896cdd4e5e05ab2",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2018-08-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo GSS"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81f1-b01e-eb507c19b141",
+          "_url": "https://app.notion.com/p/Est-Sueldo-GSS-3b8e6c72cc7281f1b01eeb507c19b141",
+          "_created": "2026-08-10T19:01:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
+          "Date Received": {
+            "start": "2018-09-01",
+            "end": null
+          },
+          "Income": 810.96,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Est. — Sueldo GSS"
+        },
         {
           "_id": "3ade6c72-cc72-80e7-b1c3-f2dd01f8b33a",
           "_url": "https://app.notion.com/p/Teleperformance-fin-de-mes-3ade6c72cc7280e7b1c3f2dd01f8b33a",
@@ -1194,18 +1959,18 @@
         },
         {
           "_id": "350e6c72-cc72-81ba-a53a-c2e2692824e9",
-          "_url": "https://app.notion.com/p/Septiembre-2022-350e6c72cc7281baa53ac2e2692824e9",
+          "_url": "https://app.notion.com/p/Est-Sueldo-septiembre-2022-350e6c72cc7281baa53ac2e2692824e9",
           "_created": "2026-04-28T17:10:00.000Z",
-          "_edited": "2026-04-28T17:18:00.000Z",
+          "_edited": "2026-08-10T19:01:00.000Z",
           "Date Received": {
             "start": "2022-09-01",
             "end": null
           },
-          "Income": 133.57,
+          "Income": 2900,
           "Resumen": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
-          "Name": "Septiembre 2022"
+          "Name": "Est. — Sueldo septiembre 2022"
         }
       ]
     },
@@ -1221,6 +1986,431 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3b8e6c72-cc72-8121-a991-ea97a02e91c9",
+          "_url": "https://app.notion.com/p/Est-Matr-cula-instituto-3b8e6c72cc728121a991ea97a02e91c9",
+          "_created": "2026-08-10T19:05:00.000Z",
+          "_edited": "2026-08-10T19:05:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2019-08-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 320,
+          "Name": "Est. — Matrícula instituto"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8145-9976-edb73c326f53",
+          "_url": "https://app.notion.com/p/Est-PC-gamer-3b8e6c72cc7281459976edb73c326f53",
+          "_created": "2026-08-10T19:05:00.000Z",
+          "_edited": "2026-08-10T19:05:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2020-12-15",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3200,
+          "Name": "Est. — PC gamer"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8170-97f4-d3cf5fcf0b19",
+          "_url": "https://app.notion.com/p/Est-Matr-cula-instituto-3b8e6c72cc72817097f4d3cf5fcf0b19",
+          "_created": "2026-08-10T19:05:00.000Z",
+          "_edited": "2026-08-10T19:05:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2019-03-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 320,
+          "Name": "Est. — Matrícula instituto"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8105-817a-c505d494d23e",
+          "_url": "https://app.notion.com/p/Est-Instituto-3b8e6c72cc728105817ac505d494d23e",
+          "_created": "2026-08-10T19:03:00.000Z",
+          "_edited": "2026-08-10T19:03:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2019-08-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 640,
+          "Name": "Est. — Instituto"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8116-b914-d55b7af00485",
+          "_url": "https://app.notion.com/p/Est-Instituto-3b8e6c72cc728116b914d55b7af00485",
+          "_created": "2026-08-10T19:03:00.000Z",
+          "_edited": "2026-08-10T19:03:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2019-03-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 640,
+          "Name": "Est. — Instituto"
+        },
+        {
+          "_id": "3b8e6c72-cc72-811f-b8ef-c19b61598f03",
+          "_url": "https://app.notion.com/p/Est-Instituto-3b8e6c72cc72811fb8efc19b61598f03",
+          "_created": "2026-08-10T19:03:00.000Z",
+          "_edited": "2026-08-10T19:03:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2019-04-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 640,
+          "Name": "Est. — Instituto"
+        },
+        {
+          "_id": "3b8e6c72-cc72-813a-b0f9-f3c54eba5e15",
+          "_url": "https://app.notion.com/p/Est-Matr-cula-instituto-3b8e6c72cc72813ab0f9f3c54eba5e15",
+          "_created": "2026-08-10T19:03:00.000Z",
+          "_edited": "2026-08-10T19:05:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2018-08-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 320,
+          "Name": "Est. — Matrícula instituto"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8149-9c21-df067b8bc167",
+          "_url": "https://app.notion.com/p/Est-Instituto-3b8e6c72cc7281499c21df067b8bc167",
+          "_created": "2026-08-10T19:03:00.000Z",
+          "_edited": "2026-08-10T19:03:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2019-11-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 640,
+          "Name": "Est. — Instituto"
+        },
+        {
+          "_id": "3b8e6c72-cc72-815f-896e-f1150215e1b3",
+          "_url": "https://app.notion.com/p/Est-Instituto-3b8e6c72cc72815f896ef1150215e1b3",
+          "_created": "2026-08-10T19:03:00.000Z",
+          "_edited": "2026-08-10T19:03:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2019-10-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 640,
+          "Name": "Est. — Instituto"
+        },
+        {
+          "_id": "3b8e6c72-cc72-819a-8066-eec9925e21de",
+          "_url": "https://app.notion.com/p/Est-Instituto-3b8e6c72cc72819a8066eec9925e21de",
+          "_created": "2026-08-10T19:03:00.000Z",
+          "_edited": "2026-08-10T19:03:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2019-05-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 640,
+          "Name": "Est. — Instituto"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81a0-9d57-fbe9c0813f50",
+          "_url": "https://app.notion.com/p/Est-Instituto-3b8e6c72cc7281a09d57fbe9c0813f50",
+          "_created": "2026-08-10T19:03:00.000Z",
+          "_edited": "2026-08-10T19:03:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2019-12-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 640,
+          "Name": "Est. — Instituto"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81c5-8f99-c4349968def2",
+          "_url": "https://app.notion.com/p/Est-Instituto-3b8e6c72cc7281c58f99c4349968def2",
+          "_created": "2026-08-10T19:03:00.000Z",
+          "_edited": "2026-08-10T19:03:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2019-07-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 640,
+          "Name": "Est. — Instituto"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81dd-a22f-ca4f9e2963b1",
+          "_url": "https://app.notion.com/p/Est-Instituto-3b8e6c72cc7281dda22fca4f9e2963b1",
+          "_created": "2026-08-10T19:03:00.000Z",
+          "_edited": "2026-08-10T19:03:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2019-06-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 640,
+          "Name": "Est. — Instituto"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81ea-a3eb-f35bbea06081",
+          "_url": "https://app.notion.com/p/Est-Instituto-3b8e6c72cc7281eaa3ebf35bbea06081",
+          "_created": "2026-08-10T19:03:00.000Z",
+          "_edited": "2026-08-10T19:03:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2019-09-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 640,
+          "Name": "Est. — Instituto"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8107-8a47-db688bf1ea3f",
+          "_url": "https://app.notion.com/p/Est-Instituto-3b8e6c72cc7281078a47db688bf1ea3f",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2018-07-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 640,
+          "Name": "Est. — Instituto"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8139-b4b9-dcf71dc51180",
+          "_url": "https://app.notion.com/p/Est-Instituto-3b8e6c72cc728139b4b9dcf71dc51180",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2018-04-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 640,
+          "Name": "Est. — Instituto"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8159-9637-fb88784449ed",
+          "_url": "https://app.notion.com/p/Est-Instituto-3b8e6c72cc7281599637fb88784449ed",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2018-11-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 640,
+          "Name": "Est. — Instituto"
+        },
+        {
+          "_id": "3b8e6c72-cc72-817f-a88e-d065ff12e43d",
+          "_url": "https://app.notion.com/p/Est-Instituto-3b8e6c72cc72817fa88ed065ff12e43d",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2018-08-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 640,
+          "Name": "Est. — Instituto"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8194-bcda-ee08216e18be",
+          "_url": "https://app.notion.com/p/Est-Matr-cula-instituto-3b8e6c72cc728194bcdaee08216e18be",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:05:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2018-03-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 320,
+          "Name": "Est. — Matrícula instituto"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81a5-b6f6-f056c9a3b00a",
+          "_url": "https://app.notion.com/p/Est-Instituto-3b8e6c72cc7281a5b6f6f056c9a3b00a",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2018-09-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 640,
+          "Name": "Est. — Instituto"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81bf-857b-ea061d1ab607",
+          "_url": "https://app.notion.com/p/Est-Instituto-3b8e6c72cc7281bf857bea061d1ab607",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2018-06-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 640,
+          "Name": "Est. — Instituto"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81bf-9252-ccac3960e9bd",
+          "_url": "https://app.notion.com/p/Est-Instituto-3b8e6c72cc7281bf9252ccac3960e9bd",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2018-10-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 640,
+          "Name": "Est. — Instituto"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81c4-9ba1-f917282d411c",
+          "_url": "https://app.notion.com/p/Est-Instituto-3b8e6c72cc7281c49ba1f917282d411c",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2018-03-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 640,
+          "Name": "Est. — Instituto"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81f3-a993-c3b81219b46c",
+          "_url": "https://app.notion.com/p/Est-Instituto-3b8e6c72cc7281f3a993c3b81219b46c",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2018-12-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 640,
+          "Name": "Est. — Instituto"
+        },
+        {
+          "_id": "3b8e6c72-cc72-81f5-9fdc-cfff878c2aee",
+          "_url": "https://app.notion.com/p/Est-Instituto-3b8e6c72cc7281f59fdccfff878c2aee",
+          "_created": "2026-08-10T19:02:00.000Z",
+          "_edited": "2026-08-10T19:02:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2018-05-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 640,
+          "Name": "Est. — Instituto"
+        },
         {
           "_id": "3b8e6c72-cc72-803e-aa08-fb5b371fea6a",
           "_url": "https://app.notion.com/p/pastillad-3b8e6c72cc72803eaa08fb5b371fea6a",
