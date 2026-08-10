@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T17:23:11.308978+00:00",
+  "generated_at": "2026-08-10T18:08:37.229118+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 15390.000000000002,
-          "Tot. Expenses": 287432.07500000024,
-          "Total Papa": 8614.06,
+          "SumGastosPapa": 15632.000000000002,
+          "Tot. Expenses": 287431.47500000027,
+          "Total Papa": 8372.06,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 24004.06,
           "Expenses": [
@@ -136,7 +136,7 @@
             "3b2e6c72-cc72-8169-b362-e332d1c6245c",
             "3b7e6c72-cc72-8031-b99a-ca022de91ba1"
           ],
-          "Cash": -319.32500000018,
+          "Cash": -318.72500000021,
           "Tot. Income": 287112.75000000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -165,7 +165,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 8294.734999999819,
+          "Cash Total": 8053.334999999788,
           "Name": "Resumen"
         }
       ]
@@ -1225,7 +1225,7 @@
           "_id": "3b8e6c72-cc72-803e-aa08-fb5b371fea6a",
           "_url": "https://app.notion.com/p/pastillad-3b8e6c72cc72803eaa08fb5b371fea6a",
           "_created": "2026-08-10T14:21:00.000Z",
-          "_edited": "2026-08-10T14:21:00.000Z",
+          "_edited": "2026-08-10T18:04:00.000Z",
           "Category": "Personal",
           "Date Created": {
             "start": "2026-08-10",
@@ -1235,7 +1235,7 @@
           "Resumen": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
-          "Price": 6.5,
+          "Price": 5.9,
           "Name": "pastillad"
         },
         {
@@ -13464,6 +13464,21 @@
       },
       "rows": [
         {
+          "_id": "3b8e6c72-cc72-804b-b5da-ca4fcd8fbd84",
+          "_url": "https://app.notion.com/p/almuerzo-provoca-3b8e6c72cc72804bb5daca4fcd8fbd84",
+          "_created": "2026-08-10T18:03:00.000Z",
+          "_edited": "2026-08-10T18:03:00.000Z",
+          "Date Created": {
+            "start": "2026-08-10",
+            "end": null
+          },
+          "Price": 12,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "almuerzo provoca",
+          "Category": "Fixed"
+        },
+        {
           "_id": "3b8e6c72-cc72-8001-a0c8-fc2623b3c358",
           "_url": "https://app.notion.com/p/tasty-mix-3b8e6c72cc728001a0c8fc2623b3c358",
           "_created": "2026-08-10T14:48:00.000Z",
@@ -15552,6 +15567,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3b8e6c72-cc72-8082-bf1c-e10c64b25687",
+          "_url": "https://app.notion.com/p/gasto-papa-3b8e6c72cc728082bf1ce10c64b25687",
+          "_created": "2026-08-10T18:04:00.000Z",
+          "_edited": "2026-08-10T18:04:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-08-10",
+            "end": null
+          },
+          "Money": 12,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "gasto papa"
+        },
+        {
+          "_id": "3b8e6c72-cc72-8045-b5fe-ee9be347124a",
+          "_url": "https://app.notion.com/p/dentista-mama-3b8e6c72cc728045b5feee9be347124a",
+          "_created": "2026-08-10T18:03:00.000Z",
+          "_edited": "2026-08-10T18:03:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-08-10",
+            "end": null
+          },
+          "Money": 200,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "dentista mama"
+        },
+        {
+          "_id": "3b8e6c72-cc72-80d5-8723-fad55a65f639",
+          "_url": "https://app.notion.com/p/yapeo-mama-3b8e6c72cc7280d58723fad55a65f639",
+          "_created": "2026-08-10T18:03:00.000Z",
+          "_edited": "2026-08-10T18:03:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-08-10",
+            "end": null
+          },
+          "Money": 30,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "yapeo mama"
+        },
         {
           "_id": "3b8e6c72-cc72-81cb-a123-d78e68eb6548",
           "_url": "https://app.notion.com/p/Pensi-n-Mikalah-3b8e6c72cc7281cba123d78e68eb6548",
