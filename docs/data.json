@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T14:40:35.981890+00:00",
+  "generated_at": "2026-08-10T15:34:39.008292+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -13463,6 +13463,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3b8e6c72-cc72-8001-a0c8-fc2623b3c358",
+          "_url": "https://app.notion.com/p/tasty-mix-3b8e6c72cc728001a0c8fc2623b3c358",
+          "_created": "2026-08-10T14:48:00.000Z",
+          "_edited": "2026-08-10T14:48:00.000Z",
+          "Date Created": {
+            "start": "2026-08-10",
+            "end": null
+          },
+          "Price": 3,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "tasty mix",
+          "Category": "Enjoy"
+        },
         {
           "_id": "3b7e6c72-cc72-8009-a6bf-e278633f84f1",
           "_url": "https://app.notion.com/p/focos-para-studio-y-ugreen-hub-3b7e6c72cc728009a6bfe278633f84f1",
