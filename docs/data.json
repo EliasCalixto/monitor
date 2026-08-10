@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T13:38:42.381932+00:00",
+  "generated_at": "2026-08-10T14:40:35.981890+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 15390.000000000002,
-          "Tot. Expenses": 287425.57500000024,
+          "Tot. Expenses": 287432.07500000024,
           "Total Papa": 8614.06,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 24004.06,
@@ -136,7 +136,7 @@
             "3b2e6c72-cc72-8169-b362-e332d1c6245c",
             "3b7e6c72-cc72-8031-b99a-ca022de91ba1"
           ],
-          "Cash": -312.82500000018,
+          "Cash": -319.32500000018,
           "Tot. Income": 287112.75000000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -165,7 +165,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 8301.234999999819,
+          "Cash Total": 8294.734999999819,
           "Name": "Resumen"
         }
       ]
@@ -1221,6 +1221,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3b8e6c72-cc72-803e-aa08-fb5b371fea6a",
+          "_url": "https://app.notion.com/p/pastillad-3b8e6c72cc72803eaa08fb5b371fea6a",
+          "_created": "2026-08-10T14:21:00.000Z",
+          "_edited": "2026-08-10T14:21:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-08-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 6.5,
+          "Name": "pastillad"
+        },
         {
           "_id": "3b7e6c72-cc72-80cf-8ec5-f273d1a9b16b",
           "_url": "https://app.notion.com/p/comida-saludable-pollo-avena-palta-3b7e6c72cc7280cf8ec5f273d1a9b16b",
