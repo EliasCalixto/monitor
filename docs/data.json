@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T19:16:28.619996+00:00",
+  "generated_at": "2026-08-11T20:07:53.354936+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 15632.000000000002,
-          "Tot. Expenses": 333633.8750000001,
+          "Tot. Expenses": 333652.8750000001,
           "Total Papa": 8372.06,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 24004.06,
@@ -136,7 +136,7 @@
             "3b2e6c72-cc72-8169-b362-e332d1c6245c",
             "3b7e6c72-cc72-8031-b99a-ca022de91ba1"
           ],
-          "Cash": -150.7349999994,
+          "Cash": -169.7349999994,
           "Tot. Income": 333483.1400000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -165,7 +165,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 8221.325000000597,
+          "Cash Total": 8202.325000000597,
           "Name": "Resumen"
         }
       ]
@@ -1986,6 +1986,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3b9e6c72-cc72-8022-8347-f01ee6ea5cad",
+          "_url": "https://app.notion.com/p/almuerzo-en-chifita-3b9e6c72cc7280228347f01ee6ea5cad",
+          "_created": "2026-08-11T19:58:00.000Z",
+          "_edited": "2026-08-11T19:58:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-08-11",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 19,
+          "Name": "almuerzo en chifita"
+        },
         {
           "_id": "3b9e6c72-cc72-8109-8f53-d2951bf71df2",
           "_url": "https://app.notion.com/p/Est-Salidas-y-comidas-3b9e6c72cc7281098f53d2951bf71df2",
