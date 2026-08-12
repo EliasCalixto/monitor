@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T18:31:46.599413+00:00",
+  "generated_at": "2026-08-12T19:44:27.187494+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 15702.000000000002,
-          "Tot. Expenses": 333674.27500000014,
+          "Tot. Expenses": 334978.97500000015,
           "Total Papa": 8302.06,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 24004.06,
@@ -136,8 +136,8 @@
             "3b2e6c72-cc72-8169-b362-e332d1c6245c",
             "3b7e6c72-cc72-8031-b99a-ca022de91ba1"
           ],
-          "Cash": -191.13499999944,
-          "Tot. Income": 333483.1400000007,
+          "Cash": 211.13500000055,
+          "Tot. Income": 335190.1100000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -165,7 +165,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 8110.925000000558,
+          "Cash Total": 8513.195000000547,
           "Name": "Resumen"
         }
       ]
@@ -322,6 +322,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3bae6c72-cc72-80fc-85a1-e6cd5c04835e",
+          "_url": "https://app.notion.com/p/quincena-Area-3bae6c72cc7280fc85a1e6cd5c04835e",
+          "_created": "2026-08-12T19:20:00.000Z",
+          "_edited": "2026-08-12T19:20:00.000Z",
+          "Date Received": {
+            "start": "2026-08-12",
+            "end": null
+          },
+          "Income": 1706.97,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "quincena Area"
+        },
         {
           "_id": "3b8e6c72-cc72-8103-b22d-c2a3547fad74",
           "_url": "https://app.notion.com/p/Est-Sueldo-3b8e6c72cc728103b22dc2a3547fad74",
@@ -1986,6 +2001,193 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3bae6c72-cc72-80ee-88b4-f1605aec25c0",
+          "_url": "https://app.notion.com/p/pasajes-y-otros-3bae6c72cc7280ee88b4f1605aec25c0",
+          "_created": "2026-08-12T19:26:00.000Z",
+          "_edited": "2026-08-12T19:26:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-08-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 4.7,
+          "Name": "pasajes y otros"
+        },
+        {
+          "_id": "3bae6c72-cc72-8101-b7a3-c06dd55ce97f",
+          "_url": "https://app.notion.com/p/Cinammom-3bae6c72cc728101b7a3c06dd55ce97f",
+          "_created": "2026-08-12T19:24:00.000Z",
+          "_edited": "2026-08-12T19:24:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 24,
+          "Name": "Cinammom"
+        },
+        {
+          "_id": "3bae6c72-cc72-8116-a518-dac8ad60b31c",
+          "_url": "https://app.notion.com/p/gfalletitia-y-frugos-3bae6c72cc728116a518dac8ad60b31c",
+          "_created": "2026-08-12T19:24:00.000Z",
+          "_edited": "2026-08-12T19:24:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-17",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 7,
+          "Name": "gfalletitia y frugos"
+        },
+        {
+          "_id": "3bae6c72-cc72-816e-8926-c68f20f8d668",
+          "_url": "https://app.notion.com/p/Regalo-Mikalah-3bae6c72cc72816e8926c68f20f8d668",
+          "_created": "2026-08-12T19:24:00.000Z",
+          "_edited": "2026-08-12T19:24:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 109.8,
+          "Name": "Regalo Mikalah"
+        },
+        {
+          "_id": "3bae6c72-cc72-8185-b090-d3721c8dac52",
+          "_url": "https://app.notion.com/p/mad-butguer-3bae6c72cc728185b090d3721c8dac52",
+          "_created": "2026-08-12T19:24:00.000Z",
+          "_edited": "2026-08-12T19:24:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-17",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 87.8,
+          "Name": "mad butguer"
+        },
+        {
+          "_id": "3bae6c72-cc72-818b-8051-c95697c08ba5",
+          "_url": "https://app.notion.com/p/examen-ingles-usil-PTE-3bae6c72cc72818b8051c95697c08ba5",
+          "_created": "2026-08-12T19:24:00.000Z",
+          "_edited": "2026-08-12T19:24:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2026-07-21",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 485,
+          "Name": "examen ingles usil PTE"
+        },
+        {
+          "_id": "3bae6c72-cc72-818b-a80d-cd7e86b11c4c",
+          "_url": "https://app.notion.com/p/Win-julio-3bae6c72cc72818ba80dcd7e86b11c4c",
+          "_created": "2026-08-12T19:24:00.000Z",
+          "_edited": "2026-08-12T19:24:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-21",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 109,
+          "Name": "Win julio"
+        },
+        {
+          "_id": "3bae6c72-cc72-819d-9c5b-e1cf30237a8d",
+          "_url": "https://app.notion.com/p/peque-a-comoda-porta-toalla-y-eso-3bae6c72cc72819d9c5be1cf30237a8d",
+          "_created": "2026-08-12T19:24:00.000Z",
+          "_edited": "2026-08-12T19:24:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-07-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 254.7,
+          "Name": "pequeña comoda porta toalla y eso"
+        },
+        {
+          "_id": "3bae6c72-cc72-81b2-9698-f88fe5163562",
+          "_url": "https://app.notion.com/p/Manija-foco-e-interruptor-3bae6c72cc7281b29698f88fe5163562",
+          "_created": "2026-08-12T19:24:00.000Z",
+          "_edited": "2026-08-12T19:24:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-07-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 183.3,
+          "Name": "Manija, foco e interruptor"
+        },
+        {
+          "_id": "3bae6c72-cc72-81e4-adb3-f8c9000f29e0",
+          "_url": "https://app.notion.com/p/sopita-3bae6c72cc7281e4adb3f8c9000f29e0",
+          "_created": "2026-08-12T19:24:00.000Z",
+          "_edited": "2026-08-12T19:24:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-16",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3.9,
+          "Name": "sopita"
+        },
+        {
+          "_id": "3bae6c72-cc72-81fb-8ab9-c51da61a2901",
+          "_url": "https://app.notion.com/p/Bolso-de-mikalah-pago-parcial-3bae6c72cc7281fb8ab9c51da61a2901",
+          "_created": "2026-08-12T19:24:00.000Z",
+          "_edited": "2026-08-12T19:24:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 35.5,
+          "Name": "Bolso de mikalah (pago parcial)"
+        },
         {
           "_id": "3bae6c72-cc72-812b-b4af-daa6fafb6907",
           "_url": "https://app.notion.com/p/taxi-3bae6c72cc72812bb4afdaa6fafb6907",
@@ -18024,17 +18226,17 @@
         },
         {
           "_id": "3a9e6c72-cc72-80b6-82cc-f0915849fbcf",
-          "_url": "https://app.notion.com/p/Bolso-de-mikalah-3a9e6c72cc7280b682ccf0915849fbcf",
+          "_url": "https://app.notion.com/p/Bolso-de-mikalah-saldo-pendiente-3a9e6c72cc7280b682ccf0915849fbcf",
           "_created": "2026-07-26T00:42:00.000Z",
-          "_edited": "2026-08-03T13:36:00.000Z",
+          "_edited": "2026-08-12T19:24:00.000Z",
           "Date Created": {
             "start": "2026-07-25",
             "end": null
           },
-          "Price": 35.75,
+          "Price": 0.25,
           "Date Payed": null,
           "Status": "Pending",
-          "Name": "Bolso de mikalah",
+          "Name": "Bolso de mikalah (saldo pendiente)",
           "Category": "Enjoy"
         },
         {
@@ -18071,14 +18273,17 @@
           "_id": "3a9e6c72-cc72-8016-b532-cb7c82c87b5f",
           "_url": "https://app.notion.com/p/Cinammom-3a9e6c72cc728016b532cb7c82c87b5f",
           "_created": "2026-07-26T00:40:00.000Z",
-          "_edited": "2026-08-03T13:36:00.000Z",
+          "_edited": "2026-08-12T19:24:00.000Z",
           "Date Created": {
             "start": "2026-07-25",
             "end": null
           },
           "Price": 24,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-12",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Cinammom",
           "Category": "Enjoy"
         },
@@ -18101,14 +18306,17 @@
           "_id": "3a8e6c72-cc72-815e-915c-dae0f7995713",
           "_url": "https://app.notion.com/p/Regalo-Mikalah-3a8e6c72cc72815e915cdae0f7995713",
           "_created": "2026-07-25T23:31:00.000Z",
-          "_edited": "2026-08-03T13:36:00.000Z",
+          "_edited": "2026-08-12T19:24:00.000Z",
           "Date Created": {
             "start": "2026-07-25",
             "end": null
           },
           "Price": 109.8,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-12",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Regalo Mikalah",
           "Category": "Enjoy"
         },
@@ -18116,14 +18324,17 @@
           "_id": "3a7e6c72-cc72-81cb-b2d7-fa63c891f3ba",
           "_url": "https://app.notion.com/p/Manija-foco-e-interruptor-3a7e6c72cc7281cbb2d7fa63c891f3ba",
           "_created": "2026-07-24T04:28:00.000Z",
-          "_edited": "2026-08-03T13:36:00.000Z",
+          "_edited": "2026-08-12T19:24:00.000Z",
           "Date Created": {
             "start": "2026-07-24",
             "end": null
           },
           "Price": 183.3,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-12",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Manija, foco e interruptor",
           "Category": "Home"
         },
@@ -18131,14 +18342,17 @@
           "_id": "3a7e6c72-cc72-80a8-992d-c30b48be268e",
           "_url": "https://app.notion.com/p/peque-a-comoda-porta-toalla-y-eso-3a7e6c72cc7280a8992dc30b48be268e",
           "_created": "2026-07-24T03:04:00.000Z",
-          "_edited": "2026-08-03T13:36:00.000Z",
+          "_edited": "2026-08-12T19:24:00.000Z",
           "Date Created": {
             "start": "2026-07-24",
             "end": null
           },
           "Price": 254.7,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-12",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "pequeña comoda porta toalla y eso",
           "Category": "Home"
         },
@@ -18146,14 +18360,17 @@
           "_id": "3a5e6c72-cc72-8062-be2a-fefa6e752b9c",
           "_url": "https://app.notion.com/p/Win-julio-3a5e6c72cc728062be2afefa6e752b9c",
           "_created": "2026-07-22T02:35:00.000Z",
-          "_edited": "2026-08-03T13:36:00.000Z",
+          "_edited": "2026-08-12T19:24:00.000Z",
           "Date Created": {
             "start": "2026-07-21",
             "end": null
           },
           "Price": 109,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-12",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Win julio",
           "Category": "Fixed"
         },
@@ -18161,14 +18378,17 @@
           "_id": "3a5e6c72-cc72-80d2-a9cc-c18e90e98227",
           "_url": "https://app.notion.com/p/examen-ingles-usil-PTE-3a5e6c72cc7280d2a9ccc18e90e98227",
           "_created": "2026-07-22T01:16:00.000Z",
-          "_edited": "2026-08-03T13:36:00.000Z",
+          "_edited": "2026-08-12T19:24:00.000Z",
           "Date Created": {
             "start": "2026-07-21",
             "end": null
           },
           "Price": 485,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-12",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "examen ingles usil PTE",
           "Category": "Studies"
         },
@@ -18176,14 +18396,17 @@
           "_id": "3a0e6c72-cc72-80a5-bd9a-e5230bc7e7be",
           "_url": "https://app.notion.com/p/mad-butguer-3a0e6c72cc7280a5bd9ae5230bc7e7be",
           "_created": "2026-07-17T18:25:00.000Z",
-          "_edited": "2026-08-03T13:36:00.000Z",
+          "_edited": "2026-08-12T19:24:00.000Z",
           "Date Created": {
             "start": "2026-07-17",
             "end": null
           },
           "Price": 87.8,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-12",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "mad butguer",
           "Category": "Enjoy"
         },
@@ -18191,14 +18414,17 @@
           "_id": "3a0e6c72-cc72-80ae-8061-d26b09fc2516",
           "_url": "https://app.notion.com/p/gfalletitia-y-frugos-3a0e6c72cc7280ae8061d26b09fc2516",
           "_created": "2026-07-17T13:42:00.000Z",
-          "_edited": "2026-08-03T13:36:00.000Z",
+          "_edited": "2026-08-12T19:24:00.000Z",
           "Date Created": {
             "start": "2026-07-17",
             "end": null
           },
           "Price": 7,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-12",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "gfalletitia y frugos",
           "Category": "Enjoy"
         },
@@ -18206,14 +18432,17 @@
           "_id": "39fe6c72-cc72-80c7-bc9a-ec441d437d28",
           "_url": "https://app.notion.com/p/sopita-39fe6c72cc7280c7bc9aec441d437d28",
           "_created": "2026-07-16T14:34:00.000Z",
-          "_edited": "2026-08-03T13:36:00.000Z",
+          "_edited": "2026-08-12T19:24:00.000Z",
           "Date Created": {
             "start": "2026-07-16",
             "end": null
           },
           "Price": 3.9,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-12",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "sopita",
           "Category": "Enjoy"
         },
