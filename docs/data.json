@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T17:37:00.491842+00:00",
+  "generated_at": "2026-08-12T18:31:46.599413+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 15632.000000000002,
+          "SumGastosPapa": 15702.000000000002,
           "Tot. Expenses": 333674.27500000014,
-          "Total Papa": 8372.06,
+          "Total Papa": 8302.06,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 24004.06,
           "Expenses": [
@@ -165,7 +165,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 8180.925000000558,
+          "Cash Total": 8110.925000000558,
           "Name": "Resumen"
         }
       ]
@@ -17663,6 +17663,21 @@
       },
       "rows": [
         {
+          "_id": "3bae6c72-cc72-81c0-8c97-c6bc1395dd96",
+          "_url": "https://app.notion.com/p/pollito-a-la-brasa-3bae6c72cc7281c08c97c6bc1395dd96",
+          "_created": "2026-08-12T17:46:00.000Z",
+          "_edited": "2026-08-12T17:46:00.000Z",
+          "Date Created": {
+            "start": "2026-08-12",
+            "end": null
+          },
+          "Price": 30.9,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "pollito a la brasa",
+          "Category": "Enjoy"
+        },
+        {
           "_id": "3b8e6c72-cc72-804b-b5da-ca4fcd8fbd84",
           "_url": "https://app.notion.com/p/almuerzo-provoca-3b8e6c72cc72804bb5daca4fcd8fbd84",
           "_created": "2026-08-10T18:03:00.000Z",
@@ -19766,6 +19781,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3bae6c72-cc72-81f9-811b-dd5adf233cfa",
+          "_url": "https://app.notion.com/p/Gasto-Papa-3bae6c72cc7281f9811bdd5adf233cfa",
+          "_created": "2026-08-12T18:29:00.000Z",
+          "_edited": "2026-08-12T18:30:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-08-12",
+            "end": null
+          },
+          "Money": 70,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Gasto Papa"
+        },
         {
           "_id": "3b8e6c72-cc72-8082-bf1c-e10c64b25687",
           "_url": "https://app.notion.com/p/gasto-papa-3b8e6c72cc728082bf1ce10c64b25687",
