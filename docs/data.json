@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T12:05:48.106464+00:00",
+  "generated_at": "2026-08-13T13:40:29.583367+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 15960.000000000002,
-          "Tot. Expenses": 334978.97500000015,
+          "Tot. Expenses": 334981.27500000014,
           "Total Papa": 8044.06,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 24004.06,
@@ -136,7 +136,7 @@
             "3b2e6c72-cc72-8169-b362-e332d1c6245c",
             "3b7e6c72-cc72-8031-b99a-ca022de91ba1"
           ],
-          "Cash": 211.13500000055,
+          "Cash": 208.83500000056,
           "Tot. Income": 335190.1100000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -165,7 +165,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 8255.195000000547,
+          "Cash Total": 8252.895000000559,
           "Name": "Resumen"
         }
       ]
@@ -2001,6 +2001,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3bbe6c72-cc72-8020-82cc-f5a809ab3b84",
+          "_url": "https://app.notion.com/p/desayuno-alison-3bbe6c72cc72802082ccf5a809ab3b84",
+          "_created": "2026-08-13T12:55:00.000Z",
+          "_edited": "2026-08-13T12:56:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-08-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -6,
+          "Name": "desayuno alison"
+        },
+        {
+          "_id": "3bbe6c72-cc72-8049-b484-e7b97d37170f",
+          "_url": "https://app.notion.com/p/taxi-3bbe6c72cc728049b484e7b97d37170f",
+          "_created": "2026-08-13T12:55:00.000Z",
+          "_edited": "2026-08-13T12:55:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-08-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 7.3,
+          "Name": "taxi"
+        },
+        {
+          "_id": "3bbe6c72-cc72-8081-bf42-e58174d5c6dc",
+          "_url": "https://app.notion.com/p/platano-3bbe6c72cc728081bf42e58174d5c6dc",
+          "_created": "2026-08-13T12:55:00.000Z",
+          "_edited": "2026-08-13T12:55:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1,
+          "Name": "platano"
+        },
         {
           "_id": "3bae6c72-cc72-80ee-88b4-f1605aec25c0",
           "_url": "https://app.notion.com/p/pasajes-y-otros-3bae6c72cc7280ee88b4f1605aec25c0",
