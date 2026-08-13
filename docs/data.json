@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T17:37:07.898759+00:00",
+  "generated_at": "2026-08-13T18:33:22.801857+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 15960.000000000002,
+          "SumGastosPapa": 16326.000000000002,
           "Tot. Expenses": 334981.27500000014,
-          "Total Papa": 8044.06,
+          "Total Papa": 7678.06,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 24004.06,
           "Expenses": [
@@ -165,7 +165,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 8252.895000000559,
+          "Cash Total": 7886.895000000558,
           "Name": "Resumen"
         }
       ]
@@ -17916,6 +17916,21 @@
       },
       "rows": [
         {
+          "_id": "3bbe6c72-cc72-8170-96ff-dba967d09e41",
+          "_url": "https://app.notion.com/p/Agraria-Bife-3bbe6c72cc72817096ffdba967d09e41",
+          "_created": "2026-08-13T18:28:00.000Z",
+          "_edited": "2026-08-13T18:28:00.000Z",
+          "Date Created": {
+            "start": "2026-08-13",
+            "end": null
+          },
+          "Price": 60.75,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Agraria Bife",
+          "Category": "Enjoy"
+        },
+        {
           "_id": "3bae6c72-cc72-81c0-8c97-c6bc1395dd96",
           "_url": "https://app.notion.com/p/pollito-a-la-brasa-3bae6c72cc7281c08c97c6bc1395dd96",
           "_created": "2026-08-12T17:46:00.000Z",
@@ -20061,6 +20076,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3bbe6c72-cc72-81de-b236-ea5189b56950",
+          "_url": "https://app.notion.com/p/Gasto-en-papa-3bbe6c72cc7281deb236ea5189b56950",
+          "_created": "2026-08-13T17:49:00.000Z",
+          "_edited": "2026-08-13T17:49:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-08-13",
+            "end": null
+          },
+          "Money": 366,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Gasto en papa"
+        },
         {
           "_id": "3bae6c72-cc72-8136-95cf-f52456f9ff81",
           "_url": "https://app.notion.com/p/Gasto-Papa-por-Papa-3bae6c72cc72813695cff52456f9ff81",
