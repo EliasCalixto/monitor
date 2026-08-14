@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T23:11:51.810015+00:00",
+  "generated_at": "2026-08-14T23:33:44.859299+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 16681,
-          "Tot. Expenses": 335856.78500000015,
+          "Tot. Expenses": 335869.78500000015,
           "Total Papa": 7823.06,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 24504.06,
@@ -137,7 +137,7 @@
             "3b7e6c72-cc72-8031-b99a-ca022de91ba1",
             "3bce6c72-cc72-80c5-ab2d-c22190341eb7"
           ],
-          "Cash": 253.32500000055,
+          "Cash": 240.32500000055,
           "Tot. Income": 336110.1100000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -166,7 +166,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 8076.38500000055,
+          "Cash Total": 8063.38500000055,
           "Name": "Resumen"
         }
       ]
@@ -2017,6 +2017,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3bce6c72-cc72-81a7-aaee-dff96dcc1ca8",
+          "_url": "https://app.notion.com/p/Taxi-Puruchuco-compras-HHJJ-3bce6c72cc7281a7aaeedff96dcc1ca8",
+          "_created": "2026-08-14T23:29:00.000Z",
+          "_edited": "2026-08-14T23:29:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 13,
+          "Name": "Taxi Puruchuco (compras HHJJ)"
+        },
         {
           "_id": "3bce6c72-cc72-8116-9868-e114289ac9d3",
           "_url": "https://app.notion.com/p/Coca-zero-3bce6c72cc7281169868e114289ac9d3",
@@ -18067,6 +18084,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3bce6c72-cc72-81b7-abcb-e5549c7ac420",
+          "_url": "https://app.notion.com/p/Gastos-actividad-HHJJ-3bce6c72cc7281b7abcbe5549c7ac420",
+          "_created": "2026-08-14T23:29:00.000Z",
+          "_edited": "2026-08-14T23:29:00.000Z",
+          "Date Created": {
+            "start": "2026-08-14",
+            "end": null
+          },
+          "Price": 170.68,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Gastos actividad HHJJ",
+          "Category": null
+        },
         {
           "_id": "3bce6c72-cc72-81d3-9fdb-d482a81c670d",
           "_url": "https://app.notion.com/p/Prote-na-3bce6c72cc7281d39fdbd482a81c670d",
