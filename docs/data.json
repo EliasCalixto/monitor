@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T14:35:21.119312+00:00",
+  "generated_at": "2026-08-14T15:26:40.772006+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 16436,
-          "Tot. Expenses": 334936.78500000015,
+          "Tot. Expenses": 335856.78500000015,
           "Total Papa": 8068.06,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 24504.06,
@@ -137,7 +137,7 @@
             "3b7e6c72-cc72-8031-b99a-ca022de91ba1",
             "3bce6c72-cc72-80c5-ab2d-c22190341eb7"
           ],
-          "Cash": 1173.32500000055,
+          "Cash": 253.32500000055,
           "Tot. Income": 336110.1100000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -166,7 +166,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 9241.38500000055,
+          "Cash Total": 8321.38500000055,
           "Name": "Resumen"
         }
       ]
@@ -2017,6 +2017,108 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3bce6c72-cc72-8116-9868-e114289ac9d3",
+          "_url": "https://app.notion.com/p/Coca-zero-3bce6c72cc7281169868e114289ac9d3",
+          "_created": "2026-08-14T14:43:00.000Z",
+          "_edited": "2026-08-14T14:43:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 5,
+          "Name": "Coca zero"
+        },
+        {
+          "_id": "3bce6c72-cc72-8118-b3da-cfc7a8fe1136",
+          "_url": "https://app.notion.com/p/Pantalon-unbranded-3bce6c72cc728118b3dacfc7a8fe1136",
+          "_created": "2026-08-14T14:43:00.000Z",
+          "_edited": "2026-08-14T14:43:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-07-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 369,
+          "Name": "Pantalon unbranded"
+        },
+        {
+          "_id": "3bce6c72-cc72-816b-b48c-c6c0b26b085b",
+          "_url": "https://app.notion.com/p/Polos-unbranded-3bce6c72cc72816bb48cc6c0b26b085b",
+          "_created": "2026-08-14T14:43:00.000Z",
+          "_edited": "2026-08-14T14:43:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-07-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 269,
+          "Name": "Polos unbranded"
+        },
+        {
+          "_id": "3bce6c72-cc72-816f-bef7-c77f5de8b25a",
+          "_url": "https://app.notion.com/p/Aruma-Mikalah-3bce6c72cc72816fbef7c77f5de8b25a",
+          "_created": "2026-08-14T14:43:00.000Z",
+          "_edited": "2026-08-14T14:43:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 13.8,
+          "Name": "Aruma Mikalah"
+        },
+        {
+          "_id": "3bce6c72-cc72-81a2-b6d1-c108b9a1716a",
+          "_url": "https://app.notion.com/p/Casaca-jean-negra-pago-parcial-3bce6c72cc7281a2b6d1c108b9a1716a",
+          "_created": "2026-08-14T14:43:00.000Z",
+          "_edited": "2026-08-14T14:43:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 262.95,
+          "Name": "Casaca jean negra (pago parcial)"
+        },
+        {
+          "_id": "3bce6c72-cc72-81b9-99b7-e5444c8e1ba6",
+          "_url": "https://app.notion.com/p/Bolso-de-mikalah-saldo-pendiente-3bce6c72cc7281b999b7e5444c8e1ba6",
+          "_created": "2026-08-14T14:43:00.000Z",
+          "_edited": "2026-08-14T14:43:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-07-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 0.25,
+          "Name": "Bolso de mikalah (saldo pendiente)"
+        },
         {
           "_id": "3bce6c72-cc72-8033-b7d2-d4c8e16d6809",
           "_url": "https://app.notion.com/p/desayuno-3bce6c72cc728033b7d2d4c8e16d6809",
@@ -18327,31 +18429,34 @@
         },
         {
           "_id": "3a9e6c72-cc72-81fa-8614-c135acffe84d",
-          "_url": "https://app.notion.com/p/Casaca-jean-negra-3a9e6c72cc7281fa8614c135acffe84d",
+          "_url": "https://app.notion.com/p/Casaca-jean-negra-saldo-pendiente-3a9e6c72cc7281fa8614c135acffe84d",
           "_created": "2026-07-26T02:09:00.000Z",
-          "_edited": "2026-08-03T13:43:00.000Z",
+          "_edited": "2026-08-14T14:43:00.000Z",
           "Date Created": {
             "start": "2026-07-25",
             "end": null
           },
-          "Price": 343.2,
+          "Price": 80.25,
           "Date Payed": null,
           "Status": "Pending",
-          "Name": "Casaca jean negra",
+          "Name": "Casaca jean negra (saldo pendiente)",
           "Category": "Enjoy"
         },
         {
           "_id": "3a9e6c72-cc72-813c-b821-efe51e47eca2",
           "_url": "https://app.notion.com/p/Aruma-Mikalah-3a9e6c72cc72813cb821efe51e47eca2",
           "_created": "2026-07-26T00:49:00.000Z",
-          "_edited": "2026-08-03T13:36:00.000Z",
+          "_edited": "2026-08-14T14:43:00.000Z",
           "Date Created": {
             "start": "2026-07-25",
             "end": null
           },
           "Price": 13.8,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Aruma Mikalah",
           "Category": "Enjoy"
         },
@@ -18359,14 +18464,17 @@
           "_id": "3a9e6c72-cc72-80b6-82cc-f0915849fbcf",
           "_url": "https://app.notion.com/p/Bolso-de-mikalah-saldo-pendiente-3a9e6c72cc7280b682ccf0915849fbcf",
           "_created": "2026-07-26T00:42:00.000Z",
-          "_edited": "2026-08-12T19:24:00.000Z",
+          "_edited": "2026-08-14T14:43:00.000Z",
           "Date Created": {
             "start": "2026-07-25",
             "end": null
           },
           "Price": 0.25,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Bolso de mikalah (saldo pendiente)",
           "Category": "Enjoy"
         },
@@ -18374,14 +18482,17 @@
           "_id": "3a9e6c72-cc72-80e2-bd88-efd364c3840b",
           "_url": "https://app.notion.com/p/Pantalon-unbranded-3a9e6c72cc7280e2bd88efd364c3840b",
           "_created": "2026-07-26T00:41:00.000Z",
-          "_edited": "2026-08-03T13:36:00.000Z",
+          "_edited": "2026-08-14T14:43:00.000Z",
           "Date Created": {
             "start": "2026-07-25",
             "end": null
           },
           "Price": 369,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Pantalon unbranded",
           "Category": "Personal"
         },
@@ -18389,14 +18500,17 @@
           "_id": "3a9e6c72-cc72-80e6-9cf2-c9119ea8d909",
           "_url": "https://app.notion.com/p/Polos-unbranded-3a9e6c72cc7280e69cf2c9119ea8d909",
           "_created": "2026-07-26T00:41:00.000Z",
-          "_edited": "2026-08-03T13:36:00.000Z",
+          "_edited": "2026-08-14T14:43:00.000Z",
           "Date Created": {
             "start": "2026-07-25",
             "end": null
           },
           "Price": 269,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Polos unbranded",
           "Category": "Personal"
         },
@@ -18422,14 +18536,17 @@
           "_id": "3a9e6c72-cc72-80bb-84c1-d14eb117b467",
           "_url": "https://app.notion.com/p/Coca-zero-3a9e6c72cc7280bb84c1d14eb117b467",
           "_created": "2026-07-26T00:40:00.000Z",
-          "_edited": "2026-08-03T13:36:00.000Z",
+          "_edited": "2026-08-14T14:43:00.000Z",
           "Date Created": {
             "start": "2026-07-25",
             "end": null
           },
           "Price": 5,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-14",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Coca zero",
           "Category": "Enjoy"
         },
