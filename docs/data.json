@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T13:36:04.366950+00:00",
+  "generated_at": "2026-08-14T14:35:21.119312+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,11 +27,11 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 16386,
-          "Tot. Expenses": 334981.27500000014,
-          "Total Papa": 7618.06,
+          "SumGastosPapa": 16436,
+          "Tot. Expenses": 334936.78500000015,
+          "Total Papa": 8068.06,
           "Tot. Savings": 10000,
-          "SumIngresosPapa": 24004.06,
+          "SumIngresosPapa": 24504.06,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
             "34fe6c72-cc72-818b-a14d-f54df1618747",
@@ -134,10 +134,11 @@
             "39be6c72-cc72-8019-ba7b-d5096f5d4983",
             "3a4e6c72-cc72-8097-9428-ec96a22afa51",
             "3b2e6c72-cc72-8169-b362-e332d1c6245c",
-            "3b7e6c72-cc72-8031-b99a-ca022de91ba1"
+            "3b7e6c72-cc72-8031-b99a-ca022de91ba1",
+            "3bce6c72-cc72-80c5-ab2d-c22190341eb7"
           ],
-          "Cash": 208.83500000056,
-          "Tot. Income": 335190.1100000007,
+          "Cash": 1173.32500000055,
+          "Tot. Income": 336110.1100000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -165,7 +166,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 7826.89500000056,
+          "Cash Total": 9241.38500000055,
           "Name": "Resumen"
         }
       ]
@@ -322,6 +323,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3bce6c72-cc72-8037-afe2-e68a3f4cc6df",
+          "_url": "https://app.notion.com/p/quincena-TP-3bce6c72cc728037afe2e68a3f4cc6df",
+          "_created": "2026-08-14T14:30:00.000Z",
+          "_edited": "2026-08-14T14:30:00.000Z",
+          "Date Received": {
+            "start": "2026-08-14",
+            "end": null
+          },
+          "Income": 920,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "quincena TP"
+        },
         {
           "_id": "3bae6c72-cc72-80fc-85a1-e6cd5c04835e",
           "_url": "https://app.notion.com/p/quincena-Area-3bae6c72cc7280fc85a1e6cd5c04835e",
@@ -2001,6 +2017,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3bce6c72-cc72-8033-b7d2-d4c8e16d6809",
+          "_url": "https://app.notion.com/p/desayuno-3bce6c72cc728033b7d2d4c8e16d6809",
+          "_created": "2026-08-14T13:55:00.000Z",
+          "_edited": "2026-08-14T13:55:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-08-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 5.51,
+          "Name": "desayuno"
+        },
+        {
+          "_id": "3bce6c72-cc72-803a-87bf-dbcb4f02f939",
+          "_url": "https://app.notion.com/p/cash-menos-3bce6c72cc72803a87bfdbcb4f02f939",
+          "_created": "2026-08-14T13:54:00.000Z",
+          "_edited": "2026-08-14T13:55:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-08-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -50,
+          "Name": "cash menos"
+        },
         {
           "_id": "3bbe6c72-cc72-8020-82cc-f5a809ab3b84",
           "_url": "https://app.notion.com/p/desayuno-alison-3bbe6c72cc72802082ccf5a809ab3b84",
@@ -20067,15 +20117,6 @@
           "Type": "Manual",
           "Price": 109,
           "Name": "Win"
-        },
-        {
-          "_id": "350e6c72-cc72-8048-93ce-f23caa909bce",
-          "_url": "https://app.notion.com/p/Dentista-350e6c72cc72804893cef23caa909bce",
-          "_created": "2026-04-28T02:30:00.000Z",
-          "_edited": "2026-04-28T02:30:00.000Z",
-          "Type": "Manual",
-          "Price": 120,
-          "Name": "Dentista"
         }
       ]
     },
@@ -20091,6 +20132,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3bce6c72-cc72-80c5-ab2d-c22190341eb7",
+          "_url": "https://app.notion.com/p/tio-angel-3bce6c72cc7280c5ab2dc22190341eb7",
+          "_created": "2026-08-14T13:55:00.000Z",
+          "_edited": "2026-08-14T13:55:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-08-14",
+            "end": null
+          },
+          "Money": 500,
+          "Total Gastos Papa": [],
+          "Name": "tio angel"
+        },
+        {
+          "_id": "3bce6c72-cc72-807c-a2b4-f7bdb1a16f35",
+          "_url": "https://app.notion.com/p/cash-3bce6c72cc72807ca2b4f7bdb1a16f35",
+          "_created": "2026-08-14T13:54:00.000Z",
+          "_edited": "2026-08-14T13:54:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-08-14",
+            "end": null
+          },
+          "Money": 50,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "cash"
+        },
         {
           "_id": "3bce6c72-cc72-81d5-9cbc-fb142f57442e",
           "_url": "https://app.notion.com/p/Pollito-3bce6c72cc7281d59cbcfb142f57442e",
