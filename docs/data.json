@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T04:26:06.454051+00:00",
+  "generated_at": "2026-08-14T05:51:24.692489+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -17915,6 +17915,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3bce6c72-cc72-81d3-9fdb-d482a81c670d",
+          "_url": "https://app.notion.com/p/Prote-na-3bce6c72cc7281d39fdbd482a81c670d",
+          "_created": "2026-08-14T04:46:00.000Z",
+          "_edited": "2026-08-14T04:46:00.000Z",
+          "Date Created": {
+            "start": "2026-08-13",
+            "end": null
+          },
+          "Price": 243.39,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Proteína",
+          "Category": "Personal"
+        },
         {
           "_id": "3bbe6c72-cc72-8170-96ff-dba967d09e41",
           "_url": "https://app.notion.com/p/Agraria-Bife-3bbe6c72cc72817096ffdba967d09e41",
