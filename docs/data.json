@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T00:03:14.089459+00:00",
+  "generated_at": "2026-08-14T02:41:09.574190+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 16326.000000000002,
+          "SumGastosPapa": 16386,
           "Tot. Expenses": 334981.27500000014,
-          "Total Papa": 7678.06,
+          "Total Papa": 7618.06,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 24004.06,
           "Expenses": [
@@ -165,7 +165,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 7886.895000000558,
+          "Cash Total": 7826.89500000056,
           "Name": "Resumen"
         }
       ]
@@ -20076,6 +20076,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3bce6c72-cc72-81d5-9cbc-fb142f57442e",
+          "_url": "https://app.notion.com/p/Pollito-3bce6c72cc7281d59cbcfb142f57442e",
+          "_created": "2026-08-14T02:18:00.000Z",
+          "_edited": "2026-08-14T02:18:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-08-13",
+            "end": null
+          },
+          "Money": 60,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Pollito"
+        },
         {
           "_id": "3bbe6c72-cc72-81de-b236-ea5189b56950",
           "_url": "https://app.notion.com/p/Gasto-en-papa-3bbe6c72cc7281deb236ea5189b56950",
