@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T02:01:43.456533+00:00",
+  "generated_at": "2026-08-16T03:09:42.719181+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 17634,
-          "Tot. Expenses": 335869.78500000015,
+          "Tot. Expenses": 335877.78500000015,
           "Total Papa": 6920.06,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 24554.06,
@@ -138,7 +138,7 @@
             "3bce6c72-cc72-80c5-ab2d-c22190341eb7",
             "3bde6c72-cc72-81e3-be17-d9a316dd0bd1"
           ],
-          "Cash": 240.32500000055,
+          "Cash": 232.32500000055,
           "Tot. Income": 336110.1100000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -167,7 +167,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 7160.38500000055,
+          "Cash Total": 7152.38500000055,
           "Name": "Resumen"
         }
       ]
@@ -2018,6 +2018,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3bee6c72-cc72-803f-99d3-d42b0b246b9f",
+          "_url": "https://app.notion.com/p/Lentejas-3bee6c72cc72803f99d3d42b0b246b9f",
+          "_created": "2026-08-16T02:26:00.000Z",
+          "_edited": "2026-08-16T02:26:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-08-15",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 8,
+          "Name": "Lentejas"
+        },
         {
           "_id": "3bce6c72-cc72-81a7-aaee-dff96dcc1ca8",
           "_url": "https://app.notion.com/p/Taxi-Puruchuco-compras-HHJJ-3bce6c72cc7281a7aaeedff96dcc1ca8",
