@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T04:55:17.507413+00:00",
+  "generated_at": "2026-08-16T05:15:43.152478+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -18106,7 +18106,7 @@
           "_id": "3bce6c72-cc72-81b7-abcb-e5549c7ac420",
           "_url": "https://app.notion.com/p/Gastos-actividad-HHJJ-3bce6c72cc7281b7abcbe5549c7ac420",
           "_created": "2026-08-14T23:29:00.000Z",
-          "_edited": "2026-08-14T23:29:00.000Z",
+          "_edited": "2026-08-16T05:15:00.000Z",
           "Date Created": {
             "start": "2026-08-14",
             "end": null
@@ -18115,7 +18115,7 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Gastos actividad HHJJ",
-          "Category": null
+          "Category": "Enjoy"
         },
         {
           "_id": "3bce6c72-cc72-81d3-9fdb-d482a81c670d",
