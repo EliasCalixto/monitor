@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T17:39:56.934278+00:00",
+  "generated_at": "2026-08-17T18:00:13.193546+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -18102,6 +18102,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3bfe6c72-cc72-81ae-83a9-c2ab4383626d",
+          "_url": "https://app.notion.com/p/pedal-polytune-3bfe6c72cc7281ae83a9c2ab4383626d",
+          "_created": "2026-08-17T17:53:00.000Z",
+          "_edited": "2026-08-17T17:53:00.000Z",
+          "Date Created": {
+            "start": "2026-08-17",
+            "end": null
+          },
+          "Price": 190.07,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "pedal polytune",
+          "Category": "Setup"
+        },
         {
           "_id": "3bce6c72-cc72-81b7-abcb-e5549c7ac420",
           "_url": "https://app.notion.com/p/Gastos-actividad-HHJJ-3bce6c72cc7281b7abcbe5549c7ac420",
