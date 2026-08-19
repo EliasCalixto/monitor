@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T22:57:13.058364+00:00",
+  "generated_at": "2026-08-19T23:14:48.425203+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -22880,6 +22880,22 @@
           "Money": 5961.2,
           "Total Gastos Papa": [],
           "Name": "Integration"
+        }
+      ]
+    },
+    {
+      "id": "3c1e6c72-cc72-80b7-9c32-ca2c169358dd",
+      "title": "Rxdrx - 1970.20",
+      "schema": {
+        "Name": "title"
+      },
+      "rows": [
+        {
+          "_id": "3c1e6c72-cc72-80ee-b974-e1a8d13c7aab",
+          "_url": "https://app.notion.com/p/3c1e6c72cc7280eeb974e1a8d13c7aab",
+          "_created": "2026-08-19T23:09:00.000Z",
+          "_edited": "2026-08-19T23:09:00.000Z",
+          "Name": ""
         }
       ]
     }
