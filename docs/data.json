@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T03:04:49.375672+00:00",
+  "generated_at": "2026-08-22T03:52:29.799370+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 17710.95,
-          "Tot. Expenses": 335892.28500000015,
-          "Total Papa": 6843.11,
+          "SumGastosPapa": 17742.95,
+          "Tot. Expenses": 335928.28500000015,
+          "Total Papa": 6811.11,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 24554.06,
           "Expenses": [
@@ -138,7 +138,7 @@
             "3bce6c72-cc72-80c5-ab2d-c22190341eb7",
             "3bde6c72-cc72-81e3-be17-d9a316dd0bd1"
           ],
-          "Cash": 217.82500000055,
+          "Cash": 181.82500000055,
           "Tot. Income": 336110.1100000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -167,7 +167,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 7060.93500000055,
+          "Cash Total": 6992.93500000055,
           "Name": "Resumen"
         }
       ]
@@ -2018,6 +2018,91 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3c4e6c72-cc72-8134-b339-c7f8a8520e92",
+          "_url": "https://app.notion.com/p/aceite-3c4e6c72cc728134b339c7f8a8520e92",
+          "_created": "2026-08-22T03:47:00.000Z",
+          "_edited": "2026-08-22T03:47:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-08-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 8.5,
+          "Name": "aceite"
+        },
+        {
+          "_id": "3c4e6c72-cc72-8167-b1fe-e1671937a658",
+          "_url": "https://app.notion.com/p/pasajes-3c4e6c72cc728167b1fee1671937a658",
+          "_created": "2026-08-22T03:47:00.000Z",
+          "_edited": "2026-08-22T03:47:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-08-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1.5,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "3c4e6c72-cc72-8168-85ca-d296007beeeb",
+          "_url": "https://app.notion.com/p/canchita-3c4e6c72cc72816885cad296007beeeb",
+          "_created": "2026-08-22T03:47:00.000Z",
+          "_edited": "2026-08-22T03:47:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1,
+          "Name": "canchita"
+        },
+        {
+          "_id": "3c4e6c72-cc72-81fe-adde-fc7bf7ca180b",
+          "_url": "https://app.notion.com/p/huevos-3c4e6c72cc7281feaddefc7bf7ca180b",
+          "_created": "2026-08-22T03:47:00.000Z",
+          "_edited": "2026-08-22T03:47:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-08-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 10,
+          "Name": "huevos"
+        },
+        {
+          "_id": "3c4e6c72-cc72-8158-9660-d36bab2051a8",
+          "_url": "https://app.notion.com/p/lavada-de-terno-3c4e6c72cc7281589660d36bab2051a8",
+          "_created": "2026-08-22T03:46:00.000Z",
+          "_edited": "2026-08-22T03:47:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-08-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 15,
+          "Name": "lavada de terno"
+        },
         {
           "_id": "3c3e6c72-cc72-80e5-aa4b-f1384a8cc69f",
           "_url": "https://app.notion.com/p/pierna-broster-amalia-3c3e6c72cc7280e5aa4bf1384a8cc69f",
@@ -20380,6 +20465,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3c4e6c72-cc72-81f4-80b5-ef9d90a1fc81",
+          "_url": "https://app.notion.com/p/caba-a-3c4e6c72cc7281f480b5ef9d90a1fc81",
+          "_created": "2026-08-22T03:46:00.000Z",
+          "_edited": "2026-08-22T03:46:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-08-21",
+            "end": null
+          },
+          "Money": 32,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "cabaña"
+        },
         {
           "_id": "3c1e6c72-cc72-8191-abf2-f23693ac553d",
           "_url": "https://app.notion.com/p/chat-gpt-pro-3c1e6c72cc728191abf2f23693ac553d",
