@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T04:18:45.131312+00:00",
+  "generated_at": "2026-08-22T04:54:47.451619+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -18238,6 +18238,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3c4e6c72-cc72-80a1-a0ff-ff9fc08bbaaa",
+          "_url": "https://app.notion.com/p/Demonio-tb-3c4e6c72cc7280a1a0ffff9fc08bbaaa",
+          "_created": "2026-08-22T04:39:00.000Z",
+          "_edited": "2026-08-22T04:39:00.000Z",
+          "Date Created": {
+            "start": "2026-08-21",
+            "end": null
+          },
+          "Price": 71.39,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Demonio tb",
+          "Category": null
+        },
         {
           "_id": "3c2e6c72-cc72-8034-9b5d-e8719cbfa609",
           "_url": "https://app.notion.com/p/tarjeta-de-video-rtx5060-3c2e6c72cc7280349b5de8719cbfa609",
