@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T19:52:50.973038+00:00",
+  "generated_at": "2026-08-22T20:07:39.486380+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 17742.95,
-          "Tot. Expenses": 335928.28500000015,
+          "Tot. Expenses": 335953.58500000014,
           "Total Papa": 6811.11,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 24554.06,
@@ -138,7 +138,7 @@
             "3bce6c72-cc72-80c5-ab2d-c22190341eb7",
             "3bde6c72-cc72-81e3-be17-d9a316dd0bd1"
           ],
-          "Cash": 181.82500000055,
+          "Cash": 156.52500000056,
           "Tot. Income": 336110.1100000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -167,7 +167,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 6992.93500000055,
+          "Cash Total": 6967.63500000056,
           "Name": "Resumen"
         }
       ]
@@ -2018,6 +2018,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3c4e6c72-cc72-81dd-8132-fe16b6831d4c",
+          "_url": "https://app.notion.com/p/Pasaje-3c4e6c72cc7281dd8132fe16b6831d4c",
+          "_created": "2026-08-22T20:04:00.000Z",
+          "_edited": "2026-08-22T20:05:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-08-22",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 5,
+          "Name": "Pasaje"
+        },
+        {
+          "_id": "3c4e6c72-cc72-813e-b076-eaf9c8c33cc3",
+          "_url": "https://app.notion.com/p/Pasaje-a-Barranco-3c4e6c72cc72813eb076eaf9c8c33cc3",
+          "_created": "2026-08-22T20:03:00.000Z",
+          "_edited": "2026-08-22T20:04:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-08-22",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 20.3,
+          "Name": "Pasaje a Barranco"
+        },
         {
           "_id": "3c4e6c72-cc72-8134-b339-c7f8a8520e92",
           "_url": "https://app.notion.com/p/aceite-3c4e6c72cc728134b339c7f8a8520e92",
@@ -18238,6 +18272,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3c4e6c72-cc72-816a-8708-e7edee30f85f",
+          "_url": "https://app.notion.com/p/Madam-Tusan-3c4e6c72cc72816a8708e7edee30f85f",
+          "_created": "2026-08-22T20:03:00.000Z",
+          "_edited": "2026-08-22T20:03:00.000Z",
+          "Date Created": {
+            "start": "2026-08-22",
+            "end": null
+          },
+          "Price": 73,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Madam Tusan",
+          "Category": "Enjoy"
+        },
         {
           "_id": "3c4e6c72-cc72-80a1-a0ff-ff9fc08bbaaa",
           "_url": "https://app.notion.com/p/Demonio-tb-3c4e6c72cc7280a1a0ffff9fc08bbaaa",
