@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T08:13:10.577632+00:00",
+  "generated_at": "2026-08-22T08:45:58.343913+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -216,8 +216,8 @@
           "_id": "39be6c72-cc72-80d0-aedb-e7aee35fe8c6",
           "_url": "https://app.notion.com/p/Operaci-n-de-ojos-39be6c72cc7280d0aedbe7aee35fe8c6",
           "_created": "2026-07-12T16:10:00.000Z",
-          "_edited": "2026-08-01T15:35:00.000Z",
-          "Price": 1900,
+          "_edited": "2026-08-22T08:25:00.000Z",
+          "Price": 2600,
           "Status": "Urgent",
           "Details": "",
           "Name": "Operación de ojos"
@@ -18242,7 +18242,7 @@
           "_id": "3c4e6c72-cc72-80a1-a0ff-ff9fc08bbaaa",
           "_url": "https://app.notion.com/p/Demonio-tb-3c4e6c72cc7280a1a0ffff9fc08bbaaa",
           "_created": "2026-08-22T04:39:00.000Z",
-          "_edited": "2026-08-22T04:39:00.000Z",
+          "_edited": "2026-08-22T08:26:00.000Z",
           "Date Created": {
             "start": "2026-08-21",
             "end": null
@@ -18251,7 +18251,7 @@
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Demonio tb",
-          "Category": null
+          "Category": "Enjoy"
         },
         {
           "_id": "3c2e6c72-cc72-8034-9b5d-e8719cbfa609",
