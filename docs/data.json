@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T00:27:04.938970+00:00",
+  "generated_at": "2026-08-23T02:07:15.308541+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -29,9 +29,9 @@
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 17742.95,
           "Tot. Expenses": 335953.58500000014,
-          "Total Papa": 6811.11,
+          "Total Papa": 7261.11,
           "Tot. Savings": 10000,
-          "SumIngresosPapa": 24554.06,
+          "SumIngresosPapa": 25004.06,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
             "34fe6c72-cc72-818b-a14d-f54df1618747",
@@ -136,7 +136,8 @@
             "3b2e6c72-cc72-8169-b362-e332d1c6245c",
             "3b7e6c72-cc72-8031-b99a-ca022de91ba1",
             "3bce6c72-cc72-80c5-ab2d-c22190341eb7",
-            "3bde6c72-cc72-81e3-be17-d9a316dd0bd1"
+            "3bde6c72-cc72-81e3-be17-d9a316dd0bd1",
+            "3c5e6c72-cc72-8122-a856-ff061a144c9f"
           ],
           "Cash": 156.52500000056,
           "Tot. Income": 336110.1100000007,
@@ -167,7 +168,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 6967.63500000056,
+          "Cash Total": 7417.63500000056,
           "Name": "Resumen"
         }
       ]
@@ -20547,6 +20548,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3c5e6c72-cc72-8122-a856-ff061a144c9f",
+          "_url": "https://app.notion.com/p/Corte-3c5e6c72cc728122a856ff061a144c9f",
+          "_created": "2026-08-23T01:31:00.000Z",
+          "_edited": "2026-08-23T01:31:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-08-22",
+            "end": null
+          },
+          "Money": 450,
+          "Total Gastos Papa": [],
+          "Name": "Corte"
+        },
         {
           "_id": "3c4e6c72-cc72-81f4-80b5-ef9d90a1fc81",
           "_url": "https://app.notion.com/p/caba-a-3c4e6c72cc7281f480b5ef9d90a1fc81",
