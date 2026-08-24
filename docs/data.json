@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T22:59:06.005201+00:00",
+  "generated_at": "2026-08-24T23:19:02.932567+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 17742.95,
-          "Tot. Expenses": 335953.58500000014,
-          "Total Papa": 7261.11,
+          "SumGastosPapa": 17824.2,
+          "Tot. Expenses": 335979.58500000014,
+          "Total Papa": 7179.86,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 25004.06,
           "Expenses": [
@@ -139,7 +139,7 @@
             "3bde6c72-cc72-81e3-be17-d9a316dd0bd1",
             "3c5e6c72-cc72-8122-a856-ff061a144c9f"
           ],
-          "Cash": 156.52500000056,
+          "Cash": 130.52500000056,
           "Tot. Income": 336110.1100000007,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -168,7 +168,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 7417.63500000056,
+          "Cash Total": 7310.38500000056,
           "Name": "Resumen"
         }
       ]
@@ -2019,6 +2019,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3c6e6c72-cc72-8116-8bf2-e4bc55a20691",
+          "_url": "https://app.notion.com/p/recarga-a-mi-numero-3c6e6c72cc7281168bf2e4bc55a20691",
+          "_created": "2026-08-24T23:18:00.000Z",
+          "_edited": "2026-08-24T23:18:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-08-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 6,
+          "Name": "recarga a mi numero"
+        },
+        {
+          "_id": "3c6e6c72-cc72-8135-ba5d-ea716d063e1d",
+          "_url": "https://app.notion.com/p/Corte-de-cabello-3c6e6c72cc728135ba5dea716d063e1d",
+          "_created": "2026-08-24T23:18:00.000Z",
+          "_edited": "2026-08-24T23:18:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-08-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 20,
+          "Name": "Corte de cabello"
+        },
         {
           "_id": "3c4e6c72-cc72-81dd-8132-fe16b6831d4c",
           "_url": "https://app.notion.com/p/Pasaje-3c4e6c72cc7281dd8132fe16b6831d4c",
@@ -20548,6 +20582,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3c6e6c72-cc72-8144-a454-f69b034c1944",
+          "_url": "https://app.notion.com/p/plan-de-mama-3c6e6c72cc728144a454f69b034c1944",
+          "_created": "2026-08-24T23:18:00.000Z",
+          "_edited": "2026-08-24T23:18:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-08-24",
+            "end": null
+          },
+          "Money": 26.25,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "plan de mama"
+        },
+        {
+          "_id": "3c6e6c72-cc72-816d-9df4-ca8859e1b2b0",
+          "_url": "https://app.notion.com/p/yape-3c6e6c72cc72816d9df4ca8859e1b2b0",
+          "_created": "2026-08-24T23:18:00.000Z",
+          "_edited": "2026-08-24T23:18:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-08-24",
+            "end": null
+          },
+          "Money": 20,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "yape"
+        },
+        {
+          "_id": "3c6e6c72-cc72-8195-80d2-ec23e6c1f263",
+          "_url": "https://app.notion.com/p/yape-3c6e6c72cc72819580d2ec23e6c1f263",
+          "_created": "2026-08-24T23:18:00.000Z",
+          "_edited": "2026-08-24T23:18:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-08-24",
+            "end": null
+          },
+          "Money": 35,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "yape"
+        },
         {
           "_id": "3c5e6c72-cc72-8122-a856-ff061a144c9f",
           "_url": "https://app.notion.com/p/Corte-3c5e6c72cc728122a856ff061a144c9f",
