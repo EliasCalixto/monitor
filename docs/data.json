@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T22:50:05.861460+00:00",
+  "generated_at": "2026-08-25T23:13:22.415617+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -2034,6 +2034,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3c7e6c72-cc72-812b-ac12-eabb0a232481",
+          "_url": "https://app.notion.com/p/ANULADO-movido-a-CC-Win-Internet-3c7e6c72cc72812bac12eabb0a232481",
+          "_created": "2026-08-25T22:51:00.000Z",
+          "_edited": "2026-08-25T22:52:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-08-22",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 0,
+          "Name": "[ANULADO — movido a CC] Win Internet"
+        },
         {
           "_id": "3c7e6c72-cc72-811b-83dd-f9ce9b6f7b40",
           "_url": "https://app.notion.com/p/polo-blanco-mikalah-3c7e6c72cc72811b83ddf9ce9b6f7b40",
@@ -18543,6 +18560,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3c7e6c72-cc72-814e-9eed-d8c51bf318ff",
+          "_url": "https://app.notion.com/p/Win-Internet-3c7e6c72cc72814e9eedd8c51bf318ff",
+          "_created": "2026-08-25T22:52:00.000Z",
+          "_edited": "2026-08-25T22:52:00.000Z",
+          "Date Created": {
+            "start": "2026-08-25",
+            "end": null
+          },
+          "Price": 109,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Win Internet",
+          "Category": "Fixed"
+        },
         {
           "_id": "3c4e6c72-cc72-816a-8708-e7edee30f85f",
           "_url": "https://app.notion.com/p/Madam-Tusan-3c4e6c72cc72816a8708e7edee30f85f",
