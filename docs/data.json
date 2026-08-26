@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T13:29:29.215042+00:00",
+  "generated_at": "2026-08-26T14:10:23.530442+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -18560,6 +18560,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3c8e6c72-cc72-8175-bddc-e143134cbfc4",
+          "_url": "https://app.notion.com/p/pago-de-Bachiller-3c8e6c72cc728175bddce143134cbfc4",
+          "_created": "2026-08-26T13:55:00.000Z",
+          "_edited": "2026-08-26T13:55:00.000Z",
+          "Date Created": {
+            "start": "2026-08-26",
+            "end": null
+          },
+          "Price": 350,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "pago de Bachiller",
+          "Category": "Studies"
+        },
         {
           "_id": "3c7e6c72-cc72-814e-9eed-d8c51bf318ff",
           "_url": "https://app.notion.com/p/Win-Internet-3c7e6c72cc72814e9eedd8c51bf318ff",
