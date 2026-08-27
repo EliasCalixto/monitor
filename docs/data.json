@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T10:40:22.421325+00:00",
+  "generated_at": "2026-08-27T20:44:53.153027+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 22465.440000000002,
-          "Tot. Expenses": 337700.0850000002,
-          "Total Papa": 2538.62,
+          "SumGastosPapa": 22480.440000000002,
+          "Tot. Expenses": 337708.0850000002,
+          "Total Papa": 2523.62,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 25004.06,
           "Expenses": [
@@ -139,7 +139,7 @@
             "3bde6c72-cc72-81e3-be17-d9a316dd0bd1",
             "3c5e6c72-cc72-8122-a856-ff061a144c9f"
           ],
-          "Cash": 110.75500000047,
+          "Cash": 102.75500000047,
           "Tot. Income": 337810.84000000067,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -168,7 +168,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2649.375000000468,
+          "Cash Total": 2626.375000000468,
           "Name": "Resumen"
         }
       ]
@@ -2034,6 +2034,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3c9e6c72-cc72-8046-8a97-fcd7e2543144",
+          "_url": "https://app.notion.com/p/Lentejas-3c9e6c72cc7280468a97fcd7e2543144",
+          "_created": "2026-08-27T19:08:00.000Z",
+          "_edited": "2026-08-27T19:08:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-08-27",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 8,
+          "Name": "Lentejas"
+        },
         {
           "_id": "3c9e6c72-cc72-80f2-b416-c5882ff84294",
           "_url": "https://app.notion.com/p/Pasajes-3c9e6c72cc7280f2b416c5882ff84294",
@@ -20953,6 +20970,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3c9e6c72-cc72-81f9-9fc2-f57ee8498302",
+          "_url": "https://app.notion.com/p/Gasto-pap-3c9e6c72cc7281f99fc2f57ee8498302",
+          "_created": "2026-08-27T19:08:00.000Z",
+          "_edited": "2026-08-27T19:08:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-08-27",
+            "end": null
+          },
+          "Money": 15,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Gasto papá"
+        },
         {
           "_id": "3c7e6c72-cc72-8082-aa0c-c3f40fcc3553",
           "_url": "https://app.notion.com/p/pago-u-3c7e6c72cc728082aa0cc3f40fcc3553",
