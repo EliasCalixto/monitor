@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T00:53:14.730293+00:00",
+  "generated_at": "2026-08-27T10:40:22.421325+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 22465.440000000002,
-          "Tot. Expenses": 337677.5850000002,
+          "Tot. Expenses": 337700.0850000002,
           "Total Papa": 2538.62,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 25004.06,
@@ -139,7 +139,7 @@
             "3bde6c72-cc72-81e3-be17-d9a316dd0bd1",
             "3c5e6c72-cc72-8122-a856-ff061a144c9f"
           ],
-          "Cash": 133.25500000047,
+          "Cash": 110.75500000047,
           "Tot. Income": 337810.84000000067,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -168,7 +168,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2671.875000000468,
+          "Cash Total": 2649.375000000468,
           "Name": "Resumen"
         }
       ]
@@ -2034,6 +2034,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3c9e6c72-cc72-80f2-b416-c5882ff84294",
+          "_url": "https://app.notion.com/p/Pasajes-3c9e6c72cc7280f2b416c5882ff84294",
+          "_created": "2026-08-27T04:40:00.000Z",
+          "_edited": "2026-08-27T04:40:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-08-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 14.5,
+          "Name": "Pasajes"
+        },
+        {
+          "_id": "3c9e6c72-cc72-806b-b12f-d77980a56dc6",
+          "_url": "https://app.notion.com/p/Actividad-Jas-3c9e6c72cc72806bb12fd77980a56dc6",
+          "_created": "2026-08-27T04:39:00.000Z",
+          "_edited": "2026-08-27T04:40:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 8,
+          "Name": "Actividad Jas"
+        },
         {
           "_id": "3c7e6c72-cc72-812b-ac12-eabb0a232481",
           "_url": "https://app.notion.com/p/ANULADO-movido-a-CC-Win-Internet-3c7e6c72cc72812bac12eabb0a232481",
