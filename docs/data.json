@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T04:28:54.443102+00:00",
+  "generated_at": "2026-08-28T16:48:04.040758+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -29,9 +29,9 @@
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 22480.440000000002,
           "Tot. Expenses": 337708.0850000002,
-          "Total Papa": 2523.62,
+          "Total Papa": 2823.62,
           "Tot. Savings": 10000,
-          "SumIngresosPapa": 25004.06,
+          "SumIngresosPapa": 25304.06,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
             "34fe6c72-cc72-818b-a14d-f54df1618747",
@@ -137,7 +137,8 @@
             "3b7e6c72-cc72-8031-b99a-ca022de91ba1",
             "3bce6c72-cc72-80c5-ab2d-c22190341eb7",
             "3bde6c72-cc72-81e3-be17-d9a316dd0bd1",
-            "3c5e6c72-cc72-8122-a856-ff061a144c9f"
+            "3c5e6c72-cc72-8122-a856-ff061a144c9f",
+            "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
           "Cash": 102.75500000047,
           "Tot. Income": 337810.84000000067,
@@ -168,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2626.375000000468,
+          "Cash Total": 2926.375000000468,
           "Name": "Resumen"
         }
       ]
@@ -20970,6 +20971,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3cae6c72-cc72-812c-94ed-cfd35dbc0138",
+          "_url": "https://app.notion.com/p/ingreso-de-papa-3cae6c72cc72812c94edcfd35dbc0138",
+          "_created": "2026-08-28T15:29:00.000Z",
+          "_edited": "2026-08-28T15:29:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-08-28",
+            "end": null
+          },
+          "Money": 300,
+          "Total Gastos Papa": [],
+          "Name": "ingreso de papa"
+        },
         {
           "_id": "3c9e6c72-cc72-81f9-9fc2-f57ee8498302",
           "_url": "https://app.notion.com/p/Gasto-pap-3c9e6c72cc7281f99fc2f57ee8498302",
