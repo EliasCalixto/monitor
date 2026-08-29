@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T16:48:04.040758+00:00",
+  "generated_at": "2026-08-29T00:45:55.494417+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,11 +27,11 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 22480.440000000002,
-          "Tot. Expenses": 337708.0850000002,
-          "Total Papa": 2823.62,
+          "SumGastosPapa": 22565.440000000002,
+          "Tot. Expenses": 339839.3650000003,
+          "Total Papa": 2746.12,
           "Tot. Savings": 10000,
-          "SumIngresosPapa": 25304.06,
+          "SumIngresosPapa": 25311.56,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
             "34fe6c72-cc72-818b-a14d-f54df1618747",
@@ -140,8 +140,8 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 102.75500000047,
-          "Tot. Income": 337810.84000000067,
+          "Cash": 143.13500000034,
+          "Tot. Income": 339982.50000000064,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2926.375000000468,
+          "Cash Total": 2889.255000000338,
           "Name": "Resumen"
         }
       ]
@@ -326,6 +326,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3cae6c72-cc72-8078-a2c4-ee54a22fc5f1",
+          "_url": "https://app.notion.com/p/fin-de-mes-tp-3cae6c72cc728078a2c4ee54a22fc5f1",
+          "_created": "2026-08-28T17:55:00.000Z",
+          "_edited": "2026-08-28T17:56:00.000Z",
+          "Date Received": {
+            "start": "2026-08-28",
+            "end": null
+          },
+          "Income": 2171.66,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "fin de mes tp"
+        },
         {
           "_id": "3c7e6c72-cc72-8072-adb7-fe50f9d51d09",
           "_url": "https://app.notion.com/p/fin-de-mes-Area-3c7e6c72cc728072adb7fe50f9d51d09",
@@ -2035,6 +2050,227 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3cae6c72-cc72-80df-9735-f56a8c167c0a",
+          "_url": "https://app.notion.com/p/moto-3cae6c72cc7280df9735f56a8c167c0a",
+          "_created": "2026-08-28T18:24:00.000Z",
+          "_edited": "2026-08-28T18:24:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-08-28",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1.5,
+          "Name": "moto"
+        },
+        {
+          "_id": "3cae6c72-cc72-80c9-beb8-f21780c2c4b0",
+          "_url": "https://app.notion.com/p/broster-y-agua-3cae6c72cc7280c9beb8f21780c2c4b0",
+          "_created": "2026-08-28T18:23:00.000Z",
+          "_edited": "2026-08-28T18:23:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-27",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 18.5,
+          "Name": "broster y agua"
+        },
+        {
+          "_id": "3cae6c72-cc72-809f-b7e6-f14508a29fd1",
+          "_url": "https://app.notion.com/p/cambio-a-dolares-3cae6c72cc72809fb7e6f14508a29fd1",
+          "_created": "2026-08-28T18:21:00.000Z",
+          "_edited": "2026-08-28T18:24:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-08-28",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1000,
+          "Name": "cambio a dolares"
+        },
+        {
+          "_id": "3cae6c72-cc72-80d1-bfeb-e98593666745",
+          "_url": "https://app.notion.com/p/pago-CC-mastercard-3cae6c72cc7280d1bfebe98593666745",
+          "_created": "2026-08-28T17:58:00.000Z",
+          "_edited": "2026-08-28T17:58:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-08-28",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 0.08,
+          "Name": "pago CC mastercard"
+        },
+        {
+          "_id": "3cae6c72-cc72-8100-8ded-faccae209063",
+          "_url": "https://app.notion.com/p/sopita-3cae6c72cc7281008dedfaccae209063",
+          "_created": "2026-08-28T17:57:00.000Z",
+          "_edited": "2026-08-28T17:57:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-03",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3.9,
+          "Name": "sopita"
+        },
+        {
+          "_id": "3cae6c72-cc72-8125-9218-eb596047bae8",
+          "_url": "https://app.notion.com/p/almuerzo-3cae6c72cc7281259218eb596047bae8",
+          "_created": "2026-08-28T17:57:00.000Z",
+          "_edited": "2026-08-28T17:57:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-08-04",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 12,
+          "Name": "almuerzo"
+        },
+        {
+          "_id": "3cae6c72-cc72-8128-b2f6-cc183f582817",
+          "_url": "https://app.notion.com/p/Entrada-a-Insite-de-Rxdrx-3cae6c72cc728128b2f6cc183f582817",
+          "_created": "2026-08-28T17:57:00.000Z",
+          "_edited": "2026-08-28T17:57:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-02",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 190,
+          "Name": "Entrada a Insite de Rxdrx"
+        },
+        {
+          "_id": "3cae6c72-cc72-8142-9ac4-d3c0c92116f7",
+          "_url": "https://app.notion.com/p/Almuerzo-3cae6c72cc7281429ac4d3c0c92116f7",
+          "_created": "2026-08-28T17:57:00.000Z",
+          "_edited": "2026-08-28T17:57:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-08-03",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 15,
+          "Name": "Almuerzo"
+        },
+        {
+          "_id": "3cae6c72-cc72-8146-863e-caa6cacd939c",
+          "_url": "https://app.notion.com/p/focos-para-studio-y-ugreen-hub-pago-parcial-3cae6c72cc728146863ecaa6cacd939c",
+          "_created": "2026-08-28T17:57:00.000Z",
+          "_edited": "2026-08-28T17:57:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-08-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 68,
+          "Name": "focos para studio y ugreen hub (pago parcial)"
+        },
+        {
+          "_id": "3cae6c72-cc72-814a-8480-cdc1c121b910",
+          "_url": "https://app.notion.com/p/Frutos-secos-3cae6c72cc72814a8480cdc1c121b910",
+          "_created": "2026-08-28T17:57:00.000Z",
+          "_edited": "2026-08-28T17:57:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-08-04",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3,
+          "Name": "Frutos secos"
+        },
+        {
+          "_id": "3cae6c72-cc72-819a-a3e6-e722f1f8d420",
+          "_url": "https://app.notion.com/p/Escritorio-regulable-saldo-pendiente-3cae6c72cc72819aa3e6e722f1f8d420",
+          "_created": "2026-08-28T17:57:00.000Z",
+          "_edited": "2026-08-28T17:57:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-08-02",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 639.01,
+          "Name": "Escritorio regulable (saldo pendiente)"
+        },
+        {
+          "_id": "3cae6c72-cc72-81cb-874d-e34c5f27ab7e",
+          "_url": "https://app.notion.com/p/Sodimac-jabonera-trapos-clavos-3cae6c72cc7281cb874de34c5f27ab7e",
+          "_created": "2026-08-28T17:57:00.000Z",
+          "_edited": "2026-08-28T17:57:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-08-06",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 155.39,
+          "Name": "Sodimac - jabonera, trapos, clavos"
+        },
+        {
+          "_id": "3cae6c72-cc72-81d2-b34b-cf32c46fdfd8",
+          "_url": "https://app.notion.com/p/Pizza-Hut-3cae6c72cc7281d2b34bcf32c46fdfd8",
+          "_created": "2026-08-28T17:57:00.000Z",
+          "_edited": "2026-08-28T17:57:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-07",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 24.9,
+          "Name": "Pizza Hut"
+        },
         {
           "_id": "3c9e6c72-cc72-8046-8a97-fcd7e2543144",
           "_url": "https://app.notion.com/p/Lentejas-3c9e6c72cc7280468a97fcd7e2543144",
@@ -18824,31 +19060,34 @@
         },
         {
           "_id": "3b7e6c72-cc72-8009-a6bf-e278633f84f1",
-          "_url": "https://app.notion.com/p/focos-para-studio-y-ugreen-hub-3b7e6c72cc728009a6bfe278633f84f1",
+          "_url": "https://app.notion.com/p/focos-para-studio-y-ugreen-hub-saldo-pendiente-3b7e6c72cc728009a6bfe278633f84f1",
           "_created": "2026-08-09T19:17:00.000Z",
-          "_edited": "2026-08-09T19:17:00.000Z",
+          "_edited": "2026-08-28T17:57:00.000Z",
           "Date Created": {
             "start": "2026-08-09",
             "end": null
           },
-          "Price": 226.56,
+          "Price": 158.56,
           "Date Payed": null,
           "Status": "Pending",
-          "Name": "focos para studio y ugreen hub",
+          "Name": "focos para studio y ugreen hub (saldo pendiente)",
           "Category": "Home"
         },
         {
           "_id": "3b5e6c72-cc72-81a6-a7d0-c474051d4d09",
           "_url": "https://app.notion.com/p/Pizza-Hut-3b5e6c72cc7281a6a7d0c474051d4d09",
           "_created": "2026-08-07T23:17:00.000Z",
-          "_edited": "2026-08-09T19:17:00.000Z",
+          "_edited": "2026-08-28T17:57:00.000Z",
           "Date Created": {
             "start": "2026-08-07",
             "end": null
           },
           "Price": 24.9,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-28",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Pizza Hut",
           "Category": "Enjoy"
         },
@@ -18856,14 +19095,17 @@
           "_id": "3b4e6c72-cc72-81b1-90a9-ccd4816bb649",
           "_url": "https://app.notion.com/p/Sodimac-jabonera-trapos-clavos-3b4e6c72cc7281b190a9ccd4816bb649",
           "_created": "2026-08-06T23:10:00.000Z",
-          "_edited": "2026-08-06T23:10:00.000Z",
+          "_edited": "2026-08-28T17:57:00.000Z",
           "Date Created": {
             "start": "2026-08-06",
             "end": null
           },
           "Price": 155.39,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-28",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Sodimac - jabonera, trapos, clavos",
           "Category": "Home"
         },
@@ -18871,14 +19113,17 @@
           "_id": "3b2e6c72-cc72-8153-9a0b-e5dd2a4c009d",
           "_url": "https://app.notion.com/p/almuerzo-3b2e6c72cc7281539a0be5dd2a4c009d",
           "_created": "2026-08-04T17:23:00.000Z",
-          "_edited": "2026-08-04T17:23:00.000Z",
+          "_edited": "2026-08-28T17:57:00.000Z",
           "Date Created": {
             "start": "2026-08-04",
             "end": null
           },
           "Price": 12,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-28",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "almuerzo",
           "Category": "Fixed"
         },
@@ -18886,14 +19131,17 @@
           "_id": "3b2e6c72-cc72-81a7-8ab9-d3c5d2f39217",
           "_url": "https://app.notion.com/p/Frutos-secos-3b2e6c72cc7281a78ab9d3c5d2f39217",
           "_created": "2026-08-04T14:50:00.000Z",
-          "_edited": "2026-08-04T18:29:00.000Z",
+          "_edited": "2026-08-28T17:57:00.000Z",
           "Date Created": {
             "start": "2026-08-04",
             "end": null
           },
           "Price": 3,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-28",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Frutos secos",
           "Category": "Fixed"
         },
@@ -18901,14 +19149,17 @@
           "_id": "3b1e6c72-cc72-818e-a5ee-cb154df52ed6",
           "_url": "https://app.notion.com/p/Almuerzo-3b1e6c72cc72818ea5eecb154df52ed6",
           "_created": "2026-08-03T19:17:00.000Z",
-          "_edited": "2026-08-03T19:17:00.000Z",
+          "_edited": "2026-08-28T17:57:00.000Z",
           "Date Created": {
             "start": "2026-08-03",
             "end": null
           },
           "Price": 15,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-28",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Almuerzo",
           "Category": "Fixed"
         },
@@ -18916,14 +19167,17 @@
           "_id": "3b1e6c72-cc72-814c-abae-f0790df7dc77",
           "_url": "https://app.notion.com/p/sopita-3b1e6c72cc72814cabaef0790df7dc77",
           "_created": "2026-08-03T15:17:00.000Z",
-          "_edited": "2026-08-03T15:17:00.000Z",
+          "_edited": "2026-08-28T17:57:00.000Z",
           "Date Created": {
             "start": "2026-08-03",
             "end": null
           },
           "Price": 3.9,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-28",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "sopita",
           "Category": "Enjoy"
         },
@@ -18931,14 +19185,17 @@
           "_id": "3b1e6c72-cc72-81a1-91c4-c02ec8623441",
           "_url": "https://app.notion.com/p/Entrada-a-Insite-de-Rxdrx-3b1e6c72cc7281a191c4c02ec8623441",
           "_created": "2026-08-03T04:27:00.000Z",
-          "_edited": "2026-08-03T13:37:00.000Z",
+          "_edited": "2026-08-28T17:57:00.000Z",
           "Date Created": {
             "start": "2026-08-02",
             "end": null
           },
           "Price": 190,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-28",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Entrada a Insite de Rxdrx",
           "Category": "Enjoy"
         },
@@ -18946,14 +19203,17 @@
           "_id": "3b1e6c72-cc72-819d-8e4b-f4aa450f129d",
           "_url": "https://app.notion.com/p/Escritorio-regulable-saldo-pendiente-3b1e6c72cc72819d8e4bf4aa450f129d",
           "_created": "2026-08-03T02:52:00.000Z",
-          "_edited": "2026-08-25T19:40:00.000Z",
+          "_edited": "2026-08-28T17:57:00.000Z",
           "Date Created": {
             "start": "2026-08-02",
             "end": null
           },
           "Price": 639.01,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-28",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Escritorio regulable (saldo pendiente)",
           "Category": "Home"
         },
@@ -20971,6 +21231,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3cbe6c72-cc72-81b5-b835-e3a3da741e0b",
+          "_url": "https://app.notion.com/p/gasto-de-papa-3cbe6c72cc7281b5b835e3a3da741e0b",
+          "_created": "2026-08-29T00:29:00.000Z",
+          "_edited": "2026-08-29T00:29:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-08-28",
+            "end": null
+          },
+          "Money": 40,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "gasto de papa"
+        },
+        {
+          "_id": "3cbe6c72-cc72-8138-881c-ee44724ce9aa",
+          "_url": "https://app.notion.com/p/yapeo-mama-3cbe6c72cc728138881cee44724ce9aa",
+          "_created": "2026-08-29T00:12:00.000Z",
+          "_edited": "2026-08-29T00:12:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-08-28",
+            "end": null
+          },
+          "Money": 45,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "yapeo mama"
+        },
+        {
+          "_id": "3cae6c72-cc72-81a2-ab96-ebd2c5c60fa8",
+          "_url": "https://app.notion.com/p/ingreso-de-papa-3cae6c72cc7281a2ab96ebd2c5c60fa8",
+          "_created": "2026-08-28T19:13:00.000Z",
+          "_edited": "2026-08-28T19:13:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-08-28",
+            "end": null
+          },
+          "Money": 7.5,
+          "Total Gastos Papa": [],
+          "Name": "ingreso de papa"
+        },
         {
           "_id": "3cae6c72-cc72-812c-94ed-cfd35dbc0138",
           "_url": "https://app.notion.com/p/ingreso-de-papa-3cae6c72cc72812c94edcfd35dbc0138",
