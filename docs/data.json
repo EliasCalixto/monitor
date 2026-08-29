@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T13:17:25.979175+00:00",
+  "generated_at": "2026-08-29T17:14:11.866075+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,11 +27,11 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 22565.440000000002,
-          "Tot. Expenses": 339839.3650000003,
-          "Total Papa": 2746.12,
+          "SumGastosPapa": 22734.440000000002,
+          "Tot. Expenses": 339886.5650000003,
+          "Total Papa": 2965.12,
           "Tot. Savings": 10000,
-          "SumIngresosPapa": 25311.56,
+          "SumIngresosPapa": 25699.56,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
             "34fe6c72-cc72-818b-a14d-f54df1618747",
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 143.13500000034,
+          "Cash": 95.93500000034,
           "Tot. Income": 339982.50000000064,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2889.255000000338,
+          "Cash Total": 3061.055000000338,
           "Name": "Resumen"
         }
       ]
@@ -2050,6 +2050,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3cbe6c72-cc72-817c-b5d5-d73f771f1744",
+          "_url": "https://app.notion.com/p/taxi-a-barranco-3cbe6c72cc72817cb5d5d73f771f1744",
+          "_created": "2026-08-29T16:04:00.000Z",
+          "_edited": "2026-08-29T16:04:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-08-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 44.2,
+          "Name": "taxi a barranco"
+        },
+        {
+          "_id": "3cbe6c72-cc72-81a0-9b7d-c3e37f779af5",
+          "_url": "https://app.notion.com/p/pasajes-3cbe6c72cc7281a09b7dc3e37f779af5",
+          "_created": "2026-08-29T15:56:00.000Z",
+          "_edited": "2026-08-29T15:56:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-08-28",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3,
+          "Name": "pasajes"
+        },
         {
           "_id": "3cae6c72-cc72-80df-9735-f56a8c167c0a",
           "_url": "https://app.notion.com/p/moto-3cae6c72cc7280df9735f56a8c167c0a",
@@ -18849,6 +18883,21 @@
       },
       "rows": [
         {
+          "_id": "3cbe6c72-cc72-81b8-a067-e4f0a39f3c84",
+          "_url": "https://app.notion.com/p/desayuno-en-barranco-3cbe6c72cc7281b8a067e4f0a39f3c84",
+          "_created": "2026-08-29T15:54:00.000Z",
+          "_edited": "2026-08-29T15:54:00.000Z",
+          "Date Created": {
+            "start": "2026-08-29",
+            "end": null
+          },
+          "Price": 34,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "desayuno en barranco",
+          "Category": "Enjoy"
+        },
+        {
           "_id": "3c8e6c72-cc72-80cf-94f1-e072529fa514",
           "_url": "https://app.notion.com/p/Distrokid-3c8e6c72cc7280cf94f1e072529fa514",
           "_created": "2026-08-26T23:35:00.000Z",
@@ -21232,38 +21281,55 @@
       },
       "rows": [
         {
-          "_id": "3cbe6c72-cc72-81b5-b835-e3a3da741e0b",
-          "_url": "https://app.notion.com/p/gasto-de-papa-3cbe6c72cc7281b5b835e3a3da741e0b",
-          "_created": "2026-08-29T00:29:00.000Z",
-          "_edited": "2026-08-29T00:29:00.000Z",
-          "Total Ingresos Papa": [],
-          "Type": "Gasto",
-          "Date Created": {
-            "start": "2026-08-28",
-            "end": null
-          },
-          "Money": 40,
-          "Total Gastos Papa": [
+          "_id": "3cbe6c72-cc72-81ef-a809-e792a355e33a",
+          "_url": "https://app.notion.com/p/ingreso-de-papa-3cbe6c72cc7281efa809e792a355e33a",
+          "_created": "2026-08-29T16:01:00.000Z",
+          "_edited": "2026-08-29T16:01:00.000Z",
+          "Total Ingresos Papa": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
-          "Name": "gasto de papa"
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-08-29",
+            "end": null
+          },
+          "Money": 380,
+          "Total Gastos Papa": [],
+          "Name": "ingreso de papa"
         },
         {
-          "_id": "3cbe6c72-cc72-8138-881c-ee44724ce9aa",
-          "_url": "https://app.notion.com/p/yapeo-mama-3cbe6c72cc728138881cee44724ce9aa",
-          "_created": "2026-08-29T00:12:00.000Z",
-          "_edited": "2026-08-29T00:12:00.000Z",
+          "_id": "3cbe6c72-cc72-813c-850f-f73e8fbbe614",
+          "_url": "https://app.notion.com/p/mama-en-gamarra-3cbe6c72cc72813c850ff73e8fbbe614",
+          "_created": "2026-08-29T15:59:00.000Z",
+          "_edited": "2026-08-29T16:12:00.000Z",
           "Total Ingresos Papa": [],
           "Type": "Gasto",
           "Date Created": {
-            "start": "2026-08-28",
+            "start": "2026-08-29",
             "end": null
           },
-          "Money": 45,
+          "Money": 254,
           "Total Gastos Papa": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
-          "Name": "yapeo mama"
+          "Name": "mama en gamarra"
+        },
+        {
+          "_id": "3cbe6c72-cc72-81ed-bdbf-c45d7ca19d64",
+          "_url": "https://app.notion.com/p/yape-tio-jesus-3cbe6c72cc7281edbdbfc45d7ca19d64",
+          "_created": "2026-08-29T15:57:00.000Z",
+          "_edited": "2026-08-29T15:57:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-08-29",
+            "end": null
+          },
+          "Money": 8,
+          "Total Gastos Papa": [],
+          "Name": "yape tio jesus"
         },
         {
           "_id": "3cae6c72-cc72-81a2-ab96-ebd2c5c60fa8",
