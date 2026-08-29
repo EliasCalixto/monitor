@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T17:14:11.866075+00:00",
+  "generated_at": "2026-08-29T19:44:13.489852+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -185,6 +185,36 @@
       },
       "rows": [
         {
+          "_id": "3cbe6c72-cc72-80fe-98d6-dfe547d4e3cd",
+          "_url": "https://app.notion.com/p/Socket-3cbe6c72cc7280fe98d6dfe547d4e3cd",
+          "_created": "2026-08-29T18:35:00.000Z",
+          "_edited": "2026-08-29T18:35:00.000Z",
+          "Price": 15,
+          "Status": "Urgent",
+          "Details": "",
+          "Name": "Socket"
+        },
+        {
+          "_id": "3cbe6c72-cc72-800d-b374-d4eb3d575eab",
+          "_url": "https://app.notion.com/p/Jabon-Papel-higienico-jarrita-3cbe6c72cc72800db374d4eb3d575eab",
+          "_created": "2026-08-29T18:33:00.000Z",
+          "_edited": "2026-08-29T18:34:00.000Z",
+          "Price": 30,
+          "Status": "Urgent",
+          "Details": "",
+          "Name": "Jabon, Papel higienico, jarrita"
+        },
+        {
+          "_id": "3cbe6c72-cc72-808b-ae2f-d253716d2fd0",
+          "_url": "https://app.notion.com/p/Tapete-para-ducha-3cbe6c72cc72808bae2fd253716d2fd0",
+          "_created": "2026-08-29T18:32:00.000Z",
+          "_edited": "2026-08-29T18:34:00.000Z",
+          "Price": 100,
+          "Status": "Urgent",
+          "Details": "",
+          "Name": "Tapete para ducha"
+        },
+        {
           "_id": "3b0e6c72-cc72-8046-802a-d3c23e4d9319",
           "_url": "https://app.notion.com/p/Mamparas-3b0e6c72cc728046802ad3c23e4d9319",
           "_created": "2026-08-02T19:00:00.000Z",
@@ -218,9 +248,9 @@
           "_id": "39be6c72-cc72-80d0-aedb-e7aee35fe8c6",
           "_url": "https://app.notion.com/p/Operaci-n-de-ojos-39be6c72cc7280d0aedbe7aee35fe8c6",
           "_created": "2026-07-12T16:10:00.000Z",
-          "_edited": "2026-08-22T08:25:00.000Z",
+          "_edited": "2026-08-29T18:32:00.000Z",
           "Price": 2600,
-          "Status": "Urgent",
+          "Status": "Bought",
           "Details": "",
           "Name": "Operación de ojos"
         },
@@ -18882,6 +18912,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3cbe6c72-cc72-8147-b54f-d841344dc3ee",
+          "_url": "https://app.notion.com/p/operacion-de-la-vista-3cbe6c72cc728147b54fd841344dc3ee",
+          "_created": "2026-08-29T17:40:00.000Z",
+          "_edited": "2026-08-29T17:40:00.000Z",
+          "Date Created": {
+            "start": "2026-08-29",
+            "end": null
+          },
+          "Price": 2670,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "operacion de la vista",
+          "Category": "Personal"
+        },
         {
           "_id": "3cbe6c72-cc72-81b8-a067-e4f0a39f3c84",
           "_url": "https://app.notion.com/p/desayuno-en-barranco-3cbe6c72cc7281b8a067e4f0a39f3c84",
