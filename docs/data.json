@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T23:41:54.371738+00:00",
+  "generated_at": "2026-08-30T01:38:26.811956+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 22734.440000000002,
-          "Tot. Expenses": 339886.5650000003,
+          "Tot. Expenses": 339931.7650000003,
           "Total Papa": 2965.12,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 25699.56,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 95.93500000034,
+          "Cash": 50.73500000034,
           "Tot. Income": 339982.50000000064,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 3061.055000000338,
+          "Cash Total": 3015.855000000338,
           "Name": "Resumen"
         }
       ]
@@ -2080,6 +2080,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3cce6c72-cc72-8189-a407-f1ea52e604ef",
+          "_url": "https://app.notion.com/p/taxi-de-regreso-a-casa-de-operacion-de-ojos-3cce6c72cc728189a407f1ea52e604ef",
+          "_created": "2026-08-30T01:10:00.000Z",
+          "_edited": "2026-08-30T01:11:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-08-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 45.2,
+          "Name": "taxi de regreso a casa de operacion de ojos"
+        },
         {
           "_id": "3cbe6c72-cc72-817c-b5d5-d73f771f1744",
           "_url": "https://app.notion.com/p/taxi-a-barranco-3cbe6c72cc72817cb5d5d73f771f1744",
@@ -18912,6 +18929,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3cce6c72-cc72-814f-833f-f1332f5d384c",
+          "_url": "https://app.notion.com/p/bembos-familiar-3cce6c72cc72814f833ff1332f5d384c",
+          "_created": "2026-08-30T01:10:00.000Z",
+          "_edited": "2026-08-30T01:10:00.000Z",
+          "Date Created": {
+            "start": "2026-08-29",
+            "end": null
+          },
+          "Price": 61.9,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "bembos familiar",
+          "Category": "Enjoy"
+        },
         {
           "_id": "3cbe6c72-cc72-8147-b54f-d841344dc3ee",
           "_url": "https://app.notion.com/p/operacion-de-la-vista-3cbe6c72cc728147b54fd841344dc3ee",
