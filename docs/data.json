@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T19:53:37.470268+00:00",
+  "generated_at": "2026-08-30T22:09:25.444643+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 22734.440000000002,
-          "Tot. Expenses": 339931.7650000003,
+          "Tot. Expenses": 339937.2650000003,
           "Total Papa": 2965.12,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 25699.56,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 50.73500000034,
+          "Cash": 45.23500000034,
           "Tot. Income": 339982.50000000064,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 3015.855000000338,
+          "Cash Total": 3010.355000000338,
           "Name": "Resumen"
         }
       ]
@@ -184,6 +184,16 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3cce6c72-cc72-80c7-bdcd-d251c5479740",
+          "_url": "https://app.notion.com/p/Cable-ethernet-3cce6c72cc7280c7bdcdd251c5479740",
+          "_created": "2026-08-30T21:45:00.000Z",
+          "_edited": "2026-08-30T21:46:00.000Z",
+          "Price": 30,
+          "Status": "Urgent",
+          "Details": "",
+          "Name": "Cable ethernet"
+        },
         {
           "_id": "3cce6c72-cc72-8051-8c04-fde2cb493d56",
           "_url": "https://app.notion.com/p/Tacho-3cce6c72cc7280518c04fde2cb493d56",
@@ -206,13 +216,13 @@
         },
         {
           "_id": "3cbe6c72-cc72-800d-b374-d4eb3d575eab",
-          "_url": "https://app.notion.com/p/Jabon-Papel-higienico-jarrita-3cbe6c72cc72800db374d4eb3d575eab",
+          "_url": "https://app.notion.com/p/Jabon-Papel-higienico-jarrita-2-pastas-dentales-3cbe6c72cc72800db374d4eb3d575eab",
           "_created": "2026-08-29T18:33:00.000Z",
-          "_edited": "2026-08-29T18:34:00.000Z",
-          "Price": 30,
+          "_edited": "2026-08-30T21:45:00.000Z",
+          "Price": 45,
           "Status": "Urgent",
           "Details": "",
-          "Name": "Jabon, Papel higienico, jarrita"
+          "Name": "Jabon, Papel higienico, jarrita, 2 pastas dentales"
         },
         {
           "_id": "3cbe6c72-cc72-808b-ae2f-d253716d2fd0",
@@ -2090,6 +2100,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3cce6c72-cc72-80cc-b7db-f210b6dbc527",
+          "_url": "https://app.notion.com/p/Carbon-actividad-jas-3cce6c72cc7280ccb7dbf210b6dbc527",
+          "_created": "2026-08-30T20:59:00.000Z",
+          "_edited": "2026-08-30T21:00:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-30",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 5.5,
+          "Name": "Carbon actividad jas"
+        },
         {
           "_id": "3cce6c72-cc72-8189-a407-f1ea52e604ef",
           "_url": "https://app.notion.com/p/taxi-de-regreso-a-casa-de-operacion-de-ojos-3cce6c72cc728189a407f1ea52e604ef",
