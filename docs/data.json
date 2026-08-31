@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T06:05:40.075903+00:00",
+  "generated_at": "2026-08-31T13:37:45.671782+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 22734.440000000002,
-          "Tot. Expenses": 339937.2650000003,
-          "Total Papa": 2965.12,
+          "SumGastosPapa": 22749.440000000002,
+          "Tot. Expenses": 339939.9150000004,
+          "Total Papa": 2950.12,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 25699.56,
           "Expenses": [
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 45.23500000034,
+          "Cash": 42.58500000024,
           "Tot. Income": 339982.50000000064,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 3010.355000000338,
+          "Cash Total": 2992.705000000238,
           "Name": "Resumen"
         }
       ]
@@ -184,6 +184,16 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3cde6c72-cc72-8009-8736-f80ab164182f",
+          "_url": "https://app.notion.com/p/Sillon-3cde6c72cc7280098736f80ab164182f",
+          "_created": "2026-08-31T09:29:00.000Z",
+          "_edited": "2026-08-31T09:29:00.000Z",
+          "Price": 900,
+          "Status": "Urgent",
+          "Details": "",
+          "Name": "Sillon"
+        },
         {
           "_id": "3cce6c72-cc72-80c7-bdcd-d251c5479740",
           "_url": "https://app.notion.com/p/Cable-ethernet-3cce6c72cc7280c7bdcdd251c5479740",
@@ -226,13 +236,13 @@
         },
         {
           "_id": "3cbe6c72-cc72-808b-ae2f-d253716d2fd0",
-          "_url": "https://app.notion.com/p/Tapete-para-ducha-3cbe6c72cc72808bae2fd253716d2fd0",
+          "_url": "https://app.notion.com/p/Tapete-para-ducha-x2-3cbe6c72cc72808bae2fd253716d2fd0",
           "_created": "2026-08-29T18:32:00.000Z",
-          "_edited": "2026-08-29T18:34:00.000Z",
-          "Price": 100,
+          "_edited": "2026-08-31T09:29:00.000Z",
+          "Price": 120,
           "Status": "Urgent",
           "Details": "",
-          "Name": "Tapete para ducha"
+          "Name": "Tapete para ducha x2"
         },
         {
           "_id": "3b0e6c72-cc72-8046-802a-d3c23e4d9319",
@@ -2101,6 +2111,193 @@
       },
       "rows": [
         {
+          "_id": "3cde6c72-cc72-8075-99a0-e75d8887d9be",
+          "_url": "https://app.notion.com/p/Pasaje-day-3cde6c72cc72807599a0e75d8887d9be",
+          "_created": "2026-08-31T06:38:00.000Z",
+          "_edited": "2026-08-31T06:38:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-31",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2.64,
+          "Name": "Pasaje day"
+        },
+        {
+          "_id": "3cde6c72-cc72-811a-bafc-ebef4bc44996",
+          "_url": "https://app.notion.com/p/Gastos-actividad-HHJJ-saldo-pendiente-3cde6c72cc72811abafcebef4bc44996",
+          "_created": "2026-08-31T06:35:00.000Z",
+          "_edited": "2026-08-31T06:35:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 35.6,
+          "Name": "Gastos actividad HHJJ (saldo pendiente)"
+        },
+        {
+          "_id": "3cde6c72-cc72-816c-b66b-edace13c84a0",
+          "_url": "https://app.notion.com/p/pedal-polytune-pago-parcial-3cde6c72cc72816cb66bedace13c84a0",
+          "_created": "2026-08-31T06:35:00.000Z",
+          "_edited": "2026-08-31T06:35:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2026-08-17",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 43.7,
+          "Name": "pedal polytune (pago parcial)"
+        },
+        {
+          "_id": "3cde6c72-cc72-81de-8b50-da5f90356d3a",
+          "_url": "https://app.notion.com/p/ANULADO-monto-incorrecto-Gastos-actividad-HHJJ-3cde6c72cc7281de8b50da5f90356d3a",
+          "_created": "2026-08-31T06:34:00.000Z",
+          "_edited": "2026-08-31T06:34:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 0,
+          "Name": "[ANULADO — monto incorrecto] Gastos actividad HHJJ"
+        },
+        {
+          "_id": "3cde6c72-cc72-8109-a5ff-d9f5c8c2638b",
+          "_url": "https://app.notion.com/p/tasty-mix-3cde6c72cc728109a5ffd9f5c8c2638b",
+          "_created": "2026-08-31T06:33:00.000Z",
+          "_edited": "2026-08-31T06:33:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3,
+          "Name": "tasty mix"
+        },
+        {
+          "_id": "3cde6c72-cc72-8136-a0a7-d0cb170a495b",
+          "_url": "https://app.notion.com/p/Prote-na-3cde6c72cc728136a0a7d0cb170a495b",
+          "_created": "2026-08-31T06:33:00.000Z",
+          "_edited": "2026-08-31T06:33:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-08-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 243.39,
+          "Name": "Proteína"
+        },
+        {
+          "_id": "3cde6c72-cc72-8167-a648-e0abbbba742d",
+          "_url": "https://app.notion.com/p/Agraria-Bife-3cde6c72cc728167a648e0abbbba742d",
+          "_created": "2026-08-31T06:33:00.000Z",
+          "_edited": "2026-08-31T06:33:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 60.75,
+          "Name": "Agraria Bife"
+        },
+        {
+          "_id": "3cde6c72-cc72-81be-9855-cb3a34527f83",
+          "_url": "https://app.notion.com/p/pollito-a-la-brasa-3cde6c72cc7281be9855cb3a34527f83",
+          "_created": "2026-08-31T06:33:00.000Z",
+          "_edited": "2026-08-31T06:33:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 30.9,
+          "Name": "pollito a la brasa"
+        },
+        {
+          "_id": "3cde6c72-cc72-81c3-841f-cb37ce3f0602",
+          "_url": "https://app.notion.com/p/almuerzo-provoca-3cde6c72cc7281c3841fcb37ce3f0602",
+          "_created": "2026-08-31T06:33:00.000Z",
+          "_edited": "2026-08-31T06:33:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-08-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 12,
+          "Name": "almuerzo provoca"
+        },
+        {
+          "_id": "3cde6c72-cc72-81d1-8ae9-e7faaf488907",
+          "_url": "https://app.notion.com/p/Gastos-actividad-HHJJ-pago-parcial-3cde6c72cc7281d18ae9e7faaf488907",
+          "_created": "2026-08-31T06:33:00.000Z",
+          "_edited": "2026-08-31T06:33:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 135.08,
+          "Name": "Gastos actividad HHJJ (pago parcial)"
+        },
+        {
+          "_id": "3cde6c72-cc72-81f2-8a32-c5bc2a91181d",
+          "_url": "https://app.notion.com/p/focos-para-studio-y-ugreen-hub-saldo-pendiente-3cde6c72cc7281f28a32c5bc2a91181d",
+          "_created": "2026-08-31T06:33:00.000Z",
+          "_edited": "2026-08-31T06:33:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-08-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 158.56,
+          "Name": "focos para studio y ugreen hub (saldo pendiente)"
+        },
+        {
           "_id": "3cce6c72-cc72-80cc-b7db-f210b6dbc527",
           "_url": "https://app.notion.com/p/Carbon-actividad-jas-3cce6c72cc7280ccb7dbf210b6dbc527",
           "_created": "2026-08-30T20:59:00.000Z",
@@ -2206,7 +2403,7 @@
           "_id": "3cae6c72-cc72-809f-b7e6-f14508a29fd1",
           "_url": "https://app.notion.com/p/cambio-a-dolares-3cae6c72cc72809fb7e6f14508a29fd1",
           "_created": "2026-08-28T18:21:00.000Z",
-          "_edited": "2026-08-28T18:24:00.000Z",
+          "_edited": "2026-08-31T06:36:00.000Z",
           "Category": "Cashout",
           "Date Created": {
             "start": "2026-08-28",
@@ -2216,7 +2413,7 @@
           "Resumen": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
-          "Price": 1000,
+          "Price": 277.03,
           "Name": "cambio a dolares"
         },
         {
@@ -19118,46 +19315,52 @@
         },
         {
           "_id": "3bfe6c72-cc72-81ae-83a9-c2ab4383626d",
-          "_url": "https://app.notion.com/p/pedal-polytune-3bfe6c72cc7281ae83a9c2ab4383626d",
+          "_url": "https://app.notion.com/p/pedal-polytune-saldo-pendiente-3bfe6c72cc7281ae83a9c2ab4383626d",
           "_created": "2026-08-17T17:53:00.000Z",
-          "_edited": "2026-08-17T17:53:00.000Z",
+          "_edited": "2026-08-31T06:35:00.000Z",
           "Date Created": {
             "start": "2026-08-17",
             "end": null
           },
-          "Price": 190.07,
+          "Price": 146.37,
           "Date Payed": null,
           "Status": "Pending",
-          "Name": "pedal polytune",
+          "Name": "pedal polytune (saldo pendiente)",
           "Category": "Setup"
         },
         {
           "_id": "3bce6c72-cc72-81b7-abcb-e5549c7ac420",
-          "_url": "https://app.notion.com/p/Gastos-actividad-HHJJ-3bce6c72cc7281b7abcbe5549c7ac420",
+          "_url": "https://app.notion.com/p/Gastos-actividad-HHJJ-saldo-pendiente-3bce6c72cc7281b7abcbe5549c7ac420",
           "_created": "2026-08-14T23:29:00.000Z",
-          "_edited": "2026-08-16T05:15:00.000Z",
+          "_edited": "2026-08-31T06:35:00.000Z",
           "Date Created": {
             "start": "2026-08-14",
             "end": null
           },
-          "Price": 170.68,
-          "Date Payed": null,
-          "Status": "Pending",
-          "Name": "Gastos actividad HHJJ",
+          "Price": 35.6,
+          "Date Payed": {
+            "start": "2026-08-31",
+            "end": null
+          },
+          "Status": "Payed",
+          "Name": "Gastos actividad HHJJ (saldo pendiente)",
           "Category": "Enjoy"
         },
         {
           "_id": "3bce6c72-cc72-81d3-9fdb-d482a81c670d",
           "_url": "https://app.notion.com/p/Prote-na-3bce6c72cc7281d39fdbd482a81c670d",
           "_created": "2026-08-14T04:46:00.000Z",
-          "_edited": "2026-08-14T04:46:00.000Z",
+          "_edited": "2026-08-31T06:34:00.000Z",
           "Date Created": {
             "start": "2026-08-13",
             "end": null
           },
           "Price": 243.39,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-31",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Proteína",
           "Category": "Personal"
         },
@@ -19165,14 +19368,17 @@
           "_id": "3bbe6c72-cc72-8170-96ff-dba967d09e41",
           "_url": "https://app.notion.com/p/Agraria-Bife-3bbe6c72cc72817096ffdba967d09e41",
           "_created": "2026-08-13T18:28:00.000Z",
-          "_edited": "2026-08-13T18:28:00.000Z",
+          "_edited": "2026-08-31T06:34:00.000Z",
           "Date Created": {
             "start": "2026-08-13",
             "end": null
           },
           "Price": 60.75,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-31",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Agraria Bife",
           "Category": "Enjoy"
         },
@@ -19180,14 +19386,17 @@
           "_id": "3bae6c72-cc72-81c0-8c97-c6bc1395dd96",
           "_url": "https://app.notion.com/p/pollito-a-la-brasa-3bae6c72cc7281c08c97c6bc1395dd96",
           "_created": "2026-08-12T17:46:00.000Z",
-          "_edited": "2026-08-12T17:46:00.000Z",
+          "_edited": "2026-08-31T06:34:00.000Z",
           "Date Created": {
             "start": "2026-08-12",
             "end": null
           },
           "Price": 30.9,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-31",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "pollito a la brasa",
           "Category": "Enjoy"
         },
@@ -19195,14 +19404,17 @@
           "_id": "3b8e6c72-cc72-804b-b5da-ca4fcd8fbd84",
           "_url": "https://app.notion.com/p/almuerzo-provoca-3b8e6c72cc72804bb5daca4fcd8fbd84",
           "_created": "2026-08-10T18:03:00.000Z",
-          "_edited": "2026-08-10T18:03:00.000Z",
+          "_edited": "2026-08-31T06:33:00.000Z",
           "Date Created": {
             "start": "2026-08-10",
             "end": null
           },
           "Price": 12,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-31",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "almuerzo provoca",
           "Category": "Fixed"
         },
@@ -19210,14 +19422,17 @@
           "_id": "3b8e6c72-cc72-8001-a0c8-fc2623b3c358",
           "_url": "https://app.notion.com/p/tasty-mix-3b8e6c72cc728001a0c8fc2623b3c358",
           "_created": "2026-08-10T14:48:00.000Z",
-          "_edited": "2026-08-10T14:48:00.000Z",
+          "_edited": "2026-08-31T06:33:00.000Z",
           "Date Created": {
             "start": "2026-08-10",
             "end": null
           },
           "Price": 3,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-31",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "tasty mix",
           "Category": "Enjoy"
         },
@@ -19225,14 +19440,17 @@
           "_id": "3b7e6c72-cc72-8009-a6bf-e278633f84f1",
           "_url": "https://app.notion.com/p/focos-para-studio-y-ugreen-hub-saldo-pendiente-3b7e6c72cc728009a6bfe278633f84f1",
           "_created": "2026-08-09T19:17:00.000Z",
-          "_edited": "2026-08-28T17:57:00.000Z",
+          "_edited": "2026-08-31T06:33:00.000Z",
           "Date Created": {
             "start": "2026-08-09",
             "end": null
           },
           "Price": 158.56,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-08-31",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "focos para studio y ugreen hub (saldo pendiente)",
           "Category": "Home"
         },
@@ -21394,6 +21612,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3cde6c72-cc72-81a7-866b-c99ca1d4de0d",
+          "_url": "https://app.notion.com/p/yape-3cde6c72cc7281a7866bc99ca1d4de0d",
+          "_created": "2026-08-31T12:38:00.000Z",
+          "_edited": "2026-08-31T12:38:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-08-31",
+            "end": null
+          },
+          "Money": 15,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "yape"
+        },
         {
           "_id": "3cbe6c72-cc72-81ef-a809-e792a355e33a",
           "_url": "https://app.notion.com/p/ingreso-de-papa-3cbe6c72cc7281efa809e792a355e33a",
