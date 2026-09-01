@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T19:33:15.621505+00:00",
+  "generated_at": "2026-09-01T21:59:17.195815+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -188,9 +188,9 @@
           "_id": "3cde6c72-cc72-8009-8736-f80ab164182f",
           "_url": "https://app.notion.com/p/Sillon-3cde6c72cc7280098736f80ab164182f",
           "_created": "2026-08-31T09:29:00.000Z",
-          "_edited": "2026-08-31T09:29:00.000Z",
+          "_edited": "2026-09-01T21:36:00.000Z",
           "Price": 900,
-          "Status": "Urgent",
+          "Status": "Bought",
           "Details": "",
           "Name": "Sillon"
         },
@@ -198,9 +198,9 @@
           "_id": "3cce6c72-cc72-80c7-bdcd-d251c5479740",
           "_url": "https://app.notion.com/p/Cable-ethernet-3cce6c72cc7280c7bdcdd251c5479740",
           "_created": "2026-08-30T21:45:00.000Z",
-          "_edited": "2026-08-30T21:46:00.000Z",
+          "_edited": "2026-09-01T20:15:00.000Z",
           "Price": 30,
-          "Status": "Urgent",
+          "Status": "Bought",
           "Details": "",
           "Name": "Cable ethernet"
         },
@@ -208,9 +208,9 @@
           "_id": "3cce6c72-cc72-8051-8c04-fde2cb493d56",
           "_url": "https://app.notion.com/p/Tacho-3cce6c72cc7280518c04fde2cb493d56",
           "_created": "2026-08-30T03:10:00.000Z",
-          "_edited": "2026-08-30T03:10:00.000Z",
+          "_edited": "2026-09-01T20:16:00.000Z",
           "Price": 20,
-          "Status": "Urgent",
+          "Status": "Bought",
           "Details": "",
           "Name": "Tacho"
         },
@@ -226,13 +226,13 @@
         },
         {
           "_id": "3cbe6c72-cc72-800d-b374-d4eb3d575eab",
-          "_url": "https://app.notion.com/p/Jabon-Papel-higienico-jarrita-2-pastas-dentales-3cbe6c72cc72800db374d4eb3d575eab",
+          "_url": "https://app.notion.com/p/Jabon-Papel-higienico-jarrita-3cbe6c72cc72800db374d4eb3d575eab",
           "_created": "2026-08-29T18:33:00.000Z",
-          "_edited": "2026-08-30T21:45:00.000Z",
+          "_edited": "2026-09-01T20:16:00.000Z",
           "Price": 45,
           "Status": "Urgent",
           "Details": "",
-          "Name": "Jabon, Papel higienico, jarrita, 2 pastas dentales"
+          "Name": "Jabon, Papel higienico, jarrita"
         },
         {
           "_id": "3cbe6c72-cc72-808b-ae2f-d253716d2fd0",
@@ -19197,6 +19197,36 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3cee6c72-cc72-80ee-9124-f7cec7f0f58a",
+          "_url": "https://app.notion.com/p/Organizador-de-cables-ethernet-3cee6c72cc7280ee9124f7cec7f0f58a",
+          "_created": "2026-09-01T21:44:00.000Z",
+          "_edited": "2026-09-01T21:45:00.000Z",
+          "Date Created": {
+            "start": "2026-09-01",
+            "end": null
+          },
+          "Price": 85.02,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Organizador de cables + ethernet",
+          "Category": "Home"
+        },
+        {
+          "_id": "3cee6c72-cc72-807d-b44d-ee31bb8effaf",
+          "_url": "https://app.notion.com/p/Sillon-Grifo-Ducha-tacho-3cee6c72cc72807db44dee31bb8effaf",
+          "_created": "2026-09-01T21:36:00.000Z",
+          "_edited": "2026-09-01T21:37:00.000Z",
+          "Date Created": {
+            "start": "2026-09-01",
+            "end": null
+          },
+          "Price": 1511.6,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Sillon, Grifo, Ducha, tacho",
+          "Category": "Home"
+        },
         {
           "_id": "3cce6c72-cc72-814f-833f-f1332f5d384c",
           "_url": "https://app.notion.com/p/bembos-familiar-3cce6c72cc72814f833ff1332f5d384c",
