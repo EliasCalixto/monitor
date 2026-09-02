@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T11:12:16.547434+00:00",
+  "generated_at": "2026-09-02T15:04:59.625662+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 22749.440000000002,
-          "Tot. Expenses": 339995.7150000004,
+          "Tot. Expenses": 339945.1150000004,
           "Total Papa": 2950.12,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 25699.56,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -13.21499999976,
+          "Cash": 37.38500000024,
           "Tot. Income": 339982.50000000064,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2936.905000000238,
+          "Cash Total": 2987.505000000238,
           "Name": "Resumen"
         }
       ]
@@ -2111,21 +2111,21 @@
       },
       "rows": [
         {
-          "_id": "3cee6c72-cc72-81af-b594-c47417182cf2",
-          "_url": "https://app.notion.com/p/pasta-hilo-dental-y-cepillo-3cee6c72cc7281afb594c47417182cf2",
-          "_created": "2026-09-01T04:10:00.000Z",
-          "_edited": "2026-09-01T04:10:00.000Z",
-          "Category": "Personal",
+          "_id": "3cfe6c72-cc72-805b-a5ca-fb5d659a11c8",
+          "_url": "https://app.notion.com/p/2-70-leche-asada-3cfe6c72cc72805ba5cafb5d659a11c8",
+          "_created": "2026-09-02T14:58:00.000Z",
+          "_edited": "2026-09-02T14:58:00.000Z",
+          "Category": "Enjoy",
           "Date Created": {
-            "start": "2026-08-29",
+            "start": "2026-09-02",
             "end": null
           },
           "ExpensesSavings": [],
           "Resumen": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
-          "Price": 53.3,
-          "Name": "pasta, hilo dental y cepillo"
+          "Price": 2.7,
+          "Name": "2.70 leche asada"
         },
         {
           "_id": "3cee6c72-cc72-801b-82bc-c8b3950409f8",
@@ -19197,6 +19197,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3cfe6c72-cc72-802e-b00f-d39007d407ec",
+          "_url": "https://app.notion.com/p/pasta-hilo-dental-y-cepillo-3cfe6c72cc72802eb00fd39007d407ec",
+          "_created": "2026-09-02T14:58:00.000Z",
+          "_edited": "2026-09-02T14:58:00.000Z",
+          "Date Created": {
+            "start": "2026-09-02",
+            "end": null
+          },
+          "Price": 53.3,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "pasta, hilo dental y cepillo",
+          "Category": "Personal"
+        },
         {
           "_id": "3cee6c72-cc72-80ee-9124-f7cec7f0f58a",
           "_url": "https://app.notion.com/p/Organizador-de-cables-ethernet-3cee6c72cc7280ee9124f7cec7f0f58a",
