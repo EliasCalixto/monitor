@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T14:29:35.108402+00:00",
+  "generated_at": "2026-09-03T17:57:30.240067+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,10 +28,10 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 22772.440000000002,
-          "Tot. Expenses": 339945.1150000004,
-          "Total Papa": 2927.12,
+          "Tot. Expenses": 339965.1150000004,
+          "Total Papa": 2947.12,
           "Tot. Savings": 10000,
-          "SumIngresosPapa": 25699.56,
+          "SumIngresosPapa": 25719.56,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
             "34fe6c72-cc72-818b-a14d-f54df1618747",
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 37.38500000024,
+          "Cash": 17.38500000024,
           "Tot. Income": 339982.50000000064,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -2110,6 +2110,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3d0e6c72-cc72-8159-a5e5-ff2f6dc1402d",
+          "_url": "https://app.notion.com/p/carga-de-mueble-3d0e6c72cc728159a5e5ff2f6dc1402d",
+          "_created": "2026-09-03T15:44:00.000Z",
+          "_edited": "2026-09-03T15:44:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-08-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 20,
+          "Name": "carga de mueble"
+        },
         {
           "_id": "3cfe6c72-cc72-805b-a5ca-fb5d659a11c8",
           "_url": "https://app.notion.com/p/2-70-leche-asada-3cfe6c72cc72805ba5cafb5d659a11c8",
@@ -21691,6 +21708,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3d0e6c72-cc72-8153-9e2a-c7e472025a4b",
+          "_url": "https://app.notion.com/p/ingreso-de-papa-3d0e6c72cc7281539e2ac7e472025a4b",
+          "_created": "2026-09-03T15:44:00.000Z",
+          "_edited": "2026-09-03T15:44:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-09-03",
+            "end": null
+          },
+          "Money": 20,
+          "Total Gastos Papa": [],
+          "Name": "ingreso de papa"
+        },
         {
           "_id": "3d0e6c72-cc72-8133-988e-ffcd595361d8",
           "_url": "https://app.notion.com/p/yape-mama-3d0e6c72cc728133988effcd595361d8",
