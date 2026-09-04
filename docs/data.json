@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T00:22:01.677254+00:00",
+  "generated_at": "2026-09-04T04:46:10.143539+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 22772.440000000002,
-          "Tot. Expenses": 339965.1150000004,
+          "Tot. Expenses": 340135.1150000004,
           "Total Papa": 2947.12,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 25719.56,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 17.38500000024,
+          "Cash": -152.61499999976,
           "Tot. Income": 339982.50000000064,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2964.505000000238,
+          "Cash Total": 2794.505000000238,
           "Name": "Resumen"
         }
       ]
@@ -2110,6 +2110,74 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3d1e6c72-cc72-811c-84a0-d18f67f849ce",
+          "_url": "https://app.notion.com/p/cabina-de-internet-3d1e6c72cc72811c84a0d18f67f849ce",
+          "_created": "2026-09-04T01:50:00.000Z",
+          "_edited": "2026-09-04T01:50:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 7.2,
+          "Name": "cabina de internet"
+        },
+        {
+          "_id": "3d1e6c72-cc72-8128-9c88-ccb7f38ff029",
+          "_url": "https://app.notion.com/p/manjar-blanco-para-amorcito-3d1e6c72cc7281289c88ccb7f38ff029",
+          "_created": "2026-09-04T01:49:00.000Z",
+          "_edited": "2026-09-04T01:49:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 12,
+          "Name": "manjar blanco para amorcito"
+        },
+        {
+          "_id": "3d1e6c72-cc72-817f-9000-caa7cf6e0ece",
+          "_url": "https://app.notion.com/p/rosquitas-para-amorcito-3d1e6c72cc72817f9000caa7cf6e0ece",
+          "_created": "2026-09-04T01:49:00.000Z",
+          "_edited": "2026-09-04T01:50:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 10.8,
+          "Name": "rosquitas para amorcito"
+        },
+        {
+          "_id": "3d1e6c72-cc72-8193-b2d1-d8528e28e9e1",
+          "_url": "https://app.notion.com/p/abrigo-para-amorcito-3d1e6c72cc728193b2d1d8528e28e9e1",
+          "_created": "2026-09-04T01:49:00.000Z",
+          "_edited": "2026-09-04T01:49:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 140,
+          "Name": "abrigo para amorcito"
+        },
         {
           "_id": "3d0e6c72-cc72-8159-a5e5-ff2f6dc1402d",
           "_url": "https://app.notion.com/p/carga-de-mueble-3d0e6c72cc728159a5e5ff2f6dc1402d",
