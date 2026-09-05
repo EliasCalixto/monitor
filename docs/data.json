@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T12:08:57.099829+00:00",
+  "generated_at": "2026-09-05T15:07:57.068553+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 22907.640000000003,
-          "Tot. Expenses": 340135.1150000004,
+          "Tot. Expenses": 340215.1150000004,
           "Total Papa": 3366.92,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 26274.56,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -152.61499999976,
+          "Cash": -232.61499999976,
           "Tot. Income": 339982.50000000064,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 3214.305000000237,
+          "Cash Total": 3134.305000000237,
           "Name": "Resumen"
         }
       ]
@@ -2110,6 +2110,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3d2e6c72-cc72-8175-80b1-d615aa1d4bbc",
+          "_url": "https://app.notion.com/p/movilidad-de-hotel-a-aeropuerto-pendiente-reembolso-Aspersud-3d2e6c72cc72817580b1d615aa1d4bbc",
+          "_created": "2026-09-05T13:06:00.000Z",
+          "_edited": "2026-09-05T13:06:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-08-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 80,
+          "Name": "movilidad de hotel a aeropuerto (pendiente reembolso Aspersud)"
+        },
         {
           "_id": "3d1e6c72-cc72-811c-84a0-d18f67f849ce",
           "_url": "https://app.notion.com/p/cabina-de-internet-3d1e6c72cc72811c84a0d18f67f849ce",
