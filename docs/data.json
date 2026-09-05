@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T00:54:06.826475+00:00",
+  "generated_at": "2026-09-05T04:59:14.497410+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 22837.440000000002,
+          "SumGastosPapa": 22907.640000000003,
           "Tot. Expenses": 340135.1150000004,
-          "Total Papa": 3437.12,
+          "Total Papa": 3366.92,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 26274.56,
           "Expenses": [
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 3284.505000000238,
+          "Cash Total": 3214.305000000237,
           "Name": "Resumen"
         }
       ]
@@ -21776,6 +21776,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3d2e6c72-cc72-80e2-af22-f129450519a2",
+          "_url": "https://app.notion.com/p/Mama-3d2e6c72cc7280e2af22f129450519a2",
+          "_created": "2026-09-05T01:34:00.000Z",
+          "_edited": "2026-09-05T01:35:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-09-04",
+            "end": null
+          },
+          "Money": 31,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Mama"
+        },
+        {
+          "_id": "3d2e6c72-cc72-8081-8e02-f267e4531d49",
+          "_url": "https://app.notion.com/p/Mama-3d2e6c72cc7280818e02f267e4531d49",
+          "_created": "2026-09-05T01:34:00.000Z",
+          "_edited": "2026-09-05T01:34:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-09-04",
+            "end": null
+          },
+          "Money": 16.5,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Mama"
+        },
+        {
+          "_id": "3d2e6c72-cc72-801a-b0cd-e70f41069a1d",
+          "_url": "https://app.notion.com/p/Mama-3d2e6c72cc72801ab0cde70f41069a1d",
+          "_created": "2026-09-05T01:34:00.000Z",
+          "_edited": "2026-09-05T01:34:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-09-04",
+            "end": null
+          },
+          "Money": 22.7,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Mama"
+        },
         {
           "_id": "3d1e6c72-cc72-8150-b81b-d33f0f956852",
           "_url": "https://app.notion.com/p/uso-de-dinero-en-tarjeta-bcp-3d1e6c72cc728150b81bd33f0f956852",
