@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T04:51:00.971432+00:00",
+  "generated_at": "2026-09-06T08:59:09.150446+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 23348.640000000003,
-          "Tot. Expenses": 340232.6150000004,
+          "Tot. Expenses": 340240.6150000004,
           "Total Papa": 2925.92,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 26274.56,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -250.11499999976,
+          "Cash": -258.11499999976,
           "Tot. Income": 339982.50000000064,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2675.805000000237,
+          "Cash Total": 2667.805000000237,
           "Name": "Resumen"
         }
       ]
@@ -2110,6 +2110,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3d3e6c72-cc72-81a5-8072-d61bd3775a47",
+          "_url": "https://app.notion.com/p/pasajes-de-regreso-de-santa-clara-3d3e6c72cc7281a58072d61bd3775a47",
+          "_created": "2026-09-06T05:18:00.000Z",
+          "_edited": "2026-09-06T05:18:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-08-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 8,
+          "Name": "pasajes de regreso de santa clara"
+        },
         {
           "_id": "3d3e6c72-cc72-81c2-9458-f603a6064b69",
           "_url": "https://app.notion.com/p/pasajes-3d3e6c72cc7281c29458f603a6064b69",
@@ -19367,6 +19384,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3d3e6c72-cc72-813d-8602-e1194dcc83bd",
+          "_url": "https://app.notion.com/p/cita-en-terraza-con-Day-3d3e6c72cc72813d8602e1194dcc83bd",
+          "_created": "2026-09-06T05:18:00.000Z",
+          "_edited": "2026-09-06T05:18:00.000Z",
+          "Date Created": {
+            "start": "2026-09-06",
+            "end": null
+          },
+          "Price": 75,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "cita en terraza con Day",
+          "Category": "Enjoy"
+        },
         {
           "_id": "3cfe6c72-cc72-802e-b00f-d39007d407ec",
           "_url": "https://app.notion.com/p/pasta-hilo-dental-y-cepillo-3cfe6c72cc72802eb00fd39007d407ec",
