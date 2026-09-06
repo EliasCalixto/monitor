@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T15:43:56.358298+00:00",
+  "generated_at": "2026-09-06T17:41:49.055336+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -223,16 +223,6 @@
           "Status": "Urgent",
           "Details": "",
           "Name": "Socket"
-        },
-        {
-          "_id": "3cbe6c72-cc72-800d-b374-d4eb3d575eab",
-          "_url": "https://app.notion.com/p/jarrita-3cbe6c72cc72800db374d4eb3d575eab",
-          "_created": "2026-08-29T18:33:00.000Z",
-          "_edited": "2026-09-05T23:01:00.000Z",
-          "Price": 20,
-          "Status": "Urgent",
-          "Details": "",
-          "Name": "jarrita"
         },
         {
           "_id": "3cbe6c72-cc72-808b-ae2f-d253716d2fd0",
