@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T22:51:16.370996+00:00",
+  "generated_at": "2026-09-06T00:16:51.138262+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 22907.640000000003,
-          "Tot. Expenses": 340215.1150000004,
-          "Total Papa": 3366.92,
+          "SumGastosPapa": 23348.640000000003,
+          "Tot. Expenses": 340231.6150000004,
+          "Total Papa": 2925.92,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 26274.56,
           "Expenses": [
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -232.61499999976,
+          "Cash": -249.11499999976,
           "Tot. Income": 339982.50000000064,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 3134.305000000237,
+          "Cash Total": 2676.805000000237,
           "Name": "Resumen"
         }
       ]
@@ -226,13 +226,13 @@
         },
         {
           "_id": "3cbe6c72-cc72-800d-b374-d4eb3d575eab",
-          "_url": "https://app.notion.com/p/Jabon-Papel-higienico-jarrita-3cbe6c72cc72800db374d4eb3d575eab",
+          "_url": "https://app.notion.com/p/jarrita-3cbe6c72cc72800db374d4eb3d575eab",
           "_created": "2026-08-29T18:33:00.000Z",
-          "_edited": "2026-09-01T20:16:00.000Z",
-          "Price": 45,
+          "_edited": "2026-09-05T23:01:00.000Z",
+          "Price": 20,
           "Status": "Urgent",
           "Details": "",
-          "Name": "Jabon, Papel higienico, jarrita"
+          "Name": "jarrita"
         },
         {
           "_id": "3cbe6c72-cc72-808b-ae2f-d253716d2fd0",
@@ -2110,6 +2110,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3d3e6c72-cc72-811e-9b33-f2bd9441cd8b",
+          "_url": "https://app.notion.com/p/actividad-hhymmjj-3d3e6c72cc72811e9b33f2bd9441cd8b",
+          "_created": "2026-09-06T00:08:00.000Z",
+          "_edited": "2026-09-06T00:08:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2,
+          "Name": "actividad hhymmjj"
+        },
+        {
+          "_id": "3d3e6c72-cc72-8195-ae15-c3e5be83b960",
+          "_url": "https://app.notion.com/p/compra-de-chocotejas-para-emma-3d3e6c72cc728195ae15c3e5be83b960",
+          "_created": "2026-09-06T00:08:00.000Z",
+          "_edited": "2026-09-06T00:08:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 4,
+          "Name": "compra de chocotejas para emma"
+        },
+        {
+          "_id": "3d2e6c72-cc72-801c-b5e4-e44a1c3e5cf1",
+          "_url": "https://app.notion.com/p/Jabon-y-papel-3d2e6c72cc72801cb5e4e44a1c3e5cf1",
+          "_created": "2026-09-05T23:01:00.000Z",
+          "_edited": "2026-09-05T23:02:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-09-05",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 10.5,
+          "Name": "Jabon y papel"
+        },
         {
           "_id": "3d2e6c72-cc72-8175-80b1-d615aa1d4bbc",
           "_url": "https://app.notion.com/p/movilidad-de-hotel-a-aeropuerto-pendiente-reembolso-Aspersud-3d2e6c72cc72817580b1d615aa1d4bbc",
@@ -21793,6 +21844,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3d2e6c72-cc72-8080-a33e-c6fc143df7cf",
+          "_url": "https://app.notion.com/p/Servicios-papa-3d2e6c72cc728080a33ec6fc143df7cf",
+          "_created": "2026-09-05T23:02:00.000Z",
+          "_edited": "2026-09-05T23:02:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-09-05",
+            "end": null
+          },
+          "Money": 401,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Servicios papa"
+        },
+        {
+          "_id": "3d2e6c72-cc72-8052-ba8f-d4ce53900ab1",
+          "_url": "https://app.notion.com/p/Pollada-3d2e6c72cc728052ba8fd4ce53900ab1",
+          "_created": "2026-09-05T23:01:00.000Z",
+          "_edited": "2026-09-05T23:01:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-09-05",
+            "end": null
+          },
+          "Money": 40,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Pollada"
+        },
         {
           "_id": "3d2e6c72-cc72-80e2-af22-f129450519a2",
           "_url": "https://app.notion.com/p/Mama-3d2e6c72cc7280e2af22f129450519a2",
