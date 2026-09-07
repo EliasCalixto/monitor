@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T10:42:12.281834+00:00",
+  "generated_at": "2026-09-07T16:02:52.583954+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 23437.74,
-          "Tot. Expenses": 340267.6150000004,
+          "Tot. Expenses": 340292.6150000004,
           "Total Papa": 2836.82,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 26274.56,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -285.11499999976,
+          "Cash": -310.11499999976,
           "Tot. Income": 339982.50000000064,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2551.70500000024,
+          "Cash Total": 2526.70500000024,
           "Name": "Resumen"
         }
       ]
@@ -2100,6 +2100,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3d4e6c72-cc72-816b-b9f4-c81b759b0302",
+          "_url": "https://app.notion.com/p/taxi-3d4e6c72cc72816bb9f4c81b759b0302",
+          "_created": "2026-09-07T12:43:00.000Z",
+          "_edited": "2026-09-07T14:56:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-09-07",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 25,
+          "Name": "taxi"
+        },
         {
           "_id": "3d4e6c72-cc72-818b-afe1-c3d019dec165",
           "_url": "https://app.notion.com/p/broster-con-amor-3d4e6c72cc72818bafe1c3d019dec165",
