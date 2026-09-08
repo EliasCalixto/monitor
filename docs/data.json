@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T13:50:34.081466+00:00",
+  "generated_at": "2026-09-08T17:36:11.513064+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 23437.74,
-          "Tot. Expenses": 340292.6150000004,
-          "Total Papa": 2836.82,
+          "SumGastosPapa": 23477.74,
+          "Tot. Expenses": 340295.6150000004,
+          "Total Papa": 2796.82,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 26274.56,
           "Expenses": [
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -310.11499999976,
+          "Cash": -313.11499999976,
           "Tot. Income": 339982.50000000064,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2526.70500000024,
+          "Cash Total": 2483.70500000024,
           "Name": "Resumen"
         }
       ]
@@ -2100,6 +2100,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3d5e6c72-cc72-81ad-8a2c-e21537261f47",
+          "_url": "https://app.notion.com/p/pasajes-3d5e6c72cc7281ad8a2ce21537261f47",
+          "_created": "2026-09-08T14:00:00.000Z",
+          "_edited": "2026-09-08T14:00:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-09-07",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3,
+          "Name": "pasajes"
+        },
         {
           "_id": "3d4e6c72-cc72-816b-b9f4-c81b759b0302",
           "_url": "https://app.notion.com/p/taxi-3d4e6c72cc72816bb9f4c81b759b0302",
@@ -21934,6 +21951,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3d5e6c72-cc72-811f-81f9-fa3c5cfef370",
+          "_url": "https://app.notion.com/p/yape-mama-3d5e6c72cc72811f81f9fa3c5cfef370",
+          "_created": "2026-09-08T14:00:00.000Z",
+          "_edited": "2026-09-08T14:00:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-09-08",
+            "end": null
+          },
+          "Money": 40,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "yape mama"
+        },
         {
           "_id": "3d4e6c72-cc72-8113-af67-cdb34502e78a",
           "_url": "https://app.notion.com/p/pago-de-meses-de-gas-3d4e6c72cc728113af67cdb34502e78a",
