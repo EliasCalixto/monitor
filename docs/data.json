@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T00:34:18.009316+00:00",
+  "generated_at": "2026-09-09T05:12:29.930094+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 23477.74,
-          "Tot. Expenses": 340295.6150000004,
+          "Tot. Expenses": 340308.6150000004,
           "Total Papa": 2796.82,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 26274.56,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -313.11499999976,
+          "Cash": -326.11499999976,
           "Tot. Income": 339982.50000000064,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2483.70500000024,
+          "Cash Total": 2470.70500000024,
           "Name": "Resumen"
         }
       ]
@@ -2100,6 +2100,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3d6e6c72-cc72-8027-b48c-c6c13d6f0dfa",
+          "_url": "https://app.notion.com/p/caramanducas-3d6e6c72cc728027b48cc6c13d6f0dfa",
+          "_created": "2026-09-09T04:18:00.000Z",
+          "_edited": "2026-09-09T04:18:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-08",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 6.5,
+          "Name": "caramanducas"
+        },
+        {
+          "_id": "3d6e6c72-cc72-80fa-b55b-d5307479366b",
+          "_url": "https://app.notion.com/p/pasajes-3d6e6c72cc7280fab55bd5307479366b",
+          "_created": "2026-09-09T04:18:00.000Z",
+          "_edited": "2026-09-09T04:18:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-09-08",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 6.5,
+          "Name": "pasajes"
+        },
         {
           "_id": "3d5e6c72-cc72-81ad-8a2c-e21537261f47",
           "_url": "https://app.notion.com/p/pasajes-3d5e6c72cc7281ad8a2ce21537261f47",
