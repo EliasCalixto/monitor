@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T13:53:31.896634+00:00",
+  "generated_at": "2026-09-09T17:21:41.136919+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -29,9 +29,9 @@
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 23477.74,
           "Tot. Expenses": 340308.6150000004,
-          "Total Papa": 2796.82,
+          "Total Papa": 2814.82,
           "Tot. Savings": 10000,
-          "SumIngresosPapa": 26274.56,
+          "SumIngresosPapa": 26292.56,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
             "34fe6c72-cc72-818b-a14d-f54df1618747",
@@ -140,8 +140,8 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -326.11499999976,
-          "Tot. Income": 339982.50000000064,
+          "Cash": -325.11499999976,
+          "Tot. Income": 339983.50000000064,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2470.70500000024,
+          "Cash Total": 2489.70500000024,
           "Name": "Resumen"
         }
       ]
@@ -376,6 +376,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3d6e6c72-cc72-8021-93fa-c7c48ed21221",
+          "_url": "https://app.notion.com/p/pasajes-3d6e6c72cc72802193fac7c48ed21221",
+          "_created": "2026-09-09T14:08:00.000Z",
+          "_edited": "2026-09-09T14:08:00.000Z",
+          "Date Received": {
+            "start": "2026-09-09",
+            "end": null
+          },
+          "Income": 1,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "pasajes"
+        },
         {
           "_id": "3cae6c72-cc72-8078-a2c4-ee54a22fc5f1",
           "_url": "https://app.notion.com/p/fin-de-mes-tp-3cae6c72cc728078a2c4ee54a22fc5f1",
@@ -21985,6 +22000,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3d6e6c72-cc72-8012-a951-dcffb13fa921",
+          "_url": "https://app.notion.com/p/18-yape-restro-de-presupuesto-3d6e6c72cc728012a951dcffb13fa921",
+          "_created": "2026-09-09T14:07:00.000Z",
+          "_edited": "2026-09-09T14:08:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-09-09",
+            "end": null
+          },
+          "Money": 18,
+          "Total Gastos Papa": [],
+          "Name": "18 yape restro de presupuesto"
+        },
         {
           "_id": "3d5e6c72-cc72-811f-81f9-fa3c5cfef370",
           "_url": "https://app.notion.com/p/yape-mama-3d5e6c72cc72811f81f9fa3c5cfef370",
