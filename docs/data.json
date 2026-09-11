@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T11:12:53.281317+00:00",
+  "generated_at": "2026-09-11T14:59:11.970355+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 23477.74,
-          "Tot. Expenses": 340327.1150000004,
+          "Tot. Expenses": 340457.6850000004,
           "Total Papa": 3314.82,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 26792.56,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -343.61499999976,
+          "Cash": -474.18499999976,
           "Tot. Income": 339983.50000000064,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2971.20500000024,
+          "Cash Total": 2840.63500000024,
           "Name": "Resumen"
         }
       ]
@@ -2115,6 +2115,91 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3d8e6c72-cc72-8102-92ac-dfb66300b58a",
+          "_url": "https://app.notion.com/p/caramanducas-con-watts-de-naranja-3d8e6c72cc72810292acdfb66300b58a",
+          "_created": "2026-09-11T13:05:00.000Z",
+          "_edited": "2026-09-11T13:05:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-11",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 7.57,
+          "Name": "caramanducas con watts de naranja"
+        },
+        {
+          "_id": "3d8e6c72-cc72-8105-b313-dc73c98bd90d",
+          "_url": "https://app.notion.com/p/lugar-con-amor-3d8e6c72cc728105b313dc73c98bd90d",
+          "_created": "2026-09-11T13:05:00.000Z",
+          "_edited": "2026-09-11T13:05:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-11",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 60,
+          "Name": "lugar con amor"
+        },
+        {
+          "_id": "3d8e6c72-cc72-8142-9384-cb27bfa2580a",
+          "_url": "https://app.notion.com/p/anticuchos-con-amor-3d8e6c72cc7281429384cb27bfa2580a",
+          "_created": "2026-09-11T13:05:00.000Z",
+          "_edited": "2026-09-11T13:05:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-11",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 27,
+          "Name": "anticuchos con amor"
+        },
+        {
+          "_id": "3d8e6c72-cc72-81b0-afe7-e85a38f09f9b",
+          "_url": "https://app.notion.com/p/pasajes-de-regreso-con-amor-3d8e6c72cc7281b0afe7e85a38f09f9b",
+          "_created": "2026-09-11T13:05:00.000Z",
+          "_edited": "2026-09-11T13:05:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-09-11",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 11,
+          "Name": "pasajes de regreso con amor"
+        },
+        {
+          "_id": "3d8e6c72-cc72-81e8-b1e9-f40e31226079",
+          "_url": "https://app.notion.com/p/taxi-de-ida-al-trabajo-3d8e6c72cc7281e8b1e9f40e31226079",
+          "_created": "2026-09-11T13:05:00.000Z",
+          "_edited": "2026-09-11T13:05:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-09-11",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 25,
+          "Name": "taxi de ida al trabajo"
+        },
         {
           "_id": "3d7e6c72-cc72-8031-96bb-dd7de5e50963",
           "_url": "https://app.notion.com/p/Nose-3d7e6c72cc72803196bbdd7de5e50963",
