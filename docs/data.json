@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T20:54:56.383790+00:00",
+  "generated_at": "2026-09-11T22:49:24.442274+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 23477.74,
-          "Tot. Expenses": 340457.6850000004,
+          "Tot. Expenses": 342194.6550000004,
           "Total Papa": 3359.82,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 26837.56,
@@ -140,8 +140,8 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -474.18499999976,
-          "Tot. Income": 339983.50000000064,
+          "Cash": -504.1849999998,
+          "Tot. Income": 341690.4700000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2885.63500000024,
+          "Cash Total": 2855.6350000002,
           "Name": "Resumen"
         }
       ]
@@ -376,6 +376,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3d8e6c72-cc72-800c-b074-caf8438a3a19",
+          "_url": "https://app.notion.com/p/quincena-area-3d8e6c72cc72800cb074caf8438a3a19",
+          "_created": "2026-09-11T21:11:00.000Z",
+          "_edited": "2026-09-11T21:11:00.000Z",
+          "Date Received": {
+            "start": "2026-09-11",
+            "end": null
+          },
+          "Income": 1706.97,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "quincena area"
+        },
         {
           "_id": "3d6e6c72-cc72-8021-93fa-c7c48ed21221",
           "_url": "https://app.notion.com/p/pasajes-3d6e6c72cc72802193fac7c48ed21221",
@@ -2115,6 +2130,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3d8e6c72-cc72-80ce-b400-db7978092dc3",
+          "_url": "https://app.notion.com/p/30-pst-dy-3d8e6c72cc7280ceb400db7978092dc3",
+          "_created": "2026-09-11T21:14:00.000Z",
+          "_edited": "2026-09-11T21:14:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-11",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 30,
+          "Name": "30, pst dy"
+        },
+        {
+          "_id": "3d8e6c72-cc72-811d-a867-f0042372205f",
+          "_url": "https://app.notion.com/p/tarjeta-de-video-rtx5060-pago-parcial-3d8e6c72cc72811da867f0042372205f",
+          "_created": "2026-09-11T21:13:00.000Z",
+          "_edited": "2026-09-11T21:13:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2026-08-20",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1560.6,
+          "Name": "tarjeta de video rtx5060 (pago parcial)"
+        },
+        {
+          "_id": "3d8e6c72-cc72-81ed-a106-de6712e4fec9",
+          "_url": "https://app.notion.com/p/pedal-polytune-saldo-pendiente-3d8e6c72cc7281eda106de6712e4fec9",
+          "_created": "2026-09-11T21:13:00.000Z",
+          "_edited": "2026-09-11T21:13:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2026-08-17",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 146.37,
+          "Name": "pedal polytune (saldo pendiente)"
+        },
         {
           "_id": "3d8e6c72-cc72-8102-92ac-dfb66300b58a",
           "_url": "https://app.notion.com/p/caramanducas-con-watts-de-naranja-3d8e6c72cc72810292acdfb66300b58a",
@@ -19824,31 +19890,34 @@
         },
         {
           "_id": "3c2e6c72-cc72-8034-9b5d-e8719cbfa609",
-          "_url": "https://app.notion.com/p/tarjeta-de-video-rtx5060-3c2e6c72cc7280349b5de8719cbfa609",
+          "_url": "https://app.notion.com/p/tarjeta-de-video-rtx5060-saldo-pendiente-3c2e6c72cc7280349b5de8719cbfa609",
           "_created": "2026-08-20T22:40:00.000Z",
-          "_edited": "2026-08-20T22:40:00.000Z",
+          "_edited": "2026-09-11T21:13:00.000Z",
           "Date Created": {
             "start": "2026-08-20",
             "end": null
           },
-          "Price": 1665,
+          "Price": 104.4,
           "Date Payed": null,
           "Status": "Pending",
-          "Name": "tarjeta de video rtx5060",
+          "Name": "tarjeta de video rtx5060 (saldo pendiente)",
           "Category": "Setup"
         },
         {
           "_id": "3bfe6c72-cc72-81ae-83a9-c2ab4383626d",
           "_url": "https://app.notion.com/p/pedal-polytune-saldo-pendiente-3bfe6c72cc7281ae83a9c2ab4383626d",
           "_created": "2026-08-17T17:53:00.000Z",
-          "_edited": "2026-08-31T06:35:00.000Z",
+          "_edited": "2026-09-11T21:13:00.000Z",
           "Date Created": {
             "start": "2026-08-17",
             "end": null
           },
           "Price": 146.37,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-09-11",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "pedal polytune (saldo pendiente)",
           "Category": "Setup"
         },
