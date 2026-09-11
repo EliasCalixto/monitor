@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T23:27:03.337890+00:00",
+  "generated_at": "2026-09-11T01:15:35.291177+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,10 +28,10 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 23477.74,
-          "Tot. Expenses": 340308.6150000004,
-          "Total Papa": 2814.82,
+          "Tot. Expenses": 340327.1150000004,
+          "Total Papa": 3314.82,
           "Tot. Savings": 10000,
-          "SumIngresosPapa": 26292.56,
+          "SumIngresosPapa": 26792.56,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
             "34fe6c72-cc72-818b-a14d-f54df1618747",
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -325.11499999976,
+          "Cash": -343.61499999976,
           "Tot. Income": 339983.50000000064,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2489.70500000024,
+          "Cash Total": 2971.20500000024,
           "Name": "Resumen"
         }
       ]
@@ -2115,6 +2115,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3d7e6c72-cc72-8031-96bb-dd7de5e50963",
+          "_url": "https://app.notion.com/p/Nose-3d7e6c72cc72803196bbdd7de5e50963",
+          "_created": "2026-09-10T23:42:00.000Z",
+          "_edited": "2026-09-10T23:42:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-09-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 5.5,
+          "Name": "Nose"
+        },
+        {
+          "_id": "3d7e6c72-cc72-804a-a1b9-db916ed692d1",
+          "_url": "https://app.notion.com/p/Pasajes-3d7e6c72cc72804aa1b9db916ed692d1",
+          "_created": "2026-09-10T23:40:00.000Z",
+          "_edited": "2026-09-10T23:41:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-09-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 7,
+          "Name": "Pasajes"
+        },
+        {
+          "_id": "3d7e6c72-cc72-80c2-8a6c-d22bf58643da",
+          "_url": "https://app.notion.com/p/Lempieza-3d7e6c72cc7280c28a6cd22bf58643da",
+          "_created": "2026-09-10T23:40:00.000Z",
+          "_edited": "2026-09-10T23:40:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-09-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 6,
+          "Name": "Lempieza"
+        },
         {
           "_id": "3d6e6c72-cc72-8027-b48c-c6c13d6f0dfa",
           "_url": "https://app.notion.com/p/caramanducas-3d6e6c72cc728027b48cc6c13d6f0dfa",
@@ -22000,6 +22051,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3d7e6c72-cc72-8066-8f32-d28c1096e566",
+          "_url": "https://app.notion.com/p/Yapeo-tio-angel-3d7e6c72cc7280668f32d28c1096e566",
+          "_created": "2026-09-10T23:40:00.000Z",
+          "_edited": "2026-09-10T23:40:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-09-10",
+            "end": null
+          },
+          "Money": 500,
+          "Total Gastos Papa": [],
+          "Name": "Yapeo tio angel"
+        },
         {
           "_id": "3d6e6c72-cc72-8012-a951-dcffb13fa921",
           "_url": "https://app.notion.com/p/18-yape-restro-de-presupuesto-3d6e6c72cc728012a951dcffb13fa921",
