@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T18:09:00.671461+00:00",
+  "generated_at": "2026-09-11T20:54:56.383790+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -29,9 +29,9 @@
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 23477.74,
           "Tot. Expenses": 340457.6850000004,
-          "Total Papa": 3314.82,
+          "Total Papa": 3359.82,
           "Tot. Savings": 10000,
-          "SumIngresosPapa": 26792.56,
+          "SumIngresosPapa": 26837.56,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
             "34fe6c72-cc72-818b-a14d-f54df1618747",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2840.63500000024,
+          "Cash Total": 2885.63500000024,
           "Name": "Resumen"
         }
       ]
@@ -22136,6 +22136,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3d8e6c72-cc72-8158-842d-db1492a363fc",
+          "_url": "https://app.notion.com/p/yapeo-efra-3d8e6c72cc728158842ddb1492a363fc",
+          "_created": "2026-09-11T19:46:00.000Z",
+          "_edited": "2026-09-11T19:46:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-09-11",
+            "end": null
+          },
+          "Money": 45,
+          "Total Gastos Papa": [],
+          "Name": "yapeo efra"
+        },
         {
           "_id": "3d7e6c72-cc72-8066-8f32-d28c1096e566",
           "_url": "https://app.notion.com/p/Yapeo-tio-angel-3d7e6c72cc7280668f32d28c1096e566",
