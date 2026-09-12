@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T12:50:53.937167+00:00",
+  "generated_at": "2026-09-12T15:53:40.798157+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 23477.74,
-          "Tot. Expenses": 342194.6550000004,
-          "Total Papa": 3359.82,
+          "SumGastosPapa": 23547.74,
+          "Tot. Expenses": 342194.75500000035,
+          "Total Papa": 3289.82,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 26837.56,
           "Expenses": [
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -504.1849999998,
+          "Cash": -504.28499999975,
           "Tot. Income": 341690.4700000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2855.6350000002,
+          "Cash Total": 2785.53500000025,
           "Name": "Resumen"
         }
       ]
@@ -2130,6 +2130,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3d9e6c72-cc72-80d9-8e2a-ca37bd40e6bc",
+          "_url": "https://app.notion.com/p/Ns-3d9e6c72cc7280d98e2aca37bd40e6bc",
+          "_created": "2026-09-12T15:48:00.000Z",
+          "_edited": "2026-09-12T15:49:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-09-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 0.1,
+          "Name": "Ns"
+        },
         {
           "_id": "3d8e6c72-cc72-81d4-bf11-e9c7d8d899b5",
           "_url": "https://app.notion.com/p/tarjeta-de-video-rtx5060-pago-parcial-3d8e6c72cc7281d4bf11e9c7d8d899b5",
@@ -22237,6 +22254,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3d9e6c72-cc72-81f6-8ce0-cf349b6c2d5d",
+          "_url": "https://app.notion.com/p/yapeo-mama-3d9e6c72cc7281f68ce0cf349b6c2d5d",
+          "_created": "2026-09-12T15:38:00.000Z",
+          "_edited": "2026-09-12T15:38:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-09-12",
+            "end": null
+          },
+          "Money": 70,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "yapeo mama"
+        },
         {
           "_id": "3d8e6c72-cc72-8158-842d-db1492a363fc",
           "_url": "https://app.notion.com/p/yapeo-efra-3d8e6c72cc728158842ddb1492a363fc",
