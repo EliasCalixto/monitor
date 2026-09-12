@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T19:41:45.659148+00:00",
+  "generated_at": "2026-09-12T21:38:03.338172+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 23547.74,
-          "Tot. Expenses": 342194.75500000035,
-          "Total Papa": 3289.82,
+          "SumGastosPapa": 23602.74,
+          "Tot. Expenses": 342199.75500000035,
+          "Total Papa": 3234.82,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 26837.56,
           "Expenses": [
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -504.28499999975,
+          "Cash": -509.28499999975,
           "Tot. Income": 341690.4700000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2785.53500000025,
+          "Cash Total": 2725.53500000025,
           "Name": "Resumen"
         }
       ]
@@ -2131,6 +2131,57 @@
       },
       "rows": [
         {
+          "_id": "3d9e6c72-cc72-8125-bf01-cc091245e372",
+          "_url": "https://app.notion.com/p/tarjeta-de-video-rtx5060-saldo-pendiente-3d9e6c72cc728125bf01cc091245e372",
+          "_created": "2026-09-12T20:42:00.000Z",
+          "_edited": "2026-09-12T20:42:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2026-08-20",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 24.87,
+          "Name": "tarjeta de video rtx5060 (saldo pendiente)"
+        },
+        {
+          "_id": "3d9e6c72-cc72-8193-b9c6-cc07facdf9bc",
+          "_url": "https://app.notion.com/p/Demonio-tb-pago-parcial-3d9e6c72cc728193b9c6cc07facdf9bc",
+          "_created": "2026-09-12T20:42:00.000Z",
+          "_edited": "2026-09-12T20:42:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-21",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 33.88,
+          "Name": "Demonio tb (pago parcial)"
+        },
+        {
+          "_id": "3d9e6c72-cc72-8154-9598-e01caa62a6cc",
+          "_url": "https://app.notion.com/p/pasajes-3d9e6c72cc7281549598e01caa62a6cc",
+          "_created": "2026-09-12T20:28:00.000Z",
+          "_edited": "2026-09-12T20:37:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-09-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 5,
+          "Name": "pasajes"
+        },
+        {
           "_id": "3d9e6c72-cc72-80d9-8e2a-ca37bd40e6bc",
           "_url": "https://app.notion.com/p/Ns-3d9e6c72cc7280d98e2aca37bd40e6bc",
           "_created": "2026-09-12T15:48:00.000Z",
@@ -2967,7 +3018,7 @@
           "_id": "3cae6c72-cc72-809f-b7e6-f14508a29fd1",
           "_url": "https://app.notion.com/p/cambio-a-dolares-3cae6c72cc72809fb7e6f14508a29fd1",
           "_created": "2026-08-28T18:21:00.000Z",
-          "_edited": "2026-09-11T23:00:00.000Z",
+          "_edited": "2026-09-12T20:42:00.000Z",
           "Category": "Cashout",
           "Date Created": {
             "start": "2026-08-28",
@@ -2977,7 +3028,7 @@
           "Resumen": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
-          "Price": 197.5,
+          "Price": 138.75,
           "Name": "cambio a dolares"
         },
         {
@@ -19728,6 +19779,21 @@
       },
       "rows": [
         {
+          "_id": "3d9e6c72-cc72-8130-b740-d4a086f17818",
+          "_url": "https://app.notion.com/p/parrilla-con-amor-3d9e6c72cc728130b740d4a086f17818",
+          "_created": "2026-09-12T20:37:00.000Z",
+          "_edited": "2026-09-12T20:38:00.000Z",
+          "Date Created": {
+            "start": "2026-09-12",
+            "end": null
+          },
+          "Price": 120.4,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "parrilla con amor",
+          "Category": "Enjoy"
+        },
+        {
           "_id": "3d9e6c72-cc72-8153-bf0f-dda347b4728f",
           "_url": "https://app.notion.com/p/gaseosas-3d9e6c72cc728153bf0fdda347b4728f",
           "_created": "2026-09-12T01:54:00.000Z",
@@ -19924,31 +19990,34 @@
         },
         {
           "_id": "3c4e6c72-cc72-80a1-a0ff-ff9fc08bbaaa",
-          "_url": "https://app.notion.com/p/Demonio-tb-3c4e6c72cc7280a1a0ffff9fc08bbaaa",
+          "_url": "https://app.notion.com/p/Demonio-tb-saldo-pendiente-3c4e6c72cc7280a1a0ffff9fc08bbaaa",
           "_created": "2026-08-22T04:39:00.000Z",
-          "_edited": "2026-08-22T08:26:00.000Z",
+          "_edited": "2026-09-12T20:42:00.000Z",
           "Date Created": {
             "start": "2026-08-21",
             "end": null
           },
-          "Price": 71.39,
+          "Price": 37.51,
           "Date Payed": null,
           "Status": "Pending",
-          "Name": "Demonio tb",
+          "Name": "Demonio tb (saldo pendiente)",
           "Category": "Enjoy"
         },
         {
           "_id": "3c2e6c72-cc72-8034-9b5d-e8719cbfa609",
           "_url": "https://app.notion.com/p/tarjeta-de-video-rtx5060-saldo-pendiente-3c2e6c72cc7280349b5de8719cbfa609",
           "_created": "2026-08-20T22:40:00.000Z",
-          "_edited": "2026-09-11T22:59:00.000Z",
+          "_edited": "2026-09-12T20:42:00.000Z",
           "Date Created": {
             "start": "2026-08-20",
             "end": null
           },
           "Price": 24.87,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-09-12",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "tarjeta de video rtx5060 (saldo pendiente)",
           "Category": "Setup"
         },
@@ -22254,6 +22323,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3d9e6c72-cc72-816b-a6b7-c1cc572b47ba",
+          "_url": "https://app.notion.com/p/yape-de-mama-3d9e6c72cc72816ba6b7c1cc572b47ba",
+          "_created": "2026-09-12T20:26:00.000Z",
+          "_edited": "2026-09-12T20:26:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-09-12",
+            "end": null
+          },
+          "Money": 25,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "yape de mama"
+        },
+        {
+          "_id": "3d9e6c72-cc72-8176-907a-e59e69daa6e9",
+          "_url": "https://app.notion.com/p/ANULADO-duplicado-yape-de-mama-3d9e6c72cc728176907ae59e69daa6e9",
+          "_created": "2026-09-12T20:26:00.000Z",
+          "_edited": "2026-09-12T20:27:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-09-12",
+            "end": null
+          },
+          "Money": 0,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "[ANULADO — duplicado] yape de mama"
+        },
+        {
+          "_id": "3d9e6c72-cc72-8182-b878-e90ba076f90d",
+          "_url": "https://app.notion.com/p/yape-de-mama-3d9e6c72cc728182b878e90ba076f90d",
+          "_created": "2026-09-12T20:26:00.000Z",
+          "_edited": "2026-09-12T20:26:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-09-12",
+            "end": null
+          },
+          "Money": 30,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "yape de mama"
+        },
         {
           "_id": "3d9e6c72-cc72-81f6-8ce0-cf349b6c2d5d",
           "_url": "https://app.notion.com/p/yapeo-mama-3d9e6c72cc7281f68ce0cf349b6c2d5d",
