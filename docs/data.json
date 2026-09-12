@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T00:43:38.190241+00:00",
+  "generated_at": "2026-09-12T05:03:00.271047+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -19710,6 +19710,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3d9e6c72-cc72-8153-bf0f-dda347b4728f",
+          "_url": "https://app.notion.com/p/gaseosas-3d9e6c72cc728153bf0fdda347b4728f",
+          "_created": "2026-09-12T01:54:00.000Z",
+          "_edited": "2026-09-12T01:54:00.000Z",
+          "Date Created": {
+            "start": "2026-09-11",
+            "end": null
+          },
+          "Price": 15.9,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "gaseosas",
+          "Category": "Enjoy"
+        },
         {
           "_id": "3d3e6c72-cc72-813d-8602-e1194dcc83bd",
           "_url": "https://app.notion.com/p/cita-en-terraza-con-Day-3d3e6c72cc72813d8602e1194dcc83bd",
