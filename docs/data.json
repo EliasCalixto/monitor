@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T06:04:55.487413+00:00",
+  "generated_at": "2026-09-13T11:43:51.831996+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 23602.74,
-          "Tot. Expenses": 342199.75500000035,
-          "Total Papa": 3234.82,
+          "SumGastosPapa": 23682.74,
+          "Tot. Expenses": 342262.75500000035,
+          "Total Papa": 3154.82,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 26837.56,
           "Expenses": [
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -509.28499999975,
+          "Cash": -572.28499999975,
           "Tot. Income": 341690.4700000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2725.53500000025,
+          "Cash Total": 2582.53500000025,
           "Name": "Resumen"
         }
       ]
@@ -2130,6 +2130,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3dae6c72-cc72-8050-b17f-ce4d516bbdb1",
+          "_url": "https://app.notion.com/p/Pasajes-3dae6c72cc728050b17fce4d516bbdb1",
+          "_created": "2026-09-13T06:05:00.000Z",
+          "_edited": "2026-09-13T06:05:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-09-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 7,
+          "Name": "Pasajes"
+        },
+        {
+          "_id": "3dae6c72-cc72-81d3-a540-f1826836ce59",
+          "_url": "https://app.notion.com/p/torta-de-reu-con-amigos-3dae6c72cc7281d3a540f1826836ce59",
+          "_created": "2026-09-13T06:04:00.000Z",
+          "_edited": "2026-09-13T06:04:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 56,
+          "Name": "torta de reu con amigos"
+        },
         {
           "_id": "3d9e6c72-cc72-8125-bf01-cc091245e372",
           "_url": "https://app.notion.com/p/tarjeta-de-video-rtx5060-saldo-pendiente-3d9e6c72cc728125bf01cc091245e372",
@@ -22338,6 +22372,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3dae6c72-cc72-8035-b4fb-e4571d201885",
+          "_url": "https://app.notion.com/p/Yapeo-mama-3dae6c72cc728035b4fbe4571d201885",
+          "_created": "2026-09-13T06:08:00.000Z",
+          "_edited": "2026-09-13T06:09:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-09-13",
+            "end": null
+          },
+          "Money": 80,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Yapeo mama"
+        },
         {
           "_id": "3d9e6c72-cc72-816b-a6b7-c1cc572b47ba",
           "_url": "https://app.notion.com/p/yape-de-mama-3d9e6c72cc72816ba6b7c1cc572b47ba",
