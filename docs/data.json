@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T01:10:54.850826+00:00",
+  "generated_at": "2026-09-13T06:04:55.487413+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -19778,6 +19778,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3dae6c72-cc72-8030-ae59-ebdeab629609",
+          "_url": "https://app.notion.com/p/Pollito-walter-con-amigos-3dae6c72cc728030ae59ebdeab629609",
+          "_created": "2026-09-13T06:03:00.000Z",
+          "_edited": "2026-09-13T06:03:00.000Z",
+          "Date Created": {
+            "start": "2026-09-13",
+            "end": null
+          },
+          "Price": 89.9,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Pollito walter con amigos",
+          "Category": "Enjoy"
+        },
         {
           "_id": "3d9e6c72-cc72-8130-b740-d4a086f17818",
           "_url": "https://app.notion.com/p/parrilla-con-amor-3d9e6c72cc728130b740d4a086f17818",
