@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T00:23:47.550813+00:00",
+  "generated_at": "2026-09-14T05:09:23.042883+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 24075.74,
-          "Tot. Expenses": 342262.75500000035,
+          "Tot. Expenses": 342327.25500000035,
           "Total Papa": 2761.82,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 26837.56,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -572.28499999975,
+          "Cash": -636.78499999975,
           "Tot. Income": 341690.4700000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2189.53500000025,
+          "Cash Total": 2125.03500000025,
           "Name": "Resumen"
         }
       ]
@@ -2130,6 +2130,91 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3dbe6c72-cc72-8150-899f-f8d921b23154",
+          "_url": "https://app.notion.com/p/lugar-con-amor-3dbe6c72cc728150899ff8d921b23154",
+          "_created": "2026-09-14T02:18:00.000Z",
+          "_edited": "2026-09-14T02:18:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 40,
+          "Name": "lugar con amor"
+        },
+        {
+          "_id": "3dbe6c72-cc72-8159-b250-c4acbc9d2de4",
+          "_url": "https://app.notion.com/p/snacks-con-amor-3dbe6c72cc728159b250c4acbc9d2de4",
+          "_created": "2026-09-14T02:18:00.000Z",
+          "_edited": "2026-09-14T02:18:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 7.5,
+          "Name": "snacks con amor"
+        },
+        {
+          "_id": "3dbe6c72-cc72-816d-af2f-d626507f169a",
+          "_url": "https://app.notion.com/p/pasajes-3dbe6c72cc72816daf2fd626507f169a",
+          "_created": "2026-09-14T02:18:00.000Z",
+          "_edited": "2026-09-14T02:18:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-09-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "3dbe6c72-cc72-8174-aede-e2473d4559b5",
+          "_url": "https://app.notion.com/p/prs-3dbe6c72cc728174aedee2473d4559b5",
+          "_created": "2026-09-14T02:18:00.000Z",
+          "_edited": "2026-09-14T02:18:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 13,
+          "Name": "prs"
+        },
+        {
+          "_id": "3dbe6c72-cc72-81e5-8838-d02115f6e72d",
+          "_url": "https://app.notion.com/p/pasajes-3dbe6c72cc7281e58838d02115f6e72d",
+          "_created": "2026-09-14T02:18:00.000Z",
+          "_edited": "2026-09-14T02:18:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-09-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3,
+          "Name": "pasajes"
+        },
         {
           "_id": "3dae6c72-cc72-8050-b17f-ce4d516bbdb1",
           "_url": "https://app.notion.com/p/Pasajes-3dae6c72cc728050b17fce4d516bbdb1",
