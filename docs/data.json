@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T16:31:51.067926+00:00",
+  "generated_at": "2026-09-14T20:31:01.053864+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 24075.74,
-          "Tot. Expenses": 342327.25500000035,
+          "Tot. Expenses": 342326.25500000035,
           "Total Papa": 2761.82,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 26837.56,
@@ -141,7 +141,7 @@
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
           "Cash": -636.78499999975,
-          "Tot. Income": 341690.4700000006,
+          "Tot. Income": 341689.4700000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -390,21 +390,6 @@
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
           "Name": "quincena area"
-        },
-        {
-          "_id": "3d6e6c72-cc72-8021-93fa-c7c48ed21221",
-          "_url": "https://app.notion.com/p/pasajes-3d6e6c72cc72802193fac7c48ed21221",
-          "_created": "2026-09-09T14:08:00.000Z",
-          "_edited": "2026-09-09T14:08:00.000Z",
-          "Date Received": {
-            "start": "2026-09-09",
-            "end": null
-          },
-          "Income": 1,
-          "Resumen": [
-            "351e6c72-cc72-801e-9a2f-e8105330a3da"
-          ],
-          "Name": "pasajes"
         },
         {
           "_id": "3cae6c72-cc72-8078-a2c4-ee54a22fc5f1",
@@ -2130,6 +2115,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3dbe6c72-cc72-8003-85e8-d1a6b7bc8d8b",
+          "_url": "https://app.notion.com/p/nose-3dbe6c72cc72800385e8d1a6b7bc8d8b",
+          "_created": "2026-09-14T16:55:00.000Z",
+          "_edited": "2026-09-14T16:55:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-09-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -1,
+          "Name": "nose"
+        },
         {
           "_id": "3dbe6c72-cc72-8150-899f-f8d921b23154",
           "_url": "https://app.notion.com/p/lugar-con-amor-3dbe6c72cc728150899ff8d921b23154",
@@ -19898,6 +19900,21 @@
       },
       "rows": [
         {
+          "_id": "3dbe6c72-cc72-81e6-aec1-f6a97c000d59",
+          "_url": "https://app.notion.com/p/almuerzo-en-oficina-3dbe6c72cc7281e6aec1f6a97c000d59",
+          "_created": "2026-09-14T19:28:00.000Z",
+          "_edited": "2026-09-14T19:28:00.000Z",
+          "Date Created": {
+            "start": "2026-09-14",
+            "end": null
+          },
+          "Price": 12,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "almuerzo en oficina",
+          "Category": "Fixed"
+        },
+        {
           "_id": "3dbe6c72-cc72-81d0-a6ed-c2b440ebe6c5",
           "_url": "https://app.notion.com/p/rosquitas-3dbe6c72cc7281d0a6edc2b440ebe6c5",
           "_created": "2026-09-14T15:01:00.000Z",
@@ -20051,7 +20068,7 @@
           "_id": "3cbe6c72-cc72-81b8-a067-e4f0a39f3c84",
           "_url": "https://app.notion.com/p/desayuno-en-barranco-3cbe6c72cc7281b8a067e4f0a39f3c84",
           "_created": "2026-08-29T15:54:00.000Z",
-          "_edited": "2026-08-29T15:54:00.000Z",
+          "_edited": "2026-09-14T16:55:00.000Z",
           "Date Created": {
             "start": "2026-08-29",
             "end": null
