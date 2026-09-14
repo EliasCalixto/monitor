@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T10:34:09.911943+00:00",
+  "generated_at": "2026-09-14T16:31:51.067926+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -19897,6 +19897,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3dbe6c72-cc72-81d0-a6ed-c2b440ebe6c5",
+          "_url": "https://app.notion.com/p/rosquitas-3dbe6c72cc7281d0a6edc2b440ebe6c5",
+          "_created": "2026-09-14T15:01:00.000Z",
+          "_edited": "2026-09-14T15:01:00.000Z",
+          "Date Created": {
+            "start": "2026-09-14",
+            "end": null
+          },
+          "Price": 3.5,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "rosquitas",
+          "Category": "Enjoy"
+        },
         {
           "_id": "3dae6c72-cc72-8030-ae59-ebdeab629609",
           "_url": "https://app.notion.com/p/Pollito-walter-con-amigos-3dae6c72cc728030ae59ebdeab629609",
