@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T19:52:41.182237+00:00",
+  "generated_at": "2026-09-15T22:27:58.357678+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 24075.74,
-          "Tot. Expenses": 342326.25500000035,
-          "Total Papa": 2761.82,
+          "SumGastosPapa": 24090.74,
+          "Tot. Expenses": 342426.55500000034,
+          "Total Papa": 2746.82,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 26837.56,
           "Expenses": [
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 283.21500000025,
+          "Cash": 182.91500000026,
           "Tot. Income": 342609.4700000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 3045.03500000025,
+          "Cash Total": 2929.73500000026,
           "Name": "Resumen"
         }
       ]
@@ -2130,6 +2130,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3dce6c72-cc72-8112-9abc-ef1d36e8c031",
+          "_url": "https://app.notion.com/p/Demonio-tb-saldo-pendiente-3dce6c72cc7281129abcef1d36e8c031",
+          "_created": "2026-09-15T21:58:00.000Z",
+          "_edited": "2026-09-15T21:58:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-21",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 37.51,
+          "Name": "Demonio tb (saldo pendiente)"
+        },
+        {
+          "_id": "3dce6c72-cc72-81aa-aa02-e1b3cd3459c1",
+          "_url": "https://app.notion.com/p/Madam-Tusan-pago-parcial-3dce6c72cc7281aaaa02e1b3cd3459c1",
+          "_created": "2026-09-15T21:58:00.000Z",
+          "_edited": "2026-09-15T21:58:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-22",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 62.79,
+          "Name": "Madam Tusan (pago parcial)"
+        },
         {
           "_id": "3dbe6c72-cc72-8003-85e8-d1a6b7bc8d8b",
           "_url": "https://app.notion.com/p/nose-3dbe6c72cc72800385e8d1a6b7bc8d8b",
@@ -20156,31 +20190,34 @@
         },
         {
           "_id": "3c4e6c72-cc72-816a-8708-e7edee30f85f",
-          "_url": "https://app.notion.com/p/Madam-Tusan-3c4e6c72cc72816a8708e7edee30f85f",
+          "_url": "https://app.notion.com/p/Madam-Tusan-saldo-pendiente-3c4e6c72cc72816a8708e7edee30f85f",
           "_created": "2026-08-22T20:03:00.000Z",
-          "_edited": "2026-08-22T20:03:00.000Z",
+          "_edited": "2026-09-15T21:59:00.000Z",
           "Date Created": {
             "start": "2026-08-22",
             "end": null
           },
-          "Price": 73,
+          "Price": 10.21,
           "Date Payed": null,
           "Status": "Pending",
-          "Name": "Madam Tusan",
+          "Name": "Madam Tusan (saldo pendiente)",
           "Category": "Enjoy"
         },
         {
           "_id": "3c4e6c72-cc72-80a1-a0ff-ff9fc08bbaaa",
           "_url": "https://app.notion.com/p/Demonio-tb-saldo-pendiente-3c4e6c72cc7280a1a0ffff9fc08bbaaa",
           "_created": "2026-08-22T04:39:00.000Z",
-          "_edited": "2026-09-12T20:42:00.000Z",
+          "_edited": "2026-09-15T21:59:00.000Z",
           "Date Created": {
             "start": "2026-08-21",
             "end": null
           },
           "Price": 37.51,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-09-15",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Demonio tb (saldo pendiente)",
           "Category": "Enjoy"
         },
@@ -22504,6 +22541,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3dce6c72-cc72-8128-84c7-fbc227ad780e",
+          "_url": "https://app.notion.com/p/gasto-de-papa-3dce6c72cc72812884c7fbc227ad780e",
+          "_created": "2026-09-15T22:02:00.000Z",
+          "_edited": "2026-09-15T22:02:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-09-15",
+            "end": null
+          },
+          "Money": 15,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "gasto de papa"
+        },
+        {
+          "_id": "3dce6c72-cc72-81ca-83db-f2e010aa9f2d",
+          "_url": "https://app.notion.com/p/ANULADO-gasto-de-papa-3dce6c72cc7281ca83dbf2e010aa9f2d",
+          "_created": "2026-09-15T21:02:00.000Z",
+          "_edited": "2026-09-15T21:04:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-09-15",
+            "end": null
+          },
+          "Money": 0,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "[ANULADO] gasto de papa"
+        },
         {
           "_id": "3dae6c72-cc72-8117-a688-d3a73b4690c9",
           "_url": "https://app.notion.com/p/pension-mikalh-3dae6c72cc728117a688d3a73b4690c9",
