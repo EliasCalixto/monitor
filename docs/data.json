@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T12:04:39.851457+00:00",
+  "generated_at": "2026-09-15T16:53:12.947059+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -140,8 +140,8 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -636.78499999975,
-          "Tot. Income": 341689.4700000006,
+          "Cash": 283.21500000025,
+          "Tot. Income": 342609.4700000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2125.03500000025,
+          "Cash Total": 3045.03500000025,
           "Name": "Resumen"
         }
       ]
@@ -376,6 +376,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3dce6c72-cc72-80af-a685-c0f4cea580ca",
+          "_url": "https://app.notion.com/p/quincena-tp-3dce6c72cc7280afa685c0f4cea580ca",
+          "_created": "2026-09-15T16:35:00.000Z",
+          "_edited": "2026-09-15T16:36:00.000Z",
+          "Date Received": {
+            "start": "2026-09-15",
+            "end": null
+          },
+          "Income": 920,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "quincena tp"
+        },
         {
           "_id": "3d8e6c72-cc72-800c-b074-caf8438a3a19",
           "_url": "https://app.notion.com/p/quincena-area-3d8e6c72cc72800cb074caf8438a3a19",
