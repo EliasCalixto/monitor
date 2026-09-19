@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T06:37:06.152476+00:00",
+  "generated_at": "2026-09-19T11:29:58.198375+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 24130.690000000002,
-          "Tot. Expenses": 342426.55500000034,
-          "Total Papa": 3176.87,
+          "SumGastosPapa": 24197.590000000004,
+          "Tot. Expenses": 342441.35500000033,
+          "Total Papa": 3109.97,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27307.56,
           "Expenses": [
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 182.91500000026,
+          "Cash": 168.11500000027,
           "Tot. Income": 342609.4700000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 3359.785000000258,
+          "Cash Total": 3278.085000000266,
           "Name": "Resumen"
         }
       ]
@@ -2130,6 +2130,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3e0e6c72-cc72-81a2-a064-ca1ab833f946",
+          "_url": "https://app.notion.com/p/cabina-internet-3e0e6c72cc7281a2a064ca1ab833f946",
+          "_created": "2026-09-19T07:22:00.000Z",
+          "_edited": "2026-09-19T07:22:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 4.8,
+          "Name": "cabina internet"
+        },
+        {
+          "_id": "3e0e6c72-cc72-81c4-8856-d191ad842997",
+          "_url": "https://app.notion.com/p/pasajes-3e0e6c72cc7281c48856d191ad842997",
+          "_created": "2026-09-19T06:45:00.000Z",
+          "_edited": "2026-09-19T06:45:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-09-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 10,
+          "Name": "pasajes"
+        },
         {
           "_id": "3dce6c72-cc72-8112-9abc-ef1d36e8c031",
           "_url": "https://app.notion.com/p/Demonio-tb-saldo-pendiente-3dce6c72cc7281129abcef1d36e8c031",
@@ -19949,6 +19983,21 @@
       },
       "rows": [
         {
+          "_id": "3e0e6c72-cc72-8155-99e5-d1211718fa89",
+          "_url": "https://app.notion.com/p/kfc-con-jas-3e0e6c72cc72815599e5d1211718fa89",
+          "_created": "2026-09-19T06:45:00.000Z",
+          "_edited": "2026-09-19T06:45:00.000Z",
+          "Date Created": {
+            "start": "2026-09-19",
+            "end": null
+          },
+          "Price": 100.9,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "kfc con jas",
+          "Category": "Enjoy"
+        },
+        {
           "_id": "3dbe6c72-cc72-81e6-aec1-f6a97c000d59",
           "_url": "https://app.notion.com/p/almuerzo-en-oficina-3dbe6c72cc7281e6aec1f6a97c000d59",
           "_created": "2026-09-14T19:28:00.000Z",
@@ -22541,6 +22590,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3e0e6c72-cc72-8177-88b9-e566704ffa60",
+          "_url": "https://app.notion.com/p/gasto-de-papa-3e0e6c72cc72817788b9e566704ffa60",
+          "_created": "2026-09-19T07:24:00.000Z",
+          "_edited": "2026-09-19T07:24:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-09-19",
+            "end": null
+          },
+          "Money": 66.9,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "gasto de papa"
+        },
         {
           "_id": "3e0e6c72-cc72-816b-82ef-d72793904a29",
           "_url": "https://app.notion.com/p/ingreso-de-papa-3e0e6c72cc72816b82efd72793904a29",
