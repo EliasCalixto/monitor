@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T14:38:40.325978+00:00",
+  "generated_at": "2026-09-19T17:25:36.320084+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 24197.590000000004,
-          "Tot. Expenses": 342441.35500000033,
+          "Tot. Expenses": 342446.35500000033,
           "Total Papa": 3109.97,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27307.56,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 168.11500000027,
+          "Cash": 163.11500000027,
           "Tot. Income": 342609.4700000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 3278.085000000266,
+          "Cash Total": 3273.085000000266,
           "Name": "Resumen"
         }
       ]
@@ -2130,6 +2130,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3e0e6c72-cc72-81e5-a498-ecf1b19b4f07",
+          "_url": "https://app.notion.com/p/queso-helado-3e0e6c72cc7281e5a498ecf1b19b4f07",
+          "_created": "2026-09-19T17:18:00.000Z",
+          "_edited": "2026-09-19T17:18:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 5,
+          "Name": "queso helado"
+        },
         {
           "_id": "3e0e6c72-cc72-81a2-a064-ca1ab833f946",
           "_url": "https://app.notion.com/p/cabina-internet-3e0e6c72cc7281a2a064ca1ab833f946",
@@ -19982,6 +19999,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3e0e6c72-cc72-81ca-a9bf-cf2a0493ca08",
+          "_url": "https://app.notion.com/p/flores-amarillas-para-Day-3e0e6c72cc7281caa9bfcf2a0493ca08",
+          "_created": "2026-09-19T17:06:00.000Z",
+          "_edited": "2026-09-19T17:06:00.000Z",
+          "Date Created": {
+            "start": "2026-09-19",
+            "end": null
+          },
+          "Price": 215,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "flores amarillas para Day",
+          "Category": "Enjoy"
+        },
         {
           "_id": "3e0e6c72-cc72-8155-99e5-d1211718fa89",
           "_url": "https://app.notion.com/p/kfc-con-jas-3e0e6c72cc72815599e5d1211718fa89",
