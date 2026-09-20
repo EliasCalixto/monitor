@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T01:23:51.498895+00:00",
+  "generated_at": "2026-09-20T06:27:27.599370+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,11 +27,11 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 24197.590000000004,
-          "Tot. Expenses": 342446.35500000033,
-          "Total Papa": 3109.97,
+          "SumGastosPapa": 24257.590000000004,
+          "Tot. Expenses": 342483.85500000033,
+          "Total Papa": 3093.97,
           "Tot. Savings": 10000,
-          "SumIngresosPapa": 27307.56,
+          "SumIngresosPapa": 27351.56,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
             "34fe6c72-cc72-818b-a14d-f54df1618747",
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 163.11500000027,
+          "Cash": 125.61500000027,
           "Tot. Income": 342609.4700000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 3273.085000000266,
+          "Cash Total": 3219.585000000266,
           "Name": "Resumen"
         }
       ]
@@ -2130,6 +2130,125 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3e1e6c72-cc72-81c0-97ca-e223085973e9",
+          "_url": "https://app.notion.com/p/moto-3e1e6c72cc7281c097cae223085973e9",
+          "_created": "2026-09-20T01:45:00.000Z",
+          "_edited": "2026-09-20T01:45:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-09-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3,
+          "Name": "moto"
+        },
+        {
+          "_id": "3e1e6c72-cc72-812b-9c34-c80ed09f0daf",
+          "_url": "https://app.notion.com/p/avena-3e1e6c72cc72812b9c34c80ed09f0daf",
+          "_created": "2026-09-20T01:44:00.000Z",
+          "_edited": "2026-09-20T01:44:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-09-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 10,
+          "Name": "avena"
+        },
+        {
+          "_id": "3e1e6c72-cc72-819c-829e-cbd4d40e3bc5",
+          "_url": "https://app.notion.com/p/pasajes-3e1e6c72cc72819c829ecbd4d40e3bc5",
+          "_created": "2026-09-20T01:44:00.000Z",
+          "_edited": "2026-09-20T01:45:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-09-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 5,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "3e1e6c72-cc72-81ba-a240-c4feb0301214",
+          "_url": "https://app.notion.com/p/poet-3e1e6c72cc7281baa240c4feb0301214",
+          "_created": "2026-09-20T01:44:00.000Z",
+          "_edited": "2026-09-20T01:44:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-09-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2.5,
+          "Name": "poet"
+        },
+        {
+          "_id": "3e1e6c72-cc72-8177-a30e-ddd7171fbd30",
+          "_url": "https://app.notion.com/p/socket-3e1e6c72cc728177a30eddd7171fbd30",
+          "_created": "2026-09-20T01:43:00.000Z",
+          "_edited": "2026-09-20T01:43:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-09-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 14,
+          "Name": "socket"
+        },
+        {
+          "_id": "3e1e6c72-cc72-810e-88bd-cbdf1df9c786",
+          "_url": "https://app.notion.com/p/pasajes-3e1e6c72cc72810e88bdcbdf1df9c786",
+          "_created": "2026-09-20T01:39:00.000Z",
+          "_edited": "2026-09-20T01:39:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-09-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "3e1e6c72-cc72-81d4-9cc2-f7affb5e1677",
+          "_url": "https://app.notion.com/p/yape-a-efra-por-ibuprofeno-3e1e6c72cc7281d49cc2f7affb5e1677",
+          "_created": "2026-09-20T01:38:00.000Z",
+          "_edited": "2026-09-20T01:38:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-09-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2,
+          "Name": "yape a efra por ibuprofeno"
+        },
         {
           "_id": "3e0e6c72-cc72-81e5-a498-ecf1b19b4f07",
           "_url": "https://app.notion.com/p/queso-helado-3e0e6c72cc7281e5a498ecf1b19b4f07",
@@ -22622,6 +22741,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3e1e6c72-cc72-814e-a6ef-ec9d56baa06b",
+          "_url": "https://app.notion.com/p/pollito-a-la-brasa-3e1e6c72cc72814ea6efec9d56baa06b",
+          "_created": "2026-09-20T01:42:00.000Z",
+          "_edited": "2026-09-20T01:42:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-09-19",
+            "end": null
+          },
+          "Money": 60,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "pollito a la brasa"
+        },
+        {
+          "_id": "3e1e6c72-cc72-815e-8b7e-dc80ed28b9d8",
+          "_url": "https://app.notion.com/p/efrain-yape-3e1e6c72cc72815e8b7edc80ed28b9d8",
+          "_created": "2026-09-20T01:37:00.000Z",
+          "_edited": "2026-09-20T01:37:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-09-19",
+            "end": null
+          },
+          "Money": 30,
+          "Total Gastos Papa": [],
+          "Name": "efrain yape"
+        },
+        {
+          "_id": "3e1e6c72-cc72-81fb-b445-d6f9a81a1739",
+          "_url": "https://app.notion.com/p/socket-3e1e6c72cc7281fbb445d6f9a81a1739",
+          "_created": "2026-09-20T01:35:00.000Z",
+          "_edited": "2026-09-20T01:35:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-09-19",
+            "end": null
+          },
+          "Money": 14,
+          "Total Gastos Papa": [],
+          "Name": "socket"
+        },
         {
           "_id": "3e0e6c72-cc72-8177-88b9-e566704ffa60",
           "_url": "https://app.notion.com/p/gasto-de-papa-3e0e6c72cc72817788b9e566704ffa60",
