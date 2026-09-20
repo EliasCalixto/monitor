@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T06:27:27.599370+00:00",
+  "generated_at": "2026-09-20T11:39:23.677043+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 24257.590000000004,
-          "Tot. Expenses": 342483.85500000033,
+          "Tot. Expenses": 342566.85500000033,
           "Total Papa": 3093.97,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27351.56,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 125.61500000027,
+          "Cash": 42.61500000027,
           "Tot. Income": 342609.4700000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 3219.585000000266,
+          "Cash Total": 3136.585000000266,
           "Name": "Resumen"
         }
       ]
@@ -218,9 +218,9 @@
           "_id": "3cbe6c72-cc72-80fe-98d6-dfe547d4e3cd",
           "_url": "https://app.notion.com/p/Socket-3cbe6c72cc7280fe98d6dfe547d4e3cd",
           "_created": "2026-08-29T18:35:00.000Z",
-          "_edited": "2026-08-29T18:35:00.000Z",
+          "_edited": "2026-09-20T07:53:00.000Z",
           "Price": 15,
-          "Status": "Urgent",
+          "Status": "Bought",
           "Details": "",
           "Name": "Socket"
         },
@@ -2130,6 +2130,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3e1e6c72-cc72-814f-a6cb-c2eda379caee",
+          "_url": "https://app.notion.com/p/presv-3e1e6c72cc72814fa6cbc2eda379caee",
+          "_created": "2026-09-20T07:51:00.000Z",
+          "_edited": "2026-09-20T07:51:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-20",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 8,
+          "Name": "presv"
+        },
+        {
+          "_id": "3e1e6c72-cc72-814f-a7d6-cac0e4ebc27e",
+          "_url": "https://app.notion.com/p/place-3e1e6c72cc72814fa7d6cac0e4ebc27e",
+          "_created": "2026-09-20T07:51:00.000Z",
+          "_edited": "2026-09-20T07:51:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-20",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 50,
+          "Name": "place"
+        },
+        {
+          "_id": "3e1e6c72-cc72-81f9-8866-f1ff90ff2c4a",
+          "_url": "https://app.notion.com/p/pasajes-3e1e6c72cc7281f98866f1ff90ff2c4a",
+          "_created": "2026-09-20T07:51:00.000Z",
+          "_edited": "2026-09-20T07:51:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-09-20",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 25,
+          "Name": "pasajes"
+        },
         {
           "_id": "3e1e6c72-cc72-81c0-97ca-e223085973e9",
           "_url": "https://app.notion.com/p/moto-3e1e6c72cc7281c097cae223085973e9",
