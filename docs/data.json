@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T21:37:37.027191+00:00",
+  "generated_at": "2026-09-23T23:56:18.968729+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -20152,6 +20152,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3e4e6c72-cc72-81ee-b8a6-d08487a47778",
+          "_url": "https://app.notion.com/p/creatina-3e4e6c72cc7281eeb8a6d08487a47778",
+          "_created": "2026-09-23T22:50:00.000Z",
+          "_edited": "2026-09-23T22:50:00.000Z",
+          "Date Created": {
+            "start": "2026-09-23",
+            "end": null
+          },
+          "Price": 91.7,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "creatina",
+          "Category": "Personal"
+        },
         {
           "_id": "3e0e6c72-cc72-81ca-a9bf-cf2a0493ca08",
           "_url": "https://app.notion.com/p/flores-amarillas-para-Day-3e0e6c72cc7281caa9bfcf2a0493ca08",
