@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T01:38:34.852666+00:00",
+  "generated_at": "2026-09-25T06:34:23.722389+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 24344.540000000005,
-          "Tot. Expenses": 342558.85500000033,
+          "Tot. Expenses": 342574.85500000033,
           "Total Papa": 3007.02,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27351.56,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 50.61500000027,
+          "Cash": 34.61500000027,
           "Tot. Income": 342609.4700000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 3057.635000000265,
+          "Cash Total": 3041.635000000265,
           "Name": "Resumen"
         }
       ]
@@ -2130,6 +2130,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3e6e6c72-cc72-812d-8a3e-e5ab72e8baeb",
+          "_url": "https://app.notion.com/p/agua-3e6e6c72cc72812d8a3ee5ab72e8baeb",
+          "_created": "2026-09-25T03:12:00.000Z",
+          "_edited": "2026-09-25T03:12:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-09-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1,
+          "Name": "agua"
+        },
+        {
+          "_id": "3e6e6c72-cc72-80ba-8cd7-daa52cc0cf4a",
+          "_url": "https://app.notion.com/p/Museo-3e6e6c72cc7280ba8cd7daa52cc0cf4a",
+          "_created": "2026-09-25T02:51:00.000Z",
+          "_edited": "2026-09-25T02:51:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 15,
+          "Name": "Museo"
+        },
         {
           "_id": "3e1e6c72-cc72-814f-a7d6-cac0e4ebc27e",
           "_url": "https://app.notion.com/p/place-3e1e6c72cc72814fa7d6cac0e4ebc27e",
