@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:06:00.864302+00:00",
+  "generated_at": "2026-09-25T20:26:39.769363+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -20186,6 +20186,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3e6e6c72-cc72-8151-b82d-ec194cfa2f3d",
+          "_url": "https://app.notion.com/p/agraria-3e6e6c72cc728151b82dec194cfa2f3d",
+          "_created": "2026-09-25T18:38:00.000Z",
+          "_edited": "2026-09-25T18:38:00.000Z",
+          "Date Created": {
+            "start": "2026-09-25",
+            "end": null
+          },
+          "Price": 77,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "agraria",
+          "Category": "Enjoy"
+        },
         {
           "_id": "3e4e6c72-cc72-81ee-b8a6-d08487a47778",
           "_url": "https://app.notion.com/p/creatina-3e4e6c72cc7281eeb8a6d08487a47778",
