@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T01:42:45.287663+00:00",
+  "generated_at": "2026-09-26T06:36:08.837010+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 24344.540000000005,
-          "Tot. Expenses": 342574.85500000033,
+          "Tot. Expenses": 344183.35500000033,
           "Total Papa": 3007.02,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27351.56,
@@ -140,8 +140,8 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 34.61500000027,
-          "Tot. Income": 342609.4700000006,
+          "Cash": 126.74500000027,
+          "Tot. Income": 344310.1000000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 3041.635000000265,
+          "Cash Total": 3133.765000000265,
           "Name": "Resumen"
         }
       ]
@@ -376,6 +376,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3e7e6c72-cc72-800f-a2ed-e6694c9fc12c",
+          "_url": "https://app.notion.com/p/finde-area-3e7e6c72cc72800fa2ede6694c9fc12c",
+          "_created": "2026-09-26T02:05:00.000Z",
+          "_edited": "2026-09-26T02:05:00.000Z",
+          "Date Received": {
+            "start": "2026-09-25",
+            "end": null
+          },
+          "Income": 1700.63,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "finde area"
+        },
         {
           "_id": "3dce6c72-cc72-80af-a685-c0f4cea580ca",
           "_url": "https://app.notion.com/p/quincena-tp-3dce6c72cc7280afa685c0f4cea580ca",
@@ -2130,6 +2145,125 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3e7e6c72-cc72-8093-b605-ef2885e03328",
+          "_url": "https://app.notion.com/p/pasajes-3e7e6c72cc728093b605ef2885e03328",
+          "_created": "2026-09-26T02:11:00.000Z",
+          "_edited": "2026-09-26T02:11:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-09-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 8.5,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "3e7e6c72-cc72-8151-b015-e22e262edcde",
+          "_url": "https://app.notion.com/p/pago-de-Bachiller-3e7e6c72cc728151b015e22e262edcde",
+          "_created": "2026-09-26T02:09:00.000Z",
+          "_edited": "2026-09-26T02:09:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2026-08-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 350,
+          "Name": "pago de Bachiller"
+        },
+        {
+          "_id": "3e7e6c72-cc72-8180-87f9-eba8ca5e093a",
+          "_url": "https://app.notion.com/p/Distrokid-3e7e6c72cc72818087f9eba8ca5e093a",
+          "_created": "2026-09-26T02:09:00.000Z",
+          "_edited": "2026-09-26T02:09:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 90,
+          "Name": "Distrokid"
+        },
+        {
+          "_id": "3e7e6c72-cc72-818a-94ee-ca533843db9c",
+          "_url": "https://app.notion.com/p/Madam-Tusan-saldo-pendiente-3e7e6c72cc72818a94eeca533843db9c",
+          "_created": "2026-09-26T02:09:00.000Z",
+          "_edited": "2026-09-26T02:09:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-22",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 10.21,
+          "Name": "Madam Tusan (saldo pendiente)"
+        },
+        {
+          "_id": "3e7e6c72-cc72-81d5-a0d8-f2c8012aea79",
+          "_url": "https://app.notion.com/p/almuerzo-provoca-3e7e6c72cc7281d5a0d8f2c8012aea79",
+          "_created": "2026-09-26T02:09:00.000Z",
+          "_edited": "2026-09-26T02:09:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-08-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 12,
+          "Name": "almuerzo provoca"
+        },
+        {
+          "_id": "3e7e6c72-cc72-81e1-ae3f-fee31e27e4db",
+          "_url": "https://app.notion.com/p/operacion-de-la-vista-pago-parcial-3e7e6c72cc7281e1ae3ffee31e27e4db",
+          "_created": "2026-09-26T02:09:00.000Z",
+          "_edited": "2026-09-26T02:09:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-08-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1028.79,
+          "Name": "operacion de la vista (pago parcial)"
+        },
+        {
+          "_id": "3e7e6c72-cc72-81f8-9cc0-dbd039357deb",
+          "_url": "https://app.notion.com/p/Win-Internet-3e7e6c72cc7281f89cc0dbd039357deb",
+          "_created": "2026-09-26T02:09:00.000Z",
+          "_edited": "2026-09-26T02:09:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-08-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 109,
+          "Name": "Win Internet"
+        },
         {
           "_id": "3e6e6c72-cc72-812d-8a3e-e5ab72e8baeb",
           "_url": "https://app.notion.com/p/agua-3e6e6c72cc72812d8a3ee5ab72e8baeb",
@@ -20186,6 +20320,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3e7e6c72-cc72-81a6-b8d9-e7bb030091b2",
+          "_url": "https://app.notion.com/p/proteina-para-day-3e7e6c72cc7281a6b8d9e7bb030091b2",
+          "_created": "2026-09-26T02:05:00.000Z",
+          "_edited": "2026-09-26T02:05:00.000Z",
+          "Date Created": {
+            "start": "2026-09-25",
+            "end": null
+          },
+          "Price": 240.4,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "proteina para day",
+          "Category": "Enjoy"
+        },
         {
           "_id": "3e6e6c72-cc72-8151-b82d-ec194cfa2f3d",
           "_url": "https://app.notion.com/p/agraria-3e6e6c72cc728151b82dec194cfa2f3d",
