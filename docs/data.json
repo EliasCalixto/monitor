@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T18:33:23.490675+00:00",
+  "generated_at": "2026-09-26T21:31:50.253881+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -20321,6 +20321,21 @@
       },
       "rows": [
         {
+          "_id": "3e7e6c72-cc72-81ae-84a9-fc724423a548",
+          "_url": "https://app.notion.com/p/pollito-con-amor-3e7e6c72cc7281ae84a9fc724423a548",
+          "_created": "2026-09-26T19:02:00.000Z",
+          "_edited": "2026-09-26T19:02:00.000Z",
+          "Date Created": {
+            "start": "2026-09-26",
+            "end": null
+          },
+          "Price": 74.6,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "pollito con amor",
+          "Category": "Enjoy"
+        },
+        {
           "_id": "3e7e6c72-cc72-81a6-b8d9-e7bb030091b2",
           "_url": "https://app.notion.com/p/proteina-para-day-3e7e6c72cc7281a6b8d9e7bb030091b2",
           "_created": "2026-09-26T02:05:00.000Z",
@@ -20547,17 +20562,17 @@
         },
         {
           "_id": "3cbe6c72-cc72-8147-b54f-d841344dc3ee",
-          "_url": "https://app.notion.com/p/operacion-de-la-vista-3cbe6c72cc728147b54fd841344dc3ee",
+          "_url": "https://app.notion.com/p/operacion-de-la-vista-saldo-pendiente-3cbe6c72cc728147b54fd841344dc3ee",
           "_created": "2026-08-29T17:40:00.000Z",
-          "_edited": "2026-08-29T17:40:00.000Z",
+          "_edited": "2026-09-26T19:01:00.000Z",
           "Date Created": {
             "start": "2026-08-29",
             "end": null
           },
-          "Price": 2670,
+          "Price": 1641.21,
           "Date Payed": null,
           "Status": "Pending",
-          "Name": "operacion de la vista",
+          "Name": "operacion de la vista (saldo pendiente)",
           "Category": "Personal"
         },
         {
@@ -20579,14 +20594,17 @@
           "_id": "3c8e6c72-cc72-80cf-94f1-e072529fa514",
           "_url": "https://app.notion.com/p/Distrokid-3c8e6c72cc7280cf94f1e072529fa514",
           "_created": "2026-08-26T23:35:00.000Z",
-          "_edited": "2026-08-26T23:35:00.000Z",
+          "_edited": "2026-09-26T19:01:00.000Z",
           "Date Created": {
             "start": "2026-08-26",
             "end": null
           },
           "Price": 90,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-09-26",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Distrokid",
           "Category": "Enjoy"
         },
@@ -20594,14 +20612,17 @@
           "_id": "3c8e6c72-cc72-81d6-8df2-e62d6988d208",
           "_url": "https://app.notion.com/p/almuerzo-provoca-3c8e6c72cc7281d68df2e62d6988d208",
           "_created": "2026-08-26T21:46:00.000Z",
-          "_edited": "2026-08-26T21:46:00.000Z",
+          "_edited": "2026-09-26T19:01:00.000Z",
           "Date Created": {
             "start": "2026-08-26",
             "end": null
           },
           "Price": 12,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-09-26",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "almuerzo provoca",
           "Category": "Fixed"
         },
@@ -20609,14 +20630,17 @@
           "_id": "3c8e6c72-cc72-8175-bddc-e143134cbfc4",
           "_url": "https://app.notion.com/p/pago-de-Bachiller-3c8e6c72cc728175bddce143134cbfc4",
           "_created": "2026-08-26T13:55:00.000Z",
-          "_edited": "2026-08-26T13:55:00.000Z",
+          "_edited": "2026-09-26T19:01:00.000Z",
           "Date Created": {
             "start": "2026-08-26",
             "end": null
           },
           "Price": 350,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-09-26",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "pago de Bachiller",
           "Category": "Studies"
         },
@@ -20624,14 +20648,17 @@
           "_id": "3c7e6c72-cc72-814e-9eed-d8c51bf318ff",
           "_url": "https://app.notion.com/p/Win-Internet-3c7e6c72cc72814e9eedd8c51bf318ff",
           "_created": "2026-08-25T22:52:00.000Z",
-          "_edited": "2026-08-25T22:52:00.000Z",
+          "_edited": "2026-09-26T19:01:00.000Z",
           "Date Created": {
             "start": "2026-08-25",
             "end": null
           },
           "Price": 109,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-09-26",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Win Internet",
           "Category": "Fixed"
         },
@@ -20639,14 +20666,17 @@
           "_id": "3c4e6c72-cc72-816a-8708-e7edee30f85f",
           "_url": "https://app.notion.com/p/Madam-Tusan-saldo-pendiente-3c4e6c72cc72816a8708e7edee30f85f",
           "_created": "2026-08-22T20:03:00.000Z",
-          "_edited": "2026-09-15T21:59:00.000Z",
+          "_edited": "2026-09-26T19:01:00.000Z",
           "Date Created": {
             "start": "2026-08-22",
             "end": null
           },
           "Price": 10.21,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-09-26",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Madam Tusan (saldo pendiente)",
           "Category": "Enjoy"
         },
