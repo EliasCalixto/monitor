@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T21:31:50.253881+00:00",
+  "generated_at": "2026-09-26T23:51:36.566362+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 24344.540000000005,
-          "Tot. Expenses": 344183.35500000033,
+          "Tot. Expenses": 344230.55500000034,
           "Total Papa": 3007.02,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27351.56,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 126.74500000027,
+          "Cash": 79.54500000026,
           "Tot. Income": 344310.1000000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 3133.765000000265,
+          "Cash Total": 3086.565000000255,
           "Name": "Resumen"
         }
       ]
@@ -2145,6 +2145,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3e7e6c72-cc72-8116-9d59-df53c9c8c80d",
+          "_url": "https://app.notion.com/p/fruta-3e7e6c72cc7281169d59df53c9c8c80d",
+          "_created": "2026-09-26T22:55:00.000Z",
+          "_edited": "2026-09-26T22:55:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 12.2,
+          "Name": "fruta"
+        },
+        {
+          "_id": "3e7e6c72-cc72-81d9-9cbb-deba439559ea",
+          "_url": "https://app.notion.com/p/cashout-3e7e6c72cc7281d99cbbdeba439559ea",
+          "_created": "2026-09-26T22:55:00.000Z",
+          "_edited": "2026-09-26T22:55:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-09-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 35,
+          "Name": "cashout"
+        },
         {
           "_id": "3e7e6c72-cc72-8093-b605-ef2885e03328",
           "_url": "https://app.notion.com/p/pasajes-3e7e6c72cc728093b605ef2885e03328",
@@ -20320,6 +20354,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3e7e6c72-cc72-8198-ac8f-d2ad7443af13",
+          "_url": "https://app.notion.com/p/gatorade-3e7e6c72cc728198ac8fd2ad7443af13",
+          "_created": "2026-09-26T22:55:00.000Z",
+          "_edited": "2026-09-26T22:55:00.000Z",
+          "Date Created": {
+            "start": "2026-09-26",
+            "end": null
+          },
+          "Price": 3.59,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "gatorade",
+          "Category": "Enjoy"
+        },
         {
           "_id": "3e7e6c72-cc72-81ae-84a9-fc724423a548",
           "_url": "https://app.notion.com/p/pollito-con-amor-3e7e6c72cc7281ae84a9fc724423a548",
