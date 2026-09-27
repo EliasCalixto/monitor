@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T20:22:58.548270+00:00",
+  "generated_at": "2026-09-27T23:10:06.970592+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -20354,6 +20354,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3e8e6c72-cc72-81eb-8306-d912266190eb",
+          "_url": "https://app.notion.com/p/viaje-a-mancora-con-familia-3e8e6c72cc7281eb8306d912266190eb",
+          "_created": "2026-09-27T21:11:00.000Z",
+          "_edited": "2026-09-27T21:11:00.000Z",
+          "Date Created": {
+            "start": "2026-09-27",
+            "end": null
+          },
+          "Price": 2513.11,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "viaje a mancora con familia",
+          "Category": "Enjoy"
+        },
         {
           "_id": "3e7e6c72-cc72-8198-ac8f-d2ad7443af13",
           "_url": "https://app.notion.com/p/gatorade-3e7e6c72cc728198ac8fd2ad7443af13",
