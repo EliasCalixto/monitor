@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T17:42:35.962261+00:00",
+  "generated_at": "2026-09-27T20:22:58.548270+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 24344.540000000005,
+          "SumGastosPapa": 24574.540000000005,
           "Tot. Expenses": 344230.55500000034,
-          "Total Papa": 3007.02,
+          "Total Papa": 2777.02,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27351.56,
           "Expenses": [
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 3086.565000000255,
+          "Cash Total": 2856.565000000255,
           "Name": "Resumen"
         }
       ]
@@ -23067,6 +23067,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3e8e6c72-cc72-81c7-88e5-e44bc1049950",
+          "_url": "https://app.notion.com/p/ayuno-y-diezmo-3e8e6c72cc7281c788e5e44bc1049950",
+          "_created": "2026-09-27T17:52:00.000Z",
+          "_edited": "2026-09-27T17:52:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-09-27",
+            "end": null
+          },
+          "Money": 230,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "ayuno y diezmo"
+        },
         {
           "_id": "3e5e6c72-cc72-8147-9b30-ddc81e77f3ee",
           "_url": "https://app.notion.com/p/plan-de-mama-3e5e6c72cc7281479b30ddc81e77f3ee",
