@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T23:10:06.970592+00:00",
+  "generated_at": "2026-09-28T01:36:18.724109+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 24574.540000000005,
-          "Tot. Expenses": 344230.55500000034,
-          "Total Papa": 2777.02,
+          "SumGastosPapa": 24773.440000000006,
+          "Tot. Expenses": 344252.45500000037,
+          "Total Papa": 2578.12,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27351.56,
           "Expenses": [
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 79.54500000026,
+          "Cash": 57.64500000023,
           "Tot. Income": 344310.1000000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2856.565000000255,
+          "Cash Total": 2635.765000000224,
           "Name": "Resumen"
         }
       ]
@@ -2145,6 +2145,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3e9e6c72-cc72-80bb-b114-ce75bd76fb4d",
+          "_url": "https://app.notion.com/p/taxi-a-clinica-3e9e6c72cc7280bbb114ce75bd76fb4d",
+          "_created": "2026-09-28T01:28:00.000Z",
+          "_edited": "2026-09-28T01:29:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-09-27",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 8.4,
+          "Name": "taxi a clinica"
+        },
+        {
+          "_id": "3e9e6c72-cc72-8046-a7a0-e9f87ec91482",
+          "_url": "https://app.notion.com/p/pasajes-Day-3e9e6c72cc728046a7a0e9f87ec91482",
+          "_created": "2026-09-28T01:21:00.000Z",
+          "_edited": "2026-09-28T01:21:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-09-27",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3,
+          "Name": "pasajes Day"
+        },
+        {
+          "_id": "3e9e6c72-cc72-8098-a530-cfef8bb6dc42",
+          "_url": "https://app.notion.com/p/cremas-para-almuerzo-3e9e6c72cc728098a530cfef8bb6dc42",
+          "_created": "2026-09-28T01:21:00.000Z",
+          "_edited": "2026-09-28T01:21:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-27",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 10.5,
+          "Name": "cremas para almuerzo"
+        },
         {
           "_id": "3e7e6c72-cc72-8116-9d59-df53c9c8c80d",
           "_url": "https://app.notion.com/p/fruta-3e7e6c72cc7281169d59df53c9c8c80d",
@@ -23082,6 +23133,91 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3e9e6c72-cc72-80cc-9691-e484272fc22b",
+          "_url": "https://app.notion.com/p/yapeo-mama-3e9e6c72cc7280cc9691e484272fc22b",
+          "_created": "2026-09-28T01:26:00.000Z",
+          "_edited": "2026-09-28T01:26:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-09-27",
+            "end": null
+          },
+          "Money": 10,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "yapeo mama"
+        },
+        {
+          "_id": "3e9e6c72-cc72-80f6-b4b8-f87ae20a2baf",
+          "_url": "https://app.notion.com/p/yapeo-papa-3e9e6c72cc7280f6b4b8f87ae20a2baf",
+          "_created": "2026-09-28T01:24:00.000Z",
+          "_edited": "2026-09-28T01:24:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-09-27",
+            "end": null
+          },
+          "Money": 80,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "yapeo papa"
+        },
+        {
+          "_id": "3e9e6c72-cc72-80ab-a2e8-e6f1051d9920",
+          "_url": "https://app.notion.com/p/yapeo-ma-3e9e6c72cc7280aba2e8e6f1051d9920",
+          "_created": "2026-09-28T01:23:00.000Z",
+          "_edited": "2026-09-28T01:23:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-09-27",
+            "end": null
+          },
+          "Money": 70,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "yapeo ma"
+        },
+        {
+          "_id": "3e9e6c72-cc72-806e-b8b7-c09544972e4b",
+          "_url": "https://app.notion.com/p/yapeo-ma-3e9e6c72cc72806eb8b7c09544972e4b",
+          "_created": "2026-09-28T01:22:00.000Z",
+          "_edited": "2026-09-28T01:23:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-09-27",
+            "end": null
+          },
+          "Money": 8.9,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "yapeo ma"
+        },
+        {
+          "_id": "3e9e6c72-cc72-8044-abd7-f4700924eb7a",
+          "_url": "https://app.notion.com/p/ayuno-ma-3e9e6c72cc728044abd7f4700924eb7a",
+          "_created": "2026-09-28T01:21:00.000Z",
+          "_edited": "2026-09-28T01:22:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-09-27",
+            "end": null
+          },
+          "Money": 30,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "ayuno ma"
+        },
         {
           "_id": "3e8e6c72-cc72-81c7-88e5-e44bc1049950",
           "_url": "https://app.notion.com/p/ayuno-y-diezmo-3e8e6c72cc7281c788e5e44bc1049950",
