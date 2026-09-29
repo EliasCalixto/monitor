@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T13:26:16.208704+00:00",
+  "generated_at": "2026-09-29T18:44:04.808932+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 24773.440000000006,
-          "Tot. Expenses": 344252.45500000037,
+          "Tot. Expenses": 346006.8150000004,
           "Total Papa": 2578.12,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27351.56,
@@ -140,8 +140,8 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 57.64500000023,
-          "Tot. Income": 344310.1000000006,
+          "Cash": 57.6450000002,
+          "Tot. Income": 346064.4600000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2635.765000000224,
+          "Cash Total": 2635.765000000194,
           "Name": "Resumen"
         }
       ]
@@ -376,6 +376,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3eae6c72-cc72-80ec-a169-d1977bfbc7fe",
+          "_url": "https://app.notion.com/p/Finde-tp-3eae6c72cc7280eca169d1977bfbc7fe",
+          "_created": "2026-09-29T17:35:00.000Z",
+          "_edited": "2026-09-29T17:35:00.000Z",
+          "Date Received": {
+            "start": "2026-09-29",
+            "end": null
+          },
+          "Income": 1754.36,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Finde tp"
+        },
         {
           "_id": "3e7e6c72-cc72-800f-a2ed-e6694c9fc12c",
           "_url": "https://app.notion.com/p/finde-area-3e7e6c72cc72800fa2ede6694c9fc12c",
@@ -2145,6 +2160,74 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3eae6c72-cc72-8105-8841-d778dcefac09",
+          "_url": "https://app.notion.com/p/bembos-familiar-3eae6c72cc7281058841d778dcefac09",
+          "_created": "2026-09-29T17:36:00.000Z",
+          "_edited": "2026-09-29T17:36:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 61.9,
+          "Name": "bembos familiar"
+        },
+        {
+          "_id": "3eae6c72-cc72-8184-ad1c-c4ab38c72474",
+          "_url": "https://app.notion.com/p/operacion-de-la-vista-saldo-pendiente-3eae6c72cc728184ad1cc4ab38c72474",
+          "_created": "2026-09-29T17:36:00.000Z",
+          "_edited": "2026-09-29T17:36:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-08-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1641.21,
+          "Name": "operacion de la vista (saldo pendiente)"
+        },
+        {
+          "_id": "3eae6c72-cc72-81b7-9622-e8b872e3dee7",
+          "_url": "https://app.notion.com/p/Sillon-Grifo-Ducha-tacho-pago-parcial-3eae6c72cc7281b79622e8b872e3dee7",
+          "_created": "2026-09-29T17:36:00.000Z",
+          "_edited": "2026-09-29T17:36:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-09-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 17.25,
+          "Name": "Sillon, Grifo, Ducha, tacho (pago parcial)"
+        },
+        {
+          "_id": "3eae6c72-cc72-81c8-be9b-e7c59c8fcb7b",
+          "_url": "https://app.notion.com/p/desayuno-en-barranco-3eae6c72cc7281c8be9be7c59c8fcb7b",
+          "_created": "2026-09-29T17:36:00.000Z",
+          "_edited": "2026-09-29T17:36:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-08-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 34,
+          "Name": "desayuno en barranco"
+        },
         {
           "_id": "3e9e6c72-cc72-80bb-b114-ce75bd76fb4d",
           "_url": "https://app.notion.com/p/taxi-a-clinica-3e9e6c72cc7280bbb114ce75bd76fb4d",
@@ -20647,31 +20730,34 @@
         },
         {
           "_id": "3cee6c72-cc72-807d-b44d-ee31bb8effaf",
-          "_url": "https://app.notion.com/p/Sillon-Grifo-Ducha-tacho-3cee6c72cc72807db44dee31bb8effaf",
+          "_url": "https://app.notion.com/p/Sillon-Grifo-Ducha-tacho-saldo-pendiente-3cee6c72cc72807db44dee31bb8effaf",
           "_created": "2026-09-01T21:36:00.000Z",
-          "_edited": "2026-09-01T21:37:00.000Z",
+          "_edited": "2026-09-29T17:36:00.000Z",
           "Date Created": {
             "start": "2026-09-01",
             "end": null
           },
-          "Price": 1511.6,
+          "Price": 1494.35,
           "Date Payed": null,
           "Status": "Pending",
-          "Name": "Sillon, Grifo, Ducha, tacho",
+          "Name": "Sillon, Grifo, Ducha, tacho (saldo pendiente)",
           "Category": "Home"
         },
         {
           "_id": "3cce6c72-cc72-814f-833f-f1332f5d384c",
           "_url": "https://app.notion.com/p/bembos-familiar-3cce6c72cc72814f833ff1332f5d384c",
           "_created": "2026-08-30T01:10:00.000Z",
-          "_edited": "2026-08-30T01:10:00.000Z",
+          "_edited": "2026-09-29T17:36:00.000Z",
           "Date Created": {
             "start": "2026-08-29",
             "end": null
           },
           "Price": 61.9,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-09-29",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "bembos familiar",
           "Category": "Enjoy"
         },
@@ -20679,14 +20765,17 @@
           "_id": "3cbe6c72-cc72-8147-b54f-d841344dc3ee",
           "_url": "https://app.notion.com/p/operacion-de-la-vista-saldo-pendiente-3cbe6c72cc728147b54fd841344dc3ee",
           "_created": "2026-08-29T17:40:00.000Z",
-          "_edited": "2026-09-26T19:01:00.000Z",
+          "_edited": "2026-09-29T17:36:00.000Z",
           "Date Created": {
             "start": "2026-08-29",
             "end": null
           },
           "Price": 1641.21,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-09-29",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "operacion de la vista (saldo pendiente)",
           "Category": "Personal"
         },
@@ -20694,14 +20783,17 @@
           "_id": "3cbe6c72-cc72-81b8-a067-e4f0a39f3c84",
           "_url": "https://app.notion.com/p/desayuno-en-barranco-3cbe6c72cc7281b8a067e4f0a39f3c84",
           "_created": "2026-08-29T15:54:00.000Z",
-          "_edited": "2026-09-14T16:55:00.000Z",
+          "_edited": "2026-09-29T17:36:00.000Z",
           "Date Created": {
             "start": "2026-08-29",
             "end": null
           },
           "Price": 34,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-09-29",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "desayuno en barranco",
           "Category": "Enjoy"
         },
