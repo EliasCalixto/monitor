@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T22:37:06.785266+00:00",
+  "generated_at": "2026-09-30T01:32:00.392645+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 24773.440000000006,
-          "Tot. Expenses": 346006.8150000004,
-          "Total Papa": 2578.12,
+          "SumGastosPapa": 25299.940000000006,
+          "Tot. Expenses": 346013.8150000004,
+          "Total Papa": 2051.62,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27351.56,
           "Expenses": [
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 57.6450000002,
+          "Cash": 50.6450000002,
           "Tot. Income": 346064.4600000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2635.765000000194,
+          "Cash Total": 2102.265000000194,
           "Name": "Resumen"
         }
       ]
@@ -2160,6 +2160,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3eae6c72-cc72-8164-af43-c91e3b7f9696",
+          "_url": "https://app.notion.com/p/queso-helado-3eae6c72cc728164af43c91e3b7f9696",
+          "_created": "2026-09-29T23:39:00.000Z",
+          "_edited": "2026-09-29T23:39:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 7,
+          "Name": "queso helado"
+        },
         {
           "_id": "3eae6c72-cc72-8105-8841-d778dcefac09",
           "_url": "https://app.notion.com/p/bembos-familiar-3eae6c72cc7281058841d778dcefac09",
@@ -20489,6 +20506,21 @@
       },
       "rows": [
         {
+          "_id": "3eae6c72-cc72-81a7-848f-ea622bd61324",
+          "_url": "https://app.notion.com/p/win-septiembre-3eae6c72cc7281a7848fea622bd61324",
+          "_created": "2026-09-29T23:37:00.000Z",
+          "_edited": "2026-09-29T23:37:00.000Z",
+          "Date Created": {
+            "start": "2026-09-29",
+            "end": null
+          },
+          "Price": 109,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "win septiembre",
+          "Category": "Fixed"
+        },
+        {
           "_id": "3e8e6c72-cc72-81eb-8306-d912266190eb",
           "_url": "https://app.notion.com/p/viaje-a-mancora-con-familia-3e8e6c72cc7281eb8306d912266190eb",
           "_created": "2026-09-27T21:11:00.000Z",
@@ -23225,6 +23257,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3ebe6c72-cc72-81bc-852d-fee87023ebb6",
+          "_url": "https://app.notion.com/p/gasto-de-papa-3ebe6c72cc7281bc852dfee87023ebb6",
+          "_created": "2026-09-30T01:02:00.000Z",
+          "_edited": "2026-09-30T01:02:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-09-29",
+            "end": null
+          },
+          "Money": 18,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "gasto de papa"
+        },
+        {
+          "_id": "3eae6c72-cc72-812c-b204-de089f526566",
+          "_url": "https://app.notion.com/p/yapes-3eae6c72cc72812cb204de089f526566",
+          "_created": "2026-09-29T23:40:00.000Z",
+          "_edited": "2026-09-29T23:40:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-09-29",
+            "end": null
+          },
+          "Money": 508.5,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "yapes"
+        },
         {
           "_id": "3e9e6c72-cc72-80cc-9691-e484272fc22b",
           "_url": "https://app.notion.com/p/yapeo-mama-3e9e6c72cc7280cc9691e484272fc22b",
@@ -26901,7 +26967,7 @@
     },
     {
       "id": "3c1e6c72-cc72-80b7-9c32-ca2c169358dd",
-      "title": "Rxdrx - 1970.20",
+      "title": "Rxdrx - 2020.20",
       "schema": {
         "Date": "date",
         "Money": "number",
