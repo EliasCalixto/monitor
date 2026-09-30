@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T01:32:00.392645+00:00",
+  "generated_at": "2026-09-30T07:23:47.369119+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 25299.940000000006,
-          "Tot. Expenses": 346013.8150000004,
+          "Tot. Expenses": 346009.8150000004,
           "Total Papa": 2051.62,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27351.56,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 50.6450000002,
+          "Cash": 54.6450000002,
           "Tot. Income": 346064.4600000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2102.265000000194,
+          "Cash Total": 2106.265000000194,
           "Name": "Resumen"
         }
       ]
@@ -2160,6 +2160,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3ebe6c72-cc72-8150-9377-f6cbb4093a47",
+          "_url": "https://app.notion.com/p/ganada-de-apuesta-3ebe6c72cc7281509377f6cbb4093a47",
+          "_created": "2026-09-30T01:38:00.000Z",
+          "_edited": "2026-09-30T01:39:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-09-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -4,
+          "Name": "ganada de apuesta"
+        },
         {
           "_id": "3eae6c72-cc72-8164-af43-c91e3b7f9696",
           "_url": "https://app.notion.com/p/queso-helado-3eae6c72cc728164af43c91e3b7f9696",
