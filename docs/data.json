@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T08:43:02.234193+00:00",
+  "generated_at": "2026-10-02T14:59:45.733458+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -140,8 +140,8 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 171.74500000017,
-          "Tot. Income": 346064.4600000006,
+          "Cash": 172.74500000017,
+          "Tot. Income": 346065.4600000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2190.365000000164,
+          "Cash Total": 2191.365000000164,
           "Name": "Resumen"
         }
       ]
@@ -376,6 +376,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3ede6c72-cc72-80d6-97c2-de1bd5334da3",
+          "_url": "https://app.notion.com/p/Pasajes-3ede6c72cc7280d697c2de1bd5334da3",
+          "_created": "2026-10-02T12:36:00.000Z",
+          "_edited": "2026-10-02T12:36:00.000Z",
+          "Date Received": {
+            "start": "2026-10-02",
+            "end": null
+          },
+          "Income": 1,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Pasajes"
+        },
         {
           "_id": "3eae6c72-cc72-80ec-a169-d1977bfbc7fe",
           "_url": "https://app.notion.com/p/Finde-tp-3eae6c72cc7280eca169d1977bfbc7fe",
