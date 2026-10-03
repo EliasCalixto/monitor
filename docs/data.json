@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T20:01:44.826838+00:00",
+  "generated_at": "2026-10-03T22:51:26.581019+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -238,9 +238,9 @@
           "_id": "3b0e6c72-cc72-8046-802a-d3c23e4d9319",
           "_url": "https://app.notion.com/p/Mamparas-3b0e6c72cc728046802ad3c23e4d9319",
           "_created": "2026-08-02T19:00:00.000Z",
-          "_edited": "2026-10-01T04:24:00.000Z",
+          "_edited": "2026-10-03T21:39:00.000Z",
           "Price": 2600,
-          "Status": "Urgent",
+          "Status": "Bought",
           "Details": "",
           "Name": "Mamparas"
         },
