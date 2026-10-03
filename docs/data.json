@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:27:09.436341+00:00",
+  "generated_at": "2026-10-03T20:01:44.826838+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -20690,6 +20690,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3eee6c72-cc72-81a9-8974-efefd6888a3b",
+          "_url": "https://app.notion.com/p/almuerzo-3eee6c72cc7281a98974efefd6888a3b",
+          "_created": "2026-10-03T17:32:00.000Z",
+          "_edited": "2026-10-03T17:32:00.000Z",
+          "Date Created": {
+            "start": "2026-10-03",
+            "end": null
+          },
+          "Price": 15,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "almuerzo",
+          "Category": "Fixed"
+        },
         {
           "_id": "3eee6c72-cc72-81c4-9bb3-c93f69e4898e",
           "_url": "https://app.notion.com/p/pedal-tremolo-3eee6c72cc7281c49bb3c93f69e4898e",
