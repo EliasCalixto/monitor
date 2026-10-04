@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T02:11:24.849111+00:00",
+  "generated_at": "2026-10-04T08:24:18.096569+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 25332.940000000006,
-          "Tot. Expenses": 346046.91500000044,
-          "Total Papa": 2018.62,
+          "SumGastosPapa": 25828.440000000006,
+          "Tot. Expenses": 346219.91500000044,
+          "Total Papa": 1523.12,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27351.56,
           "Expenses": [
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 18.54500000016,
+          "Cash": -154.45499999984,
           "Tot. Income": 346065.4600000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 2037.165000000154,
+          "Cash Total": 1368.665000000154,
           "Name": "Resumen"
         }
       ]
@@ -2175,6 +2175,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3efe6c72-cc72-81ae-ad40-f104b3b38d95",
+          "_url": "https://app.notion.com/p/cena-con-amigos-3efe6c72cc7281aead40f104b3b38d95",
+          "_created": "2026-10-04T03:48:00.000Z",
+          "_edited": "2026-10-04T03:48:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-03",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 173,
+          "Name": "cena con amigos"
+        },
         {
           "_id": "3eee6c72-cc72-8104-a9b7-c80c27a7528b",
           "_url": "https://app.notion.com/p/pasajes-3eee6c72cc728104a9b7c80c27a7528b",
@@ -23487,6 +23504,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3efe6c72-cc72-8135-a269-daf11dbe7f65",
+          "_url": "https://app.notion.com/p/yape-mama-3efe6c72cc728135a269daf11dbe7f65",
+          "_created": "2026-10-04T04:57:00.000Z",
+          "_edited": "2026-10-04T04:57:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-10-03",
+            "end": null
+          },
+          "Money": 85,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "yape mama"
+        },
+        {
+          "_id": "3efe6c72-cc72-8159-b2af-d98ec50c2b13",
+          "_url": "https://app.notion.com/p/yape-a-xesus-3efe6c72cc728159b2afd98ec50c2b13",
+          "_created": "2026-10-04T04:38:00.000Z",
+          "_edited": "2026-10-04T04:38:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-10-03",
+            "end": null
+          },
+          "Money": 410.5,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "yape a xesus"
+        },
         {
           "_id": "3ece6c72-cc72-8076-b009-c3dd063b8271",
           "_url": "https://app.notion.com/p/shimaya-3ece6c72cc728076b009c3dd063b8271",
