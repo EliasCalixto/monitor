@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T21:17:55.107668+00:00",
+  "generated_at": "2026-10-05T00:01:09.843931+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -20707,6 +20707,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3efe6c72-cc72-8157-be68-ddbf5620a160",
+          "_url": "https://app.notion.com/p/almuerzo-con-familia-3efe6c72cc728157be68ddbf5620a160",
+          "_created": "2026-10-04T22:28:00.000Z",
+          "_edited": "2026-10-04T22:28:00.000Z",
+          "Date Created": {
+            "start": "2026-10-04",
+            "end": null
+          },
+          "Price": 119.8,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "almuerzo con familia",
+          "Category": "Enjoy"
+        },
         {
           "_id": "3eee6c72-cc72-81a9-8974-efefd6888a3b",
           "_url": "https://app.notion.com/p/almuerzo-3eee6c72cc7281a98974efefd6888a3b",
