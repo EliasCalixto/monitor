@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T15:51:07.884237+00:00",
+  "generated_at": "2026-10-07T20:50:18.849799+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -20707,6 +20707,36 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3f2e6c72-cc72-8183-b076-d9f8d83935df",
+          "_url": "https://app.notion.com/p/cerave-crema-de-piel-3f2e6c72cc728183b076d9f8d83935df",
+          "_created": "2026-10-07T16:45:00.000Z",
+          "_edited": "2026-10-07T16:45:00.000Z",
+          "Date Created": {
+            "start": "2026-10-07",
+            "end": null
+          },
+          "Price": 44.91,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "cerave crema de piel",
+          "Category": "Personal"
+        },
+        {
+          "_id": "3f2e6c72-cc72-81f4-8350-ec58fa0ea26a",
+          "_url": "https://app.notion.com/p/mano-de-obra-para-mamparas-3f2e6c72cc7281f48350ec58fa0ea26a",
+          "_created": "2026-10-07T16:29:00.000Z",
+          "_edited": "2026-10-07T16:29:00.000Z",
+          "Date Created": {
+            "start": "2026-10-07",
+            "end": null
+          },
+          "Price": 336.3,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "mano de obra para mamparas",
+          "Category": "Home"
+        },
         {
           "_id": "3f2e6c72-cc72-810a-abda-c34d39b57b7f",
           "_url": "https://app.notion.com/p/sets-dota-2-3f2e6c72cc72810aabdac34d39b57b7f",
