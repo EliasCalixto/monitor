@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T20:50:18.849799+00:00",
+  "generated_at": "2026-10-08T00:28:42.568504+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -20707,6 +20707,36 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "3f2e6c72-cc72-819d-b25b-d418e3e6e46d",
+          "_url": "https://app.notion.com/p/almohada-para-descansar-en-viaje-3f2e6c72cc72819db25bd418e3e6e46d",
+          "_created": "2026-10-07T23:40:00.000Z",
+          "_edited": "2026-10-07T23:40:00.000Z",
+          "Date Created": {
+            "start": "2026-10-07",
+            "end": null
+          },
+          "Price": 89,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "almohada para descansar en viaje",
+          "Category": "Personal"
+        },
+        {
+          "_id": "3f2e6c72-cc72-81a1-aba3-ef4fec636d94",
+          "_url": "https://app.notion.com/p/arcana-de-TB-3f2e6c72cc7281a1aba3ef4fec636d94",
+          "_created": "2026-10-07T21:00:00.000Z",
+          "_edited": "2026-10-07T21:00:00.000Z",
+          "Date Created": {
+            "start": "2026-10-07",
+            "end": null
+          },
+          "Price": 127.42,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "arcana de TB",
+          "Category": "Enjoy"
+        },
         {
           "_id": "3f2e6c72-cc72-8183-b076-d9f8d83935df",
           "_url": "https://app.notion.com/p/cerave-crema-de-piel-3f2e6c72cc728183b076d9f8d83935df",
