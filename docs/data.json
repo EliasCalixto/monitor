@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T17:59:28.833694+00:00",
+  "generated_at": "2026-10-10T21:08:50.746261+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,11 +27,11 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 26371.440000000006,
-          "Tot. Expenses": 346300.46500000043,
-          "Total Papa": 980.12,
+          "SumGastosPapa": 26398.940000000006,
+          "Tot. Expenses": 346398.16500000044,
+          "Total Papa": 961.62,
           "Tot. Savings": 10000,
-          "SumIngresosPapa": 27351.56,
+          "SumIngresosPapa": 27360.56,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
             "34fe6c72-cc72-818b-a14d-f54df1618747",
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -236.00499999983,
+          "Cash": -333.70499999984,
           "Tot. Income": 346064.4600000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 744.115000000164,
+          "Cash Total": 627.915000000154,
           "Name": "Resumen"
         }
       ]
@@ -2160,6 +2160,125 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3f5e6c72-cc72-816b-ad1e-c9555e11b505",
+          "_url": "https://app.notion.com/p/inia-col-3f5e6c72cc72816bad1ec9555e11b505",
+          "_created": "2026-10-10T20:53:00.000Z",
+          "_edited": "2026-10-10T20:53:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 4,
+          "Name": "inia col"
+        },
+        {
+          "_id": "3f5e6c72-cc72-8146-a852-e726d5427b5c",
+          "_url": "https://app.notion.com/p/pasta-dental-3f5e6c72cc728146a852e726d5427b5c",
+          "_created": "2026-10-10T20:52:00.000Z",
+          "_edited": "2026-10-10T20:52:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-10-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 11.5,
+          "Name": "pasta dental"
+        },
+        {
+          "_id": "3f5e6c72-cc72-8157-8798-e9f1737a08a3",
+          "_url": "https://app.notion.com/p/shampoo-3f5e6c72cc7281578798e9f1737a08a3",
+          "_created": "2026-10-10T20:52:00.000Z",
+          "_edited": "2026-10-10T20:52:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-10-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 5,
+          "Name": "shampoo"
+        },
+        {
+          "_id": "3f5e6c72-cc72-8107-9e08-fb3c6647367a",
+          "_url": "https://app.notion.com/p/pasajes-3f5e6c72cc7281079e08fb3c6647367a",
+          "_created": "2026-10-10T20:51:00.000Z",
+          "_edited": "2026-10-10T20:51:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 16,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "3f5e6c72-cc72-810e-a566-c04c00bf0bcb",
+          "_url": "https://app.notion.com/p/presev-3f5e6c72cc72810ea566c04c00bf0bcb",
+          "_created": "2026-10-10T20:51:00.000Z",
+          "_edited": "2026-10-10T20:51:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 14.5,
+          "Name": "presev"
+        },
+        {
+          "_id": "3f5e6c72-cc72-81bd-89c8-f1334110a25c",
+          "_url": "https://app.notion.com/p/lugar-3f5e6c72cc7281bd89c8f1334110a25c",
+          "_created": "2026-10-10T20:51:00.000Z",
+          "_edited": "2026-10-10T20:51:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 45,
+          "Name": "lugar"
+        },
+        {
+          "_id": "3f5e6c72-cc72-8190-ba37-cb752a757cc0",
+          "_url": "https://app.notion.com/p/manzana-3f5e6c72cc728190ba37cb752a757cc0",
+          "_created": "2026-10-10T20:25:00.000Z",
+          "_edited": "2026-10-10T20:25:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-10",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1.7,
+          "Name": "manzana"
+        },
         {
           "_id": "3f4e6c72-cc72-812d-af44-f27b1a809b6d",
           "_url": "https://app.notion.com/p/pasajes-3f4e6c72cc72812daf44f27b1a809b6d",
@@ -23679,6 +23798,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3f5e6c72-cc72-8192-a91f-d4137013aa60",
+          "_url": "https://app.notion.com/p/Gasto-Papa-3f5e6c72cc728192a91fd4137013aa60",
+          "_created": "2026-10-10T20:50:00.000Z",
+          "_edited": "2026-10-10T20:50:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-10-10",
+            "end": null
+          },
+          "Money": 3.5,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Gasto Papa"
+        },
+        {
+          "_id": "3f5e6c72-cc72-81a2-b4c4-c9b412609d6a",
+          "_url": "https://app.notion.com/p/Baile-de-Mikalah-3f5e6c72cc7281a2b4c4c9b412609d6a",
+          "_created": "2026-10-10T20:50:00.000Z",
+          "_edited": "2026-10-10T20:50:00.000Z",
+          "Total Ingresos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Type": "Ingreso",
+          "Date Created": {
+            "start": "2026-10-10",
+            "end": null
+          },
+          "Money": 9,
+          "Total Gastos Papa": [],
+          "Name": "Baile de Mikalah"
+        },
+        {
+          "_id": "3f5e6c72-cc72-81b2-b8ba-f5eb561a277e",
+          "_url": "https://app.notion.com/p/Yapeo-a-Efra-3f5e6c72cc7281b2b8baf5eb561a277e",
+          "_created": "2026-10-10T20:24:00.000Z",
+          "_edited": "2026-10-10T20:24:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-10-10",
+            "end": null
+          },
+          "Money": 24,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Yapeo a Efra"
+        },
         {
           "_id": "3f4e6c72-cc72-812e-96c8-ee7000492c65",
           "_url": "https://app.notion.com/p/pension-de-mikalah-3f4e6c72cc72812e96c8ee7000492c65",
