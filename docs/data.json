@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T21:39:55.023151+00:00",
+  "generated_at": "2026-10-10T01:13:25.095938+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 25978.440000000006,
-          "Tot. Expenses": 346297.46500000043,
-          "Total Papa": 1373.12,
+          "SumGastosPapa": 26371.440000000006,
+          "Tot. Expenses": 346300.46500000043,
+          "Total Papa": 980.12,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27351.56,
           "Expenses": [
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -233.00499999983,
+          "Cash": -236.00499999983,
           "Tot. Income": 346064.4600000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 1140.115000000164,
+          "Cash Total": 744.115000000164,
           "Name": "Resumen"
         }
       ]
@@ -2160,6 +2160,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3f4e6c72-cc72-812d-af44-f27b1a809b6d",
+          "_url": "https://app.notion.com/p/pasajes-3f4e6c72cc72812daf44f27b1a809b6d",
+          "_created": "2026-10-09T23:14:00.000Z",
+          "_edited": "2026-10-09T23:14:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3,
+          "Name": "pasajes"
+        },
         {
           "_id": "3f4e6c72-cc72-81ac-b3d5-fdcad811295a",
           "_url": "https://app.notion.com/p/pollito-a-la-brasa-3f4e6c72cc7281acb3d5fdcad811295a",
@@ -23662,6 +23679,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3f4e6c72-cc72-812e-96c8-ee7000492c65",
+          "_url": "https://app.notion.com/p/pension-de-mikalah-3f4e6c72cc72812e96c8ee7000492c65",
+          "_created": "2026-10-09T23:13:00.000Z",
+          "_edited": "2026-10-09T23:13:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-10-09",
+            "end": null
+          },
+          "Money": 393,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "pension de mikalah"
+        },
         {
           "_id": "3f3e6c72-cc72-81bb-b167-fa126611a5bd",
           "_url": "https://app.notion.com/p/gasto-de-papa-3f3e6c72cc7281bbb167fa126611a5bd",
