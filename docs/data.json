@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T11:19:51.888816+00:00",
+  "generated_at": "2026-10-12T20:20:29.491586+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 26498.940000000006,
-          "Tot. Expenses": 346427.16500000044,
+          "Tot. Expenses": 347645.5150000004,
           "Total Papa": 861.62,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27360.56,
@@ -140,8 +140,8 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -362.70499999984,
-          "Tot. Income": 346064.4600000006,
+          "Cash": 125.9150000002,
+          "Tot. Income": 347771.4300000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 498.915000000154,
+          "Cash Total": 987.535000000194,
           "Name": "Resumen"
         }
       ]
@@ -376,6 +376,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3f7e6c72-cc72-80c0-9c40-d264ddfec776",
+          "_url": "https://app.notion.com/p/Quincena-area-3f7e6c72cc7280c09c40d264ddfec776",
+          "_created": "2026-10-12T19:28:00.000Z",
+          "_edited": "2026-10-12T19:28:00.000Z",
+          "Date Received": {
+            "start": "2026-10-12",
+            "end": null
+          },
+          "Income": 1706.97,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Quincena area"
+        },
         {
           "_id": "3eae6c72-cc72-80ec-a169-d1977bfbc7fe",
           "_url": "https://app.notion.com/p/Finde-tp-3eae6c72cc7280eca169d1977bfbc7fe",
@@ -2160,6 +2175,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3f7e6c72-cc72-80ce-8a78-c0f2165366aa",
+          "_url": "https://app.notion.com/p/Zuco-y-canchita-3f7e6c72cc7280ce8a78c0f2165366aa",
+          "_created": "2026-10-12T19:31:00.000Z",
+          "_edited": "2026-10-12T19:32:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2.8,
+          "Name": "Zuco y canchita"
+        },
+        {
+          "_id": "3f7e6c72-cc72-80b3-81a6-d50c4016ce81",
+          "_url": "https://app.notion.com/p/Cuota-a-banco-3f7e6c72cc7280b381a6d50c4016ce81",
+          "_created": "2026-10-12T19:28:00.000Z",
+          "_edited": "2026-10-12T19:29:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-10-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1215.55,
+          "Name": "Cuota a banco"
+        },
         {
           "_id": "3f6e6c72-cc72-8079-ae52-f9e9accdc314",
           "_url": "https://app.notion.com/p/pasajes-3f6e6c72cc728079ae52f9e9accdc314",
