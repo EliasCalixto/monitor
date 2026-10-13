@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T09:20:17.038576+00:00",
+  "generated_at": "2026-10-13T17:01:16.062460+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 26498.940000000006,
-          "Tot. Expenses": 347645.5150000004,
-          "Total Papa": 861.62,
+          "SumGastosPapa": 26518.940000000006,
+          "Tot. Expenses": 347643.59500000044,
+          "Total Papa": 841.62,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27360.56,
           "Expenses": [
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 125.9150000002,
+          "Cash": 127.83500000016,
           "Tot. Income": 347771.4300000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 987.535000000194,
+          "Cash Total": 969.455000000154,
           "Name": "Resumen"
         }
       ]
@@ -2175,6 +2175,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3f8e6c72-cc72-80a7-a26a-d879f67d68e7",
+          "_url": "https://app.notion.com/p/devolucion-pago-a-banco-3f8e6c72cc7280a7a26ad879f67d68e7",
+          "_created": "2026-10-13T14:07:00.000Z",
+          "_edited": "2026-10-13T14:08:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-10-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -1.92,
+          "Name": "devolucion pago a banco"
+        },
         {
           "_id": "3f7e6c72-cc72-80ce-8a78-c0f2165366aa",
           "_url": "https://app.notion.com/p/Zuco-y-canchita-3f7e6c72cc7280ce8a78c0f2165366aa",
@@ -23911,6 +23928,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3f8e6c72-cc72-8150-aa91-d4f06d72ad5b",
+          "_url": "https://app.notion.com/p/gasto-de-papa-3f8e6c72cc728150aa91d4f06d72ad5b",
+          "_created": "2026-10-13T16:01:00.000Z",
+          "_edited": "2026-10-13T16:01:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-10-13",
+            "end": null
+          },
+          "Money": 20,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "gasto de papa"
+        },
         {
           "_id": "3f7e6c72-cc72-81e7-817a-d6ad63486269",
           "_url": "https://app.notion.com/p/yapeo-a-hector-3f7e6c72cc7281e7817ad6ad63486269",
