@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T21:49:05.950175+00:00",
+  "generated_at": "2026-10-14T00:39:36.225285+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -23886,15 +23886,6 @@
           "Type": "Auto",
           "Price": 17.9,
           "Name": "YouTube"
-        },
-        {
-          "_id": "350e6c72-cc72-8069-b276-fe69c8b3bf73",
-          "_url": "https://app.notion.com/p/Claude-350e6c72cc728069b276fe69c8b3bf73",
-          "_created": "2026-04-28T02:31:00.000Z",
-          "_edited": "2026-07-31T15:22:00.000Z",
-          "Type": "Auto",
-          "Price": 80.64,
-          "Name": "Claude"
         },
         {
           "_id": "350e6c72-cc72-8039-a03a-ccef718e578c",
