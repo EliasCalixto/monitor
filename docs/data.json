@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T14:28:53.833447+00:00",
+  "generated_at": "2026-10-15T18:28:41.583749+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 26683.940000000006,
-          "Tot. Expenses": 347643.59500000044,
+          "Tot. Expenses": 348563.59500000044,
           "Total Papa": 676.62,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27360.56,
@@ -141,7 +141,7 @@
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
           "Cash": 127.83500000016,
-          "Tot. Income": 347771.4300000006,
+          "Tot. Income": 348691.4300000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -376,6 +376,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3fae6c72-cc72-8098-8e75-dd9e2f5fa6ce",
+          "_url": "https://app.notion.com/p/Quincena-TP-3fae6c72cc7280988e75dd9e2f5fa6ce",
+          "_created": "2026-10-15T14:57:00.000Z",
+          "_edited": "2026-10-15T14:57:00.000Z",
+          "Date Received": {
+            "start": "2026-10-15",
+            "end": null
+          },
+          "Income": 920,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Quincena TP"
+        },
         {
           "_id": "3f7e6c72-cc72-80c0-9c40-d264ddfec776",
           "_url": "https://app.notion.com/p/Quincena-area-3f7e6c72cc7280c09c40d264ddfec776",
@@ -2175,6 +2190,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3fae6c72-cc72-815b-84c0-e22ec64eee06",
+          "_url": "https://app.notion.com/p/Sillon-Grifo-Ducha-tacho-pago-parcial-3fae6c72cc72815b84c0e22ec64eee06",
+          "_created": "2026-10-15T15:02:00.000Z",
+          "_edited": "2026-10-15T15:03:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-09-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 920,
+          "Name": "Sillon, Grifo, Ducha, tacho (pago parcial)"
+        },
         {
           "_id": "3f8e6c72-cc72-80a7-a26a-d879f67d68e7",
           "_url": "https://app.notion.com/p/devolucion-pago-a-banco-3f8e6c72cc7280a7a26ad879f67d68e7",
@@ -21435,12 +21467,12 @@
           "_id": "3cee6c72-cc72-807d-b44d-ee31bb8effaf",
           "_url": "https://app.notion.com/p/Sillon-Grifo-Ducha-tacho-saldo-pendiente-3cee6c72cc72807db44dee31bb8effaf",
           "_created": "2026-09-01T21:36:00.000Z",
-          "_edited": "2026-09-29T17:36:00.000Z",
+          "_edited": "2026-10-15T15:04:00.000Z",
           "Date Created": {
             "start": "2026-09-01",
             "end": null
           },
-          "Price": 1494.35,
+          "Price": 574.35,
           "Date Payed": null,
           "Status": "Pending",
           "Name": "Sillon, Grifo, Ducha, tacho (saldo pendiente)",
