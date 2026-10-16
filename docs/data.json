@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T23:49:36.857115+00:00",
+  "generated_at": "2026-10-16T01:45:25.770447+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 26813.940000000006,
-          "Tot. Expenses": 348610.59500000044,
-          "Total Papa": 546.62,
+          "SumGastosPapa": 26833.940000000006,
+          "Tot. Expenses": 348615.59500000044,
+          "Total Papa": 526.62,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27360.56,
           "Expenses": [
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 80.83500000016,
+          "Cash": 75.83500000016,
           "Tot. Income": 348691.4300000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 627.455000000154,
+          "Cash Total": 602.455000000154,
           "Name": "Resumen"
         }
       ]
@@ -2190,6 +2190,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3fbe6c72-cc72-81d4-bc4f-c008f2e4467b",
+          "_url": "https://app.notion.com/p/pasajes-3fbe6c72cc7281d4bc4fc008f2e4467b",
+          "_created": "2026-10-16T01:21:00.000Z",
+          "_edited": "2026-10-16T01:22:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-15",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 5,
+          "Name": "pasajes"
+        },
         {
           "_id": "3fae6c72-cc72-811c-8974-ed78af1b189c",
           "_url": "https://app.notion.com/p/mano-de-obra-de-tecnico-3fae6c72cc72811c8974ed78af1b189c",
@@ -21063,6 +21080,21 @@
       },
       "rows": [
         {
+          "_id": "3fbe6c72-cc72-811c-847e-f76e3c85dc79",
+          "_url": "https://app.notion.com/p/graduacion-3fbe6c72cc72811c847ef76e3c85dc79",
+          "_created": "2026-10-16T00:38:00.000Z",
+          "_edited": "2026-10-16T00:38:00.000Z",
+          "Date Created": {
+            "start": "2026-10-15",
+            "end": null
+          },
+          "Price": 420,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "graduacion",
+          "Category": "Studies"
+        },
+        {
           "_id": "3f6e6c72-cc72-8126-a250-eec6d5f8c7c1",
           "_url": "https://app.notion.com/p/tapetes-3f6e6c72cc728126a250eec6d5f8c7c1",
           "_created": "2026-10-11T20:01:00.000Z",
@@ -23985,6 +24017,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3fbe6c72-cc72-814a-bf14-d3b486795b7c",
+          "_url": "https://app.notion.com/p/broster-3fbe6c72cc72814abf14d3b486795b7c",
+          "_created": "2026-10-16T01:25:00.000Z",
+          "_edited": "2026-10-16T01:25:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-10-15",
+            "end": null
+          },
+          "Money": 20,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "broster"
+        },
         {
           "_id": "3fae6c72-cc72-81b1-a5ba-e42acdf9d0d6",
           "_url": "https://app.notion.com/p/yapeo-a-hector-3fae6c72cc7281b1a5bae42acdf9d0d6",
