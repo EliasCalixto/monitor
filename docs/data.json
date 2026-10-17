@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T17:21:19.147492+00:00",
+  "generated_at": "2026-10-17T19:32:01.652638+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 26833.940000000006,
-          "Tot. Expenses": 348615.59500000044,
+          "Tot. Expenses": 348750.8950000004,
           "Total Papa": 526.62,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27360.56,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 75.83500000016,
+          "Cash": -59.4649999998,
           "Tot. Income": 348691.4300000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 602.455000000154,
+          "Cash Total": 467.155000000194,
           "Name": "Resumen"
         }
       ]
@@ -2190,6 +2190,108 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3fce6c72-cc72-8105-81a6-d5a766d9c2fc",
+          "_url": "https://app.notion.com/p/broster-y-agua-3fce6c72cc72810581a6d5a766d9c2fc",
+          "_created": "2026-10-17T19:06:00.000Z",
+          "_edited": "2026-10-17T19:06:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-17",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 12,
+          "Name": "broster y agua"
+        },
+        {
+          "_id": "3fce6c72-cc72-8127-92bb-e7a196928bb8",
+          "_url": "https://app.notion.com/p/presc-3fce6c72cc72812792bbe7a196928bb8",
+          "_created": "2026-10-17T19:06:00.000Z",
+          "_edited": "2026-10-17T19:06:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-17",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 14,
+          "Name": "presc"
+        },
+        {
+          "_id": "3fce6c72-cc72-8143-a306-ce7da76f5209",
+          "_url": "https://app.notion.com/p/pasajes-3fce6c72cc728143a306ce7da76f5209",
+          "_created": "2026-10-17T19:06:00.000Z",
+          "_edited": "2026-10-17T19:06:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-17",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 18,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "3fce6c72-cc72-8175-870e-fde92c618f25",
+          "_url": "https://app.notion.com/p/lugar-3fce6c72cc728175870efde92c618f25",
+          "_created": "2026-10-17T19:06:00.000Z",
+          "_edited": "2026-10-17T19:06:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-17",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 60,
+          "Name": "lugar"
+        },
+        {
+          "_id": "3fce6c72-cc72-8194-8a4d-d0ada668d5f0",
+          "_url": "https://app.notion.com/p/pasajes-3fce6c72cc7281948a4dd0ada668d5f0",
+          "_created": "2026-10-17T19:06:00.000Z",
+          "_edited": "2026-10-17T19:06:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-17",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2.3,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "3fce6c72-cc72-81f4-8180-cf614e7debd1",
+          "_url": "https://app.notion.com/p/pasajes-3fce6c72cc7281f48180cf614e7debd1",
+          "_created": "2026-10-17T19:06:00.000Z",
+          "_edited": "2026-10-17T19:06:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-17",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 29,
+          "Name": "pasajes"
+        },
         {
           "_id": "3fbe6c72-cc72-81d4-bc4f-c008f2e4467b",
           "_url": "https://app.notion.com/p/pasajes-3fbe6c72cc7281d4bc4fc008f2e4467b",
