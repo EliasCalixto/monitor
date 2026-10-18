@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T16:53:20.328038+00:00",
+  "generated_at": "2026-10-18T19:01:57.525740+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 27133.940000000006,
+          "SumGastosPapa": 27173.890000000007,
           "Tot. Expenses": 348870.8950000004,
-          "Total Papa": 774.92,
+          "Total Papa": 734.97,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
           "Expenses": [
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 595.455000000194,
+          "Cash Total": 555.505000000193,
           "Name": "Resumen"
         }
       ]
@@ -24136,6 +24136,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3fde6c72-cc72-8103-8ade-e559e823daf5",
+          "_url": "https://app.notion.com/p/pago-bitel-3fde6c72cc7281038adee559e823daf5",
+          "_created": "2026-10-18T17:06:00.000Z",
+          "_edited": "2026-10-18T17:06:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-10-18",
+            "end": null
+          },
+          "Money": 39.95,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "pago bitel"
+        },
         {
           "_id": "3fce6c72-cc72-8140-8027-d010cc61c8ba",
           "_url": "https://app.notion.com/p/transferencia-a-cuenta-bcp-3fce6c72cc7281408027d010cc61c8ba",
