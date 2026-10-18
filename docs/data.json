@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T21:27:05.463451+00:00",
+  "generated_at": "2026-10-18T23:25:09.816979+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27318.890000000007,
-          "Tot. Expenses": 348959.3950000004,
+          "Tot. Expenses": 349059.3950000004,
           "Total Papa": 589.97,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -267.9649999998,
+          "Cash": -367.9649999998,
           "Tot. Income": 348691.4300000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 322.005000000193,
+          "Cash Total": 222.005000000193,
           "Name": "Resumen"
         }
       ]
@@ -2190,6 +2190,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3fde6c72-cc72-81e3-9683-d401cb9fd765",
+          "_url": "https://app.notion.com/p/arreglo-de-foco-3fde6c72cc7281e39683d401cb9fd765",
+          "_created": "2026-10-18T22:36:00.000Z",
+          "_edited": "2026-10-18T22:36:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-10-18",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 100,
+          "Name": "arreglo de foco"
+        },
         {
           "_id": "3fde6c72-cc72-815f-8d44-ce49c174b85b",
           "_url": "https://app.notion.com/p/ajuste-de-cuadre-yape-3fde6c72cc72815f8d44ce49c174b85b",
