@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T15:51:31.594641+00:00",
+  "generated_at": "2026-10-20T19:39:42.732390+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -21177,6 +21177,21 @@
       },
       "rows": [
         {
+          "_id": "3ffe6c72-cc72-8127-ba6a-e254ff9479b1",
+          "_url": "https://app.notion.com/p/almuerzo-3ffe6c72cc728127ba6ae254ff9479b1",
+          "_created": "2026-10-20T18:01:00.000Z",
+          "_edited": "2026-10-20T18:01:00.000Z",
+          "Date Created": {
+            "start": "2026-10-20",
+            "end": null
+          },
+          "Price": 15.5,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "almuerzo",
+          "Category": "Fixed"
+        },
+        {
           "_id": "3ffe6c72-cc72-8128-87b8-c78722446e26",
           "_url": "https://app.notion.com/p/ajinomen-3ffe6c72cc72812887b8c78722446e26",
           "_created": "2026-10-20T13:54:00.000Z",
@@ -28246,7 +28261,7 @@
     },
     {
       "id": "3ffe6c72-cc72-8015-80d2-da3a0ec7c24e",
-      "title": "Day - 2850",
+      "title": "Day - 3550",
       "schema": {
         "Date": "date",
         "Money": "number",
