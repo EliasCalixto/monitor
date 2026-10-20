@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T01:29:32.332189+00:00",
+  "generated_at": "2026-10-20T06:18:31.068014+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27368.890000000007,
-          "Tot. Expenses": 349125.49500000046,
+          "Tot. Expenses": 349142.49500000046,
           "Total Papa": 539.97,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -434.06499999986,
+          "Cash": -451.06499999986,
           "Tot. Income": 348691.4300000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,200 +169,8 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 105.905000000133,
+          "Cash Total": 88.905000000133,
           "Name": "Resumen"
-        }
-      ]
-    },
-    {
-      "id": "262e6c72-cc72-80d6-90ac-ef7a711d53bc",
-      "title": "To Buy",
-      "schema": {
-        "Price": "number",
-        "Status": "status",
-        "Details": "rich_text",
-        "Name": "title"
-      },
-      "rows": [
-        {
-          "_id": "3cde6c72-cc72-8009-8736-f80ab164182f",
-          "_url": "https://app.notion.com/p/Sillon-3cde6c72cc7280098736f80ab164182f",
-          "_created": "2026-08-31T09:29:00.000Z",
-          "_edited": "2026-09-01T21:36:00.000Z",
-          "Price": 900,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Sillon"
-        },
-        {
-          "_id": "3cce6c72-cc72-80c7-bdcd-d251c5479740",
-          "_url": "https://app.notion.com/p/Cable-ethernet-3cce6c72cc7280c7bdcdd251c5479740",
-          "_created": "2026-08-30T21:45:00.000Z",
-          "_edited": "2026-09-01T20:15:00.000Z",
-          "Price": 30,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Cable ethernet"
-        },
-        {
-          "_id": "3cce6c72-cc72-8051-8c04-fde2cb493d56",
-          "_url": "https://app.notion.com/p/Tacho-3cce6c72cc7280518c04fde2cb493d56",
-          "_created": "2026-08-30T03:10:00.000Z",
-          "_edited": "2026-09-01T20:16:00.000Z",
-          "Price": 20,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Tacho"
-        },
-        {
-          "_id": "3cbe6c72-cc72-80fe-98d6-dfe547d4e3cd",
-          "_url": "https://app.notion.com/p/Socket-3cbe6c72cc7280fe98d6dfe547d4e3cd",
-          "_created": "2026-08-29T18:35:00.000Z",
-          "_edited": "2026-09-20T07:53:00.000Z",
-          "Price": 15,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Socket"
-        },
-        {
-          "_id": "3cbe6c72-cc72-808b-ae2f-d253716d2fd0",
-          "_url": "https://app.notion.com/p/Tapete-para-ducha-x2-3cbe6c72cc72808bae2fd253716d2fd0",
-          "_created": "2026-08-29T18:32:00.000Z",
-          "_edited": "2026-10-11T20:01:00.000Z",
-          "Price": 30.7,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Tapete para ducha x2"
-        },
-        {
-          "_id": "3b0e6c72-cc72-8046-802a-d3c23e4d9319",
-          "_url": "https://app.notion.com/p/Mamparas-3b0e6c72cc728046802ad3c23e4d9319",
-          "_created": "2026-08-02T19:00:00.000Z",
-          "_edited": "2026-10-03T21:39:00.000Z",
-          "Price": 2600,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Mamparas"
-        },
-        {
-          "_id": "3a5e6c72-cc72-8058-a173-ed2a99e0f357",
-          "_url": "https://app.notion.com/p/Camisas-Blancas-x5-3a5e6c72cc728058a173ed2a99e0f357",
-          "_created": "2026-07-22T13:57:00.000Z",
-          "_edited": "2026-08-01T15:35:00.000Z",
-          "Price": 150,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Camisas Blancas x5"
-        },
-        {
-          "_id": "3a1e6c72-cc72-802b-82fb-f4472dce90df",
-          "_url": "https://app.notion.com/p/Studio-Mano-de-Obra-3a1e6c72cc72802b82fbf4472dce90df",
-          "_created": "2026-07-18T21:26:00.000Z",
-          "_edited": "2026-08-01T15:35:00.000Z",
-          "Price": 400,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Studio Mano de Obra"
-        },
-        {
-          "_id": "39be6c72-cc72-80d0-aedb-e7aee35fe8c6",
-          "_url": "https://app.notion.com/p/Operaci-n-de-ojos-39be6c72cc7280d0aedbe7aee35fe8c6",
-          "_created": "2026-07-12T16:10:00.000Z",
-          "_edited": "2026-08-29T18:32:00.000Z",
-          "Price": 2600,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Operación de ojos"
-        },
-        {
-          "_id": "38be6c72-cc72-8051-8334-c76c1cea86fd",
-          "_url": "https://app.notion.com/p/Luminarias-e-Interruptores-38be6c72cc7280518334c76c1cea86fd",
-          "_created": "2026-06-26T14:58:00.000Z",
-          "_edited": "2026-07-22T14:19:00.000Z",
-          "Price": 200,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Luminarias e Interruptores"
-        },
-        {
-          "_id": "32ae6c72-cc72-80be-9205-cd7636595f5d",
-          "_url": "https://app.notion.com/p/Recuerdo-para-familia-32ae6c72cc7280be9205cd7636595f5d",
-          "_created": "2026-03-21T21:59:00.000Z",
-          "_edited": "2026-03-27T04:30:00.000Z",
-          "Price": 100,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Recuerdo para familia"
-        },
-        {
-          "_id": "318e6c72-cc72-80c2-947b-fca59cc7bb39",
-          "_url": "https://app.notion.com/p/Zapatillas-blancas-x1-318e6c72cc7280c2947bfca59cc7bb39",
-          "_created": "2026-03-03T02:17:00.000Z",
-          "_edited": "2026-03-17T17:04:00.000Z",
-          "Price": 400,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Zapatillas blancas x1"
-        },
-        {
-          "_id": "2e6e6c72-cc72-8001-9e59-ce1d36dd078d",
-          "_url": "https://app.notion.com/p/Guitarra-Acoustica-2e6e6c72cc7280019e59ce1d36dd078d",
-          "_created": "2026-01-12T02:23:00.000Z",
-          "_edited": "2026-01-13T16:33:00.000Z",
-          "Price": 900,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Guitarra Acoustica"
-        },
-        {
-          "_id": "2e0e6c72-cc72-80b4-8e15-f90092179bd3",
-          "_url": "https://app.notion.com/p/Zapatillas-blancas-x2-2e0e6c72cc7280b48e15f90092179bd3",
-          "_created": "2026-01-06T00:59:00.000Z",
-          "_edited": "2026-04-26T06:52:00.000Z",
-          "Price": 700,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Zapatillas blancas x2"
-        },
-        {
-          "_id": "2c5e6c72-cc72-80f0-bf1b-fad2d3d99a49",
-          "_url": "https://app.notion.com/p/Polos-blancos-x2-2c5e6c72cc7280f0bf1bfad2d3d99a49",
-          "_created": "2025-12-10T03:51:00.000Z",
-          "_edited": "2025-12-23T00:17:00.000Z",
-          "Price": 150,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Polos blancos x2"
-        },
-        {
-          "_id": "2c5e6c72-cc72-800c-94b9-ce4c04db43d8",
-          "_url": "https://app.notion.com/p/Medias-x3-2c5e6c72cc72800c94b9ce4c04db43d8",
-          "_created": "2025-12-10T03:51:00.000Z",
-          "_edited": "2025-12-23T00:14:00.000Z",
-          "Price": 100,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Medias x3"
-        },
-        {
-          "_id": "2c5e6c72-cc72-80c3-a728-d5a9de4bb316",
-          "_url": "https://app.notion.com/p/Zapatos-Comodos-2c5e6c72cc7280c3a728d5a9de4bb316",
-          "_created": "2025-12-10T03:50:00.000Z",
-          "_edited": "2025-12-22T19:55:00.000Z",
-          "Price": 300,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Zapatos Comodos"
-        },
-        {
-          "_id": "262e6c72-cc72-8051-8fa3-de6209a64474",
-          "_url": "https://app.notion.com/p/Casaca-x2-262e6c72cc7280518fa3de6209a64474",
-          "_created": "2025-09-02T17:57:00.000Z",
-          "_edited": "2025-09-04T03:28:00.000Z",
-          "Price": 400,
-          "Status": "Bought",
-          "Details": "",
-          "Name": "Casaca x2"
         }
       ]
     },
@@ -2190,6 +1998,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3ffe6c72-cc72-81fd-a238-d123c6771e6f",
+          "_url": "https://app.notion.com/p/pasajes-3ffe6c72cc7281fda238d123c6771e6f",
+          "_created": "2026-10-20T04:07:00.000Z",
+          "_edited": "2026-10-20T04:08:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 4,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "3ffe6c72-cc72-81f1-8689-cf8c4bced2bd",
+          "_url": "https://app.notion.com/p/broster-con-amor-3ffe6c72cc7281f18689cf8c4bced2bd",
+          "_created": "2026-10-20T03:39:00.000Z",
+          "_edited": "2026-10-20T03:39:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 13,
+          "Name": "broster con amor"
+        },
         {
           "_id": "3fee6c72-cc72-8141-9ad0-c4127d3c47de",
           "_url": "https://app.notion.com/p/fruta-3fee6c72cc7281419ad0c4127d3c47de",
@@ -28386,6 +28228,16 @@
           "Name": "pago septiembre"
         }
       ]
+    },
+    {
+      "id": "3ffe6c72-cc72-8015-80d2-da3a0ec7c24e",
+      "title": "Day - 2850",
+      "schema": {
+        "Date": "date",
+        "Money": "number",
+        "Name": "title"
+      },
+      "rows": []
     }
   ]
 }
