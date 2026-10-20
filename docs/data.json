@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T22:58:39.981473+00:00",
+  "generated_at": "2026-10-20T01:29:32.332189+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 27318.890000000007,
+          "SumGastosPapa": 27368.890000000007,
           "Tot. Expenses": 349125.49500000046,
-          "Total Papa": 589.97,
+          "Total Papa": 539.97,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
           "Expenses": [
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 155.905000000133,
+          "Cash Total": 105.905000000133,
           "Name": "Resumen"
         }
       ]
@@ -24287,6 +24287,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "3fee6c72-cc72-8174-be33-ea49b6f5d9f0",
+          "_url": "https://app.notion.com/p/transferencia-a-cuenta-3fee6c72cc728174be33ea49b6f5d9f0",
+          "_created": "2026-10-19T23:40:00.000Z",
+          "_edited": "2026-10-19T23:40:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-10-19",
+            "end": null
+          },
+          "Money": 50,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "transferencia a cuenta"
+        },
         {
           "_id": "3fde6c72-cc72-8109-a78e-c95302187788",
           "_url": "https://app.notion.com/p/yapeo-mama-3fde6c72cc728109a78ec95302187788",
