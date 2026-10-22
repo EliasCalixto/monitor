@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T22:29:59.630678+00:00",
+  "generated_at": "2026-10-22T00:47:28.226224+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -21193,6 +21193,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "400e6c72-cc72-8194-b724-e3434affc941",
+          "_url": "https://app.notion.com/p/retiro-de-efectivo-400e6c72cc728194b724e3434affc941",
+          "_created": "2026-10-21T23:40:00.000Z",
+          "_edited": "2026-10-21T23:40:00.000Z",
+          "Date Created": {
+            "start": "2026-10-21",
+            "end": null
+          },
+          "Price": 200,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "retiro de efectivo",
+          "Category": "Cashout"
+        },
         {
           "_id": "3ffe6c72-cc72-8127-ba6a-e254ff9479b1",
           "_url": "https://app.notion.com/p/almuerzo-3ffe6c72cc728127ba6ae254ff9479b1",
