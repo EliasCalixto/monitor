@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T00:54:37.893595+00:00",
+  "generated_at": "2026-10-23T05:28:50.876305+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 27368.890000000007,
+          "SumGastosPapa": 27468.890000000007,
           "Tot. Expenses": 349197.49500000046,
-          "Total Papa": 539.97,
+          "Total Papa": 439.97,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
           "Expenses": [
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 33.905000000133,
+          "Cash Total": -66.094999999867,
           "Name": "Resumen"
         }
       ]
@@ -21262,6 +21262,21 @@
       },
       "rows": [
         {
+          "_id": "402e6c72-cc72-8132-8fd2-d5072c4c5d86",
+          "_url": "https://app.notion.com/p/disposicion-de-efectivo-402e6c72cc7281328fd2d5072c4c5d86",
+          "_created": "2026-10-23T00:55:00.000Z",
+          "_edited": "2026-10-23T00:55:00.000Z",
+          "Date Created": {
+            "start": "2026-10-22",
+            "end": null
+          },
+          "Price": 100,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "disposicion de efectivo",
+          "Category": "Cashout"
+        },
+        {
           "_id": "401e6c72-cc72-81c5-b234-d1976628f9cd",
           "_url": "https://app.notion.com/p/compra-de-insumos-para-almacenar-401e6c72cc7281c5b234d1976628f9cd",
           "_created": "2026-10-22T14:23:00.000Z",
@@ -24274,6 +24289,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "402e6c72-cc72-811a-9190-c525f8aced25",
+          "_url": "https://app.notion.com/p/gasto-de-papa-402e6c72cc72811a9190c525f8aced25",
+          "_created": "2026-10-23T00:55:00.000Z",
+          "_edited": "2026-10-23T00:55:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-10-22",
+            "end": null
+          },
+          "Money": 100,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "gasto de papa"
+        },
         {
           "_id": "3fee6c72-cc72-8174-be33-ea49b6f5d9f0",
           "_url": "https://app.notion.com/p/transferencia-a-cuenta-3fee6c72cc728174be33ea49b6f5d9f0",
