@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T15:13:21.362913+00:00",
+  "generated_at": "2026-10-23T19:10:43.520577+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 27468.890000000007,
-          "Tot. Expenses": 349100.49500000046,
-          "Total Papa": 439.97,
+          "SumGastosPapa": 27670.290000000008,
+          "Tot. Expenses": 348915.49500000046,
+          "Total Papa": 238.57,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
           "Expenses": [
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -409.06499999986,
+          "Cash": -224.06499999986,
           "Tot. Income": 348691.4300000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 30.905000000133,
+          "Cash Total": 14.505000000132,
           "Name": "Resumen"
         }
       ]
@@ -1998,6 +1998,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "402e6c72-cc72-818a-b78e-d8c01d55eb78",
+          "_url": "https://app.notion.com/p/prestamo-402e6c72cc72818ab78ed8c01d55eb78",
+          "_created": "2026-10-23T17:34:00.000Z",
+          "_edited": "2026-10-23T17:34:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-23",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -200,
+          "Name": "prestamo"
+        },
+        {
+          "_id": "402e6c72-cc72-8169-ae7d-f30e4d242640",
+          "_url": "https://app.notion.com/p/almuerzo-402e6c72cc728169ae7df30e4d242640",
+          "_created": "2026-10-23T16:35:00.000Z",
+          "_edited": "2026-10-23T16:35:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-10-23",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 15,
+          "Name": "almuerzo"
+        },
         {
           "_id": "402e6c72-cc72-8181-b400-fc53cceed438",
           "_url": "https://app.notion.com/p/cashout-402e6c72cc728181b400fc53cceed438",
@@ -24323,6 +24357,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "402e6c72-cc72-814f-b575-f18899869310",
+          "_url": "https://app.notion.com/p/compra-de-insumos-402e6c72cc72814fb575f18899869310",
+          "_created": "2026-10-23T17:34:00.000Z",
+          "_edited": "2026-10-23T17:35:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-10-23",
+            "end": null
+          },
+          "Money": 201.4,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "compra de insumos"
+        },
         {
           "_id": "402e6c72-cc72-811a-9190-c525f8aced25",
           "_url": "https://app.notion.com/p/gasto-de-papa-402e6c72cc72811a9190c525f8aced25",
