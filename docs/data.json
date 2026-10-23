@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T10:21:17.871398+00:00",
+  "generated_at": "2026-10-23T15:13:21.362913+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27468.890000000007,
-          "Tot. Expenses": 349197.49500000046,
+          "Tot. Expenses": 349100.49500000046,
           "Total Papa": 439.97,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -506.06499999986,
+          "Cash": -409.06499999986,
           "Tot. Income": 348691.4300000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": -66.094999999867,
+          "Cash Total": 30.905000000133,
           "Name": "Resumen"
         }
       ]
@@ -1998,6 +1998,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "402e6c72-cc72-8181-b400-fc53cceed438",
+          "_url": "https://app.notion.com/p/cashout-402e6c72cc728181b400fc53cceed438",
+          "_created": "2026-10-23T12:44:00.000Z",
+          "_edited": "2026-10-23T12:44:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-23",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3,
+          "Name": "cashout"
+        },
+        {
+          "_id": "402e6c72-cc72-810d-bf00-c3c69655b7bf",
+          "_url": "https://app.notion.com/p/cashout-402e6c72cc72810dbf00c3c69655b7bf",
+          "_created": "2026-10-23T12:21:00.000Z",
+          "_edited": "2026-10-23T12:21:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-23",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -100,
+          "Name": "cashout"
+        },
         {
           "_id": "402e6c72-cc72-81ad-8e61-c8b2d5d6215e",
           "_url": "https://app.notion.com/p/pasajes-402e6c72cc7281ad8e61c8b2d5d6215e",
