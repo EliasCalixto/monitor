@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T19:10:43.520577+00:00",
+  "generated_at": "2026-10-23T22:04:38.197145+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 27670.290000000008,
+          "SumGastosPapa": 27685.290000000008,
           "Tot. Expenses": 348915.49500000046,
-          "Total Papa": 238.57,
+          "Total Papa": 223.57,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
           "Expenses": [
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 14.505000000132,
+          "Cash Total": -0.494999999868,
           "Name": "Resumen"
         }
       ]
@@ -21330,6 +21330,21 @@
       },
       "rows": [
         {
+          "_id": "402e6c72-cc72-81fe-89ba-d9922299c4af",
+          "_url": "https://app.notion.com/p/disposicion-de-efectivo-402e6c72cc7281fe89bad9922299c4af",
+          "_created": "2026-10-23T19:45:00.000Z",
+          "_edited": "2026-10-23T19:45:00.000Z",
+          "Date Created": {
+            "start": "2026-10-23",
+            "end": null
+          },
+          "Price": 100,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "disposicion de efectivo",
+          "Category": "Cashout"
+        },
+        {
           "_id": "402e6c72-cc72-8132-8fd2-d5072c4c5d86",
           "_url": "https://app.notion.com/p/disposicion-de-efectivo-402e6c72cc7281328fd2d5072c4c5d86",
           "_created": "2026-10-23T00:55:00.000Z",
@@ -24357,6 +24372,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "402e6c72-cc72-8181-a322-cf0a99a23cf4",
+          "_url": "https://app.notion.com/p/yapeo-402e6c72cc728181a322cf0a99a23cf4",
+          "_created": "2026-10-23T19:46:00.000Z",
+          "_edited": "2026-10-23T19:46:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-10-23",
+            "end": null
+          },
+          "Money": 15,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "yapeo"
+        },
         {
           "_id": "402e6c72-cc72-814f-b575-f18899869310",
           "_url": "https://app.notion.com/p/compra-de-insumos-402e6c72cc72814fb575f18899869310",
