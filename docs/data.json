@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T00:36:02.578645+00:00",
+  "generated_at": "2026-10-24T04:59:51.351144+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 27685.290000000008,
-          "Tot. Expenses": 348915.49500000046,
-          "Total Papa": 223.57,
+          "SumGastosPapa": 27724.69000000001,
+          "Tot. Expenses": 348817.49500000046,
+          "Total Papa": 184.17,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
           "Expenses": [
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -224.06499999986,
+          "Cash": -126.06499999986,
           "Tot. Income": 348691.4300000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": -0.494999999868,
+          "Cash Total": 58.10500000013,
           "Name": "Resumen"
         }
       ]
@@ -1998,6 +1998,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "403e6c72-cc72-8140-91f6-df5c30ff7310",
+          "_url": "https://app.notion.com/p/pasajes-403e6c72cc72814091f6df5c30ff7310",
+          "_created": "2026-10-24T01:45:00.000Z",
+          "_edited": "2026-10-24T01:45:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-23",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "403e6c72-cc72-818b-bf37-c79613e64b1c",
+          "_url": "https://app.notion.com/p/cashout-403e6c72cc72818bbf37c79613e64b1c",
+          "_created": "2026-10-24T01:45:00.000Z",
+          "_edited": "2026-10-24T01:45:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-23",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -100,
+          "Name": "cashout"
+        },
         {
           "_id": "402e6c72-cc72-818a-b78e-d8c01d55eb78",
           "_url": "https://app.notion.com/p/prestamo-402e6c72cc72818ab78ed8c01d55eb78",
@@ -24372,6 +24406,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "403e6c72-cc72-8172-9632-e320770f86ff",
+          "_url": "https://app.notion.com/p/gasto-de-papa-403e6c72cc7281729632e320770f86ff",
+          "_created": "2026-10-24T01:43:00.000Z",
+          "_edited": "2026-10-24T01:43:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-10-23",
+            "end": null
+          },
+          "Money": 9,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "gasto de papa"
+        },
+        {
+          "_id": "403e6c72-cc72-81ea-a916-e01c936f85b8",
+          "_url": "https://app.notion.com/p/gasto-de-papa-403e6c72cc7281eaa916e01c936f85b8",
+          "_created": "2026-10-24T01:43:00.000Z",
+          "_edited": "2026-10-24T01:43:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-10-23",
+            "end": null
+          },
+          "Money": 30.4,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "gasto de papa"
+        },
         {
           "_id": "402e6c72-cc72-8181-a322-cf0a99a23cf4",
           "_url": "https://app.notion.com/p/yapeo-402e6c72cc728181a322cf0a99a23cf4",
