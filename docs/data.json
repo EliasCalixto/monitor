@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T21:24:39.609344+00:00",
+  "generated_at": "2026-10-24T23:25:33.858213+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -27,9 +27,9 @@
           "_url": "https://app.notion.com/p/Resumen-351e6c72cc72801e9a2fe8105330a3da",
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
-          "SumGastosPapa": 27739.69000000001,
-          "Tot. Expenses": 348823.49500000046,
-          "Total Papa": 169.17,
+          "SumGastosPapa": 27908.860000000008,
+          "Tot. Expenses": 348628.99500000046,
+          "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
           "Expenses": [
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": -132.06499999986,
+          "Cash": 62.43500000014,
           "Tot. Income": 348691.4300000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 37.10500000013,
+          "Cash Total": 62.435000000132,
           "Name": "Resumen"
         }
       ]
@@ -1998,6 +1998,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "403e6c72-cc72-81c7-82f8-d6f242288ca6",
+          "_url": "https://app.notion.com/p/losses-403e6c72cc7281c782f8d6f242288ca6",
+          "_created": "2026-10-24T21:57:00.000Z",
+          "_edited": "2026-10-24T21:57:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-10-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 5.5,
+          "Name": "losses"
+        },
+        {
+          "_id": "403e6c72-cc72-81b5-92e5-fc69211eb97c",
+          "_url": "https://app.notion.com/p/disposicion-de-efectivo-403e6c72cc7281b592e5fc69211eb97c",
+          "_created": "2026-10-24T21:54:00.000Z",
+          "_edited": "2026-10-24T21:54:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -200,
+          "Name": "disposicion de efectivo"
+        },
         {
           "_id": "403e6c72-cc72-81e3-a8c2-ef6d1e6cc754",
           "_url": "https://app.notion.com/p/cashout-403e6c72cc7281e3a8c2ef6d1e6cc754",
@@ -21398,6 +21432,21 @@
       },
       "rows": [
         {
+          "_id": "403e6c72-cc72-8158-92ee-ecb1c435da42",
+          "_url": "https://app.notion.com/p/disposicion-de-efectivo-403e6c72cc72815892eeecb1c435da42",
+          "_created": "2026-10-24T21:54:00.000Z",
+          "_edited": "2026-10-24T21:54:00.000Z",
+          "Date Created": {
+            "start": "2026-10-24",
+            "end": null
+          },
+          "Price": 200,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "disposicion de efectivo",
+          "Category": "Cashout"
+        },
+        {
           "_id": "402e6c72-cc72-81fe-89ba-d9922299c4af",
           "_url": "https://app.notion.com/p/disposicion-de-efectivo-402e6c72cc7281fe89bad9922299c4af",
           "_created": "2026-10-23T19:45:00.000Z",
@@ -24440,6 +24489,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "403e6c72-cc72-8188-9bed-ed2eae00cf57",
+          "_url": "https://app.notion.com/p/gasto-de-papa-403e6c72cc7281889beded2eae00cf57",
+          "_created": "2026-10-24T21:54:00.000Z",
+          "_edited": "2026-10-24T21:54:00.000Z",
+          "Total Ingresos Papa": [],
+          "Type": "Gasto",
+          "Date Created": {
+            "start": "2026-10-24",
+            "end": null
+          },
+          "Money": 169.17,
+          "Total Gastos Papa": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "gasto de papa"
+        },
         {
           "_id": "403e6c72-cc72-81cf-a50c-ffbf0f783edf",
           "_url": "https://app.notion.com/p/gasto-de-papa-403e6c72cc7281cfa50cffbf0f783edf",
