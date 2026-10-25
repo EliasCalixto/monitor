@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T18:22:07.595516+00:00",
+  "generated_at": "2026-10-25T20:59:31.609299+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -21448,6 +21448,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "404e6c72-cc72-813f-978c-e255ffc92e92",
+          "_url": "https://app.notion.com/p/bembos-404e6c72cc72813f978ce255ffc92e92",
+          "_created": "2026-10-25T18:29:00.000Z",
+          "_edited": "2026-10-25T18:29:00.000Z",
+          "Date Created": {
+            "start": "2026-10-25",
+            "end": null
+          },
+          "Price": 49.2,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "bembos",
+          "Category": "Enjoy"
+        },
         {
           "_id": "403e6c72-cc72-8158-92ee-ecb1c435da42",
           "_url": "https://app.notion.com/p/disposicion-de-efectivo-403e6c72cc72815892eeecb1c435da42",
