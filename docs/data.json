@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T01:19:43.377080+00:00",
+  "generated_at": "2026-10-25T06:18:48.096349+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 348628.99500000046,
+          "Tot. Expenses": 348636.49500000046,
           "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 62.43500000014,
+          "Cash": 54.93500000014,
           "Tot. Income": 348691.4300000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 62.435000000132,
+          "Cash Total": 54.935000000132,
           "Name": "Resumen"
         }
       ]
@@ -1998,6 +1998,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "404e6c72-cc72-81c3-93e0-eef65d61f507",
+          "_url": "https://app.notion.com/p/visita-a-amor-404e6c72cc7281c393e0eef65d61f507",
+          "_created": "2026-10-25T05:04:00.000Z",
+          "_edited": "2026-10-25T05:04:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 7.5,
+          "Name": "visita a amor"
+        },
         {
           "_id": "403e6c72-cc72-81c7-82f8-d6f242288ca6",
           "_url": "https://app.notion.com/p/losses-403e6c72cc7281c782f8d6f242288ca6",
