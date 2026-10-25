@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T20:59:31.609299+00:00",
+  "generated_at": "2026-10-25T23:00:31.932053+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 348636.49500000046,
+          "Tot. Expenses": 348610.8950000005,
           "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 54.93500000014,
+          "Cash": 80.5350000001,
           "Tot. Income": 348691.4300000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 54.935000000132,
+          "Cash Total": 80.535000000092,
           "Name": "Resumen"
         }
       ]
@@ -1998,6 +1998,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "404e6c72-cc72-81c9-9ba8-d112b54720d6",
+          "_url": "https://app.notion.com/p/devolucion-enjoy-404e6c72cc7281c99ba8d112b54720d6",
+          "_created": "2026-10-25T22:15:00.000Z",
+          "_edited": "2026-10-25T22:15:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -25.6,
+          "Name": "devolucion enjoy"
+        },
         {
           "_id": "404e6c72-cc72-81c3-93e0-eef65d61f507",
           "_url": "https://app.notion.com/p/visita-a-amor-404e6c72cc7281c393e0eef65d61f507",
@@ -21448,6 +21465,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "404e6c72-cc72-81be-afa5-eff79bdd8adb",
+          "_url": "https://app.notion.com/p/chicles-y-agua-404e6c72cc7281beafa5eff79bdd8adb",
+          "_created": "2026-10-25T22:16:00.000Z",
+          "_edited": "2026-10-25T22:16:00.000Z",
+          "Date Created": {
+            "start": "2026-10-25",
+            "end": null
+          },
+          "Price": 7.18,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "chicles y agua",
+          "Category": "Enjoy"
+        },
         {
           "_id": "404e6c72-cc72-813f-978c-e255ffc92e92",
           "_url": "https://app.notion.com/p/bembos-404e6c72cc72813f978ce255ffc92e92",
