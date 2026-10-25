@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T23:25:33.858213+00:00",
+  "generated_at": "2026-10-25T01:19:43.377080+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -24478,6 +24478,51 @@
       ]
     },
     {
+      "id": "3c1e6c72-cc72-80b7-9c32-ca2c169358dd",
+      "title": "Rxdrx - 2020.20",
+      "schema": {
+        "Date": "date",
+        "Money": "number",
+        "Name": "title"
+      },
+      "rows": [
+        {
+          "_id": "3fae6c72-cc72-807d-876c-d2b887fa6506",
+          "_url": "https://app.notion.com/p/pago-quincena-de-oct-3fae6c72cc72807d876cd2b887fa6506",
+          "_created": "2026-10-15T21:12:00.000Z",
+          "_edited": "2026-10-15T21:12:00.000Z",
+          "Date": {
+            "start": "2026-10-15",
+            "end": null
+          },
+          "Money": 340,
+          "Name": "pago quincena de oct"
+        },
+        {
+          "_id": "3c1e6c72-cc72-80ee-b974-e1a8d13c7aab",
+          "_url": "https://app.notion.com/p/pago-septiembre-3c1e6c72cc7280eeb974e1a8d13c7aab",
+          "_created": "2026-08-19T23:09:00.000Z",
+          "_edited": "2026-10-01T04:26:00.000Z",
+          "Date": {
+            "start": "2026-09-29",
+            "end": null
+          },
+          "Money": 200,
+          "Name": "pago septiembre"
+        }
+      ]
+    },
+    {
+      "id": "3ffe6c72-cc72-8015-80d2-da3a0ec7c24e",
+      "title": "Day - 3550",
+      "schema": {
+        "Date": "date",
+        "Money": "number",
+        "Name": "title"
+      },
+      "rows": []
+    },
+    {
       "id": "352e6c72-cc72-808d-b32e-d20ac53c124e",
       "title": "Papa",
       "schema": {
@@ -28672,51 +28717,6 @@
           "Name": "Integration"
         }
       ]
-    },
-    {
-      "id": "3c1e6c72-cc72-80b7-9c32-ca2c169358dd",
-      "title": "Rxdrx - 2020.20",
-      "schema": {
-        "Date": "date",
-        "Money": "number",
-        "Name": "title"
-      },
-      "rows": [
-        {
-          "_id": "3fae6c72-cc72-807d-876c-d2b887fa6506",
-          "_url": "https://app.notion.com/p/pago-quincena-de-oct-3fae6c72cc72807d876cd2b887fa6506",
-          "_created": "2026-10-15T21:12:00.000Z",
-          "_edited": "2026-10-15T21:12:00.000Z",
-          "Date": {
-            "start": "2026-10-15",
-            "end": null
-          },
-          "Money": 340,
-          "Name": "pago quincena de oct"
-        },
-        {
-          "_id": "3c1e6c72-cc72-80ee-b974-e1a8d13c7aab",
-          "_url": "https://app.notion.com/p/pago-septiembre-3c1e6c72cc7280eeb974e1a8d13c7aab",
-          "_created": "2026-08-19T23:09:00.000Z",
-          "_edited": "2026-10-01T04:26:00.000Z",
-          "Date": {
-            "start": "2026-09-29",
-            "end": null
-          },
-          "Money": 200,
-          "Name": "pago septiembre"
-        }
-      ]
-    },
-    {
-      "id": "3ffe6c72-cc72-8015-80d2-da3a0ec7c24e",
-      "title": "Day - 3550",
-      "schema": {
-        "Date": "date",
-        "Money": "number",
-        "Name": "title"
-      },
-      "rows": []
     }
   ]
 }
