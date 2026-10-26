@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T18:53:46.991872+00:00",
+  "generated_at": "2026-10-26T22:54:49.373585+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 348619.8950000005,
+          "Tot. Expenses": 350995.0950000006,
           "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,8 +140,8 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 71.5350000001,
-          "Tot. Income": 348691.4300000006,
+          "Cash": 73.545,
+          "Tot. Income": 351068.6400000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 71.535000000092,
+          "Cash Total": 73.544999999992,
           "Name": "Resumen"
         }
       ]
@@ -184,6 +184,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "405e6c72-cc72-808a-9a18-c9adcbb1d0cb",
+          "_url": "https://app.notion.com/p/Finde-area-405e6c72cc72808a9a18c9adcbb1d0cb",
+          "_created": "2026-10-26T21:19:00.000Z",
+          "_edited": "2026-10-26T21:19:00.000Z",
+          "Date Received": {
+            "start": "2026-10-26",
+            "end": null
+          },
+          "Income": 2377.21,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Finde area"
+        },
         {
           "_id": "3fae6c72-cc72-8098-8e75-dd9e2f5fa6ce",
           "_url": "https://app.notion.com/p/Quincena-TP-3fae6c72cc7280988e75dd9e2f5fa6ce",
@@ -1999,10 +2014,10 @@
       },
       "rows": [
         {
-          "_id": "405e6c72-cc72-81ef-970c-e87429e044bb",
-          "_url": "https://app.notion.com/p/motos-405e6c72cc7281ef970ce87429e044bb",
-          "_created": "2026-10-26T12:48:00.000Z",
-          "_edited": "2026-10-26T12:48:00.000Z",
+          "_id": "405e6c72-cc72-813d-ae7f-d8cb3388b8d0",
+          "_url": "https://app.notion.com/p/cashout-405e6c72cc72813dae7fd8cb3388b8d0",
+          "_created": "2026-10-26T21:21:00.000Z",
+          "_edited": "2026-10-26T21:21:00.000Z",
           "Category": "Cashout",
           "Date Created": {
             "start": "2026-10-26",
@@ -2012,7 +2027,313 @@
           "Resumen": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
-          "Price": 6,
+          "Price": -2,
+          "Name": "cashout"
+        },
+        {
+          "_id": "405e6c72-cc72-8105-b7dc-d0583d50e002",
+          "_url": "https://app.notion.com/p/Organizador-de-cables-ethernet-405e6c72cc728105b7dcd0583d50e002",
+          "_created": "2026-10-26T21:17:00.000Z",
+          "_edited": "2026-10-26T21:17:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-09-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 85.02,
+          "Name": "Organizador de cables + ethernet"
+        },
+        {
+          "_id": "405e6c72-cc72-8108-8c4f-d950f10cd4ca",
+          "_url": "https://app.notion.com/p/cita-en-terraza-con-Day-405e6c72cc7281088c4fd950f10cd4ca",
+          "_created": "2026-10-26T21:17:00.000Z",
+          "_edited": "2026-10-26T21:17:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-06",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 75,
+          "Name": "cita en terraza con Day"
+        },
+        {
+          "_id": "405e6c72-cc72-8113-b6ab-e35c406aef09",
+          "_url": "https://app.notion.com/p/creatina-405e6c72cc728113b6abe35c406aef09",
+          "_created": "2026-10-26T21:17:00.000Z",
+          "_edited": "2026-10-26T21:17:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-09-23",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 91.7,
+          "Name": "creatina"
+        },
+        {
+          "_id": "405e6c72-cc72-812f-ac4d-cbb6c1ca545b",
+          "_url": "https://app.notion.com/p/almuerzo-en-oficina-405e6c72cc72812fac4dcbb6c1ca545b",
+          "_created": "2026-10-26T21:17:00.000Z",
+          "_edited": "2026-10-26T21:17:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-09-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 12,
+          "Name": "almuerzo en oficina"
+        },
+        {
+          "_id": "405e6c72-cc72-816d-a4a0-f83ea8f54c7b",
+          "_url": "https://app.notion.com/p/flores-amarillas-para-Day-405e6c72cc72816da4a0f83ea8f54c7b",
+          "_created": "2026-10-26T21:17:00.000Z",
+          "_edited": "2026-10-26T21:17:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 215,
+          "Name": "flores amarillas para Day"
+        },
+        {
+          "_id": "405e6c72-cc72-8185-bd60-fa423099b890",
+          "_url": "https://app.notion.com/p/rosquitas-405e6c72cc728185bd60fa423099b890",
+          "_created": "2026-10-26T21:17:00.000Z",
+          "_edited": "2026-10-26T21:17:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3.5,
+          "Name": "rosquitas"
+        },
+        {
+          "_id": "405e6c72-cc72-819b-951e-fc0ca3b22b6d",
+          "_url": "https://app.notion.com/p/gatorade-405e6c72cc72819b951efc0ca3b22b6d",
+          "_created": "2026-10-26T21:17:00.000Z",
+          "_edited": "2026-10-26T21:17:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3.59,
+          "Name": "gatorade"
+        },
+        {
+          "_id": "405e6c72-cc72-819f-a4cc-e014c13a749f",
+          "_url": "https://app.notion.com/p/pollito-con-amor-405e6c72cc72819fa4cce014c13a749f",
+          "_created": "2026-10-26T21:17:00.000Z",
+          "_edited": "2026-10-26T21:17:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 74.6,
+          "Name": "pollito con amor"
+        },
+        {
+          "_id": "405e6c72-cc72-81a6-87e9-d3868e6d73e7",
+          "_url": "https://app.notion.com/p/gaseosas-405e6c72cc7281a687e9d3868e6d73e7",
+          "_created": "2026-10-26T21:17:00.000Z",
+          "_edited": "2026-10-26T21:17:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-11",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 15.9,
+          "Name": "gaseosas"
+        },
+        {
+          "_id": "405e6c72-cc72-81ae-b15f-ef185fb00b11",
+          "_url": "https://app.notion.com/p/proteina-para-day-405e6c72cc7281aeb15fef185fb00b11",
+          "_created": "2026-10-26T21:17:00.000Z",
+          "_edited": "2026-10-26T21:17:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 240.4,
+          "Name": "proteina para day"
+        },
+        {
+          "_id": "405e6c72-cc72-81b1-b957-e32ae4d4527b",
+          "_url": "https://app.notion.com/p/viaje-a-mancora-con-familia-pago-parcial-405e6c72cc7281b1b957e32ae4d4527b",
+          "_created": "2026-10-26T21:17:00.000Z",
+          "_edited": "2026-10-26T21:17:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-27",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 544.65,
+          "Name": "viaje a mancora con familia (pago parcial)"
+        },
+        {
+          "_id": "405e6c72-cc72-81c3-a74c-fd89c5b535bb",
+          "_url": "https://app.notion.com/p/parrilla-con-amor-405e6c72cc7281c3a74cfd89c5b535bb",
+          "_created": "2026-10-26T21:17:00.000Z",
+          "_edited": "2026-10-26T21:17:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 120.4,
+          "Name": "parrilla con amor"
+        },
+        {
+          "_id": "405e6c72-cc72-81d6-839b-e059bf3c6969",
+          "_url": "https://app.notion.com/p/agraria-405e6c72cc7281d6839be059bf3c6969",
+          "_created": "2026-10-26T21:17:00.000Z",
+          "_edited": "2026-10-26T21:17:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 77,
+          "Name": "agraria"
+        },
+        {
+          "_id": "405e6c72-cc72-81e0-836f-cf38b467b1bb",
+          "_url": "https://app.notion.com/p/kfc-con-jas-405e6c72cc7281e0836fcf38b467b1bb",
+          "_created": "2026-10-26T21:17:00.000Z",
+          "_edited": "2026-10-26T21:17:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 100.9,
+          "Name": "kfc con jas"
+        },
+        {
+          "_id": "405e6c72-cc72-81f3-a464-ef68b85feabb",
+          "_url": "https://app.notion.com/p/Pollito-walter-con-amigos-405e6c72cc7281f3a464ef68b85feabb",
+          "_created": "2026-10-26T21:17:00.000Z",
+          "_edited": "2026-10-26T21:17:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 89.9,
+          "Name": "Pollito walter con amigos"
+        },
+        {
+          "_id": "405e6c72-cc72-81f9-9b7c-c6c26caa57e9",
+          "_url": "https://app.notion.com/p/pasta-hilo-dental-y-cepillo-405e6c72cc7281f99b7cc6c26caa57e9",
+          "_created": "2026-10-26T21:17:00.000Z",
+          "_edited": "2026-10-26T21:17:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-09-02",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 53.3,
+          "Name": "pasta, hilo dental y cepillo"
+        },
+        {
+          "_id": "405e6c72-cc72-81fb-82bf-ee14f7cad34f",
+          "_url": "https://app.notion.com/p/Sillon-Grifo-Ducha-tacho-pago-final-405e6c72cc7281fb82bfee14f7cad34f",
+          "_created": "2026-10-26T21:17:00.000Z",
+          "_edited": "2026-10-26T21:17:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-09-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 574.35,
+          "Name": "Sillon, Grifo, Ducha, tacho (pago final)"
+        },
+        {
+          "_id": "405e6c72-cc72-81ef-970c-e87429e044bb",
+          "_url": "https://app.notion.com/p/motos-405e6c72cc7281ef970ce87429e044bb",
+          "_created": "2026-10-26T12:48:00.000Z",
+          "_edited": "2026-10-26T21:22:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 5.99,
           "Name": "motos"
         },
         {
@@ -21876,31 +22197,34 @@
         },
         {
           "_id": "3e8e6c72-cc72-81eb-8306-d912266190eb",
-          "_url": "https://app.notion.com/p/viaje-a-mancora-con-familia-3e8e6c72cc7281eb8306d912266190eb",
+          "_url": "https://app.notion.com/p/viaje-a-mancora-con-familia-saldo-pendiente-3e8e6c72cc7281eb8306d912266190eb",
           "_created": "2026-09-27T21:11:00.000Z",
-          "_edited": "2026-09-27T21:11:00.000Z",
+          "_edited": "2026-10-26T21:18:00.000Z",
           "Date Created": {
             "start": "2026-09-27",
             "end": null
           },
-          "Price": 2513.11,
+          "Price": 1968.46,
           "Date Payed": null,
           "Status": "Pending",
-          "Name": "viaje a mancora con familia",
+          "Name": "viaje a mancora con familia (saldo pendiente)",
           "Category": "Enjoy"
         },
         {
           "_id": "3e7e6c72-cc72-8198-ac8f-d2ad7443af13",
           "_url": "https://app.notion.com/p/gatorade-3e7e6c72cc728198ac8fd2ad7443af13",
           "_created": "2026-09-26T22:55:00.000Z",
-          "_edited": "2026-09-26T22:55:00.000Z",
+          "_edited": "2026-10-26T21:18:00.000Z",
           "Date Created": {
             "start": "2026-09-26",
             "end": null
           },
           "Price": 3.59,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-10-26",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "gatorade",
           "Category": "Enjoy"
         },
@@ -21908,14 +22232,17 @@
           "_id": "3e7e6c72-cc72-81ae-84a9-fc724423a548",
           "_url": "https://app.notion.com/p/pollito-con-amor-3e7e6c72cc7281ae84a9fc724423a548",
           "_created": "2026-09-26T19:02:00.000Z",
-          "_edited": "2026-09-26T19:02:00.000Z",
+          "_edited": "2026-10-26T21:18:00.000Z",
           "Date Created": {
             "start": "2026-09-26",
             "end": null
           },
           "Price": 74.6,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-10-26",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "pollito con amor",
           "Category": "Enjoy"
         },
@@ -21923,14 +22250,17 @@
           "_id": "3e7e6c72-cc72-81a6-b8d9-e7bb030091b2",
           "_url": "https://app.notion.com/p/proteina-para-day-3e7e6c72cc7281a6b8d9e7bb030091b2",
           "_created": "2026-09-26T02:05:00.000Z",
-          "_edited": "2026-09-26T02:05:00.000Z",
+          "_edited": "2026-10-26T21:18:00.000Z",
           "Date Created": {
             "start": "2026-09-25",
             "end": null
           },
           "Price": 240.4,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-10-26",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "proteina para day",
           "Category": "Enjoy"
         },
@@ -21938,14 +22268,17 @@
           "_id": "3e6e6c72-cc72-8151-b82d-ec194cfa2f3d",
           "_url": "https://app.notion.com/p/agraria-3e6e6c72cc728151b82dec194cfa2f3d",
           "_created": "2026-09-25T18:38:00.000Z",
-          "_edited": "2026-09-25T18:38:00.000Z",
+          "_edited": "2026-10-26T21:18:00.000Z",
           "Date Created": {
             "start": "2026-09-25",
             "end": null
           },
           "Price": 77,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-10-26",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "agraria",
           "Category": "Enjoy"
         },
@@ -21953,14 +22286,17 @@
           "_id": "3e4e6c72-cc72-81ee-b8a6-d08487a47778",
           "_url": "https://app.notion.com/p/creatina-3e4e6c72cc7281eeb8a6d08487a47778",
           "_created": "2026-09-23T22:50:00.000Z",
-          "_edited": "2026-09-23T22:50:00.000Z",
+          "_edited": "2026-10-26T21:18:00.000Z",
           "Date Created": {
             "start": "2026-09-23",
             "end": null
           },
           "Price": 91.7,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-10-26",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "creatina",
           "Category": "Personal"
         },
@@ -21968,14 +22304,17 @@
           "_id": "3e0e6c72-cc72-81ca-a9bf-cf2a0493ca08",
           "_url": "https://app.notion.com/p/flores-amarillas-para-Day-3e0e6c72cc7281caa9bfcf2a0493ca08",
           "_created": "2026-09-19T17:06:00.000Z",
-          "_edited": "2026-09-19T17:06:00.000Z",
+          "_edited": "2026-10-26T21:18:00.000Z",
           "Date Created": {
             "start": "2026-09-19",
             "end": null
           },
           "Price": 215,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-10-26",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "flores amarillas para Day",
           "Category": "Enjoy"
         },
@@ -21983,14 +22322,17 @@
           "_id": "3e0e6c72-cc72-8155-99e5-d1211718fa89",
           "_url": "https://app.notion.com/p/kfc-con-jas-3e0e6c72cc72815599e5d1211718fa89",
           "_created": "2026-09-19T06:45:00.000Z",
-          "_edited": "2026-09-19T06:45:00.000Z",
+          "_edited": "2026-10-26T21:18:00.000Z",
           "Date Created": {
             "start": "2026-09-19",
             "end": null
           },
           "Price": 100.9,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-10-26",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "kfc con jas",
           "Category": "Enjoy"
         },
@@ -21998,14 +22340,17 @@
           "_id": "3dbe6c72-cc72-81e6-aec1-f6a97c000d59",
           "_url": "https://app.notion.com/p/almuerzo-en-oficina-3dbe6c72cc7281e6aec1f6a97c000d59",
           "_created": "2026-09-14T19:28:00.000Z",
-          "_edited": "2026-09-14T19:28:00.000Z",
+          "_edited": "2026-10-26T21:18:00.000Z",
           "Date Created": {
             "start": "2026-09-14",
             "end": null
           },
           "Price": 12,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-10-26",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "almuerzo en oficina",
           "Category": "Fixed"
         },
@@ -22013,14 +22358,17 @@
           "_id": "3dbe6c72-cc72-81d0-a6ed-c2b440ebe6c5",
           "_url": "https://app.notion.com/p/rosquitas-3dbe6c72cc7281d0a6edc2b440ebe6c5",
           "_created": "2026-09-14T15:01:00.000Z",
-          "_edited": "2026-09-14T15:01:00.000Z",
+          "_edited": "2026-10-26T21:18:00.000Z",
           "Date Created": {
             "start": "2026-09-14",
             "end": null
           },
           "Price": 3.5,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-10-26",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "rosquitas",
           "Category": "Enjoy"
         },
@@ -22028,14 +22376,17 @@
           "_id": "3dae6c72-cc72-8030-ae59-ebdeab629609",
           "_url": "https://app.notion.com/p/Pollito-walter-con-amigos-3dae6c72cc728030ae59ebdeab629609",
           "_created": "2026-09-13T06:03:00.000Z",
-          "_edited": "2026-09-13T06:03:00.000Z",
+          "_edited": "2026-10-26T21:18:00.000Z",
           "Date Created": {
             "start": "2026-09-13",
             "end": null
           },
           "Price": 89.9,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-10-26",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Pollito walter con amigos",
           "Category": "Enjoy"
         },
@@ -22043,14 +22394,17 @@
           "_id": "3d9e6c72-cc72-8130-b740-d4a086f17818",
           "_url": "https://app.notion.com/p/parrilla-con-amor-3d9e6c72cc728130b740d4a086f17818",
           "_created": "2026-09-12T20:37:00.000Z",
-          "_edited": "2026-09-12T20:38:00.000Z",
+          "_edited": "2026-10-26T21:17:00.000Z",
           "Date Created": {
             "start": "2026-09-12",
             "end": null
           },
           "Price": 120.4,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-10-26",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "parrilla con amor",
           "Category": "Enjoy"
         },
@@ -22058,14 +22412,17 @@
           "_id": "3d9e6c72-cc72-8153-bf0f-dda347b4728f",
           "_url": "https://app.notion.com/p/gaseosas-3d9e6c72cc728153bf0fdda347b4728f",
           "_created": "2026-09-12T01:54:00.000Z",
-          "_edited": "2026-09-12T01:54:00.000Z",
+          "_edited": "2026-10-26T21:17:00.000Z",
           "Date Created": {
             "start": "2026-09-11",
             "end": null
           },
           "Price": 15.9,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-10-26",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "gaseosas",
           "Category": "Enjoy"
         },
@@ -22073,14 +22430,17 @@
           "_id": "3d3e6c72-cc72-813d-8602-e1194dcc83bd",
           "_url": "https://app.notion.com/p/cita-en-terraza-con-Day-3d3e6c72cc72813d8602e1194dcc83bd",
           "_created": "2026-09-06T05:18:00.000Z",
-          "_edited": "2026-09-06T05:18:00.000Z",
+          "_edited": "2026-10-26T21:17:00.000Z",
           "Date Created": {
             "start": "2026-09-06",
             "end": null
           },
           "Price": 75,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-10-26",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "cita en terraza con Day",
           "Category": "Enjoy"
         },
@@ -22088,14 +22448,17 @@
           "_id": "3cfe6c72-cc72-802e-b00f-d39007d407ec",
           "_url": "https://app.notion.com/p/pasta-hilo-dental-y-cepillo-3cfe6c72cc72802eb00fd39007d407ec",
           "_created": "2026-09-02T14:58:00.000Z",
-          "_edited": "2026-09-02T14:58:00.000Z",
+          "_edited": "2026-10-26T21:17:00.000Z",
           "Date Created": {
             "start": "2026-09-02",
             "end": null
           },
           "Price": 53.3,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-10-26",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "pasta, hilo dental y cepillo",
           "Category": "Personal"
         },
@@ -22103,14 +22466,17 @@
           "_id": "3cee6c72-cc72-80ee-9124-f7cec7f0f58a",
           "_url": "https://app.notion.com/p/Organizador-de-cables-ethernet-3cee6c72cc7280ee9124f7cec7f0f58a",
           "_created": "2026-09-01T21:44:00.000Z",
-          "_edited": "2026-09-01T21:45:00.000Z",
+          "_edited": "2026-10-26T21:17:00.000Z",
           "Date Created": {
             "start": "2026-09-01",
             "end": null
           },
           "Price": 85.02,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-10-26",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Organizador de cables + ethernet",
           "Category": "Home"
         },
@@ -22118,14 +22484,17 @@
           "_id": "3cee6c72-cc72-807d-b44d-ee31bb8effaf",
           "_url": "https://app.notion.com/p/Sillon-Grifo-Ducha-tacho-saldo-pendiente-3cee6c72cc72807db44dee31bb8effaf",
           "_created": "2026-09-01T21:36:00.000Z",
-          "_edited": "2026-10-15T15:04:00.000Z",
+          "_edited": "2026-10-26T21:17:00.000Z",
           "Date Created": {
             "start": "2026-09-01",
             "end": null
           },
           "Price": 574.35,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-10-26",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Sillon, Grifo, Ducha, tacho (saldo pendiente)",
           "Category": "Home"
         },
