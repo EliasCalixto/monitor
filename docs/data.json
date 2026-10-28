@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T13:58:35.175469+00:00",
+  "generated_at": "2026-10-28T19:16:18.611563+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 351014.0950000006,
+          "Tot. Expenses": 351045.1000000006,
           "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 54.545,
+          "Cash": 23.54,
           "Tot. Income": 351068.6400000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 54.544999999992,
+          "Cash Total": 23.539999999992,
           "Name": "Resumen"
         }
       ]
@@ -2013,6 +2013,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "407e6c72-cc72-814c-86a7-f85b8f225a0a",
+          "_url": "https://app.notion.com/p/apoyo-a-mama-en-almuerzo-de-cumplea-os-de-tio-angel-407e6c72cc72814c86a7f85b8f225a0a",
+          "_created": "2026-10-28T15:00:00.000Z",
+          "_edited": "2026-10-28T15:00:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-28",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 31,
+          "Name": "apoyo a mama en almuerzo de cumpleaños de tio angel"
+        },
         {
           "_id": "407e6c72-cc72-81fa-b138-d3489ffdd43f",
           "_url": "https://app.notion.com/p/pastillas-407e6c72cc7281fab138d3489ffdd43f",
@@ -15177,7 +15194,7 @@
           "_id": "358e6c72-cc72-8024-9a65-f8fe2d58de89",
           "_url": "https://app.notion.com/p/adelnato-dolarcity-358e6c72cc7280249a65f8fe2d58de89",
           "_created": "2026-05-06T00:38:00.000Z",
-          "_edited": "2026-05-06T00:38:00.000Z",
+          "_edited": "2026-10-28T15:26:00.000Z",
           "Category": "Enjoy",
           "Date Created": {
             "start": "2026-05-05",
@@ -15187,7 +15204,7 @@
           "Resumen": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
-          "Price": 19.805,
+          "Price": 19.81,
           "Name": "adelnato dolarcity"
         },
         {
