@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T23:20:28.347839+00:00",
+  "generated_at": "2026-10-29T02:32:52.793934+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -21871,6 +21871,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "407e6c72-cc72-8152-b4a2-f7f353923393",
+          "_url": "https://app.notion.com/p/starbucks-407e6c72cc728152b4a2f7f353923393",
+          "_created": "2026-10-28T23:25:00.000Z",
+          "_edited": "2026-10-28T23:25:00.000Z",
+          "Date Created": {
+            "start": "2026-10-28",
+            "end": null
+          },
+          "Price": 14.5,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "starbucks",
+          "Category": "Enjoy"
+        },
         {
           "_id": "407e6c72-cc72-814c-b74b-e4b00bb42460",
           "_url": "https://app.notion.com/p/gastos-fijos-407e6c72cc72814cb74be4b00bb42460",
