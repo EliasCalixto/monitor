@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T08:53:22.133954+00:00",
+  "generated_at": "2026-10-29T15:39:33.211218+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 351045.1000000006,
+          "Tot. Expenses": 351052.6000000006,
           "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 23.54,
+          "Cash": 16.04,
           "Tot. Income": 351068.6400000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 23.539999999992,
+          "Cash Total": 16.039999999992,
           "Name": "Resumen"
         }
       ]
@@ -2013,6 +2013,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "408e6c72-cc72-8193-8ee6-ff1f51c143b1",
+          "_url": "https://app.notion.com/p/pasajes-y-desayuno-408e6c72cc7281938ee6ff1f51c143b1",
+          "_created": "2026-10-29T11:43:00.000Z",
+          "_edited": "2026-10-29T11:43:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 7.5,
+          "Name": "pasajes y desayuno"
+        },
         {
           "_id": "407e6c72-cc72-814c-86a7-f85b8f225a0a",
           "_url": "https://app.notion.com/p/apoyo-a-mama-en-almuerzo-de-cumplea-os-de-tio-angel-407e6c72cc72814c86a7f85b8f225a0a",
@@ -21871,6 +21888,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "408e6c72-cc72-8141-92f8-d8448c1733af",
+          "_url": "https://app.notion.com/p/galletas-chapin-408e6c72cc72814192f8d8448c1733af",
+          "_created": "2026-10-29T12:52:00.000Z",
+          "_edited": "2026-10-29T12:52:00.000Z",
+          "Date Created": {
+            "start": "2026-10-29",
+            "end": null
+          },
+          "Price": 3.2,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "galletas chapin",
+          "Category": "Enjoy"
+        },
         {
           "_id": "407e6c72-cc72-8152-b4a2-f7f353923393",
           "_url": "https://app.notion.com/p/starbucks-407e6c72cc728152b4a2f7f353923393",
