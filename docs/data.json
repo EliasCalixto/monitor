@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T17:59:16.794875+00:00",
+  "generated_at": "2026-10-31T20:57:25.823786+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 352554.1600000006,
+          "Tot. Expenses": 352598.7600000006,
           "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 292.98,
+          "Cash": 248.38,
           "Tot. Income": 352847.1400000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 292.979999999992,
+          "Cash Total": 248.379999999992,
           "Name": "Resumen"
         }
       ]
@@ -2028,6 +2028,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "40ae6c72-cc72-816a-90e9-da392619b317",
+          "_url": "https://app.notion.com/p/pasajes-40ae6c72cc72816a90e9da392619b317",
+          "_created": "2026-10-31T20:18:00.000Z",
+          "_edited": "2026-10-31T20:18:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-31",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "40ae6c72-cc72-8166-bd2e-d54a7304844b",
+          "_url": "https://app.notion.com/p/taxi-40ae6c72cc728166bd2ed54a7304844b",
+          "_created": "2026-10-31T20:17:00.000Z",
+          "_edited": "2026-10-31T20:17:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-31",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 27.6,
+          "Name": "taxi"
+        },
+        {
+          "_id": "40ae6c72-cc72-812b-bb1e-eb4d53dc9036",
+          "_url": "https://app.notion.com/p/lavado-de-terno-40ae6c72cc72812bbb1eeb4d53dc9036",
+          "_created": "2026-10-31T20:16:00.000Z",
+          "_edited": "2026-10-31T20:16:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-10-31",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 15,
+          "Name": "lavado de terno"
+        },
         {
           "_id": "40ae6c72-cc72-81f4-8759-d3c4e0bf7c7f",
           "_url": "https://app.notion.com/p/devolucion-pago-a-banco-40ae6c72cc7281f48759d3c4e0bf7c7f",
