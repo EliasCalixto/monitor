@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T22:30:10.193582+00:00",
+  "generated_at": "2026-10-31T01:43:53.080042+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 352524.1600000006,
+          "Tot. Expenses": 352554.1600000006,
           "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 322.98,
+          "Cash": 292.98,
           "Tot. Income": 352847.1400000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 322.979999999992,
+          "Cash Total": 292.979999999992,
           "Name": "Resumen"
         }
       ]
@@ -2028,6 +2028,74 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "40ae6c72-cc72-81f4-8759-d3c4e0bf7c7f",
+          "_url": "https://app.notion.com/p/devolucion-pago-a-banco-40ae6c72cc7281f48759d3c4e0bf7c7f",
+          "_created": "2026-10-31T00:51:00.000Z",
+          "_edited": "2026-10-31T00:51:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-10-30",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -1.8,
+          "Name": "devolucion pago a banco"
+        },
+        {
+          "_id": "40ae6c72-cc72-8119-96ce-d4c661d2f276",
+          "_url": "https://app.notion.com/p/pasajes-40ae6c72cc72811996ced4c661d2f276",
+          "_created": "2026-10-31T00:50:00.000Z",
+          "_edited": "2026-10-31T00:50:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-30",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 6,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "40ae6c72-cc72-818d-9440-c4ae1b526a2c",
+          "_url": "https://app.notion.com/p/taxi-40ae6c72cc72818d9440c4ae1b526a2c",
+          "_created": "2026-10-31T00:50:00.000Z",
+          "_edited": "2026-10-31T00:50:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-30",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 14.8,
+          "Name": "taxi"
+        },
+        {
+          "_id": "40ae6c72-cc72-81d3-aeb9-da94804d3c83",
+          "_url": "https://app.notion.com/p/pastillas-para-gripe-40ae6c72cc7281d3aeb9da94804d3c83",
+          "_created": "2026-10-31T00:49:00.000Z",
+          "_edited": "2026-10-31T00:49:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-10-30",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 11,
+          "Name": "pastillas para gripe"
+        },
         {
           "_id": "409e6c72-cc72-8182-b8e1-cbfaf2d2fe21",
           "_url": "https://app.notion.com/p/taxi-409e6c72cc728182b8e1cbfaf2d2fe21",
@@ -21937,6 +22005,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "40ae6c72-cc72-81d6-aff9-e7f673209126",
+          "_url": "https://app.notion.com/p/items-de-dota-40ae6c72cc7281d6aff9e7f673209126",
+          "_created": "2026-10-31T00:49:00.000Z",
+          "_edited": "2026-10-31T00:49:00.000Z",
+          "Date Created": {
+            "start": "2026-10-30",
+            "end": null
+          },
+          "Price": 300,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "items de dota",
+          "Category": "Enjoy"
+        },
         {
           "_id": "409e6c72-cc72-818c-a828-ca462a017739",
           "_url": "https://app.notion.com/p/items-dota-PL-y-Spectre-409e6c72cc72818ca828ca462a017739",
