@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T16:21:58.889097+00:00",
+  "generated_at": "2026-11-01T20:37:47.784542+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 352603.7600000006,
+          "Tot. Expenses": 352645.2600000006,
           "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 243.38,
+          "Cash": 201.88,
           "Tot. Income": 352847.1400000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 243.379999999992,
+          "Cash Total": 201.879999999992,
           "Name": "Resumen"
         }
       ]
@@ -2028,6 +2028,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "40be6c72-cc72-8109-8245-f6e9575ccafe",
+          "_url": "https://app.notion.com/p/cita-con-amor-40be6c72cc7281098245f6e9575ccafe",
+          "_created": "2026-11-01T17:45:00.000Z",
+          "_edited": "2026-11-01T17:45:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-11-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 41.5,
+          "Name": "cita con amor"
+        },
         {
           "_id": "40ae6c72-cc72-810a-9869-c885a809ea0f",
           "_url": "https://app.notion.com/p/retiro-40ae6c72cc72810a9869c885a809ea0f",
