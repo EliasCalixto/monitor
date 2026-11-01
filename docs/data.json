@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T23:52:30.184452+00:00",
+  "generated_at": "2026-11-01T02:41:00.928035+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -22073,6 +22073,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "40be6c72-cc72-818a-ab3b-fd7758d20f92",
+          "_url": "https://app.notion.com/p/afeitador-40be6c72cc72818aab3bfd7758d20f92",
+          "_created": "2026-11-01T00:52:00.000Z",
+          "_edited": "2026-11-01T00:52:00.000Z",
+          "Date Created": {
+            "start": "2026-10-31",
+            "end": null
+          },
+          "Price": 61.41,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "afeitador",
+          "Category": "Personal"
+        },
         {
           "_id": "40ae6c72-cc72-81d6-aff9-e7f673209126",
           "_url": "https://app.notion.com/p/items-de-dota-40ae6c72cc7281d6aff9e7f673209126",
