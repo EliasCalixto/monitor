@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T02:28:29.902826+00:00",
+  "generated_at": "2026-11-04T17:29:20.766217+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -22158,6 +22158,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "40ee6c72-cc72-814a-b738-e0acfc9b1e80",
+          "_url": "https://app.notion.com/p/multibioticos-Bs-9-40ee6c72cc72814ab738e0acfc9b1e80",
+          "_created": "2026-11-04T12:40:00.000Z",
+          "_edited": "2026-11-04T12:40:00.000Z",
+          "Date Created": {
+            "start": "2026-11-04",
+            "end": null
+          },
+          "Price": 2.56,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "multibioticos (Bs 9)",
+          "Category": "Personal"
+        },
         {
           "_id": "40be6c72-cc72-818a-ab3b-fd7758d20f92",
           "_url": "https://app.notion.com/p/afeitador-40be6c72cc72818aab3bfd7758d20f92",
