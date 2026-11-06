@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T17:06:28.070308+00:00",
+  "generated_at": "2026-11-06T22:03:12.842163+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 352703.7600000006,
+          "Tot. Expenses": 352753.7600000006,
           "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 143.38,
+          "Cash": 93.38,
           "Tot. Income": 352847.1400000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 143.379999999992,
+          "Cash Total": 93.379999999992,
           "Name": "Resumen"
         }
       ]
@@ -2028,6 +2028,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "410e6c72-cc72-814e-ab62-faf79bb64840",
+          "_url": "https://app.notion.com/p/teatro-con-amor-410e6c72cc72814eab62faf79bb64840",
+          "_created": "2026-11-06T21:24:00.000Z",
+          "_edited": "2026-11-06T21:24:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-11-06",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 50,
+          "Name": "teatro con amor"
+        },
         {
           "_id": "40fe6c72-cc72-8147-bc5b-d10baec8e7ea",
           "_url": "https://app.notion.com/p/transferencia-a-bbva-40fe6c72cc728147bc5bd10baec8e7ea",
