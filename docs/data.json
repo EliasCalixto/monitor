@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T02:55:03.423266+00:00",
+  "generated_at": "2026-11-06T09:58:25.329266+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -22175,6 +22175,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "410e6c72-cc72-8166-be7e-e396091e7795",
+          "_url": "https://app.notion.com/p/sasuke-Bs-169-410e6c72cc728166be7ee396091e7795",
+          "_created": "2026-11-06T04:10:00.000Z",
+          "_edited": "2026-11-06T04:10:00.000Z",
+          "Date Created": {
+            "start": "2026-11-06",
+            "end": null
+          },
+          "Price": 48.11,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "sasuke (Bs 169)",
+          "Category": "Enjoy"
+        },
         {
           "_id": "40ee6c72-cc72-814a-b738-e0acfc9b1e80",
           "_url": "https://app.notion.com/p/multibioticos-Bs-9-40ee6c72cc72814ab738e0acfc9b1e80",
