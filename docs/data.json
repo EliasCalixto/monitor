@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T18:54:18.042426+00:00",
+  "generated_at": "2026-11-07T22:23:17.067409+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -22292,6 +22292,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "411e6c72-cc72-81f7-990d-c704fec28933",
+          "_url": "https://app.notion.com/p/ventilador-411e6c72cc7281f7990dc704fec28933",
+          "_created": "2026-11-07T19:23:00.000Z",
+          "_edited": "2026-11-07T19:23:00.000Z",
+          "Date Created": {
+            "start": "2026-11-07",
+            "end": null
+          },
+          "Price": 236,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "ventilador",
+          "Category": "Home"
+        },
         {
           "_id": "411e6c72-cc72-81c8-9e0c-c3276a03d3d6",
           "_url": "https://app.notion.com/p/items-de-dota-2-411e6c72cc7281c89e0cc3276a03d3d6",
