@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T14:25:16.286672+00:00",
+  "generated_at": "2026-11-07T18:54:18.042426+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 355616.56000000064,
+          "Tot. Expenses": 355116.56000000064,
           "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 93.37999999996,
+          "Cash": 593.37999999996,
           "Tot. Income": 355709.9400000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 93.379999999952,
+          "Cash Total": 593.379999999952,
           "Name": "Resumen"
         }
       ]
@@ -2043,6 +2043,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "411e6c72-cc72-8128-a8dc-e95997300ef2",
+          "_url": "https://app.notion.com/p/venta-de-tarjeta-de-video-RTX2060-411e6c72cc728128a8dce95997300ef2",
+          "_created": "2026-11-07T17:33:00.000Z",
+          "_edited": "2026-11-07T17:33:00.000Z",
+          "Category": "Setup",
+          "Date Created": {
+            "start": "2026-11-07",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -500,
+          "Name": "venta de tarjeta de video RTX2060"
+        },
         {
           "_id": "411e6c72-cc72-8057-bedc-df60da9a3898",
           "_url": "https://app.notion.com/p/No-se-411e6c72cc728057bedcdf60da9a3898",
