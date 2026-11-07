@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T07:51:32.792410+00:00",
+  "generated_at": "2026-11-07T14:25:16.286672+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 352753.7600000006,
+          "Tot. Expenses": 355616.56000000064,
           "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,8 +140,8 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 93.38,
-          "Tot. Income": 352847.1400000006,
+          "Cash": 93.37999999996,
+          "Tot. Income": 355709.9400000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 93.379999999992,
+          "Cash Total": 93.379999999952,
           "Name": "Resumen"
         }
       ]
@@ -184,6 +184,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "411e6c72-cc72-81ca-a676-efefee902350",
+          "_url": "https://app.notion.com/p/CTS-area-US-842-411e6c72cc7281caa676efefee902350",
+          "_created": "2026-11-07T13:27:00.000Z",
+          "_edited": "2026-11-07T13:27:00.000Z",
+          "Date Received": {
+            "start": "2026-11-07",
+            "end": null
+          },
+          "Income": 2862.8,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "CTS area (US$ 842)"
+        },
         {
           "_id": "408e6c72-cc72-804d-a4ce-c1989d77ad8e",
           "_url": "https://app.notion.com/p/Finde-tp-408e6c72cc72804da4cec1989d77ad8e",
@@ -2028,6 +2043,74 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "411e6c72-cc72-8057-bedc-df60da9a3898",
+          "_url": "https://app.notion.com/p/No-se-411e6c72cc728057bedcdf60da9a3898",
+          "_created": "2026-11-07T13:43:00.000Z",
+          "_edited": "2026-11-07T13:43:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-11-07",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 85.71,
+          "Name": "No se"
+        },
+        {
+          "_id": "411e6c72-cc72-816d-a0fa-db044d573328",
+          "_url": "https://app.notion.com/p/cambio-a-dolares-US-278-02-411e6c72cc72816da0fadb044d573328",
+          "_created": "2026-11-07T13:33:00.000Z",
+          "_edited": "2026-11-07T13:42:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-11-07",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 945.95,
+          "Name": "cambio a dolares (US$ 278.02)"
+        },
+        {
+          "_id": "411e6c72-cc72-8156-b75d-f5670abc1b17",
+          "_url": "https://app.notion.com/p/viaje-a-mancora-con-familia-pago-parcial-411e6c72cc728156b75df5670abc1b17",
+          "_created": "2026-11-07T13:31:00.000Z",
+          "_edited": "2026-11-07T13:31:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-27",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1784.9,
+          "Name": "viaje a mancora con familia (pago parcial)"
+        },
+        {
+          "_id": "411e6c72-cc72-8181-8a76-f4513bca9f88",
+          "_url": "https://app.notion.com/p/viaje-a-mancora-con-familia-pago-parcial-411e6c72cc7281818a76f4513bca9f88",
+          "_created": "2026-11-07T13:30:00.000Z",
+          "_edited": "2026-11-07T13:30:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-27",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 46.24,
+          "Name": "viaje a mancora con familia (pago parcial)"
+        },
         {
           "_id": "410e6c72-cc72-814e-ab62-faf79bb64840",
           "_url": "https://app.notion.com/p/teatro-con-amor-410e6c72cc72814eab62faf79bb64840",
@@ -22193,6 +22276,21 @@
       },
       "rows": [
         {
+          "_id": "411e6c72-cc72-81c8-9e0c-c3276a03d3d6",
+          "_url": "https://app.notion.com/p/items-de-dota-2-411e6c72cc7281c89e0cc3276a03d3d6",
+          "_created": "2026-11-07T14:06:00.000Z",
+          "_edited": "2026-11-07T14:06:00.000Z",
+          "Date Created": {
+            "start": "2026-11-07",
+            "end": null
+          },
+          "Price": 30,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "items de dota 2",
+          "Category": "Enjoy"
+        },
+        {
           "_id": "410e6c72-cc72-8166-be7e-e396091e7795",
           "_url": "https://app.notion.com/p/sasuke-Bs-169-410e6c72cc728166be7ee396091e7795",
           "_created": "2026-11-06T04:10:00.000Z",
@@ -22658,21 +22756,6 @@
           "Category": "Fixed"
         },
         {
-          "_id": "3eee6c72-cc72-81c4-9bb3-c93f69e4898e",
-          "_url": "https://app.notion.com/p/pedal-tremolo-3eee6c72cc7281c49bb3c93f69e4898e",
-          "_created": "2026-10-03T00:26:00.000Z",
-          "_edited": "2026-10-03T00:26:00.000Z",
-          "Date Created": {
-            "start": "2026-10-02",
-            "end": null
-          },
-          "Price": 399.18,
-          "Date Payed": null,
-          "Status": "Pending",
-          "Name": "pedal tremolo",
-          "Category": "Setup"
-        },
-        {
           "_id": "3ede6c72-cc72-813c-a772-f0f692f6a9de",
           "_url": "https://app.notion.com/p/mamparas-3ede6c72cc72813ca772f0f692f6a9de",
           "_created": "2026-10-02T00:35:00.000Z",
@@ -22706,12 +22789,12 @@
           "_id": "3e8e6c72-cc72-81eb-8306-d912266190eb",
           "_url": "https://app.notion.com/p/viaje-a-mancora-con-familia-saldo-pendiente-3e8e6c72cc7281eb8306d912266190eb",
           "_created": "2026-09-27T21:11:00.000Z",
-          "_edited": "2026-10-26T21:18:00.000Z",
+          "_edited": "2026-11-07T13:31:00.000Z",
           "Date Created": {
             "start": "2026-09-27",
             "end": null
           },
-          "Price": 1968.46,
+          "Price": 137.32,
           "Date Payed": null,
           "Status": "Pending",
           "Name": "viaje a mancora con familia (saldo pendiente)",
