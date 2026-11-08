@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T19:05:31.536109+00:00",
+  "generated_at": "2026-11-08T22:49:29.163076+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 355116.56000000064,
+          "Tot. Expenses": 355027.2300000007,
           "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 593.37999999996,
+          "Cash": 682.7099999999,
           "Tot. Income": 355709.9400000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 593.379999999952,
+          "Cash Total": 682.709999999892,
           "Name": "Resumen"
         }
       ]
@@ -2044,6 +2044,57 @@
       },
       "rows": [
         {
+          "_id": "412e6c72-cc72-8078-8496-d931826d1803",
+          "_url": "https://app.notion.com/p/Salida-con-jas-y-day-412e6c72cc7280788496d931826d1803",
+          "_created": "2026-11-08T21:32:00.000Z",
+          "_edited": "2026-11-08T21:33:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-11-08",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 110.2,
+          "Name": "Salida con jas y day"
+        },
+        {
+          "_id": "412e6c72-cc72-81e7-a8e3-d0edfa3db89d",
+          "_url": "https://app.notion.com/p/Lagricel-gotas-para-ojos-412e6c72cc7281e7a8e3d0edfa3db89d",
+          "_created": "2026-11-08T21:24:00.000Z",
+          "_edited": "2026-11-08T21:24:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-11-08",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 96.9,
+          "Name": "Lagricel (gotas para ojos)"
+        },
+        {
+          "_id": "412e6c72-cc72-812e-a8b9-cfd3392a237e",
+          "_url": "https://app.notion.com/p/compensacion-de-Efrain-por-insumos-dividido-en-3-412e6c72cc72812ea8b9cfd3392a237e",
+          "_created": "2026-11-08T21:22:00.000Z",
+          "_edited": "2026-11-08T21:22:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-11-08",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -296.43,
+          "Name": "compensacion de Efrain por insumos (dividido en 3)"
+        },
+        {
           "_id": "411e6c72-cc72-8128-a8dc-e95997300ef2",
           "_url": "https://app.notion.com/p/venta-de-tarjeta-de-video-RTX2060-411e6c72cc728128a8dce95997300ef2",
           "_created": "2026-11-07T17:33:00.000Z",
@@ -3864,9 +3915,9 @@
         },
         {
           "_id": "3ede6c72-cc72-813b-8be3-ec136b5a4e7e",
-          "_url": "https://app.notion.com/p/gotas-para-ojos-3ede6c72cc72813b8be3ec136b5a4e7e",
+          "_url": "https://app.notion.com/p/Lagricel-gotas-para-ojos-3ede6c72cc72813b8be3ec136b5a4e7e",
           "_created": "2026-10-02T01:46:00.000Z",
-          "_edited": "2026-10-02T01:46:00.000Z",
+          "_edited": "2026-11-08T19:35:00.000Z",
           "Category": "Personal",
           "Date Created": {
             "start": "2026-10-01",
@@ -3877,7 +3928,7 @@
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
           "Price": 95.9,
-          "Name": "gotas para ojos"
+          "Name": "Lagricel (gotas para ojos)"
         },
         {
           "_id": "3ede6c72-cc72-8057-900e-c2ad5b4decd1",
@@ -22292,6 +22343,36 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "412e6c72-cc72-80bf-8004-e0a990c57cb2",
+          "_url": "https://app.notion.com/p/Salida-con-Day-y-con-jas-412e6c72cc7280bf8004e0a990c57cb2",
+          "_created": "2026-11-08T21:31:00.000Z",
+          "_edited": "2026-11-08T21:32:00.000Z",
+          "Date Created": {
+            "start": "2026-11-08",
+            "end": null
+          },
+          "Price": 102,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "Salida con Day y con jas",
+          "Category": "Enjoy"
+        },
+        {
+          "_id": "412e6c72-cc72-8102-81f4-e8f472d58de7",
+          "_url": "https://app.notion.com/p/mas-compras-de-insumos-para-almacenar-412e6c72cc72810281f4e8f472d58de7",
+          "_created": "2026-11-08T21:17:00.000Z",
+          "_edited": "2026-11-08T21:17:00.000Z",
+          "Date Created": {
+            "start": "2026-11-08",
+            "end": null
+          },
+          "Price": 127.8,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "mas compras de insumos para almacenar",
+          "Category": "Personal"
+        },
         {
           "_id": "411e6c72-cc72-81f7-990d-c704fec28933",
           "_url": "https://app.notion.com/p/ventilador-411e6c72cc7281f7990dc704fec28933",
