@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T09:40:34.589819+00:00",
+  "generated_at": "2026-11-09T20:02:19.285549+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -22343,6 +22343,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "413e6c72-cc72-81b9-a564-c88783c286b1",
+          "_url": "https://app.notion.com/p/papitas-413e6c72cc7281b9a564c88783c286b1",
+          "_created": "2026-11-09T14:29:00.000Z",
+          "_edited": "2026-11-09T14:29:00.000Z",
+          "Date Created": {
+            "start": "2026-11-09",
+            "end": null
+          },
+          "Price": 2.5,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "papitas",
+          "Category": "Enjoy"
+        },
         {
           "_id": "412e6c72-cc72-80bf-8004-e0a990c57cb2",
           "_url": "https://app.notion.com/p/Salida-con-Day-y-con-jas-412e6c72cc7280bf8004e0a990c57cb2",
