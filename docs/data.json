@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T02:41:00.544448+00:00",
+  "generated_at": "2026-11-10T10:21:21.426298+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 355027.2300000007,
+          "Tot. Expenses": 355042.2300000007,
           "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 682.7099999999,
+          "Cash": 667.7099999999,
           "Tot. Income": 355709.9400000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 682.709999999892,
+          "Cash Total": 667.709999999892,
           "Name": "Resumen"
         }
       ]
@@ -2043,6 +2043,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "414e6c72-cc72-8081-a401-e8960987d38d",
+          "_url": "https://app.notion.com/p/almuerzo-414e6c72cc728081a401e8960987d38d",
+          "_created": "2026-11-10T02:58:00.000Z",
+          "_edited": "2026-11-10T02:59:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-11-09",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 15,
+          "Name": "almuerzo"
+        },
         {
           "_id": "412e6c72-cc72-8078-8496-d931826d1803",
           "_url": "https://app.notion.com/p/Salida-con-jas-y-day-412e6c72cc7280788496d931826d1803",
@@ -22344,6 +22361,51 @@
       },
       "rows": [
         {
+          "_id": "414e6c72-cc72-8142-a750-d4dd9480da2a",
+          "_url": "https://app.notion.com/p/compra-de-pelicula-414e6c72cc728142a750d4dd9480da2a",
+          "_created": "2026-11-10T04:27:00.000Z",
+          "_edited": "2026-11-10T04:27:00.000Z",
+          "Date Created": {
+            "start": "2026-11-09",
+            "end": null
+          },
+          "Price": 5.9,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "compra de pelicula",
+          "Category": "Enjoy"
+        },
+        {
+          "_id": "414e6c72-cc72-80bb-8c42-c7d5de29cf1a",
+          "_url": "https://app.notion.com/p/ipad-11-pulgadas-414e6c72cc7280bb8c42c7d5de29cf1a",
+          "_created": "2026-11-10T03:17:00.000Z",
+          "_edited": "2026-11-10T03:17:00.000Z",
+          "Date Created": {
+            "start": "2026-11-09",
+            "end": null
+          },
+          "Price": 2759,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "ipad 11 pulgadas",
+          "Category": "Setup"
+        },
+        {
+          "_id": "414e6c72-cc72-8032-9e6a-d1a3d50ab653",
+          "_url": "https://app.notion.com/p/luces-led-xiaomi-414e6c72cc7280329e6ad1a3d50ab653",
+          "_created": "2026-11-10T03:02:00.000Z",
+          "_edited": "2026-11-10T03:02:00.000Z",
+          "Date Created": {
+            "start": "2026-11-09",
+            "end": null
+          },
+          "Price": 189,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "luces led xiaomi",
+          "Category": "Setup"
+        },
+        {
           "_id": "413e6c72-cc72-81b9-a564-c88783c286b1",
           "_url": "https://app.notion.com/p/papitas-413e6c72cc7281b9a564c88783c286b1",
           "_created": "2026-11-09T14:29:00.000Z",
@@ -25621,6 +25683,15 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "414e6c72-cc72-8094-9e0e-c0e55f9dce48",
+          "_url": "https://app.notion.com/p/Netflix-414e6c72cc7280949e0ec0e55f9dce48",
+          "_created": "2026-11-10T05:18:00.000Z",
+          "_edited": "2026-11-10T05:18:00.000Z",
+          "Type": "Manual",
+          "Price": 14,
+          "Name": "Netflix"
+        },
         {
           "_id": "3c4e6c72-cc72-80b8-ae76-fcb982675653",
           "_url": "https://app.notion.com/p/Dentista-3c4e6c72cc7280b8ae76fcb982675653",
