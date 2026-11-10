@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T10:21:21.426298+00:00",
+  "generated_at": "2026-11-10T17:58:59.702554+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 355042.2300000007,
+          "Tot. Expenses": 356837.1600000007,
           "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -141,7 +141,7 @@
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
           "Cash": 667.7099999999,
-          "Tot. Income": 355709.9400000006,
+          "Tot. Income": 357504.8700000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -184,6 +184,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "414e6c72-cc72-80ab-8608-f83442b1757a",
+          "_url": "https://app.notion.com/p/CTS-TP-414e6c72cc7280ab8608f83442b1757a",
+          "_created": "2026-11-10T13:04:00.000Z",
+          "_edited": "2026-11-10T13:04:00.000Z",
+          "Date Received": {
+            "start": "2026-11-10",
+            "end": null
+          },
+          "Income": 1794.93,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "CTS TP"
+        },
         {
           "_id": "411e6c72-cc72-81ca-a676-efefee902350",
           "_url": "https://app.notion.com/p/CTS-area-US-842-411e6c72cc7281caa676efefee902350",
@@ -2043,6 +2058,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "414e6c72-cc72-8103-b63f-e54a76bc7dfb",
+          "_url": "https://app.notion.com/p/viaje-a-mancora-con-familia-pago-final-414e6c72cc728103b63fe54a76bc7dfb",
+          "_created": "2026-11-10T13:07:00.000Z",
+          "_edited": "2026-11-10T13:07:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-09-27",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 137.32,
+          "Name": "viaje a mancora con familia (pago final)"
+        },
+        {
+          "_id": "414e6c72-cc72-8134-86cd-f4103d6d4312",
+          "_url": "https://app.notion.com/p/mamparas-pago-parcial-414e6c72cc72813486cdf4103d6d4312",
+          "_created": "2026-11-10T13:07:00.000Z",
+          "_edited": "2026-11-10T13:09:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-10-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1548.61,
+          "Name": "mamparas (pago parcial)"
+        },
+        {
+          "_id": "414e6c72-cc72-8177-a7ef-e1c6eb17706e",
+          "_url": "https://app.notion.com/p/win-septiembre-414e6c72cc728177a7efe1c6eb17706e",
+          "_created": "2026-11-10T13:07:00.000Z",
+          "_edited": "2026-11-10T13:07:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-09-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 109,
+          "Name": "win septiembre"
+        },
         {
           "_id": "414e6c72-cc72-8081-a401-e8960987d38d",
           "_url": "https://app.notion.com/p/almuerzo-414e6c72cc728081a401e8960987d38d",
@@ -22947,31 +23013,34 @@
         },
         {
           "_id": "3ede6c72-cc72-813c-a772-f0f692f6a9de",
-          "_url": "https://app.notion.com/p/mamparas-3ede6c72cc72813ca772f0f692f6a9de",
+          "_url": "https://app.notion.com/p/mamparas-saldo-pendiente-3ede6c72cc72813ca772f0f692f6a9de",
           "_created": "2026-10-02T00:35:00.000Z",
-          "_edited": "2026-10-02T00:35:00.000Z",
+          "_edited": "2026-11-10T13:09:00.000Z",
           "Date Created": {
             "start": "2026-10-01",
             "end": null
           },
-          "Price": 2756.1,
+          "Price": 1207.49,
           "Date Payed": null,
           "Status": "Pending",
-          "Name": "mamparas",
+          "Name": "mamparas (saldo pendiente)",
           "Category": "Home"
         },
         {
           "_id": "3eae6c72-cc72-81a7-848f-ea622bd61324",
           "_url": "https://app.notion.com/p/win-septiembre-3eae6c72cc7281a7848fea622bd61324",
           "_created": "2026-09-29T23:37:00.000Z",
-          "_edited": "2026-09-29T23:37:00.000Z",
+          "_edited": "2026-11-10T13:08:00.000Z",
           "Date Created": {
             "start": "2026-09-29",
             "end": null
           },
           "Price": 109,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-10",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "win septiembre",
           "Category": "Fixed"
         },
@@ -22979,14 +23048,17 @@
           "_id": "3e8e6c72-cc72-81eb-8306-d912266190eb",
           "_url": "https://app.notion.com/p/viaje-a-mancora-con-familia-saldo-pendiente-3e8e6c72cc7281eb8306d912266190eb",
           "_created": "2026-09-27T21:11:00.000Z",
-          "_edited": "2026-11-07T13:31:00.000Z",
+          "_edited": "2026-11-10T13:09:00.000Z",
           "Date Created": {
             "start": "2026-09-27",
             "end": null
           },
           "Price": 137.32,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-10",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "viaje a mancora con familia (saldo pendiente)",
           "Category": "Enjoy"
         },
