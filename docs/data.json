@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T09:37:26.374563+00:00",
+  "generated_at": "2026-11-11T17:25:40.696386+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -25755,6 +25755,15 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "415e6c72-cc72-809a-87e8-ce0784b333cd",
+          "_url": "https://app.notion.com/p/Claude-415e6c72cc72809a87e8ce0784b333cd",
+          "_created": "2026-11-11T13:25:00.000Z",
+          "_edited": "2026-11-11T13:25:00.000Z",
+          "Type": "Auto",
+          "Price": 80.5,
+          "Name": "Claude"
+        },
         {
           "_id": "414e6c72-cc72-8094-9e0e-c0e55f9dce48",
           "_url": "https://app.notion.com/p/Netflix-414e6c72cc7280949e0ec0e55f9dce48",
