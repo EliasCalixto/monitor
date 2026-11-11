@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T17:25:40.696386+00:00",
+  "generated_at": "2026-11-11T23:31:25.630715+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 356837.1600000007,
+          "Tot. Expenses": 356799.1600000007,
           "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 667.7099999999,
+          "Cash": 705.7099999999,
           "Tot. Income": 357504.8700000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 667.709999999892,
+          "Cash Total": 705.709999999892,
           "Name": "Resumen"
         }
       ]
@@ -2058,6 +2058,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "415e6c72-cc72-8150-ab77-d6020c1d18e7",
+          "_url": "https://app.notion.com/p/ajuste-de-cuadre-cash-415e6c72cc728150ab77d6020c1d18e7",
+          "_created": "2026-11-11T22:07:00.000Z",
+          "_edited": "2026-11-11T22:07:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-11-11",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -38,
+          "Name": "ajuste de cuadre cash"
+        },
         {
           "_id": "414e6c72-cc72-8103-b63f-e54a76bc7dfb",
           "_url": "https://app.notion.com/p/viaje-a-mancora-con-familia-pago-final-414e6c72cc728103b63fe54a76bc7dfb",
@@ -22426,6 +22443,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "415e6c72-cc72-814b-bd93-e9e819f91067",
+          "_url": "https://app.notion.com/p/almuerzo-provoca-415e6c72cc72814bbd93e9e819f91067",
+          "_created": "2026-11-11T17:28:00.000Z",
+          "_edited": "2026-11-11T17:28:00.000Z",
+          "Date Created": {
+            "start": "2026-11-11",
+            "end": null
+          },
+          "Price": 12,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "almuerzo provoca",
+          "Category": "Fixed"
+        },
         {
           "_id": "414e6c72-cc72-8142-a750-d4dd9480da2a",
           "_url": "https://app.notion.com/p/compra-de-pelicula-414e6c72cc728142a750d4dd9480da2a",
