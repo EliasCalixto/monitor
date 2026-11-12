@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T12:35:30.493300+00:00",
+  "generated_at": "2026-11-12T20:24:34.508831+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -22477,6 +22477,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "416e6c72-cc72-81fa-897b-c1630150f82a",
+          "_url": "https://app.notion.com/p/almuerzo-mira-mar-416e6c72cc7281fa897bc1630150f82a",
+          "_created": "2026-11-12T18:34:00.000Z",
+          "_edited": "2026-11-12T18:34:00.000Z",
+          "Date Created": {
+            "start": "2026-11-12",
+            "end": null
+          },
+          "Price": 47,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "almuerzo mira mar",
+          "Category": "Fixed"
+        },
         {
           "_id": "415e6c72-cc72-814b-bd93-e9e819f91067",
           "_url": "https://app.notion.com/p/almuerzo-provoca-415e6c72cc72814bbd93e9e819f91067",
