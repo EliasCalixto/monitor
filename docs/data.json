@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T20:24:34.508831+00:00",
+  "generated_at": "2026-11-13T01:13:22.846999+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 356821.1600000007,
+          "Tot. Expenses": 358928.3400000006,
           "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,8 +140,8 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 683.7099999999,
-          "Tot. Income": 357504.8700000006,
+          "Cash": 636.70999999997,
+          "Tot. Income": 359565.05000000057,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 683.709999999892,
+          "Cash Total": 636.709999999962,
           "Name": "Resumen"
         }
       ]
@@ -184,6 +184,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "416e6c72-cc72-8024-ae48-d2ec1739080b",
+          "_url": "https://app.notion.com/p/Quincena-Area-416e6c72cc728024ae48d2ec1739080b",
+          "_created": "2026-11-12T23:09:00.000Z",
+          "_edited": "2026-11-12T23:09:00.000Z",
+          "Date Received": {
+            "start": "2026-11-12",
+            "end": null
+          },
+          "Income": 2060.18,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Quincena Area"
+        },
         {
           "_id": "414e6c72-cc72-80ab-8608-f83442b1757a",
           "_url": "https://app.notion.com/p/CTS-TP-414e6c72cc7280ab8608f83442b1757a",
@@ -2058,6 +2073,176 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "416e6c72-cc72-81b7-be1f-f1b9d47f5833",
+          "_url": "https://app.notion.com/p/arcana-de-TB-416e6c72cc7281b7be1ff1b9d47f5833",
+          "_created": "2026-11-12T23:25:00.000Z",
+          "_edited": "2026-11-12T23:25:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-07",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 127.42,
+          "Name": "arcana de TB"
+        },
+        {
+          "_id": "416e6c72-cc72-81c5-bfa8-d80e21a6254c",
+          "_url": "https://app.notion.com/p/mano-de-obra-para-mamparas-416e6c72cc7281c5bfa8d80e21a6254c",
+          "_created": "2026-11-12T23:25:00.000Z",
+          "_edited": "2026-11-12T23:25:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-10-07",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 336.3,
+          "Name": "mano de obra para mamparas"
+        },
+        {
+          "_id": "416e6c72-cc72-81c9-ab39-d72d6e64eb70",
+          "_url": "https://app.notion.com/p/almuerzo-416e6c72cc7281c9ab39d72d6e64eb70",
+          "_created": "2026-11-12T23:25:00.000Z",
+          "_edited": "2026-11-12T23:25:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-10-03",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 15,
+          "Name": "almuerzo"
+        },
+        {
+          "_id": "416e6c72-cc72-81d7-94e0-fc90f051bd03",
+          "_url": "https://app.notion.com/p/almohada-para-descansar-en-viaje-pago-parcial-416e6c72cc7281d794e0fc90f051bd03",
+          "_created": "2026-11-12T23:25:00.000Z",
+          "_edited": "2026-11-12T23:25:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-10-07",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 21.3,
+          "Name": "almohada para descansar en viaje (pago parcial)"
+        },
+        {
+          "_id": "416e6c72-cc72-81d7-adba-ce881fbfbd54",
+          "_url": "https://app.notion.com/p/mamparas-pago-final-416e6c72cc7281d7adbace881fbfbd54",
+          "_created": "2026-11-12T23:25:00.000Z",
+          "_edited": "2026-11-12T23:25:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-10-01",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1207.49,
+          "Name": "mamparas (pago final)"
+        },
+        {
+          "_id": "416e6c72-cc72-81dc-8a20-c1e19ceaad5e",
+          "_url": "https://app.notion.com/p/cerave-crema-de-piel-416e6c72cc7281dc8a20c1e19ceaad5e",
+          "_created": "2026-11-12T23:25:00.000Z",
+          "_edited": "2026-11-12T23:25:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-10-07",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 44.91,
+          "Name": "cerave crema de piel"
+        },
+        {
+          "_id": "416e6c72-cc72-81df-a43f-c649392da501",
+          "_url": "https://app.notion.com/p/almuerzo-con-familia-416e6c72cc7281dfa43fc649392da501",
+          "_created": "2026-11-12T23:25:00.000Z",
+          "_edited": "2026-11-12T23:25:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-04",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 119.8,
+          "Name": "almuerzo con familia"
+        },
+        {
+          "_id": "416e6c72-cc72-81f5-a023-c61802dedc54",
+          "_url": "https://app.notion.com/p/sets-dota-2-416e6c72cc7281f5a023c61802dedc54",
+          "_created": "2026-11-12T23:25:00.000Z",
+          "_edited": "2026-11-12T23:25:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-07",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 187.96,
+          "Name": "sets dota 2"
+        },
+        {
+          "_id": "416e6c72-cc72-81a8-a7ac-d17b2c5a5841",
+          "_url": "https://app.notion.com/p/pasajes-416e6c72cc7281a8a7acd17b2c5a5841",
+          "_created": "2026-11-12T23:10:00.000Z",
+          "_edited": "2026-11-12T23:10:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-11-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 7,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "416e6c72-cc72-8198-b6f7-fc748aed49f2",
+          "_url": "https://app.notion.com/p/losses-416e6c72cc728198b6f7fc748aed49f2",
+          "_created": "2026-11-12T23:09:00.000Z",
+          "_edited": "2026-11-12T23:09:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-11-12",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 40,
+          "Name": "losses"
+        },
         {
           "_id": "416e6c72-cc72-8107-a86d-e00751cc2e5a",
           "_url": "https://app.notion.com/p/netflix-416e6c72cc728107a86de00751cc2e5a",
@@ -22989,31 +23174,34 @@
         },
         {
           "_id": "3f2e6c72-cc72-819d-b25b-d418e3e6e46d",
-          "_url": "https://app.notion.com/p/almohada-para-descansar-en-viaje-3f2e6c72cc72819db25bd418e3e6e46d",
+          "_url": "https://app.notion.com/p/almohada-para-descansar-en-viaje-saldo-pendiente-3f2e6c72cc72819db25bd418e3e6e46d",
           "_created": "2026-10-07T23:40:00.000Z",
-          "_edited": "2026-10-07T23:40:00.000Z",
+          "_edited": "2026-11-12T23:25:00.000Z",
           "Date Created": {
             "start": "2026-10-07",
             "end": null
           },
-          "Price": 89,
+          "Price": 67.7,
           "Date Payed": null,
           "Status": "Pending",
-          "Name": "almohada para descansar en viaje",
+          "Name": "almohada para descansar en viaje (saldo pendiente)",
           "Category": "Personal"
         },
         {
           "_id": "3f2e6c72-cc72-81a1-aba3-ef4fec636d94",
           "_url": "https://app.notion.com/p/arcana-de-TB-3f2e6c72cc7281a1aba3ef4fec636d94",
           "_created": "2026-10-07T21:00:00.000Z",
-          "_edited": "2026-10-07T21:00:00.000Z",
+          "_edited": "2026-11-12T23:25:00.000Z",
           "Date Created": {
             "start": "2026-10-07",
             "end": null
           },
           "Price": 127.42,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-12",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "arcana de TB",
           "Category": "Enjoy"
         },
@@ -23021,14 +23209,17 @@
           "_id": "3f2e6c72-cc72-8183-b076-d9f8d83935df",
           "_url": "https://app.notion.com/p/cerave-crema-de-piel-3f2e6c72cc728183b076d9f8d83935df",
           "_created": "2026-10-07T16:45:00.000Z",
-          "_edited": "2026-10-07T16:45:00.000Z",
+          "_edited": "2026-11-12T23:25:00.000Z",
           "Date Created": {
             "start": "2026-10-07",
             "end": null
           },
           "Price": 44.91,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-12",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "cerave crema de piel",
           "Category": "Personal"
         },
@@ -23036,14 +23227,17 @@
           "_id": "3f2e6c72-cc72-81f4-8350-ec58fa0ea26a",
           "_url": "https://app.notion.com/p/mano-de-obra-para-mamparas-3f2e6c72cc7281f48350ec58fa0ea26a",
           "_created": "2026-10-07T16:29:00.000Z",
-          "_edited": "2026-10-07T16:29:00.000Z",
+          "_edited": "2026-11-12T23:25:00.000Z",
           "Date Created": {
             "start": "2026-10-07",
             "end": null
           },
           "Price": 336.3,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-12",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "mano de obra para mamparas",
           "Category": "Home"
         },
@@ -23051,14 +23245,17 @@
           "_id": "3f2e6c72-cc72-810a-abda-c34d39b57b7f",
           "_url": "https://app.notion.com/p/sets-dota-2-3f2e6c72cc72810aabdac34d39b57b7f",
           "_created": "2026-10-07T05:57:00.000Z",
-          "_edited": "2026-10-07T05:57:00.000Z",
+          "_edited": "2026-11-12T23:25:00.000Z",
           "Date Created": {
             "start": "2026-10-07",
             "end": null
           },
           "Price": 187.96,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-12",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "sets dota 2",
           "Category": "Enjoy"
         },
@@ -23066,14 +23263,17 @@
           "_id": "3efe6c72-cc72-8157-be68-ddbf5620a160",
           "_url": "https://app.notion.com/p/almuerzo-con-familia-3efe6c72cc728157be68ddbf5620a160",
           "_created": "2026-10-04T22:28:00.000Z",
-          "_edited": "2026-10-04T22:28:00.000Z",
+          "_edited": "2026-11-12T23:25:00.000Z",
           "Date Created": {
             "start": "2026-10-04",
             "end": null
           },
           "Price": 119.8,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-12",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "almuerzo con familia",
           "Category": "Enjoy"
         },
@@ -23081,14 +23281,17 @@
           "_id": "3eee6c72-cc72-81a9-8974-efefd6888a3b",
           "_url": "https://app.notion.com/p/almuerzo-3eee6c72cc7281a98974efefd6888a3b",
           "_created": "2026-10-03T17:32:00.000Z",
-          "_edited": "2026-10-03T17:32:00.000Z",
+          "_edited": "2026-11-12T23:25:00.000Z",
           "Date Created": {
             "start": "2026-10-03",
             "end": null
           },
           "Price": 15,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-12",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "almuerzo",
           "Category": "Fixed"
         },
@@ -23096,14 +23299,17 @@
           "_id": "3ede6c72-cc72-813c-a772-f0f692f6a9de",
           "_url": "https://app.notion.com/p/mamparas-saldo-pendiente-3ede6c72cc72813ca772f0f692f6a9de",
           "_created": "2026-10-02T00:35:00.000Z",
-          "_edited": "2026-11-10T13:09:00.000Z",
+          "_edited": "2026-11-12T23:25:00.000Z",
           "Date Created": {
             "start": "2026-10-01",
             "end": null
           },
           "Price": 1207.49,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-12",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "mamparas (saldo pendiente)",
           "Category": "Home"
         },
