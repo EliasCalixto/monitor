@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T01:13:22.846999+00:00",
+  "generated_at": "2026-11-13T07:53:59.111187+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -2074,6 +2074,57 @@
       },
       "rows": [
         {
+          "_id": "417e6c72-cc72-8117-b725-eddb97287b82",
+          "_url": "https://app.notion.com/p/Concierto-SWS-pago-parcial-417e6c72cc728117b725eddb97287b82",
+          "_created": "2026-11-13T01:47:00.000Z",
+          "_edited": "2026-11-13T01:47:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-11",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 28.31,
+          "Name": "Concierto SWS (pago parcial)"
+        },
+        {
+          "_id": "417e6c72-cc72-8135-9481-f0fb6d8ccc88",
+          "_url": "https://app.notion.com/p/almohada-para-descansar-en-viaje-pago-final-417e6c72cc7281359481f0fb6d8ccc88",
+          "_created": "2026-11-13T01:47:00.000Z",
+          "_edited": "2026-11-13T01:47:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-10-07",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 67.7,
+          "Name": "almohada para descansar en viaje (pago final)"
+        },
+        {
+          "_id": "417e6c72-cc72-8174-9986-df1af30986ea",
+          "_url": "https://app.notion.com/p/peajes-417e6c72cc7281749986df1af30986ea",
+          "_created": "2026-11-13T01:47:00.000Z",
+          "_edited": "2026-11-13T01:47:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-08",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 12.6,
+          "Name": "peajes"
+        },
+        {
           "_id": "416e6c72-cc72-81b7-be1f-f1b9d47f5833",
           "_url": "https://app.notion.com/p/arcana-de-TB-416e6c72cc7281b7be1ff1b9d47f5833",
           "_created": "2026-11-12T23:25:00.000Z",
@@ -2449,9 +2500,9 @@
         },
         {
           "_id": "411e6c72-cc72-816d-a0fa-db044d573328",
-          "_url": "https://app.notion.com/p/cambio-a-dolares-US-278-02-411e6c72cc72816da0fadb044d573328",
+          "_url": "https://app.notion.com/p/cambio-a-dolares-US-246-10-411e6c72cc72816da0fadb044d573328",
           "_created": "2026-11-07T13:33:00.000Z",
-          "_edited": "2026-11-07T13:42:00.000Z",
+          "_edited": "2026-11-13T01:48:00.000Z",
           "Category": "Cashout",
           "Date Created": {
             "start": "2026-11-07",
@@ -2461,8 +2512,8 @@
           "Resumen": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
-          "Price": 945.95,
-          "Name": "cambio a dolares (US$ 278.02)"
+          "Price": 837.34,
+          "Name": "cambio a dolares (US$ 246.10)"
         },
         {
           "_id": "411e6c72-cc72-8156-b75d-f5670abc1b17",
@@ -23144,31 +23195,34 @@
         },
         {
           "_id": "3f6e6c72-cc72-811d-a94a-e88dfad41862",
-          "_url": "https://app.notion.com/p/Concierto-SWS-3f6e6c72cc72811da94ae88dfad41862",
+          "_url": "https://app.notion.com/p/Concierto-SWS-saldo-pendiente-3f6e6c72cc72811da94ae88dfad41862",
           "_created": "2026-10-11T19:53:00.000Z",
-          "_edited": "2026-10-11T19:53:00.000Z",
+          "_edited": "2026-11-13T01:47:00.000Z",
           "Date Created": {
             "start": "2026-10-11",
             "end": null
           },
-          "Price": 350,
+          "Price": 321.69,
           "Date Payed": null,
           "Status": "Pending",
-          "Name": "Concierto SWS",
+          "Name": "Concierto SWS (saldo pendiente)",
           "Category": "Enjoy"
         },
         {
           "_id": "3f3e6c72-cc72-81c3-889e-d760177a0906",
           "_url": "https://app.notion.com/p/peajes-3f3e6c72cc7281c3889ed760177a0906",
           "_created": "2026-10-08T21:38:00.000Z",
-          "_edited": "2026-10-08T21:38:00.000Z",
+          "_edited": "2026-11-13T01:47:00.000Z",
           "Date Created": {
             "start": "2026-10-08",
             "end": null
           },
           "Price": 12.6,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-12",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "peajes",
           "Category": "Cashout"
         },
@@ -23176,14 +23230,17 @@
           "_id": "3f2e6c72-cc72-819d-b25b-d418e3e6e46d",
           "_url": "https://app.notion.com/p/almohada-para-descansar-en-viaje-saldo-pendiente-3f2e6c72cc72819db25bd418e3e6e46d",
           "_created": "2026-10-07T23:40:00.000Z",
-          "_edited": "2026-11-12T23:25:00.000Z",
+          "_edited": "2026-11-13T01:47:00.000Z",
           "Date Created": {
             "start": "2026-10-07",
             "end": null
           },
           "Price": 67.7,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-12",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "almohada para descansar en viaje (saldo pendiente)",
           "Category": "Personal"
         },
