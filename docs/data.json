@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T15:43:27.675668+00:00",
+  "generated_at": "2026-11-13T21:37:50.666813+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 358928.3400000006,
+          "Tot. Expenses": 359946.59000000067,
           "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,8 +140,8 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 636.70999999997,
-          "Tot. Income": 359565.05000000057,
+          "Cash": 538.4599999999,
+          "Tot. Income": 360485.05000000057,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 636.709999999962,
+          "Cash Total": 538.459999999892,
           "Name": "Resumen"
         }
       ]
@@ -184,6 +184,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "417e6c72-cc72-80da-825d-cfd06fc2a203",
+          "_url": "https://app.notion.com/p/quincena-tp-417e6c72cc7280da825dcfd06fc2a203",
+          "_created": "2026-11-13T16:00:00.000Z",
+          "_edited": "2026-11-13T16:00:00.000Z",
+          "Date Received": {
+            "start": "2026-11-13",
+            "end": null
+          },
+          "Income": 920,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "quincena tp"
+        },
         {
           "_id": "416e6c72-cc72-8024-ae48-d2ec1739080b",
           "_url": "https://app.notion.com/p/Quincena-Area-416e6c72cc728024ae48d2ec1739080b",
@@ -2073,6 +2088,176 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "417e6c72-cc72-806d-b32c-c43e0a393f32",
+          "_url": "https://app.notion.com/p/almuerzo-trattoria-417e6c72cc72806db32cc43e0a393f32",
+          "_created": "2026-11-13T20:52:00.000Z",
+          "_edited": "2026-11-13T20:52:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-11-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 39.25,
+          "Name": "almuerzo trattoria"
+        },
+        {
+          "_id": "417e6c72-cc72-8101-af63-dd467161a96b",
+          "_url": "https://app.notion.com/p/pollada-para-colaborar-con-familia-de-amigo-de-Mikalah-417e6c72cc728101af63dd467161a96b",
+          "_created": "2026-11-13T18:26:00.000Z",
+          "_edited": "2026-11-13T18:27:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-11-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 50,
+          "Name": "pollada para colaborar con familia de amigo de Mikalah"
+        },
+        {
+          "_id": "417e6c72-cc72-8118-a240-d9b1400832d1",
+          "_url": "https://app.notion.com/p/ajinomen-417e6c72cc728118a240d9b1400832d1",
+          "_created": "2026-11-13T16:00:00.000Z",
+          "_edited": "2026-11-13T16:00:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-20",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3.9,
+          "Name": "ajinomen"
+        },
+        {
+          "_id": "417e6c72-cc72-8176-883e-c5a695d78341",
+          "_url": "https://app.notion.com/p/Concierto-SWS-pago-final-417e6c72cc728176883ec5a695d78341",
+          "_created": "2026-11-13T16:00:00.000Z",
+          "_edited": "2026-11-13T16:00:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-11",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 321.69,
+          "Name": "Concierto SWS (pago final)"
+        },
+        {
+          "_id": "417e6c72-cc72-8180-832f-f53e6040c2ca",
+          "_url": "https://app.notion.com/p/retiro-de-efectivo-pago-parcial-417e6c72cc728180832ff53e6040c2ca",
+          "_created": "2026-11-13T16:00:00.000Z",
+          "_edited": "2026-11-13T16:00:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-21",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 112.71,
+          "Name": "retiro de efectivo (pago parcial)"
+        },
+        {
+          "_id": "417e6c72-cc72-8194-b67e-f0447592c886",
+          "_url": "https://app.notion.com/p/almuerzo-417e6c72cc728194b67ef0447592c886",
+          "_created": "2026-11-13T16:00:00.000Z",
+          "_edited": "2026-11-13T16:00:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-10-20",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 15.5,
+          "Name": "almuerzo"
+        },
+        {
+          "_id": "417e6c72-cc72-81a6-a1ff-fac30e8493e7",
+          "_url": "https://app.notion.com/p/tapetes-417e6c72cc7281a6a1fffac30e8493e7",
+          "_created": "2026-11-13T16:00:00.000Z",
+          "_edited": "2026-11-13T16:00:00.000Z",
+          "Category": "Home",
+          "Date Created": {
+            "start": "2026-10-11",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 30.7,
+          "Name": "tapetes"
+        },
+        {
+          "_id": "417e6c72-cc72-81b3-bf0c-dd9322e76457",
+          "_url": "https://app.notion.com/p/graduacion-417e6c72cc7281b3bf0cdd9322e76457",
+          "_created": "2026-11-13T16:00:00.000Z",
+          "_edited": "2026-11-13T16:00:00.000Z",
+          "Category": "Studies",
+          "Date Created": {
+            "start": "2026-10-15",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 420,
+          "Name": "graduacion"
+        },
+        {
+          "_id": "417e6c72-cc72-81e0-a500-f6e6b8421afe",
+          "_url": "https://app.notion.com/p/almuerzo-417e6c72cc7281e0a500f6e6b8421afe",
+          "_created": "2026-11-13T16:00:00.000Z",
+          "_edited": "2026-11-13T16:00:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-10-19",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 15.5,
+          "Name": "almuerzo"
+        },
+        {
+          "_id": "417e6c72-cc72-81a6-a6d2-df17c3494397",
+          "_url": "https://app.notion.com/p/pasajes-417e6c72cc7281a6a6d2df17c3494397",
+          "_created": "2026-11-13T15:58:00.000Z",
+          "_edited": "2026-11-13T15:58:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-11-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 9,
+          "Name": "pasajes"
+        },
         {
           "_id": "417e6c72-cc72-8117-b725-eddb97287b82",
           "_url": "https://app.notion.com/p/Concierto-SWS-pago-parcial-417e6c72cc728117b725eddb97287b82",
@@ -23105,31 +23290,34 @@
         },
         {
           "_id": "400e6c72-cc72-8194-b724-e3434affc941",
-          "_url": "https://app.notion.com/p/retiro-de-efectivo-400e6c72cc728194b724e3434affc941",
+          "_url": "https://app.notion.com/p/retiro-de-efectivo-saldo-pendiente-400e6c72cc728194b724e3434affc941",
           "_created": "2026-10-21T23:40:00.000Z",
-          "_edited": "2026-10-21T23:40:00.000Z",
+          "_edited": "2026-11-13T16:00:00.000Z",
           "Date Created": {
             "start": "2026-10-21",
             "end": null
           },
-          "Price": 200,
+          "Price": 87.29,
           "Date Payed": null,
           "Status": "Pending",
-          "Name": "retiro de efectivo",
+          "Name": "retiro de efectivo (saldo pendiente)",
           "Category": "Cashout"
         },
         {
           "_id": "3ffe6c72-cc72-8127-ba6a-e254ff9479b1",
           "_url": "https://app.notion.com/p/almuerzo-3ffe6c72cc728127ba6ae254ff9479b1",
           "_created": "2026-10-20T18:01:00.000Z",
-          "_edited": "2026-10-20T18:01:00.000Z",
+          "_edited": "2026-11-13T16:00:00.000Z",
           "Date Created": {
             "start": "2026-10-20",
             "end": null
           },
           "Price": 15.5,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-13",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "almuerzo",
           "Category": "Fixed"
         },
@@ -23137,14 +23325,17 @@
           "_id": "3ffe6c72-cc72-8128-87b8-c78722446e26",
           "_url": "https://app.notion.com/p/ajinomen-3ffe6c72cc72812887b8c78722446e26",
           "_created": "2026-10-20T13:54:00.000Z",
-          "_edited": "2026-10-20T13:54:00.000Z",
+          "_edited": "2026-11-13T16:00:00.000Z",
           "Date Created": {
             "start": "2026-10-20",
             "end": null
           },
           "Price": 3.9,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-13",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "ajinomen",
           "Category": "Enjoy"
         },
@@ -23152,14 +23343,17 @@
           "_id": "3fee6c72-cc72-81c1-882e-c5538c437076",
           "_url": "https://app.notion.com/p/almuerzo-3fee6c72cc7281c1882ec5538c437076",
           "_created": "2026-10-19T19:54:00.000Z",
-          "_edited": "2026-10-19T19:54:00.000Z",
+          "_edited": "2026-11-13T16:00:00.000Z",
           "Date Created": {
             "start": "2026-10-19",
             "end": null
           },
           "Price": 15.5,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-13",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "almuerzo",
           "Category": "Fixed"
         },
@@ -23167,14 +23361,17 @@
           "_id": "3fbe6c72-cc72-811c-847e-f76e3c85dc79",
           "_url": "https://app.notion.com/p/graduacion-3fbe6c72cc72811c847ef76e3c85dc79",
           "_created": "2026-10-16T00:38:00.000Z",
-          "_edited": "2026-10-16T00:38:00.000Z",
+          "_edited": "2026-11-13T16:00:00.000Z",
           "Date Created": {
             "start": "2026-10-15",
             "end": null
           },
           "Price": 420,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-13",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "graduacion",
           "Category": "Studies"
         },
@@ -23182,14 +23379,17 @@
           "_id": "3f6e6c72-cc72-8126-a250-eec6d5f8c7c1",
           "_url": "https://app.notion.com/p/tapetes-3f6e6c72cc728126a250eec6d5f8c7c1",
           "_created": "2026-10-11T20:01:00.000Z",
-          "_edited": "2026-10-11T20:01:00.000Z",
+          "_edited": "2026-11-13T16:00:00.000Z",
           "Date Created": {
             "start": "2026-10-11",
             "end": null
           },
           "Price": 30.7,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-13",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "tapetes",
           "Category": "Home"
         },
@@ -23197,14 +23397,17 @@
           "_id": "3f6e6c72-cc72-811d-a94a-e88dfad41862",
           "_url": "https://app.notion.com/p/Concierto-SWS-saldo-pendiente-3f6e6c72cc72811da94ae88dfad41862",
           "_created": "2026-10-11T19:53:00.000Z",
-          "_edited": "2026-11-13T01:47:00.000Z",
+          "_edited": "2026-11-13T16:00:00.000Z",
           "Date Created": {
             "start": "2026-10-11",
             "end": null
           },
           "Price": 321.69,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-13",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "Concierto SWS (saldo pendiente)",
           "Category": "Enjoy"
         },
