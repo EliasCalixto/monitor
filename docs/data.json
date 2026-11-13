@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T07:53:59.111187+00:00",
+  "generated_at": "2026-11-13T15:43:27.675668+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -26216,7 +26216,17 @@
         "Money": "number",
         "Name": "title"
       },
-      "rows": []
+      "rows": [
+        {
+          "_id": "417e6c72-cc72-8087-88c1-d0ce4e5add1e",
+          "_url": "https://app.notion.com/p/Le-debia-200-417e6c72cc72808788c1d0ce4e5add1e",
+          "_created": "2026-11-13T14:31:00.000Z",
+          "_edited": "2026-11-13T14:31:00.000Z",
+          "Date": null,
+          "Money": 200,
+          "Name": "Le debia 200"
+        }
+      ]
     }
   ]
 }
