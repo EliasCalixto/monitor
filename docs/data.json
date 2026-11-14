@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T01:43:55.035606+00:00",
+  "generated_at": "2026-11-14T08:00:27.733339+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -26419,6 +26419,15 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "418e6c72-cc72-809c-89ee-e84d99d15901",
+          "_url": "https://app.notion.com/p/Nov-418e6c72cc72809c89eee84d99d15901",
+          "_created": "2026-11-14T02:27:00.000Z",
+          "_edited": "2026-11-14T02:27:00.000Z",
+          "Date": null,
+          "Money": 400,
+          "Name": "Nov"
+        },
         {
           "_id": "3fae6c72-cc72-807d-876c-d2b887fa6506",
           "_url": "https://app.notion.com/p/pago-quincena-de-oct-3fae6c72cc72807d876cd2b887fa6506",
