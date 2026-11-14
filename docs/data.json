@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T14:59:27.003646+00:00",
+  "generated_at": "2026-11-14T19:41:26.224211+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -2089,6 +2089,23 @@
       },
       "rows": [
         {
+          "_id": "418e6c72-cc72-81fc-8256-f6e3d14f447b",
+          "_url": "https://app.notion.com/p/retiro-de-efectivo-pago-parcial-418e6c72cc7281fc8256f6e3d14f447b",
+          "_created": "2026-11-14T18:42:00.000Z",
+          "_edited": "2026-11-14T18:42:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-21",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 6.09,
+          "Name": "retiro de efectivo (pago parcial)"
+        },
+        {
           "_id": "418e6c72-cc72-8147-b7fa-d530238afc33",
           "_url": "https://app.notion.com/p/sin-descripci-n-418e6c72cc728147b7fad530238afc33",
           "_created": "2026-11-14T01:34:00.000Z",
@@ -2719,9 +2736,9 @@
         },
         {
           "_id": "411e6c72-cc72-816d-a0fa-db044d573328",
-          "_url": "https://app.notion.com/p/cambio-a-dolares-US-246-10-411e6c72cc72816da0fadb044d573328",
+          "_url": "https://app.notion.com/p/cambio-a-dolares-US-244-31-411e6c72cc72816da0fadb044d573328",
           "_created": "2026-11-07T13:33:00.000Z",
-          "_edited": "2026-11-13T01:48:00.000Z",
+          "_edited": "2026-11-14T18:42:00.000Z",
           "Category": "Cashout",
           "Date Created": {
             "start": "2026-11-07",
@@ -2731,8 +2748,8 @@
           "Resumen": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
-          "Price": 837.34,
-          "Name": "cambio a dolares (US$ 246.10)"
+          "Price": 831.25,
+          "Name": "cambio a dolares (US$ 244.31)"
         },
         {
           "_id": "411e6c72-cc72-8156-b75d-f5670abc1b17",
@@ -23326,12 +23343,12 @@
           "_id": "400e6c72-cc72-8194-b724-e3434affc941",
           "_url": "https://app.notion.com/p/retiro-de-efectivo-saldo-pendiente-400e6c72cc728194b724e3434affc941",
           "_created": "2026-10-21T23:40:00.000Z",
-          "_edited": "2026-11-13T16:00:00.000Z",
+          "_edited": "2026-11-14T18:42:00.000Z",
           "Date Created": {
             "start": "2026-10-21",
             "end": null
           },
-          "Price": 87.29,
+          "Price": 81.2,
           "Date Payed": null,
           "Status": "Pending",
           "Name": "retiro de efectivo (saldo pendiente)",
