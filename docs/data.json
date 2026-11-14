@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T21:37:50.666813+00:00",
+  "generated_at": "2026-11-14T01:43:55.035606+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 359946.59000000067,
+          "Tot. Expenses": 359896.96000000066,
           "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 538.4599999999,
+          "Cash": 588.08999999991,
           "Tot. Income": 360485.05000000057,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 538.459999999892,
+          "Cash Total": 588.089999999902,
           "Name": "Resumen"
         }
       ]
@@ -2088,6 +2088,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "418e6c72-cc72-8147-b7fa-d530238afc33",
+          "_url": "https://app.notion.com/p/sin-descripci-n-418e6c72cc728147b7fad530238afc33",
+          "_created": "2026-11-14T01:34:00.000Z",
+          "_edited": "2026-11-14T01:34:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-11-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -53.13,
+          "Name": "sin descripción"
+        },
+        {
+          "_id": "418e6c72-cc72-81ac-9e0c-f182267c3330",
+          "_url": "https://app.notion.com/p/pasajes-418e6c72cc7281ac9e0cf182267c3330",
+          "_created": "2026-11-14T00:06:00.000Z",
+          "_edited": "2026-11-14T00:06:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-11-13",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3.5,
+          "Name": "pasajes"
+        },
         {
           "_id": "417e6c72-cc72-806d-b32c-c43e0a393f32",
           "_url": "https://app.notion.com/p/almuerzo-trattoria-417e6c72cc72806db32cc43e0a393f32",
