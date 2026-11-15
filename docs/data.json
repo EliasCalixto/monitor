@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T02:52:08.002550+00:00",
+  "generated_at": "2026-11-15T09:58:53.700701+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -23119,6 +23119,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "419e6c72-cc72-8168-b196-d5fccf320e0d",
+          "_url": "https://app.notion.com/p/items-de-dota-419e6c72cc728168b196d5fccf320e0d",
+          "_created": "2026-11-15T06:31:00.000Z",
+          "_edited": "2026-11-15T06:31:00.000Z",
+          "Date Created": {
+            "start": "2026-11-15",
+            "end": null
+          },
+          "Price": 75,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "items de dota",
+          "Category": "Enjoy"
+        },
         {
           "_id": "416e6c72-cc72-81fa-897b-c1630150f82a",
           "_url": "https://app.notion.com/p/almuerzo-mira-mar-416e6c72cc7281fa897bc1630150f82a",
