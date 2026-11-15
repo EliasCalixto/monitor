@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T23:22:23.389056+00:00",
+  "generated_at": "2026-11-15T02:52:08.002550+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 359896.96000000066,
+          "Tot. Expenses": 360061.33000000066,
           "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 588.08999999991,
+          "Cash": 423.71999999991,
           "Tot. Income": 360485.05000000057,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 588.089999999902,
+          "Cash Total": 423.719999999902,
           "Name": "Resumen"
         }
       ]
@@ -2088,6 +2088,176 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "419e6c72-cc72-81a7-8133-ed56b28b0669",
+          "_url": "https://app.notion.com/p/volt-419e6c72cc7281a78133ed56b28b0669",
+          "_created": "2026-11-15T01:27:00.000Z",
+          "_edited": "2026-11-15T01:27:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-11-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 4.9,
+          "Name": "volt"
+        },
+        {
+          "_id": "419e6c72-cc72-81a0-b4d7-d8a0fd9d6844",
+          "_url": "https://app.notion.com/p/sin-descripci-n-419e6c72cc7281a0b4d7d8a0fd9d6844",
+          "_created": "2026-11-15T00:19:00.000Z",
+          "_edited": "2026-11-15T00:19:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-11-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1.98,
+          "Name": "sin descripción"
+        },
+        {
+          "_id": "419e6c72-cc72-81d6-bace-cb6d87d66a67",
+          "_url": "https://app.notion.com/p/taxi-419e6c72cc7281d6bacecb6d87d66a67",
+          "_created": "2026-11-15T00:19:00.000Z",
+          "_edited": "2026-11-15T00:19:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-11-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 9,
+          "Name": "taxi"
+        },
+        {
+          "_id": "419e6c72-cc72-8110-89f5-f89859314a4d",
+          "_url": "https://app.notion.com/p/pasajes-419e6c72cc72811089f5f89859314a4d",
+          "_created": "2026-11-15T00:17:00.000Z",
+          "_edited": "2026-11-15T00:17:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-11-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1.5,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "419e6c72-cc72-8111-9ff6-e1ac3d0c4e15",
+          "_url": "https://app.notion.com/p/gym-419e6c72cc7281119ff6e1ac3d0c4e15",
+          "_created": "2026-11-15T00:17:00.000Z",
+          "_edited": "2026-11-15T00:17:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-11-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 12,
+          "Name": "gym"
+        },
+        {
+          "_id": "419e6c72-cc72-8123-8a4c-ea5d49520a81",
+          "_url": "https://app.notion.com/p/dentista-419e6c72cc7281238a4cea5d49520a81",
+          "_created": "2026-11-15T00:17:00.000Z",
+          "_edited": "2026-11-15T00:17:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-11-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 120,
+          "Name": "dentista"
+        },
+        {
+          "_id": "419e6c72-cc72-8135-b5c2-c7e01580c939",
+          "_url": "https://app.notion.com/p/pasajes-419e6c72cc728135b5c2c7e01580c939",
+          "_created": "2026-11-15T00:17:00.000Z",
+          "_edited": "2026-11-15T00:17:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-11-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "419e6c72-cc72-8190-985f-dca7130aef5a",
+          "_url": "https://app.notion.com/p/pasajes-419e6c72cc728190985fdca7130aef5a",
+          "_created": "2026-11-15T00:17:00.000Z",
+          "_edited": "2026-11-15T00:17:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-11-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1.5,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "419e6c72-cc72-819d-9094-d296ff28c668",
+          "_url": "https://app.notion.com/p/agua-y-sporade-para-gym-419e6c72cc72819d9094d296ff28c668",
+          "_created": "2026-11-15T00:17:00.000Z",
+          "_edited": "2026-11-15T00:17:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-11-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 6.49,
+          "Name": "agua y sporade para gym"
+        },
+        {
+          "_id": "419e6c72-cc72-81e0-b436-ec1f28829aa4",
+          "_url": "https://app.notion.com/p/actividad-hhjj-419e6c72cc7281e0b436ec1f28829aa4",
+          "_created": "2026-11-15T00:17:00.000Z",
+          "_edited": "2026-11-15T00:17:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-11-14",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 5,
+          "Name": "actividad hhjj"
+        },
         {
           "_id": "418e6c72-cc72-81fc-8256-f6e3d14f447b",
           "_url": "https://app.notion.com/p/retiro-de-efectivo-pago-parcial-418e6c72cc7281fc8256f6e3d14f447b",
