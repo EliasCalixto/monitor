@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T16:46:05.279666+00:00",
+  "generated_at": "2026-11-15T21:22:18.514085+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 360061.33000000066,
+          "Tot. Expenses": 360061.3300000007,
           "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 423.71999999991,
+          "Cash": 423.71999999987,
           "Tot. Income": 360485.05000000057,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 423.719999999902,
+          "Cash Total": 423.719999999862,
           "Name": "Resumen"
         }
       ]
@@ -2088,6 +2088,142 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "419e6c72-cc72-8104-8547-c2c3d9fa8f37",
+          "_url": "https://app.notion.com/p/servicios-y-comida-de-la-casa-junio-419e6c72cc7281048547c2c3d9fa8f37",
+          "_created": "2026-11-15T21:02:00.000Z",
+          "_edited": "2026-11-15T21:03:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-06-30",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 140.4,
+          "Name": "servicios y comida de la casa (junio)"
+        },
+        {
+          "_id": "419e6c72-cc72-8115-94d6-d8b0dab48d52",
+          "_url": "https://app.notion.com/p/servicios-y-comida-de-la-casa-septiembre-419e6c72cc72811594d6d8b0dab48d52",
+          "_created": "2026-11-15T21:02:00.000Z",
+          "_edited": "2026-11-15T21:03:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-09-30",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 140.4,
+          "Name": "servicios y comida de la casa (septiembre)"
+        },
+        {
+          "_id": "419e6c72-cc72-811c-aa0b-dd93ca50f5b5",
+          "_url": "https://app.notion.com/p/servicios-y-comida-de-la-casa-octubre-419e6c72cc72811caa0bdd93ca50f5b5",
+          "_created": "2026-11-15T21:02:00.000Z",
+          "_edited": "2026-11-15T21:02:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-10-31",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 140.4,
+          "Name": "servicios y comida de la casa (octubre)"
+        },
+        {
+          "_id": "419e6c72-cc72-8137-8760-dd4c1ddfb640",
+          "_url": "https://app.notion.com/p/servicios-y-comida-de-la-casa-julio-419e6c72cc7281378760dd4c1ddfb640",
+          "_created": "2026-11-15T21:02:00.000Z",
+          "_edited": "2026-11-15T21:02:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-07-31",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 140.4,
+          "Name": "servicios y comida de la casa (julio)"
+        },
+        {
+          "_id": "419e6c72-cc72-81bb-a868-f2a1bd80ce92",
+          "_url": "https://app.notion.com/p/servicios-y-comida-de-la-casa-mayo-419e6c72cc7281bba868f2a1bd80ce92",
+          "_created": "2026-11-15T21:02:00.000Z",
+          "_edited": "2026-11-15T21:02:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-05-31",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 140.4,
+          "Name": "servicios y comida de la casa (mayo)"
+        },
+        {
+          "_id": "419e6c72-cc72-81c9-9e75-edbcac52601e",
+          "_url": "https://app.notion.com/p/servicios-y-comida-de-la-casa-abril-419e6c72cc7281c99e75edbcac52601e",
+          "_created": "2026-11-15T21:02:00.000Z",
+          "_edited": "2026-11-15T21:02:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-04-30",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 140.4,
+          "Name": "servicios y comida de la casa (abril)"
+        },
+        {
+          "_id": "419e6c72-cc72-81cd-9510-e2ac270a2c7d",
+          "_url": "https://app.notion.com/p/servicios-y-comida-de-la-casa-marzo-419e6c72cc7281cd9510e2ac270a2c7d",
+          "_created": "2026-11-15T21:02:00.000Z",
+          "_edited": "2026-11-15T21:02:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-03-31",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 140.4,
+          "Name": "servicios y comida de la casa (marzo)"
+        },
+        {
+          "_id": "419e6c72-cc72-81d5-bf8e-d1873f4fcbcd",
+          "_url": "https://app.notion.com/p/servicios-y-comida-de-la-casa-agosto-419e6c72cc7281d5bf8ed1873f4fcbcd",
+          "_created": "2026-11-15T21:02:00.000Z",
+          "_edited": "2026-11-15T21:02:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-08-31",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 140.4,
+          "Name": "servicios y comida de la casa (agosto)"
+        },
         {
           "_id": "419e6c72-cc72-81a7-8133-ed56b28b0669",
           "_url": "https://app.notion.com/p/volt-419e6c72cc7281a78133ed56b28b0669",
@@ -15065,7 +15201,7 @@
           "_id": "36fe6c72-cc72-8001-8a38-d5057167291e",
           "_url": "https://app.notion.com/p/Deuda-papa-36fe6c72cc7280018a38d5057167291e",
           "_created": "2026-05-29T22:14:00.000Z",
-          "_edited": "2026-05-29T22:15:00.000Z",
+          "_edited": "2026-11-15T21:02:00.000Z",
           "Category": "Losses",
           "Date Created": {
             "start": "2026-05-29",
@@ -15075,7 +15211,7 @@
           "Resumen": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
-          "Price": 2634.7,
+          "Price": 1511.5,
           "Name": "Deuda papa"
         },
         {
@@ -26538,6 +26674,15 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "419e6c72-cc72-815b-b549-eec23657051f",
+          "_url": "https://app.notion.com/p/Servicios-de-la-Casa-419e6c72cc72815bb549eec23657051f",
+          "_created": "2026-11-15T21:03:00.000Z",
+          "_edited": "2026-11-15T21:04:00.000Z",
+          "Type": "Manual",
+          "Price": 69,
+          "Name": "Servicios de la Casa"
+        },
         {
           "_id": "415e6c72-cc72-809a-87e8-ce0784b333cd",
           "_url": "https://app.notion.com/p/Claude-415e6c72cc72809a87e8ce0784b333cd",
