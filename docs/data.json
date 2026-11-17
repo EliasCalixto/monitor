@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T17:31:15.514504+00:00",
+  "generated_at": "2026-11-17T01:03:06.194977+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 360061.3300000007,
+          "Tot. Expenses": 360193.53000000084,
           "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 423.71999999987,
+          "Cash": 291.51999999973,
           "Tot. Income": 360485.05000000057,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 423.719999999862,
+          "Cash Total": 291.519999999722,
           "Name": "Resumen"
         }
       ]
@@ -2088,6 +2088,40 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "41ae6c72-cc72-805e-b9d0-f0602a27e832",
+          "_url": "https://app.notion.com/p/pasajes-41ae6c72cc72805eb9d0f0602a27e832",
+          "_created": "2026-11-16T18:53:00.000Z",
+          "_edited": "2026-11-16T18:53:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-11-16",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 9,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "41ae6c72-cc72-801b-9465-ecaaa3c75d42",
+          "_url": "https://app.notion.com/p/dinero-de-disposicion-de-efectivo-41ae6c72cc72801b9465ecaaa3c75d42",
+          "_created": "2026-11-16T18:52:00.000Z",
+          "_edited": "2026-11-16T18:52:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-11-16",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -1000,
+          "Name": "dinero de disposicion de efectivo"
+        },
         {
           "_id": "419e6c72-cc72-8104-8547-c2c3d9fa8f37",
           "_url": "https://app.notion.com/p/servicios-y-comida-de-la-casa-junio-419e6c72cc7281048547c2c3d9fa8f37",
@@ -15201,7 +15235,7 @@
           "_id": "36fe6c72-cc72-8001-8a38-d5057167291e",
           "_url": "https://app.notion.com/p/Deuda-papa-36fe6c72cc7280018a38d5057167291e",
           "_created": "2026-05-29T22:14:00.000Z",
-          "_edited": "2026-11-15T21:02:00.000Z",
+          "_edited": "2026-11-16T18:43:00.000Z",
           "Category": "Losses",
           "Date Created": {
             "start": "2026-05-29",
@@ -15211,7 +15245,7 @@
           "Resumen": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
-          "Price": 1511.5,
+          "Price": 2634.7,
           "Name": "Deuda papa"
         },
         {
@@ -23255,6 +23289,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "41ae6c72-cc72-81a1-963d-cde42bdbed1b",
+          "_url": "https://app.notion.com/p/disposicion-de-efectivo-para-pagar-a-mi-papa-41ae6c72cc7281a1963dcde42bdbed1b",
+          "_created": "2026-11-16T18:44:00.000Z",
+          "_edited": "2026-11-16T18:51:00.000Z",
+          "Date Created": {
+            "start": "2026-11-16",
+            "end": null
+          },
+          "Price": 1000,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "disposicion de efectivo para pagar a mi papa",
+          "Category": "Cashout"
+        },
         {
           "_id": "419e6c72-cc72-8168-b196-d5fccf320e0d",
           "_url": "https://app.notion.com/p/items-de-dota-419e6c72cc728168b196d5fccf320e0d",
