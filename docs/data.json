@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T23:26:20.636633+00:00",
+  "generated_at": "2026-11-19T04:17:47.994061+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 360193.53000000084,
+          "Tot. Expenses": 360596.2500000009,
           "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 291.51999999973,
+          "Cash": -111.20000000033,
           "Tot. Income": 360485.05000000057,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 291.519999999722,
+          "Cash Total": -111.200000000338,
           "Name": "Resumen"
         }
       ]
@@ -2088,6 +2088,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "41de6c72-cc72-819e-8714-e46e4a40904d",
+          "_url": "https://app.notion.com/p/vestido-para-Day-yape-41de6c72cc72819e8714e46e4a40904d",
+          "_created": "2026-11-19T03:14:00.000Z",
+          "_edited": "2026-11-19T03:14:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-11-18",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 89,
+          "Name": "vestido para Day (yape)"
+        },
+        {
+          "_id": "41de6c72-cc72-8177-b93d-c83f59d80d56",
+          "_url": "https://app.notion.com/p/camisa-comprada-en-santa-cruz-Bs-1015-41de6c72cc728177b93dc83f59d80d56",
+          "_created": "2026-11-19T02:19:00.000Z",
+          "_edited": "2026-11-19T02:19:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-11-18",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 299.95,
+          "Name": "camisa comprada en santa cruz (Bs 1015)"
+        },
+        {
+          "_id": "41de6c72-cc72-819e-b55f-dd1de9616bc0",
+          "_url": "https://app.notion.com/p/desodorante-Bs-46-60-41de6c72cc72819eb55fdd1de9616bc0",
+          "_created": "2026-11-19T02:19:00.000Z",
+          "_edited": "2026-11-19T02:19:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-11-18",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 13.77,
+          "Name": "desodorante (Bs 46.60)"
+        },
         {
           "_id": "41ae6c72-cc72-805e-b9d0-f0602a27e832",
           "_url": "https://app.notion.com/p/pasajes-41ae6c72cc72805eb9d0f0602a27e832",
@@ -23289,6 +23340,81 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "41de6c72-cc72-815e-8b4a-dd5f84bb37ee",
+          "_url": "https://app.notion.com/p/desodorante-Bs-46-60-41de6c72cc72815e8b4add5f84bb37ee",
+          "_created": "2026-11-19T02:20:00.000Z",
+          "_edited": "2026-11-19T02:20:00.000Z",
+          "Date Created": {
+            "start": "2026-11-18",
+            "end": null
+          },
+          "Price": 13.77,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "desodorante (Bs 46.60)",
+          "Category": "Personal"
+        },
+        {
+          "_id": "41de6c72-cc72-81e6-b480-dd647272443c",
+          "_url": "https://app.notion.com/p/camisa-comprada-en-santa-cruz-Bs-1015-41de6c72cc7281e6b480dd647272443c",
+          "_created": "2026-11-19T02:20:00.000Z",
+          "_edited": "2026-11-19T02:20:00.000Z",
+          "Date Created": {
+            "start": "2026-11-18",
+            "end": null
+          },
+          "Price": 299.95,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "camisa comprada en santa cruz (Bs 1015)",
+          "Category": "Personal"
+        },
+        {
+          "_id": "41de6c72-cc72-81b7-960c-c11dae878995",
+          "_url": "https://app.notion.com/p/rodizio-Bs-330-41de6c72cc7281b7960cc11dae878995",
+          "_created": "2026-11-19T01:38:00.000Z",
+          "_edited": "2026-11-19T01:38:00.000Z",
+          "Date Created": {
+            "start": "2026-11-18",
+            "end": null
+          },
+          "Price": 97.52,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "rodizio (Bs 330)",
+          "Category": "Enjoy"
+        },
+        {
+          "_id": "41ce6c72-cc72-8166-941f-fb938e920be4",
+          "_url": "https://app.notion.com/p/polo-comprado-en-bolivia-41ce6c72cc728166941ffb938e920be4",
+          "_created": "2026-11-18T23:33:00.000Z",
+          "_edited": "2026-11-18T23:33:00.000Z",
+          "Date Created": {
+            "start": "2026-11-18",
+            "end": null
+          },
+          "Price": 149.87,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "polo comprado en bolivia",
+          "Category": "Personal"
+        },
+        {
+          "_id": "41ce6c72-cc72-8193-941a-f1735455c5b5",
+          "_url": "https://app.notion.com/p/robo-de-claude-US-106-41ce6c72cc728193941af1735455c5b5",
+          "_created": "2026-11-18T23:32:00.000Z",
+          "_edited": "2026-11-18T23:32:00.000Z",
+          "Date Created": {
+            "start": "2026-11-18",
+            "end": null
+          },
+          "Price": 363.05,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "robo de claude (US$ 106)",
+          "Category": "Losses"
+        },
         {
           "_id": "41ae6c72-cc72-81a1-963d-cde42bdbed1b",
           "_url": "https://app.notion.com/p/disposicion-de-efectivo-para-pagar-a-mi-papa-41ae6c72cc7281a1963dcde42bdbed1b",
