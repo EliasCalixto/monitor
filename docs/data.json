@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T06:58:15.216054+00:00",
+  "generated_at": "2026-11-21T15:01:43.516149+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -23306,6 +23306,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "41fe6c72-cc72-8185-b3d7-f94e9c31e824",
+          "_url": "https://app.notion.com/p/cuellera-para-dormir-Bs-110-41fe6c72cc728185b3d7f94e9c31e824",
+          "_created": "2026-11-21T08:24:00.000Z",
+          "_edited": "2026-11-21T08:24:00.000Z",
+          "Date Created": {
+            "start": "2026-11-21",
+            "end": null
+          },
+          "Price": 32.51,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "cuellera para dormir (Bs 110)",
+          "Category": "Personal"
+        },
         {
           "_id": "41de6c72-cc72-815e-8b4a-dd5f84bb37ee",
           "_url": "https://app.notion.com/p/desodorante-Bs-46-60-41de6c72cc72815e8b4add5f84bb37ee",
