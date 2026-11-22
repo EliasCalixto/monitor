@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T00:42:56.179178+00:00",
+  "generated_at": "2026-11-22T07:26:57.384545+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 360282.53000000084,
+          "Tot. Expenses": 360314.53000000084,
           "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 202.51999999973,
+          "Cash": 170.51999999973,
           "Tot. Income": 360485.05000000057,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 202.519999999722,
+          "Cash Total": 170.519999999722,
           "Name": "Resumen"
         }
       ]
@@ -2088,6 +2088,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "420e6c72-cc72-81e1-acc8-d1be7a9bb1d6",
+          "_url": "https://app.notion.com/p/pasajes-420e6c72cc7281e1acc8d1be7a9bb1d6",
+          "_created": "2026-11-22T03:22:00.000Z",
+          "_edited": "2026-11-22T03:22:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-11-21",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 32,
+          "Name": "pasajes"
+        },
         {
           "_id": "41de6c72-cc72-819e-8714-e46e4a40904d",
           "_url": "https://app.notion.com/p/vestido-para-Day-yape-41de6c72cc72819e8714e46e4a40904d",
@@ -23306,6 +23323,36 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "420e6c72-cc72-81fe-b8dd-ee02d7b69b7f",
+          "_url": "https://app.notion.com/p/monster-420e6c72cc7281feb8ddee02d7b69b7f",
+          "_created": "2026-11-22T03:22:00.000Z",
+          "_edited": "2026-11-22T03:22:00.000Z",
+          "Date Created": {
+            "start": "2026-11-21",
+            "end": null
+          },
+          "Price": 9.18,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "monster",
+          "Category": "Enjoy"
+        },
+        {
+          "_id": "420e6c72-cc72-817d-97dd-c68c7f5abc88",
+          "_url": "https://app.notion.com/p/bembos-420e6c72cc72817d97ddc68c7f5abc88",
+          "_created": "2026-11-22T01:37:00.000Z",
+          "_edited": "2026-11-22T01:37:00.000Z",
+          "Date Created": {
+            "start": "2026-11-21",
+            "end": null
+          },
+          "Price": 37.9,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "bembos",
+          "Category": "Enjoy"
+        },
         {
           "_id": "41fe6c72-cc72-8114-af6b-f72818a78162",
           "_url": "https://app.notion.com/p/apple-pencil-pro-41fe6c72cc728114af6bf72818a78162",
