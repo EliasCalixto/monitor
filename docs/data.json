@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T21:08:39.769463+00:00",
+  "generated_at": "2026-11-23T01:35:59.194655+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 360314.53000000084,
+          "Tot. Expenses": 360375.53000000084,
           "Total Papa": 0,
           "Tot. Savings": 10000,
           "SumIngresosPapa": 27908.86,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 170.51999999973,
+          "Cash": 109.51999999973,
           "Tot. Income": 360485.05000000057,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 170.519999999722,
+          "Cash Total": 109.519999999722,
           "Name": "Resumen"
         }
       ]
@@ -2088,6 +2088,57 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "420e6c72-cc72-8149-833d-c2227c2b5fb1",
+          "_url": "https://app.notion.com/p/pasajes-420e6c72cc728149833dc2227c2b5fb1",
+          "_created": "2026-11-22T23:47:00.000Z",
+          "_edited": "2026-11-22T23:47:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-11-22",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 2,
+          "Name": "pasajes"
+        },
+        {
+          "_id": "420e6c72-cc72-81f1-99b4-c5008645a291",
+          "_url": "https://app.notion.com/p/pasaje-para-boda-con-Day-420e6c72cc7281f199b4c5008645a291",
+          "_created": "2026-11-22T23:44:00.000Z",
+          "_edited": "2026-11-22T23:44:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-11-22",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 54,
+          "Name": "pasaje para boda con Day"
+        },
+        {
+          "_id": "420e6c72-cc72-8161-ae3a-c4edef2f955e",
+          "_url": "https://app.notion.com/p/pasajes-420e6c72cc728161ae3ac4edef2f955e",
+          "_created": "2026-11-22T23:44:00.000Z",
+          "_edited": "2026-11-22T23:44:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-11-22",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 5,
+          "Name": "pasajes"
+        },
         {
           "_id": "420e6c72-cc72-81e1-acc8-d1be7a9bb1d6",
           "_url": "https://app.notion.com/p/pasajes-420e6c72cc7281e1acc8d1be7a9bb1d6",
@@ -26900,15 +26951,6 @@
           "Type": "Manual",
           "Price": 69,
           "Name": "Servicios de la Casa"
-        },
-        {
-          "_id": "415e6c72-cc72-809a-87e8-ce0784b333cd",
-          "_url": "https://app.notion.com/p/ChatGPT-415e6c72cc72809a87e8ce0784b333cd",
-          "_created": "2026-11-11T13:25:00.000Z",
-          "_edited": "2026-11-17T20:49:00.000Z",
-          "Type": "Auto",
-          "Price": 68.2,
-          "Name": "ChatGPT"
         },
         {
           "_id": "414e6c72-cc72-8094-9e0e-c0e55f9dce48",
