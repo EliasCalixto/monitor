@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T19:10:08.794447+00:00",
+  "generated_at": "2026-11-26T02:09:11.649289+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,9 +28,9 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 360435.6300000008,
+          "Tot. Expenses": 367606.72000000085,
           "Total Papa": 0,
-          "Tot. Savings": 10000,
+          "Tot. Savings": 14000,
           "SumIngresosPapa": 27908.86,
           "Expenses": [
             "34fe6c72-cc72-8192-8125-f8c9cef71887",
@@ -140,8 +140,8 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 49.41999999977,
-          "Tot. Income": 360485.05000000057,
+          "Cash": 194.41999999975,
+          "Tot. Income": 367801.1400000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
             "356e6c72-cc72-8087-b53a-efdf8477c94f",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 49.419999999762,
+          "Cash Total": 194.419999999742,
           "Name": "Resumen"
         }
       ]
@@ -184,6 +184,21 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "423e6c72-cc72-8053-8977-f15eb1644fb6",
+          "_url": "https://app.notion.com/p/Grati-y-fin-de-mes-de-Area-423e6c72cc7280538977f15eb1644fb6",
+          "_created": "2026-11-25T22:13:00.000Z",
+          "_edited": "2026-11-25T22:14:00.000Z",
+          "Date Received": {
+            "start": "2026-11-25",
+            "end": null
+          },
+          "Income": 7316.09,
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Name": "Grati y fin de mes de Area"
+        },
         {
           "_id": "417e6c72-cc72-80da-825d-cfd06fc2a203",
           "_url": "https://app.notion.com/p/quincena-tp-417e6c72cc7280da825dcfd06fc2a203",
@@ -2089,6 +2104,331 @@
       },
       "rows": [
         {
+          "_id": "424e6c72-cc72-81bc-aae8-f835a9d03980",
+          "_url": "https://app.notion.com/p/pollito-a-la-brasa-424e6c72cc7281bcaae8f835a9d03980",
+          "_created": "2026-11-26T01:37:00.000Z",
+          "_edited": "2026-11-26T01:37:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-11-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 35,
+          "Name": "pollito a la brasa"
+        },
+        {
+          "_id": "423e6c72-cc72-811a-92b7-edab296089de",
+          "_url": "https://app.notion.com/p/retiro-de-efectivo-423e6c72cc72811a92b7edab296089de",
+          "_created": "2026-11-25T23:46:00.000Z",
+          "_edited": "2026-11-25T23:46:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-11-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 120,
+          "Name": "retiro de efectivo"
+        },
+        {
+          "_id": "423e6c72-cc72-8129-b6e5-ed4060690b6e",
+          "_url": "https://app.notion.com/p/pago-a-banco-423e6c72cc728129b6e5ed4060690b6e",
+          "_created": "2026-11-25T23:21:00.000Z",
+          "_edited": "2026-11-25T23:21:00.000Z",
+          "Category": "Losses",
+          "Date Created": {
+            "start": "2026-11-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 1456.76,
+          "Name": "pago a banco"
+        },
+        {
+          "_id": "423e6c72-cc72-813b-8b3f-de60a46128c2",
+          "_url": "https://app.notion.com/p/items-dota-PL-y-Spectre-pago-parcial-423e6c72cc72813b8b3fde60a46128c2",
+          "_created": "2026-11-25T23:17:00.000Z",
+          "_edited": "2026-11-25T23:17:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-30",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 570.99,
+          "Name": "items dota PL y Spectre (pago parcial)"
+        },
+        {
+          "_id": "423e6c72-cc72-814d-868f-d2291f3c7695",
+          "_url": "https://app.notion.com/p/gastos-fijos-423e6c72cc72814d868fd2291f3c7695",
+          "_created": "2026-11-25T23:17:00.000Z",
+          "_edited": "2026-11-25T23:17:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-10-28",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 85.2,
+          "Name": "gastos fijos"
+        },
+        {
+          "_id": "423e6c72-cc72-8154-b903-d5ed0810fe29",
+          "_url": "https://app.notion.com/p/galletas-chapin-423e6c72cc728154b903d5ed0810fe29",
+          "_created": "2026-11-25T23:17:00.000Z",
+          "_edited": "2026-11-25T23:17:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-29",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 3.2,
+          "Name": "galletas chapin"
+        },
+        {
+          "_id": "423e6c72-cc72-8165-b70c-c769c545bb6c",
+          "_url": "https://app.notion.com/p/starbucks-423e6c72cc728165b70cc769c545bb6c",
+          "_created": "2026-11-25T23:17:00.000Z",
+          "_edited": "2026-11-25T23:17:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-28",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 14.5,
+          "Name": "starbucks"
+        },
+        {
+          "_id": "423e6c72-cc72-81a3-abfb-fac29c541a10",
+          "_url": "https://app.notion.com/p/Win-pago-final-423e6c72cc7281a3abfbfac29c541a10",
+          "_created": "2026-11-25T23:17:00.000Z",
+          "_edited": "2026-11-25T23:17:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-10-28",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 43.5,
+          "Name": "Win (pago final)"
+        },
+        {
+          "_id": "423e6c72-cc72-8118-81fa-dee06229e131",
+          "_url": "https://app.notion.com/p/ahorro-423e6c72cc72811881fadee06229e131",
+          "_created": "2026-11-25T23:14:00.000Z",
+          "_edited": "2026-11-25T23:14:00.000Z",
+          "Category": "Savings",
+          "Date Created": {
+            "start": "2026-11-25",
+            "end": null
+          },
+          "ExpensesSavings": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 4000,
+          "Name": "ahorro"
+        },
+        {
+          "_id": "423e6c72-cc72-8139-b186-e249a58a8d51",
+          "_url": "https://app.notion.com/p/entradas-parque-de-las-aguas-423e6c72cc728139b186e249a58a8d51",
+          "_created": "2026-11-25T22:53:00.000Z",
+          "_edited": "2026-11-25T22:53:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 40,
+          "Name": "entradas parque de las aguas"
+        },
+        {
+          "_id": "423e6c72-cc72-816c-9faa-d4de4a02be37",
+          "_url": "https://app.notion.com/p/bembos-423e6c72cc72816c9faad4de4a02be37",
+          "_created": "2026-11-25T22:53:00.000Z",
+          "_edited": "2026-11-25T22:53:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 49.2,
+          "Name": "bembos"
+        },
+        {
+          "_id": "423e6c72-cc72-81a2-857f-e67bed7d0f5c",
+          "_url": "https://app.notion.com/p/chicles-y-agua-423e6c72cc7281a2857fe67bed7d0f5c",
+          "_created": "2026-11-25T22:53:00.000Z",
+          "_edited": "2026-11-25T22:53:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-10-25",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 7.18,
+          "Name": "chicles y agua"
+        },
+        {
+          "_id": "423e6c72-cc72-81c0-b0ea-f02e648596d7",
+          "_url": "https://app.notion.com/p/Win-pago-parcial-423e6c72cc7281c0b0eaf02e648596d7",
+          "_created": "2026-11-25T22:53:00.000Z",
+          "_edited": "2026-11-25T22:53:00.000Z",
+          "Category": "Fixed",
+          "Date Created": {
+            "start": "2026-10-28",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 65.5,
+          "Name": "Win (pago parcial)"
+        },
+        {
+          "_id": "423e6c72-cc72-81e5-8ffb-e49cc3c7be11",
+          "_url": "https://app.notion.com/p/disposicion-de-efectivo-pago-final-423e6c72cc7281e58ffbe49cc3c7be11",
+          "_created": "2026-11-25T22:53:00.000Z",
+          "_edited": "2026-11-25T22:53:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 199.46,
+          "Name": "disposicion de efectivo (pago final)"
+        },
+        {
+          "_id": "423e6c72-cc72-8151-988a-eabe7ccc82e7",
+          "_url": "https://app.notion.com/p/compra-de-insumos-para-almacenar-423e6c72cc728151988aeabe7ccc82e7",
+          "_created": "2026-11-25T22:52:00.000Z",
+          "_edited": "2026-11-25T22:52:00.000Z",
+          "Category": "Personal",
+          "Date Created": {
+            "start": "2026-10-22",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 560.2,
+          "Name": "compra de insumos para almacenar"
+        },
+        {
+          "_id": "423e6c72-cc72-8171-a96a-f3c14eb0b8f5",
+          "_url": "https://app.notion.com/p/retiro-de-efectivo-pago-final-423e6c72cc728171a96af3c14eb0b8f5",
+          "_created": "2026-11-25T22:52:00.000Z",
+          "_edited": "2026-11-25T22:52:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-21",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 81.2,
+          "Name": "retiro de efectivo (pago final)"
+        },
+        {
+          "_id": "423e6c72-cc72-81a6-b3f8-f37892459305",
+          "_url": "https://app.notion.com/p/disposicion-de-efectivo-423e6c72cc7281a6b3f8f37892459305",
+          "_created": "2026-11-25T22:52:00.000Z",
+          "_edited": "2026-11-25T22:52:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-23",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 100,
+          "Name": "disposicion de efectivo"
+        },
+        {
+          "_id": "423e6c72-cc72-81dd-a6de-ebdfedf131a2",
+          "_url": "https://app.notion.com/p/disposicion-de-efectivo-423e6c72cc7281dda6deebdfedf131a2",
+          "_created": "2026-11-25T22:52:00.000Z",
+          "_edited": "2026-11-25T22:52:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-22",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 100,
+          "Name": "disposicion de efectivo"
+        },
+        {
+          "_id": "423e6c72-cc72-81f3-a5df-c92ddb7ed858",
+          "_url": "https://app.notion.com/p/disposicion-de-efectivo-pago-parcial-423e6c72cc7281f3a5dfc92ddb7ed858",
+          "_created": "2026-11-25T22:52:00.000Z",
+          "_edited": "2026-11-25T22:52:00.000Z",
+          "Category": "Cashout",
+          "Date Created": {
+            "start": "2026-10-24",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": 0.54,
+          "Name": "disposicion de efectivo (pago parcial)"
+        },
+        {
           "_id": "423e6c72-cc72-81be-a0ed-f7728f80fa0c",
           "_url": "https://app.notion.com/p/pasajes-423e6c72cc7281bea0edf7728f80fa0c",
           "_created": "2026-11-25T03:46:00.000Z",
@@ -3246,9 +3586,9 @@
         },
         {
           "_id": "411e6c72-cc72-816d-a0fa-db044d573328",
-          "_url": "https://app.notion.com/p/cambio-a-dolares-US-244-31-411e6c72cc72816da0fadb044d573328",
+          "_url": "https://app.notion.com/p/cambio-a-dolares-US-138-11-411e6c72cc72816da0fadb044d573328",
           "_created": "2026-11-07T13:33:00.000Z",
-          "_edited": "2026-11-14T18:42:00.000Z",
+          "_edited": "2026-11-25T22:53:00.000Z",
           "Category": "Cashout",
           "Date Created": {
             "start": "2026-11-07",
@@ -3258,8 +3598,8 @@
           "Resumen": [
             "351e6c72-cc72-801e-9a2f-e8105330a3da"
           ],
-          "Price": 831.25,
-          "Name": "cambio a dolares (US$ 244.31)"
+          "Price": 469.91,
+          "Name": "cambio a dolares (US$ 138.11)"
         },
         {
           "_id": "411e6c72-cc72-8156-b75d-f5670abc1b17",
@@ -23836,31 +24176,34 @@
         },
         {
           "_id": "409e6c72-cc72-818c-a828-ca462a017739",
-          "_url": "https://app.notion.com/p/items-dota-PL-y-Spectre-409e6c72cc72818ca828ca462a017739",
+          "_url": "https://app.notion.com/p/items-dota-PL-y-Spectre-saldo-pendiente-409e6c72cc72818ca828ca462a017739",
           "_created": "2026-10-30T11:44:00.000Z",
-          "_edited": "2026-10-30T11:44:00.000Z",
+          "_edited": "2026-11-25T23:17:00.000Z",
           "Date Created": {
             "start": "2026-10-30",
             "end": null
           },
-          "Price": 600,
+          "Price": 29.01,
           "Date Payed": null,
           "Status": "Pending",
-          "Name": "items dota PL y Spectre",
+          "Name": "items dota PL y Spectre (saldo pendiente)",
           "Category": "Enjoy"
         },
         {
           "_id": "408e6c72-cc72-8141-92f8-d8448c1733af",
           "_url": "https://app.notion.com/p/galletas-chapin-408e6c72cc72814192f8d8448c1733af",
           "_created": "2026-10-29T12:52:00.000Z",
-          "_edited": "2026-10-29T12:52:00.000Z",
+          "_edited": "2026-11-25T23:17:00.000Z",
           "Date Created": {
             "start": "2026-10-29",
             "end": null
           },
           "Price": 3.2,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-25",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "galletas chapin",
           "Category": "Enjoy"
         },
@@ -23868,14 +24211,17 @@
           "_id": "407e6c72-cc72-8152-b4a2-f7f353923393",
           "_url": "https://app.notion.com/p/starbucks-407e6c72cc728152b4a2f7f353923393",
           "_created": "2026-10-28T23:25:00.000Z",
-          "_edited": "2026-10-28T23:25:00.000Z",
+          "_edited": "2026-11-25T23:17:00.000Z",
           "Date Created": {
             "start": "2026-10-28",
             "end": null
           },
           "Price": 14.5,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-25",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "starbucks",
           "Category": "Enjoy"
         },
@@ -23883,44 +24229,53 @@
           "_id": "407e6c72-cc72-814c-b74b-e4b00bb42460",
           "_url": "https://app.notion.com/p/gastos-fijos-407e6c72cc72814cb74be4b00bb42460",
           "_created": "2026-10-28T21:33:00.000Z",
-          "_edited": "2026-10-28T21:33:00.000Z",
+          "_edited": "2026-11-25T23:17:00.000Z",
           "Date Created": {
             "start": "2026-10-28",
             "end": null
           },
           "Price": 85.2,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-25",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "gastos fijos",
           "Category": "Fixed"
         },
         {
           "_id": "407e6c72-cc72-81da-9c1a-ef1322fe93d3",
-          "_url": "https://app.notion.com/p/Win-407e6c72cc7281da9c1aef1322fe93d3",
+          "_url": "https://app.notion.com/p/Win-saldo-pendiente-407e6c72cc7281da9c1aef1322fe93d3",
           "_created": "2026-10-28T21:32:00.000Z",
-          "_edited": "2026-10-28T21:32:00.000Z",
+          "_edited": "2026-11-25T23:17:00.000Z",
           "Date Created": {
             "start": "2026-10-28",
             "end": null
           },
-          "Price": 109,
-          "Date Payed": null,
-          "Status": "Pending",
-          "Name": "Win",
+          "Price": 43.5,
+          "Date Payed": {
+            "start": "2026-11-25",
+            "end": null
+          },
+          "Status": "Payed",
+          "Name": "Win (saldo pendiente)",
           "Category": "Fixed"
         },
         {
           "_id": "405e6c72-cc72-8151-9351-f8d6c50503b8",
           "_url": "https://app.notion.com/p/entradas-parque-de-las-aguas-405e6c72cc7281519351f8d6c50503b8",
           "_created": "2026-10-26T11:22:00.000Z",
-          "_edited": "2026-10-26T11:22:00.000Z",
+          "_edited": "2026-11-25T22:53:00.000Z",
           "Date Created": {
             "start": "2026-10-26",
             "end": null
           },
           "Price": 40,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-25",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "entradas parque de las aguas",
           "Category": "Enjoy"
         },
@@ -23928,14 +24283,17 @@
           "_id": "404e6c72-cc72-81be-afa5-eff79bdd8adb",
           "_url": "https://app.notion.com/p/chicles-y-agua-404e6c72cc7281beafa5eff79bdd8adb",
           "_created": "2026-10-25T22:16:00.000Z",
-          "_edited": "2026-10-25T22:16:00.000Z",
+          "_edited": "2026-11-25T22:53:00.000Z",
           "Date Created": {
             "start": "2026-10-25",
             "end": null
           },
           "Price": 7.18,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-25",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "chicles y agua",
           "Category": "Enjoy"
         },
@@ -23943,44 +24301,53 @@
           "_id": "404e6c72-cc72-813f-978c-e255ffc92e92",
           "_url": "https://app.notion.com/p/bembos-404e6c72cc72813f978ce255ffc92e92",
           "_created": "2026-10-25T18:29:00.000Z",
-          "_edited": "2026-10-25T18:29:00.000Z",
+          "_edited": "2026-11-25T22:53:00.000Z",
           "Date Created": {
             "start": "2026-10-25",
             "end": null
           },
           "Price": 49.2,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-25",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "bembos",
           "Category": "Enjoy"
         },
         {
           "_id": "403e6c72-cc72-8158-92ee-ecb1c435da42",
-          "_url": "https://app.notion.com/p/disposicion-de-efectivo-403e6c72cc72815892eeecb1c435da42",
+          "_url": "https://app.notion.com/p/disposicion-de-efectivo-saldo-pendiente-403e6c72cc72815892eeecb1c435da42",
           "_created": "2026-10-24T21:54:00.000Z",
-          "_edited": "2026-10-24T21:54:00.000Z",
+          "_edited": "2026-11-25T22:53:00.000Z",
           "Date Created": {
             "start": "2026-10-24",
             "end": null
           },
-          "Price": 200,
-          "Date Payed": null,
-          "Status": "Pending",
-          "Name": "disposicion de efectivo",
+          "Price": 199.46,
+          "Date Payed": {
+            "start": "2026-11-25",
+            "end": null
+          },
+          "Status": "Payed",
+          "Name": "disposicion de efectivo (saldo pendiente)",
           "Category": "Cashout"
         },
         {
           "_id": "402e6c72-cc72-81fe-89ba-d9922299c4af",
           "_url": "https://app.notion.com/p/disposicion-de-efectivo-402e6c72cc7281fe89bad9922299c4af",
           "_created": "2026-10-23T19:45:00.000Z",
-          "_edited": "2026-10-23T19:45:00.000Z",
+          "_edited": "2026-11-25T22:52:00.000Z",
           "Date Created": {
             "start": "2026-10-23",
             "end": null
           },
           "Price": 100,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-25",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "disposicion de efectivo",
           "Category": "Cashout"
         },
@@ -23988,14 +24355,17 @@
           "_id": "402e6c72-cc72-8132-8fd2-d5072c4c5d86",
           "_url": "https://app.notion.com/p/disposicion-de-efectivo-402e6c72cc7281328fd2d5072c4c5d86",
           "_created": "2026-10-23T00:55:00.000Z",
-          "_edited": "2026-10-23T00:55:00.000Z",
+          "_edited": "2026-11-25T22:52:00.000Z",
           "Date Created": {
             "start": "2026-10-22",
             "end": null
           },
           "Price": 100,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-25",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "disposicion de efectivo",
           "Category": "Cashout"
         },
@@ -24003,14 +24373,17 @@
           "_id": "401e6c72-cc72-81c5-b234-d1976628f9cd",
           "_url": "https://app.notion.com/p/compra-de-insumos-para-almacenar-401e6c72cc7281c5b234d1976628f9cd",
           "_created": "2026-10-22T14:23:00.000Z",
-          "_edited": "2026-10-22T14:23:00.000Z",
+          "_edited": "2026-11-25T22:52:00.000Z",
           "Date Created": {
             "start": "2026-10-22",
             "end": null
           },
           "Price": 560.2,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-25",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "compra de insumos para almacenar",
           "Category": "Personal"
         },
@@ -24018,14 +24391,17 @@
           "_id": "400e6c72-cc72-8194-b724-e3434affc941",
           "_url": "https://app.notion.com/p/retiro-de-efectivo-saldo-pendiente-400e6c72cc728194b724e3434affc941",
           "_created": "2026-10-21T23:40:00.000Z",
-          "_edited": "2026-11-14T18:42:00.000Z",
+          "_edited": "2026-11-25T22:52:00.000Z",
           "Date Created": {
             "start": "2026-10-21",
             "end": null
           },
           "Price": 81.2,
-          "Date Payed": null,
-          "Status": "Pending",
+          "Date Payed": {
+            "start": "2026-11-25",
+            "end": null
+          },
+          "Status": "Payed",
           "Name": "retiro de efectivo (saldo pendiente)",
           "Category": "Cashout"
         },
