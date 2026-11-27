@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T02:27:53.698064+00:00",
+  "generated_at": "2026-11-27T11:06:58.680482+00:00",
   "page_id": "350e6c72cc7280f1bb45f461837ce321",
   "databases": [
     {
@@ -28,7 +28,7 @@
           "_created": "2026-04-29T15:34:00.000Z",
           "_edited": "2026-04-29T18:40:00.000Z",
           "SumGastosPapa": 27908.860000000008,
-          "Tot. Expenses": 367606.72000000085,
+          "Tot. Expenses": 367571.72000000085,
           "Total Papa": 0,
           "Tot. Savings": 14000,
           "SumIngresosPapa": 27908.86,
@@ -140,7 +140,7 @@
             "3c5e6c72-cc72-8122-a856-ff061a144c9f",
             "3cae6c72-cc72-812c-94ed-cfd35dbc0138"
           ],
-          "Cash": 194.41999999975,
+          "Cash": 229.41999999975,
           "Tot. Income": 367801.1400000006,
           "Total Gastos Papa": [
             "352e6c72-cc72-80bf-9b10-c0eb9cf4b5cb",
@@ -169,7 +169,7 @@
             "367e6c72-cc72-8056-b846-d03c687dbc76",
             "367e6c72-cc72-809c-95ce-e0836e8b96c5"
           ],
-          "Cash Total": 194.419999999742,
+          "Cash Total": 229.419999999742,
           "Name": "Resumen"
         }
       ]
@@ -2103,6 +2103,23 @@
         "Name": "title"
       },
       "rows": [
+        {
+          "_id": "425e6c72-cc72-8191-bda9-f0fd8cd5d0e9",
+          "_url": "https://app.notion.com/p/pollito-con-Franci-me-pag-la-mitad-425e6c72cc728191bda9f0fd8cd5d0e9",
+          "_created": "2026-11-27T03:18:00.000Z",
+          "_edited": "2026-11-27T03:18:00.000Z",
+          "Category": "Enjoy",
+          "Date Created": {
+            "start": "2026-11-26",
+            "end": null
+          },
+          "ExpensesSavings": [],
+          "Resumen": [
+            "351e6c72-cc72-801e-9a2f-e8105330a3da"
+          ],
+          "Price": -35,
+          "Name": "pollito con Franci (me pagó la mitad)"
+        },
         {
           "_id": "424e6c72-cc72-81bc-aae8-f835a9d03980",
           "_url": "https://app.notion.com/p/pollito-a-la-brasa-424e6c72cc7281bcaae8f835a9d03980",
@@ -23799,6 +23816,21 @@
         "Category": "select"
       },
       "rows": [
+        {
+          "_id": "425e6c72-cc72-814b-b753-e6d2971b5733",
+          "_url": "https://app.notion.com/p/pollito-425e6c72cc72814bb753e6d2971b5733",
+          "_created": "2026-11-27T03:18:00.000Z",
+          "_edited": "2026-11-27T03:18:00.000Z",
+          "Date Created": {
+            "start": "2026-11-26",
+            "end": null
+          },
+          "Price": 70,
+          "Date Payed": null,
+          "Status": "Pending",
+          "Name": "pollito",
+          "Category": "Enjoy"
+        },
         {
           "_id": "420e6c72-cc72-81fe-b8dd-ee02d7b69b7f",
           "_url": "https://app.notion.com/p/monster-420e6c72cc7281feb8ddee02d7b69b7f",
